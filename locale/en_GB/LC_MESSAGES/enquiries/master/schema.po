@@ -1,0 +1,181 @@
+# Translations template for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-09-28 16:47+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#. /description
+#: /home/david/projects/extensions-data-collector/output_dir/enquiries/master/extension.json:1
+msgid ""
+"The enquiries extension can be used to record questions raised during a "
+"contracting process, and the answers provided."
+msgstr ""
+"The enquiries extension can be used to record questions raised during a "
+"contracting process, and the answers provided."
+
+#. /name
+#. /definitions/Tender/properties/enquiries/title
+#: /home/david/projects/extensions-data-collector/output_dir/enquiries/master/extension.json:1
+#: /home/david/projects/extensions-data-collector/output_dir/enquiries/master/release-schema.json:1
+msgid "Enquiries"
+msgstr "Enquiries"
+
+#. /definitions/Tender/properties/enquiries/description
+#: /home/david/projects/extensions-data-collector/output_dir/enquiries/master/release-schema.json:1
+msgid "Questions sent to the procuring entity, and the answers given"
+msgstr "Questions sent to the procuring entity, and the answers given"
+
+#. /definitions/Enquiry/title
+#: /home/david/projects/extensions-data-collector/output_dir/enquiries/master/release-schema.json:1
+msgid "Enquiry"
+msgstr "Enquiry"
+
+#. /definitions/Enquiry/description
+#: /home/david/projects/extensions-data-collector/output_dir/enquiries/master/release-schema.json:1
+msgid ""
+"A question related to this contracting process, generally sent during the "
+"enquiry period."
+msgstr ""
+"A question related to this contracting process, generally sent during the "
+"enquiry period."
+
+#. /definitions/Enquiry/properties/id/title
+#: /home/david/projects/extensions-data-collector/output_dir/enquiries/master/release-schema.json:1
+msgid "Identifier"
+msgstr "Identifier"
+
+#. /definitions/Enquiry/properties/id/description
+#: /home/david/projects/extensions-data-collector/output_dir/enquiries/master/release-schema.json:1
+msgid "A unique identifier for the enquiry."
+msgstr "A unique identifier for the enquiry."
+
+#. /definitions/Enquiry/properties/date/title
+#: /home/david/projects/extensions-data-collector/output_dir/enquiries/master/release-schema.json:1
+msgid "Date"
+msgstr "Date"
+
+#. /definitions/Enquiry/properties/date/description
+#: /home/david/projects/extensions-data-collector/output_dir/enquiries/master/release-schema.json:1
+msgid "The date the enquiry was received or processed."
+msgstr "The date the enquiry was received or processed."
+
+#. /definitions/Enquiry/properties/author/title
+#: /home/david/projects/extensions-data-collector/output_dir/enquiries/master/release-schema.json:1
+msgid "Question author"
+msgstr "Question author"
+
+#. /definitions/Enquiry/properties/author/description
+#: /home/david/projects/extensions-data-collector/output_dir/enquiries/master/release-schema.json:1
+msgid ""
+"The identifier and name of the party asking this question. Questioners may "
+"be listed in the parties array with a role of 'enquirer'. Procurement "
+"policies vary on whether or not the identity of those asking questions "
+"should be disclosed, or at which stage this information may be disclosed. "
+"When the identity of the questioner cannot be disclosed leave the author "
+"section blank. Display systems should interpret this as an anonymous "
+"question."
+msgstr ""
+"The identifier and name of the party asking this question. Questioners may "
+"be listed in the parties array with a role of 'enquirer'. Procurement "
+"policies vary on whether or not the identity of those asking questions "
+"should be disclosed, or at which stage this information may be disclosed. "
+"When the identity of the questioner cannot be disclosed leave the author "
+"section blank. Display systems should interpret this as an anonymous "
+"question."
+
+#. /definitions/Enquiry/properties/title/title
+#: /home/david/projects/extensions-data-collector/output_dir/enquiries/master/release-schema.json:1
+msgid "Question title"
+msgstr "Question title"
+
+#. /definitions/Enquiry/properties/title/description
+#: /home/david/projects/extensions-data-collector/output_dir/enquiries/master/release-schema.json:1
+msgid "The subject line of the question."
+msgstr "The subject line of the question."
+
+#. /definitions/Enquiry/properties/description/title
+#: /home/david/projects/extensions-data-collector/output_dir/enquiries/master/release-schema.json:1
+msgid "Description"
+msgstr "Description"
+
+#. /definitions/Enquiry/properties/description/description
+#: /home/david/projects/extensions-data-collector/output_dir/enquiries/master/release-schema.json:1
+msgid "The body of the question."
+msgstr "The body of the question."
+
+#. /definitions/Enquiry/properties/answer/title
+#: /home/david/projects/extensions-data-collector/output_dir/enquiries/master/release-schema.json:1
+msgid "Answer"
+msgstr "Answer"
+
+#. /definitions/Enquiry/properties/answer/description
+#: /home/david/projects/extensions-data-collector/output_dir/enquiries/master/release-schema.json:1
+msgid "The answer to this question, when available."
+msgstr "The answer to this question, when available."
+
+#. /definitions/Enquiry/properties/dateAnswered/title
+#: /home/david/projects/extensions-data-collector/output_dir/enquiries/master/release-schema.json:1
+msgid "Date answered"
+msgstr "Date answered"
+
+#. /definitions/Enquiry/properties/dateAnswered/description
+#: /home/david/projects/extensions-data-collector/output_dir/enquiries/master/release-schema.json:1
+msgid "The date the answer to the question was provided."
+msgstr "The date the answer to the question was provided."
+
+#. /definitions/Enquiry/properties/relatedItem/title
+#: /home/david/projects/extensions-data-collector/output_dir/enquiries/master/release-schema.json:1
+msgid "Related item"
+msgstr "Related item"
+
+#. /definitions/Enquiry/properties/relatedItem/description
+#: /home/david/projects/extensions-data-collector/output_dir/enquiries/master/release-schema.json:1
+msgid ""
+"If this question relates to a specific line-item, this field contains the "
+"line-item identifier."
+msgstr ""
+"If this question relates to a specific line-item, this field contains the "
+"line-item identifier."
+
+#. /definitions/Enquiry/properties/relatedLot/title
+#: /home/david/projects/extensions-data-collector/output_dir/enquiries/master/release-schema.json:1
+msgid "Related lot"
+msgstr "Related lot"
+
+#. /definitions/Enquiry/properties/relatedLot/description
+#: /home/david/projects/extensions-data-collector/output_dir/enquiries/master/release-schema.json:1
+msgid ""
+"Where lots are used, if this question relates to a specific lot, this field "
+"contains the lot identifier."
+msgstr ""
+"Where lots are used, if this question relates to a specific lot, this field "
+"contains the lot identifier."
+
+#. /definitions/Enquiry/properties/threadID/title
+#: /home/david/projects/extensions-data-collector/output_dir/enquiries/master/release-schema.json:1
+msgid "Thread identifier"
+msgstr "Thread identifier"
+
+#. /definitions/Enquiry/properties/threadID/description
+#: /home/david/projects/extensions-data-collector/output_dir/enquiries/master/release-schema.json:1
+msgid ""
+"If this question and answer forms part of a discussion thread (e.g. the "
+"question is a follow up to a previous answer) an optional thread identifier "
+"can be used to associate together multiple enquiries."
+msgstr ""
+"If this question and answer forms part of a discussion thread (e.g. the "
+"question is a follow up to a previous answer) an optional thread identifier "
+"can be used to associate together multiple enquiries."

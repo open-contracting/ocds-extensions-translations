@@ -1,0 +1,75 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)
+# This file is distributed under the same license as the OCDS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OCDS 1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-28 16:46+0100\n"
+"PO-Revision-Date: 2018-09-19 09:35+0000\n"
+"Language-Team: Spanish (Spain) (https://www.transifex.com/OpenDataServices/teams/59224/es_ES/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../metrics/v1.1/README.md:0
+msgid "Metrics Extension"
+msgstr ""
+
+#: ../metrics/v1.1/README.md:4
+msgid ""
+"The metrics extension provides a common building block for reporting "
+"structured performance information on contracts."
+msgstr ""
+
+#: ../metrics/v1.1/README.md:6
+msgid ""
+"Metrics are structured like an [OLAP data "
+"cube](https://en.wikipedia.org/wiki/OLAP_cube) with each instance of "
+"```Metric``` representing a single **observation**, categorised by a number "
+"of **dimensions**."
+msgstr ""
+
+#: ../metrics/v1.1/README.md:0
+msgid "Use with requirements"
+msgstr ""
+
+#: ../metrics/v1.1/README.md:50
+msgid ""
+"Metrics can be used along with the **requirements extension** which will add"
+" a 'relatedRequirementID' property to metrics."
+msgstr ""
+
+#: ../metrics/v1.1/README.md:52
+msgid ""
+"With the requirements extension, bids, awards and contracts can include a "
+"```requirementResponse``` indicating the values against each metric that a "
+"supplier intends to meet."
+msgstr ""
+
+#: ../metrics/v1.1/README.md:54
+msgid ""
+"This can allow a degree of comparison between performance anticipated at "
+"bid, award, contract and implementation phases."
+msgstr ""
+
+#: ../metrics/v1.1/README.md:0
+msgid "To Do"
+msgstr ""
+
+#: ../metrics/v1.1/README.md:58
+msgid "[ ] Check oneOf schema syntax for value **or** quantity"
+msgstr ""
+
+#: ../metrics/v1.1/README.md:59
+msgid "[ ] Add relatedRequirementID to requirements extension"
+msgstr ""
+
+#: ../metrics/v1.1/README.md:60
+msgid "[ ] Validate schema updates"
+msgstr ""

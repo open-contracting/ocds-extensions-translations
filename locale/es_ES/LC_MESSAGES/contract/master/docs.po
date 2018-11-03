@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)
+# This file is distributed under the same license as the OCDS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# David Raznick <david.raznick@opendataservices.coop>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OCDS 1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-28 16:46+0100\n"
+"PO-Revision-Date: 2018-09-19 09:34+0000\n"
+"Last-Translator: David Raznick <david.raznick@opendataservices.coop>, 2018\n"
+"Language-Team: Spanish (Spain) (https://www.transifex.com/OpenDataServices/teams/59224/es_ES/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../contract/master/README.md:0
+msgid "Contract level buyer information"
+msgstr ""
+
+#: ../contract/master/README.md:0
+msgid "Background"
+msgstr "Antecedentes"
+
+#: ../contract/master/README.md:5
+msgid ""
+"The core OCDS schema provides space for a single `buyer` to be described for"
+" each contracting process. The buyer is defined as the organizations whose "
+"funds are directly used for the purchase of the goods, works or services "
+"described in the contract."
+msgstr ""
+
+#: ../contract/master/README.md:7
+msgid ""
+"However, some forms of contracting process, such as framework agreements, "
+"may result in multiple contracts, with each contract signed by a different "
+"buyer."
+msgstr ""
+
+#: ../contract/master/README.md:9
+msgid ""
+"This extension provides a way to provide `buyer` information on a per "
+"contract basis."
+msgstr ""
+
+#: ../contract/master/README.md:0
+msgid "Extension fields"
+msgstr "Campos de extensión"
+
+#: ../contract/master/README.md:13
+msgid ""
+"This extension adds a `buyer` property to the `contract` section of OCDS."
+msgstr ""
+
+#: ../contract/master/README.md:15
+msgid ""
+"`contract.buyer` is an `OrganizationReference` consisting of the following "
+"fields:"
+msgstr ""
+
+#: ../contract/master/README.md:17
+msgid ""
+"`name` - The name of the party being referenced. This must match the name of"
+" an entry in the `parties` section."
+msgstr ""
+
+#: ../contract/master/README.md:18
+msgid ""
+"`id` - The id of the party being referenced. This must match the id of an "
+"entry in the `parties` section."
+msgstr ""
+
+#: ../contract/master/README.md:0
+msgid "Dependencies"
+msgstr ""
+
+#: ../contract/master/README.md:22
+msgid ""
+"This extension is only valid from OCDS Version 1.1, as it makes use of the "
+"updated organization reference approach."
+msgstr ""
+
+#: ../contract/master/README.md:0
+msgid "Example"
+msgstr "Ejemplo"
+
+#: ../contract/master/README.md:0
+msgid "Issues"
+msgstr "Issues"
+
+#: ../contract/master/README.md:47
+msgid ""
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
+msgstr ""

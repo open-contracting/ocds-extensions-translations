@@ -1,0 +1,43 @@
+# Translations template for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-09-28 16:51+0100\n"
+"PO-Revision-Date: 2018-09-19 09:37+0000\n"
+"Language-Team: Spanish (Spain) (https://www.transifex.com/OpenDataServices/teams/59224/es_ES/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. /name
+#: /home/david/projects/extensions-data-collector/output_dir/transaction_milestones/master/extension.json:1
+msgid "Transactions - Related Milestones"
+msgstr ""
+
+#. /description
+#: /home/david/projects/extensions-data-collector/output_dir/transaction_milestones/master/extension.json:1
+msgid ""
+"Adds a relatedImplementationMilestone property to the transactions object so"
+" that disbursements can be linked with their associated milestone."
+msgstr ""
+
+#. /definitions/Transaction/properties/relatedImplementationMilestone/title
+#: /home/david/projects/extensions-data-collector/output_dir/transaction_milestones/master/release-schema.json:1
+msgid "Related implementation milestone"
+msgstr ""
+
+#. /definitions/Transaction/properties/relatedImplementationMilestone/description
+#: /home/david/projects/extensions-data-collector/output_dir/transaction_milestones/master/release-schema.json:1
+msgid ""
+"A link to the milestone in the implementation section of OCDS to which this "
+"transaction relates."
+msgstr ""

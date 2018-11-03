@@ -1,0 +1,119 @@
+# Translations template for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-09-28 16:51+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: /home/david/projects/extensions-data-collector/output_dir/tariffs/master/codelists/+documentType.csv
+#: /home/david/projects/extensions-data-collector/output_dir/tariffs/master/codelists/chargePaidBy.csv
+msgid "Code"
+msgstr "Code"
+
+#: /home/david/projects/extensions-data-collector/output_dir/tariffs/master/codelists/+documentType.csv
+#: /home/david/projects/extensions-data-collector/output_dir/tariffs/master/codelists/chargePaidBy.csv
+msgid "Title"
+msgstr "Title"
+
+#: /home/david/projects/extensions-data-collector/output_dir/tariffs/master/codelists/+documentType.csv
+#: /home/david/projects/extensions-data-collector/output_dir/tariffs/master/codelists/chargePaidBy.csv
+msgid "Description"
+msgstr "Description"
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/tariffs/master/codelists/+documentType.csv:1
+msgid "Tariffs"
+msgstr "Tariffs"
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/tariffs/master/codelists/+documentType.csv:1
+msgid "For providing tariff and pricing schedules."
+msgstr "For providing tariff and pricing schedules."
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/tariffs/master/codelists/+documentType.csv:2
+msgid "Tariff Method"
+msgstr "Tariff Method"
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/tariffs/master/codelists/+documentType.csv:2
+msgid ""
+"For summarizing the method by which tariffs are set and linking to detailed "
+"documentation of the methods for setting tariffs. This may include written "
+"documentation and spreadsheets providing the models used to calculate "
+"tariffs."
+msgstr ""
+"For summarizing the method by which tariffs are set and linking to detailed "
+"documentation of the methods for setting tariffs. This may include written "
+"documentation and spreadsheets providing the models used to calculate "
+"tariffs."
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/tariffs/master/codelists/+documentType.csv:3
+msgid "Tariff Review"
+msgstr "Tariff Review"
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/tariffs/master/codelists/+documentType.csv:3
+msgid ""
+"For summarizing the arrangements for the review and regulation of tariffs "
+"and linking to detailed documentation that covers how tariffs are regulated."
+" This is important to explain to users why they are paying what they are "
+"paying and the scope for changes to payment structures."
+msgstr ""
+"For summarizing the arrangements for the review and regulation of tariffs "
+"and linking to detailed documentation that covers how tariffs are regulated."
+" This is important to explain to users why they are paying what they are "
+"paying and the scope for changes to payment structures."
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/tariffs/master/codelists/+documentType.csv:4
+msgid "Tariff Illustration"
+msgstr "Tariff Illustration"
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/tariffs/master/codelists/+documentType.csv:4
+msgid ""
+"For linking to graphs and reports on the change over time in tariff prices. "
+"Use the relevant image media type when linking to PNG or JPEG or GIF graphs "
+"to allow applications to directly display this content."
+msgstr ""
+"For linking to graphs and reports on the change over time in tariff prices. "
+"Use the relevant image media type when linking to PNG or JPEG or GIF graphs "
+"to allow applications to directly display this content."
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/tariffs/master/codelists/chargePaidBy.csv:1
+msgid "Government"
+msgstr "Government"
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/tariffs/master/codelists/chargePaidBy.csv:1
+msgid "The charge is paid by the government"
+msgstr "The charge is paid by the government"
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/tariffs/master/codelists/chargePaidBy.csv:2
+msgid "User"
+msgstr "User"
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/tariffs/master/codelists/chargePaidBy.csv:2
+msgid ""
+"The charge is paid by businesses or citizens using the facilities provided "
+"by the contract"
+msgstr ""
+"The charge is paid by businesses or citizens using the facilities provided "
+"by the contract"

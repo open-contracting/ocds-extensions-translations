@@ -1,0 +1,122 @@
+# Translations template for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+# Translators:
+# David Raznick <david.raznick@opendataservices.coop>, 2018
+# Amy Guy <amy.guy@opendataservices.coop>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-09-28 16:48+0100\n"
+"PO-Revision-Date: 2018-09-19 09:35+0000\n"
+"Last-Translator: Amy Guy <amy.guy@opendataservices.coop>, 2018\n"
+"Language-Team: Spanish (Spain) (https://www.transifex.com/OpenDataServices/teams/59224/es_ES/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: /home/david/projects/extensions-data-collector/output_dir/location/v1.1/codelists/locationGazeteers.csv
+msgid "Category"
+msgstr "Categoría"
+
+#: /home/david/projects/extensions-data-collector/output_dir/location/v1.1/codelists/locationGazeteers.csv
+msgid "Code"
+msgstr "Hola!"
+
+#: /home/david/projects/extensions-data-collector/output_dir/location/v1.1/codelists/locationGazeteers.csv
+msgid "Title"
+msgstr "título"
+
+#: /home/david/projects/extensions-data-collector/output_dir/location/v1.1/codelists/locationGazeteers.csv
+msgid "Description"
+msgstr "Descripción"
+
+#: /home/david/projects/extensions-data-collector/output_dir/location/v1.1/codelists/locationGazeteers.csv
+msgid "Source"
+msgstr ""
+
+#: /home/david/projects/extensions-data-collector/output_dir/location/v1.1/codelists/locationGazeteers.csv
+msgid "URI_Pattern"
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/location/v1.1/codelists/locationGazeteers.csv:1
+msgid "EU Nomenclature of Territorial Units for Statistics"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/location/v1.1/codelists/locationGazeteers.csv:1
+msgid ""
+"The Nomenclature of Territorial Units for Statistics (NUTS) was established "
+"by Eurostat in order to provide a single uniform breakdown of territorial "
+"units for the production of regional statistics for the European Union."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/location/v1.1/codelists/locationGazeteers.csv:2
+msgid "ISO Country Codes (3166-1 alpha-2)"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/location/v1.1/codelists/locationGazeteers.csv:2
+msgid "ISO 2-Digit Country Codes"
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/location/v1.1/codelists/locationGazeteers.csv:3
+msgid "GeoNames"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/location/v1.1/codelists/locationGazeteers.csv:3
+msgid ""
+"GeoNames provides numerical identifiers for many points of interest around "
+"the world, including administrative divisions, poulated centres and other "
+"locations, embedded within a structured tree of geographic relations."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/location/v1.1/codelists/locationGazeteers.csv:4
+msgid "Open Street Map Node"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/location/v1.1/codelists/locationGazeteers.csv:4
+msgid ""
+"Open Street Map Nodes consist of a single point in space defined by a "
+"latitude, longitude and node ID. Nodes may have tags to indicate the "
+"particular geographic feature they represent."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/location/v1.1/codelists/locationGazeteers.csv:5
+msgid "Open Street Map Relation"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/location/v1.1/codelists/locationGazeteers.csv:5
+msgid ""
+"Relations are used to model logical (and usually local) or geographic "
+"relationships between objects. In practice, boundaries of geographic areas "
+"are available as Relations in Open Street Map."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/location/v1.1/codelists/locationGazeteers.csv:6
+msgid "Open Street Map Way"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/location/v1.1/codelists/locationGazeteers.csv:6
+msgid ""
+"An Open Street Map Way is an ordered list of Open Street Map nodes. May be "
+"used to describe fragments of roads or local boundaries and bounding boxes."
+msgstr ""

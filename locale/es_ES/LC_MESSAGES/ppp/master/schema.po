@@ -1,0 +1,302 @@
+# Translations template for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-09-28 16:50+0100\n"
+"PO-Revision-Date: 2018-09-19 09:36+0000\n"
+"Language-Team: Spanish (Spain) (https://www.transifex.com/OpenDataServices/teams/59224/es_ES/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. /name
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/extension.json:1
+msgid "OCDS for PPPs Extension"
+msgstr ""
+
+#. /description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/extension.json:1
+msgid ""
+"Makes changes required by the OCDS for PPPs profile, including deleting core"
+" fields. Evaluation indicators, finance summary and project details may be "
+"moved into new extensions."
+msgstr ""
+
+#. /properties/initiationType/description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/release-schema.json:1
+msgid ""
+"String specifying the type of initiation process used for this contract, "
+"taken from the initiationType codelist. In OCDS for PPPs, only ppp is "
+"supported."
+msgstr ""
+
+#. /properties/publicAuthority/title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/release-schema.json:1
+msgid "Public authority"
+msgstr ""
+
+#. /properties/publicAuthority/description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/release-schema.json:1
+msgid ""
+"The public authority is the unit/body/department within a government that is"
+" tendering and contracting the project. The public counterpart in the PPP "
+"contract."
+msgstr ""
+
+#. /definitions/Planning/properties/project/properties/sector/title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/release-schema.json:1
+msgid "Project sector"
+msgstr ""
+
+#. /definitions/Planning/properties/project/properties/sector/description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/release-schema.json:1
+msgid ""
+"A high-level categorization of the main sector this procurement process "
+"relates to. Use of [UN COFOG "
+"codes](http://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=4&Lg=1), with "
+"'COFOG' as the classification scheme, and the numerical COFOG code is "
+"recommended for the primary sector classification."
+msgstr ""
+
+#. /definitions/Planning/properties/project/properties/additionalClassifications/title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/release-schema.json:1
+msgid "Additional sector classifications"
+msgstr ""
+
+#. /definitions/Planning/properties/project/properties/additionalClassifications/description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/release-schema.json:1
+msgid ""
+"Additional project classification, by other sector classifications, or using"
+" other classification schemes (e.g. against a strategic framework)."
+msgstr ""
+
+#. /definitions/Planning/properties/project/properties/locations/title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/release-schema.json:1
+msgid "Project location"
+msgstr ""
+
+#. /definitions/Planning/properties/project/properties/locations/description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/release-schema.json:1
+msgid "Information about the location where a project is taking place."
+msgstr ""
+
+#. /definitions/Award/properties/preferredBidders/title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/release-schema.json:1
+msgid "Preferred bidders"
+msgstr ""
+
+#. /definitions/Award/properties/preferredBidders/description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/release-schema.json:1
+msgid ""
+"The bidder or bidders awarded this award, the preferred bidder(s) will "
+"become the counter party or parties of the procuring authority in the PPP "
+"contract when the contract is signed."
+msgstr ""
+
+#. /definitions/Award/properties/evaluationIndicators/title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/release-schema.json:1
+msgid "Evaluation of PPP option"
+msgstr ""
+
+#. /definitions/Award/properties/evaluationIndicators/description
+#. /definitions/EvaluationIndicators/description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/release-schema.json:1
+msgid ""
+"Key indicators that describe how the PPP option has been evaluated by "
+"government."
+msgstr ""
+
+#. /definitions/Contract/properties/financeSummary/title
+#. /definitions/FinanceSummary/title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/release-schema.json:1
+msgid "Finance summary"
+msgstr ""
+
+#. /definitions/Contract/properties/financeSummary/description
+#. /definitions/FinanceSummary/description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/release-schema.json:1
+msgid "Key indicators that describe the financial model of the PPP."
+msgstr ""
+
+#. /definitions/EvaluationIndicators/title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/release-schema.json:1
+msgid "Evaluation indicators"
+msgstr ""
+
+#. /definitions/EvaluationIndicators/properties/riskPremium/title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/release-schema.json:1
+msgid "Risk premium"
+msgstr ""
+
+#. /definitions/EvaluationIndicators/properties/riskPremium/description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/release-schema.json:1
+msgid ""
+"The risk premium used by government when evaluating the PPP option expressed"
+" as a decimal fraction (e.g. 3.2% = 0.032). An explanation of the risk "
+"premium used should be provided in the riskPremiumDetails field."
+msgstr ""
+
+#. /definitions/EvaluationIndicators/properties/riskPremiumDetails/title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/release-schema.json:1
+msgid "Risk premium details"
+msgstr ""
+
+#. /definitions/EvaluationIndicators/properties/riskPremiumDetails/description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/release-schema.json:1
+msgid ""
+"Further details on the risk premium used including an explanation of why it "
+"was used."
+msgstr ""
+
+#. /definitions/EvaluationIndicators/properties/discountRate/title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/release-schema.json:1
+msgid "Discount rate"
+msgstr ""
+
+#. /definitions/EvaluationIndicators/properties/discountRate/description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/release-schema.json:1
+msgid ""
+"The discount rate used by government when evaluating the PPP option "
+"expressed as a decimal fraction (e.g. 3.2% = 0.032). Further details can be "
+"provided in the discountRateDetails field."
+msgstr ""
+
+#. /definitions/EvaluationIndicators/properties/discountRateDetails/title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/release-schema.json:1
+msgid "Discount rate details"
+msgstr ""
+
+#. /definitions/EvaluationIndicators/properties/discountRateDetails/description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/release-schema.json:1
+msgid "Further details on the discount rate used."
+msgstr ""
+
+#. /definitions/EvaluationIndicators/properties/netPresentValue/title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/release-schema.json:1
+msgid "Net present value"
+msgstr ""
+
+#. /definitions/EvaluationIndicators/properties/netPresentValue/description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/release-schema.json:1
+msgid ""
+"The discounted value of an investment's cash inflows minus the discounted "
+"value of its cash outflows. Further details can be provided in the "
+"netPresentValueRateDetails field."
+msgstr ""
+
+#. /definitions/EvaluationIndicators/properties/netPresentValueDetails/title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/release-schema.json:1
+msgid "Net present value details"
+msgstr ""
+
+#. /definitions/EvaluationIndicators/properties/netPresentValueDetails/description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/release-schema.json:1
+msgid "Further details on the calculation of the net present value."
+msgstr ""
+
+#. /definitions/FinanceSummary/properties/debtEquityRatio/title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/release-schema.json:1
+msgid "Debt equity ratio"
+msgstr ""
+
+#. /definitions/FinanceSummary/properties/debtEquityRatio/description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/release-schema.json:1
+msgid ""
+"The debt-equity ratio of the project, expressed as a decimal value. The "
+"World Bank PPPIRC defines the debt equity ratio as 'long term debt (divided "
+"by) the shareholder equity of the project company'. Also known as 'leverage'"
+" or 'gearing'. Further details on the debt equity ratio can be provided in "
+"the debtEquityRatioDetails field."
+msgstr ""
+
+#. /definitions/FinanceSummary/properties/debtEquityRatioDetails/title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/release-schema.json:1
+msgid "Debt equity ratio details"
+msgstr ""
+
+#. /definitions/FinanceSummary/properties/debtEquityRatioDetails/description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/release-schema.json:1
+msgid "Further details on the calculation of the debt equity ratio."
+msgstr ""
+
+#. /definitions/FinanceSummary/properties/shareCapital/title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/release-schema.json:1
+msgid "Share capital"
+msgstr ""
+
+#. /definitions/FinanceSummary/properties/shareCapital/description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/release-schema.json:1
+msgid ""
+"The value of the capital in the project that comes from the issue of shares."
+" Further details on the share capital can be provided in the "
+"shareCapitalDetails field."
+msgstr ""
+
+#. /definitions/FinanceSummary/properties/shareCapitalDetails/title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/release-schema.json:1
+msgid "Share capital details"
+msgstr ""
+
+#. /definitions/FinanceSummary/properties/shareCapitalDetails/description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/release-schema.json:1
+msgid "Further details on the calculation of the share capital."
+msgstr ""
+
+#. /definitions/FinanceSummary/properties/subsidyRatio/title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/release-schema.json:1
+msgid "Subsidy ratio"
+msgstr ""
+
+#. /definitions/FinanceSummary/properties/subsidyRatio/description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/release-schema.json:1
+msgid ""
+"Subsidy as a proportion of project value, expressed as a decimal fraction "
+"(e.g. 3.2% = 0.032). Further details of the subsidy ratio can be provided in"
+" the subsidyRatioDetails field."
+msgstr ""
+
+#. /definitions/FinanceSummary/properties/subsidyRatioDetails/title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/release-schema.json:1
+msgid "Subsidy ratio details"
+msgstr ""
+
+#. /definitions/FinanceSummary/properties/subsidyRatioDetails/description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/release-schema.json:1
+msgid "Further details on the calculation of the subsidy ratio."
+msgstr ""
+
+#. /definitions/FinanceSummary/properties/projectIRR/title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/release-schema.json:1
+msgid "Project Internal Rate of Return"
+msgstr ""
+
+#. /definitions/FinanceSummary/properties/projectIRR/description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/release-schema.json:1
+msgid ""
+"The internal rate of return of the project, expressed as a decimal fraction "
+"(e.g. 3.2% = 0.032). The APMG PPP Certification Program defines IRR as 'The "
+"rate of return of an investment calculated from its projected cash flows. "
+"The internal rate of return (IRR) is also the discount rate that equates the"
+" present value of a future stream of cash flows to the initial investment'. "
+"Further details on the project IRR can be provided in the projectIRRDetails "
+"field."
+msgstr ""
+
+#. /definitions/FinanceSummary/properties/projectIRRDetails/title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/release-schema.json:1
+msgid "Project IRR details"
+msgstr ""
+
+#. /definitions/FinanceSummary/properties/projectIRRDetails/description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/release-schema.json:1
+msgid "Further details on the calculation of the project IRR."
+msgstr ""

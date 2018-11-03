@@ -1,0 +1,193 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)
+# This file is distributed under the same license as the OCDS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# David Raznick <david.raznick@opendataservices.coop>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OCDS 1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-28 16:46+0100\n"
+"PO-Revision-Date: 2018-09-19 09:36+0000\n"
+"Last-Translator: David Raznick <david.raznick@opendataservices.coop>, 2018\n"
+"Language-Team: Spanish (Spain) (https://www.transifex.com/OpenDataServices/teams/59224/es_ES/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../requirements/master/README.md:0
+msgid "Requirements"
+msgstr ""
+
+#: ../requirements/master/README.md:3
+msgid ""
+"The requirements extension is based on the EU's [Core Criterion and Core "
+"Evidence Vocabulary (CCCEV)](https://joinup.ec.europa.eu/node/153001) model "
+"for communicating criteria and responses."
+msgstr ""
+
+#: ../requirements/master/README.md:5
+msgid ""
+"The extension is designed to allow procuring entities or buyers to express "
+"criteria, relating to either items being procured or bidders themselves, as "
+"structured data."
+msgstr ""
+
+#: ../requirements/master/README.md:7
+msgid ""
+"Criteria can be responded to either by bidders, buyers or procuring "
+"entities, for example a buyer may respond with information about an item "
+"whilst a procuring entity may respond with information on whether a bidder "
+"is disbarred."
+msgstr ""
+
+#: ../requirements/master/README.md:0
+msgid "CCCEV Model"
+msgstr ""
+
+#: ../requirements/master/README.md:11
+msgid "The CCCEV model defines the following concepts:"
+msgstr ""
+
+#: ../requirements/master/README.md:13
+msgid ""
+"**Criterion** A criterion represents a rule or principle used to judge, "
+"evaluate or assess either an item or bidder. A criterion is satisfied when "
+"one or more of it's requirement groups are satisfied."
+msgstr ""
+
+#: ../requirements/master/README.md:16
+msgid ""
+"**Requirement Group** A requirement group is a collection of one or more "
+"individual requirements. A requirement group is satisfied when all of it's "
+"requirements are satisfied."
+msgstr ""
+
+#: ../requirements/master/README.md:19
+msgid ""
+"**Requirement** An atomic requirement which can be expressed as either an "
+"expected value or a range of accepted values."
+msgstr ""
+
+#: ../requirements/master/README.md:22
+msgid ""
+"**Requirement Response** A requirements response is an assertion that "
+"responds to a specific requirement."
+msgstr ""
+
+#: ../requirements/master/README.md:25
+msgid ""
+"Therefore the CCCEV model can be used to express both **AND** conditions, "
+"where a group of requirements must be met to satisfy a criterion, and **OR**"
+" conditions, where there are alternative requirements that can satisfy a "
+"criterion."
+msgstr ""
+
+#: ../requirements/master/README.md:0
+msgid "Schema"
+msgstr "Esquema"
+
+#: ../requirements/master/README.md:29
+msgid ""
+"The extension introduces a new building block for each of the concepts "
+"described above, these are added to the following locations in the OCDS "
+"schema:"
+msgstr ""
+
+#: ../requirements/master/README.md:31
+msgid "*tender.criteria* - an array of criteria"
+msgstr ""
+
+#: ../requirements/master/README.md:32
+msgid "*tender.criteria.requirementGroups* - an array of requirement groups"
+msgstr ""
+
+#: ../requirements/master/README.md:33
+msgid ""
+"*tender.criteria.requirementGroups.requirements* - an array of requirements"
+msgstr ""
+
+#: ../requirements/master/README.md:34
+msgid ""
+"*bids.requirementResponses* - an array of requirement responses (Note: "
+"depends on *bid* extension)"
+msgstr ""
+
+#: ../requirements/master/README.md:35
+msgid "*awards.requirementResponses* - an array of requirements responses"
+msgstr ""
+
+#: ../requirements/master/README.md:36
+msgid "*contracts.requirementResponses* - an array or requirement responses"
+msgstr ""
+
+#: ../requirements/master/README.md:0
+msgid "Background"
+msgstr "Antecedentes"
+
+#: ../requirements/master/README.md:40
+msgid ""
+"There are number of scenarios in which structured information on "
+"requirements is necessary. See discussion in GitHub issue "
+"[#223](https://github.com/open-contracting/standard/issues/223)."
+msgstr ""
+
+#: ../requirements/master/README.md:0
+msgid "Example usage"
+msgstr ""
+
+#: ../requirements/master/README.md:44
+msgid ""
+"Below is an example of requirements specified against both an item and a "
+"bidder which demonstrates both **AND** and **OR** conditions:"
+msgstr ""
+
+#: ../requirements/master/README.md:150
+msgid "Below is an example of responses which meet the above requirements:"
+msgstr ""
+
+#: ../requirements/master/README.md:0
+msgid "Further extensions"
+msgstr ""
+
+#: ../requirements/master/README.md:182
+msgid ""
+"The CCCEV model also defines a number of additional concepts including "
+"**formalFrameworks**, used to specify the legal instruments from criteria "
+"are derived, **evidence**, used both to specify and provide the evidence "
+"required to support a requirement response, and additional properties of "
+"*requirements* such as **certificationLevel** which are not currently "
+"implemented in this extension."
+msgstr ""
+
+#: ../requirements/master/README.md:0
+msgid "Outstanding issues"
+msgstr ""
+
+#: ../requirements/master/README.md:186
+msgid ""
+"The extension does not describe formulae for calculated computed values."
+msgstr ""
+
+#: ../requirements/master/README.md:188
+msgid ""
+"The extension does not describe whether data should be published openly or "
+"not."
+msgstr ""
+
+#: ../requirements/master/README.md:0
+msgid "Issues"
+msgstr "Issues"
+
+#: ../requirements/master/README.md:192
+msgid ""
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
+msgstr ""

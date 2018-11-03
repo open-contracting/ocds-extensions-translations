@@ -1,0 +1,1047 @@
+# Translations template for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+# Translators:
+# David Raznick <david.raznick@opendataservices.coop>, 2018
+# Amy Guy <amy.guy@opendataservices.coop>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-09-28 16:50+0100\n"
+"PO-Revision-Date: 2018-09-19 09:36+0000\n"
+"Last-Translator: Amy Guy <amy.guy@opendataservices.coop>, 2018\n"
+"Language-Team: Spanish (Spain) (https://www.transifex.com/OpenDataServices/teams/59224/es_ES/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+milestoneType.csv
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+partyRole.csv
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+releaseTag.csv
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/-partyRole.csv
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/initiationType.csv
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/metricID.csv
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/milestoneCode.csv
+msgid "Code"
+msgstr "Hola!"
+
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+milestoneType.csv
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+partyRole.csv
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+releaseTag.csv
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/initiationType.csv
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/metricID.csv
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/milestoneCode.csv
+msgid "Title"
+msgstr "título"
+
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+milestoneType.csv
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+partyRole.csv
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+releaseTag.csv
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/initiationType.csv
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/metricID.csv
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/milestoneCode.csv
+msgid "Description"
+msgstr "Descripción"
+
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+milestoneType.csv
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+partyRole.csv
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/milestoneCode.csv
+msgid "Source"
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+milestoneType.csv:1
+msgid "Procurement"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+milestoneType.csv:1
+msgid ""
+"Events taking place during the procurement which are not captured by fields "
+"in core OCDS, such as additional enquiry periods or draft tender submissions"
+" in a competitive dialogue process"
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+milestoneType.csv:2
+msgid "Contract close"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+milestoneType.csv:2
+msgid "Events such as commercial and financial close"
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+partyRole.csv:1
+msgid "Public authority"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+partyRole.csv:1
+msgid ""
+"The unit/body/department within a government that is tendering and "
+"contracting the project. The public counterpart in the PPP contract."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+partyRole.csv:2
+msgid "Bidder"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+partyRole.csv:2
+msgid ""
+"The company or a group of companies, such as a consortium, that submits a "
+"bid in response to a RFP. A bidder could be a single party or a consortium "
+"of parties, each responsible for a specific element, such as constructing "
+"the infrastructure, supplying the equipment, or operating the business."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+partyRole.csv:3
+msgid "Qualified bidder"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+partyRole.csv:3
+msgid ""
+"Those parties invited to submit a proposal in response to a Request for "
+"Proposal (RFP) for a project in which the government only allows a limited "
+"number of pre-qualified bidders to proceed to the RFP phase."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+partyRole.csv:4
+msgid "Preferred bidder"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+partyRole.csv:4
+msgid ""
+"The bidder identified at the end of the tender evaluation process as being "
+"the government’s preferred partner to enter into (or enter into final "
+"negotiations for) a PPP contract. The preferred bidder is awarded the "
+"contract and called to contract signature."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+partyRole.csv:5
+msgid "Private party"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+partyRole.csv:5
+msgid ""
+"The counter party of the procuring authority in the PPP contract. A private "
+"entity which has been granted the contract to construct and operate a "
+"government asset, and which is usually created under the form of a Special "
+"Purpose Vehicle or SPV."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+partyRole.csv:6
+msgid "Lead bank"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+partyRole.csv:6
+msgid ""
+"A lead bank is a bank that oversees the arrangement of a loan syndication"
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+partyRole.csv:7
+msgid "Lender"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+partyRole.csv:7
+msgid ""
+"The APMG PPP Certification Program defines lenders as \"Institutions that "
+"provide lending to the project: mainly banks and institutional investors "
+"through project bonds\""
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+partyRole.csv:8
+msgid "Equity investor"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+partyRole.csv:8
+msgid ""
+"The APMG PPP Certification Program defines equity investors as \"Investors "
+"who finance a portion of the project’s capital expenditures (Capex), "
+"typically as share capital or subordinated debt\""
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+partyRole.csv:9
+msgid "Consortia member"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+partyRole.csv:9
+msgid ""
+"One of a group of companies that has joined together to bid for a project."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+partyRole.csv:10
+msgid "Interested party"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+partyRole.csv:10
+msgid ""
+"A party which has expressed an interest in the project, for example by "
+"purchasing tender documents or submitted clarification questions, but has "
+"not yet formally submitted a bid."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+partyRole.csv:11
+msgid "Grantor"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+partyRole.csv:11
+msgid "The party which grants a concession, a license or some other right."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+partyRole.csv:12
+msgid "Disqualified bidder"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+partyRole.csv:12
+msgid ""
+"A bidder which either did not pass the qualification stage of the evaluation"
+" process or did not pass the pre-qualification stage of the process."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+partyRole.csv:13
+msgid "Social witness"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+partyRole.csv:13
+msgid ""
+"A social witness participates as an external observer in a public "
+"procurements process. They have a formal role as an observer."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+partyRole.csv:14
+msgid "Other witness"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+partyRole.csv:14
+msgid ""
+"A witness attends one or more stages of the procurement process to observe "
+"proceedings."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+partyRole.csv:15
+msgid "Notary"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+partyRole.csv:15
+msgid ""
+"A person authorized to perform certain legal formalities, especially to "
+"certify documents and proceedings."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+releaseTag.csv:1
+msgid "Qualification"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+releaseTag.csv:1
+msgid ""
+"Providing information about a new pre-qualification process (to qualify or "
+"pre-select bidders for a tender process)."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+releaseTag.csv:2
+msgid "Qualification Update"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+releaseTag.csv:2
+msgid ""
+"An update to an existing qualification release. There should be at least one"
+" qualification release with the same ocid, but an earlier releaseDate, "
+"before a qualificationUpdate is published. An update may add new information"
+" or make corrections to prior published information. It should not be used "
+"for formal legal amendments to a pre-qualification process, for which the "
+"qualificationAmendment tag should be used."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+releaseTag.csv:3
+msgid "Qualification Amendment"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+releaseTag.csv:3
+msgid ""
+"An amendment to an existing qualification release. There should be at least "
+"one qualification release with the same ocid, but an earlier releaseDate, "
+"before a qualificationAmendment is published. The term amendment has legal "
+"meaning in many jurisdictions."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+releaseTag.csv:4
+msgid "Qualification Cancellation"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+releaseTag.csv:4
+msgid ""
+"The cancellation of an existing pre-qualification process. There should be "
+"at least one release with the same ocid, but an earlier releaseDate, which "
+"provides details of the pre-qualification process being cancelled."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+releaseTag.csv:5
+msgid "Shortlist"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+releaseTag.csv:5
+msgid ""
+"Providing information about the qualification or pre-selection of bidders. "
+"The preQualification section may be populated with details of the process "
+"leading up to the shortlist, and details of qualified or shortlisted bidders"
+" will be provided in the parties section."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+releaseTag.csv:6
+msgid "Shortlist Update"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/+releaseTag.csv:6
+msgid ""
+"An update to an existing shortlist release. There should be at least one "
+"shortlist release with the same ocid, but an earlier releaseDate before an "
+"shortlistUpdate is published. An update may add new information or make "
+"corrections."
+msgstr ""
+
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv
+msgid "Framework"
+msgstr ""
+
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv
+msgid "Section"
+msgstr ""
+
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv
+msgid "Summary required"
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:1
+msgid "Needs Assessment"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:1
+msgid ""
+"Information on the project need, benefits provided, and economic and social "
+"impact"
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:2
+msgid "Value for money analysis"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:2
+msgid ""
+"A summary of the value for money analysis carried out for the project, along"
+" with supporting figures, calculations and business case, based on projected"
+" or actual procurement outcomes."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:3
+msgid "Technical Specifications"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:3
+msgid "Detailed technical information about goods or services to be provided."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:4
+msgid "Service descriptions"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:4
+msgid "A high-level description of the services"
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:5
+msgid "Estimated demand"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:5
+msgid ""
+"A narrative describing the estimated demand to be served (annually) by the "
+"project."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:6
+msgid "Project additionality"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:6
+msgid "A description of the additionality provided by the project"
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:7
+msgid "Finance additionality"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:7
+msgid "A description of the additionality provided by the finance method"
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:8
+msgid "Rationale for PPP modality"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:8
+msgid ""
+"A description of the reasons for choosing to conduct this project as a PPP"
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:9
+msgid "Contract draft"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:9
+msgid "A draft or pro-forma copy of the contract."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:10
+msgid "Schedules and milestones"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:10
+msgid ""
+"Documentation setting out key milestones and schedules. Structured versions "
+"of this information may be modelled using the milestones block."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:11
+msgid "Signed Contract"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:11
+msgid ""
+"A copy of the signed contract. Consider providing both machine-readable "
+"(e.g. original PDF, Word or Open Document format files), and a separate "
+"document entry for scanned-signed pages where this is required."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:12
+msgid "Feasibility study"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:12
+msgid ""
+"Documentation of feasibility studies carried out for this contracting "
+"process, providing information on net benefits or costs of the proposed "
+"goods, works or services."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:13
+msgid "Environmental Impact"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:13
+msgid ""
+"Documentation of environmental impact assessments carried out before, during"
+" or after the contracting process."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:14
+msgid "Final Audit"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:14
+msgid ""
+"Documentation of a final audit carried out at the end of contract "
+"implementation."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:15
+msgid "Tender Notice"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:15
+msgid ""
+"The formal notice that gives details of a tender. This may be a link to a "
+"downloadable document, to a web page, or to an official gazette in which the"
+" notice is contained."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:16
+msgid "Evaluation Committee Details"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:16
+msgid "Information on the constitution of the evaluation committee"
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:17
+msgid "Request for Qualification"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:17
+msgid ""
+"The set of documents issued by the procuring authority that constitute the "
+"basis of the qualification and potentially the pre-selection of candidates "
+"(the short list). Qualified (or short-listed candidates) will then be "
+"invited to submit a proposal (or to enter into a new phase prior to bid "
+"submission, such as a dialogue phase or interactive phase)."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:18
+msgid "Evaluation Criteria"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:18
+msgid "Documentation on how bids will be evaluated."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:19
+msgid "Minutes"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:19
+msgid "Minutes of pre-bid meetings, or other relevant meetings."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:20
+msgid "Shortlisted Firms"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:20
+msgid ""
+"Documentation providing information on shortlisted firms. Structured "
+"versions of this information can be provided using the bids extension."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:21
+msgid "Negotiation Parameters"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:21
+msgid ""
+"A description of the parameters for negotiation with the preferred proponent"
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:22
+msgid "Provisions for management of risks and liabilities"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:22
+msgid ""
+"Documentation covering how risks will be managed as part of this contracting"
+" process."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:23
+msgid "Evaluation report"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:23
+msgid ""
+"Documentation on the evaluation of the bids and the application of the "
+"evaluation criteria, including the justification for the award"
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:24
+msgid "Risk comparison"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:24
+msgid "Risk comparison of other financing methods"
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:25
+msgid "Discount rate and risk premium"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:25
+msgid ""
+"An explanation of the discount rate, and any risk premium used, including "
+"information on project-specific circumstances that justify the risk premium "
+"rate used."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:26
+msgid "Equity transfer caps"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:26
+msgid ""
+"Details of any restrictions on the transfer of equity by shareholders or "
+"other relevant participants in the project. Certain contracts provide for "
+"caps on equity transfer in different stages of the contract, especially "
+"during the construction stage and for a few years thereafter."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:27
+msgid "Security and step in arrangements"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:27
+msgid ""
+"Details of any rights granted to a lender to access value in the event of "
+"default by a borrower and any rights granted to a party to \"step in\" to "
+"the shoes of another party, for example, a right granted to a lender or "
+"public authority to take over temporarily the operation of a project in case"
+" of failure to perform by a private party."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:28
+msgid "Guarantees"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:28
+msgid ""
+"Documentation of guarantees relating to a contracting process or contract."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:29
+msgid "Fiscal commitments and contingent liabilities disclosure reports"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:29
+msgid ""
+"Reports detailing the fiscal commitments of the public authority to the PPP,"
+" for example known payments that must be made if the PPP proceeds or payment"
+" commitments whose occurrence, timing and magnitude depend on some uncertain"
+" future event, outside the control of the public authority."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:30
+msgid "Grants"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:30
+msgid ""
+"Information on grants given to support the project. Grant information should"
+" detail the total value of subsidy, and/or the value of subsidy as a "
+"proportion of the overall project value, as well as providing information on"
+" the nature of the grant. For capital subsidies paid during construction of "
+"a project, or operating subsidies paid during operation, details of "
+"periodicity of grant payments, and particular grant milestones, should be "
+"provided."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:31
+msgid "Service payments"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:31
+msgid ""
+"Service payments are payments made by the public authority or purchaser to "
+"the private provider for infrastructure services (applicable in some types "
+"of Public Private Partnership projects). The documentation should cover the "
+"total number of payments and their periodicity, as well as the methodology "
+"used for calculating payments and the indexation used."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:32
+msgid "Land transfer"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:32
+msgid ""
+"Details of land transferred on lease or other basis by government, including"
+" details of property numbers with the quantum of land transferred, zoning "
+"information and conditions of transfer."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:33
+msgid "Asset Transfer"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:33
+msgid ""
+"Details of asset, human resource of personnel transfers, including "
+"documentation of the conditions of transfer."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:34
+msgid "Revenue Share"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:34
+msgid ""
+"Documentation of any revenue share arrangements, including revenue share on "
+"the base-case and upside for a public private partnership project."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:35
+msgid "Other government support"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:35
+msgid ""
+"Documentation of any other government support, including non-complete "
+"clauses or provision for revenue shortfall loans."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:36
+msgid "Tariff method"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:36
+msgid ""
+"For summarizing the method by which tariffs are set, and linking to detailed"
+" documentation of the methods for setting tariffs. This may include written "
+"documentation, and spreadsheets providing the models used to calculate "
+"tariffs. This should make clear who sets the tariff and on what basis."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:37
+msgid "Tariff review"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:37
+msgid ""
+"For summarizing the arrangements for the review and regulation of tariffs, "
+"and linking to detailed documentation that covers how tariffs are regulated."
+" This is important to explain to users why they are paying what they are "
+"paying, and the scope for changes to payment structures."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:38
+msgid "Tariffs"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:38
+msgid "For providing tariff and pricing schedules."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:39
+msgid "Tariff illustrations"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:39
+msgid ""
+"For linking to graphs and reports on the change over time in tariff prices. "
+"Use the relevant image media type when linking to PNG, JPEG or GIF graphs to"
+" allow applications to directly display this content."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:40
+msgid "Defaults"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:40
+msgid "Information on events of default"
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:41
+msgid "Termination"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:41
+msgid "Information on contract termination"
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:42
+msgid "Handover"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:42
+msgid ""
+"Contractual provisions for, or reporting on, handover of assets back to the "
+"state, including details of condition of assets and any other conditions of "
+"handover."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:43
+msgid "Financial statement"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:43
+msgid "Audited financial statements of the project company"
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:44
+msgid "Performance report"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/documentType.csv:44
+msgid "Performance assessment reports"
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/initiationType.csv:1
+msgid "Public Private Partnership"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/initiationType.csv:1
+msgid ""
+"An open competitive bidding or tendering to form a Public Private "
+"Partnership contract. The process may involve a qualification stage, whereby"
+" the number of qualified bidders is limited by reviewing each bidder’s "
+"qualifications against a set of criteria, before inviting prospective "
+"partners to submit bids for evaluation and selecting a winner or winners."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/metricID.csv:1
+msgid "Demand"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/metricID.csv:1
+msgid "For reporting on forecast or actual demand"
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/metricID.csv:2
+msgid "Revenue"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/metricID.csv:2
+msgid "For reporting on forecast or actual revenues"
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/metricID.csv:3
+msgid "Internal Rate of Return"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/metricID.csv:3
+msgid "For reporting on forecast or actual project IRR"
+msgstr ""
+
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/milestoneCode.csv
+msgid "Notes"
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/milestoneCode.csv:1
+msgid "Project approval"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/milestoneCode.csv:1
+msgid "The dates of approvals required from relevant authorities."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/milestoneCode.csv:2
+msgid "Commercial close"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/milestoneCode.csv:2
+msgid ""
+"In a financing, the point at which the commercial documentation has been "
+"executed but before conditions precedent have been satisfied or waived; "
+"before financial close."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/milestoneCode.csv:3
+msgid "Financial close"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/milestoneCode.csv:3
+msgid ""
+"In a financing, the point at which the documentation has been executed and "
+"conditions precedent have been satisfied or waived. Drawdowns become "
+"permissible after this point."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/milestoneCode.csv:4
+msgid "Commencement of construction or development"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/milestoneCode.csv:4
+msgid "The date of commencement of construction or development"
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/milestoneCode.csv:5
+msgid "Completion of construction of development"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/milestoneCode.csv:5
+msgid "The date of completion of construction or development"
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/milestoneCode.csv:6
+msgid "Commissioning"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/milestoneCode.csv:6
+msgid ""
+"The testing and inspection of the completed works to verify that the works "
+"are ready for commercial operation."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/milestoneCode.csv:7
+msgid "Enquiry period start"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/milestoneCode.csv:7
+msgid ""
+"For processes with multiple enquiry periods,the start date of a period "
+"during which enquiries may be made and responded to which is not provided in"
+" the tender/enquiryPeriod block. Sometimes known as clarification periods."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/milestoneCode.csv:8
+msgid "Enquiry period end"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/milestoneCode.csv:8
+msgid ""
+"For processes with multiple enquiry periods, the end date of a period during"
+" which enquiries may be made and responded to which is not provided in the "
+"tender/enquiryPeriod block. Sometimes known as clarification periods."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/milestoneCode.csv:9
+msgid "Submission of draft final tender"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/ppp/master/codelists/milestoneCode.csv:9
+msgid ""
+"For competitive dialogue processes, the deadline for submission of draft "
+"final tenders"
+msgstr ""

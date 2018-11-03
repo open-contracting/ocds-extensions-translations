@@ -1,0 +1,499 @@
+# Translations template for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-09-28 16:50+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#. /description
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/extension.json:1
+msgid ""
+"Adds a criteria section to the tender object and responses sections to bids,"
+" awards and contracts. Based on the EU's Core Criterion and Core Evidence "
+"Vocabulary (CCCEV)."
+msgstr ""
+"Adds a criteria section to the tender object and responses sections to bids,"
+" awards and contracts. Based on the EU's Core Criterion and Core Evidence "
+"Vocabulary (CCCEV)."
+
+#. /name
+#. /definitions/RequirementGroup/properties/requirements/title
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/extension.json:1
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid "Requirements"
+msgstr "Requirements"
+
+#. /definitions/Criterion/title
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid "Criterion"
+msgstr "Criterion"
+
+#. /definitions/Criterion/description
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid ""
+"A criterion on which either bidders or items will be judged, evaluated or "
+"assessed."
+msgstr ""
+"A criterion on which either bidders or items will be judged, evaluated or "
+"assessed."
+
+#. /definitions/Criterion/properties/id/title
+#. /definitions/RequirementGroup/properties/id/title
+#. /definitions/RequirementResponse/properties/id/title
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid "Identifier"
+msgstr "Identifier"
+
+#. /definitions/Criterion/properties/id/description
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid ""
+"The identifier for this criterion. It must be unique and cannot change "
+"within the Open Contracting Process it is part of (defined by a single "
+"ocid). See the [identifier guidance](http://standard.open-"
+"contracting.org/latest/en/schema/identifiers/) for further details."
+msgstr ""
+"The identifier for this criterion. It must be unique and cannot change "
+"within the Open Contracting Process it is part of (defined by a single "
+"ocid). See the [identifier guidance](http://standard.open-"
+"contracting.org/latest/en/schema/identifiers/) for further details."
+
+#. /definitions/Criterion/properties/title/title
+#. /definitions/RequirementResponse/properties/title/title
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid "Title"
+msgstr "Title"
+
+#. /definitions/Criterion/properties/title/description
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid "A title for this criterion."
+msgstr "A title for this criterion."
+
+#. /definitions/Criterion/properties/description/title
+#. /definitions/RequirementGroup/properties/description/title
+#. /definitions/RequirementResponse/properties/description/title
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid "Description"
+msgstr "Description"
+
+#. /definitions/Criterion/properties/description/description
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid ""
+"A description of this criterion. Structured information should be provided "
+"in its other fields."
+msgstr ""
+"A description of this criterion. Structured information should be provided "
+"in its other fields."
+
+#. /definitions/Criterion/properties/source/title
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid "Source"
+msgstr "Source"
+
+#. /definitions/Criterion/properties/source/description
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid ""
+"Source of response to the requirements specified in the criterion, for "
+"example responses may be submitted by tenderers or by an assessment "
+"committee at the procuringEntity."
+msgstr ""
+"Source of response to the requirements specified in the criterion, for "
+"example responses may be submitted by tenderers or by an assessment "
+"committee at the procuringEntity."
+
+#. /definitions/Criterion/properties/relatesTo/title
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid "Related schema element"
+msgstr "Related schema element"
+
+#. /definitions/Criterion/properties/relatesTo/description
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid ""
+"The schema element that the criterion judges, evaluates or assesses. For "
+"example criterion may be defined against items or against bidders."
+msgstr ""
+"The schema element that the criterion judges, evaluates or assesses. For "
+"example criterion may be defined against items or against bidders."
+
+#. /definitions/Criterion/properties/relatedItem/title
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid "Related item"
+msgstr "Related item"
+
+#. /definitions/Criterion/properties/relatedItem/description
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid ""
+"Where relatesTo = \"item\" this field must be populated with the id of the "
+"item in this tender section which the criterion relates to. Where relatesTo "
+"<> \"item\" this field should be omitted."
+msgstr ""
+"Where relatesTo = \"item\" this field must be populated with the id of the "
+"item in this tender section which the criterion relates to. Where relatesTo "
+"<> \"item\" this field should be omitted."
+
+#. /definitions/Criterion/properties/requirementGroups/title
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid "Requirement groups"
+msgstr "Requirement groups"
+
+#. /definitions/Criterion/properties/requirementGroups/description
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid ""
+"A list of requirement groups for this Criterion. A criterion is satisfied by"
+" one or more requirement groups being met. A requirement group is met when "
+"all requirements in the group are satisfied."
+msgstr ""
+"A list of requirement groups for this Criterion. A criterion is satisfied by"
+" one or more requirement groups being met. A requirement group is met when "
+"all requirements in the group are satisfied."
+
+#. /definitions/RequirementGroup/title
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid "Requirement group"
+msgstr "Requirement group"
+
+#. /definitions/RequirementGroup/description
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid ""
+"A requirement group is a set of requirements that must be fulfilled together"
+" to validate a criterion."
+msgstr ""
+"A requirement group is a set of requirements that must be fulfilled together"
+" to validate a criterion."
+
+#. /definitions/RequirementGroup/properties/id/description
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid ""
+"The identifier for this requirement group. It must be unique and cannot "
+"change within the Open Contracting Process it is part of (defined by a "
+"single ocid). See the [identifier guidance](http://standard.open-"
+"contracting.org/latest/en/schema/identifiers/) for further details."
+msgstr ""
+"The identifier for this requirement group. It must be unique and cannot "
+"change within the Open Contracting Process it is part of (defined by a "
+"single ocid). See the [identifier guidance](http://standard.open-"
+"contracting.org/latest/en/schema/identifiers/) for further details."
+
+#. /definitions/RequirementGroup/properties/description/description
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid ""
+"A description of this requirement group. Structured information should be "
+"provided in the requirements array."
+msgstr ""
+"A description of this requirement group. Structured information should be "
+"provided in the requirements array."
+
+#. /definitions/RequirementGroup/properties/requirements/description
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid ""
+"A list requirements which must all be satisfied for the requirement group to"
+" be met."
+msgstr ""
+"A list requirements which must all be satisfied for the requirement group to"
+" be met."
+
+#. /definitions/Requirement/title
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid "Requirement"
+msgstr "Requirement"
+
+#. /definitions/Requirement/description
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid ""
+"An atomic requirement. Requirements can specify the expected value that the "
+"response has to contain, or a range of threshold values within which the "
+"response has to fit in. The requirement may apply to a certain period of "
+"time."
+msgstr ""
+"An atomic requirement. Requirements can specify the expected value that the "
+"response has to contain, or a range of threshold values within which the "
+"response has to fit in. The requirement may apply to a certain period of "
+"time."
+
+#. /definitions/Requirement/properties/id/title
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid "Requirement identifier"
+msgstr "Requirement identifier"
+
+#. /definitions/Requirement/properties/id/description
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid ""
+"The identifier for this requirement. It must be unique and cannot change "
+"within the Open Contracting Process it is part of (defined by a single "
+"ocid). See the [identifier guidance](http://standard.open-"
+"contracting.org/latest/en/schema/identifiers/) for further details."
+msgstr ""
+"The identifier for this requirement. It must be unique and cannot change "
+"within the Open Contracting Process it is part of (defined by a single "
+"ocid). See the [identifier guidance](http://standard.open-"
+"contracting.org/latest/en/schema/identifiers/) for further details."
+
+#. /definitions/Requirement/properties/title/title
+#. /definitions/RequirementReference/properties/title/title
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid "Requirement title"
+msgstr "Requirement title"
+
+#. /definitions/Requirement/properties/title/description
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid "The title of this atomic requirement."
+msgstr "The title of this atomic requirement."
+
+#. /definitions/Requirement/properties/description/title
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid "Requirement description"
+msgstr "Requirement description"
+
+#. /definitions/Requirement/properties/description/description
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid "A free text description for this atomic requirement."
+msgstr "A free text description for this atomic requirement."
+
+#. /definitions/Requirement/properties/dataType/title
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid "Requirement datatype"
+msgstr "Requirement datatype"
+
+#. /definitions/Requirement/properties/dataType/description
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid "The data type in which the requirement response must be provided."
+msgstr "The data type in which the requirement response must be provided."
+
+#. /definitions/Requirement/properties/pattern/title
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid "Response validation pattern"
+msgstr "Response validation pattern"
+
+#. /definitions/Requirement/properties/pattern/description
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid "A regular expression against which validate the requirement response."
+msgstr "A regular expression against which validate the requirement response."
+
+#. /definitions/Requirement/properties/expectedValue/title
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid "Expected value"
+msgstr "Expected value"
+
+#. /definitions/Requirement/properties/expectedValue/description
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid ""
+"Used to state the requirement when the response must be particular value."
+msgstr ""
+"Used to state the requirement when the response must be particular value."
+
+#. /definitions/Requirement/properties/minValue/title
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid "Minimum value"
+msgstr "Minimum value"
+
+#. /definitions/Requirement/properties/minValue/description
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid ""
+"Used to state the lower bound of the requirement when the response must be "
+"within a certain range."
+msgstr ""
+"Used to state the lower bound of the requirement when the response must be "
+"within a certain range."
+
+#. /definitions/Requirement/properties/maxValue/title
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid "Maximum value"
+msgstr "Maximum value"
+
+#. /definitions/Requirement/properties/maxValue/description
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid ""
+"Used to state the upper bound of the requirement when the response must be "
+"within a certain range."
+msgstr ""
+"Used to state the upper bound of the requirement when the response must be "
+"within a certain range."
+
+#. /definitions/Requirement/properties/period/title
+#. /definitions/RequirementResponse/properties/period/title
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid "Period"
+msgstr "Period"
+
+#. /definitions/Requirement/properties/period/description
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid ""
+"Used to specify a particular period the requirement applies to, for example "
+"the bidder's turnover in a given year."
+msgstr ""
+"Used to specify a particular period the requirement applies to, for example "
+"the bidder's turnover in a given year."
+
+#. /definitions/RequirementResponse/title
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid "Requirement Response"
+msgstr "Requirement Response"
+
+#. /definitions/RequirementResponse/description
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid ""
+"An assertion that responds to a single requirement. A requirement response "
+"provides the value for the requirement and may provide the period to which "
+"it applies."
+msgstr ""
+"An assertion that responds to a single requirement. A requirement response "
+"provides the value for the requirement and may provide the period to which "
+"it applies."
+
+#. /definitions/RequirementResponse/properties/id/description
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid ""
+"The identifier for this requirement response. It must be unique and cannot "
+"change within the Open Contracting Process it is part of (defined by a "
+"single ocid). See the [identifier guidance](http://standard.open-"
+"contracting.org/latest/en/schema/identifiers/) for further details."
+msgstr ""
+"The identifier for this requirement response. It must be unique and cannot "
+"change within the Open Contracting Process it is part of (defined by a "
+"single ocid). See the [identifier guidance](http://standard.open-"
+"contracting.org/latest/en/schema/identifiers/) for further details."
+
+#. /definitions/RequirementResponse/properties/title/description
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid "A title for this requirement response."
+msgstr "A title for this requirement response."
+
+#. /definitions/RequirementResponse/properties/description/description
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid ""
+"A description of this requirement response. Structured information should be"
+" provided in its other fields."
+msgstr ""
+"A description of this requirement response. Structured information should be"
+" provided in its other fields."
+
+#. /definitions/RequirementResponse/properties/value/title
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid "Value"
+msgstr "Value"
+
+#. /definitions/RequirementResponse/properties/value/description
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid ""
+"The value of this requirement response. The value must be of the type "
+"defined in the requirement.dataType field."
+msgstr ""
+"The value of this requirement response. The value must be of the type "
+"defined in the requirement.dataType field."
+
+#. /definitions/RequirementResponse/properties/period/description
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid "The period which the requirement response is applicable to."
+msgstr "The period which the requirement response is applicable to."
+
+#. /definitions/RequirementResponse/properties/requirement/title
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid "Related requirement"
+msgstr "Related requirement"
+
+#. /definitions/RequirementResponse/properties/requirement/description
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid ""
+"The id and title of the requirement which the response is applicable to."
+msgstr ""
+"The id and title of the requirement which the response is applicable to."
+
+#. /definitions/RequirementResponse/properties/relatedTenderer/title
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid "Related tenderer"
+msgstr "Related tenderer"
+
+#. /definitions/RequirementResponse/properties/relatedTenderer/description
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid ""
+"Where this requirement response relates to a tenderer and is provided by the"
+" buyer or procuring entity this field should be used to reference the entry "
+"in the parties section for the tenderer the response relates to."
+msgstr ""
+"Where this requirement response relates to a tenderer and is provided by the"
+" buyer or procuring entity this field should be used to reference the entry "
+"in the parties section for the tenderer the response relates to."
+
+#. /definitions/RequirementReference/title
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid "Requirement reference"
+msgstr "Requirement reference"
+
+#. /definitions/RequirementReference/description
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid "Used to cross reference a requirement."
+msgstr "Used to cross reference a requirement."
+
+#. /definitions/RequirementReference/properties/id/title
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid "Requirement ID"
+msgstr "Requirement ID"
+
+#. /definitions/RequirementReference/properties/id/description
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid "The id of the requirement which the response is applicable to."
+msgstr "The id of the requirement which the response is applicable to."
+
+#. /definitions/RequirementReference/properties/title/description
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid "The title of the requirement which the response is applicable to."
+msgstr "The title of the requirement which the response is applicable to."
+
+#. /definitions/Bid/properties/requirementResponses/title
+#. /definitions/Award/properties/requirementResponses/title
+#. /definitions/Contract/properties/requirementResponses/title
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid "Requirement responses"
+msgstr "Requirement responses"
+
+#. /definitions/Bid/properties/requirementResponses/description
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid ""
+"If the requirements extension is also in use, the detailed responses of this"
+" bid to the tender requirements can be specified here."
+msgstr ""
+"If the requirements extension is also in use, the detailed responses of this"
+" bid to the tender requirements can be specified here."
+
+#. /definitions/Tender/properties/criteria/title
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid "Criteria"
+msgstr "Criteria"
+
+#. /definitions/Tender/properties/criteria/description
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid ""
+"A list of criteria on which either bidders or items will be judged, "
+"evaluated or assessed."
+msgstr ""
+"A list of criteria on which either bidders or items will be judged, "
+"evaluated or assessed."
+
+#. /definitions/Award/properties/requirementResponses/description
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid ""
+"A list of the detailed responses of this award to the requirements of the "
+"tender."
+msgstr ""
+"A list of the detailed responses of this award to the requirements of the "
+"tender."
+
+#. /definitions/Contract/properties/requirementResponses/description
+#: /home/david/projects/extensions-data-collector/output_dir/requirements/master/release-schema.json:1
+msgid ""
+"A list of the detailed responses of this contract to the requirements of the"
+" tender."
+msgstr ""
+"A list of the detailed responses of this contract to the requirements of the"
+" tender."

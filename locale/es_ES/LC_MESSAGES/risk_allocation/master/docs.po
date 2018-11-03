@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)
+# This file is distributed under the same license as the OCDS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# David Raznick <david.raznick@opendataservices.coop>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OCDS 1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-28 16:46+0100\n"
+"PO-Revision-Date: 2018-09-19 09:37+0000\n"
+"Last-Translator: David Raznick <david.raznick@opendataservices.coop>, 2018\n"
+"Language-Team: Spanish (Spain) (https://www.transifex.com/OpenDataServices/teams/59224/es_ES/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../risk_allocation/master/README.md:0
+msgid "Risk allocation"
+msgstr ""
+
+#: ../risk_allocation/master/README.md:3
+msgid ""
+"The [framework for disclosure in "
+"PPPs](http://pubdocs.worldbank.org/en/773541448296707678/Disclosure-in-PPPs-"
+"Framework.pdf) calls for individual risk allocation information."
+msgstr ""
+
+#: ../risk_allocation/master/README.md:5
+msgid ""
+"The risk allocation extension is used to provide structured data on the risk"
+" allocations defined in a public private partnerships contract."
+msgstr ""
+
+#: ../risk_allocation/master/README.md:0
+msgid "Overview"
+msgstr ""
+
+#: ../risk_allocation/master/README.md:9
+msgid ""
+"Risk allocations can be represented using an array of [risk "
+"blocks](../../../schema/reference/#organization) in the `riskAllocation` "
+"field of the `contract` section of an OCDS release."
+msgstr ""
+
+#: ../risk_allocation/master/README.md:11
+msgid ""
+"The risk category can be represented using the `risk/category` field using "
+"values from the [risk category codelist](../schema/codelists/#risk-category)"
+" based on the APMG PPP Certification Program. The codelist's Category column"
+" indicates the stage or aspect of the contracting process to which the risk "
+"category applies."
+msgstr ""
+
+#: ../risk_allocation/master/README.md:13
+msgid ""
+"The party retaining each risk should be represented using the "
+"`risk/allocation` field using values from the [risk allocation "
+"codelist](../schema/codelists/#risk-allocation)."
+msgstr ""
+
+#: ../risk_allocation/master/README.md:15
+msgid ""
+"The description of the risk should be provided as free text using the "
+"`risk/description` field and the mitigation for the risk should be provided "
+"as free text using the `risk/mitigation` field."
+msgstr ""
+
+#: ../risk_allocation/master/README.md:17
+msgid ""
+"Additional free text information on the risk can be provided using the "
+"`risk/notes` field."
+msgstr ""
+
+#: ../risk_allocation/master/README.md:0
+msgid "Issues"
+msgstr "Issues"
+
+#: ../risk_allocation/master/README.md:21
+msgid ""
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
+msgstr ""
+
+#: ../risk_allocation/master/README.md:0
+msgid "Changelog"
+msgstr "Registro de cambios"
+
+#: ../risk_allocation/master/README.md:25
+msgid ""
+"2018-05-08 - Make `risk/id` required to support revision tracking and [list "
+"merging](http://standard.open-"
+"contracting.org/latest/en/schema/merging/#lists)."
+msgstr ""

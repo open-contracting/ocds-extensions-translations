@@ -1,0 +1,130 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)
+# This file is distributed under the same license as the OCDS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# David Raznick <david.raznick@opendataservices.coop>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OCDS 1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-28 16:46+0100\n"
+"PO-Revision-Date: 2018-09-19 09:34+0000\n"
+"Last-Translator: David Raznick <david.raznick@opendataservices.coop>, 2018\n"
+"Language-Team: Spanish (Spain) (https://www.transifex.com/OpenDataServices/teams/59224/es_ES/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../documentation_details/master/README.md:0
+msgid "Documentation details"
+msgstr ""
+
+#: ../documentation_details/master/README.md:3
+msgid ""
+"Contracting processes involve many different documents. There should be a "
+"presumption of 'open by default' when it comes to publishing these documents"
+" as part of an Open Contracting process."
+msgstr ""
+
+#: ../documentation_details/master/README.md:5
+msgid ""
+"The OCDS documentation block, which is used widely through the different "
+"sections of the standard, provides a means to link out to externally hosted "
+"documents."
+msgstr ""
+
+#: ../documentation_details/master/README.md:7
+msgid ""
+"These should generally be provided at their own stable URL, without "
+"requirements to log-in or authenticate. Redactions should be kept to a "
+"minimum."
+msgstr ""
+
+#: ../documentation_details/master/README.md:0
+msgid "Providing enhanced documentation and document links"
+msgstr ""
+
+#: ../documentation_details/master/README.md:11
+msgid ""
+"A number of implementations of OCDS, notable OCDS for PPPs, explicitly "
+"require a number of key items of information to be disclosed. These items "
+"are articulated as an extended list of entries for the `documentType` "
+"codelist."
+msgstr ""
+
+#: ../documentation_details/master/README.md:13
+msgid ""
+"However, rather than just linking out to the entire document where the "
+"information is found, this extension describes a way to:"
+msgstr ""
+
+#: ../documentation_details/master/README.md:15
+msgid ""
+"Summarize the information in the `description` field of the relevant "
+"document block;"
+msgstr ""
+
+#: ../documentation_details/master/README.md:16
+msgid "Link to specific page numbers;"
+msgstr ""
+
+#: ../documentation_details/master/README.md:17
+msgid ""
+"Describe any additional arrangements required to access the document or find"
+" the relevant information;"
+msgstr ""
+
+#: ../documentation_details/master/README.md:18
+msgid "Record the author of the document;"
+msgstr ""
+
+#: ../documentation_details/master/README.md:20
+msgid ""
+"Providing clear summaries allows applications to display this information in"
+" a user-interface, allowing users to access key facts and justifications "
+"without clicking through to download and search for the information in a "
+"full document."
+msgstr ""
+
+#: ../documentation_details/master/README.md:22
+msgid ""
+"Linking to the specific page where information is found supports quality "
+"assurance of disclosure."
+msgstr ""
+
+#: ../documentation_details/master/README.md:24
+msgid ""
+"Describing `accessDetails` for a document ensures that, even when documents "
+"are only accessible through attendance at a location (for example), that "
+"users can find how to discover them - and so that auditors can check "
+"documents have been made accessible in the appropriate ways."
+msgstr ""
+
+#: ../documentation_details/master/README.md:26
+msgid ""
+"Recording the author of a document is important for checking whether there "
+"are potential conflicts of interest to be aware of: for example, when the "
+"author of a feasibility study is later involved in the team submitting a "
+"bid."
+msgstr ""
+
+#: ../documentation_details/master/README.md:0
+msgid "Extension fields"
+msgstr "Campos de extensión"
+
+#: ../documentation_details/master/README.md:0
+msgid "Issues"
+msgstr "Issues"
+
+#: ../documentation_details/master/README.md:37
+msgid ""
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
+msgstr ""

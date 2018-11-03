@@ -1,0 +1,153 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)
+# This file is distributed under the same license as the OCDS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OCDS 1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-28 16:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../bids/v1.1.1/README.md:0
+msgid "Bid statistics and details"
+msgstr "Bid statistics and details"
+
+#: ../bids/v1.1.1/README.md:4
+msgid ""
+"Information on bids submitted as part of a contracting process is important "
+"for many forms of analysis, including:"
+msgstr ""
+"Information on bids submitted as part of a contracting process is important "
+"for many forms of analysis, including:"
+
+#: ../bids/v1.1.1/README.md:6
+msgid ""
+"Market analysis for understanding the competitiveness of a given "
+"marketplace;"
+msgstr ""
+"Market analysis for understanding the competitiveness of a given "
+"marketplace;"
+
+#: ../bids/v1.1.1/README.md:7
+msgid "Red flag analysis for understanding potential corruption risks; and"
+msgstr "Red flag analysis for understanding potential corruption risks; and"
+
+#: ../bids/v1.1.1/README.md:8
+msgid "Value for money analysis;"
+msgstr "Value for money analysis;"
+
+#: ../bids/v1.1.1/README.md:10
+msgid ""
+"Regulatory regimes vary on the extent to which they allow information on "
+"bidding to be proactively published, and at what point in the procurement "
+"process. In some systems and processes, a list of invited bidders will be "
+"published at the start of tendering, and full details and documents on the "
+"bids received may be disclosed when evaluation is complete. In other "
+"systems, only summary statistics on the number of bids received may be made "
+"public."
+msgstr ""
+"Regulatory regimes vary on the extent to which they allow information on "
+"bidding to be proactively published, and at what point in the procurement "
+"process. In some systems and processes, a list of invited bidders will be "
+"published at the start of tendering, and full details and documents on the "
+"bids received may be disclosed when evaluation is complete. In other "
+"systems, only summary statistics on the number of bids received may be made "
+"public."
+
+#: ../bids/v1.1.1/README.md:12
+msgid ""
+"The OCDS bid extension introduces a new, flexible, top-level section to each"
+" contracting process to capture bidding information. Implementers will need "
+"to assess which fields are applicable to their local regulatory regime, and "
+"to local use-cases."
+msgstr ""
+"The OCDS bid extension introduces a new, flexible, top-level section to each"
+" contracting process to capture bidding information. Implementers will need "
+"to assess which fields are applicable to their local regulatory regime, and "
+"to local use-cases."
+
+#: ../bids/v1.1.1/README.md:0
+msgid "Bid Statistics"
+msgstr "Bid Statistics"
+
+#: ../bids/v1.1.1/README.md:16
+msgid ""
+"The ```bids/bidStatistics``` array can be used to represent key statistical "
+"information about the number of bids and bidders. Each entry in the array is"
+" a ```BidsStatistic``` object containing at least:"
+msgstr ""
+"The ```bids/bidStatistics``` array can be used to represent key statistical "
+"information about the number of bids and bidders. Each entry in the array is"
+" a ```BidsStatistic``` object containing at least:"
+
+#: ../bids/v1.1.1/README.md:18
+msgid "An identifier;"
+msgstr "An identifier;"
+
+#: ../bids/v1.1.1/README.md:19
+msgid "A measure, from the bidStatistics codelist;"
+msgstr "A measure, from the bidStatistics codelist;"
+
+#: ../bids/v1.1.1/README.md:20
+msgid "A value for that measure;"
+msgstr "A value for that measure;"
+
+#: ../bids/v1.1.1/README.md:0
+msgid "Bid Statistics Schema"
+msgstr "Bid Statistics Schema"
+
+#: ../bids/v1.1.1/README.md:0
+msgid "Bid Statistics Codelist"
+msgstr "Bid Statistics Codelist"
+
+#: ../bids/v1.1.1/README.md:32
+msgid ""
+"This is an **open** codelist. Publishers can add their own codes to this "
+"list. When doing so, publishers are encouraged to engage with the open "
+"contracting community to agree upon definitions of each code."
+msgstr ""
+"This is an **open** codelist. Publishers can add their own codes to this "
+"list. When doing so, publishers are encouraged to engage with the open "
+"contracting community to agree upon definitions of each code."
+
+#: ../bids/v1.1.1/README.md:34
+msgid ""
+"For example, publishers may wish to add statistics on minority or women "
+"owned businesses, or bids that meet certain environmental standards and "
+"targets."
+msgstr ""
+"For example, publishers may wish to add statistics on minority or women "
+"owned businesses, or bids that meet certain environmental standards and "
+"targets."
+
+#: ../bids/v1.1.1/README.md:0
+msgid "Bid details"
+msgstr "Bid details"
+
+#: ../bids/v1.1.1/README.md:44
+msgid ""
+"The ```bids/details``` array is used to provide one or more ```Bid``` "
+"objects, each representing a unique bid received."
+msgstr ""
+"The ```bids/details``` array is used to provide one or more ```Bid``` "
+"objects, each representing a unique bid received."
+
+#: ../bids/v1.1.1/README.md:0
+msgid "Bid Status Codelist"
+msgstr "Bid Status Codelist"
+
+#: ../bids/v1.1.1/README.md:0
+msgid "Example"
+msgstr "Example"
+
+#: ../bids/v1.1.1/README.md:62
+msgid "ToDo"
+msgstr "ToDo"

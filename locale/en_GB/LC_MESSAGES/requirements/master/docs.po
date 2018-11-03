@@ -1,0 +1,235 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)
+# This file is distributed under the same license as the OCDS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OCDS 1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-28 16:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../requirements/master/README.md:0
+msgid "Requirements"
+msgstr "Requirements"
+
+#: ../requirements/master/README.md:3
+msgid ""
+"The requirements extension is based on the EU's [Core Criterion and Core "
+"Evidence Vocabulary (CCCEV)](https://joinup.ec.europa.eu/node/153001) model "
+"for communicating criteria and responses."
+msgstr ""
+"The requirements extension is based on the EU's [Core Criterion and Core "
+"Evidence Vocabulary (CCCEV)](https://joinup.ec.europa.eu/node/153001) model "
+"for communicating criteria and responses."
+
+#: ../requirements/master/README.md:5
+msgid ""
+"The extension is designed to allow procuring entities or buyers to express "
+"criteria, relating to either items being procured or bidders themselves, as "
+"structured data."
+msgstr ""
+"The extension is designed to allow procuring entities or buyers to express "
+"criteria, relating to either items being procured or bidders themselves, as "
+"structured data."
+
+#: ../requirements/master/README.md:7
+msgid ""
+"Criteria can be responded to either by bidders, buyers or procuring "
+"entities, for example a buyer may respond with information about an item "
+"whilst a procuring entity may respond with information on whether a bidder "
+"is disbarred."
+msgstr ""
+"Criteria can be responded to either by bidders, buyers or procuring "
+"entities, for example a buyer may respond with information about an item "
+"whilst a procuring entity may respond with information on whether a bidder "
+"is disbarred."
+
+#: ../requirements/master/README.md:0
+msgid "CCCEV Model"
+msgstr "CCCEV Model"
+
+#: ../requirements/master/README.md:11
+msgid "The CCCEV model defines the following concepts:"
+msgstr "The CCCEV model defines the following concepts:"
+
+#: ../requirements/master/README.md:13
+msgid ""
+"**Criterion** A criterion represents a rule or principle used to judge, "
+"evaluate or assess either an item or bidder. A criterion is satisfied when "
+"one or more of it's requirement groups are satisfied."
+msgstr ""
+"**Criterion** A criterion represents a rule or principle used to judge, "
+"evaluate or assess either an item or bidder. A criterion is satisfied when "
+"one or more of it's requirement groups are satisfied."
+
+#: ../requirements/master/README.md:16
+msgid ""
+"**Requirement Group** A requirement group is a collection of one or more "
+"individual requirements. A requirement group is satisfied when all of it's "
+"requirements are satisfied."
+msgstr ""
+"**Requirement Group** A requirement group is a collection of one or more "
+"individual requirements. A requirement group is satisfied when all of it's "
+"requirements are satisfied."
+
+#: ../requirements/master/README.md:19
+msgid ""
+"**Requirement** An atomic requirement which can be expressed as either an "
+"expected value or a range of accepted values."
+msgstr ""
+"**Requirement** An atomic requirement which can be expressed as either an "
+"expected value or a range of accepted values."
+
+#: ../requirements/master/README.md:22
+msgid ""
+"**Requirement Response** A requirements response is an assertion that "
+"responds to a specific requirement."
+msgstr ""
+"**Requirement Response** A requirements response is an assertion that "
+"responds to a specific requirement."
+
+#: ../requirements/master/README.md:25
+msgid ""
+"Therefore the CCCEV model can be used to express both **AND** conditions, "
+"where a group of requirements must be met to satisfy a criterion, and **OR**"
+" conditions, where there are alternative requirements that can satisfy a "
+"criterion."
+msgstr ""
+"Therefore the CCCEV model can be used to express both **AND** conditions, "
+"where a group of requirements must be met to satisfy a criterion, and **OR**"
+" conditions, where there are alternative requirements that can satisfy a "
+"criterion."
+
+#: ../requirements/master/README.md:0
+msgid "Schema"
+msgstr "Schema"
+
+#: ../requirements/master/README.md:29
+msgid ""
+"The extension introduces a new building block for each of the concepts "
+"described above, these are added to the following locations in the OCDS "
+"schema:"
+msgstr ""
+"The extension introduces a new building block for each of the concepts "
+"described above, these are added to the following locations in the OCDS "
+"schema:"
+
+#: ../requirements/master/README.md:31
+msgid "*tender.criteria* - an array of criteria"
+msgstr "*tender.criteria* - an array of criteria"
+
+#: ../requirements/master/README.md:32
+msgid "*tender.criteria.requirementGroups* - an array of requirement groups"
+msgstr "*tender.criteria.requirementGroups* - an array of requirement groups"
+
+#: ../requirements/master/README.md:33
+msgid ""
+"*tender.criteria.requirementGroups.requirements* - an array of requirements"
+msgstr ""
+"*tender.criteria.requirementGroups.requirements* - an array of requirements"
+
+#: ../requirements/master/README.md:34
+msgid ""
+"*bids.requirementResponses* - an array of requirement responses (Note: "
+"depends on *bid* extension)"
+msgstr ""
+"*bids.requirementResponses* - an array of requirement responses (Note: "
+"depends on *bid* extension)"
+
+#: ../requirements/master/README.md:35
+msgid "*awards.requirementResponses* - an array of requirements responses"
+msgstr "*awards.requirementResponses* - an array of requirements responses"
+
+#: ../requirements/master/README.md:36
+msgid "*contracts.requirementResponses* - an array or requirement responses"
+msgstr "*contracts.requirementResponses* - an array or requirement responses"
+
+#: ../requirements/master/README.md:0
+msgid "Background"
+msgstr "Background"
+
+#: ../requirements/master/README.md:40
+msgid ""
+"There are number of scenarios in which structured information on "
+"requirements is necessary. See discussion in GitHub issue "
+"[#223](https://github.com/open-contracting/standard/issues/223)."
+msgstr ""
+"There are number of scenarios in which structured information on "
+"requirements is necessary. See discussion in GitHub issue "
+"[#223](https://github.com/open-contracting/standard/issues/223)."
+
+#: ../requirements/master/README.md:0
+msgid "Example usage"
+msgstr "Example usage"
+
+#: ../requirements/master/README.md:44
+msgid ""
+"Below is an example of requirements specified against both an item and a "
+"bidder which demonstrates both **AND** and **OR** conditions:"
+msgstr ""
+"Below is an example of requirements specified against both an item and a "
+"bidder which demonstrates both **AND** and **OR** conditions:"
+
+#: ../requirements/master/README.md:150
+msgid "Below is an example of responses which meet the above requirements:"
+msgstr "Below is an example of responses which meet the above requirements:"
+
+#: ../requirements/master/README.md:0
+msgid "Further extensions"
+msgstr "Further extensions"
+
+#: ../requirements/master/README.md:182
+msgid ""
+"The CCCEV model also defines a number of additional concepts including "
+"**formalFrameworks**, used to specify the legal instruments from criteria "
+"are derived, **evidence**, used both to specify and provide the evidence "
+"required to support a requirement response, and additional properties of "
+"*requirements* such as **certificationLevel** which are not currently "
+"implemented in this extension."
+msgstr ""
+"The CCCEV model also defines a number of additional concepts including "
+"**formalFrameworks**, used to specify the legal instruments from criteria "
+"are derived, **evidence**, used both to specify and provide the evidence "
+"required to support a requirement response, and additional properties of "
+"*requirements* such as **certificationLevel** which are not currently "
+"implemented in this extension."
+
+#: ../requirements/master/README.md:0
+msgid "Outstanding issues"
+msgstr "Outstanding issues"
+
+#: ../requirements/master/README.md:186
+msgid ""
+"The extension does not describe formulae for calculated computed values."
+msgstr ""
+"The extension does not describe formulae for calculated computed values."
+
+#: ../requirements/master/README.md:188
+msgid ""
+"The extension does not describe whether data should be published openly or "
+"not."
+msgstr ""
+"The extension does not describe whether data should be published openly or "
+"not."
+
+#: ../requirements/master/README.md:0
+msgid "Issues"
+msgstr "Issues"
+
+#: ../requirements/master/README.md:192
+msgid ""
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
+msgstr ""
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."

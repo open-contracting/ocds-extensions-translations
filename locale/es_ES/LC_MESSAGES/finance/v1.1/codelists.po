@@ -1,0 +1,201 @@
+# Translations template for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+# Translators:
+# David Raznick <david.raznick@opendataservices.coop>, 2018
+# Amy Guy <amy.guy@opendataservices.coop>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-09-28 16:48+0100\n"
+"PO-Revision-Date: 2018-09-19 09:34+0000\n"
+"Last-Translator: Amy Guy <amy.guy@opendataservices.coop>, 2018\n"
+"Language-Team: Spanish (Spain) (https://www.transifex.com/OpenDataServices/teams/59224/es_ES/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: /home/david/projects/extensions-data-collector/output_dir/finance/v1.1/codelists/financeCategory.csv
+#: /home/david/projects/extensions-data-collector/output_dir/finance/v1.1/codelists/financeTypes.csv
+msgid "Code"
+msgstr "Hola!"
+
+#: /home/david/projects/extensions-data-collector/output_dir/finance/v1.1/codelists/financeCategory.csv
+#: /home/david/projects/extensions-data-collector/output_dir/finance/v1.1/codelists/financeTypes.csv
+msgid "Title"
+msgstr "título"
+
+#: /home/david/projects/extensions-data-collector/output_dir/finance/v1.1/codelists/financeCategory.csv
+#: /home/david/projects/extensions-data-collector/output_dir/finance/v1.1/codelists/financeTypes.csv
+msgid "Description"
+msgstr "Descripción"
+
+#: /home/david/projects/extensions-data-collector/output_dir/finance/v1.1/codelists/financeCategory.csv
+#: /home/david/projects/extensions-data-collector/output_dir/finance/v1.1/codelists/financeTypes.csv
+msgid "Source"
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/finance/v1.1/codelists/financeCategory.csv:1
+msgid "Equity"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/finance/v1.1/codelists/financeCategory.csv:1
+msgid ""
+"Equity finance is given in exchange for a share of ownership in the project "
+"(usually via direct or indirect shareholding in a Special Purpose Vehicle "
+"(SPV) company created to run the project)."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/finance/v1.1/codelists/financeCategory.csv:2
+msgid "Senior debt"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/finance/v1.1/codelists/financeCategory.csv:2
+msgid ""
+"Senior debt (sometimes called senior loans) take priority over other more "
+"junior debt."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/finance/v1.1/codelists/financeCategory.csv:3
+msgid "Mezannine debt"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/finance/v1.1/codelists/financeCategory.csv:3
+msgid ""
+"Mezzanine debt (sometimes called mezzanine loans) take priority over common "
+"shares."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/finance/v1.1/codelists/financeCategory.csv:4
+msgid "Grant"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/finance/v1.1/codelists/financeCategory.csv:4
+msgid "A grant is finance provided without expectation of repayment."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/finance/v1.1/codelists/financeCategory.csv:5
+msgid "Guarantee"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/finance/v1.1/codelists/financeCategory.csv:5
+msgid ""
+"A guarantee is a promise by one party to assume the debt of another if the "
+"other defaults. Guarantees should not be counted in totals of the overall "
+"financing of a project."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/finance/v1.1/codelists/financeCategory.csv:6
+msgid "Other debts or investments"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/finance/v1.1/codelists/financeCategory.csv:6
+msgid ""
+"Any details of the conditions attached to this finance can be recorded in an"
+" associated notes field."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/finance/v1.1/codelists/financeTypes.csv:1
+msgid "Institutional"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/finance/v1.1/codelists/financeTypes.csv:1
+msgid ""
+"This finance was provided by institutional investors: entities which pool "
+"money to purchase securities, real property, and other investment assets or "
+"originate loans. Institutional investors include banks, insurance companies,"
+" pensions, hedge funds, REITs, investment advisors, endowments, and mutual "
+"funds."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/finance/v1.1/codelists/financeTypes.csv:2
+msgid "Commercial"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/finance/v1.1/codelists/financeTypes.csv:2
+msgid ""
+"This finance was provided by private parties who do not fall within the "
+"definition of institutional investor."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/finance/v1.1/codelists/financeTypes.csv:3
+msgid "Bilateral"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/finance/v1.1/codelists/financeTypes.csv:3
+msgid ""
+"This finance was provided by a bilateral institution: an agency of one "
+"specific government, usually a development agency or export-credit agency "
+"with a mandate to support domestic businesses in pursuing investments "
+"abroad."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/finance/v1.1/codelists/financeTypes.csv:4
+msgid "Multilateral"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/finance/v1.1/codelists/financeTypes.csv:4
+msgid ""
+"This finance was provided by a multilateral institution: a body created by a"
+" group of countries to provides financing and professional support, "
+"primarily for the purpose of development."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/finance/v1.1/codelists/financeTypes.csv:5
+msgid "Public Bond Issue"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/finance/v1.1/codelists/financeTypes.csv:5
+msgid "This finance was provided through a public bond issue."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/finance/v1.1/codelists/financeTypes.csv:6
+msgid "Supplier Credit"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/finance/v1.1/codelists/financeTypes.csv:6
+msgid ""
+"This finance was provided through a line of credit provided by a supplier."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/finance/v1.1/codelists/financeTypes.csv:7
+msgid "Other"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/finance/v1.1/codelists/financeTypes.csv:7
+msgid "This finance was provided through some other source."
+msgstr ""

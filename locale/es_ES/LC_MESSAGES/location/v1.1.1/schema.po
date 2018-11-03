@@ -1,0 +1,163 @@
+# Translations template for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+# Translators:
+# David Raznick <david.raznick@opendataservices.coop>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-09-28 16:48+0100\n"
+"PO-Revision-Date: 2018-09-19 09:35+0000\n"
+"Last-Translator: David Raznick <david.raznick@opendataservices.coop>, 2018\n"
+"Language-Team: Spanish (Spain) (https://www.transifex.com/OpenDataServices/teams/59224/es_ES/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. /name
+#: /home/david/projects/extensions-data-collector/output_dir/location/v1.1.1/extension.json:1
+msgid "Location"
+msgstr "Ubicación"
+
+#. /description
+#: /home/david/projects/extensions-data-collector/output_dir/location/v1.1.1/extension.json:1
+msgid "Communicates the location of proposed or executed contract delivery."
+msgstr ""
+
+#. /definitions/Item/properties/deliveryLocation/title
+#. /definitions/Location/title
+#: /home/david/projects/extensions-data-collector/output_dir/location/v1.1.1/release-schema.json:1
+msgid "Delivery Location"
+msgstr ""
+
+#. /definitions/Item/properties/deliveryAddress/title
+#: /home/david/projects/extensions-data-collector/output_dir/location/v1.1.1/release-schema.json:1
+msgid "Delivery Address"
+msgstr ""
+
+#. /definitions/Location/description
+#: /home/david/projects/extensions-data-collector/output_dir/location/v1.1.1/release-schema.json:1
+msgid ""
+"The location where activity related to this tender, contract or license will"
+" be delivered, or will take place. A location can be described by either a "
+"geometry (point location, line or polygon), or a gazetteer entry, or both."
+msgstr ""
+
+#. /definitions/Location/properties/description/title
+#: /home/david/projects/extensions-data-collector/output_dir/location/v1.1.1/release-schema.json:1
+msgid "Description"
+msgstr "Descripción"
+
+#. /definitions/Location/properties/description/description
+#: /home/david/projects/extensions-data-collector/output_dir/location/v1.1.1/release-schema.json:1
+msgid ""
+"A name or description of this location. This might include the name(s) of "
+"the location(s), or might provide a human readable description of the "
+"location to be covered. This description may be used in a user-interface."
+msgstr ""
+"Un nombre o descripción de esta ubicación. Esto podría incluir el nombre de "
+"la(s) ubicación(es), o podría proporcionar una descripción legible por el "
+"usuario de la ubicación a cubrir. Esta descripción se puede utilizar en una "
+"interfaz de usuario."
+
+#. /definitions/Location/properties/geometry/title
+#: /home/david/projects/extensions-data-collector/output_dir/location/v1.1.1/release-schema.json:1
+msgid "Geometry"
+msgstr ""
+
+#. /definitions/Location/properties/geometry/description
+#: /home/david/projects/extensions-data-collector/output_dir/location/v1.1.1/release-schema.json:1
+msgid ""
+"We follow the [GeoJSON standard](http://geojson.org/) to express basic "
+"location information, using latitude and longitude values in the "
+"[WGS84](https://en.wikipedia.org/wiki/World_Geodetic_System) (EPSG:4326) "
+"projection.  A point location can be identified by geocoding a delivery "
+"address. For concession licenses, or other contracts covering a polygon "
+"location which is not contained in a known gazetteer, polygon and multi-"
+"polygon can be used."
+msgstr ""
+
+#. /definitions/Location/properties/geometry/properties/type/title
+#: /home/david/projects/extensions-data-collector/output_dir/location/v1.1.1/release-schema.json:1
+msgid "Type"
+msgstr "Tipo"
+
+#. /definitions/Location/properties/geometry/properties/type/description
+#: /home/david/projects/extensions-data-collector/output_dir/location/v1.1.1/release-schema.json:1
+msgid ""
+"The type of [GeoJSON Geometry Objects](http://geojson.org/geojson-spec.html"
+"#geometry-objects) being provided. To provide latitude and longitude use "
+"'point', and enter an array of [latitude,longitude] as the value of "
+"coordinates field: e.g. [37.42,-122.085]. Note the capitalization of type "
+"values - set in order to maintain compatibility with GeoJSON."
+msgstr ""
+
+#. /definitions/Location/properties/geometry/properties/coordinates/title
+#: /home/david/projects/extensions-data-collector/output_dir/location/v1.1.1/release-schema.json:1
+msgid "Coordinates"
+msgstr ""
+
+#. /definitions/Location/properties/geometry/properties/coordinates/description
+#: /home/david/projects/extensions-data-collector/output_dir/location/v1.1.1/release-schema.json:1
+msgid ""
+"The relevant array of points, e.g. [latitude,longitude], or nested array, "
+"for the GeoJSON geometry being described. The longitude and latitude MUST be"
+" expressed in decimal degrees in the WGS84 (EPSG:4326) projection"
+msgstr ""
+"La lista relevante de puntos, p. ej [latitud, longitud] o lista anidada, "
+"para la geometría GeoJSON descrita. La longitud y la latitud DEBEN "
+"expresarse en grados decimales en la proyección WGS84 (EPSG: 4326)"
+
+#. /definitions/Location/properties/gazetteer/properties/scheme/title
+#: /home/david/projects/extensions-data-collector/output_dir/location/v1.1.1/release-schema.json:1
+msgid "Gazetteer scheme"
+msgstr ""
+
+#. /definitions/Location/properties/gazetteer/properties/scheme/description
+#: /home/david/projects/extensions-data-collector/output_dir/location/v1.1.1/release-schema.json:1
+msgid ""
+"The entry of the selected gazetteer in the gazetteers codelist. The codelist"
+" provides details of services, where available, that can resolve a gazetteer"
+" entry to provide location names."
+msgstr ""
+"La entrada del diccionario geográfico seleccionado en la lista de códigos de"
+" diccionarios geográficos. La lista de códigos proporciona detalles de los "
+"servicios, cuando están disponibles, que pueden resolver una entrada de un "
+"diccionario geográfico para proporcionar nombres de ubicación."
+
+#. /definitions/Location/properties/gazetteer/properties/identifiers/title
+#: /home/david/projects/extensions-data-collector/output_dir/location/v1.1.1/release-schema.json:1
+msgid "Identifiers"
+msgstr ""
+
+#. /definitions/Location/properties/gazetteer/properties/identifiers/description
+#: /home/david/projects/extensions-data-collector/output_dir/location/v1.1.1/release-schema.json:1
+msgid ""
+"An array of one or more codes drawn from the gazetteer indicated in scheme."
+msgstr ""
+"Una matriz de uno o más códigos extraídos del diccionario geográfico "
+"indicado en el esquema."
+
+#. /definitions/Location/properties/uri/title
+#: /home/david/projects/extensions-data-collector/output_dir/location/v1.1.1/release-schema.json:1
+msgid "URI"
+msgstr ""
+
+#. /definitions/Location/properties/uri/description
+#: /home/david/projects/extensions-data-collector/output_dir/location/v1.1.1/release-schema.json:1
+msgid ""
+"A URI to a further description of the activity location. This may be a human"
+" readable document with information on the location, or a machine-readable "
+"description of the location."
+msgstr ""
+"Un URI para una descripción más detallada de la ubicación de la actividad. "
+"Esto puede ser un documento legible por el usuario con información sobre la "
+"ubicación o una descripción legible por computadora de la ubicación."

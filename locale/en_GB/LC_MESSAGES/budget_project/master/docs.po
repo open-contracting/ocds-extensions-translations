@@ -1,0 +1,313 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)
+# This file is distributed under the same license as the OCDS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OCDS 1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-28 16:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../budget_project/master/README.md:0
+msgid "Budget and projects extension"
+msgstr "Budget and projects extension"
+
+#: ../budget_project/master/README.md:3
+msgid ""
+"In the core OCDS, project information is nested within the `budget` building"
+" block. However, in some cases, budget management, and project management "
+"systems are separate, and it may be important to separately specify:"
+msgstr ""
+"In the core OCDS, project information is nested within the `budget` building"
+" block. However, in some cases, budget management, and project management "
+"systems are separate, and it may be important to separately specify:"
+
+#: ../budget_project/master/README.md:5
+msgid "The amount reserved in the budget for a specific contracting process;"
+msgstr "The amount reserved in the budget for a specific contracting process;"
+
+#: ../budget_project/master/README.md:7
+msgid ""
+"The project the contract relates to, and the total value of that project;"
+msgstr ""
+"The project the contract relates to, and the total value of that project;"
+
+#: ../budget_project/master/README.md:9
+msgid ""
+"This is particularly important in cases of Public Private Partnership "
+"projects, or large infrastructure projects, where users may wish to track "
+"all the contracting processes related to a large-scale project, and to "
+"understand the individual contracts in the context of their contracting "
+"process and overall project values."
+msgstr ""
+"This is particularly important in cases of Public Private Partnership "
+"projects, or large infrastructure projects, where users may wish to track "
+"all the contracting processes related to a large-scale project, and to "
+"understand the individual contracts in the context of their contracting "
+"process and overall project values."
+
+#: ../budget_project/master/README.md:11
+msgid ""
+"This extension introduces a `project` object into the `planning` section."
+msgstr ""
+"This extension introduces a `project` object into the `planning` section."
+
+#: ../budget_project/master/README.md:13
+msgid ""
+"In the OCDS for PPPs profile, this is further extended with sector and "
+"location classifications."
+msgstr ""
+"In the OCDS for PPPs profile, this is further extended with sector and "
+"location classifications."
+
+#: ../budget_project/master/README.md:0
+msgid "Example"
+msgstr "Example"
+
+#: ../budget_project/master/README.md:0
+msgid "Documentation"
+msgstr "Documentation"
+
+#: ../budget_project/master/README.md:36
+msgid "The extension introduces the following fields:"
+msgstr "The extension introduces the following fields:"
+
+#: ../budget_project/master/README.md:0
+msgid "Guidance"
+msgstr "Guidance"
+
+#: ../budget_project/master/README.md:46
+msgid ""
+"Users of this extension should follow the additional guidance below on the "
+"usage of fields which are also part of the core OCDS schema. The field's "
+"description from the core OCDS schema v1.1.3 is included for convenience; "
+"please refer to the [standard's documentation](http://standard.open-"
+"contracting.org) for more recent descriptions."
+msgstr ""
+"Users of this extension should follow the additional guidance below on the "
+"usage of fields which are also part of the core OCDS schema. The field's "
+"description from the core OCDS schema v1.1.3 is included for convenience; "
+"please refer to the [standard's documentation](http://standard.open-"
+"contracting.org) for more recent descriptions."
+
+#: ../budget_project/master/README.md:4
+msgid "Field"
+msgstr "Field"
+
+#: ../budget_project/master/README.md:5
+msgid "OCDS schema description"
+msgstr "OCDS schema description"
+
+#: ../budget_project/master/README.md:6
+msgid "Extension guidance"
+msgstr "Extension guidance"
+
+#: ../budget_project/master/README.md:7
+msgid "``planning/budget/id``"
+msgstr "``planning/budget/id``"
+
+#: ../budget_project/master/README.md:8
+msgid ""
+"An identifier for the budget line item which provides funds for this "
+"contracting process. This identifier should be possible to cross-reference "
+"against the provided data source."
+msgstr ""
+"An identifier for the budget line item which provides funds for this "
+"contracting process. This identifier should be possible to cross-reference "
+"against the provided data source."
+
+#: ../budget_project/master/README.md:9
+msgid "\"provided data source\" refers to formal budget documents."
+msgstr "\"provided data source\" refers to formal budget documents."
+
+#: ../budget_project/master/README.md:10
+msgid "``planning/budget/description``"
+msgstr "``planning/budget/description``"
+
+#: ../budget_project/master/README.md:11
+msgid ""
+"A short free text description of the budget source. May be used to provide "
+"the title of the budget line, or the programme used to fund this project."
+msgstr ""
+"A short free text description of the budget source. May be used to provide "
+"the title of the budget line, or the programme used to fund this project."
+
+#: ../budget_project/master/README.md:12
+msgid ""
+"This field may also be used to provide information about the nature of the "
+"budget allocation, e.g. conditional, confirmed, or any official "
+"authorizations given to the allocation."
+msgstr ""
+"This field may also be used to provide information about the nature of the "
+"budget allocation, e.g. conditional, confirmed, or any official "
+"authorizations given to the allocation."
+
+#: ../budget_project/master/README.md:13
+msgid "``planning/budget/amount``"
+msgstr "``planning/budget/amount``"
+
+#: ../budget_project/master/README.md:14
+msgid ""
+"The value reserved in the budget for this contracting process. A negative "
+"value indicates anticipated income to the budget as a result of this "
+"contracting process, rather than expenditure. Where the budget is drawn from"
+" multiple sources, the budget breakdown extension can be used."
+msgstr ""
+"The value reserved in the budget for this contracting process. A negative "
+"value indicates anticipated income to the budget as a result of this "
+"contracting process, rather than expenditure. Where the budget is drawn from"
+" multiple sources, the budget breakdown extension can be used."
+
+#: ../budget_project/master/README.md:15
+msgid ""
+"Or, the value estimated for, or allocated to, this contracting process in a "
+"budget. This field should not be used to report the total value of the "
+"budget line funding this contracting process. The budget breakdown extension"
+" can be used for both multi-source and multi-year budgets."
+msgstr ""
+"Or, the value estimated for, or allocated to, this contracting process in a "
+"budget. This field should not be used to report the total value of the "
+"budget line funding this contracting process. The budget breakdown extension"
+" can be used for both multi-source and multi-year budgets."
+
+#: ../budget_project/master/README.md:16
+msgid "``planning/budget/project``"
+msgstr "``planning/budget/project``"
+
+#: ../budget_project/master/README.md:17
+msgid ""
+"The name of the project that through which this contracting process is "
+"funded (if applicable). Some organizations maintain a registry of projects, "
+"and the data should use the name by which the project is known in that "
+"registry. No translation option is offered for this string, as translated "
+"values can be provided in third-party data, linked from the data source "
+"above."
+msgstr ""
+"The name of the project that through which this contracting process is "
+"funded (if applicable). Some organizations maintain a registry of projects, "
+"and the data should use the name by which the project is known in that "
+"registry. No translation option is offered for this string, as translated "
+"values can be provided in third-party data, linked from the data source "
+"above."
+
+#: ../budget_project/master/README.md:18
+msgid ""
+"Detailed information about the project which funds this contracting process "
+"should be provided in the ``planning/project`` object."
+msgstr ""
+"Detailed information about the project which funds this contracting process "
+"should be provided in the ``planning/project`` object."
+
+#: ../budget_project/master/README.md:19
+msgid "``planning/budget/projectID``"
+msgstr "``planning/budget/projectID``"
+
+#: ../budget_project/master/README.md:20
+msgid ""
+"An external identifier for the project that this contracting process forms "
+"part of, or is funded via (if applicable). Some organizations maintain a "
+"registry of projects, and the data should use the identifier from the "
+"relevant registry of projects."
+msgstr ""
+"An external identifier for the project that this contracting process forms "
+"part of, or is funded via (if applicable). Some organizations maintain a "
+"registry of projects, and the data should use the identifier from the "
+"relevant registry of projects."
+
+#: ../budget_project/master/README.md:21
+msgid "This field is required for legacy compatibility with OCDS core."
+msgstr "This field is required for legacy compatibility with OCDS core."
+
+#: ../budget_project/master/README.md:22
+msgid "``planning/budget/uri``"
+msgstr "``planning/budget/uri``"
+
+#: ../budget_project/master/README.md:23
+msgid ""
+"A URI pointing directly to a machine-readable record about the budget line-"
+"item or line-items that fund this contracting process. Information may be "
+"provided in a range of formats, including using IATI, the Open Fiscal Data "
+"Standard or any other standard which provides structured data on budget "
+"sources. Human readable documents can be included using the "
+"planning.documents block."
+msgstr ""
+"A URI pointing directly to a machine-readable record about the budget line-"
+"item or line-items that fund this contracting process. Information may be "
+"provided in a range of formats, including using IATI, the Open Fiscal Data "
+"Standard or any other standard which provides structured data on budget "
+"sources. Human readable documents can be included using the "
+"planning.documents block."
+
+#: ../budget_project/master/README.md:24
+msgid ""
+"Where possible, this URI should return machine *and* human-readable "
+"representations of budget data."
+msgstr ""
+"Where possible, this URI should return machine *and* human-readable "
+"representations of budget data."
+
+#: ../budget_project/master/README.md:0
+msgid "Changelog"
+msgstr "Changelog"
+
+#: ../budget_project/master/README.md:0
+msgid "2018-05-03"
+msgstr "2018-05-03"
+
+#: ../budget_project/master/README.md:79
+msgid ""
+"Add guidance section based on schema descriptions moved in previous update"
+msgstr ""
+"Add guidance section based on schema descriptions moved in previous update"
+
+#: ../budget_project/master/README.md:0
+msgid "2017-12-29"
+msgstr "2017-12-29"
+
+#: ../budget_project/master/README.md:83
+msgid ""
+"Remove repeated descriptions for fields in OCDS core from extension schema"
+msgstr ""
+"Remove repeated descriptions for fields in OCDS core from extension schema"
+
+#: ../budget_project/master/README.md:0
+msgid "2017-07-08"
+msgstr "2017-07-08"
+
+#: ../budget_project/master/README.md:87
+msgid ""
+"Updated version to maintain conformance with OCDS 1.1, removing the "
+"properties in the extension that deleted `planning/budget/project` and "
+"`planning/budget/projectID`."
+msgstr ""
+"Updated version to maintain conformance with OCDS 1.1, removing the "
+"properties in the extension that deleted `planning/budget/project` and "
+"`planning/budget/projectID`."
+
+#: ../budget_project/master/README.md:89
+msgid ""
+"Removing unnecessary mergeStrategy and pattern property schema elements"
+msgstr ""
+"Removing unnecessary mergeStrategy and pattern property schema elements"
+
+#: ../budget_project/master/README.md:0
+msgid "Issues"
+msgstr "Issues"
+
+#: ../budget_project/master/README.md:93
+msgid ""
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
+msgstr ""
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."

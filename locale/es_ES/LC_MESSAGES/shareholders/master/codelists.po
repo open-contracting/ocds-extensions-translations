@@ -1,0 +1,91 @@
+# Translations template for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+# Translators:
+# David Raznick <david.raznick@opendataservices.coop>, 2018
+# Amy Guy <amy.guy@opendataservices.coop>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-09-28 16:51+0100\n"
+"PO-Revision-Date: 2018-09-19 09:37+0000\n"
+"Last-Translator: Amy Guy <amy.guy@opendataservices.coop>, 2018\n"
+"Language-Team: Spanish (Spain) (https://www.transifex.com/OpenDataServices/teams/59224/es_ES/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: /home/david/projects/extensions-data-collector/output_dir/shareholders/master/codelists/votingRights.csv
+msgid "Code"
+msgstr "Hola!"
+
+#: /home/david/projects/extensions-data-collector/output_dir/shareholders/master/codelists/votingRights.csv
+msgid "Title"
+msgstr "título"
+
+#: /home/david/projects/extensions-data-collector/output_dir/shareholders/master/codelists/votingRights.csv
+msgid "Description"
+msgstr "Descripción"
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/shareholders/master/codelists/votingRights.csv:1
+msgid "Ordinary voting rights"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/shareholders/master/codelists/votingRights.csv:1
+msgid ""
+"The shareholder is entitled to a single vote per share in all circumstances"
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/shareholders/master/codelists/votingRights.csv:2
+msgid "No voting rights"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/shareholders/master/codelists/votingRights.csv:2
+msgid "The shareholder is not entitled to vote under any circumstances"
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/shareholders/master/codelists/votingRights.csv:3
+msgid "Restricted voting rights"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/shareholders/master/codelists/votingRights.csv:3
+msgid "The shareholder is entitled to vote in specific circumstances only"
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/shareholders/master/codelists/votingRights.csv:4
+msgid "Additional voting rights"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/shareholders/master/codelists/votingRights.csv:4
+msgid ""
+"The shareholder is entitled to more than one vote per share in all "
+"circumstances"
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/shareholders/master/codelists/votingRights.csv:5
+msgid "Enhanced voting rights"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/shareholders/master/codelists/votingRights.csv:5
+msgid ""
+"The shareholder is entitled to more than one vote per share in specific "
+"circumstances only"
+msgstr ""

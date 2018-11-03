@@ -1,0 +1,339 @@
+# Translations template for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-09-28 16:49+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#. /description
+#: /home/david/projects/extensions-data-collector/output_dir/metrics/v1.1/extension.json:1
+msgid ""
+"The metrics extension supports publication of forecasts (planning stage), "
+"targets (tender stage), agreed performance targets (award and contract "
+"stage) and results (implementation stage)."
+msgstr ""
+"The metrics extension supports publication of forecasts (planning stage), "
+"targets (tender stage), agreed performance targets (award and contract "
+"stage) and results (implementation stage)."
+
+#. /name
+#. /definitions/Implementation/properties/metrics/title
+#: /home/david/projects/extensions-data-collector/output_dir/metrics/v1.1/extension.json:1
+#: /home/david/projects/extensions-data-collector/output_dir/metrics/v1.1/release-schema.json:1
+msgid "Metrics"
+msgstr "Metrics"
+
+#. /definitions/Planning/properties/forecasts/title
+#: /home/david/projects/extensions-data-collector/output_dir/metrics/v1.1/release-schema.json:1
+msgid "Forecasts"
+msgstr "Forecasts"
+
+#. /definitions/Planning/properties/forecasts/description
+#: /home/david/projects/extensions-data-collector/output_dir/metrics/v1.1/release-schema.json:1
+msgid "Any forecasts metrics for this results of this contracting process."
+msgstr "Any forecasts metrics for this results of this contracting process."
+
+#. /definitions/Tender/properties/targets/title
+#: /home/david/projects/extensions-data-collector/output_dir/metrics/v1.1/release-schema.json:1
+msgid "Targets"
+msgstr "Targets"
+
+#. /definitions/Tender/properties/targets/description
+#: /home/david/projects/extensions-data-collector/output_dir/metrics/v1.1/release-schema.json:1
+msgid "Any target metrics for this results of this contracting process."
+msgstr "Any target metrics for this results of this contracting process."
+
+#. /definitions/Award/properties/agreedMetrics/title
+#. /definitions/Contract/properties/agreedMetrics/title
+#: /home/david/projects/extensions-data-collector/output_dir/metrics/v1.1/release-schema.json:1
+msgid "Agreed metrics"
+msgstr "Agreed metrics"
+
+#. /definitions/Award/properties/agreedMetrics/description
+#: /home/david/projects/extensions-data-collector/output_dir/metrics/v1.1/release-schema.json:1
+msgid "Any target metrics set out as part of the contract award."
+msgstr "Any target metrics set out as part of the contract award."
+
+#. /definitions/Contract/properties/agreedMetrics/description
+#: /home/david/projects/extensions-data-collector/output_dir/metrics/v1.1/release-schema.json:1
+msgid "Any target metrics set out as part of the contract documents."
+msgstr "Any target metrics set out as part of the contract documents."
+
+#. /definitions/Implementation/properties/metrics/description
+#: /home/david/projects/extensions-data-collector/output_dir/metrics/v1.1/release-schema.json:1
+msgid ""
+"Reported results from the delivery of the contracted goods, works or "
+"services."
+msgstr ""
+"Reported results from the delivery of the contracted goods, works or "
+"services."
+
+#. /definitions/Metric/title
+#: /home/david/projects/extensions-data-collector/output_dir/metrics/v1.1/release-schema.json:1
+msgid "Metric"
+msgstr "Metric"
+
+#. /definitions/Metric/description
+#: /home/david/projects/extensions-data-collector/output_dir/metrics/v1.1/release-schema.json:1
+msgid ""
+"Metrics are used to set out targets and results from a contracting process. "
+"During the planning and tender sections, a metric indicates the anticipated "
+"results. In award and contract sections it indicates the awarded/contracted "
+"results. In the implementation section it is used to provide updates on "
+"actually delivered results, also known as outputs."
+msgstr ""
+"Metrics are used to set out targets and results from a contracting process. "
+"During the planning and tender sections, a metric indicates the anticipated "
+"results. In award and contract sections it indicates the awarded/contracted "
+"results. In the implementation section it is used to provide updates on "
+"actually delivered results, also known as outputs."
+
+#. /definitions/Metric/properties/id/title
+#. /definitions/Observation/properties/id/title
+#: /home/david/projects/extensions-data-collector/output_dir/metrics/v1.1/release-schema.json:1
+msgid "Identifier"
+msgstr "Identifier"
+
+#. /definitions/Metric/properties/id/description
+#: /home/david/projects/extensions-data-collector/output_dir/metrics/v1.1/release-schema.json:1
+msgid ""
+"An identifier for this metric. In some cases this may be drawn from a "
+"codelist of metrics required for this type of contracting process, or in "
+"other instances may be an arbitrary identifier."
+msgstr ""
+"An identifier for this metric. In some cases this may be drawn from a "
+"codelist of metrics required for this type of contracting process, or in "
+"other instances may be an arbitrary identifier."
+
+#. /definitions/Metric/properties/title/title
+#: /home/david/projects/extensions-data-collector/output_dir/metrics/v1.1/release-schema.json:1
+msgid "Title"
+msgstr "Title"
+
+#. /definitions/Metric/properties/title/description
+#: /home/david/projects/extensions-data-collector/output_dir/metrics/v1.1/release-schema.json:1
+msgid "The title of this metric"
+msgstr "The title of this metric"
+
+#. /definitions/Metric/properties/description/title
+#: /home/david/projects/extensions-data-collector/output_dir/metrics/v1.1/release-schema.json:1
+msgid "Description"
+msgstr "Description"
+
+#. /definitions/Metric/properties/description/description
+#: /home/david/projects/extensions-data-collector/output_dir/metrics/v1.1/release-schema.json:1
+msgid ""
+"A short description of the metric. This may include short details of "
+"measurement methods."
+msgstr ""
+"A short description of the metric. This may include short details of "
+"measurement methods."
+
+#. /definitions/Metric/properties/observations/title
+#: /home/david/projects/extensions-data-collector/output_dir/metrics/v1.1/release-schema.json:1
+msgid "Observations"
+msgstr "Observations"
+
+#. /definitions/Metric/properties/observations/description
+#: /home/david/projects/extensions-data-collector/output_dir/metrics/v1.1/release-schema.json:1
+msgid "An array of target or actual values for this metric."
+msgstr "An array of target or actual values for this metric."
+
+#. /definitions/Observation/title
+#: /home/david/projects/extensions-data-collector/output_dir/metrics/v1.1/release-schema.json:1
+msgid "Observation"
+msgstr "Observation"
+
+#. /definitions/Observation/description
+#: /home/david/projects/extensions-data-collector/output_dir/metrics/v1.1/release-schema.json:1
+msgid ""
+"An actual or target observation. Observations should include either a value "
+"(for financial metrics) or measure (for other metrics)."
+msgstr ""
+"An actual or target observation. Observations should include either a value "
+"(for financial metrics) or measure (for other metrics)."
+
+#. /definitions/Observation/properties/id/description
+#: /home/david/projects/extensions-data-collector/output_dir/metrics/v1.1/release-schema.json:1
+msgid ""
+"A local identifier for this specific observation. This may be an arbitrary "
+"identifier, or could be a composite of the metric identifier, and the date "
+"and other dimensions of this observation."
+msgstr ""
+"A local identifier for this specific observation. This may be an arbitrary "
+"identifier, or could be a composite of the metric identifier, and the date "
+"and other dimensions of this observation."
+
+#. /definitions/Observation/properties/measure/title
+#: /home/david/projects/extensions-data-collector/output_dir/metrics/v1.1/release-schema.json:1
+msgid "Observation measure"
+msgstr "Observation measure"
+
+#. /definitions/Observation/properties/measure/description
+#: /home/david/projects/extensions-data-collector/output_dir/metrics/v1.1/release-schema.json:1
+msgid ""
+"For non-financial metrics, the measure of this forecast, target or actual "
+"observation. Measures may be provided as free text or numerical values."
+msgstr ""
+"For non-financial metrics, the measure of this forecast, target or actual "
+"observation. Measures may be provided as free text or numerical values."
+
+#. /definitions/Observation/properties/unit/title
+#. /definitions/Observation/properties/unit/description
+#: /home/david/projects/extensions-data-collector/output_dir/metrics/v1.1/release-schema.json:1
+msgid "Unit"
+msgstr "Unit"
+
+#. /definitions/Observation/properties/unit/properties/name/title
+#: /home/david/projects/extensions-data-collector/output_dir/metrics/v1.1/release-schema.json:1
+msgid "Unit name"
+msgstr "Unit name"
+
+#. /definitions/Observation/properties/unit/properties/name/description
+#: /home/david/projects/extensions-data-collector/output_dir/metrics/v1.1/release-schema.json:1
+msgid "The name of the unit."
+msgstr "The name of the unit."
+
+#. /definitions/Observation/properties/unit/properties/scheme/title
+#: /home/david/projects/extensions-data-collector/output_dir/metrics/v1.1/release-schema.json:1
+msgid "Scheme"
+msgstr "Scheme"
+
+#. /definitions/Observation/properties/unit/properties/scheme/description
+#: /home/david/projects/extensions-data-collector/output_dir/metrics/v1.1/release-schema.json:1
+msgid ""
+"The list from which units of measure identifiers are taken. This should be "
+"an entry in the unitClassificationScheme codelist. Use of the scheme "
+"'UNCEFACT' for the UN/CEFACT Recommendation 20 list of 'Codes for Units of "
+"Measure Used in International Trade' is recommended."
+msgstr ""
+"The list from which units of measure identifiers are taken. This should be "
+"an entry in the unitClassificationScheme codelist. Use of the scheme "
+"'UNCEFACT' for the UN/CEFACT Recommendation 20 list of 'Codes for Units of "
+"Measure Used in International Trade' is recommended."
+
+#. /definitions/Observation/properties/unit/properties/id/title
+#: /home/david/projects/extensions-data-collector/output_dir/metrics/v1.1/release-schema.json:1
+msgid "ID"
+msgstr "ID"
+
+#. /definitions/Observation/properties/unit/properties/id/description
+#: /home/david/projects/extensions-data-collector/output_dir/metrics/v1.1/release-schema.json:1
+msgid ""
+"The identifier from the codelist referenced in the schema property. For "
+"example, with UNCEFACT, this is the value of the 'Common Code' column. From "
+"this identifier, applications can look-up the human readable name or symbol "
+"for this unit of measure."
+msgstr ""
+"The identifier from the codelist referenced in the schema property. For "
+"example, with UNCEFACT, this is the value of the 'Common Code' column. From "
+"this identifier, applications can look-up the human readable name or symbol "
+"for this unit of measure."
+
+#. /definitions/Observation/properties/unit/properties/uri/title
+#: /home/david/projects/extensions-data-collector/output_dir/metrics/v1.1/release-schema.json:1
+msgid "URI"
+msgstr "URI"
+
+#. /definitions/Observation/properties/unit/properties/uri/description
+#: /home/david/projects/extensions-data-collector/output_dir/metrics/v1.1/release-schema.json:1
+msgid ""
+"If the scheme used provide a machine-readable URI for this unit of measure, "
+"this can be given."
+msgstr ""
+"If the scheme used provide a machine-readable URI for this unit of measure, "
+"this can be given."
+
+#. /definitions/Observation/properties/dimensions/title
+#: /home/david/projects/extensions-data-collector/output_dir/metrics/v1.1/release-schema.json:1
+msgid "Dimensions"
+msgstr "Dimensions"
+
+#. /definitions/Observation/properties/dimensions/description
+#: /home/david/projects/extensions-data-collector/output_dir/metrics/v1.1/release-schema.json:1
+msgid ""
+"Any number of dimensions can be recorded within this object. Dimensions "
+"names should follow the camelCase conventions of OCDS."
+msgstr ""
+"Any number of dimensions can be recorded within this object. Dimensions "
+"names should follow the camelCase conventions of OCDS."
+
+#. /definitions/Observation/properties/notes/title
+#: /home/david/projects/extensions-data-collector/output_dir/metrics/v1.1/release-schema.json:1
+msgid "Notes"
+msgstr "Notes"
+
+#. /definitions/Observation/properties/notes/description
+#: /home/david/projects/extensions-data-collector/output_dir/metrics/v1.1/release-schema.json:1
+msgid ""
+"Any notes on this observation. This may include clarifying information."
+msgstr ""
+"Any notes on this observation. This may include clarifying information."
+
+#. /definitions/Observation/properties/relatedImplementationMilestone/title
+#: /home/david/projects/extensions-data-collector/output_dir/metrics/v1.1/release-schema.json:1
+msgid "Related implementation milestone"
+msgstr "Related implementation milestone"
+
+#. /definitions/Observation/properties/relatedImplementationMilestone/description
+#: /home/david/projects/extensions-data-collector/output_dir/metrics/v1.1/release-schema.json:1
+msgid ""
+"A link to the milestone in the implementation section of OCDS to which this "
+"forecast, target or actual observation relates."
+msgstr ""
+"A link to the milestone in the implementation section of OCDS to which this "
+"forecast, target or actual observation relates."
+
+#. /definitions/MilestoneReference/title
+#: /home/david/projects/extensions-data-collector/output_dir/metrics/v1.1/release-schema.json:1
+msgid "Milestone Reference"
+msgstr "Milestone Reference"
+
+#. /definitions/MilestoneReference/description
+#: /home/david/projects/extensions-data-collector/output_dir/metrics/v1.1/release-schema.json:1
+msgid ""
+"A block used to reference a milestone, including the ID and title of the "
+"milestone being referenced."
+msgstr ""
+"A block used to reference a milestone, including the ID and title of the "
+"milestone being referenced."
+
+#. /definitions/MilestoneReference/properties/id/title
+#: /home/david/projects/extensions-data-collector/output_dir/metrics/v1.1/release-schema.json:1
+msgid "Milestone ID"
+msgstr "Milestone ID"
+
+#. /definitions/MilestoneReference/properties/id/description
+#: /home/david/projects/extensions-data-collector/output_dir/metrics/v1.1/release-schema.json:1
+msgid ""
+"The ID of the milestone being referenced, this must match the ID of a "
+"milestone described elsewhere in a release about this contracting process."
+msgstr ""
+"The ID of the milestone being referenced, this must match the ID of a "
+"milestone described elsewhere in a release about this contracting process."
+
+#. /definitions/MilestoneReference/properties/title/title
+#: /home/david/projects/extensions-data-collector/output_dir/metrics/v1.1/release-schema.json:1
+msgid "Milestone title"
+msgstr "Milestone title"
+
+#. /definitions/MilestoneReference/properties/title/description
+#: /home/david/projects/extensions-data-collector/output_dir/metrics/v1.1/release-schema.json:1
+msgid ""
+"The title of the milestone being referenced, this must match the title of a "
+"milestone described elsewhere in a release about this contracting process."
+msgstr ""
+"The title of the milestone being referenced, this must match the title of a "
+"milestone described elsewhere in a release about this contracting process."

@@ -1,0 +1,132 @@
+# Translations template for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-09-28 16:49+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#. /name
+#: /home/david/projects/extensions-data-collector/output_dir/participation_fee/master/extension.json:1
+msgid "Participation Fees"
+msgstr "Participation Fees"
+
+#. /description
+#: /home/david/projects/extensions-data-collector/output_dir/participation_fee/master/extension.json:1
+msgid ""
+"Where a tender process involves payment of fees to access documents, submit "
+"a proposal, or be awarded a contract, this extension can be used to provide "
+"fee details."
+msgstr ""
+"Where a tender process involves payment of fees to access documents, submit "
+"a proposal, or be awarded a contract, this extension can be used to provide "
+"fee details."
+
+#. /definitions/ParticipationFee/title
+#: /home/david/projects/extensions-data-collector/output_dir/participation_fee/master/release-schema.json:1
+msgid "Participation fee"
+msgstr "Participation fee"
+
+#. /definitions/ParticipationFee/description
+#: /home/david/projects/extensions-data-collector/output_dir/participation_fee/master/release-schema.json:1
+msgid ""
+"A fee applicable to bidders wishing to participate in the tender process. "
+"Fees may apply for access to bidding documents, for the submission of bids "
+"or there may be a win fee payable by the successful bidder."
+msgstr ""
+"A fee applicable to bidders wishing to participate in the tender process. "
+"Fees may apply for access to bidding documents, for the submission of bids "
+"or there may be a win fee payable by the successful bidder."
+
+#. /definitions/ParticipationFee/properties/id/title
+#: /home/david/projects/extensions-data-collector/output_dir/participation_fee/master/release-schema.json:1
+msgid "Fee ID"
+msgstr "Fee ID"
+
+#. /definitions/ParticipationFee/properties/id/description
+#: /home/david/projects/extensions-data-collector/output_dir/participation_fee/master/release-schema.json:1
+msgid ""
+"A local identifier for this fee, unique within this block. This field is "
+"used to keep track of multiple revisions of a fee through the compilation "
+"from release to record mechanism."
+msgstr ""
+"A local identifier for this fee, unique within this block. This field is "
+"used to keep track of multiple revisions of a fee through the compilation "
+"from release to record mechanism."
+
+#. /definitions/ParticipationFee/properties/type/title
+#: /home/david/projects/extensions-data-collector/output_dir/participation_fee/master/release-schema.json:1
+msgid "Fee type"
+msgstr "Fee type"
+
+#. /definitions/ParticipationFee/properties/type/description
+#: /home/david/projects/extensions-data-collector/output_dir/participation_fee/master/release-schema.json:1
+msgid ""
+"A fees applicable to bidders wishing to participate in the tender process. "
+"Fees may apply for access to bidding documents, for the submission of bids "
+"or there may be a win fee payable by the successful bidder."
+msgstr ""
+"A fees applicable to bidders wishing to participate in the tender process. "
+"Fees may apply for access to bidding documents, for the submission of bids "
+"or there may be a win fee payable by the successful bidder."
+
+#. /definitions/ParticipationFee/properties/value/title
+#: /home/david/projects/extensions-data-collector/output_dir/participation_fee/master/release-schema.json:1
+msgid "Value"
+msgstr "Value"
+
+#. /definitions/ParticipationFee/properties/value/description
+#: /home/david/projects/extensions-data-collector/output_dir/participation_fee/master/release-schema.json:1
+msgid "The monetary value of this fee."
+msgstr "The monetary value of this fee."
+
+#. /definitions/ParticipationFee/properties/description/title
+#: /home/david/projects/extensions-data-collector/output_dir/participation_fee/master/release-schema.json:1
+msgid "Description"
+msgstr "Description"
+
+#. /definitions/ParticipationFee/properties/description/description
+#: /home/david/projects/extensions-data-collector/output_dir/participation_fee/master/release-schema.json:1
+msgid ""
+"Optional information about the way in which fees are levied, or the exact "
+"nature of the fees."
+msgstr ""
+"Optional information about the way in which fees are levied, or the exact "
+"nature of the fees."
+
+#. /definitions/ParticipationFee/properties/methodOfPayment/title
+#: /home/david/projects/extensions-data-collector/output_dir/participation_fee/master/release-schema.json:1
+msgid "Method(s) of payment"
+msgstr "Method(s) of payment"
+
+#. /definitions/ParticipationFee/properties/methodOfPayment/description
+#: /home/david/projects/extensions-data-collector/output_dir/participation_fee/master/release-schema.json:1
+msgid "Optional information about the way in which fees can be paid."
+msgstr "Optional information about the way in which fees can be paid."
+
+#. /definitions/Tender/properties/participationFees/title
+#: /home/david/projects/extensions-data-collector/output_dir/participation_fee/master/release-schema.json:1
+msgid "Participation fees"
+msgstr "Participation fees"
+
+#. /definitions/Tender/properties/participationFees/description
+#: /home/david/projects/extensions-data-collector/output_dir/participation_fee/master/release-schema.json:1
+msgid ""
+"Any fees applicable to bidders wishing to participate in the tender process."
+" Fees may apply for access to bidding documents, for the submission of bids "
+"or there may be a win fee payable by the successful bidder."
+msgstr ""
+"Any fees applicable to bidders wishing to participate in the tender process."
+" Fees may apply for access to bidding documents, for the submission of bids "
+"or there may be a win fee payable by the successful bidder."

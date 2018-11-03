@@ -1,0 +1,81 @@
+# Translations template for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-09-28 16:50+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: /home/david/projects/extensions-data-collector/output_dir/qualification/master/codelists/preQualificationStatus.csv
+msgid "Code"
+msgstr "Code"
+
+#: /home/david/projects/extensions-data-collector/output_dir/qualification/master/codelists/preQualificationStatus.csv
+msgid "Title"
+msgstr "Title"
+
+#: /home/david/projects/extensions-data-collector/output_dir/qualification/master/codelists/preQualificationStatus.csv
+msgid "Description"
+msgstr "Description"
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/qualification/master/codelists/preQualificationStatus.csv:1
+msgid "Planned"
+msgstr "Planned"
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/qualification/master/codelists/preQualificationStatus.csv:1
+msgid "This pre-qualification has been proposed, but is not yet taking place."
+msgstr ""
+"This pre-qualification has been proposed, but is not yet taking place."
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/qualification/master/codelists/preQualificationStatus.csv:2
+msgid "Active"
+msgstr "Active"
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/qualification/master/codelists/preQualificationStatus.csv:2
+msgid "A pre-qualification process is currently taking place."
+msgstr "A pre-qualification process is currently taking place."
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/qualification/master/codelists/preQualificationStatus.csv:3
+msgid "Cancelled"
+msgstr "Cancelled"
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/qualification/master/codelists/preQualificationStatus.csv:3
+msgid "The pre-qualification process has been cancelled."
+msgstr "The pre-qualification process has been cancelled."
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/qualification/master/codelists/preQualificationStatus.csv:4
+msgid "Unsuccessful"
+msgstr "Unsuccessful"
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/qualification/master/codelists/preQualificationStatus.csv:4
+msgid "The pre-qualification process was unsuccessful."
+msgstr "The pre-qualification process was unsuccessful."
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/qualification/master/codelists/preQualificationStatus.csv:5
+msgid "Complete"
+msgstr "Complete"
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/qualification/master/codelists/preQualificationStatus.csv:5
+msgid "The pre-qualification process is complete."
+msgstr "The pre-qualification process is complete."

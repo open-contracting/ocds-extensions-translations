@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)
+# This file is distributed under the same license as the OCDS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# David Raznick <david.raznick@opendataservices.coop>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OCDS 1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-28 16:46+0100\n"
+"PO-Revision-Date: 2018-09-19 09:35+0000\n"
+"Last-Translator: David Raznick <david.raznick@opendataservices.coop>, 2018\n"
+"Language-Team: Spanish (Spain) (https://www.transifex.com/OpenDataServices/teams/59224/es_ES/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../milestone_documents/v1.1/README.md:0
+msgid "Milestone Documents"
+msgstr "Documentos de Hito"
+
+#: ../milestone_documents/v1.1/README.md:4
+msgid ""
+"In OCDS 1.1, core support for documents attached to individual milestones "
+"was removed from the milestones block to simplify the standard."
+msgstr ""
+"En OCDS 1.1, el soporte básico para documentos adjuntos a hitos individuales"
+" se eliminó del bloque de hitos para simplificar el estándar."
+
+#: ../milestone_documents/v1.1/README.md:6
+msgid ""
+"This extension re-introduces the ```documents``` block to ```milestones```, "
+"providing fields to detail the documents related to each individual "
+"milestone."
+msgstr ""
+
+#: ../milestone_documents/v1.1/README.md:0
+msgid "Guidance"
+msgstr "Guía"
+
+#: ../milestone_documents/v1.1/README.md:10
+msgid ""
+"Publishers should consider that many consuming applications will only look "
+"at the ```tender/documents```, ```award/documents```, "
+"```contracts/documents``` and ```contracts/implementation/documents``` "
+"section to access and display relevant documentation to users."
+msgstr ""
+
+#: ../milestone_documents/v1.1/README.md:12
+msgid ""
+"Document titles, document types, and descriptions can be used to indicate to"
+" human readers the particular nature of the documents and any milestones "
+"they relate to."
+msgstr ""
+"Los títulos de los documentos, los tipos de documentos y las descripciones "
+"se pueden utilizar para indicar a los lectores humanos la naturaleza "
+"particular de los documentos y los hitos con los que se relacionan."
+
+#: ../milestone_documents/v1.1/README.md:14
+msgid ""
+"However, in cases where it is important to track documents on a milestone-"
+"by-milestone basis this extension can be introduced."
+msgstr ""
+"Sin embargo, en los casos en que es importante rastrear los documentos hito "
+"por hito, esta extensión puede ser introducida."
+
+#: ../milestone_documents/v1.1/README.md:16
+msgid ""
+"Depending on the nature of the documents, publishers should consider "
+"duplicating information in the parent sections documents block also."
+msgstr ""
+"Dependiendo de la naturaleza de los documentos, los publicadores deberán "
+"considerar duplicar la información en el bloque de documentos de las "
+"secciones principales también."

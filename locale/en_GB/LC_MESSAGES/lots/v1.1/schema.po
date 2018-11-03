@@ -1,0 +1,295 @@
+# Translations template for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-09-28 16:48+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#. /description
+#: /home/david/projects/extensions-data-collector/output_dir/lots/v1.1/extension.json:1
+msgid ""
+"A tender process may be divided into lots, where bidders can bid on one or "
+"more lots. Details of each lot can be provided here. Items, documents and "
+"other features can then reference the lot they are related to using "
+"relatedLot. Where no relatedLot identifier is given, the values should be "
+"interpreted as applicable to the whole tender."
+msgstr ""
+"A tender process may be divided into lots, where bidders can bid on one or "
+"more lots. Details of each lot can be provided here. Items, documents and "
+"other features can then reference the lot they are related to using "
+"relatedLot. Where no relatedLot identifier is given, the values should be "
+"interpreted as applicable to the whole tender."
+
+#. /name
+#. /definitions/Tender/properties/lots/title
+#. /definitions/Lot/title
+#: /home/david/projects/extensions-data-collector/output_dir/lots/v1.1/extension.json:1
+#: /home/david/projects/extensions-data-collector/output_dir/lots/v1.1/release-schema.json:1
+msgid "Lots"
+msgstr "Lots"
+
+#. /definitions/Tender/properties/lots/description
+#: /home/david/projects/extensions-data-collector/output_dir/lots/v1.1/release-schema.json:1
+msgid ""
+"A tender process may be divided into lots, where bidders can bid on one or "
+"more lots. Details of each lot can be provided here. Items, documents and "
+"other features can then reference the lot they are related to using "
+"relatedLot. Where no relatedLots identifier is given, the values should be "
+"interpreted as applicable to the whole tender. Properties of tender can be "
+"overridden for a given Lot through their inclusion in the Lot object."
+msgstr ""
+"A tender process may be divided into lots, where bidders can bid on one or "
+"more lots. Details of each lot can be provided here. Items, documents and "
+"other features can then reference the lot they are related to using "
+"relatedLot. Where no relatedLots identifier is given, the values should be "
+"interpreted as applicable to the whole tender. Properties of tender can be "
+"overridden for a given Lot through their inclusion in the Lot object."
+
+#. /definitions/Tender/properties/lotGroups/title
+#: /home/david/projects/extensions-data-collector/output_dir/lots/v1.1/release-schema.json:1
+msgid "Lot groups"
+msgstr "Lot groups"
+
+#. /definitions/Tender/properties/lotGroups/description
+#. /definitions/LotGroup/description
+#: /home/david/projects/extensions-data-collector/output_dir/lots/v1.1/release-schema.json:1
+msgid ""
+"Where the buyer reserves the right to combine lots, or wishes to specify the"
+" total value for a group of lots, a lot group is used to capture this "
+"information."
+msgstr ""
+"Where the buyer reserves the right to combine lots, or wishes to specify the"
+" total value for a group of lots, a lot group is used to capture this "
+"information."
+
+#. /definitions/Document/properties/relatedLots/title
+#. /definitions/Milestone/properties/relatedLots/title
+#. /definitions/Award/properties/relatedLots/title
+#. /definitions/Bid/properties/relatedLots/title
+#. /definitions/LotGroup/properties/relatedLots/title
+#: /home/david/projects/extensions-data-collector/output_dir/lots/v1.1/release-schema.json:1
+msgid "Related lot(s)"
+msgstr "Related lot(s)"
+
+#. /definitions/Document/properties/relatedLots/description
+#: /home/david/projects/extensions-data-collector/output_dir/lots/v1.1/release-schema.json:1
+msgid ""
+"If this document relates to a particular lot, provide the identifier(s) of "
+"the related lot(s) here."
+msgstr ""
+"If this document relates to a particular lot, provide the identifier(s) of "
+"the related lot(s) here."
+
+#. /definitions/Item/properties/relatedLot/title
+#: /home/david/projects/extensions-data-collector/output_dir/lots/v1.1/release-schema.json:1
+msgid "Related lot"
+msgstr "Related lot"
+
+#. /definitions/Item/properties/relatedLot/description
+#: /home/david/projects/extensions-data-collector/output_dir/lots/v1.1/release-schema.json:1
+msgid ""
+"If this item belongs to a lot, provide the identifier of the related lot "
+"here. Each item may only belong to a single lot."
+msgstr ""
+"If this item belongs to a lot, provide the identifier of the related lot "
+"here. Each item may only belong to a single lot."
+
+#. /definitions/Milestone/properties/relatedLots/description
+#: /home/david/projects/extensions-data-collector/output_dir/lots/v1.1/release-schema.json:1
+msgid ""
+"If this milestone relates to a particular lot, provide the identifier(s) of "
+"the related lot(s) here."
+msgstr ""
+"If this milestone relates to a particular lot, provide the identifier(s) of "
+"the related lot(s) here."
+
+#. /definitions/Award/properties/relatedLots/description
+#: /home/david/projects/extensions-data-collector/output_dir/lots/v1.1/release-schema.json:1
+msgid ""
+"If this award relates to one or more specific lots, provide the "
+"identifier(s) of the related lot(s) here."
+msgstr ""
+"If this award relates to one or more specific lots, provide the "
+"identifier(s) of the related lot(s) here."
+
+#. /definitions/Bid/properties/relatedLots/description
+#: /home/david/projects/extensions-data-collector/output_dir/lots/v1.1/release-schema.json:1
+msgid ""
+"If this bid relates to one or more specific lots, provide the identifier(s) "
+"of the related lot(s) here."
+msgstr ""
+"If this bid relates to one or more specific lots, provide the identifier(s) "
+"of the related lot(s) here."
+
+#. /definitions/Lot/description
+#: /home/david/projects/extensions-data-collector/output_dir/lots/v1.1/release-schema.json:1
+msgid ""
+"A lot is a grouping of items within a tender that can be bid on or awarded "
+"together."
+msgstr ""
+"A lot is a grouping of items within a tender that can be bid on or awarded "
+"together."
+
+#. /definitions/Lot/properties/id/title
+#: /home/david/projects/extensions-data-collector/output_dir/lots/v1.1/release-schema.json:1
+msgid "Lot ID"
+msgstr "Lot ID"
+
+#. /definitions/Lot/properties/id/description
+#: /home/david/projects/extensions-data-collector/output_dir/lots/v1.1/release-schema.json:1
+msgid ""
+"A local identifier for this lot, such as a lot number. This is used in "
+"relatedLots references at the item, document and award level."
+msgstr ""
+"A local identifier for this lot, such as a lot number. This is used in "
+"relatedLots references at the item, document and award level."
+
+#. /definitions/Lot/properties/title/title
+#: /home/david/projects/extensions-data-collector/output_dir/lots/v1.1/release-schema.json:1
+msgid "Title"
+msgstr "Title"
+
+#. /definitions/Lot/properties/title/description
+#: /home/david/projects/extensions-data-collector/output_dir/lots/v1.1/release-schema.json:1
+msgid "A title for this lot."
+msgstr "A title for this lot."
+
+#. /definitions/Lot/properties/description/title
+#: /home/david/projects/extensions-data-collector/output_dir/lots/v1.1/release-schema.json:1
+msgid "Description"
+msgstr "Description"
+
+#. /definitions/Lot/properties/description/description
+#: /home/david/projects/extensions-data-collector/output_dir/lots/v1.1/release-schema.json:1
+msgid "A description of this lot."
+msgstr "A description of this lot."
+
+#. /definitions/Lot/properties/status/title
+#: /home/david/projects/extensions-data-collector/output_dir/lots/v1.1/release-schema.json:1
+msgid "Lot Status"
+msgstr "Lot Status"
+
+#. /definitions/Lot/properties/status/description
+#: /home/david/projects/extensions-data-collector/output_dir/lots/v1.1/release-schema.json:1
+msgid ""
+"The current status of the process related to this lot based on the "
+"[tenderStatus codelist](http://ocds.open-"
+"contracting.org/standard/r/1__0__0/en/schema/codelists#tender-status)"
+msgstr ""
+"The current status of the process related to this lot based on the "
+"[tenderStatus codelist](http://ocds.open-"
+"contracting.org/standard/r/1__0__0/en/schema/codelists#tender-status)"
+
+#. /definitions/Lot/properties/value/title
+#: /home/david/projects/extensions-data-collector/output_dir/lots/v1.1/release-schema.json:1
+msgid "Lot value"
+msgstr "Lot value"
+
+#. /definitions/Lot/properties/value/description
+#: /home/david/projects/extensions-data-collector/output_dir/lots/v1.1/release-schema.json:1
+msgid "The maximum estimated value of this lot."
+msgstr "The maximum estimated value of this lot."
+
+#. /definitions/LotDetails/title
+#: /home/david/projects/extensions-data-collector/output_dir/lots/v1.1/release-schema.json:1
+msgid "Lot Details"
+msgstr "Lot Details"
+
+#. /definitions/LotDetails/description
+#: /home/david/projects/extensions-data-collector/output_dir/lots/v1.1/release-schema.json:1
+msgid ""
+"If this tender is divided into lots, details can be provided here of any "
+"criteria that apply to bidding on these lots. This extended property is "
+"currently focussed on fields required by the EU TED data standard"
+msgstr ""
+"If this tender is divided into lots, details can be provided here of any "
+"criteria that apply to bidding on these lots. This extended property is "
+"currently focussed on fields required by the EU TED data standard"
+
+#. /definitions/LotDetails/properties/maximumLotsBidPerSupplier/title
+#. /definitions/LotDetails/properties/maximumLotsAwardedPerSupplier/title
+#: /home/david/projects/extensions-data-collector/output_dir/lots/v1.1/release-schema.json:1
+msgid "Maximum lots per supplier"
+msgstr "Maximum lots per supplier"
+
+#. /definitions/LotDetails/properties/maximumLotsBidPerSupplier/description
+#: /home/david/projects/extensions-data-collector/output_dir/lots/v1.1/release-schema.json:1
+msgid ""
+"The maximum number of lots that one supplier may bid for as part of this "
+"contracting process."
+msgstr ""
+"The maximum number of lots that one supplier may bid for as part of this "
+"contracting process."
+
+#. /definitions/LotDetails/properties/maximumLotsAwardedPerSupplier/description
+#: /home/david/projects/extensions-data-collector/output_dir/lots/v1.1/release-schema.json:1
+msgid ""
+"The maximum number of lots that may be awarded to one supplier as part of "
+"this contracting process."
+msgstr ""
+"The maximum number of lots that may be awarded to one supplier as part of "
+"this contracting process."
+
+#. /definitions/LotGroup/title
+#: /home/david/projects/extensions-data-collector/output_dir/lots/v1.1/release-schema.json:1
+msgid "Lot group"
+msgstr "Lot group"
+
+#. /definitions/LotGroup/properties/id/title
+#: /home/david/projects/extensions-data-collector/output_dir/lots/v1.1/release-schema.json:1
+msgid "Lot group identifier"
+msgstr "Lot group identifier"
+
+#. /definitions/LotGroup/properties/id/description
+#: /home/david/projects/extensions-data-collector/output_dir/lots/v1.1/release-schema.json:1
+msgid "A local identifier for this group of lots."
+msgstr "A local identifier for this group of lots."
+
+#. /definitions/LotGroup/properties/relatedLots/description
+#: /home/david/projects/extensions-data-collector/output_dir/lots/v1.1/release-schema.json:1
+msgid ""
+"A list of the identifiers of the lots that form this group. Lots may appear "
+"in more than one group."
+msgstr ""
+"A list of the identifiers of the lots that form this group. Lots may appear "
+"in more than one group."
+
+#. /definitions/LotGroup/properties/optionToCombine/title
+#: /home/david/projects/extensions-data-collector/output_dir/lots/v1.1/release-schema.json:1
+msgid "Option to combine"
+msgstr "Option to combine"
+
+#. /definitions/LotGroup/properties/optionToCombine/description
+#: /home/david/projects/extensions-data-collector/output_dir/lots/v1.1/release-schema.json:1
+msgid ""
+"The buyer reserves the right to combine the lots in this group when awarding"
+" a contract."
+msgstr ""
+"The buyer reserves the right to combine the lots in this group when awarding"
+" a contract."
+
+#. /definitions/LotGroup/properties/maximumValue/title
+#: /home/david/projects/extensions-data-collector/output_dir/lots/v1.1/release-schema.json:1
+msgid "Maximum value"
+msgstr "Maximum value"
+
+#. /definitions/LotGroup/properties/maximumValue/description
+#: /home/david/projects/extensions-data-collector/output_dir/lots/v1.1/release-schema.json:1
+msgid ""
+"The maximum estimated value of the lots in this group. This may be lower "
+"than the sum total of lot values"
+msgstr ""
+"The maximum estimated value of the lots in this group. This may be lower "
+"than the sum total of lot values"

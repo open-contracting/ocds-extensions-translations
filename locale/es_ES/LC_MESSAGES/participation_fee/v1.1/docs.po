@@ -1,0 +1,181 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)
+# This file is distributed under the same license as the OCDS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# David Raznick <david.raznick@opendataservices.coop>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OCDS 1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-28 16:46+0100\n"
+"PO-Revision-Date: 2018-09-19 09:36+0000\n"
+"Last-Translator: David Raznick <david.raznick@opendataservices.coop>, 2018\n"
+"Language-Team: Spanish (Spain) (https://www.transifex.com/OpenDataServices/teams/59224/es_ES/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../participation_fee/v1.1/README.md:0
+msgid "Participation fees"
+msgstr "Cuotas de participación"
+
+#: ../participation_fee/v1.1/README.md:0
+msgid "Background"
+msgstr "Antecedentes"
+
+#: ../participation_fee/v1.1/README.md:5
+msgid ""
+"There are a number of cases where there may be costs to access documents "
+"for, or to participate within, a tender process."
+msgstr ""
+"Hay una serie de casos en los que puede haber costos para acceder a los "
+"documentos o participar en un proceso de licitación."
+
+#: ../participation_fee/v1.1/README.md:7
+msgid ""
+"Potential bidders will want to be aware of the fees that a process might "
+"involve."
+msgstr ""
+"Los licitadores potenciales desearán estar enterados de las cuotas que un "
+"proceso puede implicar."
+
+#: ../participation_fee/v1.1/README.md:9
+msgid ""
+"Procurement monitors may wish to ensure that participation fees are within "
+"legal parameters (often set as a fixed maximum, or a percentage of total "
+"contract value), or to monitor how participation fees are being used."
+msgstr ""
+"Los monitores de adquisiciones tal vez deseen asegurarse de que las cuotas "
+"de participación estén dentro de los parámetros legales (a menudo fijados "
+"como un máximo fijo, o un porcentaje del valor total del contrato), o para "
+"controlar cómo se usan las cuotas de participación."
+
+#: ../participation_fee/v1.1/README.md:0
+msgid "Extension fields"
+msgstr "Campos de extensión"
+
+#: ../participation_fee/v1.1/README.md:13
+msgid ""
+"This extension adds a ```participationFees``` field to the ```tender``` "
+"section of OCDS and introduces a new ```participationFee``` building block."
+msgstr ""
+
+#: ../participation_fee/v1.1/README.md:15
+msgid ""
+"The ```participationFees``` field is an array of ```participationFee``` "
+"building blocks."
+msgstr ""
+
+#: ../participation_fee/v1.1/README.md:17
+msgid "The ```participationFee``` building block is made up of three fields:"
+msgstr ""
+
+#: ../participation_fee/v1.1/README.md:19
+msgid ""
+"```type``` - a value from the ```participationFeeType``` codelist, "
+"describing the type of the fee"
+msgstr ""
+
+#: ../participation_fee/v1.1/README.md:20
+msgid "```value``` - the amount and currency of the fee"
+msgstr ""
+
+#: ../participation_fee/v1.1/README.md:21
+msgid ""
+"```description``` - an optional field with more information on the fee "
+"requirements. For example, sometimes a document fee is only applicable to "
+"the hard copy of the documents."
+msgstr ""
+
+#: ../participation_fee/v1.1/README.md:22
+msgid ""
+"```methodOfPayment``` - an optional field providing information on methods "
+"of payment accepted for the documentation. This is currently an array of "
+"strings, but an open codelist may be introduced in future."
+msgstr ""
+
+#: ../participation_fee/v1.1/README.md:0
+msgid "Extension codelists"
+msgstr "Listas de códigos de extensión"
+
+#: ../participation_fee/v1.1/README.md:26
+msgid ""
+"This extension adds **closed** ```participationFeeType``` codelist with the "
+"following codes:"
+msgstr ""
+
+#: ../participation_fee/v1.1/README.md:28
+msgid "document - a fee payable for access to bidding documents"
+msgstr ""
+"document - una cuota a pagar por el acceso a los documentos de licitación"
+
+#: ../participation_fee/v1.1/README.md:29
+msgid "deposit - a refundable fee payable for the submission of bids"
+msgstr ""
+"deposit - una cuota reembolsable a pagar por la presentación de ofertas"
+
+#: ../participation_fee/v1.1/README.md:30
+msgid "submission - a non-refundable fee payable for the submission of bids"
+msgstr ""
+"submission - una cuota no reembolsable a pagar por la presentación de "
+"ofertas"
+
+#: ../participation_fee/v1.1/README.md:31
+msgid "win - a fee payable by the winning bidder"
+msgstr "win - una cuota a pagar por el ganador"
+
+#: ../participation_fee/v1.1/README.md:0
+msgid "Example"
+msgstr "Ejemplo"
+
+#: ../participation_fee/v1.1/README.md:35
+msgid ""
+"The following JSON snippet models a contracting process where fees are "
+"applicable for both access to documents and submission of bids:"
+msgstr ""
+"El siguiente fragmento de JSON modela un proceso de contratación donde las "
+"tarifas son aplicables tanto para el acceso a documentos como para la "
+"presentación de ofertas:"
+
+#: ../participation_fee/v1.1/README.md:0
+msgid "Usage notes"
+msgstr "Notas de uso"
+
+#: ../participation_fee/v1.1/README.md:66
+msgid ""
+"In some cases, a fee may be levied for 'official copies' of procurement "
+"documents (although copies may also be available freely online), and bidders"
+" required to prove they have paid for an official copy of the documents as "
+"part of their submission."
+msgstr ""
+"En algunos casos, se puede cobrar una cuota por las \"copias oficiales\" de "
+"los documentos de adquisición (aunque también se pueden obtener copias en "
+"línea de forma gratuita) y los licitadores deben probar que han pagado una "
+"copia oficial de los documentos como parte de su presentación."
+
+#: ../participation_fee/v1.1/README.md:68
+msgid ""
+"In this case, the fee should be modelled as a **submission** fee, as "
+"submission is only possible when this document access fee has been paid."
+msgstr ""
+"En este caso, la cuota debe ser modelada como un cargo de **oferta**, ya que"
+" la presentación sólo es posible cuando se ha pagado la cuota de acceso al "
+"documento."
+
+#: ../participation_fee/v1.1/README.md:0
+msgid "To do"
+msgstr ""
+
+#: ../participation_fee/v1.1/README.md:72
+msgid "participation / submission terminology"
+msgstr ""
+
+#: ../participation_fee/v1.1/README.md:73
+msgid "finalise codelist"
+msgstr ""

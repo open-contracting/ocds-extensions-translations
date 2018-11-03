@@ -1,0 +1,167 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)
+# This file is distributed under the same license as the OCDS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OCDS 1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-28 16:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../metrics/master/README.md:0
+msgid "Metrics Extension"
+msgstr "Metrics Extension"
+
+#: ../metrics/master/README.md:3
+msgid ""
+"The metrics extension provides a common building block for reporting "
+"structured performance information on contracts."
+msgstr ""
+"The metrics extension provides a common building block for reporting "
+"structured performance information on contracts."
+
+#: ../metrics/master/README.md:5
+msgid ""
+"Metrics are structured like an [OLAP data "
+"cube](https://en.wikipedia.org/wiki/OLAP_cube) with each instance of "
+"`Metric` representing a single **observation**, categorized by a number of "
+"**dimensions**."
+msgstr ""
+"Metrics are structured like an [OLAP data "
+"cube](https://en.wikipedia.org/wiki/OLAP_cube) with each instance of "
+"`Metric` representing a single **observation**, categorized by a number of "
+"**dimensions**."
+
+#: ../metrics/master/README.md:7
+msgid "The metrics extension can be used at:"
+msgstr "The metrics extension can be used at:"
+
+#: ../metrics/master/README.md:9
+msgid ""
+"The `planning` stage for forecasts for the contracting process (e.g. "
+"forecast demand levels)"
+msgstr ""
+"The `planning` stage for forecasts for the contracting process (e.g. "
+"forecast demand levels)"
+
+#: ../metrics/master/README.md:10
+msgid ""
+"The `tender` stage for targets for the contracting process (e.g. target "
+"availability levels or KPIs)"
+msgstr ""
+"The `tender` stage for targets for the contracting process (e.g. target "
+"availability levels or KPIs)"
+
+#: ../metrics/master/README.md:11
+msgid ""
+"The `award` and `contract` stages for targets agreed with the successful "
+"supplier (e.g. availability levels or KPIs)"
+msgstr ""
+"The `award` and `contract` stages for targets agreed with the successful "
+"supplier (e.g. availability levels or KPIs)"
+
+#: ../metrics/master/README.md:12
+msgid ""
+"The `implementation` stage for actual performance information (e.g. actual "
+"demand, availability, KPIs etc.)"
+msgstr ""
+"The `implementation` stage for actual performance information (e.g. actual "
+"demand, availability, KPIs etc.)"
+
+#: ../metrics/master/README.md:14
+msgid ""
+"Where the metrics extension is used to model targets for a contracting "
+"process, the `description` field can be used to start whether the target is "
+"a minimum or recommended target."
+msgstr ""
+"Where the metrics extension is used to model targets for a contracting "
+"process, the `description` field can be used to start whether the target is "
+"a minimum or recommended target."
+
+#: ../metrics/master/README.md:0
+msgid "Example - Forecasts"
+msgstr "Example - Forecasts"
+
+#: ../metrics/master/README.md:0
+msgid "Example - Physical progress"
+msgstr "Example - Physical progress"
+
+#: ../metrics/master/README.md:55
+msgid ""
+"The metrics extension can also be used to report on the physical progress of"
+" a contract. The following JSON snippet shows how the metrics extension "
+"could be used to report on progress for the construction of a highway, both "
+"by percent completion and number of kilometres constructed:"
+msgstr ""
+"The metrics extension can also be used to report on the physical progress of"
+" a contract. The following JSON snippet shows how the metrics extension "
+"could be used to report on progress for the construction of a highway, both "
+"by percent completion and number of kilometres constructed:"
+
+#: ../metrics/master/README.md:0
+msgid "Use with requirements"
+msgstr "Use with requirements"
+
+#: ../metrics/master/README.md:108
+msgid ""
+"Metrics can be used along with the **requirements extension** which will add"
+" a 'relatedRequirementID' property to metrics."
+msgstr ""
+"Metrics can be used along with the **requirements extension** which will add"
+" a 'relatedRequirementID' property to metrics."
+
+#: ../metrics/master/README.md:110
+msgid ""
+"With the requirements extension, bids, awards and contracts can include a "
+"`RequirementResponse` indicating the values against each metric that a "
+"supplier intends to meet."
+msgstr ""
+"With the requirements extension, bids, awards and contracts can include a "
+"`RequirementResponse` indicating the values against each metric that a "
+"supplier intends to meet."
+
+#: ../metrics/master/README.md:112
+msgid ""
+"This can allow a degree of comparison between performance anticipated at "
+"bid, award, contract and implementation phases."
+msgstr ""
+"This can allow a degree of comparison between performance anticipated at "
+"bid, award, contract and implementation phases."
+
+#: ../metrics/master/README.md:0
+msgid "To Do"
+msgstr "To Do"
+
+#: ../metrics/master/README.md:116
+msgid "[ ] Check oneOf schema syntax for value **or** quantity"
+msgstr "[ ] Check oneOf schema syntax for value **or** quantity"
+
+#: ../metrics/master/README.md:117
+msgid "[ ] Add relatedRequirementID to requirements extension"
+msgstr "[ ] Add relatedRequirementID to requirements extension"
+
+#: ../metrics/master/README.md:118
+msgid "[ ] Validate schema updates"
+msgstr "[ ] Validate schema updates"
+
+#: ../metrics/master/README.md:0
+msgid "Issues"
+msgstr "Issues"
+
+#: ../metrics/master/README.md:122
+msgid ""
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
+msgstr ""
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."

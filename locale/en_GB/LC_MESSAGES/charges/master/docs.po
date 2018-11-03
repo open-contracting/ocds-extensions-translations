@@ -1,0 +1,116 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)
+# This file is distributed under the same license as the OCDS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OCDS 1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-28 16:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../charges/master/README.md:0
+msgid "Charges"
+msgstr "Charges"
+
+#: ../charges/master/README.md:3
+msgid ""
+"The charges extension is used to record details of the **total** charges "
+"that are estimated or applied to users or government during the operation of"
+" a Public Private Partnership contract."
+msgstr ""
+"The charges extension is used to record details of the **total** charges "
+"that are estimated or applied to users or government during the operation of"
+" a Public Private Partnership contract."
+
+#: ../charges/master/README.md:5
+msgid ""
+"This can be used to provide a breakdown of **government support** to a "
+"project, on a period-by-period basis."
+msgstr ""
+"This can be used to provide a breakdown of **government support** to a "
+"project, on a period-by-period basis."
+
+#: ../charges/master/README.md:0
+msgid "Overview"
+msgstr "Overview"
+
+#: ../charges/master/README.md:9
+msgid ""
+"The Charges extension introduces a `charges` property to both `Contract` and"
+" `Contract/Implementation`."
+msgstr ""
+"The Charges extension introduces a `charges` property to both `Contract` and"
+" `Contract/Implementation`."
+
+#: ../charges/master/README.md:11
+msgid "This contains an array of `Charge` objects with properties for:"
+msgstr "This contains an array of `Charge` objects with properties for:"
+
+#: ../charges/master/README.md:13
+msgid "`title` - a descriptive title of the charge;"
+msgstr "`title` - a descriptive title of the charge;"
+
+#: ../charges/master/README.md:14
+msgid "`paidBy` - either 'government' or 'user';"
+msgstr "`paidBy` - either 'government' or 'user';"
+
+#: ../charges/master/README.md:15
+msgid "`period` - the start and end-date of the period covered by the charge;"
+msgstr ""
+"`period` - the start and end-date of the period covered by the charge;"
+
+#: ../charges/master/README.md:16
+msgid ""
+"`estimatedValue` - the predicated total value of this charge during the "
+"period;"
+msgstr ""
+"`estimatedValue` - the predicated total value of this charge during the "
+"period;"
+
+#: ../charges/master/README.md:17
+msgid ""
+"`actualValue` - the actual value (updated after the period has ended) of the"
+" charge during the period;"
+msgstr ""
+"`actualValue` - the actual value (updated after the period has ended) of the"
+" charge during the period;"
+
+#: ../charges/master/README.md:18
+msgid "`notes` - further information on the charge;"
+msgstr "`notes` - further information on the charge;"
+
+#: ../charges/master/README.md:0
+msgid "Issues"
+msgstr "Issues"
+
+#: ../charges/master/README.md:22
+msgid ""
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
+msgstr ""
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
+
+#: ../charges/master/README.md:0
+msgid "Changelog"
+msgstr "Changelog"
+
+#: ../charges/master/README.md:26
+msgid ""
+"2018-05-08 - Make `charge/id` required to support revision tracking and "
+"[list merging](http://standard.open-"
+"contracting.org/latest/en/schema/merging/#lists)."
+msgstr ""
+"2018-05-08 - Make `charge/id` required to support revision tracking and "
+"[list merging](http://standard.open-"
+"contracting.org/latest/en/schema/merging/#lists)."

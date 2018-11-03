@@ -1,0 +1,101 @@
+# Translations template for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-09-28 16:47+0100\n"
+"PO-Revision-Date: 2018-09-19 09:33+0000\n"
+"Language-Team: Spanish (Spain) (https://www.transifex.com/OpenDataServices/teams/59224/es_ES/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. /name
+#: /home/david/projects/extensions-data-collector/output_dir/budget_project/master/extension.json:1
+msgid "Budget and Projects"
+msgstr ""
+
+#. /description
+#: /home/david/projects/extensions-data-collector/output_dir/budget_project/master/extension.json:1
+msgid ""
+"Adds a project object to the planning object to describe the project to "
+"which the contracting process is related, including the total value of the "
+"project (not to be confused with the total value of the contracting "
+"process)."
+msgstr ""
+
+#. /definitions/Planning/properties/project/title
+#: /home/david/projects/extensions-data-collector/output_dir/budget_project/master/release-schema.json:1
+msgid "Project information"
+msgstr ""
+
+#. /definitions/Planning/properties/project/description
+#: /home/david/projects/extensions-data-collector/output_dir/budget_project/master/release-schema.json:1
+msgid ""
+"The project section can be used to describe the relationship between this "
+"contracting process and a project or programme of work."
+msgstr ""
+
+#. /definitions/Planning/properties/project/properties/id/title
+#: /home/david/projects/extensions-data-collector/output_dir/budget_project/master/release-schema.json:1
+msgid "Project identifier"
+msgstr ""
+
+#. /definitions/Planning/properties/project/properties/id/description
+#: /home/david/projects/extensions-data-collector/output_dir/budget_project/master/release-schema.json:1
+msgid ""
+"An externally provided identifier for the project. This might be drawn from "
+"a projects register, or may be based on the canonical version of a project "
+"name. Project IDs should be unique to a publisher. URIs can be used."
+msgstr ""
+
+#. /definitions/Planning/properties/project/properties/title/title
+#: /home/david/projects/extensions-data-collector/output_dir/budget_project/master/release-schema.json:1
+msgid "Project title"
+msgstr ""
+
+#. /definitions/Planning/properties/project/properties/title/description
+#: /home/david/projects/extensions-data-collector/output_dir/budget_project/master/release-schema.json:1
+msgid ""
+"The name of the project to which this contracting process relates. Some "
+"organizations maintain a registry of projects, and the data should use the "
+"name by which the project is known in that registry."
+msgstr ""
+
+#. /definitions/Planning/properties/project/properties/description/title
+#: /home/david/projects/extensions-data-collector/output_dir/budget_project/master/release-schema.json:1
+msgid "Project description"
+msgstr ""
+
+#. /definitions/Planning/properties/project/properties/description/description
+#: /home/david/projects/extensions-data-collector/output_dir/budget_project/master/release-schema.json:1
+msgid "A short free text description of the project."
+msgstr ""
+
+#. /definitions/Planning/properties/project/properties/totalValue/title
+#: /home/david/projects/extensions-data-collector/output_dir/budget_project/master/release-schema.json:1
+msgid "Total project value"
+msgstr ""
+
+#. /definitions/Planning/properties/project/properties/totalValue/description
+#: /home/david/projects/extensions-data-collector/output_dir/budget_project/master/release-schema.json:1
+msgid "The total anticipated value of the project over it's lifetime."
+msgstr ""
+
+#. /definitions/Planning/properties/project/properties/uri/title
+#: /home/david/projects/extensions-data-collector/output_dir/budget_project/master/release-schema.json:1
+msgid "Linked project information"
+msgstr ""
+
+#. /definitions/Planning/properties/project/properties/uri/description
+#: /home/david/projects/extensions-data-collector/output_dir/budget_project/master/release-schema.json:1
+msgid "A URI pointing to further information about this project."
+msgstr ""
