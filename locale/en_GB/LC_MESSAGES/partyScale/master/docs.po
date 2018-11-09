@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)
+# This file is distributed under the same license as the OCDS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OCDS 1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-28 16:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../partyScale/master/README.md:0
+msgid "Party Details - Scale"
+msgstr "Party Details - Scale"
+
+#: ../partyScale/master/README.md:3
+msgid ""
+"This is a Party Details extension. It adds support for the detailed "
+"classification of one or more of the organizations included in an OCDS "
+"contracting process release."
+msgstr ""
+"This is a Party Details extension. It adds support for the detailed "
+"classification of one or more of the organizations included in an OCDS "
+"contracting process release."
+
+#: ../partyScale/master/README.md:5
+msgid ""
+"The `scale` field should be included in a release at "
+"`parties/details/scale`."
+msgstr ""
+"The `scale` field should be included in a release at "
+"`parties/details/scale`."
+
+#: ../partyScale/master/README.md:0
+msgid "Scale"
+msgstr "Scale"
+
+#: ../partyScale/master/README.md:9
+msgid ""
+"The `scale` property can be used to indicate the size or scale of a "
+"commercial organization."
+msgstr ""
+"The `scale` property can be used to indicate the size or scale of a "
+"commercial organization."
+
+#: ../partyScale/master/README.md:11
+msgid ""
+"This is a metric used by a number of procurement statistics. For example, to"
+" calculate the share of procurement going to micro, small or medium "
+"enterprises."
+msgstr ""
+"This is a metric used by a number of procurement statistics. For example, to"
+" calculate the share of procurement going to micro, small or medium "
+"enterprises."
+
+#: ../partyScale/master/README.md:13
+msgid "The extension uses a fixed codelist with the following values:"
+msgstr "The extension uses a fixed codelist with the following values:"
+
+#: ../partyScale/master/README.md:15
+msgid "micro"
+msgstr "micro"
+
+#: ../partyScale/master/README.md:16
+msgid "sme"
+msgstr "sme"
+
+#: ../partyScale/master/README.md:17
+msgid "large"
+msgstr "large"
+
+#: ../partyScale/master/README.md:19
+msgid ""
+"The extension does not define these terms. The exact definition of each is "
+"to be provided by the publishing organization, and in general should be the "
+"definition used in the law or regulations of the procuring entity or buyer."
+msgstr ""
+"The extension does not define these terms. The exact definition of each is "
+"to be provided by the publishing organization, and in general should be the "
+"definition used in the law or regulations of the procuring entity or buyer."
+
+#: ../partyScale/master/README.md:21
+msgid ""
+"Laws and regulations vary as to the exact definition of these terms. The "
+"OECD [provide a relevant glossary definition "
+"here](https://stats.oecd.org/glossary/detail.asp?ID=3123)."
+msgstr ""
+"Laws and regulations vary as to the exact definition of these terms. The "
+"OECD [provide a relevant glossary definition "
+"here](https://stats.oecd.org/glossary/detail.asp?ID=3123)."
+
+#: ../partyScale/master/README.md:0
+msgid "Example"
+msgstr "Example"
+
+#: ../partyScale/master/README.md:25
+msgid ""
+"The following example shows the location where the partyScale extension can "
+"be used."
+msgstr ""
+"The following example shows the location where the partyScale extension can "
+"be used."
+
+#: ../partyScale/master/README.md:0
+msgid "Issues"
+msgstr "Issues"
+
+#: ../partyScale/master/README.md:47
+msgid ""
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
+msgstr ""
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."

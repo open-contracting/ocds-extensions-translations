@@ -187,19 +187,19 @@ source_file = build/locale/tariffs/master/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.partyScale-master-codelists]
+[ocds-extensions.partyscale-master-codelists]
 file_filter = locale/<lang>/LC_MESSAGES/partyScale/master/codelists.po
 source_file = build/locale/partyScale/master/codelists.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.partyScale-master-schema]
+[ocds-extensions.partyscale-master-schema]
 file_filter = locale/<lang>/LC_MESSAGES/partyScale/master/schema.po
 source_file = build/locale/partyScale/master/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.partyScale-master-docs]
+[ocds-extensions.partyscale-master-docs]
 file_filter = locale/<lang>/LC_MESSAGES/partyScale/master/docs.po
 source_file = build/locale/partyScale/master/docs.pot
 source_lang = en
@@ -595,25 +595,25 @@ source_file = build/locale/finance/master/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.extendsContractID-master-schema]
+[ocds-extensions.extendscontractid-master-schema]
 file_filter = locale/<lang>/LC_MESSAGES/extendsContractID/master/schema.po
 source_file = build/locale/extendsContractID/master/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.extendsContractID-master-docs]
+[ocds-extensions.extendscontractid-master-docs]
 file_filter = locale/<lang>/LC_MESSAGES/extendsContractID/master/docs.po
 source_file = build/locale/extendsContractID/master/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.additionalContactPoint-master-schema]
+[ocds-extensions.additionalcontactpoint-master-schema]
 file_filter = locale/<lang>/LC_MESSAGES/additionalContactPoint/master/schema.po
 source_file = build/locale/additionalContactPoint/master/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.additionalContactPoint-master-docs]
+[ocds-extensions.additionalcontactpoint-master-docs]
 file_filter = locale/<lang>/LC_MESSAGES/additionalContactPoint/master/docs.po
 source_file = build/locale/additionalContactPoint/master/docs.pot
 source_lang = en

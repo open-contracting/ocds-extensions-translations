@@ -1,0 +1,72 @@
+# Translations template for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+# Translators:
+# David Raznick <david.raznick@opendataservices.coop>, 2018
+# Amy Guy <amy.guy@opendataservices.coop>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-09-28 16:50+0100\n"
+"PO-Revision-Date: 2018-09-19 09:36+0000\n"
+"Last-Translator: Amy Guy <amy.guy@opendataservices.coop>, 2018\n"
+"Language-Team: Spanish (Spain) (https://www.transifex.com/OpenDataServices/teams/59224/es_ES/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: /home/david/projects/extensions-data-collector/output_dir/partyScale/master/codelists/partyScale.csv
+msgid "Code"
+msgstr "Hola!"
+
+#: /home/david/projects/extensions-data-collector/output_dir/partyScale/master/codelists/partyScale.csv
+msgid "Title"
+msgstr "título"
+
+#: /home/david/projects/extensions-data-collector/output_dir/partyScale/master/codelists/partyScale.csv
+msgid "Description"
+msgstr "Descripción"
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/partyScale/master/codelists/partyScale.csv:1
+msgid "Micro"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/partyScale/master/codelists/partyScale.csv:1
+msgid ""
+"This a micro entity according to the definitions used by the procuring "
+"entity or buyer."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/partyScale/master/codelists/partyScale.csv:2
+msgid "Small or Medium Enterprise"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/partyScale/master/codelists/partyScale.csv:2
+msgid ""
+"This is a Small or Medium Enterprise (SME) according to the definitions used"
+" by the procuring entity or buyer."
+msgstr ""
+
+#. Title
+#: /home/david/projects/extensions-data-collector/output_dir/partyScale/master/codelists/partyScale.csv:3
+msgid "Large"
+msgstr ""
+
+#. Description
+#: /home/david/projects/extensions-data-collector/output_dir/partyScale/master/codelists/partyScale.csv:3
+msgid ""
+"This is a large enterprise according to the definitions used by the "
+"procuring entity or buyer."
+msgstr ""

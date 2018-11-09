@@ -1,0 +1,50 @@
+# Translations template for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-09-28 16:48+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#. /name
+#: /home/david/projects/extensions-data-collector/output_dir/extendsContractID/master/extension.json:1
+msgid "Contract extensions via supplementary contract: extendsContractID"
+msgstr "Contract extensions via supplementary contract: extendsContractID"
+
+#. /description
+#: /home/david/projects/extensions-data-collector/output_dir/extendsContractID/master/extension.json:1
+msgid ""
+"Under some procurement rules and processes, to extend the duration or value "
+"of a contract, or to make other substantial alterations, requires a new "
+"contract to be signed. This extension allows these relationships between two"
+" or more contracts in the same contracting process to be made explicit."
+msgstr ""
+"Under some procurement rules and processes, to extend the duration or value "
+"of a contract, or to make other substantial alterations, requires a new "
+"contract to be signed. This extension allows these relationships between two"
+" or more contracts in the same contracting process to be made explicit."
+
+#. /definitions/Contract/properties/extendsContractID/title
+#: /home/david/projects/extensions-data-collector/output_dir/extendsContractID/master/release-schema.json:1
+msgid "Extends contract ID"
+msgstr "Extends contract ID"
+
+#. /definitions/Contract/properties/extendsContractID/description
+#: /home/david/projects/extensions-data-collector/output_dir/extendsContractID/master/release-schema.json:1
+msgid ""
+"If this contract extends or amends a previously issued contract, then the "
+"contract.id value for the extended/amended contract can be provided here."
+msgstr ""
+"If this contract extends or amends a previously issued contract, then the "
+"contract.id value for the extended/amended contract can be provided here."

@@ -1,0 +1,67 @@
+# Translations template for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-09-28 16:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#. /description
+#: /home/david/projects/extensions-data-collector/output_dir/additionalContactPoint/master/extension.json:1
+msgid ""
+"For including extra contact points on each organization. Particularly used "
+"when each contact point deals only in a particular language or group of "
+"languages."
+msgstr ""
+"For including extra contact points on each organization. Particularly used "
+"when each contact point deals only in a particular language or group of "
+"languages."
+
+#. /name
+#. /definitions/Organization/properties/additionalContactPoints/title
+#: /home/david/projects/extensions-data-collector/output_dir/additionalContactPoint/master/extension.json:1
+#: /home/david/projects/extensions-data-collector/output_dir/additionalContactPoint/master/release-schema.json:1
+msgid "Additional Contact Points"
+msgstr "Additional Contact Points"
+
+#. /definitions/Organization/properties/additionalContactPoints/description
+#: /home/david/projects/extensions-data-collector/output_dir/additionalContactPoint/master/release-schema.json:1
+msgid ""
+"An array of additional contact points that may be consulted for information."
+" Additional contact points should each list the languages they operate in "
+"their name, and as structured data in the availableLanguage field."
+msgstr ""
+"An array of additional contact points that may be consulted for information."
+" Additional contact points should each list the languages they operate in "
+"their name, and as structured data in the availableLanguage field."
+
+#. /definitions/ContactPoint/properties/availableLanguage/title
+#: /home/david/projects/extensions-data-collector/output_dir/additionalContactPoint/master/release-schema.json:1
+msgid "Available Language(s)"
+msgstr "Available Language(s)"
+
+#. /definitions/ContactPoint/properties/availableLanguage/description
+#: /home/david/projects/extensions-data-collector/output_dir/additionalContactPoint/master/release-schema.json:1
+msgid "An array of language codes (e.g. en, es, uk)"
+msgstr "An array of language codes (e.g. en, es, uk)"
+
+#. /definitions/ContactPoint/properties/availableLanguage/items/title
+#: /home/david/projects/extensions-data-collector/output_dir/additionalContactPoint/master/release-schema.json:1
+msgid "Language code"
+msgstr "Language code"
+
+#. /definitions/ContactPoint/properties/availableLanguage/items/description
+#: /home/david/projects/extensions-data-collector/output_dir/additionalContactPoint/master/release-schema.json:1
+msgid "ISO language code"
+msgstr "ISO language code"
