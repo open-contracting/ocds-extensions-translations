@@ -1,0 +1,151 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-13 18:59-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: README.md:0
+msgid "Bid statistics and details"
+msgstr "Statistiche e dettagli dell'offerta"
+
+#: README.md:4
+msgid ""
+"Information on bids submitted as part of a contracting process is important "
+"for many forms of analysis, including:"
+msgstr ""
+"Le informazioni sulle offerte presentate come parte di un processo di "
+"contrattazione sono importanti per molte forme di analisi, tra cui:"
+
+#: README.md:6
+msgid ""
+"Market analysis for understanding the competitiveness of a given marketplace;"
+msgstr ""
+"Analisi di mercato per capire la competitività in un determinato mercato;"
+
+#: README.md:7
+msgid "Red flag analysis for understanding potential corruption risks; and"
+msgstr ""
+"Analisi delle allerte per la comprensione dei potenziali rischi di "
+"corruzione; e"
+
+#: README.md:8
+msgid "Value for money analysis;"
+msgstr "Analisi del rapporto qualità/prezzo;"
+
+#: README.md:10
+msgid ""
+"Regulatory regimes vary on the extent to which they allow information on "
+"bidding to be proactively published, and at what point in the procurement "
+"process. In some systems and processes, a list of invited bidders will be "
+"published at the start of tendering, and full details and documents on the "
+"bids received may be disclosed when evaluation is complete. In other "
+"systems, only summary statistics on the number of bids received may be made "
+"public."
+msgstr ""
+"I regimi di regolamentazione variano in base alla misura in cui consentono "
+"di pubblicare proattivamente le informazioni delle offerte e in quale fase "
+"del processo di approvvigionamento . In alcuni sistemi e processi, "
+"all'inizio del bando di gara verrà pubblicato un elenco di offerenti "
+"invitati e, al termine della valutazione, potranno essere resi noti tutti i "
+"dettagli e i documenti relativi alle offerte ricevute. In altri sistemi, "
+"solo le statistiche riassuntive sul numero di offerte ricevute possono "
+"essere rese pubbliche."
+
+#: README.md:12
+msgid ""
+"The OCDS bid extension introduces a new, flexible, top-level section to each "
+"contracting process to capture bidding information. Implementers will need "
+"to assess which fields are applicable to their local regulatory regime, and "
+"to local use-cases."
+msgstr ""
+"L'estensione OCDS per l'offerta introduce una nuova sezione, flessibile e di "
+"primo livello per ogni processo di appalto in modo da acquisire le "
+"informazioni più complete dell'offerta. I responsabili dell'attuazione "
+"dovranno valutare quali campi sono applicabili al loro regime normativo "
+"locale e ai casi d'uso locali."
+
+#: README.md:0
+msgid "Bid Statistics"
+msgstr "Statistiche sulle offerte"
+
+#: README.md:16
+msgid ""
+"The ```bids/bidStatistics``` array can be used to represent key statistical "
+"information about the number of bids and bidders. Each entry in the array is "
+"a ```BidsStatistic``` object containing at least:"
+msgstr ""
+
+#: README.md:18
+msgid "An identifier;"
+msgstr "Un identificatore;"
+
+#: README.md:19
+msgid "A measure, from the bidStatistics codelist;"
+msgstr "Una misura, dal vocabolario controllato del bidStatistics;"
+
+#: README.md:20
+msgid "A value for that measure;"
+msgstr "Un valore per quella misura;"
+
+#: README.md:0
+msgid "Bid Statistics Schema"
+msgstr ""
+
+#: README.md:0
+msgid "Bid Statistics Codelist"
+msgstr "Vocabolario delle statistiche sulle offerte"
+
+#: README.md:32
+msgid ""
+"This is an **open** codelist. Publishers can add their own codes to this "
+"list. When doing so, publishers are encouraged to engage with the open "
+"contracting community to agree upon definitions of each code."
+msgstr ""
+"Questa è un vocabolario **aperto**. Coloro che pubblicano dati  possono "
+"aggiungere i propri codici a questo elenco. Nel fare ciò, gli editori sono "
+"incoraggiati ad impegnarsi con la comunità per concordare le definizioni di "
+"ciascun codice."
+
+#: README.md:34
+msgid ""
+"For example, publishers may wish to add statistics on minority or women "
+"owned businesses, or bids that meet certain environmental standards and "
+"targets."
+msgstr ""
+"Ad esempio, coloro che pubblicano dati potrebbero voler aggiungere "
+"statistiche sulle imprese di minoranza o di proprietà delle donne o sulle "
+"offerte che soddisfano determinati standard e obiettivi ambientali."
+
+#: README.md:0
+msgid "Bid details"
+msgstr ""
+
+#: README.md:44
+msgid ""
+"The ```bids/details``` array is used to provide one or more ```Bid``` "
+"objects, each representing a unique bid received."
+msgstr ""
+
+#: README.md:0
+msgid "Bid Status Codelist"
+msgstr "Vocabolario controllato degli stati dell'offerta"
+
+#: README.md:0
+msgid "Example"
+msgstr "Esempio"
+
+#: README.md:62
+msgid "ToDo"
+msgstr ""

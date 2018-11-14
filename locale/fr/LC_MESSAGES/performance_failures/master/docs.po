@@ -1,0 +1,136 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-13 18:59-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: README.md:0
+msgid "Performance Failures Extension"
+msgstr ""
+
+#: README.md:0
+msgid "Background"
+msgstr "Contexte"
+
+#: README.md:5
+msgid ""
+"The [Framework for disclosure in Public Private Partnerships](http://pubdocs."
+"worldbank.org/en/773541448296707678/Disclosure-in-PPPs-Framework.pdf) "
+"requires disclosure of instances of performance failures during the the life "
+"of a contract, along with the penalties or abatements defined, imposed and "
+"paid in relation to each category of performance failures."
+msgstr ""
+
+#: README.md:0
+msgid "Extension Fields"
+msgstr ""
+
+#: README.md:9
+msgid ""
+"This extension introduces the `performanceFailures` property to the "
+"`implementation` section of an OCDS release."
+msgstr ""
+
+#: README.md:11
+msgid ""
+"The new property is an array of `PerformanceFailure` objects. The "
+"`PerformanceFailure` object has the following properties:"
+msgstr ""
+
+#: README.md:13
+msgid ""
+"`period` - an OCDS `period` object defining the reporting period to "
+"applicable to the performance failures being reported"
+msgstr ""
+
+#: README.md:14
+msgid ""
+"`category` - a free text field used to describe the category of performance "
+"failures being reported"
+msgstr ""
+
+#: README.md:15
+msgid ""
+"`events` - a number field used to state the number of performance failure "
+"events in the period and category being reported"
+msgstr ""
+
+#: README.md:16
+msgid ""
+"`penaltyContracted` - a free text field used to describe the penalty or "
+"abatement defined in the contract for the number, category and period of "
+"performance failures being reported"
+msgstr ""
+
+#: README.md:17
+msgid ""
+"`penaltyImposed` - a free text field used to describe the penalty or "
+"abatement actually imposed for the number, category and period of "
+"performance failures being reported"
+msgstr ""
+
+#: README.md:18
+msgid ""
+"`penaltyPaid` - a boolean field indicating whether the penalty imposed has "
+"been paid. A value of `true` indicates that the penalty has been paid"
+msgstr ""
+
+#: README.md:0
+msgid "Example"
+msgstr "Exemple"
+
+#: README.md:22
+msgid ""
+"The following JSON snippet models the performance failures reported for a "
+"single period and category."
+msgstr ""
+
+#: README.md:0
+msgid "Usage Notes"
+msgstr ""
+
+#: README.md:0
+msgid "To do"
+msgstr "ToDo"
+
+#: README.md:48
+msgid ""
+"Add a `relatedTransactions` reference to the performance failure object?"
+msgstr ""
+
+#: README.md:0
+msgid "Issues"
+msgstr "Problèmes"
+
+#: README.md:52
+msgid ""
+"Report issues for this extension in the [ocds-extensions repository](https://"
+"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
+"name in the issue's title."
+msgstr ""
+"Signalez les problèmes concernant cette extension dans le [répertoire "
+"ocds](https://github.com/open-contracting/ocds-extensions/issues), en "
+"mettant le nom de l'extension dans le titre du signalement."
+
+#: README.md:0
+msgid "Changelog"
+msgstr "Journal des modifications"
+
+#: README.md:56
+msgid ""
+"2018-05-08 - Make `performanceFailure/id` required to support revision "
+"tracking and [list merging](http://standard.open-contracting.org/latest/en/"
+"schema/merging/#lists)."
+msgstr ""

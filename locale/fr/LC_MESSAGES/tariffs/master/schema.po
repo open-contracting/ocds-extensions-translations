@@ -1,0 +1,204 @@
+# Translations template for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-11-13 18:59-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#. /name/en
+#. /definitions/Implementation/properties/tariffs/title
+#. /definitions/Contract/properties/tariffs/title
+#: extension.json:1 release-schema.json:1
+msgid "Tariffs"
+msgstr ""
+
+#. /description/en
+#: extension.json:1
+msgid ""
+"Adds fields to the contract and implementation objects to capture details"
+" of the tariffs, tolls and user fees set out in the contract and in use "
+"throughout the life of the project."
+msgstr ""
+
+#. /definitions/Implementation/properties/tariffs/description
+#: release-schema.json:1
+msgid ""
+"The tariffs as they apply during the life of the project. Also known as "
+"tolls or user charges. These may be initially copied from the contract "
+"section, and then updated with any revisions over the lifetime of the "
+"implementation phase."
+msgstr ""
+
+#. /definitions/Contract/properties/tariffs/description
+#: release-schema.json:1
+msgid ""
+"The tariffs as set out in the contract schedules. Also known as tolls or "
+"user charges. Updates to tariffs over the operation of the contract can "
+"be provided in the implementation section."
+msgstr ""
+
+#. /definitions/Tariff/title
+#: release-schema.json:1
+msgid "Tariff"
+msgstr ""
+
+#. /definitions/Tariff/description
+#: release-schema.json:1
+msgid ""
+"An item in a tariff table, setting out a breakdown of the user or "
+"government fees payable in relation to each unit of a particular good or "
+"services."
+msgstr ""
+
+#. /definitions/Tariff/properties/id/title
+#: release-schema.json:1
+msgid "Tariff identifier"
+msgstr ""
+
+#. /definitions/Tariff/properties/id/description
+#: release-schema.json:1
+msgid ""
+"A local identifier for this specific tariff. This field is used to keep "
+"track of revisions of a tariff across multiple OCDS releases."
+msgstr ""
+
+#. /definitions/Tariff/properties/title/title
+#: release-schema.json:1
+msgid "Tariff title"
+msgstr ""
+
+#. /definitions/Tariff/properties/title/description
+#: release-schema.json:1
+msgid "The title of this tariff."
+msgstr ""
+
+#. /definitions/Tariff/properties/paidBy/title
+#: release-schema.json:1
+msgid "Paid by"
+msgstr ""
+
+#. /definitions/Tariff/properties/paidBy/description
+#: release-schema.json:1
+msgid ""
+"Is this a user charge (paid by businesses or citizens using the "
+"facilities provided by the contract), or a charge paid by the government?"
+msgstr ""
+
+#. /definitions/Tariff/properties/period/title
+#: release-schema.json:1
+msgid "Tariff period"
+msgstr ""
+
+#. /definitions/Tariff/properties/period/description
+#: release-schema.json:1
+msgid "The period to which this tariff applies."
+msgstr ""
+
+#. /definitions/Tariff/properties/value/title
+#: release-schema.json:1
+msgid "Tariff value"
+msgstr ""
+
+#. /definitions/Tariff/properties/value/description
+#: release-schema.json:1
+msgid "The price per unit of this tariff."
+msgstr ""
+
+#. /definitions/Tariff/properties/unit/title
+#: release-schema.json:1
+msgid "Tariff unit"
+msgstr ""
+
+#. /definitions/Tariff/properties/unit/description
+#: release-schema.json:1
+msgid "The unit against which this tariff is charged."
+msgstr ""
+
+#. /definitions/Tariff/properties/unit/properties/name/title
+#: release-schema.json:1
+msgid "Unit name"
+msgstr ""
+
+#. /definitions/Tariff/properties/unit/properties/name/description
+#: release-schema.json:1
+msgid "The name of the unit that the tariff is charged against. E.g. tonnes,"
+msgstr ""
+
+#. /definitions/Tariff/properties/unit/properties/scheme/title
+#: release-schema.json:1
+msgid "Scheme"
+msgstr "Schéma d'URI"
+
+#. /definitions/Tariff/properties/unit/properties/scheme/description
+#: release-schema.json:1
+msgid ""
+"The list from which units of measure identifiers are taken. This should "
+"be an entry in the unitClassificationScheme codelist. Use of the scheme "
+"'UNCEFACT' for the UN/CEFACT Recommendation 20 list of 'Codes for Units "
+"of Measure Used in International Trade' is recommended."
+msgstr ""
+
+#. /definitions/Tariff/properties/unit/properties/id/title
+#: release-schema.json:1
+msgid "ID"
+msgstr "Identifiant"
+
+#. /definitions/Tariff/properties/unit/properties/id/description
+#: release-schema.json:1
+msgid ""
+"The identifier from the codelist referenced in the schema property. For "
+"example, with UNCEFACT, this is the value of the 'Common Code' column. "
+"From this identifier, applications can look-up the human readable name or"
+" symbol for this unit of measure."
+msgstr ""
+
+#. /definitions/Tariff/properties/unit/properties/uri/title
+#: release-schema.json:1
+msgid "URI"
+msgstr "URI"
+
+#. /definitions/Tariff/properties/unit/properties/uri/description
+#: release-schema.json:1
+msgid ""
+"If the scheme used provide a machine-readable URI for this unit of "
+"measure, this can be given."
+msgstr ""
+"Si le schéma utilisé fournit une URI pour cette unité de mesure, elle peut "
+"être indiquée."
+
+#. /definitions/Tariff/properties/dimensions/title
+#: release-schema.json:1
+msgid "Tariff dimensions"
+msgstr ""
+
+#. /definitions/Tariff/properties/dimensions/description
+#: release-schema.json:1
+msgid ""
+"Used to capture the different breakdowns in tariff charges. Any number of"
+" dimensions can be recorded within this object. Dimensions names should "
+"follow the camelCase conventions of OCDS."
+msgstr ""
+
+#. /definitions/Tariff/properties/notes/title
+#: release-schema.json:1
+msgid "Tariff notes"
+msgstr ""
+
+#. /definitions/Tariff/properties/notes/description
+#: release-schema.json:1
+msgid ""
+"Any notes on this tariff line item. This may include clarifying "
+"information."
+msgstr ""

@@ -1,0 +1,82 @@
+# Translations template for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-11-13 18:59-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: codelists/preQualificationStatus.csv
+msgid "Code"
+msgstr "Código"
+
+#: codelists/preQualificationStatus.csv
+msgid "Title"
+msgstr "Título"
+
+#: codelists/preQualificationStatus.csv
+msgid "Description"
+msgstr "Descripción"
+
+#. Title
+#: codelists/preQualificationStatus.csv:1
+msgid "Planned"
+msgstr "Planeado"
+
+#. Description
+#: codelists/preQualificationStatus.csv:1
+msgid "This pre-qualification has been proposed, but is not yet taking place."
+msgstr ""
+"Esta pre-calificación se ha propuesto, pero todavía no se está llevando a "
+"cabo."
+
+#. Title
+#: codelists/preQualificationStatus.csv:2
+msgid "Active"
+msgstr "Activo"
+
+#. Description
+#: codelists/preQualificationStatus.csv:2
+msgid "A pre-qualification process is currently taking place."
+msgstr "Un proceso de pre-calificación está en proceso."
+
+#. Title
+#: codelists/preQualificationStatus.csv:3
+msgid "Cancelled"
+msgstr "Cancelado"
+
+#. Description
+#: codelists/preQualificationStatus.csv:3
+msgid "The pre-qualification process has been cancelled."
+msgstr "El proceso de pre-calificación ha sido cancelado."
+
+#. Title
+#: codelists/preQualificationStatus.csv:4
+msgid "Unsuccessful"
+msgstr "Sin Éxito"
+
+#. Description
+#: codelists/preQualificationStatus.csv:4
+msgid "The pre-qualification process was unsuccessful."
+msgstr "El proceso de pre-calificación no fue exitoso."
+
+#. Title
+#: codelists/preQualificationStatus.csv:5
+msgid "Complete"
+msgstr "Completo"
+
+#. Description
+#: codelists/preQualificationStatus.csv:5
+msgid "The pre-qualification process is complete."
+msgstr "El proceso de pre-calificación se ha completado"

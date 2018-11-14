@@ -1,0 +1,189 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-13 18:59-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: README.md:0
+msgid "Participation fees"
+msgstr "Cuotas de participación"
+
+#: README.md:0
+msgid "Background"
+msgstr "Antecedentes"
+
+#: README.md:5
+msgid ""
+"There are a number of cases where there may be costs to access documents "
+"for, or to participate within, a tender process."
+msgstr ""
+"Hay una serie de casos en los que puede haber costos para acceder a los "
+"documentos o participar en un proceso de licitación."
+
+#: README.md:7
+msgid ""
+"Potential bidders will want to be aware of the fees that a process might "
+"involve."
+msgstr ""
+"Los licitadores potenciales desearán estar enterados de las cuotas que un "
+"proceso puede implicar."
+
+#: README.md:9
+msgid ""
+"Procurement monitors may wish to ensure that participation fees are within "
+"legal parameters (often set as a fixed maximum, or a percentage of total "
+"contract value), or to monitor how participation fees are being used."
+msgstr ""
+"Los monitores de adquisiciones tal vez deseen asegurarse de que las cuotas "
+"de participación estén dentro de los parámetros legales (a menudo fijados "
+"como un máximo fijo, o un porcentaje del valor total del contrato), o para "
+"controlar cómo se usan las cuotas de participación."
+
+#: README.md:0
+msgid "Extension fields"
+msgstr "Campos de extensión"
+
+#: README.md:13
+msgid ""
+"This extension adds a ```participationFees``` field to the ```tender``` "
+"section of OCDS and introduces a new ```participationFee``` building block."
+msgstr ""
+"Esta extensión agrega un campo ```participationFees``` a la sección ``` "
+"tender``` del OCDS e introduce un nuevo bloque ```participationFee```."
+
+#: README.md:15
+msgid ""
+"The ```participationFees``` field is an array of ```participationFee``` "
+"building blocks."
+msgstr ""
+"El campo ```participationFees``` es una matriz de bloques ``` "
+"participationFee```."
+
+#: README.md:17
+msgid "The ```participationFee``` building block is made up of three fields:"
+msgstr "El bloque ```participationFee``` consta de tres campos:"
+
+#: README.md:19
+msgid ""
+"```type``` - a value from the ```participationFeeType``` codelist, "
+"describing the type of the fee"
+msgstr ""
+"```type``` - un valor de la lista de códigos ```participationFeeType```, que "
+"describe el tipo de cuota"
+
+#: README.md:20
+msgid "```value``` - the amount and currency of the fee"
+msgstr "```value``` - el importe y la moneda de la cuota"
+
+#: README.md:21
+msgid ""
+"```description``` - an optional field with more information on the fee "
+"requirements. For example, sometimes a document fee is only applicable to "
+"the hard copy of the documents."
+msgstr ""
+"```description``` - un campo opcional con más información sobre los "
+"requisitos de la cuota. Por ejemplo, a veces una cuota de documento sólo es "
+"aplicable a la copia impresa de los documentos."
+
+#: README.md:22
+msgid ""
+"```methodOfPayment``` - an optional field providing information on methods "
+"of payment accepted for the documentation. This is currently an array of "
+"strings, but an open codelist may be introduced in future."
+msgstr ""
+"```methodOfPayment``` - un campo opcional que proporciona información sobre "
+"los métodos de pago aceptados para la documentación. Actualmente se trata de "
+"una serie de cadenas, pero se podría introducir una lista de códigos abierta "
+"en el futuro."
+
+#: README.md:0
+msgid "Extension codelists"
+msgstr "Listas de códigos de extensión"
+
+#: README.md:26
+msgid ""
+"This extension adds **closed** ```participationFeeType``` codelist with the "
+"following codes:"
+msgstr ""
+"Esta extensión agrega una lista de códigos **cerrada** "
+"```participationFeeType``` con los siguientes códigos:"
+
+#: README.md:28
+msgid "document - a fee payable for access to bidding documents"
+msgstr ""
+"document - una cuota a pagar por el acceso a los documentos de licitación"
+
+#: README.md:29
+msgid "deposit - a refundable fee payable for the submission of bids"
+msgstr "deposit - una cuota reembolsable a pagar por la presentación de ofertas"
+
+#: README.md:30
+msgid "submission - a non-refundable fee payable for the submission of bids"
+msgstr ""
+"submission - una cuota no reembolsable a pagar por la presentación de ofertas"
+
+#: README.md:31
+msgid "win - a fee payable by the winning bidder"
+msgstr "win - una cuota a pagar por el ganador"
+
+#: README.md:0
+msgid "Example"
+msgstr "Ejemplo"
+
+#: README.md:35
+msgid ""
+"The following JSON snippet models a contracting process where fees are "
+"applicable for both access to documents and submission of bids:"
+msgstr ""
+"El siguiente fragmento de JSON modela un proceso de contratación donde las "
+"tarifas son aplicables tanto para el acceso a documentos como para la "
+"presentación de ofertas:"
+
+#: README.md:0
+msgid "Usage notes"
+msgstr "Notas de uso"
+
+#: README.md:66
+msgid ""
+"In some cases, a fee may be levied for 'official copies' of procurement "
+"documents (although copies may also be available freely online), and bidders "
+"required to prove they have paid for an official copy of the documents as "
+"part of their submission."
+msgstr ""
+"En algunos casos, se puede cobrar una cuota por las \"copias oficiales\" de "
+"los documentos de adquisición (aunque también se pueden obtener copias en "
+"línea de forma gratuita) y los licitadores deben probar que han pagado una "
+"copia oficial de los documentos como parte de su presentación."
+
+#: README.md:68
+msgid ""
+"In this case, the fee should be modelled as a **submission** fee, as "
+"submission is only possible when this document access fee has been paid."
+msgstr ""
+"En este caso, la cuota debe ser modelada como un cargo de **oferta**, ya que "
+"la presentación sólo es posible cuando se ha pagado la cuota de acceso al "
+"documento."
+
+#: README.md:0
+msgid "To do"
+msgstr "Por hacer"
+
+#: README.md:72
+msgid "participation / submission terminology"
+msgstr "Terminología de participación / presentación"
+
+#: README.md:73
+msgid "finalise codelist"
+msgstr ""

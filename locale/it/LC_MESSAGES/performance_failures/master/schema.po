@@ -1,0 +1,136 @@
+# Translations template for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-11-13 18:59-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#. /name/en
+#: extension.json:1
+msgid "Performance Failures Extension"
+msgstr ""
+
+#. /description/en
+#: extension.json:1
+msgid ""
+"Adds fields to the implementation section to allow disclosure of an array"
+" of contracting performance failures. Based on the performance failures "
+"reporting table defined in the World Bank Framework for Disclosure in "
+"PPPs."
+msgstr ""
+
+#. /definitions/PerformanceFailure/title
+#: release-schema.json:1
+msgid "Performance failure disclosure"
+msgstr ""
+
+#. /definitions/PerformanceFailure/description
+#: release-schema.json:1
+msgid ""
+"Details of the performance failures for a given period and category. "
+"Details of the associated penalties and abatements provided for in the "
+"contract, imposed and paid can also be provided."
+msgstr ""
+
+#. /definitions/PerformanceFailure/properties/id/title
+#: release-schema.json:1
+msgid "Identifier"
+msgstr "Identificatore"
+
+#. /definitions/PerformanceFailure/properties/id/description
+#: release-schema.json:1
+msgid ""
+"A local identifier for this specific category and period of performance "
+"failure. This field is used to keep track of revisions of a charge across"
+" multiple OCDS releases."
+msgstr ""
+
+#. /definitions/PerformanceFailure/properties/period/title
+#: release-schema.json:1
+msgid "Performance failure period"
+msgstr ""
+
+#. /definitions/PerformanceFailure/properties/period/description
+#: release-schema.json:1
+msgid "The reporting period for these performance failures."
+msgstr ""
+
+#. /definitions/PerformanceFailure/properties/category/title
+#: release-schema.json:1
+msgid "Performance failure category"
+msgstr ""
+
+#. /definitions/PerformanceFailure/properties/category/description
+#: release-schema.json:1
+msgid "The category into which these performance failures fall."
+msgstr ""
+
+#. /definitions/PerformanceFailure/properties/events/title
+#: release-schema.json:1
+msgid "Number of events"
+msgstr ""
+
+#. /definitions/PerformanceFailure/properties/events/description
+#: release-schema.json:1
+msgid "The number of performance failures for the given period and category."
+msgstr ""
+
+#. /definitions/PerformanceFailure/properties/penaltyContracted/title
+#: release-schema.json:1
+msgid "Contracted penalty"
+msgstr ""
+
+#. /definitions/PerformanceFailure/properties/penaltyContracted/description
+#: release-schema.json:1
+msgid ""
+"A free text description of the penalty or abatement provided for in the "
+"contract for this period, category and number of performance failures."
+msgstr ""
+
+#. /definitions/PerformanceFailure/properties/penaltyImposed/title
+#: release-schema.json:1
+msgid "Penalty imposed"
+msgstr ""
+
+#. /definitions/PerformanceFailure/properties/penaltyImposed/description
+#: release-schema.json:1
+msgid ""
+"A free text description of the penalty or abatement imposed for this "
+"period, category and number of performance failures."
+msgstr ""
+
+#. /definitions/PerformanceFailure/properties/penaltyPaid/title
+#: release-schema.json:1
+msgid "Penalty paid"
+msgstr ""
+
+#. /definitions/PerformanceFailure/properties/penaltyPaid/description
+#: release-schema.json:1
+msgid ""
+"A yes/no field indicating whether the penalty imposed for this period, "
+"category and number of performance failures has been paid."
+msgstr ""
+
+#. /definitions/Implementation/properties/performanceFailures/title
+#: release-schema.json:1
+msgid "Performance failure disclosures"
+msgstr ""
+
+#. /definitions/Implementation/properties/performanceFailures/description
+#: release-schema.json:1
+msgid ""
+"An array of performance failure disclosures, detailing performance "
+"failures for different periods and categories."
+msgstr ""

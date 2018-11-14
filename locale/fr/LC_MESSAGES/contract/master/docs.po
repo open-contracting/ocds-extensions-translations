@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-13 18:59-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: README.md:0
+msgid "Contract level buyer information"
+msgstr ""
+
+#: README.md:0
+msgid "Background"
+msgstr "Contexte"
+
+#: README.md:5
+msgid ""
+"The core OCDS schema provides space for a single `buyer` to be described for "
+"each contracting process. The buyer is defined as the organizations whose "
+"funds are directly used for the purchase of the goods, works or services "
+"described in the contract."
+msgstr ""
+
+#: README.md:7
+msgid ""
+"However, some forms of contracting process, such as framework agreements, "
+"may result in multiple contracts, with each contract signed by a different "
+"buyer."
+msgstr ""
+
+#: README.md:9
+msgid ""
+"This extension provides a way to provide `buyer` information on a per "
+"contract basis."
+msgstr ""
+
+#: README.md:0
+msgid "Extension fields"
+msgstr "Champs d'extension"
+
+#: README.md:13
+msgid ""
+"This extension adds a `buyer` property to the `contract` section of OCDS."
+msgstr ""
+
+#: README.md:15
+msgid ""
+"`contract.buyer` is an `OrganizationReference` consisting of the following "
+"fields:"
+msgstr ""
+
+#: README.md:17
+msgid ""
+"`name` - The name of the party being referenced. This must match the name of "
+"an entry in the `parties` section."
+msgstr ""
+
+#: README.md:18
+msgid ""
+"`id` - The id of the party being referenced. This must match the id of an "
+"entry in the `parties` section."
+msgstr ""
+
+#: README.md:0
+msgid "Dependencies"
+msgstr ""
+
+#: README.md:22
+msgid ""
+"This extension is only valid from OCDS Version 1.1, as it makes use of the "
+"updated organization reference approach."
+msgstr ""
+
+#: README.md:0
+msgid "Example"
+msgstr "Exemple"
+
+#: README.md:0
+msgid "Issues"
+msgstr "Problèmes"
+
+#: README.md:47
+msgid ""
+"Report issues for this extension in the [ocds-extensions repository](https://"
+"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
+"name in the issue's title."
+msgstr ""
+"Signalez les problèmes concernant cette extension dans le [répertoire "
+"ocds](https://github.com/open-contracting/ocds-extensions/issues), en "
+"mettant le nom de l'extension dans le titre du signalement."

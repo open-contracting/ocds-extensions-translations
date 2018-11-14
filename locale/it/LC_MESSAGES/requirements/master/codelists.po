@@ -1,0 +1,127 @@
+# Translations template for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-11-13 18:59-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: codelists/dataType.csv codelists/relatesTo.csv codelists/responseSource.csv
+msgid "Code"
+msgstr "Codice"
+
+#: codelists/dataType.csv codelists/relatesTo.csv codelists/responseSource.csv
+msgid "Title"
+msgstr "Titolo"
+
+#: codelists/dataType.csv codelists/relatesTo.csv codelists/responseSource.csv
+msgid "Description"
+msgstr "Descrizione"
+
+#. Title
+#: codelists/dataType.csv:1
+msgid "String"
+msgstr ""
+
+#. Description
+#: codelists/dataType.csv:1
+msgid "The requirement response must be of type string"
+msgstr ""
+
+#. Title
+#: codelists/dataType.csv:2
+msgid "Date-time"
+msgstr ""
+
+#. Description
+#: codelists/dataType.csv:2
+msgid "The requirement response must be of type date-time (ISO8601)"
+msgstr ""
+
+#. Title
+#: codelists/dataType.csv:3
+msgid "Number"
+msgstr ""
+
+#. Description
+#: codelists/dataType.csv:3
+msgid ""
+"The requirement response must be of type number, i.e. a floating point or"
+" whole number"
+msgstr ""
+
+#. Title
+#: codelists/dataType.csv:4
+msgid "Integer"
+msgstr ""
+
+#. Description
+#: codelists/dataType.csv:4
+msgid "The requirement response must be of type integer"
+msgstr ""
+
+#. Title
+#: codelists/dataType.csv:5
+msgid "Boolean"
+msgstr ""
+
+#. Description
+#: codelists/dataType.csv:5
+msgid "The requirement response must be of type boolean"
+msgstr ""
+
+#. Title
+#: codelists/relatesTo.csv:1 codelists/responseSource.csv:1
+msgid "Tenderer"
+msgstr "Concorrente"
+
+#. Description
+#: codelists/relatesTo.csv:1
+msgid "The criterion evaluates or assesses a tenderer"
+msgstr ""
+
+#. Title
+#: codelists/relatesTo.csv:2
+msgid "Item"
+msgstr "Articolo"
+
+#. Description
+#: codelists/relatesTo.csv:2
+msgid "The criterion evaluates or assesses an item"
+msgstr ""
+
+#. Description
+#: codelists/responseSource.csv:1
+msgid "The response should be provided by the tenderer"
+msgstr ""
+
+#. Title
+#: codelists/responseSource.csv:2
+msgid "Buyer"
+msgstr "Acquirente"
+
+#. Description
+#: codelists/responseSource.csv:2
+msgid "The response should be provided by the buyer"
+msgstr ""
+
+#. Title
+#: codelists/responseSource.csv:3
+msgid "Procuring entity"
+msgstr "Stazione appaltante"
+
+#. Description
+#: codelists/responseSource.csv:3
+msgid "The response should be provided by the procuring entity"
+msgstr ""

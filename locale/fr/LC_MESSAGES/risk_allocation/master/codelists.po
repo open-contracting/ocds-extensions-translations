@@ -1,0 +1,257 @@
+# Translations template for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-11-13 18:59-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: codelists/riskAllocation.csv codelists/riskCategory.csv
+msgid "Code"
+msgstr "Code"
+
+#: codelists/riskAllocation.csv codelists/riskCategory.csv
+msgid "Title"
+msgstr "Titre"
+
+#: codelists/riskAllocation.csv codelists/riskCategory.csv
+msgid "Description"
+msgstr "Description"
+
+#. Title
+#: codelists/riskAllocation.csv:1
+msgid "Public authority"
+msgstr ""
+
+#. Description
+#: codelists/riskAllocation.csv:1
+msgid "The risk is wholly or mostly retained by the public authority"
+msgstr ""
+
+#. Title
+#: codelists/riskAllocation.csv:2
+msgid "Private party"
+msgstr ""
+
+#. Description
+#: codelists/riskAllocation.csv:2
+msgid "The risk is wholly or mostly retained by the private party"
+msgstr ""
+
+#. Title
+#: codelists/riskAllocation.csv:3
+msgid "Undefined"
+msgstr ""
+
+#. Description
+#: codelists/riskAllocation.csv:3
+msgid ""
+"The risk is not clearly assigned to a specific party. Further details can"
+" be provided in the notes field."
+msgstr ""
+
+#: codelists/riskCategory.csv
+msgid "Category"
+msgstr "Catégorie"
+
+#: codelists/riskCategory.csv
+msgid "Source"
+msgstr "Source"
+
+#. Title
+#: codelists/riskCategory.csv:1
+msgid "Land availability and acquisition risk"
+msgstr ""
+
+#. Description
+#: codelists/riskCategory.csv:1
+msgid ""
+"Relates to the unavailability of land or site to construct the "
+"infrastructure at the time of contract signature"
+msgstr ""
+
+#. Title
+#: codelists/riskCategory.csv:2
+msgid "Environmental risk"
+msgstr ""
+
+#. Description
+#: codelists/riskCategory.csv:2
+msgid ""
+"Environmental risks may be related to a number of environmental issues "
+"such as general contamination, pollution, water contamination, impact on "
+"the natural environment etc. An adverse assessment may require changes in"
+" design, leading to a direct impact on cost of infrastructure"
+msgstr ""
+
+#. Title
+#: codelists/riskCategory.csv:3
+msgid "Design risks"
+msgstr ""
+
+#. Description
+#: codelists/riskCategory.csv:3
+msgid ""
+"Represents the possibility that design quality for the asset is not "
+"adequate to meet project requirements"
+msgstr ""
+
+#. Title
+#: codelists/riskCategory.csv:4
+msgid "Construction risks"
+msgstr ""
+
+#. Description
+#: codelists/riskCategory.csv:4
+msgid ""
+"Represents the possibility that during the construction Phase, the actual"
+" project costs or construction time exceeds the projected time and costs"
+msgstr ""
+
+#. Title
+#: codelists/riskCategory.csv:5
+msgid "Completion and commissioning"
+msgstr ""
+
+#. Description
+#: codelists/riskCategory.csv:5
+msgid ""
+"Refers to the failure to meet the construction outcome or finalization as"
+" prescribed"
+msgstr ""
+
+#. Title
+#: codelists/riskCategory.csv:6
+msgid "Revenue risk"
+msgstr ""
+
+#. Description
+#: codelists/riskCategory.csv:6
+msgid "Refers to the risk of the revenue flows not being correctly assessed"
+msgstr ""
+
+#. Title
+#: codelists/riskCategory.csv:7
+msgid "Foreign exchange, Inflation and indexation risk"
+msgstr ""
+
+#. Description
+#: codelists/riskCategory.csv:7
+msgid ""
+"Risk that changes in exchange rates or inflation adversely affect the "
+"project outcomes"
+msgstr ""
+
+#. Title
+#: codelists/riskCategory.csv:8
+msgid "Availability and quality risk"
+msgstr ""
+
+#. Description
+#: codelists/riskCategory.csv:8
+msgid ""
+"Risk linked to availability and quality issues relating to performance "
+"requirements and performance target levels"
+msgstr ""
+
+#. Title
+#: codelists/riskCategory.csv:9
+msgid "Other revenue risk events"
+msgstr ""
+
+#. Description
+#: codelists/riskCategory.csv:9
+msgid "credit or counterparty risk; fraud/non-payment by users"
+msgstr ""
+
+#. Title
+#: codelists/riskCategory.csv:10
+msgid "Availability of finance"
+msgstr ""
+
+#. Description
+#: codelists/riskCategory.csv:10
+msgid ""
+"Represents the risk of financing not being available at commercial close "
+"or before construction starts"
+msgstr ""
+
+#. Title
+#: codelists/riskCategory.csv:11
+msgid "Refinancing risks"
+msgstr ""
+
+#. Description
+#: codelists/riskCategory.csv:11
+msgid "Risks relating to the downside of refinancing"
+msgstr ""
+
+#. Title
+#: codelists/riskCategory.csv:12
+msgid "Changes in law"
+msgstr ""
+
+#. Description
+#: codelists/riskCategory.csv:12
+msgid ""
+"Risk that a change in general law or the sector regulatory framework "
+"adversely affect the project"
+msgstr ""
+
+#. Title
+#: codelists/riskCategory.csv:13
+msgid "Force Majeure"
+msgstr ""
+
+#. Description
+#: codelists/riskCategory.csv:13
+msgid ""
+"Risk that external events beyond the control of the parties to the "
+"contract, such as natural disasters, wars, terrorism etc.,  affect the "
+"project"
+msgstr ""
+
+#. Title
+#: codelists/riskCategory.csv:14
+msgid "Early termination"
+msgstr ""
+
+#. Description
+#: codelists/riskCategory.csv:14
+msgid ""
+"Risk that compensation sum due to early termination may be insufficient "
+"to meet private party’s financial obligations or is less than expected"
+msgstr ""
+
+#. Title
+#: codelists/riskCategory.csv:15
+msgid "Compliance risks"
+msgstr ""
+
+#. Description
+#: codelists/riskCategory.csv:15
+msgid ""
+"Risks deriving from the compliance or lack thereof of regulatory "
+"obligations related to the development of the project"
+msgstr ""
+
+#. Title
+#: codelists/riskCategory.csv:16
+msgid "All risks"
+msgstr ""
+
+#. Description
+#: codelists/riskCategory.csv:16
+msgid "All risks deriving from the project"
+msgstr ""

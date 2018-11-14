@@ -1,0 +1,290 @@
+# Translations template for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-11-13 18:59-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#. /name/en
+#: extension.json:1
+msgid "Financing"
+msgstr "Financiamiento"
+
+#. /description/en
+#: extension.json:1
+msgid ""
+"Capturing details of the finance arranged for a contract, including "
+"loans, grants and other finance sources."
+msgstr ""
+
+#. /definitions/Contract/properties/finance/title
+#: release-schema.json:1
+msgid "Finance"
+msgstr "Financiamiento"
+
+#. /definitions/Contract/properties/finance/description
+#: release-schema.json:1
+msgid ""
+"An array with details of each source of finance arranged for this "
+"contract."
+msgstr ""
+"Una matriz con los detalles de cada fuente de financiamiento acordada para "
+"este contrato."
+
+#. /definitions/Finance/title
+#: release-schema.json:1
+msgid "Financing arrangements"
+msgstr "Acuerdo de financiamiento"
+
+#. /definitions/Finance/description
+#: release-schema.json:1
+msgid ""
+"This block can be used to model details of each of the parties financing "
+"a contract or project. Note: If the finance is syndicated, and all the "
+"parties to the syndication are known, this section may be further "
+"extended with an array of syndicate partners. No schema for this is "
+"currently provided."
+msgstr ""
+"Este bloque puede usarse para modelar detalles de cada una de las partes que "
+"financian un contrato o proyecto. Nota: Si el financiamiento es "
+"sindicalizado y se conocen todas las partes de la sindicación, esta sección "
+"podrá ampliarse con una matriz de socios sindicados. Actualmente, no se "
+"proporciona ningún esquema para esto."
+
+#. /definitions/Finance/properties/id/title
+#: release-schema.json:1
+msgid "ID"
+msgstr "ID"
+
+#. /definitions/Finance/properties/id/description
+#: release-schema.json:1
+msgid "An identifier for this financing arrangement."
+msgstr "Un identificador para este acuerdo de financiamiento"
+
+#. /definitions/Finance/properties/title/title
+#: release-schema.json:1
+msgid "Title"
+msgstr "Título"
+
+#. /definitions/Finance/properties/title/description
+#: release-schema.json:1
+msgid "A short title for this financing arrangement."
+msgstr "Título breve de este acuerdo de financiamiento."
+
+#. /definitions/Finance/properties/description/title
+#: release-schema.json:1
+msgid "Description"
+msgstr "Descripción"
+
+#. /definitions/Finance/properties/description/description
+#: release-schema.json:1
+msgid ""
+"A short description of this financing arrangement. This may include "
+"details of lender rights, step in arrangements, exchange rate guarantees,"
+" and for syndicated loans, details of syndication and any banks who are "
+"known parties to the loan."
+msgstr ""
+"Una breve descripción de este acuerdo de financiamiento. Esto puede incluir "
+"detalles de los derechos del prestamista, los arreglos de intervención, las "
+"garantías de tipo de cambio, y para los préstamos indicados, los detalles de "
+"la sindicación y los bancos que son partes conocidas del préstamo."
+
+#. /definitions/Finance/properties/financingParty/title
+#: release-schema.json:1
+msgid "Financing party"
+msgstr "Parte financiadora"
+
+#. /definitions/Finance/properties/financingParty/description
+#: release-schema.json:1
+msgid "The party providing this financing arrangement."
+msgstr "Las partes que proveen este arreglo financiero."
+
+#. /definitions/Finance/properties/financeType/title
+#: release-schema.json:1
+msgid "Finance type"
+msgstr "Tipo de financiamiento"
+
+#. /definitions/Finance/properties/financeType/description
+#: release-schema.json:1
+msgid "The type of finance arranged, from the finance type codelist."
+msgstr ""
+"El tipo de financiamiento acordado, tomado de la lista de códigos de tipo de "
+"financiamiento."
+
+#. /definitions/Finance/properties/financeCategory/title
+#: release-schema.json:1
+msgid "Finance category"
+msgstr "Categoría de financiamiento"
+
+#. /definitions/Finance/properties/financeCategory/description
+#: release-schema.json:1
+msgid ""
+"For categorizing the nature of any financial investment. This field must "
+"be filled in for debt finance. This information can be used to identify "
+"the order of preference for investors to get their money back in cases of"
+" liquidation."
+msgstr ""
+"Para categorizar la naturaleza de cualquier inversión financiera. Este campo "
+"debe ser llenado para el financiamiento de la deuda. Esta información se "
+"puede utilizar para identificar el orden de preferencia de los inversores "
+"para recuperar su dinero en casos de liquidación."
+
+#. /definitions/Finance/properties/value/title
+#: release-schema.json:1
+msgid "Value"
+msgstr "Valor"
+
+#. /definitions/Finance/properties/value/description
+#: release-schema.json:1
+msgid "The total value of this finance."
+msgstr "El valor total de este financiamiento."
+
+#. /definitions/Finance/properties/period/title
+#: release-schema.json:1
+msgid "Finance period"
+msgstr "Periodo de financiamiento"
+
+#. /definitions/Finance/properties/period/description
+#: release-schema.json:1
+msgid "What period is covered by this finance."
+msgstr "El período cubierto por este financiamiento."
+
+#. /definitions/Finance/properties/interestRate/title
+#: release-schema.json:1
+msgid "Interest rate"
+msgstr "Tasa de interés"
+
+#. /definitions/Finance/properties/interestRate/description
+#: release-schema.json:1
+msgid "The interest rate associated with this finance."
+msgstr "La tasa de interés asociada con este financiamiento."
+
+#. /definitions/Finance/properties/interestRate/properties/base/title
+#: release-schema.json:1
+msgid "Base"
+msgstr "Base"
+
+#. /definitions/Finance/properties/interestRate/properties/base/description
+#: release-schema.json:1
+msgid ""
+"The variable to which an additional margin amount is added to get the "
+"Interest amount. This can be specified as a fixed number, as a known "
+"variable (e.g. LIBOR), or can be omitted if margin specifies the entire "
+"interest rate."
+msgstr ""
+"La variable a la que se agrega una cantidad de margen adicional para obtener "
+"el monto de interés. Esto se puede especificar como un número fijo, como una "
+"variable conocida (por ejemplo, LIBOR), o puede omitirse si el margen "
+"especifica toda la tasa de interés."
+
+#. /definitions/Finance/properties/interestRate/properties/margin/title
+#: release-schema.json:1
+msgid "Margin"
+msgstr "Margen"
+
+#. /definitions/Finance/properties/interestRate/properties/margin/description
+#: release-schema.json:1
+msgid ""
+"The variable added to the base to give the Interest amount expressed as a"
+" decimal fraction (e.g. 12.5% = 0.125)."
+msgstr ""
+"La variable añadida a la base para dar el monto de interés expresado como "
+"una fracción decimal (por ejemplo 12,5% = 0,125)."
+
+#. /definitions/Finance/properties/interestRate/properties/fixed/title
+#: release-schema.json:1
+msgid "Fixed rate"
+msgstr "Tipo de interés fijo"
+
+#. /definitions/Finance/properties/interestRate/properties/fixed/description
+#: release-schema.json:1
+msgid ""
+"A boolean field. If this interest rate of fixed, set to true. Otherwise, "
+"set to false."
+msgstr ""
+"Un campo booleano. Si este tipo de interés es fijo, se establece en true. De "
+"lo contrario, se establece en false."
+
+#. /definitions/Finance/properties/interestRate/properties/notes/title
+#: release-schema.json:1
+msgid "Notes"
+msgstr "Notas"
+
+#. /definitions/Finance/properties/interestRate/properties/notes/description
+#: release-schema.json:1
+msgid "Any explanatory notes concerning the interest rate."
+msgstr "Notas explicativas sobre el tipo de interés."
+
+#. /definitions/Finance/properties/repaymentFrequency/title
+#: release-schema.json:1
+msgid "Repayment frequency (days)"
+msgstr "Frecuencia de pagos (días)"
+
+#. /definitions/Finance/properties/repaymentFrequency/description
+#: release-schema.json:1
+msgid ""
+"What is the average repayment frequency (in days) for this source of "
+"finance. For example, for yearly, use 365; for monthly repayment use "
+"30.4; for daily use 1. User interfaces may wish to translate this into a "
+"more user-friendly presentation, such as 'daily','monthly' or 'yearly'."
+msgstr ""
+"Define cuál es la frecuencia media de reembolso (en días) de esta fuente de "
+"financiamiento. Por ejemplo, para cada año, use 365; Para el uso del "
+"reembolso mensual 30.4; Para el uso diario 1. Las interfaces de usuario "
+"pueden traducir esto en una presentación más fácil de usar, como 'diario', "
+"'mensual' o 'anual'."
+
+#. /definitions/Finance/properties/stepInRights/title
+#: release-schema.json:1
+msgid "Step in rights"
+msgstr "Derechos de intervención"
+
+#. /definitions/Finance/properties/stepInRights/description
+#: release-schema.json:1
+msgid ""
+"Does provision of this finance confer any step in rights on the financing"
+" party? Step in rights are the lender’s option to assume certain "
+"contractual responsibilities of a project party through managing their "
+"contract in cases when that party is not meeting its obligations under "
+"such a contract. This is a true/false field to indicate when step in "
+"rights exist. If there are step in rights, details should be provided in "
+"the description field, and in additional contract documents."
+msgstr ""
+"¿La provisión de esta financiación confiere algún derecho de intervención a "
+"la parte financiadora? Los derechos de intervención son la opción del "
+"prestamista de asumir ciertas responsabilidades contractuales de una parte "
+"del proyecto a través de la gestión de su contrato en los casos en que esa "
+"parte no esté cumpliendo con sus obligaciones bajo dicho contrato. Este es "
+"un campo true/false para indicar cuándo existen derechos de intervención. Si "
+"hay derechos de intervención, se deben proporcionar detalles en el campo de "
+"descripción, y en documentos adicionales del contrato."
+
+#. /definitions/Finance/properties/exchangeRateGuarantee/title
+#: release-schema.json:1
+msgid "Exchange rate guarantees"
+msgstr "Garantías del tipo de cambio"
+
+#. /definitions/Finance/properties/exchangeRateGuarantee/description
+#: release-schema.json:1
+msgid ""
+"Is there an associated exchange rate guarantee with this source of "
+"finance. This is a true/false field to indicate when exchange rate "
+"guarantees exist. Details of any guarantees can be provided in the "
+"finance description, or in associated documents."
+msgstr ""
+"Si existe una garantía de tipo de cambio asociada con esta fuente de "
+"financiamiento. Este es un campo true/false para indicar cuándo existen "
+"garantías de tipo de cambio. Los detalles de las garantías pueden ser "
+"proporcionados en la descripción financiera, o en documentos asociados."

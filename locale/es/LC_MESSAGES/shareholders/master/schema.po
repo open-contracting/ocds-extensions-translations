@@ -1,0 +1,187 @@
+# Translations template for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-11-13 18:59-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#. /name/en
+#: extension.json:1
+msgid "Shareholders"
+msgstr "Accionistas"
+
+#. /description/en
+#: extension.json:1
+msgid ""
+"Adds company ownership fields to the organization object used in the "
+"parties array."
+msgstr ""
+
+#. /definitions/Shareholder/title
+#: release-schema.json:1
+msgid "Shareholder"
+msgstr "Accionista"
+
+#. /definitions/Shareholder/description
+#: release-schema.json:1
+msgid "A shareholder in an organization."
+msgstr "Un accionista en una organización."
+
+#. /definitions/Shareholder/properties/id/title
+#: release-schema.json:1
+msgid "Shareholder ID"
+msgstr "ID del Accionista"
+
+#. /definitions/Shareholder/properties/id/description
+#: release-schema.json:1
+msgid ""
+"A local identifier for this shareholder, unique within this block. This "
+"field is used to keep track of multiple revisions of a shareholder "
+"through the compilation from release to record mechanism."
+msgstr ""
+"Un identificador local para este accionista, único dentro de este bloque. "
+"Este campo se utiliza para realizar un seguimiento de las revisiones "
+"múltiples de un accionista a través de la compilación del mecanismo de "
+"entrega a registro."
+
+#. /definitions/Shareholder/properties/shareholder/title
+#: release-schema.json:1
+msgid "Shareholder organization reference."
+msgstr "Referencia de la organización de accionistas."
+
+#. /definitions/Shareholder/properties/shareholder/description
+#: release-schema.json:1
+msgid ""
+"An organization reference pointing the entry in the parties section for "
+"the shareholding organization."
+msgstr ""
+"Una referencia de la organización señalando la entrada en la sección de "
+"partes de la organización accionaria."
+
+#. /definitions/Shareholder/properties/shareholding/title
+#: release-schema.json:1
+msgid "Shareholding"
+msgstr "Participación"
+
+#. /definitions/Shareholder/properties/shareholding/description
+#: release-schema.json:1
+msgid ""
+"The percentage of shares held by the shareholder, expressed as a decimal "
+"value between 0 and 1."
+msgstr ""
+"El porcentaje de acciones que posee el accionista, expresado como un valor "
+"decimal entre 0 y 1."
+
+#. /definitions/Shareholder/properties/votingRights/title
+#: release-schema.json:1
+msgid "Shareholder voting rights"
+msgstr "Derechos de voto de los accionistas"
+
+#. /definitions/Shareholder/properties/votingRights/description
+#: release-schema.json:1
+msgid ""
+"Specify the type of voting rights associated with the shares held by the "
+"shareholder against the [voting rights codelist](http://standard.open-"
+"contracting.org/latest/en/schema/codelists/#voting-rights)."
+msgstr ""
+"Especifica el tipo de derechos de voto asociado a las acciones que posee el "
+"accionista en contra de la [lista de códigos de derechos de "
+"voto](http://standard.open-contracting.org/latest/en/schema/codelists/"
+"#voting-rights)."
+
+#. /definitions/Shareholder/properties/votingRightsDetails/title
+#: release-schema.json:1
+msgid "Shareholder voting rights details"
+msgstr "Detalles de los derechos de voto de los accionistas"
+
+#. /definitions/Shareholder/properties/votingRightsDetails/description
+#: release-schema.json:1
+msgid ""
+"Detailed information about the shareholder's voting rights. This field "
+"should be completed when the shareholder voting rights are restricted, "
+"additional or enhanced."
+msgstr ""
+"Información detallada sobre los derechos de voto del accionista. Este campo "
+"debe completarse cuando los derechos de voto de los accionistas son "
+"restringidos, adicionales o mejorados."
+
+#. /definitions/Shareholder/properties/notes/title
+#: release-schema.json:1
+msgid "Shareholder notes"
+msgstr "Notas sobre los accionistas"
+
+#. /definitions/Shareholder/properties/notes/description
+#: release-schema.json:1
+msgid ""
+"Additional notes on this shareholder. This field should be used to "
+"provide details on any caps on equity transfer, or lock-in arrangements, "
+"applicable to this shareholder."
+msgstr ""
+"Notas adicionales sobre este accionista. Este campo debe usarse para "
+"proporcionar detalles sobre los límites máximos en la transferencia de "
+"capital, o acuerdos de bloqueo, aplicables a este accionista."
+
+#. /definitions/Organization/properties/shareholders/title
+#: release-schema.json:1
+msgid "Organization shareholders"
+msgstr "Accionistas de la organización"
+
+#. /definitions/Organization/properties/shareholders/description
+#: release-schema.json:1
+msgid ""
+"A list of shareholders in the organization: used to provide company "
+"ownership information for firms, primarily in the case of large and "
+"complex contracts, or Public Private Partnerships, that require "
+"disclosure of this information for certain bidders or awarded parties."
+msgstr ""
+"Una lista de los accionistas de la organización: se utiliza para "
+"proporcionar información sobre la propiedad de la empresa para las "
+"sociedades, principalmente en el caso de contratos grandes y complejos, o "
+"Sociedades Públicas Privadas, que requieren la divulgación de esta "
+"información para ciertos licitadores o adjudicatarios."
+
+#. /definitions/Organization/properties/beneficialOwnership/title
+#: release-schema.json:1
+msgid "Beneficial ownership"
+msgstr "Propiedad beneficiaria "
+
+#. /definitions/Organization/properties/beneficialOwnership/description
+#: release-schema.json:1
+msgid ""
+"This section can be used to record information concerning individuals or "
+"organizations with a beneficial ownership or control interests in this "
+"party. Where structured data is available, this section may be extended "
+"by embedding or linking to information modelled using the [Beneficial "
+"Ownership Data Standard (BODS)](https://github.com/openownership/data-"
+"standard)."
+msgstr ""
+"Esta sección puede usarse para registrar información concerniente a "
+"individuos u organizaciones con intereses de propiedad o control efectivas "
+"en esta parte. Cuando se dispone de datos estructurados, esta sección puede "
+"ampliarse mediante la incorporación o vinculación a la información modelada "
+"utilizando el [Estándar de Datos de Propiedad Efectiva (BODS)] "
+"(https://github.com/openownership/data-standard)."
+
+#. /definitions/Organization/properties/beneficialOwnership/properties/description/title
+#: release-schema.json:1
+msgid "Description"
+msgstr "Descripción"
+
+#. /definitions/Organization/properties/beneficialOwnership/properties/description/description
+#: release-schema.json:1
+msgid "A free text description of beneficial ownership or control arrangements."
+msgstr ""
+"Una descripción en texto libre de la propiedad efectiva o los acuerdos de "
+"control."

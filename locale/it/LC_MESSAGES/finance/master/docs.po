@@ -1,0 +1,147 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-13 18:59-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: README.md:0
+msgid "Financing extension"
+msgstr ""
+
+#: README.md:3
+msgid ""
+"Sometimes, particularly in the case of Public Private Partnerships, "
+"contracts are financed using a range of instruments, including loans, "
+"grants, share issues and so-on."
+msgstr ""
+
+#: README.md:5
+msgid ""
+"The financing extension provides a space to declare the finance arranged for "
+"a contract."
+msgstr ""
+
+#: README.md:7
+msgid ""
+"This is declared within the `contract` section, based on an understanding "
+"that this information is generally only disclosed following the signature of "
+"a contract. This information can be updated over the lifetime of the "
+"contract."
+msgstr ""
+
+#: README.md:9
+msgid "The finance building block includes:"
+msgstr ""
+
+#: README.md:11
+msgid ""
+"**Title** and **Description** - for providing summary information about the "
+"finance"
+msgstr ""
+
+#: README.md:12
+msgid ""
+"**Financing Party** - an organization reference to the id and name of an "
+"organization listed in the main parties array."
+msgstr ""
+
+#: README.md:13
+msgid "**Finance Type** - an entry from a FinanceType codelist"
+msgstr ""
+
+#: README.md:14
+msgid "**Finance Category** - an entry from a Finance Category codelist"
+msgstr ""
+
+#: README.md:15
+msgid ""
+"**Step in arrangements** and **Exchange rate guarantee** flags, to indicate "
+"whether either apply to this finance"
+msgstr ""
+
+#: README.md:16
+msgid "**Repayment Frequency** - to give an indication of likely repayments"
+msgstr ""
+
+#: README.md:17
+msgid "**Period** - a start, end date and/or duration for the finance"
+msgstr ""
+
+#: README.md:18
+msgid "**interestRate** - an object consisting of:"
+msgstr ""
+
+#: README.md:19
+msgid "**base** - a constant such as 0.1, or a known rate such as LIBOR"
+msgstr ""
+
+#: README.md:20
+msgid "**margin** - the component added to this base to give the rate"
+msgstr ""
+
+#: README.md:21
+msgid "**fixed** - a boolean for whether the rate is fixed or variable"
+msgstr ""
+
+#: README.md:22
+msgid "**notes** - space to provide more information on the rate"
+msgstr ""
+
+#: README.md:24
+msgid "This allows modelling of rates such as 'LIBOR+1%'."
+msgstr ""
+
+#: README.md:0
+msgid "Codelists"
+msgstr "vocabolari controllati"
+
+#: README.md:28
+msgid ""
+"The 'financeType' codelist is based on the list on [Page 57 of the World "
+"Bank PPP Disclosure Framework](http://pubdocs.worldbank.org/"
+"en/143671469558797229/FrameworkPPPDisclosure-071416.pdf#page=57)"
+msgstr ""
+
+#: README.md:30
+msgid ""
+"The 'financeCategory' codelist is used to indicate (a) the rights attached "
+"to finance (in terms of equity, mezzanine and senior loans), and (b) to "
+"distinguish direct finance from guarantees."
+msgstr ""
+
+#: README.md:0
+msgid "Issues"
+msgstr "Problemi (issues)"
+
+#: README.md:34
+msgid ""
+"Report issues for this extension in the [ocds-extensions repository](https://"
+"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
+"name in the issue's title."
+msgstr ""
+"Segnala i problemi per questa estensione nel [repository ocds-"
+"extensions](https://github.com/open-contracting/ocds-extensions/issues), "
+"inserendo il nome dell'estensione nel titolo del problema."
+
+#: README.md:0
+msgid "Changelog"
+msgstr "Storico delle modifiche"
+
+#: README.md:38
+msgid ""
+"2018-05-08 - Make `finance/id` required and non-nullable to support revision "
+"tracking and [list merging](http://standard.open-contracting.org/latest/en/"
+"schema/merging/#lists)."
+msgstr ""

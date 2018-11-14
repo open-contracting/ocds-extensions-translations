@@ -1,0 +1,44 @@
+# Translations template for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-11-13 18:59-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#. /name
+#: extension.json:1
+msgid "Milestone documents"
+msgstr "Documenti della fase"
+
+#. /description
+#: extension.json:1
+msgid ""
+"Documents at the milestone level were deprecated in OCDS 1.1. This "
+"extension re-introduces the ability to attach documents to each "
+"individual milestone."
+msgstr ""
+"I documenti al livello di fase erano deprecati in OCDS 1.1. Questa "
+"estensione reintroduce la capacità di allegare documenti a ogni singola fase "
+"principale."
+
+#. /definitions/Milestone/properties/documents/title
+#: release-schema.json:1
+msgid "Documents"
+msgstr "Documenti"
+
+#. /definitions/Milestone/properties/documents/description
+#: release-schema.json:1
+msgid "A list of documents specifically associated with this milestone."
+msgstr ""

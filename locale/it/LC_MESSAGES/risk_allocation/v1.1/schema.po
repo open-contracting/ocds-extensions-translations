@@ -1,0 +1,97 @@
+# Translations template for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-11-13 18:59-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#. /name
+#: extension.json:1
+msgid "ocds-riskAllocation-extension"
+msgstr ""
+
+#. /description
+#: extension.json:1
+msgid "Draft risk allocation extension for ppp extension"
+msgstr ""
+
+#. /definitions/Risk/title
+#: release-schema.json:1
+msgid "Risk"
+msgstr ""
+
+#. /definitions/Risk/description
+#: release-schema.json:1
+msgid "A risk relating to the project."
+msgstr ""
+
+#. /definitions/Risk/properties/id/title
+#: release-schema.json:1
+msgid "Risk ID"
+msgstr ""
+
+#. /definitions/Risk/properties/id/description
+#: release-schema.json:1
+msgid ""
+"A local identifier for this risk, unique within this block. This field is"
+" used to keep track of multiple revisions of a risk through the "
+"compilation from release to record mechanism."
+msgstr ""
+
+#. /definitions/Risk/properties/category/title
+#: release-schema.json:1
+msgid "Risk category"
+msgstr ""
+
+#. /definitions/Risk/properties/category/description
+#: release-schema.json:1
+msgid "Specify the category of the risk against the risk category codelist."
+msgstr ""
+
+#. /definitions/Risk/properties/description/title
+#: release-schema.json:1
+msgid "Risk description"
+msgstr ""
+
+#. /definitions/Risk/properties/description/description
+#: release-schema.json:1
+msgid "A description for this risk."
+msgstr ""
+
+#. /definitions/Risk/properties/allocation/title
+#. /definitions/Contract/properties/riskAllocation/title
+#: release-schema.json:1
+msgid "Risk allocation"
+msgstr ""
+
+#. /definitions/Risk/properties/allocation/description
+#: release-schema.json:1
+msgid "The party which retains the risk."
+msgstr ""
+
+#. /definitions/Risk/properties/notes/title
+#: release-schema.json:1
+msgid "Risk notes"
+msgstr ""
+
+#. /definitions/Risk/properties/notes/description
+#: release-schema.json:1
+msgid "Additional notes on the risk, for example the rationale for the allocation"
+msgstr ""
+
+#. /definitions/Contract/properties/riskAllocation/description
+#: release-schema.json:1
+msgid "Information on the allocation of risks relating to the contract."
+msgstr ""

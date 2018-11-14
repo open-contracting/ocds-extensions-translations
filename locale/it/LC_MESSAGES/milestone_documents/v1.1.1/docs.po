@@ -1,0 +1,75 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-13 18:59-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: README.md:0
+msgid "Milestone Documents"
+msgstr "Documentazione delle fasi principali"
+
+#: README.md:4
+msgid ""
+"In OCDS 1.1, core support for documents attached to individual milestones "
+"was removed from the milestones block to simplify the standard."
+msgstr ""
+"In OCDS 1.1, il supporto di base per i documenti allegati alle singole fasi "
+"è stato rimosso dal blocco delle fasi per semplificare lo standard."
+
+#: README.md:6
+msgid ""
+"This extension re-introduces the ```documents``` block to ```milestones```, "
+"providing fields to detail the documents related to each individual "
+"milestone."
+msgstr ""
+
+#: README.md:0
+msgid "Guidance"
+msgstr "Guida"
+
+#: README.md:10
+msgid ""
+"Publishers should consider that many consuming applications will only look "
+"at the ```tender/documents```, ```award/documents```, ```contracts/"
+"documents``` and ```contracts/implementation/documents``` section to access "
+"and display relevant documentation to users."
+msgstr ""
+
+#: README.md:12
+msgid ""
+"Document titles, document types, and descriptions can be used to indicate to "
+"human readers the particular nature of the documents and any milestones they "
+"relate to."
+msgstr ""
+"Il titolo dei documenti, il tipo dei documenti e le descrizioni possono "
+"essere utilizzati per indicare agli utenti umani la natura particolare dei "
+"documenti e le eventuali fasi a cui si riferiscono."
+
+#: README.md:14
+msgid ""
+"However, in cases where it is important to track documents on a milestone-by-"
+"milestone basis this extension can be introduced."
+msgstr ""
+"Tuttavia, nei casi in cui è importante tracciare documenti fase per fase, "
+"questa estensione può essere introdotta."
+
+#: README.md:16
+msgid ""
+"Depending on the nature of the documents, publishers should consider "
+"duplicating information in the parent sections documents block also."
+msgstr ""
+"A seconda della natura dei documenti, gli editori dovrebbero considerare di "
+"duplicare le informazioni anche nel blocco di documenti delle sezioni "
+"principali."

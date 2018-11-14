@@ -1,0 +1,61 @@
+# Translations template for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-11-13 18:59-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#. /name/en
+#. /definitions/Organization/properties/additionalContactPoints/title
+#: extension.json:1 release-schema.json:1
+msgid "Additional Contact Points"
+msgstr ""
+
+#. /description/en
+#: extension.json:1
+msgid ""
+"For including extra contact points on each organization. Particularly "
+"used when each contact point deals only in a particular language or group"
+" of languages."
+msgstr ""
+
+#. /definitions/Organization/properties/additionalContactPoints/description
+#: release-schema.json:1
+msgid ""
+"An array of additional contact points that may be consulted for "
+"information. Additional contact points should each list the languages "
+"they operate in their name, and as structured data in the "
+"availableLanguage field."
+msgstr ""
+
+#. /definitions/ContactPoint/properties/availableLanguage/title
+#: release-schema.json:1
+msgid "Available Language(s)"
+msgstr ""
+
+#. /definitions/ContactPoint/properties/availableLanguage/description
+#: release-schema.json:1
+msgid "An array of language codes (e.g. en, es, uk)"
+msgstr ""
+
+#. /definitions/ContactPoint/properties/availableLanguage/items/title
+#: release-schema.json:1
+msgid "Language code"
+msgstr ""
+
+#. /definitions/ContactPoint/properties/availableLanguage/items/description
+#: release-schema.json:1
+msgid "ISO language code"
+msgstr ""

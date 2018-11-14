@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-13 18:59-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: README.md:0
+msgid "Enquiries"
+msgstr "Domande"
+
+#: README.md:4
+msgid ""
+"The enquiries extension can be used to record questions raised during a "
+"contracting process, and the answers provided."
+msgstr ""
+"L'estensione per le richieste di informazioni può essere utilizzata per "
+"registrare le domande sollevate durante una procedura di appalto e le "
+"risposte fornite."
+
+#: README.md:0
+msgid "Structure"
+msgstr "Struttura"
+
+#: README.md:8
+msgid ""
+"The extension adds an ```enquiries``` array to tender, consisting of one or "
+"more enquiry objects, each with fields for a question, and an answer."
+msgstr ""
+
+#: README.md:10
+msgid "Example:"
+msgstr "Esempio:"
+
+#: README.md:33
+msgid ""
+"Supporting documents with clarifications, or a full document containing "
+"answers to questions can be included in the ```tender/documents``` array "
+"with a ```documentType``` of 'clarifications'."
+msgstr ""
+
+#: README.md:35
+msgid ""
+"Where the answers to a question are only available in attached documents, an "
+"```answer``` value such as 'Consult section N of \"%document name%\" in the "
+"documents section' may be entered to allow analysts of the data to identify "
+"that an answer to this question has been provided."
+msgstr ""
+
+#: README.md:37
+msgid ""
+"When a system allow a discussion format, where each answer can be followed "
+"by a further clarification question, the ```threadID``` property can be used "
+"to link together multiple entries in the ```enquiries``` array."
+msgstr ""
+
+#: README.md:0
+msgid "Usage guidance"
+msgstr "Guida all'uso"
+
+#: README.md:41
+msgid ""
+"Implementations may vary on the amount of enquiry information they provide, "
+"and when it is provided."
+msgstr ""
+"Le implementazioni possono variare in base alla quantità di informazioni "
+"richieste che forniscono e quando vengono fornite."
+
+#: README.md:43
+msgid ""
+"Some publishers may omit the identity of the question author to protect "
+"confidentiality of enquirers, or may anonymize this information (e.g. simply "
+"putting the author name as 'Organization 1' or 'Organization 2' so that it "
+"is possible to see questions from the same organization, but not to know the "
+"identity of that organization.)"
+msgstr ""
+"Alcune organizzazioni che pubblicano dati possono omettere l'identità "
+"dell'autore della domanda per proteggere la riservatezza dei richiedenti o "
+"possono rendere anonime tali informazioni (ad esempio semplicemente "
+"inserendo il nome dell'autore come \"Organizzazione 1\" o \"Organizzazione "
+"2\" in modo che sia possibile visualizzare le domande della stessa "
+"organizzazione , ma non conoscere l'identità di quell'organizzazione.)"
+
+#: README.md:45
+msgid ""
+"The ```relatedItem``` and ```relatedLot``` properties are available for use "
+"when questions can be asked in relation to a specific lot or item."
+msgstr ""
+
+#: README.md:47
+msgid "Where possible, the recommended approach is to:"
+msgstr "Ove possibile, l'approccio raccomandato è:"
+
+#: README.md:49
+msgid ""
+"Make release with a ```tenderUpdate``` release tag for every new question or "
+"batch of questions received, providing an enquiries array with each of the "
+"questions in;"
+msgstr ""
+
+#: README.md:50
+msgid ""
+"Make a release with a ```tenderUpdate``` release tag when the answers to the "
+"questions are provided, updating the earlier enquiries array so each entry "
+"now contains both a question and an answer;"
+msgstr ""
+
+#: README.md:52
+msgid ""
+"This approach will enable third-party applications to watch for releases "
+"that provide answers to questions, and will support procurement monitors in "
+"reviewing the way in which questions are being answered."
+msgstr ""
+"Questo approccio consentirà alle applicazioni di terze parti di tenere sotto "
+"controllo le versioni che forniscono risposte alle domande e supporterà i "
+"responsabili degli appalti nel rivedere il modo in cui le domande ricevono "
+"risposta."
+
+#: README.md:54
+msgid ""
+"We recommend that publishers provide question answers as plain text, or with "
+"minimal HTML markup (paragraphs and line-breaks), and that consuming "
+"applications parse text appropriately to format it for readability (e.g. "
+"replace line-breaks with paragraph breaks in HTML)."
+msgstr ""
+"Raccomandiamo alle organizzazioni che pubblicano dati di fornire risposte a "
+"domande come testo semplice, o con markup HTML minimo (paragrafi e "
+"interruzioni di riga) e che le applicazioni che li consumano, analizzino il "
+"testo in modo appropriato per formattarlo e renderlo leggibile (ad esempio, "
+"sostituire interruzioni di riga con interruzioni di paragrafo in HTML)."
+
+#: README.md:0
+msgid "Reference"
+msgstr "Riferimento"

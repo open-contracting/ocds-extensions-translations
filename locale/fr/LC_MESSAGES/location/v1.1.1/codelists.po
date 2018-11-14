@@ -1,0 +1,137 @@
+# Translations template for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-11-13 18:59-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: codelists/locationGazeteers.csv
+msgid "Category"
+msgstr "Catégorie"
+
+#: codelists/locationGazeteers.csv
+msgid "Code"
+msgstr "Code"
+
+#: codelists/locationGazeteers.csv
+msgid "Title"
+msgstr "Titre"
+
+#: codelists/locationGazeteers.csv
+msgid "Description"
+msgstr "Description"
+
+#: codelists/locationGazeteers.csv
+msgid "Source"
+msgstr "Source"
+
+#: codelists/locationGazeteers.csv
+msgid "URI_Pattern"
+msgstr "URI_Pattern"
+
+#. Title
+#: codelists/locationGazeteers.csv:1
+msgid "EU Nomenclature of Territorial Units for Statistics"
+msgstr ""
+
+#. Description
+#: codelists/locationGazeteers.csv:1
+msgid ""
+"The Nomenclature of Territorial Units for Statistics (NUTS) was "
+"established by Eurostat in order to provide a single uniform breakdown of"
+" territorial units for the production of regional statistics for the "
+"European Union."
+msgstr ""
+"La Nomenclature des Unités Territoriales Statistiques (NUTS) a été établi "
+"par Eurostat dans le but de fournir une seule répartition uniforme des "
+"unités territoriales pour la production des statistiques régionales de "
+"l'Union européenne."
+
+#. Title
+#: codelists/locationGazeteers.csv:2
+msgid "ISO Country Codes (3166-1 alpha-2)"
+msgstr "Codes ISO pour les pays (3166-1 alpha-2)"
+
+#. Description
+#: codelists/locationGazeteers.csv:2
+msgid "ISO 2-Digit Country Codes"
+msgstr "Codes ISO à deux lettres pour les pays"
+
+#. Title
+#: codelists/locationGazeteers.csv:3
+msgid "GeoNames"
+msgstr "GeoNames"
+
+#. Description
+#: codelists/locationGazeteers.csv:3
+msgid ""
+"GeoNames provides numerical identifiers for many points of interest "
+"around the world, including administrative divisions, populated centres "
+"and other locations, embedded within a structured tree of geographic "
+"relations."
+msgstr ""
+"GeoNames fournit des identifiants numériques pour un grand nombre de points "
+"d'intérêts dans le monde, comprenant des divisions administratives, des "
+"centres de population et d'autres lieux, intégrés dans un arbre structuré de "
+"relations géographiques."
+
+#. Title
+#: codelists/locationGazeteers.csv:4
+msgid "OpenStreetMap Node"
+msgstr "Nœud OpenStreetMap"
+
+#. Description
+#: codelists/locationGazeteers.csv:4
+msgid ""
+"OpenStreetMap Nodes consist of a single point in space defined by a "
+"latitude, longitude and node ID. Nodes may have tags to indicate the "
+"particular geographic feature they represent."
+msgstr ""
+"Les nœuds OpenStreetMap sont composés d'un seul point dans l'espace défini "
+"par une latitude, une longitude et un identifiant de nœud. Les nœuds peuvent "
+"avoir des tags qui indiquent l'objet géographique qu'ils représentent."
+
+#. Title
+#: codelists/locationGazeteers.csv:5
+msgid "OpenStreetMap Relation"
+msgstr "Relation OpenStreetMap"
+
+#. Description
+#: codelists/locationGazeteers.csv:5
+msgid ""
+"Relations are used to model logical (and usually local) or geographic "
+"relationships between objects. In practice, boundaries of geographic "
+"areas are available as Relations in OpenStreetMap."
+msgstr ""
+"Les relations sont utilisées pour modéliser les relations logiques (et "
+"souvent locales) ou géographiques entre les objets. En pratique, les limites "
+"des zones géographiques sont disponibles sous forme de relations dans "
+"OpenStreetMap. "
+
+#. Title
+#: codelists/locationGazeteers.csv:6
+msgid "OpenStreetMap Way"
+msgstr "Chemin OpenStreetMap"
+
+#. Description
+#: codelists/locationGazeteers.csv:6
+msgid ""
+"An OpenStreetMap Way is an ordered list of OpenStreetMap nodes. May be "
+"used to describe fragments of roads or local boundaries and bounding "
+"boxes."
+msgstr ""
+"Un chemin OpenStreetMap est une liste ordonnée de nœuds OpenStreetMap. Peut "
+"être utilisé pour décrire des fragments de routes ou des limites locales et "
+"leurs points de jonction."

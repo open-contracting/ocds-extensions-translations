@@ -1,0 +1,54 @@
+# Translations template for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-11-13 18:59-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: codelists/chargePaidBy.csv
+msgid "Code"
+msgstr "Código"
+
+#: codelists/chargePaidBy.csv
+msgid "Title"
+msgstr "Título"
+
+#: codelists/chargePaidBy.csv
+msgid "Description"
+msgstr "Descripción"
+
+#. Title
+#: codelists/chargePaidBy.csv:1
+msgid "Government"
+msgstr "Gobierno"
+
+#. Description
+#: codelists/chargePaidBy.csv:1
+msgid "The charge is paid by the government"
+msgstr "El cargo es pagado por el gobierno"
+
+#. Title
+#: codelists/chargePaidBy.csv:2
+msgid "User"
+msgstr "Usuario"
+
+#. Description
+#: codelists/chargePaidBy.csv:2
+msgid ""
+"The charge is paid by businesses or citizens using the facilities "
+"provided by the contract"
+msgstr ""
+"El cargo es pagado por empresas o ciudadanos utilizando las instalaciones "
+"que provee el contrato"

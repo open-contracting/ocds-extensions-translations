@@ -1,0 +1,285 @@
+# Translations template for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-11-13 18:59-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#. /name/en
+#: extension.json:1
+msgid "Qualification"
+msgstr "Calificación"
+
+#. /description/en
+#: extension.json:1
+msgid ""
+"Adds a pre-qualification section to an OCDS release, based on the tender "
+"object."
+msgstr ""
+
+#. /properties/preQualification/title
+#. /definitions/PreQualification/title
+#: release-schema.json:1
+msgid "Pre-qualification"
+msgstr "Pre calificación"
+
+#. /properties/preQualification/description
+#: release-schema.json:1
+msgid ""
+"The activities undertaken in order to qualify suppliers to participate in"
+" the tender."
+msgstr ""
+"Las actividades llevadas a cabo para aprobar a los proveedores para que "
+"participen en la licitación."
+
+#. /definitions/PreQualification/description
+#: release-schema.json:1
+msgid ""
+"Data regarding pre-qualification process - limiting the number of "
+"qualified bidders by reviewing each bidder’s qualifications against a set"
+" of criteria."
+msgstr ""
+"Fecha del proceso de pre calificación - que limita el número de licitadores "
+"calificados al revisar las calificaciones de cada licitador contra una serie "
+"de criterios. "
+
+#. /definitions/PreQualification/properties/id/title
+#: release-schema.json:1
+msgid "Pre-qualification ID"
+msgstr "ID de pre calificación"
+
+#. /definitions/PreQualification/properties/id/description
+#: release-schema.json:1
+msgid ""
+"An identifier for this pre-qualification process. This may be the same as"
+" the ocid, or may be drawn from an internally held identifier for this "
+"process."
+msgstr ""
+"Un identificador para este proceso de pre calificación. Este puede ser el "
+"mismo que el ocid o puede tomarse de un identificador interno para este "
+"proceso."
+
+#. /definitions/PreQualification/properties/title/title
+#. /definitions/PreQualification/properties/title/description
+#: release-schema.json:1
+msgid "Pre-qualification title"
+msgstr "Título de pre calificación"
+
+#. /definitions/PreQualification/properties/description/title
+#. /definitions/PreQualification/properties/description/description
+#: release-schema.json:1
+msgid "Pre-qualification description"
+msgstr "Descripción de pre calificación"
+
+#. /definitions/PreQualification/properties/status/title
+#: release-schema.json:1
+msgid "Pre-qualification status"
+msgstr "Estado de pre calificación"
+
+#. /definitions/PreQualification/properties/status/description
+#: release-schema.json:1
+msgid ""
+"The current status of the pre-qualification based on the "
+"preQualificationStatus codelist."
+msgstr ""
+"El estado actual de la pre calificación basado en la lista de códigos "
+"preQualificationStatus."
+
+#. /definitions/PreQualification/properties/submissionMethod/title
+#: release-schema.json:1
+msgid "Submission method"
+msgstr "Método de presentación"
+
+#. /definitions/PreQualification/properties/submissionMethod/description
+#: release-schema.json:1
+msgid ""
+"Specify the method by which bids must be submitted, in person, written, "
+"or electronic auction. Using the [submission method "
+"codelist](http://standard.open-contracting.org/latest/en/schema/codelists"
+"/#submission-method)"
+msgstr ""
+"Especifica el método por el cual deben de presentarse las propuestas, en "
+"persona, escritas o subasta en línea. Usando la [lista de códigos de método "
+"de presentación](http://standard.open-contracting.org/latest/en/schema/"
+"codelists/#submission-method)"
+
+#. /definitions/PreQualification/properties/submissionMethodDetails/title
+#: release-schema.json:1
+msgid "Submission method details"
+msgstr "Detalles del método de presentación"
+
+#. /definitions/PreQualification/properties/submissionMethodDetails/description
+#: release-schema.json:1
+msgid ""
+"Any detailed or further information on the submission method. This may "
+"include the address, e-mail address or online service to which bids "
+"should be submitted, and any special requirements to be followed for "
+"submissions."
+msgstr ""
+"Cualquier detalle o información adicional sobre el método de presentación. "
+"Esto puede incluir la dirección, dirección de correo o servicio en línea en "
+"la cual se debe de enviar la propuesta y cualquier requerimiento especial a "
+"seguir para entregar propuestas."
+
+#. /definitions/PreQualification/properties/period/title
+#: release-schema.json:1
+msgid "Pre-qualification period"
+msgstr "Periodo de pre calificación"
+
+#. /definitions/PreQualification/properties/period/description
+#: release-schema.json:1
+msgid ""
+"The period when the pre-qualification is open for submissions. The end "
+"date is the closing date for pre-qualification submissions."
+msgstr ""
+"El periodo en el que la pre calificación está abierta para recibir "
+"propuestas. La fecha de fin es la fecha de cierre para envíos de pre "
+"calificación."
+
+#. /definitions/PreQualification/properties/enquiryPeriod/title
+#: release-schema.json:1
+msgid "Enquiry period"
+msgstr "Periodo de consulta"
+
+#. /definitions/PreQualification/properties/enquiryPeriod/description
+#: release-schema.json:1
+msgid ""
+"The period during which enquiries regarding the pre-qualification may be "
+"made and answered."
+msgstr ""
+"El periodo durante el cual se pueden hacer y se responderán consultas sobre "
+"la pre calificación."
+
+#. /definitions/PreQualification/properties/hasEnquiries/title
+#: release-schema.json:1
+msgid "Has enquiries?"
+msgstr "¿Tiene consultas?"
+
+#. /definitions/PreQualification/properties/hasEnquiries/description
+#: release-schema.json:1
+msgid ""
+"A true/false field to indicate whether any enquiries were received during"
+" the pre-qualification process"
+msgstr ""
+"Un campo true/false que indica si se recibieron consultas durante el proceso "
+"de pre calificación"
+
+#. /definitions/PreQualification/properties/eligibilityCriteria/title
+#: release-schema.json:1
+msgid "Eligibility criteria"
+msgstr "Criterios de elegibilidad"
+
+#. /definitions/PreQualification/properties/eligibilityCriteria/description
+#: release-schema.json:1
+msgid ""
+"A description of any eligibility criteria for bidders to participate in "
+"the pre-qualification."
+msgstr ""
+"Una descripción de cualquier criterio de elegibilidad para que los "
+"licitadores participen en la pre calificación."
+
+#. /definitions/PreQualification/properties/qualificationPeriod/title
+#: release-schema.json:1
+msgid "Qualification period"
+msgstr "Periodo de calificación"
+
+#. /definitions/PreQualification/properties/qualificationPeriod/description
+#: release-schema.json:1
+msgid ""
+"The date or period when candidates will are anticipated to be qualified "
+"or pre-selected (shortlisted)."
+msgstr ""
+"La fecha o periodo cuando se espera que los candidatos se califiquen o pre "
+"seleccionen (sean finalistas)."
+
+#. /definitions/PreQualification/properties/numberOfTenderers/title
+#: release-schema.json:1
+msgid "Number of tenderers"
+msgstr "Número de licitantes"
+
+#. /definitions/PreQualification/properties/numberOfTenderers/description
+#: release-schema.json:1
+msgid "The number of entities who submit a response to the pre-qualification."
+msgstr "El número de entidades que envían una respuesta a la pre calificación."
+
+#. /definitions/PreQualification/properties/tenderers/title
+#: release-schema.json:1
+msgid "Tenderers"
+msgstr "Licitantes"
+
+#. /definitions/PreQualification/properties/tenderers/description
+#: release-schema.json:1
+msgid "All entities who submit a response to the pre-qualification."
+msgstr "Todas las entidades que envían una respuesta a la pre calificación."
+
+#. /definitions/PreQualification/properties/procuringEntity/title
+#: release-schema.json:1
+msgid "Procuring entity"
+msgstr "Entidad contratante"
+
+#. /definitions/PreQualification/properties/procuringEntity/description
+#: release-schema.json:1
+msgid ""
+"The entity managing the procurement, which may be different from the "
+"buyer who is paying / using the items being procured."
+msgstr ""
+"La entidad gestionando la adquisición, que puede ser distinta del comprador "
+"que paga/usa los artículos adquiridos."
+
+#. /definitions/PreQualification/properties/documents/title
+#: release-schema.json:1
+msgid "Documents"
+msgstr "Documentos"
+
+#. /definitions/PreQualification/properties/documents/description
+#: release-schema.json:1
+msgid ""
+"All documents and attachments related to the pre-qualification, including"
+" any notices. See the [documentType codelist](http://standard.open-"
+"contracting.org/latest/en/schema/codelists/#document-type) for details of"
+" potential documents to include."
+msgstr ""
+"Todos los documentos y adjuntos relacionados con la pre calificación, "
+"incluyendo cualquier aviso. Ver la [lista de códigos "
+"documentType](http://standard.open-contracting.org/latest/en/schema/"
+"codelists/#document-type) para mas detalles de documentos potenciales para "
+"incluir."
+
+#. /definitions/PreQualification/properties/milestones/title
+#: release-schema.json:1
+msgid "Milestones"
+msgstr "Hitos"
+
+#. /definitions/PreQualification/properties/milestones/description
+#: release-schema.json:1
+msgid "A list of milestones associated with the pre-qualification."
+msgstr "Una lista de hitos asociados con la pre calificación."
+
+#. /definitions/PreQualification/properties/amendments/description
+#: release-schema.json:1
+msgid ""
+"An amendment is a formal change to the pre-qualification process, and "
+"generally involves the publication of a new RFQ notice/release. The "
+"rationale and a description of the changes made can be provided here."
+msgstr ""
+"Una enmienda es un cambio formal al proceso de pre calificación y "
+"generalmente involucra la publicación de una nuevo aviso o entrega de "
+"solicitud de cotización. Aquí se puede proveer la justificación y una "
+"descripción de los cambios."
+
+#. /definitions/PreQualification/properties/amendments/title
+#: release-schema.json:1
+msgid "Amendments"
+msgstr "Enmiendas"

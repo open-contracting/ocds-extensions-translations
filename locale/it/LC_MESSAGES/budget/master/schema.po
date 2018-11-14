@@ -1,0 +1,118 @@
+# Translations template for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-11-13 18:59-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#. /name/en
+#: extension.json:1
+msgid "Budget Breakdown"
+msgstr ""
+
+#. /description/en
+#: extension.json:1
+msgid ""
+"Adds a budget breakdown array to the budget object to break down a budget"
+" by source and period."
+msgstr ""
+
+#. /definitions/BudgetBreakdown/title
+#: release-schema.json:1
+msgid "Detailed budget breakdown"
+msgstr ""
+
+#. /definitions/BudgetBreakdown/description
+#: release-schema.json:1
+msgid ""
+"This section allows a detailed budget breakdown to be expressed, covering"
+" multiple budget sources and multiple periods"
+msgstr ""
+
+#. /definitions/BudgetBreakdown/properties/id/title
+#: release-schema.json:1
+msgid "Identifier"
+msgstr "Identificatore"
+
+#. /definitions/BudgetBreakdown/properties/id/description
+#: release-schema.json:1
+msgid "An identifier for this particular budget entry."
+msgstr ""
+
+#. /definitions/BudgetBreakdown/properties/description/title
+#: release-schema.json:1
+msgid "Description"
+msgstr "Descrizione"
+
+#. /definitions/BudgetBreakdown/properties/description/description
+#: release-schema.json:1
+msgid "A short free text description of this budget entry."
+msgstr ""
+
+#. /definitions/BudgetBreakdown/properties/amount/title
+#: release-schema.json:1
+msgid "Amount"
+msgstr "Importo"
+
+#. /definitions/BudgetBreakdown/properties/amount/description
+#: release-schema.json:1
+msgid "The value of the budget line item."
+msgstr ""
+
+#. /definitions/BudgetBreakdown/properties/uri/title
+#: release-schema.json:1
+msgid "Linked budget information"
+msgstr "Informazioni di collegamento al finanziamento"
+
+#. /definitions/BudgetBreakdown/properties/uri/description
+#: release-schema.json:1
+msgid ""
+"A URI pointing directly to a machine-readable information about this "
+"budget entry."
+msgstr ""
+
+#. /definitions/BudgetBreakdown/properties/period/title
+#: release-schema.json:1
+msgid "Budget period"
+msgstr ""
+
+#. /definitions/BudgetBreakdown/properties/period/description
+#: release-schema.json:1
+msgid "The period covered by this budget entry."
+msgstr ""
+
+#. /definitions/BudgetBreakdown/properties/sourceParty/title
+#: release-schema.json:1
+msgid "Source party"
+msgstr ""
+
+#. /definitions/BudgetBreakdown/properties/sourceParty/description
+#: release-schema.json:1
+msgid ""
+"The organization or other party related to this budget entry. If the "
+"budget amount is positive, this indicates a flow of resources from the "
+"party to the contracting process. If the budget amount is negative, it "
+"indicates a payment from the contracting process to this party."
+msgstr ""
+
+#. /definitions/Budget/properties/budgetBreakdown/title
+#: release-schema.json:1
+msgid "Budget breakdown"
+msgstr ""
+
+#. /definitions/Budget/properties/budgetBreakdown/description
+#: release-schema.json:1
+msgid "A detailed breakdown of the budget by period and/or participating funders."
+msgstr ""

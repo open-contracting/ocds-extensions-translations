@@ -1,0 +1,76 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-13 18:59-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: README.md:0
+msgid "Transactions - relatedMilestone Extension"
+msgstr ""
+
+#: README.md:0
+msgid "Background"
+msgstr "Sfondo"
+
+#: README.md:5
+msgid ""
+"In core OCDS `transactions` are a property of the `implementation` object."
+msgstr ""
+
+#: README.md:7
+msgid ""
+"Some contracts link payments against a contract to specific milestones for "
+"the delivery of the contract."
+msgstr ""
+
+#: README.md:0
+msgid "Extension fields"
+msgstr "Campi dell'estensione"
+
+#: README.md:11
+msgid ""
+"This extension adds a `relatedImplementationMilestone` property to the "
+"`transaction` object."
+msgstr ""
+
+#: README.md:13
+msgid ""
+"The `relatedImplementationMilestone` property is a `MilestoneReference` "
+"object."
+msgstr ""
+
+#: README.md:15
+msgid ""
+"The `MilestoneReference` object is introduced by the [metrics extension]"
+"(https://github.com/open-contracting/ocds_metrics_extension)."
+msgstr ""
+
+#: README.md:0
+msgid "Example"
+msgstr "Esempio"
+
+#: README.md:0
+msgid "Issues"
+msgstr "Problemi (issues)"
+
+#: README.md:61
+msgid ""
+"Report issues for this extension in the [ocds-extensions repository](https://"
+"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
+"name in the issue's title."
+msgstr ""
+"Segnala i problemi per questa estensione nel [repository ocds-"
+"extensions](https://github.com/open-contracting/ocds-extensions/issues), "
+"inserendo il nome dell'estensione nel titolo del problema."

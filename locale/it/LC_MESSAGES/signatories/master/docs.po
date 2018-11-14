@@ -1,0 +1,94 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-13 18:59-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: README.md:0
+msgid "Contract signatories"
+msgstr ""
+
+#: README.md:0
+msgid "Background"
+msgstr "Sfondo"
+
+#: README.md:5
+msgid ""
+"In core OCDS the signatories to the contract are not explicitly declared in "
+"the `contract` section. Instead the contract signatories are implicitly "
+"assumed to be the `buyer` defined at release level (known as the "
+"`publicAuthority` in the PPP extension) and the `suppliers` listed in the "
+"`award` associated with the contract (known as the `preferredBidders` in the "
+"PPP extension)."
+msgstr ""
+
+#: README.md:7
+msgid ""
+"In some types of contracting process there may be additional signatories to "
+"the contract or the signatories to the contract may differ from those "
+"specified in `buyer` / `publicAuthority` and `award/suppliers` / `award/"
+"preferredBidders`."
+msgstr ""
+
+#: README.md:0
+msgid "Extension fields"
+msgstr "Campi dell'estensione"
+
+#: README.md:11
+msgid ""
+"This extension adds a `signatories` property to the `contract` section. The "
+"`signatories` property is an array of `OrganizationReference`'s."
+msgstr ""
+
+#: README.md:0
+msgid "Example"
+msgstr "Esempio"
+
+#: README.md:15
+msgid ""
+"The following JSON snippet models a PPP contracting process where there is "
+"an additional signatory to the contract beyond those defined in the "
+"`publicAuthority` and `award/preferredBidders` fields."
+msgstr ""
+
+#: README.md:0
+msgid "Usage notes"
+msgstr "Note per l'utilizzo"
+
+#: README.md:54
+msgid ""
+"Each signatory to the contract should have an associated entry in the "
+"`parties` section of OCDS."
+msgstr ""
+
+#: README.md:56
+msgid ""
+"This extension follows the approach to modelling organizations introduced in "
+"OCDS V1.1."
+msgstr ""
+
+#: README.md:0
+msgid "Issues"
+msgstr "Problemi (issues)"
+
+#: README.md:60
+msgid ""
+"Report issues for this extension in the [ocds-extensions repository](https://"
+"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
+"name in the issue's title."
+msgstr ""
+"Segnala i problemi per questa estensione nel [repository ocds-"
+"extensions](https://github.com/open-contracting/ocds-extensions/issues), "
+"inserendo il nome dell'estensione nel titolo del problema."

@@ -1,0 +1,272 @@
+# Translations template for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-11-13 18:59-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#. /name
+#: extension.json:1
+msgid "Bid statistics and details"
+msgstr "Statistiques et détails des offres"
+
+#. /description
+#: extension.json:1
+msgid "Allowing bid statistics, and detailed bid information to be represented."
+msgstr ""
+"Permet de représenter des statistiques et des informations détaillées sur "
+"les offres. "
+
+#. /properties/bids/title
+#. /definitions/Bids/title
+#: release-schema.json:1
+msgid "Bids"
+msgstr "Offres"
+
+#. /properties/bids/description
+#: release-schema.json:1
+msgid ""
+"The bid section is used to publish summary statistics, and where "
+"applicable, individual bid information."
+msgstr ""
+"La section sur les offres est utilisée pour publier des statistiques "
+"résumées et, lorsque c'est pertinent, des informations individuelles sur les "
+"offres. "
+
+#. /definitions/BidsStatistic/title
+#: release-schema.json:1
+msgid "Bid Statistic"
+msgstr ""
+
+#. /definitions/BidsStatistic/description
+#: release-schema.json:1
+msgid ""
+"For reporting aggregate statistics about the bids related to a tender. "
+"Where lots are in use, statistics may optionally be broken down by lot."
+msgstr ""
+
+#. /definitions/BidsStatistic/properties/id/title
+#. /definitions/Bid/properties/id/title
+#: release-schema.json:1
+msgid "ID"
+msgstr "Identifiant"
+
+#. /definitions/BidsStatistic/properties/id/description
+#: release-schema.json:1
+msgid "An internal identifier for this statistical item."
+msgstr "Un identifiant statistique pour cet objet statistique."
+
+#. /definitions/BidsStatistic/properties/measure/title
+#: release-schema.json:1
+msgid "Measure"
+msgstr ""
+
+#. /definitions/BidsStatistic/properties/measure/description
+#: release-schema.json:1
+msgid ""
+"An item from the bidStatistics codelist for the statisic reported in "
+"value. This is an open codelist, and other statistics may also be "
+"included."
+msgstr ""
+"Un objet de la liste de codes bidStatistics pour les statistiques reportées "
+"en valeur. C'est une liste de codes ouverte et d'autres statistiques peuvent "
+"être incluses."
+
+#. /definitions/BidsStatistic/properties/date/title
+#. /definitions/Bid/properties/date/title
+#: release-schema.json:1
+msgid "Date"
+msgstr "Date"
+
+#. /definitions/BidsStatistic/properties/date/description
+#: release-schema.json:1
+msgid ""
+"The date when this statistic was last updated. This is often the closing "
+"date of the tender process. This field can be left blank unless either "
+"(a) the same statistic is provided from multiple points in time, or (b) "
+"there is a specific local requirement for the data when statistics were "
+"calculated to be provided."
+msgstr ""
+"La date à laquelle les statistiques ont été mises à jour pour la dernière "
+"fois. C'est souvent la date de clôture du processus d'appel d'offre. Ce "
+"champ peut être laissé vide sauf si soit (a) les mêmes statistiques ont été "
+"fournies pour de multiples points dans le temps ou (b) il y a une exigence "
+"locale sur le moment où les statistiques doivent être fournies."
+
+#. /definitions/BidsStatistic/properties/value/title
+#. /definitions/Bid/properties/value/title
+#: release-schema.json:1
+msgid "Value"
+msgstr "Montant"
+
+#. /definitions/BidsStatistic/properties/value/description
+#: release-schema.json:1
+msgid ""
+"The value for the measure in question. Total counts should be provided as"
+" an integer. Percentages should be presented as a proportion of 1 (e.g. "
+"10% = 0.1)"
+msgstr ""
+"La valeur pour la mesure en question. Les comptes totaux doivent être "
+"fournis avec des nombres entiers. Les pourcentages doivent être présentés "
+"comme une proportion de 1 (par exemple 10% = 0.1)"
+
+#. /definitions/BidsStatistic/properties/notes/title
+#: release-schema.json:1
+msgid "Notes"
+msgstr ""
+
+#. /definitions/BidsStatistic/properties/notes/description
+#: release-schema.json:1
+msgid "Any notes required to understand or interpret the given statistic."
+msgstr ""
+"Toute mention nécessaire pour comprendre ou interpréter les statistiques. "
+
+#. /definitions/BidsStatistic/properties/relatedLot/title
+#: release-schema.json:1
+msgid "Related Lot"
+msgstr "Lot lié"
+
+#. /definitions/BidsStatistic/properties/relatedLot/description
+#: release-schema.json:1
+msgid ""
+"Where lots are in use, if this statistic relates to bids on a particular "
+"lot, provide the lot identifier here. If left blank, the statistic will "
+"be interpreted as applying to the whole tender."
+msgstr ""
+"Quand des lots sont utilisés, si les statistiques sont reliés à des offres "
+"sur un lot particulier, fournissez l'identifiant du lot ici. Si laissé vide, "
+"les statistiques seront interprétées comme s'appliquant à l'ensemble de "
+"l'appel d'offres. "
+
+#. /definitions/Bids/description
+#: release-schema.json:1
+msgid ""
+"Summary and detailed information about bids received and evaluated as "
+"part of this contracting process."
+msgstr ""
+
+#. /definitions/Bids/properties/statistics/title
+#: release-schema.json:1
+msgid "Statistics"
+msgstr ""
+
+#. /definitions/Bids/properties/statistics/description
+#: release-schema.json:1
+msgid ""
+"Summary statistics on the number and nature of bids received. Where "
+"information is provided on individual bids, these statistics should match"
+" those that can be calculated from the bid details array."
+msgstr ""
+"Des statistiques résumées sur le nombre et la nature des offres reçues. Là "
+"où des informations sont fournies sur les offres individuelles, ces "
+"statistiques doivent correspondre à celles qui peuvent être calculées à "
+"partir d'une liste sur le détail des offres."
+
+#. /definitions/Bids/properties/details/title
+#: release-schema.json:1
+msgid "Bid details"
+msgstr "Détails sur les offres"
+
+#. /definitions/Bids/properties/details/description
+#: release-schema.json:1
+msgid ""
+"An array of bids, providing information on the bidders, and where "
+"applicable, bid status, bid values and related documents. The extent to "
+"which this information can be disclosed varies from jurisdiction to "
+"jurisdiction."
+msgstr ""
+"Une liste sur les offres, fournissant des informations sur les candidats et, "
+"quand c'est applicable, sur le statut des offres, la valeur des offres et "
+"les documents qui sont reliés. L'étendue des informations qui peuvent être "
+"révélées varie de juridiction en juridiction. "
+
+#. /definitions/Bid/title
+#: release-schema.json:1
+msgid "Bid"
+msgstr "Offre"
+
+#. /definitions/Bid/description
+#: release-schema.json:1
+msgid ""
+"For representing a bid in response to the tender or qualification stage "
+"in this contracting process."
+msgstr ""
+
+#. /definitions/Bid/properties/id/description
+#: release-schema.json:1
+msgid "A local identifier for this bid"
+msgstr "Un identifiant local pour l'offre"
+
+#. /definitions/Bid/properties/date/description
+#: release-schema.json:1
+msgid "The date when this bid was received."
+msgstr "La date à laquelle l'offre a été reçue."
+
+#. /definitions/Bid/properties/status/title
+#: release-schema.json:1
+msgid "Status"
+msgstr "Statut"
+
+#. /definitions/Bid/properties/status/description
+#: release-schema.json:1
+msgid "The status of the bid, drawn from the bidStatus codelist"
+msgstr "Le statut de l'offre tiré de la liste de code bidStatus"
+
+#. /definitions/Bid/properties/tenderers/title
+#: release-schema.json:1
+msgid "Tenderer"
+msgstr "Candidats"
+
+#. /definitions/Bid/properties/tenderers/description
+#: release-schema.json:1
+msgid ""
+"The party, or parties, responsible for this bid. This should provide a "
+"name and identifier, cross-referenced to an entry in the parties array at"
+" the top level of the release."
+msgstr ""
+"La ou les parties responsables de l'offre. Ce champ devrait contenir un nom "
+"et un identifiant, croisé avec une entrée dans la liste des parties au "
+"premier niveau de chaque instance."
+
+#. /definitions/Bid/properties/value/description
+#: release-schema.json:1
+msgid "The total value of the bid."
+msgstr "La valeur totale de l'offre."
+
+#. /definitions/Bid/properties/documents/title
+#: release-schema.json:1
+msgid "Documents"
+msgstr "Documents"
+
+#. /definitions/Bid/properties/documents/description
+#: release-schema.json:1
+msgid "All documents and attachments related to the bid and its evaluation."
+msgstr ""
+"Tous les documents et les pièces jointes liés à l'offre et à son évaluation."
+
+#. /definitions/Bid/properties/requirementResponses/title
+#: release-schema.json:1
+msgid "Requirement responses"
+msgstr ""
+
+#. /definitions/Bid/properties/requirementResponses/description
+#: release-schema.json:1
+msgid ""
+"If the requirements extension is also in use, the detailed responses of "
+"this bid to the tender requirements can be specified here."
+msgstr ""
+"Si l'extension sur les exigences est aussi utilisée, les réponses détaillées "
+"sur cette offre par rapport aux exigences de l'appel d'offres peuvent être "
+"spécifiées ici."

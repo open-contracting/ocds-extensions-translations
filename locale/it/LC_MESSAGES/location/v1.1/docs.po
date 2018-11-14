@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-13 18:59-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: README.md:0
+msgid "Location Data"
+msgstr "Dati sulla posizione"
+
+#: README.md:3
+msgid ""
+"Communicating the location of proposed or executed contract delivery is "
+"important to make users of contracting data."
+msgstr ""
+"Comunicare l'ubicazione dove consegnare la proposta di contratto o del "
+"contratto esecutivo è importante per gli utenti dei dati."
+
+#: README.md:5
+msgid ""
+"This extension introduces two properties at the ```items``` level to "
+"describe location:"
+msgstr ""
+
+#: README.md:7
+msgid ""
+"```deliveryAddress``` - a standard ```Address``` block which can be used to "
+"provide a postal address where services should be delivered."
+msgstr ""
+
+#: README.md:8
+msgid ""
+"```deliveryLocation``` - a new block consisting of GeoJSON and Gazetteer "
+"entries to describe a wider range of locations to which the contract line "
+"item relates."
+msgstr ""
+
+#: README.md:0
+msgid "Schema reference"
+msgstr "Formato di riferimento"
+
+#: README.md:0
+msgid "Gazeteer Codelist"
+msgstr ""
+
+#: README.md:19
+msgid "See locationGazeteers.csv"
+msgstr ""
+
+#: README.md:0
+msgid "Example"
+msgstr "Esempio"
+
+#: README.md:22
+msgid "Below is an example of a geolocated item:"
+msgstr "Di seguito è riportato un esempio di oggetto geolocalizzato:"
+
+#: README.md:68
+msgid ""
+"If the procurement related to the rebuilding of a road, then the item could "
+"also specify more complex geometries such as:"
+msgstr ""
+"Se la procedura di acquisto riguardava la ricostruzione di una strada, "
+"allora l'oggetto poteva anche specificare geometrie più complesse come:"
+
+#: README.md:87
+msgid ""
+"You can take the contents of the geometry object, excluding the "
+"```geometry``` keyword, and plug this into any GeoJSON tool to see the shape "
+"that is described."
+msgstr ""

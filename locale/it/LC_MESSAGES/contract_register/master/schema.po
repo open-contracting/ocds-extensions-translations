@@ -1,0 +1,84 @@
+# Translations template for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-11-13 18:59-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#. /name/en
+#: extension.json:1
+msgid "ocds_contractRegister_extension"
+msgstr ""
+
+#. /description/en
+#: extension.json:1
+msgid ""
+"Adds fields to the contract implementation section to detail the end "
+"date, and final value of a contract."
+msgstr ""
+
+#. /definitions/Implementation/properties/endDate/title
+#: release-schema.json:1
+msgid "End date"
+msgstr "Data di fine"
+
+#. /definitions/Implementation/properties/endDate/description
+#: release-schema.json:1
+msgid ""
+"The date when contract implementation ended. This must only be provided "
+"when contract implementation is complete. Where `implementation/endDate` "
+"varies from the anticipated `contract/period/endDate` an explanation of "
+"the variance should be provided in `implementation/endDateDetails`."
+msgstr ""
+
+#. /definitions/Implementation/properties/endDateDetails/title
+#: release-schema.json:1
+msgid "End date details"
+msgstr ""
+
+#. /definitions/Implementation/properties/endDateDetails/description
+#: release-schema.json:1
+msgid ""
+"Details related to the endDate. This may be a justification for the "
+"contract's completion date being different than in the original contract."
+msgstr ""
+
+#. /definitions/Implementation/properties/finalValue/title
+#: release-schema.json:1
+msgid "Final value"
+msgstr ""
+
+#. /definitions/Implementation/properties/finalValue/description
+#: release-schema.json:1
+msgid ""
+"The total value of all payments for a completed contract. This should "
+"only be provided when the final payment has been recorded. If "
+"`implementation/transactions` are used for this contract, this field "
+"should equal the sum of the `transaction/value/amount` fields. Where "
+"`finalValue/amount` varies from `contract/value/amount` an explanation of"
+" the variance should be provided in `finalValueDetails`."
+msgstr ""
+
+#. /definitions/Implementation/properties/finalValueDetails/title
+#: release-schema.json:1
+msgid "Final  value details"
+msgstr ""
+
+#. /definitions/Implementation/properties/finalValueDetails/description
+#: release-schema.json:1
+msgid ""
+"Details related to the final value. This may be a justification for the "
+"completed contract's value being different than in the original contract."
+msgstr ""

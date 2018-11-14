@@ -1,0 +1,191 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-13 18:59-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: README.md:0
+msgid "Budget Breakdown"
+msgstr ""
+
+#: README.md:0
+msgid "Background"
+msgstr "Sfondo"
+
+#: README.md:5
+msgid ""
+"The `planning` section of OCDS can be used to describe the background to a "
+"contracting process, which may include details of the budget from which "
+"funds are drawn."
+msgstr ""
+
+#: README.md:7
+msgid ""
+"OCDS core includes a single `budget.amount` field to capture the total value "
+"of the budget for the contracting process."
+msgstr ""
+
+#: README.md:0
+msgid "Providing more detailed budget information"
+msgstr ""
+
+#: README.md:11
+msgid ""
+"Some OCDS implementations require more detailed information on budgets to be "
+"disclosed, for example multi-year budgets or budgets sourced from multiple "
+"different government departments. In the case of PPPs, budgets may be "
+"sourced from the private sector or from multi-lateral development banks."
+msgstr ""
+
+#: README.md:13
+msgid ""
+"This extension provides a way to describe multi-year and multi-source "
+"budgets."
+msgstr ""
+
+#: README.md:15
+msgid ""
+"Disclosing structured data on multi-source budgets allows users to "
+"understand how much of the funds for a project come from government or from "
+"a specific department, whilst structured data on multi-year budgets allows "
+"users to understand the expected spend profile of a contract."
+msgstr ""
+
+#: README.md:0
+msgid "Extension fields"
+msgstr "Campi dell'estensione"
+
+#: README.md:19
+msgid ""
+"This extension adds a `budgetBreakdown` property to the `planning` section "
+"of OCDS. `budgetBreakdown` is an array of `budget` blocks."
+msgstr ""
+
+#: README.md:21
+msgid ""
+"This extension also extends the `budget` block with the following additional "
+"properties for use in the `budgetBreakdown` section:"
+msgstr ""
+
+#: README.md:23
+msgid ""
+"`budget.sourceParty` - an organization reference, linking to the entry in "
+"the `parties` section describing the organization providing the funds for "
+"this part of the budget"
+msgstr ""
+
+#: README.md:24
+msgid ""
+"`budget.period` - a period block, describing the period to which this part "
+"of the budget applies"
+msgstr ""
+
+#: README.md:0
+msgid "Guidance"
+msgstr "Guida"
+
+#: README.md:28
+msgid "In the core `planning.budget` block:"
+msgstr ""
+
+#: README.md:30
+msgid ""
+"`budget.amount` should be used to capture the total value of the budget for "
+"the contracting process."
+msgstr ""
+
+#: README.md:31
+msgid ""
+"`budget.period` should be used to capture the total period over which the "
+"budget applies."
+msgstr ""
+
+#: README.md:32
+msgid "`budget.sourceParty` should be omitted."
+msgstr ""
+
+#: README.md:34
+msgid ""
+"Where `budget.budgetBreakdown` is used to express a multi-source budget but "
+"the organization details are not known for one or more parts of the budget, "
+"for example in a PPP where part of the budget will be provided by the "
+"successful private sector bidder, the `sourceParty.name` field should be "
+"used to provide a free text explanation of the source of the budget, e.g. "
+"\"Private sector investment from successful bidder\"."
+msgstr ""
+
+#: README.md:0
+msgid "Examples"
+msgstr "Esempi"
+
+#: README.md:0
+msgid "Multi-source budgets"
+msgstr ""
+
+#: README.md:40
+msgid "The following JSON snippet models a single year multi-source budget:"
+msgstr ""
+
+#: README.md:0
+msgid "Multi-year budgets"
+msgstr ""
+
+#: README.md:93
+msgid "The following JSON snippet models a multi-year single source budget:"
+msgstr ""
+
+#: README.md:0
+msgid "To do"
+msgstr ""
+
+#: README.md:138
+msgid ""
+"Finalize guidance on use of extended fields in the core `planning.budget` "
+"field."
+msgstr ""
+
+#: README.md:139
+msgid "Finalize guidance where source entity is not known at time of budgeting"
+msgstr ""
+
+#: README.md:141
+msgid ""
+"See issue [#377](https://github.com/open-contracting/standard/issues/377)."
+msgstr ""
+
+#: README.md:0
+msgid "Issues"
+msgstr "Problemi (issues)"
+
+#: README.md:145
+msgid ""
+"Report issues for this extension in the [ocds-extensions repository](https://"
+"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
+"name in the issue's title."
+msgstr ""
+"Segnala i problemi per questa estensione nel [repository ocds-"
+"extensions](https://github.com/open-contracting/ocds-extensions/issues), "
+"inserendo il nome dell'estensione nel titolo del problema."
+
+#: README.md:0
+msgid "Changelog"
+msgstr "Storico delle modifiche"
+
+#: README.md:149
+msgid ""
+"2018-05-08 - Make `budgetBreakdown/id` required and non-nullable to support "
+"revision tracking and [list merging](http://standard.open-contracting.org/"
+"latest/en/schema/merging/#lists)."
+msgstr ""

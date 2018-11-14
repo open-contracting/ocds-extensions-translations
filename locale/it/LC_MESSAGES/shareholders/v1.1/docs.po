@@ -1,0 +1,116 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-13 18:59-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: README.md:0
+msgid "Shareholder and ownership details"
+msgstr ""
+
+#: README.md:3
+msgid ""
+"The shareholder extension can be used to provide details of the owners of "
+"parties involved in a contracting process."
+msgstr ""
+
+#: README.md:5
+msgid ""
+"For example, in Public Private Partnerships processes, companies are often "
+"required to disclose information on their ownership structures when bidding, "
+"and when the contract is awarded, information on the ownership of a Special "
+"Purpose Vehicle (SPV) operating the contract may need to be kept up to date "
+"during project implementation."
+msgstr ""
+
+#: README.md:7
+msgid ""
+"Because each owner mentioned in the shareholders array should also gain an "
+"entry in the 'parties' array, it is possible to use this extension to build "
+"up information on corporate ownership networks involved in a contracting "
+"process."
+msgstr ""
+
+#: README.md:0
+msgid "Beneficial ownership"
+msgstr ""
+
+#: README.md:11
+msgid ""
+"This extension also includes a 'stub' entry for recording beneficial "
+"ownership information against a party."
+msgstr ""
+
+#: README.md:13
+msgid ""
+"At present this includes space for free-text description of ownership and "
+"control structures, but this may be further extended with structured "
+"beneficial ownership information drawing on the draft [Beneficial Ownership "
+"Data Standard](https://github.com/openownership/data-standard)."
+msgstr ""
+
+#: docs/index.md:0
+msgid "Shareholders Extension"
+msgstr ""
+
+#: docs/index.md:3
+msgid ""
+"The shareholder extension provides a way to describe the shareholders of the "
+"entities involved in a contracting process."
+msgstr ""
+
+#: docs/index.md:5
+msgid ""
+"Understanding the shareholders of the bidders or successful suppliers is "
+"important for analysis of the different organizations involved in "
+"contracting processes. This is particularly important where bidders are "
+"consortia."
+msgstr ""
+
+#: docs/index.md:7
+msgid ""
+"The extension introduces a new ```shareholder``` building block and extends "
+"the ```organization``` building block with a new ```shareholders``` field."
+msgstr ""
+
+#: docs/index.md:0
+msgid "Shareholders Field"
+msgstr ""
+
+#: docs/index.md:11
+msgid ""
+"The ```organization/shareholders``` field is an array of ```shareholder``` "
+"building blocks, describing the shareholders for the organization."
+msgstr ""
+
+#: docs/index.md:0
+msgid "Shareholder Building Block"
+msgstr ""
+
+#: docs/index.md:15
+msgid "The shareholder building block provides a way to:"
+msgstr ""
+
+#: docs/index.md:17
+msgid "Link to the organization details of the shareholder"
+msgstr ""
+
+#: docs/index.md:18
+msgid "Describe the amount of shares held by the shareholder"
+msgstr ""
+
+#: docs/index.md:19
+msgid "Describe the voting rights assoicated with the shareholding"
+msgstr ""
