@@ -1,5 +1,7 @@
 # OCDS Extensions Translations
 
+See also [these instructions on translating extensions](https://ocdsextensionregistry.readthedocs.io/en/latest/translation.html).
+
 ## Commands
 
 ### Populate initial translations
