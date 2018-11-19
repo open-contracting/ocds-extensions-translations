@@ -1,829 +1,829 @@
 [main]
 host = https://www.transifex.com
 
-[ocds-extensions.process_title-v1-1-3-schema]
+[ocds-extensions.process_title--v1_1_3--schema]
 file_filter = locale/<lang>/LC_MESSAGES/process_title/v1.1.3/schema.po
 source_file = build/locale/process_title/v1.1.3/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.process_title-v1-1-3-docs]
+[ocds-extensions.process_title--v1_1_3--docs]
 file_filter = locale/<lang>/LC_MESSAGES/process_title/v1.1.3/docs.po
 source_file = build/locale/process_title/v1.1.3/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.process_title-v1-1-schema]
+[ocds-extensions.process_title--v1_1--schema]
 file_filter = locale/<lang>/LC_MESSAGES/process_title/v1.1/schema.po
 source_file = build/locale/process_title/v1.1/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.process_title-v1-1-docs]
+[ocds-extensions.process_title--v1_1--docs]
 file_filter = locale/<lang>/LC_MESSAGES/process_title/v1.1/docs.po
 source_file = build/locale/process_title/v1.1/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.process_title-v1-1-1-schema]
+[ocds-extensions.process_title--v1_1_1--schema]
 file_filter = locale/<lang>/LC_MESSAGES/process_title/v1.1.1/schema.po
 source_file = build/locale/process_title/v1.1.1/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.process_title-v1-1-1-docs]
+[ocds-extensions.process_title--v1_1_1--docs]
 file_filter = locale/<lang>/LC_MESSAGES/process_title/v1.1.1/docs.po
 source_file = build/locale/process_title/v1.1.1/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.process_title-master-schema]
+[ocds-extensions.process_title--master--schema]
 file_filter = locale/<lang>/LC_MESSAGES/process_title/master/schema.po
 source_file = build/locale/process_title/master/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.process_title-master-docs]
+[ocds-extensions.process_title--master--docs]
 file_filter = locale/<lang>/LC_MESSAGES/process_title/master/docs.po
 source_file = build/locale/process_title/master/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.metrics-v1-1-schema]
+[ocds-extensions.metrics--v1_1--schema]
 file_filter = locale/<lang>/LC_MESSAGES/metrics/v1.1/schema.po
 source_file = build/locale/metrics/v1.1/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.metrics-v1-1-docs]
+[ocds-extensions.metrics--v1_1--docs]
 file_filter = locale/<lang>/LC_MESSAGES/metrics/v1.1/docs.po
 source_file = build/locale/metrics/v1.1/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.metrics-master-schema]
+[ocds-extensions.metrics--master--schema]
 file_filter = locale/<lang>/LC_MESSAGES/metrics/master/schema.po
 source_file = build/locale/metrics/master/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.metrics-master-docs]
+[ocds-extensions.metrics--master--docs]
 file_filter = locale/<lang>/LC_MESSAGES/metrics/master/docs.po
 source_file = build/locale/metrics/master/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.participation_fee-v1-1-3-codelists]
+[ocds-extensions.participation_fee--v1_1_3--codelists]
 file_filter = locale/<lang>/LC_MESSAGES/participation_fee/v1.1.3/codelists.po
 source_file = build/locale/participation_fee/v1.1.3/codelists.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.participation_fee-v1-1-3-schema]
+[ocds-extensions.participation_fee--v1_1_3--schema]
 file_filter = locale/<lang>/LC_MESSAGES/participation_fee/v1.1.3/schema.po
 source_file = build/locale/participation_fee/v1.1.3/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.participation_fee-v1-1-3-docs]
+[ocds-extensions.participation_fee--v1_1_3--docs]
 file_filter = locale/<lang>/LC_MESSAGES/participation_fee/v1.1.3/docs.po
 source_file = build/locale/participation_fee/v1.1.3/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.participation_fee-v1-1-codelists]
+[ocds-extensions.participation_fee--v1_1--codelists]
 file_filter = locale/<lang>/LC_MESSAGES/participation_fee/v1.1/codelists.po
 source_file = build/locale/participation_fee/v1.1/codelists.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.participation_fee-v1-1-schema]
+[ocds-extensions.participation_fee--v1_1--schema]
 file_filter = locale/<lang>/LC_MESSAGES/participation_fee/v1.1/schema.po
 source_file = build/locale/participation_fee/v1.1/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.participation_fee-v1-1-docs]
+[ocds-extensions.participation_fee--v1_1--docs]
 file_filter = locale/<lang>/LC_MESSAGES/participation_fee/v1.1/docs.po
 source_file = build/locale/participation_fee/v1.1/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.participation_fee-v1-1-1-codelists]
+[ocds-extensions.participation_fee--v1_1_1--codelists]
 file_filter = locale/<lang>/LC_MESSAGES/participation_fee/v1.1.1/codelists.po
 source_file = build/locale/participation_fee/v1.1.1/codelists.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.participation_fee-v1-1-1-schema]
+[ocds-extensions.participation_fee--v1_1_1--schema]
 file_filter = locale/<lang>/LC_MESSAGES/participation_fee/v1.1.1/schema.po
 source_file = build/locale/participation_fee/v1.1.1/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.participation_fee-v1-1-1-docs]
+[ocds-extensions.participation_fee--v1_1_1--docs]
 file_filter = locale/<lang>/LC_MESSAGES/participation_fee/v1.1.1/docs.po
 source_file = build/locale/participation_fee/v1.1.1/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.participation_fee-master-codelists]
+[ocds-extensions.participation_fee--master--codelists]
 file_filter = locale/<lang>/LC_MESSAGES/participation_fee/master/codelists.po
 source_file = build/locale/participation_fee/master/codelists.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.participation_fee-master-schema]
+[ocds-extensions.participation_fee--master--schema]
 file_filter = locale/<lang>/LC_MESSAGES/participation_fee/master/schema.po
 source_file = build/locale/participation_fee/master/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.participation_fee-master-docs]
+[ocds-extensions.participation_fee--master--docs]
 file_filter = locale/<lang>/LC_MESSAGES/participation_fee/master/docs.po
 source_file = build/locale/participation_fee/master/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.documentation_details-master-schema]
+[ocds-extensions.documentation_details--master--schema]
 file_filter = locale/<lang>/LC_MESSAGES/documentation_details/master/schema.po
 source_file = build/locale/documentation_details/master/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.documentation_details-master-docs]
+[ocds-extensions.documentation_details--master--docs]
 file_filter = locale/<lang>/LC_MESSAGES/documentation_details/master/docs.po
 source_file = build/locale/documentation_details/master/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.contract-master-schema]
+[ocds-extensions.contract--master--schema]
 file_filter = locale/<lang>/LC_MESSAGES/contract/master/schema.po
 source_file = build/locale/contract/master/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.contract-master-docs]
+[ocds-extensions.contract--master--docs]
 file_filter = locale/<lang>/LC_MESSAGES/contract/master/docs.po
 source_file = build/locale/contract/master/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.tariffs-master-codelists]
+[ocds-extensions.tariffs--master--codelists]
 file_filter = locale/<lang>/LC_MESSAGES/tariffs/master/codelists.po
 source_file = build/locale/tariffs/master/codelists.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.tariffs-master-schema]
+[ocds-extensions.tariffs--master--schema]
 file_filter = locale/<lang>/LC_MESSAGES/tariffs/master/schema.po
 source_file = build/locale/tariffs/master/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.tariffs-master-docs]
+[ocds-extensions.tariffs--master--docs]
 file_filter = locale/<lang>/LC_MESSAGES/tariffs/master/docs.po
 source_file = build/locale/tariffs/master/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.partyscale-master-codelists]
+[ocds-extensions.partyScale--master--codelists]
 file_filter = locale/<lang>/LC_MESSAGES/partyScale/master/codelists.po
 source_file = build/locale/partyScale/master/codelists.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.partyscale-master-schema]
+[ocds-extensions.partyScale--master--schema]
 file_filter = locale/<lang>/LC_MESSAGES/partyScale/master/schema.po
 source_file = build/locale/partyScale/master/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.partyscale-master-docs]
+[ocds-extensions.partyScale--master--docs]
 file_filter = locale/<lang>/LC_MESSAGES/partyScale/master/docs.po
 source_file = build/locale/partyScale/master/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.bids-v1-1-3-codelists]
+[ocds-extensions.bids--v1_1_3--codelists]
 file_filter = locale/<lang>/LC_MESSAGES/bids/v1.1.3/codelists.po
 source_file = build/locale/bids/v1.1.3/codelists.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.bids-v1-1-3-schema]
+[ocds-extensions.bids--v1_1_3--schema]
 file_filter = locale/<lang>/LC_MESSAGES/bids/v1.1.3/schema.po
 source_file = build/locale/bids/v1.1.3/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.bids-v1-1-3-docs]
+[ocds-extensions.bids--v1_1_3--docs]
 file_filter = locale/<lang>/LC_MESSAGES/bids/v1.1.3/docs.po
 source_file = build/locale/bids/v1.1.3/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.bids-v1-1-codelists]
+[ocds-extensions.bids--v1_1--codelists]
 file_filter = locale/<lang>/LC_MESSAGES/bids/v1.1/codelists.po
 source_file = build/locale/bids/v1.1/codelists.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.bids-v1-1-schema]
+[ocds-extensions.bids--v1_1--schema]
 file_filter = locale/<lang>/LC_MESSAGES/bids/v1.1/schema.po
 source_file = build/locale/bids/v1.1/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.bids-v1-1-docs]
+[ocds-extensions.bids--v1_1--docs]
 file_filter = locale/<lang>/LC_MESSAGES/bids/v1.1/docs.po
 source_file = build/locale/bids/v1.1/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.bids-v1-1-1-codelists]
+[ocds-extensions.bids--v1_1_1--codelists]
 file_filter = locale/<lang>/LC_MESSAGES/bids/v1.1.1/codelists.po
 source_file = build/locale/bids/v1.1.1/codelists.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.bids-v1-1-1-schema]
+[ocds-extensions.bids--v1_1_1--schema]
 file_filter = locale/<lang>/LC_MESSAGES/bids/v1.1.1/schema.po
 source_file = build/locale/bids/v1.1.1/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.bids-v1-1-1-docs]
+[ocds-extensions.bids--v1_1_1--docs]
 file_filter = locale/<lang>/LC_MESSAGES/bids/v1.1.1/docs.po
 source_file = build/locale/bids/v1.1.1/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.bids-master-codelists]
+[ocds-extensions.bids--master--codelists]
 file_filter = locale/<lang>/LC_MESSAGES/bids/master/codelists.po
 source_file = build/locale/bids/master/codelists.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.bids-master-schema]
+[ocds-extensions.bids--master--schema]
 file_filter = locale/<lang>/LC_MESSAGES/bids/master/schema.po
 source_file = build/locale/bids/master/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.bids-master-docs]
+[ocds-extensions.bids--master--docs]
 file_filter = locale/<lang>/LC_MESSAGES/bids/master/docs.po
 source_file = build/locale/bids/master/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.location-v1-1-3-codelists]
+[ocds-extensions.location--v1_1_3--codelists]
 file_filter = locale/<lang>/LC_MESSAGES/location/v1.1.3/codelists.po
 source_file = build/locale/location/v1.1.3/codelists.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.location-v1-1-3-schema]
+[ocds-extensions.location--v1_1_3--schema]
 file_filter = locale/<lang>/LC_MESSAGES/location/v1.1.3/schema.po
 source_file = build/locale/location/v1.1.3/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.location-v1-1-3-docs]
+[ocds-extensions.location--v1_1_3--docs]
 file_filter = locale/<lang>/LC_MESSAGES/location/v1.1.3/docs.po
 source_file = build/locale/location/v1.1.3/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.location-v1-1-codelists]
+[ocds-extensions.location--v1_1--codelists]
 file_filter = locale/<lang>/LC_MESSAGES/location/v1.1/codelists.po
 source_file = build/locale/location/v1.1/codelists.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.location-v1-1-schema]
+[ocds-extensions.location--v1_1--schema]
 file_filter = locale/<lang>/LC_MESSAGES/location/v1.1/schema.po
 source_file = build/locale/location/v1.1/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.location-v1-1-docs]
+[ocds-extensions.location--v1_1--docs]
 file_filter = locale/<lang>/LC_MESSAGES/location/v1.1/docs.po
 source_file = build/locale/location/v1.1/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.location-v1-1-1-codelists]
+[ocds-extensions.location--v1_1_1--codelists]
 file_filter = locale/<lang>/LC_MESSAGES/location/v1.1.1/codelists.po
 source_file = build/locale/location/v1.1.1/codelists.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.location-v1-1-1-schema]
+[ocds-extensions.location--v1_1_1--schema]
 file_filter = locale/<lang>/LC_MESSAGES/location/v1.1.1/schema.po
 source_file = build/locale/location/v1.1.1/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.location-v1-1-1-docs]
+[ocds-extensions.location--v1_1_1--docs]
 file_filter = locale/<lang>/LC_MESSAGES/location/v1.1.1/docs.po
 source_file = build/locale/location/v1.1.1/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.location-master-codelists]
+[ocds-extensions.location--master--codelists]
 file_filter = locale/<lang>/LC_MESSAGES/location/master/codelists.po
 source_file = build/locale/location/master/codelists.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.location-master-schema]
+[ocds-extensions.location--master--schema]
 file_filter = locale/<lang>/LC_MESSAGES/location/master/schema.po
 source_file = build/locale/location/master/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.location-master-docs]
+[ocds-extensions.location--master--docs]
 file_filter = locale/<lang>/LC_MESSAGES/location/master/docs.po
 source_file = build/locale/location/master/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.ppp-master-codelists]
+[ocds-extensions.ppp--master--codelists]
 file_filter = locale/<lang>/LC_MESSAGES/ppp/master/codelists.po
 source_file = build/locale/ppp/master/codelists.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.ppp-master-schema]
+[ocds-extensions.ppp--master--schema]
 file_filter = locale/<lang>/LC_MESSAGES/ppp/master/schema.po
 source_file = build/locale/ppp/master/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.ppp-master-docs]
+[ocds-extensions.ppp--master--docs]
 file_filter = locale/<lang>/LC_MESSAGES/ppp/master/docs.po
 source_file = build/locale/ppp/master/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.charges-v1-1-schema]
+[ocds-extensions.charges--v1_1--schema]
 file_filter = locale/<lang>/LC_MESSAGES/charges/v1.1/schema.po
 source_file = build/locale/charges/v1.1/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.charges-v1-1-docs]
+[ocds-extensions.charges--v1_1--docs]
 file_filter = locale/<lang>/LC_MESSAGES/charges/v1.1/docs.po
 source_file = build/locale/charges/v1.1/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.charges-master-codelists]
+[ocds-extensions.charges--master--codelists]
 file_filter = locale/<lang>/LC_MESSAGES/charges/master/codelists.po
 source_file = build/locale/charges/master/codelists.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.charges-master-schema]
+[ocds-extensions.charges--master--schema]
 file_filter = locale/<lang>/LC_MESSAGES/charges/master/schema.po
 source_file = build/locale/charges/master/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.charges-master-docs]
+[ocds-extensions.charges--master--docs]
 file_filter = locale/<lang>/LC_MESSAGES/charges/master/docs.po
 source_file = build/locale/charges/master/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.lots-v1-1-3-schema]
+[ocds-extensions.lots--v1_1_3--schema]
 file_filter = locale/<lang>/LC_MESSAGES/lots/v1.1.3/schema.po
 source_file = build/locale/lots/v1.1.3/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.lots-v1-1-3-docs]
+[ocds-extensions.lots--v1_1_3--docs]
 file_filter = locale/<lang>/LC_MESSAGES/lots/v1.1.3/docs.po
 source_file = build/locale/lots/v1.1.3/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.lots-v1-1-schema]
+[ocds-extensions.lots--v1_1--schema]
 file_filter = locale/<lang>/LC_MESSAGES/lots/v1.1/schema.po
 source_file = build/locale/lots/v1.1/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.lots-v1-1-docs]
+[ocds-extensions.lots--v1_1--docs]
 file_filter = locale/<lang>/LC_MESSAGES/lots/v1.1/docs.po
 source_file = build/locale/lots/v1.1/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.lots-v1-1-1-schema]
+[ocds-extensions.lots--v1_1_1--schema]
 file_filter = locale/<lang>/LC_MESSAGES/lots/v1.1.1/schema.po
 source_file = build/locale/lots/v1.1.1/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.lots-v1-1-1-docs]
+[ocds-extensions.lots--v1_1_1--docs]
 file_filter = locale/<lang>/LC_MESSAGES/lots/v1.1.1/docs.po
 source_file = build/locale/lots/v1.1.1/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.lots-master-schema]
+[ocds-extensions.lots--master--schema]
 file_filter = locale/<lang>/LC_MESSAGES/lots/master/schema.po
 source_file = build/locale/lots/master/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.lots-master-docs]
+[ocds-extensions.lots--master--docs]
 file_filter = locale/<lang>/LC_MESSAGES/lots/master/docs.po
 source_file = build/locale/lots/master/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.requirements-master-codelists]
+[ocds-extensions.requirements--master--codelists]
 file_filter = locale/<lang>/LC_MESSAGES/requirements/master/codelists.po
 source_file = build/locale/requirements/master/codelists.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.requirements-master-schema]
+[ocds-extensions.requirements--master--schema]
 file_filter = locale/<lang>/LC_MESSAGES/requirements/master/schema.po
 source_file = build/locale/requirements/master/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.requirements-master-docs]
+[ocds-extensions.requirements--master--docs]
 file_filter = locale/<lang>/LC_MESSAGES/requirements/master/docs.po
 source_file = build/locale/requirements/master/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.transaction_milestones-v1-1-schema]
+[ocds-extensions.transaction_milestones--v1_1--schema]
 file_filter = locale/<lang>/LC_MESSAGES/transaction_milestones/v1.1/schema.po
 source_file = build/locale/transaction_milestones/v1.1/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.transaction_milestones-v1-1-docs]
+[ocds-extensions.transaction_milestones--v1_1--docs]
 file_filter = locale/<lang>/LC_MESSAGES/transaction_milestones/v1.1/docs.po
 source_file = build/locale/transaction_milestones/v1.1/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.transaction_milestones-master-schema]
+[ocds-extensions.transaction_milestones--master--schema]
 file_filter = locale/<lang>/LC_MESSAGES/transaction_milestones/master/schema.po
 source_file = build/locale/transaction_milestones/master/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.transaction_milestones-master-docs]
+[ocds-extensions.transaction_milestones--master--docs]
 file_filter = locale/<lang>/LC_MESSAGES/transaction_milestones/master/docs.po
 source_file = build/locale/transaction_milestones/master/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.signatories-master-schema]
+[ocds-extensions.signatories--master--schema]
 file_filter = locale/<lang>/LC_MESSAGES/signatories/master/schema.po
 source_file = build/locale/signatories/master/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.signatories-master-docs]
+[ocds-extensions.signatories--master--docs]
 file_filter = locale/<lang>/LC_MESSAGES/signatories/master/docs.po
 source_file = build/locale/signatories/master/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.milestone_documents-v1-1-3-schema]
+[ocds-extensions.milestone_documents--v1_1_3--schema]
 file_filter = locale/<lang>/LC_MESSAGES/milestone_documents/v1.1.3/schema.po
 source_file = build/locale/milestone_documents/v1.1.3/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.milestone_documents-v1-1-3-docs]
+[ocds-extensions.milestone_documents--v1_1_3--docs]
 file_filter = locale/<lang>/LC_MESSAGES/milestone_documents/v1.1.3/docs.po
 source_file = build/locale/milestone_documents/v1.1.3/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.milestone_documents-v1-1-schema]
+[ocds-extensions.milestone_documents--v1_1--schema]
 file_filter = locale/<lang>/LC_MESSAGES/milestone_documents/v1.1/schema.po
 source_file = build/locale/milestone_documents/v1.1/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.milestone_documents-v1-1-docs]
+[ocds-extensions.milestone_documents--v1_1--docs]
 file_filter = locale/<lang>/LC_MESSAGES/milestone_documents/v1.1/docs.po
 source_file = build/locale/milestone_documents/v1.1/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.milestone_documents-v1-1-1-schema]
+[ocds-extensions.milestone_documents--v1_1_1--schema]
 file_filter = locale/<lang>/LC_MESSAGES/milestone_documents/v1.1.1/schema.po
 source_file = build/locale/milestone_documents/v1.1.1/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.milestone_documents-v1-1-1-docs]
+[ocds-extensions.milestone_documents--v1_1_1--docs]
 file_filter = locale/<lang>/LC_MESSAGES/milestone_documents/v1.1.1/docs.po
 source_file = build/locale/milestone_documents/v1.1.1/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.milestone_documents-master-schema]
+[ocds-extensions.milestone_documents--master--schema]
 file_filter = locale/<lang>/LC_MESSAGES/milestone_documents/master/schema.po
 source_file = build/locale/milestone_documents/master/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.milestone_documents-master-docs]
+[ocds-extensions.milestone_documents--master--docs]
 file_filter = locale/<lang>/LC_MESSAGES/milestone_documents/master/docs.po
 source_file = build/locale/milestone_documents/master/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.contract_suppliers-master-schema]
+[ocds-extensions.contract_suppliers--master--schema]
 file_filter = locale/<lang>/LC_MESSAGES/contract_suppliers/master/schema.po
 source_file = build/locale/contract_suppliers/master/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.contract_suppliers-master-docs]
+[ocds-extensions.contract_suppliers--master--docs]
 file_filter = locale/<lang>/LC_MESSAGES/contract_suppliers/master/docs.po
 source_file = build/locale/contract_suppliers/master/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.finance-v1-1-codelists]
+[ocds-extensions.finance--v1_1--codelists]
 file_filter = locale/<lang>/LC_MESSAGES/finance/v1.1/codelists.po
 source_file = build/locale/finance/v1.1/codelists.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.finance-v1-1-schema]
+[ocds-extensions.finance--v1_1--schema]
 file_filter = locale/<lang>/LC_MESSAGES/finance/v1.1/schema.po
 source_file = build/locale/finance/v1.1/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.finance-v1-1-docs]
+[ocds-extensions.finance--v1_1--docs]
 file_filter = locale/<lang>/LC_MESSAGES/finance/v1.1/docs.po
 source_file = build/locale/finance/v1.1/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.finance-master-codelists]
+[ocds-extensions.finance--master--codelists]
 file_filter = locale/<lang>/LC_MESSAGES/finance/master/codelists.po
 source_file = build/locale/finance/master/codelists.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.finance-master-schema]
+[ocds-extensions.finance--master--schema]
 file_filter = locale/<lang>/LC_MESSAGES/finance/master/schema.po
 source_file = build/locale/finance/master/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.finance-master-docs]
+[ocds-extensions.finance--master--docs]
 file_filter = locale/<lang>/LC_MESSAGES/finance/master/docs.po
 source_file = build/locale/finance/master/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.extendscontractid-master-schema]
+[ocds-extensions.extendsContractID--master--schema]
 file_filter = locale/<lang>/LC_MESSAGES/extendsContractID/master/schema.po
 source_file = build/locale/extendsContractID/master/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.extendscontractid-master-docs]
+[ocds-extensions.extendsContractID--master--docs]
 file_filter = locale/<lang>/LC_MESSAGES/extendsContractID/master/docs.po
 source_file = build/locale/extendsContractID/master/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.additionalcontactpoint-master-schema]
+[ocds-extensions.additionalContactPoint--master--schema]
 file_filter = locale/<lang>/LC_MESSAGES/additionalContactPoint/master/schema.po
 source_file = build/locale/additionalContactPoint/master/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.additionalcontactpoint-master-docs]
+[ocds-extensions.additionalContactPoint--master--docs]
 file_filter = locale/<lang>/LC_MESSAGES/additionalContactPoint/master/docs.po
 source_file = build/locale/additionalContactPoint/master/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.contract_register-master-schema]
+[ocds-extensions.contract_register--master--schema]
 file_filter = locale/<lang>/LC_MESSAGES/contract_register/master/schema.po
 source_file = build/locale/contract_register/master/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.contract_register-master-docs]
+[ocds-extensions.contract_register--master--docs]
 file_filter = locale/<lang>/LC_MESSAGES/contract_register/master/docs.po
 source_file = build/locale/contract_register/master/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.performance_failures-master-schema]
+[ocds-extensions.performance_failures--master--schema]
 file_filter = locale/<lang>/LC_MESSAGES/performance_failures/master/schema.po
 source_file = build/locale/performance_failures/master/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.performance_failures-master-docs]
+[ocds-extensions.performance_failures--master--docs]
 file_filter = locale/<lang>/LC_MESSAGES/performance_failures/master/docs.po
 source_file = build/locale/performance_failures/master/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.enquiries-v1-1-3-codelists]
+[ocds-extensions.enquiries--v1_1_3--codelists]
 file_filter = locale/<lang>/LC_MESSAGES/enquiries/v1.1.3/codelists.po
 source_file = build/locale/enquiries/v1.1.3/codelists.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.enquiries-v1-1-3-schema]
+[ocds-extensions.enquiries--v1_1_3--schema]
 file_filter = locale/<lang>/LC_MESSAGES/enquiries/v1.1.3/schema.po
 source_file = build/locale/enquiries/v1.1.3/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.enquiries-v1-1-3-docs]
+[ocds-extensions.enquiries--v1_1_3--docs]
 file_filter = locale/<lang>/LC_MESSAGES/enquiries/v1.1.3/docs.po
 source_file = build/locale/enquiries/v1.1.3/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.enquiries-v1-1-codelists]
+[ocds-extensions.enquiries--v1_1--codelists]
 file_filter = locale/<lang>/LC_MESSAGES/enquiries/v1.1/codelists.po
 source_file = build/locale/enquiries/v1.1/codelists.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.enquiries-v1-1-schema]
+[ocds-extensions.enquiries--v1_1--schema]
 file_filter = locale/<lang>/LC_MESSAGES/enquiries/v1.1/schema.po
 source_file = build/locale/enquiries/v1.1/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.enquiries-v1-1-docs]
+[ocds-extensions.enquiries--v1_1--docs]
 file_filter = locale/<lang>/LC_MESSAGES/enquiries/v1.1/docs.po
 source_file = build/locale/enquiries/v1.1/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.enquiries-v1-1-1-codelists]
+[ocds-extensions.enquiries--v1_1_1--codelists]
 file_filter = locale/<lang>/LC_MESSAGES/enquiries/v1.1.1/codelists.po
 source_file = build/locale/enquiries/v1.1.1/codelists.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.enquiries-v1-1-1-schema]
+[ocds-extensions.enquiries--v1_1_1--schema]
 file_filter = locale/<lang>/LC_MESSAGES/enquiries/v1.1.1/schema.po
 source_file = build/locale/enquiries/v1.1.1/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.enquiries-v1-1-1-docs]
+[ocds-extensions.enquiries--v1_1_1--docs]
 file_filter = locale/<lang>/LC_MESSAGES/enquiries/v1.1.1/docs.po
 source_file = build/locale/enquiries/v1.1.1/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.enquiries-master-codelists]
+[ocds-extensions.enquiries--master--codelists]
 file_filter = locale/<lang>/LC_MESSAGES/enquiries/master/codelists.po
 source_file = build/locale/enquiries/master/codelists.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.enquiries-master-schema]
+[ocds-extensions.enquiries--master--schema]
 file_filter = locale/<lang>/LC_MESSAGES/enquiries/master/schema.po
 source_file = build/locale/enquiries/master/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.enquiries-master-docs]
+[ocds-extensions.enquiries--master--docs]
 file_filter = locale/<lang>/LC_MESSAGES/enquiries/master/docs.po
 source_file = build/locale/enquiries/master/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.shareholders-v1-1-codelists]
+[ocds-extensions.shareholders--v1_1--codelists]
 file_filter = locale/<lang>/LC_MESSAGES/shareholders/v1.1/codelists.po
 source_file = build/locale/shareholders/v1.1/codelists.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.shareholders-v1-1-schema]
+[ocds-extensions.shareholders--v1_1--schema]
 file_filter = locale/<lang>/LC_MESSAGES/shareholders/v1.1/schema.po
 source_file = build/locale/shareholders/v1.1/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.shareholders-v1-1-docs]
+[ocds-extensions.shareholders--v1_1--docs]
 file_filter = locale/<lang>/LC_MESSAGES/shareholders/v1.1/docs.po
 source_file = build/locale/shareholders/v1.1/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.shareholders-master-codelists]
+[ocds-extensions.shareholders--master--codelists]
 file_filter = locale/<lang>/LC_MESSAGES/shareholders/master/codelists.po
 source_file = build/locale/shareholders/master/codelists.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.shareholders-master-schema]
+[ocds-extensions.shareholders--master--schema]
 file_filter = locale/<lang>/LC_MESSAGES/shareholders/master/schema.po
 source_file = build/locale/shareholders/master/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.shareholders-master-docs]
+[ocds-extensions.shareholders--master--docs]
 file_filter = locale/<lang>/LC_MESSAGES/shareholders/master/docs.po
 source_file = build/locale/shareholders/master/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.qualification-master-codelists]
+[ocds-extensions.qualification--master--codelists]
 file_filter = locale/<lang>/LC_MESSAGES/qualification/master/codelists.po
 source_file = build/locale/qualification/master/codelists.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.qualification-master-schema]
+[ocds-extensions.qualification--master--schema]
 file_filter = locale/<lang>/LC_MESSAGES/qualification/master/schema.po
 source_file = build/locale/qualification/master/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.qualification-master-docs]
+[ocds-extensions.qualification--master--docs]
 file_filter = locale/<lang>/LC_MESSAGES/qualification/master/docs.po
 source_file = build/locale/qualification/master/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.risk_allocation-v1-1-codelists]
+[ocds-extensions.risk_allocation--v1_1--codelists]
 file_filter = locale/<lang>/LC_MESSAGES/risk_allocation/v1.1/codelists.po
 source_file = build/locale/risk_allocation/v1.1/codelists.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.risk_allocation-v1-1-schema]
+[ocds-extensions.risk_allocation--v1_1--schema]
 file_filter = locale/<lang>/LC_MESSAGES/risk_allocation/v1.1/schema.po
 source_file = build/locale/risk_allocation/v1.1/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.risk_allocation-v1-1-docs]
+[ocds-extensions.risk_allocation--v1_1--docs]
 file_filter = locale/<lang>/LC_MESSAGES/risk_allocation/v1.1/docs.po
 source_file = build/locale/risk_allocation/v1.1/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.risk_allocation-master-codelists]
+[ocds-extensions.risk_allocation--master--codelists]
 file_filter = locale/<lang>/LC_MESSAGES/risk_allocation/master/codelists.po
 source_file = build/locale/risk_allocation/master/codelists.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.risk_allocation-master-schema]
+[ocds-extensions.risk_allocation--master--schema]
 file_filter = locale/<lang>/LC_MESSAGES/risk_allocation/master/schema.po
 source_file = build/locale/risk_allocation/master/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.risk_allocation-master-docs]
+[ocds-extensions.risk_allocation--master--docs]
 file_filter = locale/<lang>/LC_MESSAGES/risk_allocation/master/docs.po
 source_file = build/locale/risk_allocation/master/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.budget-master-schema]
+[ocds-extensions.budget--master--schema]
 file_filter = locale/<lang>/LC_MESSAGES/budget/master/schema.po
 source_file = build/locale/budget/master/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.budget-master-docs]
+[ocds-extensions.budget--master--docs]
 file_filter = locale/<lang>/LC_MESSAGES/budget/master/docs.po
 source_file = build/locale/budget/master/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.budget_project-master-schema]
+[ocds-extensions.budget_project--master--schema]
 file_filter = locale/<lang>/LC_MESSAGES/budget_project/master/schema.po
 source_file = build/locale/budget_project/master/schema.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.budget_project-master-docs]
+[ocds-extensions.budget_project--master--docs]
 file_filter = locale/<lang>/LC_MESSAGES/budget_project/master/docs.po
 source_file = build/locale/budget_project/master/docs.pot
 source_lang = en
