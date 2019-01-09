@@ -157,18 +157,6 @@ source_file = build/locale/documentation_details/master/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.contract--master--schema]
-file_filter = locale/<lang>/LC_MESSAGES/contract/master/schema.po
-source_file = build/locale/contract/master/schema.pot
-source_lang = en
-type = PO
-
-[ocds-extensions.contract--master--docs]
-file_filter = locale/<lang>/LC_MESSAGES/contract/master/docs.po
-source_file = build/locale/contract/master/docs.pot
-source_lang = en
-type = PO
-
 [ocds-extensions.tariffs--master--codelists]
 file_filter = locale/<lang>/LC_MESSAGES/tariffs/master/codelists.po
 source_file = build/locale/tariffs/master/codelists.pot
@@ -445,6 +433,18 @@ source_file = build/locale/lots/master/docs.pot
 source_lang = en
 type = PO
 
+[ocds-extensions.contract_buyer--master--schema]
+file_filter = locale/<lang>/LC_MESSAGES/contract_buyer/master/schema.po
+source_file = build/locale/contract_buyer/master/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.contract_buyer--master--docs]
+file_filter = locale/<lang>/LC_MESSAGES/contract_buyer/master/docs.po
+source_file = build/locale/contract_buyer/master/docs.pot
+source_lang = en
+type = PO
+
 [ocds-extensions.requirements--master--codelists]
 file_filter = locale/<lang>/LC_MESSAGES/requirements/master/codelists.po
 source_file = build/locale/requirements/master/codelists.pot
@@ -619,18 +619,6 @@ source_file = build/locale/additionalContactPoint/master/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.contract_register--master--schema]
-file_filter = locale/<lang>/LC_MESSAGES/contract_register/master/schema.po
-source_file = build/locale/contract_register/master/schema.pot
-source_lang = en
-type = PO
-
-[ocds-extensions.contract_register--master--docs]
-file_filter = locale/<lang>/LC_MESSAGES/contract_register/master/docs.po
-source_file = build/locale/contract_register/master/docs.pot
-source_lang = en
-type = PO
-
 [ocds-extensions.performance_failures--master--schema]
 file_filter = locale/<lang>/LC_MESSAGES/performance_failures/master/schema.po
 source_file = build/locale/performance_failures/master/schema.pot
@@ -640,6 +628,18 @@ type = PO
 [ocds-extensions.performance_failures--master--docs]
 file_filter = locale/<lang>/LC_MESSAGES/performance_failures/master/docs.po
 source_file = build/locale/performance_failures/master/docs.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.contract_completion--master--schema]
+file_filter = locale/<lang>/LC_MESSAGES/contract_completion/master/schema.po
+source_file = build/locale/contract_completion/master/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.contract_completion--master--docs]
+file_filter = locale/<lang>/LC_MESSAGES/contract_completion/master/docs.po
+source_file = build/locale/contract_completion/master/docs.pot
 source_lang = en
 type = PO
 
