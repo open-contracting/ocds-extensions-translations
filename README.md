@@ -1,6 +1,6 @@
 # OCDS Extensions Translations
 
-See also [these instructions on translating extensions](https://ocdsextensionregistry.readthedocs.io/en/latest/translation.html).
+To update this repository, see [these instructions on translating extensions](https://ocdsextensionregistry.readthedocs.io/en/latest/translation.html).
 
 ## Commands
 
