@@ -4,6 +4,99 @@ To update this repository, see [these instructions on translating extensions](ht
 
 ## Commands
 
+### Add new extensions
+
+Set environment variables as appropriate (using the fish shell):
+
+```
+set extensions implementationStatus releasePublisher
+```
+
+Generate POT files for the new extensions:
+
+```
+ocdsextensionregistry generate-pot-files build/locale $extensions
+```
+
+Generate empty PO files:
+
+```
+cd build/locale
+for extension in $extensions
+  for lang in es fr it
+    for i in $extension/**.pot
+      mkdir -p ../../locale/$lang/LC_MESSAGES/(dirname $i)
+      msginit --no-translator -i $i -o ../../locale/$lang/LC_MESSAGES/(dirname $i)/(basename -s .pot $i).po
+    end
+  end
+end
+cd ../..
+```
+
+Update the `.tx/config` file:
+
+```
+sphinx-intl update-txconfig-resources --transifex-project-name ocds-extensions --pot-dir build/locale --locale-dir locale 
+```
+
+Push the new source files:
+
+```
+for i in (egrep (echo $extensions | tr ' ' '|') .tx/config | grep ] | tr -d '[]')
+  tx push -s -r $i
+end
+```
+
+### Add new versions of core extensions
+
+Set environment variables as appropriate (using the fish shell):
+
+```
+set old_version v1.1.3
+set new_version v1.1.4
+```
+
+Generate POT files for the new versions of core extensions:
+
+```
+ocdsextensionregistry generate-pot-files build/locale bids==$new_version enquiries==$new_version location==$new_version lots==$new_version milestone_documents==$new_version participation_fee==$new_version process_title==$new_version
+```
+
+Pre-populate the PO files:
+
+```
+for extension in bids enquiries location lots milestone_documents participation_fee process_title
+  mkdir locale/es/LC_MESSAGES/$extension/$new_version
+  for domain in docs schema codelists
+    if [ -f locale/es/LC_MESSAGES/$extension/$old_version/$domain.po ]
+      pretranslate --nofuzzymatching -t locale/es/LC_MESSAGES/$extension/$old_version/$domain.po build/locale/$extension/$new_version/$domain.pot locale/es/LC_MESSAGES/$extension/$new_version/$domain.po
+    end
+  end
+end
+```
+
+Update the `.tx/config` file:
+
+```
+sphinx-intl update-txconfig-resources --transifex-project-name ocds-extensions --pot-dir build/locale --locale-dir locale 
+```
+
+Push the new source files:
+
+```
+for i in (grep v1_1_4 .tx/config | tr -d '[]')
+  tx push -s -r $i
+end
+```
+
+Push the pre-populated translation files:
+
+```
+for i in (grep v1_1_4 .tx/config | tr -d '[]')
+  tx push -t -r $i
+end
+```
+
 ### Populate initial translations
 
 For posterity, the commands to initialize this repository were as follows (using the fish shell).
