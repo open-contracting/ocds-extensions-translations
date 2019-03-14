@@ -1,0 +1,216 @@
+# Translations template for PROJECT.
+# Copyright (C) 2019 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2019-03-14 14:23-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: codelists/geometryType.csv codelists/locationGazetteers.csv
+msgid "Code"
+msgstr "Código"
+
+#: codelists/geometryType.csv codelists/locationGazetteers.csv
+msgid "Title"
+msgstr "Título"
+
+#: codelists/geometryType.csv codelists/locationGazetteers.csv
+msgid "Description"
+msgstr "Descripción"
+
+#: codelists/geometryType.csv codelists/locationGazetteers.csv
+msgid "Source"
+msgstr "Fuente"
+
+#. Title
+#: codelists/geometryType.csv:1
+msgid "Point"
+msgstr "Punto"
+
+#. Description
+#: codelists/geometryType.csv:1
+msgid "For type 'Point', the 'coordinates' member is a single position."
+msgstr ""
+"Para el tipo \"Point\", el miembro 'coordinates' es una posición simple."
+
+#. Title
+#: codelists/geometryType.csv:2
+msgid "MultiPoint"
+msgstr "MultiPoint"
+
+#. Description
+#: codelists/geometryType.csv:2
+msgid "For type 'MultiPoint', the 'coordinates' member is an array of positions."
+msgstr ""
+"Para el tipo \"MultiPoint\", el miembro 'coordinates' es una lista de "
+"posiciones."
+
+#. Title
+#: codelists/geometryType.csv:3
+msgid "LineString"
+msgstr "LineString"
+
+#. Description
+#: codelists/geometryType.csv:3
+msgid ""
+"For type 'LineString', the 'coordinates' member is an array of two or "
+"more positions."
+msgstr ""
+"Para el tipo \"LineString\", el miembro 'coordinates' es una lista de dos o "
+"más posiciones."
+
+#. Title
+#: codelists/geometryType.csv:4
+msgid "MultiLineString"
+msgstr "MultiLineString"
+
+#. Description
+#: codelists/geometryType.csv:4
+msgid ""
+"For type 'MultiLineString', the 'coordinates' member is an array of "
+"LineString coordinate arrays."
+msgstr ""
+"Para el tipo \"MultiLineString\", el miembro 'coordinates' es un array de "
+"coordenadas 'LineString'."
+
+#. Title
+#: codelists/geometryType.csv:5
+msgid "Polygon"
+msgstr "Polygon"
+
+#. Description
+#: codelists/geometryType.csv:5
+msgid ""
+"For type 'Polygon', the 'coordinates' member MUST be an array of linear "
+"ring coordinate arrays."
+msgstr ""
+"Para el tipo 'Polygon' el miembro 'coordinates' DEBE ser un array de "
+"coordenadas 'LinearRing'"
+
+#. Title
+#: codelists/geometryType.csv:6
+msgid "MultiPolygon"
+msgstr "MultiPolygon"
+
+#. Description
+#: codelists/geometryType.csv:6
+msgid ""
+"For type 'MultiPolygon', the 'coordinates' member is an array of Polygon "
+"coordinate arrays."
+msgstr ""
+"Para el tipo 'MultiPolygon' el miembro 'coordinates' es una lista de "
+"coordendas 'Polygon'"
+
+#: codelists/locationGazetteers.csv
+msgid "Category"
+msgstr "Categoría"
+
+#: codelists/locationGazetteers.csv
+msgid "URI Pattern"
+msgstr "Patrón de URI"
+
+#. Title
+#: codelists/locationGazetteers.csv:1
+msgid "EU Nomenclature of Territorial Units for Statistics"
+msgstr "Nomenclatura de las Unidades Territoriales Estadísticas de la UE"
+
+#. Description
+#: codelists/locationGazetteers.csv:1
+msgid ""
+"The Nomenclature of Territorial Units for Statistics (NUTS) was "
+"established by Eurostat in order to provide a single uniform breakdown of"
+" territorial units for the production of regional statistics for the "
+"European Union."
+msgstr ""
+"Nomenclatura de las Unidades Territoriales Estadísticas (NUTS) fue "
+"establecida por Eurostat con el fin de proporcionar un único desglose "
+"uniforme de las unidades territoriales para la producción de estadísticas "
+"regionales para la Unión Europea."
+
+#. Title
+#: codelists/locationGazetteers.csv:2
+msgid "ISO Country Codes (3166-1 alpha-2)"
+msgstr "Códigos de Países ISO (3166-1 alpha-2)"
+
+#. Description
+#: codelists/locationGazetteers.csv:2
+msgid "ISO 2-Digit Country Codes"
+msgstr "Códigos de País de 2 dígitos ISO"
+
+#. Title
+#: codelists/locationGazetteers.csv:3
+msgid "GeoNames"
+msgstr "GeoNames"
+
+#. Description
+#: codelists/locationGazetteers.csv:3
+msgid ""
+"GeoNames provides numerical identifiers for many points of interest "
+"around the world, including administrative divisions, populated centres "
+"and other locations, embedded within a structured tree of geographic "
+"relations."
+msgstr ""
+"GeoNames proporciona identificadores numéricos para muchos puntos de interés "
+"en todo el mundo, incluyendo divisiones administrativas, centros poblados y "
+"otros lugares, incrustados dentro de un árbol estructurado de relaciones "
+"geográficas."
+
+#. Title
+#: codelists/locationGazetteers.csv:4
+msgid "OpenStreetMap Node"
+msgstr "Nodo de Open Street Map"
+
+#. Description
+#: codelists/locationGazetteers.csv:4
+msgid ""
+"OpenStreetMap Nodes consist of a single point in space defined by a "
+"latitude, longitude and node ID. Nodes may have tags to indicate the "
+"particular geographic feature they represent."
+msgstr ""
+"Los Nodos de Open Street Map consisten en un único punto en el espacio "
+"definido por una latitud, longitud y ID de nodo. Los nodos pueden tener "
+"etiquetas para indicar la característica geográfica particular que "
+"representan."
+
+#. Title
+#: codelists/locationGazetteers.csv:5
+msgid "OpenStreetMap Relation"
+msgstr "Relación de OpenStreetMap"
+
+#. Description
+#: codelists/locationGazetteers.csv:5
+msgid ""
+"Relations are used to model logical (and usually local) or geographic "
+"relationships between objects. In practice, boundaries of geographic "
+"areas are available as Relations in OpenStreetMap."
+msgstr ""
+"Las relaciones se usan para modelar relaciones lógicas (y generalmente "
+"locales) o geográficas entre objetos. En la práctica, los límites de áreas "
+"geográficas están disponibles como Relaciones de Open Street Map."
+
+#. Title
+#: codelists/locationGazetteers.csv:6
+msgid "OpenStreetMap Way"
+msgstr "Vía de Open Street Map"
+
+#. Description
+#: codelists/locationGazetteers.csv:6
+msgid ""
+"An OpenStreetMap Way is an ordered list of OpenStreetMap nodes. May be "
+"used to describe fragments of roads or local boundaries and bounding "
+"boxes."
+msgstr ""
+"Una Vía de Open Street Map es una lista ordenada de nodos Open Street Map. "
+"Puede ser usado para describir fragmentos de caminos o límites locales y "
+"cajas delimitadoras."

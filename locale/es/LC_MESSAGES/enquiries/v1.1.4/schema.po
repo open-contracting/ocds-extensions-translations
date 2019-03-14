@@ -1,0 +1,179 @@
+# Translations template for PROJECT.
+# Copyright (C) 2019 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2019-03-14 14:23-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#. /name/en
+#. /definitions/Tender/properties/enquiries/title
+#: extension.json:1 release-schema.json:1
+msgid "Enquiries"
+msgstr "Consultas"
+
+#. /description/en
+#: extension.json:1
+msgid ""
+"The enquiries extension can be used to record questions raised during a "
+"contracting process, and the answers provided."
+msgstr ""
+"La extensión sobre consultas puede usarse para registrar las preguntas "
+"planteadas durante un proceso de contratación y las respuestas "
+"proporcionadas."
+
+#. /definitions/Tender/properties/enquiries/description
+#: release-schema.json:1
+msgid "Questions sent to the procuring entity, and the answers given"
+msgstr "Preguntas enviadas a la entidad contratante y las respuestas dadas"
+
+#. /definitions/Enquiry/title
+#: release-schema.json:1
+msgid "Enquiry"
+msgstr "Consulta"
+
+#. /definitions/Enquiry/description
+#: release-schema.json:1
+msgid ""
+"A question related to this contracting process, generally sent during the"
+" enquiry period."
+msgstr ""
+
+#. /definitions/Enquiry/properties/id/title
+#: release-schema.json:1
+msgid "Identifier"
+msgstr "Identificador"
+
+#. /definitions/Enquiry/properties/id/description
+#: release-schema.json:1
+msgid "A unique identifier for the enquiry."
+msgstr "Un identificador único para la consulta."
+
+#. /definitions/Enquiry/properties/date/title
+#: release-schema.json:1
+msgid "Date"
+msgstr "Fecha"
+
+#. /definitions/Enquiry/properties/date/description
+#: release-schema.json:1
+msgid "The date the enquiry was received or processed."
+msgstr "La fecha en que se recibió o procesó la consulta."
+
+#. /definitions/Enquiry/properties/author/title
+#: release-schema.json:1
+msgid "Question author"
+msgstr ""
+
+#. /definitions/Enquiry/properties/author/description
+#: release-schema.json:1
+msgid ""
+"The identifier and name of the party asking this question. Questioners "
+"may be listed in the parties array with a role of 'enquirer'. Procurement"
+" policies vary on whether or not the identity of those asking questions "
+"should be disclosed, or at which stage this information may be disclosed."
+" When the identity of the questioner cannot be disclosed leave the author"
+" section blank. Display systems should interpret this as an anonymous "
+"question."
+msgstr ""
+"El identificador y el nombre de la parte involucrada que hace esta pregunta. "
+"Los solicitantes pueden mostrarse en la lista de las partes con un rol de \""
+"enquirer\". Las políticas de adquisición varían en cuanto a si la identidad "
+"de los que hacen preguntas debe ser divulgada, o en qué etapa se puede "
+"divulgar esta información. Cuando no se pueda identificar al solicitante de "
+"la información, deje la sección de autor en blanco. Los sistemas deberían de "
+"interpretar esta como una pregunta anónima."
+
+#. /definitions/Enquiry/properties/title/title
+#: release-schema.json:1
+msgid "Question title"
+msgstr ""
+
+#. /definitions/Enquiry/properties/title/description
+#: release-schema.json:1
+msgid "The subject line of the question."
+msgstr "La línea de asunto de la pregunta."
+
+#. /definitions/Enquiry/properties/description/title
+#: release-schema.json:1
+msgid "Description"
+msgstr "Descripción"
+
+#. /definitions/Enquiry/properties/description/description
+#: release-schema.json:1
+msgid "The body of the question."
+msgstr "El cuerpo de la pregunta."
+
+#. /definitions/Enquiry/properties/answer/title
+#: release-schema.json:1
+msgid "Answer"
+msgstr ""
+
+#. /definitions/Enquiry/properties/answer/description
+#: release-schema.json:1
+msgid "The answer to this question, when available."
+msgstr "La respuesta a esta pregunta, cuando esté disponible."
+
+#. /definitions/Enquiry/properties/dateAnswered/title
+#: release-schema.json:1
+msgid "Date answered"
+msgstr ""
+
+#. /definitions/Enquiry/properties/dateAnswered/description
+#: release-schema.json:1
+msgid "The date the answer to the question was provided."
+msgstr "La fecha en que se proporcionó la respuesta a la pregunta."
+
+#. /definitions/Enquiry/properties/relatedItem/title
+#: release-schema.json:1
+msgid "Related item"
+msgstr "Artículo relacionado"
+
+#. /definitions/Enquiry/properties/relatedItem/description
+#: release-schema.json:1
+msgid ""
+"If this question relates to a specific line-item, this field contains the"
+" line-item identifier."
+msgstr ""
+"Si esta pregunta se refiere a una partida presupuestaria en específico, este "
+"campo contiene el identificador de la partida."
+
+#. /definitions/Enquiry/properties/relatedLot/title
+#: release-schema.json:1
+msgid "Related lot"
+msgstr ""
+
+#. /definitions/Enquiry/properties/relatedLot/description
+#: release-schema.json:1
+msgid ""
+"Where lots are used, if this question relates to a specific lot, this "
+"field contains the lot identifier."
+msgstr ""
+"Cuando se usan lotes, si esta pregunta se refiere a un lote específico, este "
+"campo contiene el identificador de lote."
+
+#. /definitions/Enquiry/properties/threadID/title
+#: release-schema.json:1
+msgid "Thread identifier"
+msgstr ""
+
+#. /definitions/Enquiry/properties/threadID/description
+#: release-schema.json:1
+msgid ""
+"If this question and answer forms part of a discussion thread (e.g. the "
+"question is a follow up to a previous answer) an optional thread "
+"identifier can be used to associate together multiple enquiries."
+msgstr ""
+"Si esta pregunta y respuesta forma parte de un hilo de discusión (por "
+"ejemplo, la pregunta es un seguimiento a una respuesta anterior), se puede "
+"usar un identificador de hilo opcional para asociar varias consultas."
