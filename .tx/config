@@ -949,3 +949,33 @@ source_file = build/locale/budget_project/master/docs.pot
 source_lang = en
 type = PO
 
+[ocds-extensions.implementationStatus--master--codelists]
+file_filter = locale/<lang>/LC_MESSAGES/implementationStatus/master/codelists.po
+source_file = build/locale/implementationStatus/master/codelists.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.implementationStatus--master--schema]
+file_filter = locale/<lang>/LC_MESSAGES/implementationStatus/master/schema.po
+source_file = build/locale/implementationStatus/master/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.implementationStatus--master--docs]
+file_filter = locale/<lang>/LC_MESSAGES/implementationStatus/master/docs.po
+source_file = build/locale/implementationStatus/master/docs.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.releasePublisher--master--schema]
+file_filter = locale/<lang>/LC_MESSAGES/releasePublisher/master/schema.po
+source_file = build/locale/releasePublisher/master/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.releasePublisher--master--docs]
+file_filter = locale/<lang>/LC_MESSAGES/releasePublisher/master/docs.po
+source_file = build/locale/releasePublisher/master/docs.pot
+source_lang = en
+type = PO
+
