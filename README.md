@@ -26,7 +26,7 @@ for extension in $extensions
   for lang in es fr it
     for i in $extension/**.pot
       mkdir -p ../../locale/$lang/LC_MESSAGES/(dirname $i)
-      msginit --no-translator -i $i -o ../../locale/$lang/LC_MESSAGES/(dirname $i)/(basename -s .pot $i).po
+      msginit --no-translator --locale $lang -i $i -o ../../locale/$lang/LC_MESSAGES/(dirname $i)/(basename -s .pot $i).po
     end
   end
 end
