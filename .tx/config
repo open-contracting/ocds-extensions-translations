@@ -13,6 +13,18 @@ source_file = build/locale/process_title/v1.1.3/docs.pot
 source_lang = en
 type = PO
 
+[ocds-extensions.process_title--v1_1_4--schema]
+file_filter = locale/<lang>/LC_MESSAGES/process_title/v1.1.4/schema.po
+source_file = build/locale/process_title/v1.1.4/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.process_title--v1_1_4--docs]
+file_filter = locale/<lang>/LC_MESSAGES/process_title/v1.1.4/docs.po
+source_file = build/locale/process_title/v1.1.4/docs.pot
+source_lang = en
+type = PO
+
 [ocds-extensions.process_title--v1_1--schema]
 file_filter = locale/<lang>/LC_MESSAGES/process_title/v1.1/schema.po
 source_file = build/locale/process_title/v1.1/schema.pot
@@ -91,6 +103,24 @@ source_file = build/locale/participation_fee/v1.1.3/docs.pot
 source_lang = en
 type = PO
 
+[ocds-extensions.participation_fee--v1_1_4--codelists]
+file_filter = locale/<lang>/LC_MESSAGES/participation_fee/v1.1.4/codelists.po
+source_file = build/locale/participation_fee/v1.1.4/codelists.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.participation_fee--v1_1_4--schema]
+file_filter = locale/<lang>/LC_MESSAGES/participation_fee/v1.1.4/schema.po
+source_file = build/locale/participation_fee/v1.1.4/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.participation_fee--v1_1_4--docs]
+file_filter = locale/<lang>/LC_MESSAGES/participation_fee/v1.1.4/docs.po
+source_file = build/locale/participation_fee/v1.1.4/docs.pot
+source_lang = en
+type = PO
+
 [ocds-extensions.participation_fee--v1_1--codelists]
 file_filter = locale/<lang>/LC_MESSAGES/participation_fee/v1.1/codelists.po
 source_file = build/locale/participation_fee/v1.1/codelists.pot
@@ -157,6 +187,18 @@ source_file = build/locale/documentation_details/master/docs.pot
 source_lang = en
 type = PO
 
+[ocds-extensions.contract--master--schema]
+file_filter = locale/<lang>/LC_MESSAGES/contract/master/schema.po
+source_file = build/locale/contract/master/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.contract--master--docs]
+file_filter = locale/<lang>/LC_MESSAGES/contract/master/docs.po
+source_file = build/locale/contract/master/docs.pot
+source_lang = en
+type = PO
+
 [ocds-extensions.tariffs--master--codelists]
 file_filter = locale/<lang>/LC_MESSAGES/tariffs/master/codelists.po
 source_file = build/locale/tariffs/master/codelists.pot
@@ -208,6 +250,24 @@ type = PO
 [ocds-extensions.bids--v1_1_3--docs]
 file_filter = locale/<lang>/LC_MESSAGES/bids/v1.1.3/docs.po
 source_file = build/locale/bids/v1.1.3/docs.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.bids--v1_1_4--codelists]
+file_filter = locale/<lang>/LC_MESSAGES/bids/v1.1.4/codelists.po
+source_file = build/locale/bids/v1.1.4/codelists.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.bids--v1_1_4--schema]
+file_filter = locale/<lang>/LC_MESSAGES/bids/v1.1.4/schema.po
+source_file = build/locale/bids/v1.1.4/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.bids--v1_1_4--docs]
+file_filter = locale/<lang>/LC_MESSAGES/bids/v1.1.4/docs.po
+source_file = build/locale/bids/v1.1.4/docs.pot
 source_lang = en
 type = PO
 
@@ -280,6 +340,24 @@ type = PO
 [ocds-extensions.location--v1_1_3--docs]
 file_filter = locale/<lang>/LC_MESSAGES/location/v1.1.3/docs.po
 source_file = build/locale/location/v1.1.3/docs.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.location--v1_1_4--codelists]
+file_filter = locale/<lang>/LC_MESSAGES/location/v1.1.4/codelists.po
+source_file = build/locale/location/v1.1.4/codelists.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.location--v1_1_4--schema]
+file_filter = locale/<lang>/LC_MESSAGES/location/v1.1.4/schema.po
+source_file = build/locale/location/v1.1.4/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.location--v1_1_4--docs]
+file_filter = locale/<lang>/LC_MESSAGES/location/v1.1.4/docs.po
+source_file = build/locale/location/v1.1.4/docs.pot
 source_lang = en
 type = PO
 
@@ -397,6 +475,18 @@ source_file = build/locale/lots/v1.1.3/docs.pot
 source_lang = en
 type = PO
 
+[ocds-extensions.lots--v1_1_4--schema]
+file_filter = locale/<lang>/LC_MESSAGES/lots/v1.1.4/schema.po
+source_file = build/locale/lots/v1.1.4/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.lots--v1_1_4--docs]
+file_filter = locale/<lang>/LC_MESSAGES/lots/v1.1.4/docs.po
+source_file = build/locale/lots/v1.1.4/docs.pot
+source_lang = en
+type = PO
+
 [ocds-extensions.lots--v1_1--schema]
 file_filter = locale/<lang>/LC_MESSAGES/lots/v1.1/schema.po
 source_file = build/locale/lots/v1.1/schema.pot
@@ -508,6 +598,18 @@ type = PO
 [ocds-extensions.milestone_documents--v1_1_3--docs]
 file_filter = locale/<lang>/LC_MESSAGES/milestone_documents/v1.1.3/docs.po
 source_file = build/locale/milestone_documents/v1.1.3/docs.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.milestone_documents--v1_1_4--schema]
+file_filter = locale/<lang>/LC_MESSAGES/milestone_documents/v1.1.4/schema.po
+source_file = build/locale/milestone_documents/v1.1.4/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.milestone_documents--v1_1_4--docs]
+file_filter = locale/<lang>/LC_MESSAGES/milestone_documents/v1.1.4/docs.po
+source_file = build/locale/milestone_documents/v1.1.4/docs.pot
 source_lang = en
 type = PO
 
@@ -658,6 +760,24 @@ type = PO
 [ocds-extensions.enquiries--v1_1_3--docs]
 file_filter = locale/<lang>/LC_MESSAGES/enquiries/v1.1.3/docs.po
 source_file = build/locale/enquiries/v1.1.3/docs.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.enquiries--v1_1_4--codelists]
+file_filter = locale/<lang>/LC_MESSAGES/enquiries/v1.1.4/codelists.po
+source_file = build/locale/enquiries/v1.1.4/codelists.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.enquiries--v1_1_4--schema]
+file_filter = locale/<lang>/LC_MESSAGES/enquiries/v1.1.4/schema.po
+source_file = build/locale/enquiries/v1.1.4/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.enquiries--v1_1_4--docs]
+file_filter = locale/<lang>/LC_MESSAGES/enquiries/v1.1.4/docs.po
+source_file = build/locale/enquiries/v1.1.4/docs.pot
 source_lang = en
 type = PO
 
