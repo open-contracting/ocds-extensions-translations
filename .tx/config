@@ -979,3 +979,15 @@ source_file = build/locale/releasePublisher/master/docs.pot
 source_lang = en
 type = PO
 
+[ocds-extensions.budget_and_spend--master--schema]
+file_filter = locale/<lang>/LC_MESSAGES/budget_and_spend/master/schema.po
+source_file = build/locale/budget_and_spend/master/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.budget_and_spend--master--docs]
+file_filter = locale/<lang>/LC_MESSAGES/budget_and_spend/master/docs.po
+source_file = build/locale/budget_and_spend/master/docs.pot
+source_lang = en
+type = PO
+
