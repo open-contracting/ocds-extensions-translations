@@ -36,7 +36,7 @@ cd ../..
 Update the `.tx/config` file:
 
 ```
-sphinx-intl update-txconfig-resources --transifex-project-name ocds-extensions --pot-dir build/locale --locale-dir locale 
+sphinx-intl update-txconfig-resources --transifex-project-name ocds-extensions --pot-dir build/locale --locale-dir locale
 ```
 
 Push the new source files:
