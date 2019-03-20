@@ -66,10 +66,12 @@ Pre-populate the PO files:
 
 ```
 for extension in bids enquiries location lots milestone_documents participation_fee process_title
-  mkdir locale/es/LC_MESSAGES/$extension/$new_version
-  for domain in docs schema codelists
-    if [ -f locale/es/LC_MESSAGES/$extension/$old_version/$domain.po ]
-      pretranslate --nofuzzymatching -t locale/es/LC_MESSAGES/$extension/$old_version/$domain.po build/locale/$extension/$new_version/$domain.pot locale/es/LC_MESSAGES/$extension/$new_version/$domain.po
+  for lang in es fr it
+    mkdir locale/$lang/LC_MESSAGES/$extension/$new_version
+    for domain in docs schema codelists
+      if [ -f locale/$lang/LC_MESSAGES/$extension/$old_version/$domain.po ]
+        pretranslate --nofuzzymatching -t locale/$lang/LC_MESSAGES/$extension/$old_version/$domain.po build/locale/$extension/$new_version/$domain.pot locale/$lang/LC_MESSAGES/$extension/$new_version/$domain.po
+      end
     end
   end
 end

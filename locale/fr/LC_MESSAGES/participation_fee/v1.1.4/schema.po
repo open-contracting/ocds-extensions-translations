@@ -1,0 +1,121 @@
+# Translations template for PROJECT.
+# Copyright (C) 2019 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2019-03-20 13:46-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#. /name/en
+#: extension.json:1
+msgid "Participation Fees"
+msgstr "Frais de participation"
+
+#. /description/en
+#: extension.json:1
+msgid ""
+"Where a tender process involves payment of fees to access documents, "
+"submit a proposal, or be awarded a contract, this extension can be used "
+"to provide fee details."
+msgstr ""
+"Quand un processus d'appel d'offres demande un paiement de frais pour "
+"accéder aux documents, soumettre une offre ou obtenir l'attribution d'un "
+"marché, cette extension peut être utilisée pour fournir des détails sur les "
+"frais."
+
+#. /definitions/ParticipationFee/title
+#: release-schema.json:1
+msgid "Participation fee"
+msgstr ""
+
+#. /definitions/ParticipationFee/description
+#: release-schema.json:1
+msgid ""
+"A fee applicable to bidders wishing to participate in the tender process."
+" Fees may apply for access to bidding documents, for the submission of "
+"bids or there may be a win fee payable by the successful bidder."
+msgstr ""
+
+#. /definitions/ParticipationFee/properties/id/title
+#: release-schema.json:1
+msgid "Fee ID"
+msgstr ""
+
+#. /definitions/ParticipationFee/properties/id/description
+#: release-schema.json:1
+msgid ""
+"A local identifier for this fee, unique within this block. This field is "
+"used to keep track of multiple revisions of a fee through the compilation"
+" from release to record mechanism."
+msgstr ""
+
+#. /definitions/ParticipationFee/properties/type/title
+#: release-schema.json:1
+msgid "Fee type"
+msgstr ""
+
+#. /definitions/ParticipationFee/properties/type/description
+#: release-schema.json:1
+msgid ""
+"A fees applicable to bidders wishing to participate in the tender "
+"process. Fees may apply for access to bidding documents, for the "
+"submission of bids or there may be a win fee payable by the successful "
+"bidder."
+msgstr ""
+
+#. /definitions/ParticipationFee/properties/value/title
+#: release-schema.json:1
+msgid "Value"
+msgstr "Montant"
+
+#. /definitions/ParticipationFee/properties/value/description
+#: release-schema.json:1
+msgid "The monetary value of this fee."
+msgstr ""
+
+#. /definitions/ParticipationFee/properties/description/title
+#: release-schema.json:1
+msgid "Description"
+msgstr "Description"
+
+#. /definitions/ParticipationFee/properties/description/description
+#: release-schema.json:1
+msgid ""
+"Optional information about the way in which fees are levied, or the exact"
+" nature of the fees."
+msgstr ""
+
+#. /definitions/ParticipationFee/properties/methodOfPayment/title
+#: release-schema.json:1
+msgid "Method(s) of payment"
+msgstr ""
+
+#. /definitions/ParticipationFee/properties/methodOfPayment/description
+#: release-schema.json:1
+msgid "Optional information about the way in which fees can be paid."
+msgstr ""
+
+#. /definitions/Tender/properties/participationFees/title
+#: release-schema.json:1
+msgid "Participation fees"
+msgstr "Frais de participation"
+
+#. /definitions/Tender/properties/participationFees/description
+#: release-schema.json:1
+msgid ""
+"Any fees applicable to bidders wishing to participate in the tender "
+"process. Fees may apply for access to bidding documents, for the "
+"submission of bids or there may be a win fee payable by the successful "
+"bidder."
+msgstr ""
