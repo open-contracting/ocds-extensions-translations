@@ -187,18 +187,6 @@ source_file = build/locale/documentation_details/master/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.contract--master--schema]
-file_filter = locale/<lang>/LC_MESSAGES/contract/master/schema.po
-source_file = build/locale/contract/master/schema.pot
-source_lang = en
-type = PO
-
-[ocds-extensions.contract--master--docs]
-file_filter = locale/<lang>/LC_MESSAGES/contract/master/docs.po
-source_file = build/locale/contract/master/docs.pot
-source_lang = en
-type = PO
-
 [ocds-extensions.tariffs--master--codelists]
 file_filter = locale/<lang>/LC_MESSAGES/tariffs/master/codelists.po
 source_file = build/locale/tariffs/master/codelists.pot
