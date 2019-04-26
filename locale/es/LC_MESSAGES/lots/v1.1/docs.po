@@ -1,20 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 
+# Copyright (C)
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
+# James McKinney <jmckinney@open-contracting.org>, 2019
+# Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-13 18:59-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"PO-Revision-Date: 2019-03-14 18:29+0000\n"
+"Last-Translator: Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019\n"
+"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/95084/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: README.md:0
 msgid "Lots"
@@ -52,17 +58,24 @@ msgid ""
 "value of a group of lots."
 msgstr ""
 "La sección opcional ```lotDetails``` y ```LotGroups``` permite que se "
-"expresen condiciones más complejas en torno a la adjudicación de lotes, como "
-"el valor máximo de un grupo de lotes."
+"expresen condiciones más complejas en torno a la adjudicación de lotes, como"
+" el valor máximo de un grupo de lotes."
 
 #: README.md:10
 msgid ""
 "This means that systems which are not 'lot aware' can still understand the "
 "overall value of contracting taking place, key events, and relationships "
-"between buyers and suppliers. At the same time, 'lot aware' systems can make "
-"use of the cross-referenced information to present a lot-centric view on the "
-"information to users, or to analyse contracting lot by lot."
+"between buyers and suppliers. At the same time, 'lot aware' systems can make"
+" use of the cross-referenced information to present a lot-centric view on "
+"the information to users, or to analyse contracting lot by lot."
 msgstr ""
+"Esto significa que los sistemas que no conocen la existencia de lotes "
+"todavía pueden entender el valor general de la contratación que se lleva a "
+"cabo, los eventos clave y las relaciones entre compradores y proveedores. Al"
+" mismo tiempo, los sistemas que sí conocen de su existencia pueden hacer uso"
+" de la información de referencia cruzada para presentar una visión centrada "
+"en el lote de la información a los usuarios, o para analizar la contratación"
+" de lote a lote."
 
 #: README.md:0
 msgid "Related Lot"
@@ -79,8 +92,8 @@ msgstr "items"
 #: README.md:18
 msgid "An array of ```relatedLots``` (plural) can be provided for each of:"
 msgstr ""
-"Se puede proporcionar una matriz de ```relatedLots``` (plural) para cada uno "
-"de los siguientes:"
+"Se puede proporcionar una matriz de ```relatedLots``` (plural) para cada uno"
+" de los siguientes:"
 
 #: README.md:20
 msgid "documents"

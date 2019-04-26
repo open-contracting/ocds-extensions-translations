@@ -1,16 +1,21 @@
-# Spanish translations for Python package.
-# Copyright (C) 
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)
 # This file is distributed under the same license as the Python package.
-# Automatically generated, 2019.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Maria Esther Cervantes <mariaesther@idatosabiertos.org>, 2019
+# Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-20 14:54-0400\n"
-"PO-Revision-Date: 2019-03-20 14:54-0400\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2019-03-20 19:04+0000\n"
+"Last-Translator: Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019\n"
+"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/95084/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,19 +24,23 @@ msgstr ""
 
 #: README.md:0
 msgid "Sources"
-msgstr ""
+msgstr "Fuentes"
 
 #: README.md:3
 msgid ""
 "In many cases, an OCDS publication combines information from multiple "
 "information systems or databases. For example:"
 msgstr ""
+"En muchos casos, la publicación OCDS combina información de múltiples "
+"sistemas de información o bases de datos. Por ejemplo:"
 
 #: README.md:5
 msgid ""
 "A publisher can source information from multiple systems to author a single "
 "release."
 msgstr ""
+"Un publicador puede obtener información de varios sistemas para crear un "
+"release único."
 
 #: README.md:6
 msgid ""
@@ -39,59 +48,81 @@ msgid ""
 "processes; for example, traditional procurement, framework agreements and "
 "public-private partnerships can be managed in different systems."
 msgstr ""
+"Distintos sistemas pueden ser responsables de distintos procesos de "
+"contrataciones; por ejemplo, compras tradicionales, marcos de referencia y "
+"asociaciones público-privadas se pueden gestionar en diferentes sistemas. "
 
 #: README.md:7
 msgid ""
-"Different systems can be responsible for different stages of the contracting "
-"process, published in different releases; for example, budget data from a "
+"Different systems can be responsible for different stages of the contracting"
+" process, published in different releases; for example, budget data from a "
 "Ministry of Finance system, and solicitation data from a Public Procurement "
 "Agency system."
 msgstr ""
+"Distintos sistemas pueden ser responsables de distintos procesos de "
+"contrataciones, publicado en distintos releases: por ejemplo, datos de "
+"presupuesto del sistema de Ministerio de Finanzas y solicitudes de datos de "
+"del sistema de la Agencia de Compras Públicas."
 
 #: README.md:8
 msgid ""
-"Different systems can cover different periods; for example, older data might "
-"not be migrated into a newer system."
+"Different systems can cover different periods; for example, older data might"
+" not be migrated into a newer system."
 msgstr ""
+"Distintos sistemas pueden cubrir diferentes períodos, por ejemplo, datos más"
+" antiguos que no se han migrado al nuevo sistema."
 
 #: README.md:10
 msgid ""
-"Data's provenance is relevant to many use cases, including data verification."
+"Data's provenance is relevant to many use cases, including data "
+"verification."
 msgstr ""
+"La procedencia de los datos es relevante para muchos casos de uso, "
+"incluyendo la verificación de datos."
 
 #: README.md:12
 msgid ""
 "To satisfy such use cases, this extension adds a `sources` array to the "
-"release schema, in which the publisher can list the information systems from "
-"which the data in the release originates."
+"release schema, in which the publisher can list the information systems from"
+" which the data in the release originates."
 msgstr ""
+"Para satisfacer los casos de uso, esta extensión incluye una lista de "
+"`sources` en el esquema de release, en el cual el publicador puede hacer una"
+" lista de los sistemas de información de los cuales surgen los datos del "
+"release."
 
 #: README.md:0
 msgid "Example"
-msgstr ""
+msgstr "Ejemplo"
 
 #: README.md:0
 msgid "Usage notes"
-msgstr ""
+msgstr "Notas de uso"
 
 #: README.md:35
 msgid ""
 "There are some cases where the data source for a release comes from "
 "different information systems of the same publisher."
 msgstr ""
+"Existen casos donde la fuente de los datos de un release vienen de "
+"diferentes sistemas de información del mismo publicador."
 
 #: README.md:37
 msgid ""
 "There are some cases in which you can link the data from the contracts "
 "database with the bidding and traditional process databases."
 msgstr ""
+"Existen casos en donde se ligan los datos de bases de datos de contratos con"
+" las bases de datos de ofertas y procesos tradicionales."
 
 #: README.md:0
 msgid "Changelog"
-msgstr ""
+msgstr "Registro de cambios"
 
 #: README.md:41
 msgid ""
 "This extension was originally discussed in <https://github.com/open-"
 "contracting/standard/issues/800>."
 msgstr ""
+"Esta extensión se discutió originalmente en  <https://github.com/open-"
+"contracting/standard/issues/800>."

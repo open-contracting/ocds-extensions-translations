@@ -1,20 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 
+# Copyright (C)
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
+# James McKinney <jmckinney@open-contracting.org>, 2019
+# Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-13 18:59-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"PO-Revision-Date: 2019-03-14 18:26+0000\n"
+"Last-Translator: Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019\n"
+"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/95084/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: README.md:0
 msgid "Metrics Extension"
@@ -30,14 +36,15 @@ msgstr ""
 
 #: README.md:5
 msgid ""
-"Metrics are structured like an [OLAP data cube](https://en.wikipedia.org/"
-"wiki/OLAP_cube) with each instance of `Metric` representing a single "
-"**observation**, categorized by a number of **dimensions**."
+"Metrics are structured like an [OLAP data "
+"cube](https://en.wikipedia.org/wiki/OLAP_cube) with each instance of "
+"`Metric` representing a single **observation**, categorized by a number of "
+"**dimensions**."
 msgstr ""
 "Las métricas están estructuradas como un [cubo de datos "
-"OLAP](https://en.wikipedia.org/wiki/OLAP_cube) con cada instancia de `Metric`"
-" representando una sola **observación**, categorizada por un número de "
-"**dimensiones**."
+"OLAP](https://en.wikipedia.org/wiki/OLAP_cube) con cada instancia de "
+"`Metric` representando una sola **observación**, categorizada por un número "
+"de **dimensiones**."
 
 #: README.md:7
 msgid "The metrics extension can be used at:"
@@ -56,8 +63,8 @@ msgid ""
 "The `tender` stage for targets for the contracting process (e.g. target "
 "availability levels or KPIs)"
 msgstr ""
-"La etapa `tender` para objetivos del proceso de contrataciones (por ejemplo: "
-"niveles de disponibilidad objetivo o indicadores clave de rendimiento)"
+"La etapa `tender` para objetivos del proceso de contrataciones (por ejemplo:"
+" niveles de disponibilidad objetivo o indicadores clave de rendimiento)"
 
 #: README.md:11
 msgid ""
@@ -96,10 +103,10 @@ msgstr "Ejemplo - Progreso físico"
 
 #: README.md:55
 msgid ""
-"The metrics extension can also be used to report on the physical progress of "
-"a contract. The following JSON snippet shows how the metrics extension could "
-"be used to report on progress for the construction of a highway, both by "
-"percent completion and number of kilometres constructed:"
+"The metrics extension can also be used to report on the physical progress of"
+" a contract. The following JSON snippet shows how the metrics extension "
+"could be used to report on progress for the construction of a highway, both "
+"by percent completion and number of kilometres constructed:"
 msgstr ""
 "La extensión de métricas también puede ser utilizada para reportar el "
 "progreso físico de un contrato. El siguiente fragmento de JSON muestra como "
@@ -113,11 +120,11 @@ msgstr "Uso con requerimientos "
 
 #: README.md:108
 msgid ""
-"Metrics can be used along with the **requirements extension** which will add "
-"a 'relatedRequirementID' property to metrics."
+"Metrics can be used along with the **requirements extension** which will add"
+" a 'relatedRequirementID' property to metrics."
 msgstr ""
-"Las métricas se pueden utilizar junto con la **extensión de requisitos** que "
-"agregará una propiedad 'relatedRequirementID' a las métricas."
+"Las métricas se pueden utilizar junto con la **extensión de requisitos** que"
+" agregará una propiedad 'relatedRequirementID' a las métricas."
 
 #: README.md:110
 msgid ""
@@ -143,11 +150,11 @@ msgstr "Por hacer"
 
 #: README.md:116
 msgid "[ ] Check oneOf schema syntax for value **or** quantity"
-msgstr "[ ] Compruebe la sintaxis del esquema oneOf para value **o**quantity"
+msgstr "[ ] Comprueba la sintaxis del esquema oneOf para value **o**quantity"
 
 #: README.md:117
 msgid "[ ] Add relatedRequirementID to requirements extension"
-msgstr "[ ] Agregue relatedRequirementID a la extensión de requisitos"
+msgstr "[ ] Agrega relatedRequirementID a la extensión de requisitos"
 
 #: README.md:118
 msgid "[ ] Validate schema updates"
@@ -159,9 +166,9 @@ msgstr "Issues"
 
 #: README.md:122
 msgid ""
-"Report issues for this extension in the [ocds-extensions repository](https://"
-"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
-"name in the issue's title."
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
 msgstr ""
 "Reporte issues para esta extensión en el [repositorio de extensiones "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "

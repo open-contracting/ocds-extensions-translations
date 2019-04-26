@@ -1,20 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 
+# Copyright (C)
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
+# James McKinney <jmckinney@open-contracting.org>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-13 18:59-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"PO-Revision-Date: 2019-03-14 18:30+0000\n"
+"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2019\n"
+"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/95084/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: README.md:0
 msgid "Milestone Documents"
@@ -25,8 +30,8 @@ msgid ""
 "In OCDS 1.1, core support for documents attached to individual milestones "
 "was removed from the milestones block to simplify the standard."
 msgstr ""
-"En OCDS 1.1, el soporte básico para documentos adjuntos a hitos individuales "
-"se eliminó del bloque de hitos para simplificar el estándar."
+"En OCDS 1.1, el soporte básico para documentos adjuntos a hitos individuales"
+" se eliminó del bloque de hitos para simplificar el estándar."
 
 #: README.md:5
 msgid ""
@@ -50,15 +55,15 @@ msgid ""
 "documentation to users."
 msgstr ""
 "Los publicadores deben considerar que muchas aplicaciones consumidoras sólo "
-"buscarán en la sección `tender/documents`, `award/documents`, `contracts/"
-"documents` y `contracts/implementation/documents` para acceder y mostrar la "
-"documentación relevante a los usuarios."
+"buscarán en la sección `tender/documents`, `award/documents`, "
+"`contracts/documents` y `contracts/implementation/documents` para acceder y "
+"mostrar la documentación relevante a los usuarios."
 
 #: README.md:11
 msgid ""
-"Document titles, document types, and descriptions can be used to indicate to "
-"human readers the particular nature of the documents and any milestones they "
-"relate to."
+"Document titles, document types, and descriptions can be used to indicate to"
+" human readers the particular nature of the documents and any milestones "
+"they relate to."
 msgstr ""
 "Los títulos de los documentos, los tipos de documentos y las descripciones "
 "se pueden utilizar para indicar a los lectores humanos la naturaleza "
@@ -66,8 +71,8 @@ msgstr ""
 
 #: README.md:13
 msgid ""
-"However, in cases where it is important to track documents on a milestone-by-"
-"milestone basis this extension can be introduced."
+"However, in cases where it is important to track documents on a milestone-"
+"by-milestone basis this extension can be introduced."
 msgstr ""
 "Sin embargo, en los casos en que es importante rastrear los documentos hito "
 "por hito, esta extensión puede ser introducida."
@@ -87,9 +92,9 @@ msgstr "Issues"
 
 #: README.md:19
 msgid ""
-"Report issues for this extension in the [ocds-extensions repository](https://"
-"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
-"name in the issue's title."
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
 msgstr ""
 "Reporte issues para esta extensión en el [repositorio de extensiones "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "

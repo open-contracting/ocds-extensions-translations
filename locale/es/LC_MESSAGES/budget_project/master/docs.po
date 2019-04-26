@@ -1,20 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 
+# Copyright (C)
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
+# James McKinney <jmckinney@open-contracting.org>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-13 18:59-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"PO-Revision-Date: 2019-03-14 18:32+0000\n"
+"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2019\n"
+"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/95084/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: README.md:0
 msgid "Budget and projects extension"
@@ -22,13 +27,13 @@ msgstr "Extensión de presupuesto y proyectos"
 
 #: README.md:3
 msgid ""
-"In the core OCDS, project information is nested within the `budget` building "
-"block. However, in some cases, budget management, and project management "
+"In the core OCDS, project information is nested within the `budget` building"
+" block. However, in some cases, budget management, and project management "
 "systems are separate, and it may be important to separately specify:"
 msgstr ""
 "En el OCDS central, la información del proyecto está anidada dentro del "
-"bloque de `budget`. Sin embargo, en algunos casos, la gestión presupuestaria "
-"y los sistemas de gestión de proyectos están separados y puede ser "
+"bloque de `budget`. Sin embargo, en algunos casos, la gestión presupuestaria"
+" y los sistemas de gestión de proyectos están separados y puede ser "
 "importante especificar por separado:"
 
 #: README.md:5
@@ -41,7 +46,8 @@ msgstr ""
 msgid ""
 "The project the contract relates to, and the total value of that project;"
 msgstr ""
-"El proyecto al que se refiere el contrato y el valor total de dicho proyecto;"
+"El proyecto al que se refiere el contrato y el valor total de dicho "
+"proyecto;"
 
 #: README.md:9
 msgid ""
@@ -60,7 +66,8 @@ msgstr ""
 #: README.md:11
 msgid ""
 "This extension introduces a `project` object into the `planning` section."
-msgstr "Esta extensión introduce un objeto `project` en la sección `planning`."
+msgstr ""
+"Esta extensión introduce un objeto `project` en la sección `planning`."
 
 #: README.md:13
 msgid ""
@@ -129,8 +136,7 @@ msgstr ""
 
 #: README.md:9
 msgid "\"provided data source\" refers to formal budget documents."
-msgstr ""
-"\"provided data source\" se refiere a documentos formales de presupuesto."
+msgstr "\"provided data source\" se refiere a documentos formales de presupuesto."
 
 #: README.md:10
 msgid "``planning/budget/description``"
@@ -163,8 +169,8 @@ msgstr "``planning/budget/amount``"
 msgid ""
 "The value reserved in the budget for this contracting process. A negative "
 "value indicates anticipated income to the budget as a result of this "
-"contracting process, rather than expenditure. Where the budget is drawn from "
-"multiple sources, the budget breakdown extension can be used."
+"contracting process, rather than expenditure. Where the budget is drawn from"
+" multiple sources, the budget breakdown extension can be used."
 msgstr ""
 "El valor reservado en el presupuesto para este proceso de contratación. Un "
 "valor negativo indica ingresos anticipados al presupuesto como resultado de "
@@ -176,12 +182,12 @@ msgstr ""
 msgid ""
 "Or, the value estimated for, or allocated to, this contracting process in a "
 "budget. This field should not be used to report the total value of the "
-"budget line funding this contracting process. The budget breakdown extension "
-"can be used for both multi-source and multi-year budgets."
+"budget line funding this contracting process. The budget breakdown extension"
+" can be used for both multi-source and multi-year budgets."
 msgstr ""
 "O, el valor estimado para, o asignado al, proceso de contratación en un "
-"presupuesto. Este campo no debe ser usado para reportar el valor total de la "
-"línea presupuestaria que financia el proceso de contratación. La extensión "
+"presupuesto. Este campo no debe ser usado para reportar el valor total de la"
+" línea presupuestaria que financia el proceso de contratación. La extensión "
 "de budget breakdown puede ser usada tanto para presupuestos multi-fuente y "
 "multi-año."
 
@@ -200,8 +206,8 @@ msgid ""
 msgstr ""
 "El nombre del proyecto a través del cual se financia este proceso de "
 "contratación (si aplica). Algunas organizaciones mantienen un registro de "
-"proyectos y los datos deben usar el nombre por el cual se conoce el proyecto "
-"en ese registro. No se ofrece una opción de traducción para esta cadena de "
+"proyectos y los datos deben usar el nombre por el cual se conoce el proyecto"
+" en ese registro. No se ofrece una opción de traducción para esta cadena de "
 "caracteres, ya que los valores traducidos pueden proveerse en datos de un "
 "tercero, enlazados desde la fuente de datos."
 
@@ -232,7 +238,8 @@ msgstr ""
 #: README.md:21
 msgid "This field is required for legacy compatibility with OCDS core."
 msgstr ""
-"Este campo es requerido para tener compatibilidad legada con el OCDS central."
+"Este campo es requerido para tener compatibilidad legada con el OCDS "
+"central."
 
 #: README.md:22
 msgid "``planning/budget/uri``"
@@ -244,13 +251,13 @@ msgid ""
 "item or line-items that fund this contracting process. Information may be "
 "provided in a range of formats, including using IATI, the Open Fiscal Data "
 "Standard or any other standard which provides structured data on budget "
-"sources. Human readable documents can be included using the planning."
-"documents block."
+"sources. Human readable documents can be included using the "
+"planning.documents block."
 msgstr ""
 "Una URI que apunta directamente a un registro legible por computadora sobre "
 "la(s) partida(s) presupuestaria(s) que financian este proceso de "
-"contratación. La información puede darse en un rango de formatos, incluyendo "
-"IATI, el Open Fiscal Data Standard o cualquier otro estándar que provea "
+"contratación. La información puede darse en un rango de formatos, incluyendo"
+" IATI, el Open Fiscal Data Standard o cualquier otro estándar que provea "
 "datos estructurados sobre presupuestos. Los documentos legibles por una "
 "persona se pueden incluir usando el bloque planning.documents."
 
@@ -299,11 +306,12 @@ msgid ""
 "`planning/budget/projectID`."
 msgstr ""
 "Versión actualizada para mantener la conformidad con OCDS 1.1, removiendo "
-"las propiedades en la extensión que eliminaron `planning/budget/project` y `"
-"planning/budget/projectID`."
+"las propiedades en la extensión que eliminaron `planning/budget/project` y "
+"`planning/budget/projectID`."
 
 #: README.md:89
-msgid "Removing unnecessary mergeStrategy and pattern property schema elements"
+msgid ""
+"Removing unnecessary mergeStrategy and pattern property schema elements"
 msgstr ""
 "Eliminando  mergeStrategy y esquemas de patrones de propiedad innecesarios"
 
@@ -313,9 +321,9 @@ msgstr "Issues"
 
 #: README.md:93
 msgid ""
-"Report issues for this extension in the [ocds-extensions repository](https://"
-"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
-"name in the issue's title."
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
 msgstr ""
 "Reporte issues para esta extensión en el [repositorio de extensiones "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "

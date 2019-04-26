@@ -1,16 +1,21 @@
-# Spanish translations for Python package.
-# Copyright (C) 
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)
 # This file is distributed under the same license as the Python package.
-# Automatically generated, 2019.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Maria Esther Cervantes <mariaesther@idatosabiertos.org>, 2019
+# Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-14 17:02-0400\n"
-"PO-Revision-Date: 2019-03-14 17:02-0400\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"POT-Creation-Date: 2019-03-14 14:32-0400\n"
+"PO-Revision-Date: 2019-03-14 18:35+0000\n"
+"Last-Translator: Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019\n"
+"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/95084/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,78 +24,94 @@ msgstr ""
 
 #: README.md:0
 msgid "Implementation Status"
-msgstr ""
+msgstr "Estado de la Implementación"
 
 #: README.md:0
 msgid "Description:"
-msgstr ""
+msgstr "Descripción:"
 
 #: README.md:4
 msgid ""
 "In Mexico, when talking about works and services related with them it is "
 "necessary to publish a set of specific variables about its implementation. "
-"One of them is the implementation status of the work or service related with "
-"it. It includes a code list whose values are the following:"
+"One of them is the implementation status of the work or service related with"
+" it. It includes a code list whose values are the following:"
 msgstr ""
+"En México, cuando se habla de trabajos y servicios relacionados, es "
+"necesario publicar un set de variables específicas sobre su implementación. "
+"Una de las variables es el status de la implementación del trabajo o "
+"servicios, esto incluye una lista de código con los siguientes valores: "
 
 #: README.md:6
 msgid "planning"
-msgstr ""
+msgstr "planeación"
 
 #: README.md:7
 msgid "ongoing"
-msgstr ""
+msgstr "proyectos en marcha"
 
 #: README.md:8
 msgid "concluded"
-msgstr ""
+msgstr "proyectos concluidos"
 
 #: README.md:0
 msgid "Proposal:"
-msgstr ""
+msgstr "Propuesta:"
 
 #: README.md:12
 msgid ""
 "Add a new field named “implementationStatus” in the “Implementation” object."
 msgstr ""
+"Añadir un campo nuevo llamado \"“implementationStatus” en el objeto  "
+"“Implementation”."
 
 #: README.md:0
 msgid "Schema"
-msgstr ""
+msgstr "Esquema"
 
 #: README.md:16
 msgid "Implementation {object}"
-msgstr ""
+msgstr "Implementación {object}"
 
 #: README.md:17
 msgid "status (string, null) (codelist)"
-msgstr ""
+msgstr "Estatus (string, null) (codelist)"
 
 #: README.md:0
 msgid "Defining texts:"
-msgstr ""
+msgstr "Textos definidos: "
 
 #: README.md:23
 msgid ""
 "**Code** | **Title** | **Description** --|--|-- status | Implementation "
 "status | The current status of the contract implementation based on the "
-"[implementationStatus](https://github.com/INAImexico/"
-"ocds_implementationStatus_extension/blob/master/codelists/"
-"implementationStatus.csv)  codelist. planning | Planning | The contract has "
-"been signed, but the provision or construction of the goods, services or "
-"works has not started. ongoing | Ongoing | The provision or construction of "
-"the goods, services or works is in progress. concluded | Concluded | The "
-"provision or construction of the goods, services or works has officially "
-"ended."
+"[implementationStatus](https://github.com/INAImexico/ocds_implementationStatus_extension/blob/master/codelists/implementationStatus.csv)"
+"  codelist. planning | Planning | The contract has been signed, but the "
+"provision or construction of the goods, services or works has not started. "
+"ongoing | Ongoing | The provision or construction of the goods, services or "
+"works is in progress. concluded | Concluded | The provision or construction "
+"of the goods, services or works has officially ended."
 msgstr ""
+"**Código** | **Título** | **Descripción** --|--|-- estado | Estado de la "
+"Implementación | El estado actual de la implementación del contrato basado "
+"en el codelist "
+"[implementationStatus](https://github.com/INAImexico/ocds_implementationStatus_extension/blob/master/codelists/implementationStatus.csv)."
+" planning | Planeación| El contrato ha sido firmado, pero la prestación o "
+"construcción de los bienes, servicios u obras no ha comenzado. en curso | En"
+" curso | La provisión o construcción de los bienes, servicios u obras está "
+"en curso. concluido | Concluido | La prestación o construcción de los "
+"bienes, servicios u obras ha finalizado oficialmente."
 
 #: README.md:0
 msgid "Issues"
-msgstr ""
+msgstr "Issues"
 
 #: README.md:32
 msgid ""
-"Report issues for this extension in the [standard repository](https://github."
-"com/open-contracting/standard/issues/624) of the Open Contracting "
-"Partnership."
+"Report issues for this extension in the [standard "
+"repository](https://github.com/open-contracting/standard/issues/624) of the "
+"Open Contracting Partnership."
 msgstr ""
+"Reportar issues para esta extensión en [standard "
+"repository](https://github.com/open-contracting/standard/issues/624) de Open"
+" Contracting Partnership."

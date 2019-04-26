@@ -1,16 +1,21 @@
 # Translations template for PROJECT.
 # Copyright (C) 2019 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# Automatically generated, 2019.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# Maria Esther Cervantes <mariaesther@idatosabiertos.org>, 2019
+# Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019
+# 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-03-20 14:54-0400\n"
-"PO-Revision-Date: 2019-03-20 14:54-0400\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2019-03-20 19:04+0000\n"
+"Last-Translator: Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019\n"
+"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/95084/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -22,56 +27,58 @@ msgstr ""
 #. /properties/sources/title
 #: extension.json:1 release-schema.json:1
 msgid "Sources"
-msgstr ""
+msgstr "Fuentes"
 
 #. /description/en
 #: extension.json:1
 msgid ""
-"Adds a sources array to indicate the information systems from which the data "
-"originates."
+"Adds a sources array to indicate the information systems from which the data"
+" originates."
 msgstr ""
+"Añade una lista de fuentes para indicar los sistemas de información de los "
+"cuales se originan los datos"
 
 #. /properties/sources/description
 #: release-schema.json:1
 msgid "The information systems from which the data originates."
-msgstr ""
+msgstr "Los sistemas de información de los cuales surgen los datos"
 
 #. /definitions/Source/title
 #: release-schema.json:1
 msgid "Source"
-msgstr ""
+msgstr "Fuente"
 
 #. /definitions/Source/description
 #: release-schema.json:1
 msgid "An information system from which data originates."
-msgstr ""
+msgstr "El sistema de información del cual los datos se originan"
 
 #. /definitions/Source/properties/id/title
 #: release-schema.json:1
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. /definitions/Source/properties/id/description
 #: release-schema.json:1
 msgid "The locally unique identifier for the source."
-msgstr ""
+msgstr "El identificador único local para la fuente"
 
 #. /definitions/Source/properties/name/title
 #: release-schema.json:1
 msgid "Name"
-msgstr ""
+msgstr "Nombre"
 
 #. /definitions/Source/properties/name/description
 #: release-schema.json:1
 msgid "The name of the source."
-msgstr ""
+msgstr "El nombre de la fuente"
 
 #. /definitions/Source/properties/url/title
 #: release-schema.json:1
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #. /definitions/Source/properties/url/description
 #: release-schema.json:1
 msgid "The web address of the source."
-msgstr ""
+msgstr "La dirección web de la fuente"

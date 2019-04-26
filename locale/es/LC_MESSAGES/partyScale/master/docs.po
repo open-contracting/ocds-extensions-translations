@@ -1,24 +1,31 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 
+# Copyright (C)
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
+# James McKinney <jmckinney@open-contracting.org>, 2019
+# Maria Esther Cervantes <mariaesther@idatosabiertos.org>, 2019
+# Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-13 18:59-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"PO-Revision-Date: 2019-03-14 18:27+0000\n"
+"Last-Translator: Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019\n"
+"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/95084/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: README.md:0
 msgid "Party Details - Scale"
-msgstr ""
+msgstr "Detalles de las partes - Escala"
 
 #: README.md:3
 msgid ""
@@ -26,44 +33,56 @@ msgid ""
 "classification of one or more of the organizations included in an OCDS "
 "contracting process release."
 msgstr ""
+"La extensión de los detalles de las partes. Da soporte para la clasificación"
+" detallada de una o más de las organizaciones incluyendo un release del "
+"proceso de contrataciones OCDS."
 
 #: README.md:5
 msgid ""
-"The `scale` field should be included in a release at `parties/details/scale`."
+"The `scale` field should be included in a release at "
+"`parties/details/scale`."
 msgstr ""
+"El campo  `scale` debe ser incluido en un release en "
+"`parties/details/scale`."
 
 #: README.md:0
 msgid "Scale"
-msgstr ""
+msgstr "Escala"
 
 #: README.md:9
 msgid ""
 "The `scale` property can be used to indicate the size or scale of a "
 "commercial organization."
 msgstr ""
+"La propiedad  `scale` puede usarse para indicar el tamaño o la escala de una"
+" organización comercial."
 
 #: README.md:11
 msgid ""
-"This is a metric used by a number of procurement statistics. For example, to "
-"calculate the share of procurement going to micro, small or medium "
+"This is a metric used by a number of procurement statistics. For example, to"
+" calculate the share of procurement going to micro, small or medium "
 "enterprises."
 msgstr ""
+"Esto es una métrica utilizada por varias estadísticas de compras públicas. "
+"Por ejemplo, para calcular el número de compras que van a micro, pequeñas o "
+"medianas empresas."
 
 #: README.md:13
 msgid "The extension uses a fixed codelist with the following values:"
 msgstr ""
+"Esta extensión usa una lista de código fija con los siguientes valores:"
 
 #: README.md:15
 msgid "micro"
-msgstr ""
+msgstr "micro"
 
 #: README.md:16
 msgid "sme"
-msgstr ""
+msgstr "PyME"
 
 #: README.md:17
 msgid "large"
-msgstr ""
+msgstr "grande"
 
 #: README.md:19
 msgid ""
@@ -71,13 +90,19 @@ msgid ""
 "to be provided by the publishing organization, and in general should be the "
 "definition used in the law or regulations of the procuring entity or buyer."
 msgstr ""
+"Esta extensión no define estos términos. La definición exacta de cada una se"
+" da por la organización que publica y en general debe ser la definición que "
+"se utiliza en las leyes o regulaciones de la entidad compradora o comprador."
 
 #: README.md:21
 msgid ""
 "Laws and regulations vary as to the exact definition of these terms. The "
-"OECD [provide a relevant glossary definition here](https://stats.oecd.org/"
-"glossary/detail.asp?ID=3123)."
+"OECD [provide a relevant glossary definition "
+"here](https://stats.oecd.org/glossary/detail.asp?ID=3123)."
 msgstr ""
+"Las leyes y regulaciones pueden variar así como la definición exacta de los "
+"términos. La OCDE [provide a relevant glossary definition "
+"here](https://stats.oecd.org/glossary/detail.asp?ID=3123)."
 
 #: README.md:0
 msgid "Example"
@@ -88,6 +113,8 @@ msgid ""
 "The following example shows the location where the partyScale extension can "
 "be used."
 msgstr ""
+"El siguiente ejemplo muestra la ubicación donde se puede usar la extensión "
+"partyScale."
 
 #: README.md:0
 msgid "Issues"
@@ -95,9 +122,9 @@ msgstr "Issues"
 
 #: README.md:47
 msgid ""
-"Report issues for this extension in the [ocds-extensions repository](https://"
-"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
-"name in the issue's title."
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
 msgstr ""
 "Reporte issues para esta extensión en el [repositorio de extensiones "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "

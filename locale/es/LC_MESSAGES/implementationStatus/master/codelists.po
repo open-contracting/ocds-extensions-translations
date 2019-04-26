@@ -1,16 +1,20 @@
 # Translations template for PROJECT.
 # Copyright (C) 2019 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# Automatically generated, 2019.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# Maria Esther Cervantes <mariaesther@idatosabiertos.org>, 2019
+# 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-03-14 17:02-0400\n"
-"PO-Revision-Date: 2019-03-14 17:02-0400\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"POT-Creation-Date: 2019-03-14 14:32-0400\n"
+"PO-Revision-Date: 2019-03-14 18:35+0000\n"
+"Last-Translator: Maria Esther Cervantes <mariaesther@idatosabiertos.org>, 2019\n"
+"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/95084/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,20 +24,20 @@ msgstr ""
 
 #: codelists/implementationStatus.csv
 msgid "Code"
-msgstr ""
+msgstr "Código"
 
 #: codelists/implementationStatus.csv
 msgid "Title"
-msgstr ""
+msgstr "Título"
 
 #: codelists/implementationStatus.csv
 msgid "Description"
-msgstr ""
+msgstr "Descripción"
 
 #. Title
 #: codelists/implementationStatus.csv:1
 msgid "Planning"
-msgstr ""
+msgstr "Planeación"
 
 #. Description
 #: codelists/implementationStatus.csv:1
@@ -41,26 +45,33 @@ msgid ""
 "The contract has been signed, but the provision or construction of the "
 "goods, services or works has not started."
 msgstr ""
+"El contrato se firmo, pero no ha comenzado la prestación o construcción de "
+"los bienes, servicios u obras."
 
 #. Title
 #: codelists/implementationStatus.csv:2
 msgid "Ongoing"
-msgstr ""
+msgstr "En marcha"
 
 #. Description
 #: codelists/implementationStatus.csv:2
 msgid ""
-"The provision or construction of the goods, services or works is in progress."
+"The provision or construction of the goods, services or works is in "
+"progress."
 msgstr ""
+"La prestación o construcción de los bienes, servicios u obras esta en "
+"proceso."
 
 #. Title
 #: codelists/implementationStatus.csv:3
 msgid "Concluded"
-msgstr ""
+msgstr "Concluido"
 
 #. Description
 #: codelists/implementationStatus.csv:3
 msgid ""
-"The provision or construction of the goods, services or works has officially "
-"ended."
+"The provision or construction of the goods, services or works has officially"
+" ended."
 msgstr ""
+"La prestación o construcción de los bienes, servicios u obras oficialmente "
+"ha terminado."

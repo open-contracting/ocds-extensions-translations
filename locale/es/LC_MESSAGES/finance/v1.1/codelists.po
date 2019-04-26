@@ -1,21 +1,26 @@
 # Translations template for PROJECT.
-# Copyright (C) 2018 ORGANIZATION
+# Copyright (C) 2019 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# James McKinney <jmckinney@open-contracting.org>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-11-13 18:59-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"PO-Revision-Date: 2019-03-14 18:30+0000\n"
+"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2019\n"
+"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/95084/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: codelists/financeCategory.csv codelists/financeTypes.csv
 msgid "Code"
@@ -41,9 +46,9 @@ msgstr "Capital"
 #. Description
 #: codelists/financeCategory.csv:1
 msgid ""
-"Equity finance is given in exchange for a share of ownership in the "
-"project (usually via direct or indirect shareholding in a Special Purpose"
-" Vehicle (SPV) company created to run the project)."
+"Equity finance is given in exchange for a share of ownership in the project "
+"(usually via direct or indirect shareholding in a Special Purpose Vehicle "
+"(SPV) company created to run the project)."
 msgstr ""
 "El financiamiento de capital se da a cambio de una parte de la propiedad en "
 "el proyecto (generalmente a través de participación directa o indirecta en "
@@ -57,8 +62,8 @@ msgstr "Deuda principal"
 #. Description
 #: codelists/financeCategory.csv:2
 msgid ""
-"Senior debt (sometimes called senior loans) take priority over other more"
-" junior debt."
+"Senior debt (sometimes called senior loans) take priority over other more "
+"junior debt."
 msgstr ""
 "La deuda principal (a veces llamada préstamos principales) tiene prioridad "
 "sobre otra deuda de categoría inferior."
@@ -71,8 +76,8 @@ msgstr "Deuda intermedia"
 #. Description
 #: codelists/financeCategory.csv:3
 msgid ""
-"Mezzanine debt (sometimes called mezzanine loans) take priority over "
-"common shares."
+"Mezzanine debt (sometimes called mezzanine loans) take priority over common "
+"shares."
 msgstr ""
 "La deuda intermedia (a veces llamada préstamos mezzanine) tiene prioridad "
 "sobre las acciones ordinarias."
@@ -86,7 +91,8 @@ msgstr "Subvención "
 #: codelists/financeCategory.csv:4
 msgid "A grant is finance provided without expectation of repayment."
 msgstr ""
-"Una subvención es el financiamiento proporcionado sin la expectativa de pago."
+"Una subvención es el financiamiento proporcionado sin la expectativa de "
+"pago."
 
 #. Title
 #: codelists/financeCategory.csv:5
@@ -96,9 +102,9 @@ msgstr "Garantía"
 #. Description
 #: codelists/financeCategory.csv:5
 msgid ""
-"A guarantee is a promise by one party to assume the debt of another if "
-"the other defaults. Guarantees should not be counted in totals of the "
-"overall financing of a project."
+"A guarantee is a promise by one party to assume the debt of another if the "
+"other defaults. Guarantees should not be counted in totals of the overall "
+"financing of a project."
 msgstr ""
 "Una garantía es una promesa por una parte de asumir la deuda de otra si el "
 "otro incumple. Las garantías no deben contabilizarse en los totales del "
@@ -112,8 +118,8 @@ msgstr "Otras deudas o inversiones"
 #. Description
 #: codelists/financeCategory.csv:6
 msgid ""
-"Any details of the conditions attached to this finance can be recorded in"
-" an associated notes field."
+"Any details of the conditions attached to this finance can be recorded in an"
+" associated notes field."
 msgstr ""
 "Cualquier detalle sobre las condiciones asociadas a este financiamiento "
 "deben registrarse en el campo de notas asociadas."
@@ -126,15 +132,15 @@ msgstr "Institucional"
 #. Description
 #: codelists/financeTypes.csv:1
 msgid ""
-"This finance was provided by institutional investors: entities which pool"
-" money to purchase securities, real property, and other investment assets"
-" or originate loans. Institutional investors include banks, insurance "
-"companies, pensions, hedge funds, REITs, investment advisors, endowments,"
-" and mutual funds."
+"This finance was provided by institutional investors: entities which pool "
+"money to purchase securities, real property, and other investment assets or "
+"originate loans. Institutional investors include banks, insurance companies,"
+" pensions, hedge funds, REITs, investment advisors, endowments, and mutual "
+"funds."
 msgstr ""
 "Este financiamiento fue proporcionado por inversores institucionales: "
-"entidades que combinan fondos para comprar valores, bienes inmuebles y otros "
-"activos de inversión u originar préstamos. Los inversores institucionales "
+"entidades que combinan fondos para comprar valores, bienes inmuebles y otros"
+" activos de inversión u originar préstamos. Los inversores institucionales "
 "incluyen bancos, compañías de seguros, pensiones, fondos de cobertura, "
 "fideicomisos, asesores de inversiones, dotaciones y fondos mutuos."
 
@@ -161,8 +167,8 @@ msgstr "Bilateral"
 #: codelists/financeTypes.csv:3
 msgid ""
 "This finance was provided by a bilateral institution: an agency of one "
-"specific government, usually a development agency or export-credit agency"
-" with a mandate to support domestic businesses in pursuing investments "
+"specific government, usually a development agency or export-credit agency "
+"with a mandate to support domestic businesses in pursuing investments "
 "abroad."
 msgstr ""
 "Este financiamiento fue proporcionado por una institución bilateral: una "
@@ -178,8 +184,8 @@ msgstr "Multilateral"
 #. Description
 #: codelists/financeTypes.csv:4
 msgid ""
-"This finance was provided by a multilateral institution: a body created "
-"by a group of countries to provides financing and professional support, "
+"This finance was provided by a multilateral institution: a body created by a"
+" group of countries to provides financing and professional support, "
 "primarily for the purpose of development."
 msgstr ""
 "Este financiamiento fue proporcionado por una institución multilateral: un "
@@ -205,7 +211,8 @@ msgstr "Crédito del Proveedor"
 
 #. Description
 #: codelists/financeTypes.csv:6
-msgid "This finance was provided through a line of credit provided by a supplier."
+msgid ""
+"This finance was provided through a line of credit provided by a supplier."
 msgstr ""
 "Este financiamiento fue proporcionado a través de una línea de crédito dada "
 "por un proveedor."

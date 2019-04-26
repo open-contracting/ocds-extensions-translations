@@ -1,38 +1,48 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 
+# Copyright (C)
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
+# James McKinney <jmckinney@open-contracting.org>, 2019
+# Maria Esther Cervantes <mariaesther@idatosabiertos.org>, 2019
+# Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-13 18:59-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"PO-Revision-Date: 2019-03-14 18:30+0000\n"
+"Last-Translator: Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019\n"
+"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/95084/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: README.md:0
 msgid "Contract Suppliers"
-msgstr ""
+msgstr "Proveedores de Contrato"
 
 #: README.md:3
 msgid "OCDS is designed around a contracting model in which:"
-msgstr ""
+msgstr "El OCDS se ha diseñado alrededor de un modelo de contrataciones que:"
 
 #: README.md:5
 msgid "One or more awards are made naming the selected suppliers;"
 msgstr ""
+"Uno o más licitaciones se hacen nombrando a los proveedores seleccionados; "
 
 #: README.md:6
 msgid ""
 "One contract is signed for each award made, referring back to the related "
 "award;"
 msgstr ""
+"Un contrato se firma por cada licitación, refiriéndose a la licitación "
+"relacionada;"
 
 #: README.md:8
 msgid ""
@@ -40,6 +50,8 @@ msgid ""
 "`suppliers`. These can be located by looking at the related `award` using "
 "the `awardID` cross-reference."
 msgstr ""
+"Por esta razón, el bloque central `contract` no incluye información sobre "
+"`suppliers`. "
 
 #: README.md:10
 msgid ""
@@ -48,12 +60,18 @@ msgid ""
 "supplier. In these instances, it is important to specify suppliers at the "
 "contract level."
 msgstr ""
+"De cualquier forma, existen algunos procesos de contratación en las que una "
+"misma adjudicación a múltiples proveedores, resulta en contratos múltiples, "
+"cada uno para un solo proveedor. En esas instancias, es importante "
+"especificar los proveedores al nivel contrato."
 
 #: README.md:12
 msgid ""
-"The Contract suppliers extension introduces a `contract/suppliers` array for "
-"this purpose."
+"The Contract suppliers extension introduces a `contract/suppliers` array for"
+" this purpose."
 msgstr ""
+"La extensión de proveedores de contrato introduce una lista "
+"`contract/suppliers` para este propósito."
 
 #: README.md:0
 msgid "Schema"
@@ -65,9 +83,9 @@ msgstr "Issues"
 
 #: README.md:18
 msgid ""
-"Report issues for this extension in the [ocds-extensions repository](https://"
-"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
-"name in the issue's title."
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
 msgstr ""
 "Reporte issues para esta extensión en el [repositorio de extensiones "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "

@@ -1,20 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 
+# Copyright (C)
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
+# James McKinney <jmckinney@open-contracting.org>, 2019
+# Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-13 18:59-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"PO-Revision-Date: 2019-03-14 18:27+0000\n"
+"Last-Translator: Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019\n"
+"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/95084/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: README.md:0
 msgid "Bid statistics and details"
@@ -30,7 +36,8 @@ msgstr ""
 
 #: README.md:6
 msgid ""
-"Market analysis for understanding the competitiveness of a given marketplace;"
+"Market analysis for understanding the competitiveness of a given "
+"marketplace;"
 msgstr ""
 "Análisis de mercado para comprender la competitividad de un mercado "
 "determinado;"
@@ -58,22 +65,22 @@ msgstr ""
 "Los regímenes regulatorios varían en la medida en que permiten que la "
 "información sobre las licitaciones se publique de forma proactiva y en qué "
 "momento del proceso de adquisición. En algunos sistemas y procesos, se "
-"publicará una lista de licitadores invitados al comienzo de la licitación, y "
-"todos los detalles y documentos sobre las ofertas recibidas podrán ser "
+"publicará una lista de licitadores invitados al comienzo de la licitación, y"
+" todos los detalles y documentos sobre las ofertas recibidas podrán ser "
 "revelados cuando se complete la evaluación. En otros sistemas, sólo pueden "
 "hacerse públicas las estadísticas resumidas sobre el número de ofertas "
 "recibidas."
 
 #: README.md:12
 msgid ""
-"The OCDS bid extension introduces a new, flexible, top-level section to each "
-"contracting process to capture bidding information. Implementers will need "
+"The OCDS bid extension introduces a new, flexible, top-level section to each"
+" contracting process to capture bidding information. Implementers will need "
 "to assess which fields are applicable to their local regulatory regime, and "
 "to local use-cases."
 msgstr ""
 "La extensión de oferta de OCDS introduce una sección nueva, flexible y de "
 "alto nivel para cada proceso de contratación para capturar información de "
-"ofertas. Los ejecutores deberán evaluar qué campos son aplicables a su "
+"ofertas. Los implementadores deberán evaluar qué campos son aplicables a su "
 "régimen regulatorio local y los casos de uso locales."
 
 #: README.md:0
@@ -83,12 +90,12 @@ msgstr "Estadísticas de ofertas"
 #: README.md:16
 msgid ""
 "The ```bids/bidStatistics``` array can be used to represent key statistical "
-"information about the number of bids and bidders. Each entry in the array is "
-"a ```BidStatistic``` object containing at least:"
+"information about the number of bids and bidders. Each entry in the array is"
+" a ```BidStatistic``` object containing at least:"
 msgstr ""
-"La matriz ```bids/bidStatistics``` puede utilizarse para representar "
-"información estadística clave sobre el número de ofertas y licitadores. Cada "
-"entrada en la matriz es un objeto ```BidStatistic``` que contiene al menos:"
+"La lista ```bids/bidStatistics``` puede utilizarse para representar "
+"información estadística clave sobre el número de ofertas y licitadores. Cada"
+" entrada en la lista es un objeto ```BidStatistic``` que contiene al menos:"
 
 #: README.md:18
 msgid "An identifier;"
@@ -118,8 +125,8 @@ msgid ""
 msgstr ""
 "Esta es una lista de códigos **abierta**. Los publicadores pueden agregar "
 "sus propios códigos a esta lista. Al hacerlo, se alienta a los publicadores "
-"a comprometerse con la comunidad de contrataciones abiertas para acordar las "
-"definiciones de cada código."
+"a comprometerse con la comunidad de contrataciones abiertas para acordar las"
+" definiciones de cada código."
 
 #: README.md:34
 msgid ""
@@ -140,7 +147,7 @@ msgid ""
 "The ```bids/details``` array is used to provide one or more ```Bid``` "
 "objects, each representing a unique bid received."
 msgstr ""
-"La matriz ```bids/details``` se utiliza para proporcionar uno o más objetos "
+"La lista ```bids/details``` se utiliza para proporcionar uno o más objetos "
 "``` Bid```, cada uno de los cuales representa una única oferta recibida."
 
 #: README.md:0

@@ -1,20 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 
+# Copyright (C)
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
+# James McKinney <jmckinney@open-contracting.org>, 2019
+# Maria Esther Cervantes <mariaesther@idatosabiertos.org>, 2019
+# Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-13 18:59-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"PO-Revision-Date: 2019-03-14 18:29+0000\n"
+"Last-Translator: Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019\n"
+"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/95084/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: README.md:0
 msgid "Requirements"
@@ -28,8 +35,8 @@ msgid ""
 msgstr ""
 "La ampliación de los requisitos se basa en el modelo de la UE [Vocabulario "
 "de Criterios Fundamentales y Evidencia Básica "
-"(CCCEV)](https://joinup.ec.europa.eu/node/153001) para comunicar criterios y "
-"respuestas."
+"(CCCEV)](https://joinup.ec.europa.eu/node/153001) para comunicar criterios y"
+" respuestas."
 
 #: README.md:5
 msgid ""
@@ -37,9 +44,9 @@ msgid ""
 "criteria, relating to either items being procured or bidders themselves, as "
 "structured data."
 msgstr ""
-"La extensión está diseñada para permitir que las entidades compradoras o los "
-"compradores expresen criterios, relacionados con los artículos adquiridos o "
-"sobre los propios licitadores, como datos estructurados."
+"La extensión está diseñada para permitir que las entidades compradoras o los"
+" compradores expresen criterios, relacionados con los artículos adquiridos o"
+" sobre los propios licitadores, como datos estructurados."
 
 #: README.md:7
 msgid ""
@@ -67,8 +74,8 @@ msgid ""
 "evaluate or assess either an item or bidder. A criterion is satisfied when "
 "one or more of it's requirement groups are satisfied."
 msgstr ""
-"**Criterio** Un criterio representa una regla o principio usado para juzgar, "
-"evaluar o calificar un artículo o un licitador. Un criterio se satisface "
+"**Criterio** Un criterio representa una regla o principio usado para juzgar,"
+" evaluar o calificar un artículo o un licitador. Un criterio se satisface "
 "cuando uno o más de sus grupos están satisfechos."
 
 #: README.md:16
@@ -78,8 +85,8 @@ msgid ""
 "requirements are satisfied."
 msgstr ""
 "**Grupo de requisitos** Un grupo de requisitos es una serie de uno o más "
-"requisitos individuales. Un grupo de requisito se satisface cuando todos sus "
-"requerimientos están satisfechos."
+"requisitos individuales. Un grupo de requisito se satisface cuando todos sus"
+" requerimientos están satisfechos."
 
 #: README.md:19
 msgid ""
@@ -94,14 +101,14 @@ msgid ""
 "**Requirement Response** A requirements response is an assertion that "
 "responds to a specific requirement."
 msgstr ""
-"**Respuesta de requisito** Una respuesta de requisitos es una afirmación que "
-"responde a un requisito específico."
+"**Respuesta de requisito** Una respuesta de requisitos es una afirmación que"
+" responde a un requisito específico."
 
 #: README.md:25
 msgid ""
 "Therefore the CCCEV model can be used to express both **AND** conditions, "
-"where a group of requirements must be met to satisfy a criterion, and **OR** "
-"conditions, where there are alternative requirements that can satisfy a "
+"where a group of requirements must be met to satisfy a criterion, and **OR**"
+" conditions, where there are alternative requirements that can satisfy a "
 "criterion."
 msgstr ""
 "Por lo tanto, el modelo CCCEV puede usarse para expresar las condiciones "
@@ -120,40 +127,40 @@ msgid ""
 "schema:"
 msgstr ""
 "La extensión introduce un nuevo bloque para cada uno de los conceptos "
-"descritos anteriormente, estos se agregan a las siguientes ubicaciones en el "
-"esquema de OCDS:"
+"descritos anteriormente, estos se agregan a las siguientes ubicaciones en el"
+" esquema de OCDS:"
 
 #: README.md:31
 msgid "*tender.criteria* - an array of criteria"
-msgstr "*tender.criteria* - una matriz de criterios"
+msgstr "*tender.criteria* - una lista de criterios"
 
 #: README.md:32
 msgid "*tender.criteria.requirementGroups* - an array of requirement groups"
 msgstr ""
-"*tender.criteria.requirementGroups* - una matriz de grupos de requisitos"
+"*tender.criteria.requirementGroups* - una lista de grupos de requisitos"
 
 #: README.md:33
 msgid ""
 "*tender.criteria.requirementGroups.requirements* - an array of requirements"
 msgstr ""
-"*tender.criteria.requirementGroups.requirements* - una matriz de requisitos"
+"*tender.criteria.requirementGroups.requirements* - una lista de requisitos"
 
 #: README.md:34
 msgid ""
 "*bids.requirementResponses* - an array of requirement responses (Note: "
 "depends on *bid* extension)"
 msgstr ""
-"*bids.requirementResponses* - una matriz de respuestas de requerimientos "
+"*bids.requirementResponses* - una lista de respuestas de requerimientos "
 "(Nota: depende de la extensión *bid*)"
 
 #: README.md:35
 msgid "*awards.requirementResponses* - an array of requirements responses"
-msgstr "*awards.requirementResponses* - una matriz de respuestas de requisitos"
+msgstr "*awards.requirementResponses* - una lista de respuestas de requisitos"
 
 #: README.md:36
 msgid "*contracts.requirementResponses* - an array or requirement responses"
 msgstr ""
-"*contracts.requirementResponses* - una matriz de respuestas a los requisitos"
+"*contracts.requirementResponses* - una lista de respuestas a los requisitos"
 
 #: README.md:0
 msgid "Background"
@@ -162,12 +169,12 @@ msgstr "Antecedentes"
 #: README.md:40
 msgid ""
 "There are number of scenarios in which structured information on "
-"requirements is necessary. See discussion in GitHub issue [#223](https://"
-"github.com/open-contracting/standard/issues/223)."
+"requirements is necessary. See discussion in GitHub issue "
+"[#223](https://github.com/open-contracting/standard/issues/223)."
 msgstr ""
 "Hay una serie de escenarios en los que es necesaria la información "
-"estructurada sobre los requerimientos. Ver discusión en el issue de Github [#"
-" 223](https://github.com/open-contracting/standard/issues/223)."
+"estructurada sobre los requerimientos. Ver discusión en el issue de Github "
+"[# 223](https://github.com/open-contracting/standard/issues/223)."
 
 #: README.md:0
 msgid "Example usage"
@@ -178,8 +185,9 @@ msgid ""
 "Below is an example of requirements specified against both an item and a "
 "bidder which demonstrates both **AND** and **OR** conditions:"
 msgstr ""
-"A continuación se muestra un ejemplo de requisitos especificados tanto en un "
-"artículo como en un licitador que demuestra las condiciones **AND** y **OR**:"
+"A continuación se muestra un ejemplo de requisitos especificados tanto en un"
+" artículo como en un licitador que demuestra las condiciones **AND** y "
+"**OR**:"
 
 #: README.md:150
 msgid "Below is an example of responses which meet the above requirements:"
@@ -201,9 +209,9 @@ msgid ""
 "implemented in this extension."
 msgstr ""
 "El modelo CCCEV también define una serie de conceptos adicionales, "
-"incluyendo **formalFrameworks**, utilizado para especificar los instrumentos "
-"jurídicos de los que se derivan los criterios, **evidence**, utilizado para "
-"especificar y proporcionar la evidencia necesaria para respaldar una "
+"incluyendo **formalFrameworks**, utilizado para especificar los instrumentos"
+" jurídicos de los que se derivan los criterios, **evidence**, utilizado para"
+" especificar y proporcionar la evidencia necesaria para respaldar una "
 "respuesta de requisito, y propiedades adicionales de *requirements* como "
 "**certificationLevel** que actualmente no están implementadas en esta "
 "extensión."
@@ -230,10 +238,26 @@ msgstr "Issues"
 
 #: README.md:192
 msgid ""
-"Report issues for this extension in the [ocds-extensions repository](https://"
-"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
-"name in the issue's title."
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
 msgstr ""
 "Reporte issues para esta extensión en el [repositorio de extensiones "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
 "el nombre de la extensión en el título del issue."
+
+#: README.md:0
+msgid "Changelog"
+msgstr "Registro de cambios"
+
+#: README.md:0
+msgid "Fixed"
+msgstr "Arreglos"
+
+#: README.md:198
+msgid ""
+"`Requirement.expectedValue` and `RequirementResponse.value` allow boolean "
+"values."
+msgstr ""
+"`Requirement.expectedValue` y `RequirementResponse.value` permiten valores "
+"boolean."

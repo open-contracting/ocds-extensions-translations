@@ -1,20 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 
+# Copyright (C)
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
+# James McKinney <jmckinney@open-contracting.org>, 2019
+# Maria Esther Cervantes <mariaesther@idatosabiertos.org>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-13 18:59-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"PO-Revision-Date: 2019-03-14 18:31+0000\n"
+"Last-Translator: Maria Esther Cervantes <mariaesther@idatosabiertos.org>, 2019\n"
+"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/95084/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: README.md:0
 msgid "Shareholder and ownership details"
@@ -31,10 +37,10 @@ msgstr ""
 #: README.md:5
 msgid ""
 "For example, in Public Private Partnerships processes, companies are often "
-"required to disclose information on their ownership structures when bidding, "
-"and when the contract is awarded, information on the ownership of a Special "
-"Purpose Vehicle (SPV) operating the contract may need to be kept up to date "
-"during project implementation."
+"required to disclose information on their ownership structures when bidding,"
+" and when the contract is awarded, information on the ownership of a Special"
+" Purpose Vehicle (SPV) operating the contract may need to be kept up to date"
+" during project implementation."
 msgstr ""
 "Por ejemplo, en los procesos de Asociaciones Público-Privadas, a menudo se "
 "requiere que las compañías divulguen información sobre sus estructuras de "
@@ -49,8 +55,8 @@ msgid ""
 "up information on corporate ownership networks involved in a contracting "
 "process."
 msgstr ""
-"Debido a que cada propietario mencionado en la matriz de accionistas también "
-"debe tener una entrada en la matriz de 'parties', es posible utilizar esta "
+"Debido a que cada propietario mencionado en la matriz de accionistas también"
+" debe tener una entrada en la matriz de 'parties', es posible utilizar esta "
 "extensión para crear información sobre las redes de propiedad corporativa "
 "involucrados en un proceso de contratación."
 
@@ -63,8 +69,8 @@ msgid ""
 "This extension also includes a 'stub' entry for recording beneficial "
 "ownership information against a party."
 msgstr ""
-"Esta extensión también incluye una entrada 'stub' para registrar información "
-"de propiedad beneficiaria contra una parte."
+"Esta extensión también incluye una entrada 'stub' para registrar información"
+" de propiedad beneficiaria contra una parte."
 
 #: README.md:13
 msgid ""
@@ -73,21 +79,23 @@ msgid ""
 "beneficial ownership information drawing on the draft [Beneficial Ownership "
 "Data Standard](https://github.com/openownership/data-standard)."
 msgstr ""
-"En la actualidad, esto incluye espacio para la descripción en texto libre de "
-"las estructuras de propiedad y control, pero podría ampliarse con "
-"información estructurada sobre la propiedad efectiva basada en el borrador ["
-"Beneficial Ownership Data Standard](https://github.com/openownership/data-"
+"En la actualidad, esto incluye espacio para la descripción en texto libre de"
+" las estructuras de propiedad y control, pero podría ampliarse con "
+"información estructurada sobre la propiedad efectiva basada en el borrador "
+"[Beneficial Ownership Data Standard](https://github.com/openownership/data-"
 "standard)."
 
 #: docs/index.md:0
 msgid "Shareholders Extension"
-msgstr ""
+msgstr "Extensión de accionistas"
 
 #: docs/index.md:3
 msgid ""
-"The shareholder extension provides a way to describe the shareholders of the "
-"entities involved in a contracting process."
+"The shareholder extension provides a way to describe the shareholders of the"
+" entities involved in a contracting process."
 msgstr ""
+"La extensión de accionista se puede utilizar para proporcionar detalles de "
+"los propietarios de las partes involucradas en un proceso de contratación."
 
 #: docs/index.md:5
 msgid ""
@@ -96,39 +104,49 @@ msgid ""
 "contracting processes. This is particularly important where bidders are "
 "consortia."
 msgstr ""
+"Entender los accionistas de los ofertantes o los proveedores exitosos es "
+"importante para análisis las diferentes organizaciones involucradas en un "
+"proceso de contrataciones. Esto es particularmente importante cuando los "
+"ofertantes son un consorcio."
 
 #: docs/index.md:7
 msgid ""
 "The extension introduces a new ```shareholder``` building block and extends "
 "the ```organization``` building block with a new ```shareholders``` field."
 msgstr ""
+"La extensión incluye un nuevo bloque de construcción ```shareholder``` y "
+"extender el bloque de construcción de  ```organization``` con un nuevo campo"
+" ```shareholders```."
 
 #: docs/index.md:0
 msgid "Shareholders Field"
-msgstr ""
+msgstr "Campo de accionistas"
 
 #: docs/index.md:11
 msgid ""
 "The ```organization/shareholders``` field is an array of ```shareholder``` "
 "building blocks, describing the shareholders for the organization."
 msgstr ""
+"El campo ```organization/shareholders``` es una matriz de bloques de "
+"construcción  ```shareholder``` , que describen los accionistas de la "
+"organización"
 
 #: docs/index.md:0
 msgid "Shareholder Building Block"
-msgstr ""
+msgstr "Bloque de construcción de accionistas"
 
 #: docs/index.md:15
 msgid "The shareholder building block provides a way to:"
-msgstr ""
+msgstr "El Bloque de construcción de accionistas da una forma de:"
 
 #: docs/index.md:17
 msgid "Link to the organization details of the shareholder"
-msgstr ""
+msgstr "Ligar los detalles de la organización al accionista"
 
 #: docs/index.md:18
 msgid "Describe the amount of shares held by the shareholder"
-msgstr ""
+msgstr "Describir el número de acciones que tiene el accionista"
 
 #: docs/index.md:19
 msgid "Describe the voting rights assoicated with the shareholding"
-msgstr ""
+msgstr "Describir los derechos de voto asociados con el accionista"

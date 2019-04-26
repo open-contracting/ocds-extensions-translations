@@ -1,46 +1,60 @@
 # Translations template for PROJECT.
-# Copyright (C) 2018 ORGANIZATION
+# Copyright (C) 2019 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# Maria Esther Cervantes <mariaesther@idatosabiertos.org>, 2019
+# Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-11-13 18:59-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"PO-Revision-Date: 2019-03-14 18:30+0000\n"
+"Last-Translator: Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019\n"
+"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/95084/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. /name/en
 #: extension.json:1
 msgid "Contract extensions via supplementary contract: extendsContractID"
 msgstr ""
+"Extensión de contratos a través de contratos complementario: "
+"extendsContractiD"
 
 #. /description/en
 #: extension.json:1
 msgid ""
-"Under some procurement rules and processes, to extend the duration or "
-"value of a contract, or to make other substantial alterations, requires a"
-" new contract to be signed. This extension allows these relationships "
-"between two or more contracts in the same contracting process to be made "
-"explicit."
+"Under some procurement rules and processes, to extend the duration or value "
+"of a contract, or to make other substantial alterations, requires a new "
+"contract to be signed. This extension allows these relationships between two"
+" or more contracts in the same contracting process to be made explicit."
 msgstr ""
+"Bajo algunas reglas y procesos de contrataciones, para extender la duración "
+"o el valor de un contrato, o para realizar otras modificaciones "
+"sustanciales, se requiere la firma de un nuevo contrato. Esta extensión "
+"permite que se hagan explícitas las relaciones entre dos o más contratos en "
+"el mismo proceso de contratación. "
 
 #. /definitions/Contract/properties/extendsContractID/title
 #: release-schema.json:1
 msgid "Extends contract ID"
-msgstr ""
+msgstr "ID extensión del contrato"
 
 #. /definitions/Contract/properties/extendsContractID/description
 #: release-schema.json:1
 msgid ""
-"If this contract extends or amends a previously issued contract, then the"
-" contract.id value for the extended/amended contract can be provided "
-"here."
+"If this contract extends or amends a previously issued contract, then the "
+"contract.id value for the extended/amended contract can be provided here."
 msgstr ""
+"Si este contrato extiende o modifica un contrato emitido anteriormente, "
+"entonces el valor de contract.id para el contrato ampliado / modificado se "
+"puede proporcionar aquí"

@@ -1,21 +1,28 @@
 # Translations template for PROJECT.
-# Copyright (C) 2018 ORGANIZATION
+# Copyright (C) 2019 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# James McKinney <jmckinney@open-contracting.org>, 2019
+# Maria Esther Cervantes <mariaesther@idatosabiertos.org>, 2019
+# Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-11-13 18:59-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"PO-Revision-Date: 2019-03-14 18:28+0000\n"
+"Last-Translator: Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019\n"
+"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/95084/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: codelists/locationGazeteers.csv
 msgid "Category"
@@ -49,10 +56,9 @@ msgstr "Nomenclatura de las Unidades Territoriales Estadísticas de la UE"
 #. Description
 #: codelists/locationGazeteers.csv:1
 msgid ""
-"The Nomenclature of Territorial Units for Statistics (NUTS) was "
-"established by Eurostat in order to provide a single uniform breakdown of"
-" territorial units for the production of regional statistics for the "
-"European Union."
+"The Nomenclature of Territorial Units for Statistics (NUTS) was established "
+"by Eurostat in order to provide a single uniform breakdown of territorial "
+"units for the production of regional statistics for the European Union."
 msgstr ""
 "Nomenclatura de las Unidades Territoriales Estadísticas (NUTS) fue "
 "establecida por Eurostat con el fin de proporcionar un único desglose "
@@ -77,16 +83,19 @@ msgstr "GeoNames"
 #. Description
 #: codelists/locationGazeteers.csv:3
 msgid ""
-"GeoNames provides numerical identifiers for many points of interest "
-"around the world, including administrative divisions, poulated centres "
-"and other locations, embedded within a structured tree of geographic "
-"relations."
+"GeoNames provides numerical identifiers for many points of interest around "
+"the world, including administrative divisions, poulated centres and other "
+"locations, embedded within a structured tree of geographic relations."
 msgstr ""
+"GeoNames da identificadores numéricos para muchos puntos de interés "
+"alrededor del mundo, incluyendo divisiones administrativas,  centros "
+"aislados y otras ubicaciones, incrustados dentro de un árbol estructurado de"
+" relaciones geográficas."
 
 #. Title
 #: codelists/locationGazeteers.csv:4
 msgid "Open Street Map Node"
-msgstr ""
+msgstr "Nodo de Open Street Map"
 
 #. Description
 #: codelists/locationGazeteers.csv:4
@@ -95,29 +104,37 @@ msgid ""
 "latitude, longitude and node ID. Nodes may have tags to indicate the "
 "particular geographic feature they represent."
 msgstr ""
+"Nodo de Open Street Map consiste en un solo punto en el espacio definido por"
+" latitud, longitud y ID del nodo. Los nodos pueden tener etiquetas para "
+"indicar la particularidad geográfica que representan."
 
 #. Title
 #: codelists/locationGazeteers.csv:5
 msgid "Open Street Map Relation"
-msgstr ""
+msgstr "Relación de Open Street Map"
 
 #. Description
 #: codelists/locationGazeteers.csv:5
 msgid ""
 "Relations are used to model logical (and usually local) or geographic "
-"relationships between objects. In practice, boundaries of geographic "
-"areas are available as Relations in Open Street Map."
+"relationships between objects. In practice, boundaries of geographic areas "
+"are available as Relations in Open Street Map."
 msgstr ""
+"Las relaciones se usan para modelar relaciones lógicas (generalmente "
+"locales) o geográficas entre objetos. En la práctica, los límites de las "
+"áreas geográficas están disponibles como Relaciones en Open Street Map."
 
 #. Title
 #: codelists/locationGazeteers.csv:6
 msgid "Open Street Map Way"
-msgstr ""
+msgstr "Open Street Map Way"
 
 #. Description
 #: codelists/locationGazeteers.csv:6
 msgid ""
-"An Open Street Map Way is an ordered list of Open Street Map nodes. May "
-"be used to describe fragments of roads or local boundaries and bounding "
-"boxes."
+"An Open Street Map Way is an ordered list of Open Street Map nodes. May be "
+"used to describe fragments of roads or local boundaries and bounding boxes."
 msgstr ""
+"Un Open Street Map Way es una lista ordenada de nodos Open Street Map. Puede"
+" usarse para describir fragmentos de carreteras o límites locales y cuadros "
+"delimitadores."
