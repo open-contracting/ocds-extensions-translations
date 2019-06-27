@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-20 13:46-0400\n"
+"POT-Creation-Date: 2019-06-27 17:45-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -102,19 +102,25 @@ msgstr ""
 
 #: README.md:89
 msgid ""
+"Disallow `Location.geometry` and `Location.gazetteer` from being null (bug "
+"introduced in v1.1.3)"
+msgstr ""
+
+#: README.md:90
+msgid ""
 "Correct the order of longitude and latitude in field descriptions to match "
 "the GeoJSON specification"
 msgstr ""
 
-#: README.md:90
+#: README.md:91
 msgid "Describe elevation or altitude values"
 msgstr ""
 
-#: README.md:91
+#: README.md:92
 msgid "Remove Sphinx directives from readme"
 msgstr ""
 
-#: README.md:92
+#: README.md:93
 msgid "Update extension.json for Extension Explorer"
 msgstr ""
 
@@ -122,7 +128,7 @@ msgstr ""
 msgid "v1.1.3"
 msgstr "v1.1.3"
 
-#: README.md:96
+#: README.md:97
 msgid ""
 "Disallow `Location.geometry.coordinates` from having null in its array of "
 "coordinates"
@@ -130,7 +136,7 @@ msgstr ""
 "Non consentire valori nulli nell'array del campo "
 "`Location.geometry.coordinates` "
 
-#: README.md:97
+#: README.md:98
 msgid ""
 "Disallow `Location.gazetteer.identifiers` from having null in its array of "
 "strings"
@@ -138,38 +144,38 @@ msgstr ""
 "Non consentire valori nulli nell'array di stringhe del campo "
 "`Location.gazetteer.identifiers`"
 
-#: README.md:98
+#: README.md:99
 msgid ""
 "Correct name of locationGazetteers.csv codelist (was locationGazeteers.csv)"
 msgstr ""
 "Il nome corretto del vocabolario controllato è locationGazetteers.csv (era "
 "locationGazeteers.csv)"
 
-#: README.md:99
+#: README.md:100
 msgid "Allow `Location.geometry` and `Location.gazetteer` to be null"
 msgstr ""
 "Consenti valori nulli sui campi `Location.geometry` e` Location.gazetteer`"
 
-#: README.md:100
+#: README.md:101
 msgid "Add title and description to `Location.gazetteer`"
 msgstr "Aggiungi titolo e descrizione a \"Location.gazetteer\""
 
-#: README.md:101
+#: README.md:102
 msgid "Add description to `Item.deliveryLocation`, `Item.deliveryAddress`"
 msgstr ""
 "Aggiungere la descrizione a `Item.deliveryLocation`,` Item.deliveryAddress`"
 
-#: README.md:102
+#: README.md:103
 msgid "Add geometryType.csv codelist for `Location.geometry.type`"
 msgstr ""
 "Aggiungi elementi dal vocabolario geometryType.csv per "
 "`Location.geometry.type`"
 
-#: README.md:103
+#: README.md:104
 msgid "List codelists in extension.json"
 msgstr ""
 "Elenca i valori ammissibili del vocabolari controllati in extension.json"
 
-#: README.md:104
+#: README.md:105
 msgid "Add tests and tidy code"
 msgstr "Aggiungi test e codice ordinato"

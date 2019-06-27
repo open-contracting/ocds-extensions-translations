@@ -1,26 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C)
+# Copyright (C) 
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# James McKinney <jmckinney@open-contracting.org>, 2019
-# Maria Esther Cervantes <mariaesther@idatosabiertos.org>, 2019
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python\n"
+"Project-Id-Version: Python \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-14 14:23-0400\n"
-"PO-Revision-Date: 2019-03-14 18:28+0000\n"
-"Last-Translator: Maria Esther Cervantes <mariaesther@idatosabiertos.org>, 2019\n"
-"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/95084/es/)\n"
+"POT-Creation-Date: 2019-06-27 17:45-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: README.md:0
 msgid "Location Data"
@@ -52,8 +46,8 @@ msgstr ""
 
 #: README.md:8
 msgid ""
-"`deliveryLocation` - a new block consisting of GeoJSON and Gazetteer entries"
-" to describe a wider range of locations to which the contract line item "
+"`deliveryLocation` - a new block consisting of GeoJSON and Gazetteer entries "
+"to describe a wider range of locations to which the contract line item "
 "relates."
 msgstr ""
 "`deliveryLocation` - un nuevo bloque que consta de entradas GeoJSON y de "
@@ -63,12 +57,12 @@ msgstr ""
 #: README.md:10
 msgid ""
 "The `locationGazetteers.csv` codelist's `Category` column indicates whether "
-"the gazetteer has identifiers for the whole world ('Universal') or only some"
-" subset ('National' or 'Sub-National')."
+"the gazetteer has identifiers for the whole world ('Universal') or only some "
+"subset ('National' or 'Sub-National')."
 msgstr ""
 "La columna `Category`  en la lista de código  `locationGazetteers.csv` "
-"indica si el diccionario geográfico tiene identificadores para todo el mundo"
-" ('Universal') o solo un subconjunto ('National' o 'Sub-National')."
+"indica si el diccionario geográfico tiene identificadores para todo el mundo "
+"('Universal') o solo un subconjunto ('National' o 'Sub-National')."
 
 #: README.md:0
 msgid "Example"
@@ -94,9 +88,9 @@ msgstr "Issues"
 
 #: README.md:83
 msgid ""
-"Report issues for this extension in the [ocds-extensions "
-"repository](https://github.com/open-contracting/ocds-extensions/issues), "
-"putting the extension's name in the issue's title."
+"Report issues for this extension in the [ocds-extensions repository](https://"
+"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
+"name in the issue's title."
 msgstr ""
 "Reporte issues para esta extensión en el [repositorio de extensiones "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
@@ -112,21 +106,27 @@ msgstr "v1.1.4"
 
 #: README.md:89
 msgid ""
+"Disallow `Location.geometry` and `Location.gazetteer` from being null (bug "
+"introduced in v1.1.3)"
+msgstr ""
+
+#: README.md:90
+msgid ""
 "Correct the order of longitude and latitude in field descriptions to match "
 "the GeoJSON specification"
 msgstr ""
 "Corregir el orden de longitud y latitud en los campos de descripción deben "
 "ser iguales a la especificación GeoJSON."
 
-#: README.md:90
+#: README.md:91
 msgid "Describe elevation or altitude values"
 msgstr "Describe los valores de elevación o altitud"
 
-#: README.md:91
+#: README.md:92
 msgid "Remove Sphinx directives from readme"
 msgstr "Quita las directivas Sphinx del readme"
 
-#: README.md:92
+#: README.md:93
 msgid "Update extension.json for Extension Explorer"
 msgstr "Actualiza la extension.json para el Explorador de Extension"
 
@@ -134,7 +134,7 @@ msgstr "Actualiza la extension.json para el Explorador de Extension"
 msgid "v1.1.3"
 msgstr "v1.1.3"
 
-#: README.md:96
+#: README.md:97
 msgid ""
 "Disallow `Location.geometry.coordinates` from having null in its array of "
 "coordinates"
@@ -142,7 +142,7 @@ msgstr ""
 "No permitir que `Location.geometry.coordinates` tenga null en su matriz de "
 "coordenadas"
 
-#: README.md:97
+#: README.md:98
 msgid ""
 "Disallow `Location.gazetteer.identifiers` from having null in its array of "
 "strings"
@@ -150,34 +150,34 @@ msgstr ""
 "No permitir que `Location.gazetteer.identifiers` tenga null en su lista de "
 "strings"
 
-#: README.md:98
+#: README.md:99
 msgid ""
 "Correct name of locationGazetteers.csv codelist (was locationGazeteers.csv)"
 msgstr ""
 "Corregir el nombre de la lista de código locationGazetteers.csv (era "
 "locationGazeteers.csv)"
 
-#: README.md:99
+#: README.md:100
 msgid "Allow `Location.geometry` and `Location.gazetteer` to be null"
 msgstr "Permitir que `Location.geometry` y` Location.gazetteer` sean null"
 
-#: README.md:100
+#: README.md:101
 msgid "Add title and description to `Location.gazetteer`"
 msgstr "Agregar título y descripción a `Location.gazetteer`"
 
-#: README.md:101
+#: README.md:102
 msgid "Add description to `Item.deliveryLocation`, `Item.deliveryAddress`"
 msgstr "Agregar descripción a `Item.deliveryLocation`,` Item.deliveryAddress`"
 
-#: README.md:102
+#: README.md:103
 msgid "Add geometryType.csv codelist for `Location.geometry.type`"
 msgstr ""
 "Agregar la lista de código geometryType.csv para `Location.geometry.type`"
 
-#: README.md:103
+#: README.md:104
 msgid "List codelists in extension.json"
 msgstr "Enlista listas de códigos en extension.json"
 
-#: README.md:104
+#: README.md:105
 msgid "Add tests and tidy code"
 msgstr "Agregar pruebas y ordenar el código"

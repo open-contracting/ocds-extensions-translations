@@ -67,7 +67,7 @@ Pre-populate the PO files:
 ```
 for extension in bids enquiries location lots milestone_documents participation_fee process_title
   for lang in es fr it
-    mkdir locale/$lang/LC_MESSAGES/$extension/$new_version
+    mkdir -p locale/$lang/LC_MESSAGES/$extension/$new_version
     for domain in docs schema codelists
       if [ -f locale/$lang/LC_MESSAGES/$extension/$old_version/$domain.po ]
         pretranslate --nofuzzymatching -t locale/$lang/LC_MESSAGES/$extension/$old_version/$domain.po build/locale/$extension/$new_version/$domain.pot locale/$lang/LC_MESSAGES/$extension/$new_version/$domain.po

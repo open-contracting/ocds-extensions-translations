@@ -2,27 +2,20 @@
 # Copyright (C) 2019 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
-# 
-# Translators:
-# James McKinney <jmckinney@open-contracting.org>, 2019
-# Maria Esther Cervantes <mariaesther@idatosabiertos.org>, 2019
-# Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-03-14 14:23-0400\n"
-"PO-Revision-Date: 2019-03-14 18:26+0000\n"
-"Last-Translator: Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019\n"
-"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/95084/es/)\n"
+"POT-Creation-Date: 2019-06-27 17:45-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
-"Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. /name/en
 #: extension.json:1
@@ -32,12 +25,12 @@ msgstr "Costos de participación"
 #. /description/en
 #: extension.json:1
 msgid ""
-"Where a tender process involves payment of fees to access documents, submit "
-"a proposal, or be awarded a contract, this extension can be used to provide "
-"fee details."
+"Where a tender process involves payment of fees to access documents, "
+"submit a proposal, or be awarded a contract, this extension can be used "
+"to provide fee details."
 msgstr ""
-"Cuando un proceso de licitación implica el pago de costos para acceder a los"
-" documentos, presentar una propuesta, o ser adjudicado un contrato, esta "
+"Cuando un proceso de licitación implica el pago de costos para acceder a los "
+"documentos, presentar una propuesta, o ser adjudicado un contrato, esta "
 "extensión se puede utilizar para proporcionar detalles de la tasa."
 
 #. /definitions/ParticipationFee/title
@@ -48,9 +41,9 @@ msgstr "Tarifa de participación"
 #. /definitions/ParticipationFee/description
 #: release-schema.json:1
 msgid ""
-"A fee applicable to bidders wishing to participate in the tender process. "
-"Fees may apply for access to bidding documents, for the submission of bids "
-"or there may be a win fee payable by the successful bidder."
+"A fee applicable to bidders wishing to participate in the tender process."
+" Fees may apply for access to bidding documents, for the submission of "
+"bids or there may be a win fee payable by the successful bidder."
 msgstr ""
 "Una tarifa que aplica a los ofertantes que quieren participar en el proceso "
 "de licitaciones. Las tarifas pueden aplicar para acceder los documentos de "
@@ -66,8 +59,8 @@ msgstr "ID de tarifa"
 #: release-schema.json:1
 msgid ""
 "A local identifier for this fee, unique within this block. This field is "
-"used to keep track of multiple revisions of a fee through the compilation "
-"from release to record mechanism."
+"used to keep track of multiple revisions of a fee through the compilation"
+" from release to record mechanism."
 msgstr ""
 "Un identificador local de esta tarifa, única en este bloque. Este campo se "
 "usa para hacer un seguimiento de múltiples revisiones de la tarifa a través "
@@ -81,9 +74,10 @@ msgstr "Tipo de tarifa"
 #. /definitions/ParticipationFee/properties/type/description
 #: release-schema.json:1
 msgid ""
-"A fees applicable to bidders wishing to participate in the tender process. "
-"Fees may apply for access to bidding documents, for the submission of bids "
-"or there may be a win fee payable by the successful bidder."
+"A fees applicable to bidders wishing to participate in the tender "
+"process. Fees may apply for access to bidding documents, for the "
+"submission of bids or there may be a win fee payable by the successful "
+"bidder."
 msgstr ""
 "Las cuotas aplicables a los ofertantes que deseen participar en el proceso "
 "de licitación. Es posible que se apliquen cuotas para acceder a los "
@@ -108,8 +102,8 @@ msgstr "Descripción"
 #. /definitions/ParticipationFee/properties/description/description
 #: release-schema.json:1
 msgid ""
-"Optional information about the way in which fees are levied, or the exact "
-"nature of the fees."
+"Optional information about the way in which fees are levied, or the exact"
+" nature of the fees."
 msgstr ""
 "Información opcional sobre la manera en que se cobran las tarifas, o la "
 "naturaleza exacta de las tarifas."
@@ -132,9 +126,10 @@ msgstr "Cuotas de participación"
 #. /definitions/Tender/properties/participationFees/description
 #: release-schema.json:1
 msgid ""
-"Any fees applicable to bidders wishing to participate in the tender process."
-" Fees may apply for access to bidding documents, for the submission of bids "
-"or there may be a win fee payable by the successful bidder."
+"Any fees applicable to bidders wishing to participate in the tender "
+"process. Fees may apply for access to bidding documents, for the "
+"submission of bids or there may be a win fee payable by the successful "
+"bidder."
 msgstr ""
 "Una tarifa que aplica a los ofertantes que quieren participar en el proceso "
 "de licitaciones. Las tarifas pueden aplicar para acceder los documentos de "
