@@ -103,7 +103,7 @@ end
 
 For posterity, the commands to initialize this repository were as follows (using the fish shell).
 
-#### Prepare compendia from the `standard` repository
+#### Prepare a compendium from the `standard` repository
 
 1. Change into the `standard` directory
 1. Replace `path/to/working/directory`
@@ -121,13 +121,10 @@ for lang in (ls standard/docs/locale)
   rm -f $lang-*.po
 end
 
-git checkout 1.1-italian
-msgcat --use-first standard/docs/locale/it/**.po > $wip/it-standard.po
-
 git checkout 1.1-dev
 ```
 
-#### Prepare compendia from the `public-private-partnerships` repository
+#### Prepare a compendium from the `public-private-partnerships` repository
 
 1. Change into the `public-private-partnerships` directory
 1. Replace `path/to/working/directory`
@@ -206,7 +203,7 @@ cd locale
 for lang in (ls)
   cd $lang/LC_MESSAGES
   for f in **.po
-    pretranslate --nofuzzymatching -t ../../../$lang.po ../../../build/locale/(echo $f)t $f
+    pretranslate --nofuzzymatching -t ../../../$lang.po ../../../build/locale/{$f}t $f
   end
   cd ../..
 end
