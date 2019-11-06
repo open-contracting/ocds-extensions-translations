@@ -991,3 +991,21 @@ source_file = build/locale/releaseSource/master/docs.pot
 source_lang = en
 type = PO
 
+[ocds-extensions.guarantees--master--codelists]
+file_filter = locale/<lang>/LC_MESSAGES/guarantees/master/codelists.po
+source_file = build/locale/guarantees/master/codelists.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.guarantees--master--schema]
+file_filter = locale/<lang>/LC_MESSAGES/guarantees/master/schema.po
+source_file = build/locale/guarantees/master/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.guarantees--master--docs]
+file_filter = locale/<lang>/LC_MESSAGES/guarantees/master/docs.po
+source_file = build/locale/guarantees/master/docs.pot
+source_lang = en
+type = PO
+
