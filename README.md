@@ -224,16 +224,13 @@ for i in **.pot
 end
 ```
 
-### Compare PO files
+### Compare PO or POT files
 
-`langdir2` must be relative to `langdir1`. Change the values, then:
+Change the two paths, and change `.po` to `.pot` if appropriate:
 
 ```
-set langdir1 path/to/locale/es
-set langdir2 relative/path/to/locale/es
-
-cd $langdir1
+cd path/to/locale/es
 for i in **.po
-  msgcmp $i langdir2/$i
+  msgcmp $i relative/path/to/another/locale/es/$i
 end
 ```
