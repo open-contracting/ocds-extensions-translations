@@ -313,6 +313,36 @@ source_file = build/locale/bids/master/docs.pot
 source_lang = en
 type = PO
 
+[ocds-extensions.implementationStatus--master--codelists]
+file_filter = locale/<lang>/LC_MESSAGES/implementationStatus/master/codelists.po
+source_file = build/locale/implementationStatus/master/codelists.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.implementationStatus--master--schema]
+file_filter = locale/<lang>/LC_MESSAGES/implementationStatus/master/schema.po
+source_file = build/locale/implementationStatus/master/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.implementationStatus--master--docs]
+file_filter = locale/<lang>/LC_MESSAGES/implementationStatus/master/docs.po
+source_file = build/locale/implementationStatus/master/docs.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.releasePublisher--master--schema]
+file_filter = locale/<lang>/LC_MESSAGES/releasePublisher/master/schema.po
+source_file = build/locale/releasePublisher/master/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.releasePublisher--master--docs]
+file_filter = locale/<lang>/LC_MESSAGES/releasePublisher/master/docs.po
+source_file = build/locale/releasePublisher/master/docs.pot
+source_lang = en
+type = PO
+
 [ocds-extensions.location--v1_1_3--codelists]
 file_filter = locale/<lang>/LC_MESSAGES/location/v1.1.3/codelists.po
 source_file = build/locale/location/v1.1.3/codelists.pot
@@ -511,6 +541,24 @@ source_file = build/locale/lots/master/docs.pot
 source_lang = en
 type = PO
 
+[ocds-extensions.guarantees--master--codelists]
+file_filter = locale/<lang>/LC_MESSAGES/guarantees/master/codelists.po
+source_file = build/locale/guarantees/master/codelists.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.guarantees--master--schema]
+file_filter = locale/<lang>/LC_MESSAGES/guarantees/master/schema.po
+source_file = build/locale/guarantees/master/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.guarantees--master--docs]
+file_filter = locale/<lang>/LC_MESSAGES/guarantees/master/docs.po
+source_file = build/locale/guarantees/master/docs.pot
+source_lang = en
+type = PO
+
 [ocds-extensions.contract_buyer--master--schema]
 file_filter = locale/<lang>/LC_MESSAGES/contract_buyer/master/schema.po
 source_file = build/locale/contract_buyer/master/schema.pot
@@ -538,6 +586,18 @@ type = PO
 [ocds-extensions.requirements--master--docs]
 file_filter = locale/<lang>/LC_MESSAGES/requirements/master/docs.po
 source_file = build/locale/requirements/master/docs.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.releaseSource--master--schema]
+file_filter = locale/<lang>/LC_MESSAGES/releaseSource/master/schema.po
+source_file = build/locale/releaseSource/master/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.releaseSource--master--docs]
+file_filter = locale/<lang>/LC_MESSAGES/releaseSource/master/docs.po
+source_file = build/locale/releaseSource/master/docs.pot
 source_lang = en
 type = PO
 
@@ -718,6 +778,18 @@ type = PO
 [ocds-extensions.performance_failures--master--docs]
 file_filter = locale/<lang>/LC_MESSAGES/performance_failures/master/docs.po
 source_file = build/locale/performance_failures/master/docs.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.budget_and_spend--master--schema]
+file_filter = locale/<lang>/LC_MESSAGES/budget_and_spend/master/schema.po
+source_file = build/locale/budget_and_spend/master/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.budget_and_spend--master--docs]
+file_filter = locale/<lang>/LC_MESSAGES/budget_and_spend/master/docs.po
+source_file = build/locale/budget_and_spend/master/docs.pot
 source_lang = en
 type = PO
 
@@ -934,78 +1006,6 @@ type = PO
 [ocds-extensions.budget_project--master--docs]
 file_filter = locale/<lang>/LC_MESSAGES/budget_project/master/docs.po
 source_file = build/locale/budget_project/master/docs.pot
-source_lang = en
-type = PO
-
-[ocds-extensions.implementationStatus--master--codelists]
-file_filter = locale/<lang>/LC_MESSAGES/implementationStatus/master/codelists.po
-source_file = build/locale/implementationStatus/master/codelists.pot
-source_lang = en
-type = PO
-
-[ocds-extensions.implementationStatus--master--schema]
-file_filter = locale/<lang>/LC_MESSAGES/implementationStatus/master/schema.po
-source_file = build/locale/implementationStatus/master/schema.pot
-source_lang = en
-type = PO
-
-[ocds-extensions.implementationStatus--master--docs]
-file_filter = locale/<lang>/LC_MESSAGES/implementationStatus/master/docs.po
-source_file = build/locale/implementationStatus/master/docs.pot
-source_lang = en
-type = PO
-
-[ocds-extensions.releasePublisher--master--schema]
-file_filter = locale/<lang>/LC_MESSAGES/releasePublisher/master/schema.po
-source_file = build/locale/releasePublisher/master/schema.pot
-source_lang = en
-type = PO
-
-[ocds-extensions.releasePublisher--master--docs]
-file_filter = locale/<lang>/LC_MESSAGES/releasePublisher/master/docs.po
-source_file = build/locale/releasePublisher/master/docs.pot
-source_lang = en
-type = PO
-
-[ocds-extensions.budget_and_spend--master--schema]
-file_filter = locale/<lang>/LC_MESSAGES/budget_and_spend/master/schema.po
-source_file = build/locale/budget_and_spend/master/schema.pot
-source_lang = en
-type = PO
-
-[ocds-extensions.budget_and_spend--master--docs]
-file_filter = locale/<lang>/LC_MESSAGES/budget_and_spend/master/docs.po
-source_file = build/locale/budget_and_spend/master/docs.pot
-source_lang = en
-type = PO
-
-[ocds-extensions.releaseSource--master--schema]
-file_filter = locale/<lang>/LC_MESSAGES/releaseSource/master/schema.po
-source_file = build/locale/releaseSource/master/schema.pot
-source_lang = en
-type = PO
-
-[ocds-extensions.releaseSource--master--docs]
-file_filter = locale/<lang>/LC_MESSAGES/releaseSource/master/docs.po
-source_file = build/locale/releaseSource/master/docs.pot
-source_lang = en
-type = PO
-
-[ocds-extensions.guarantees--master--codelists]
-file_filter = locale/<lang>/LC_MESSAGES/guarantees/master/codelists.po
-source_file = build/locale/guarantees/master/codelists.pot
-source_lang = en
-type = PO
-
-[ocds-extensions.guarantees--master--schema]
-file_filter = locale/<lang>/LC_MESSAGES/guarantees/master/schema.po
-source_file = build/locale/guarantees/master/schema.pot
-source_lang = en
-type = PO
-
-[ocds-extensions.guarantees--master--docs]
-file_filter = locale/<lang>/LC_MESSAGES/guarantees/master/docs.po
-source_file = build/locale/guarantees/master/docs.pot
 source_lang = en
 type = PO
 
