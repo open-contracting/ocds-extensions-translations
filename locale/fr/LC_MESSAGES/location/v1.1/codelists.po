@@ -1,21 +1,26 @@
 # Translations template for PROJECT.
-# Copyright (C) 2018 ORGANIZATION
+# Copyright (C) 2019 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# James McKinney <jmckinney@open-contracting.org>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-11-13 18:59-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"PO-Revision-Date: 2019-03-14 18:28+0000\n"
+"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2019\n"
+"Language-Team: French (https://www.transifex.com/OpenDataServices/teams/95084/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: codelists/locationGazeteers.csv
 msgid "Category"
@@ -49,10 +54,9 @@ msgstr ""
 #. Description
 #: codelists/locationGazeteers.csv:1
 msgid ""
-"The Nomenclature of Territorial Units for Statistics (NUTS) was "
-"established by Eurostat in order to provide a single uniform breakdown of"
-" territorial units for the production of regional statistics for the "
-"European Union."
+"The Nomenclature of Territorial Units for Statistics (NUTS) was established "
+"by Eurostat in order to provide a single uniform breakdown of territorial "
+"units for the production of regional statistics for the European Union."
 msgstr ""
 "La Nomenclature des Unités Territoriales Statistiques (NUTS) a été établi "
 "par Eurostat dans le but de fournir une seule répartition uniforme des "
@@ -77,10 +81,9 @@ msgstr "GeoNames"
 #. Description
 #: codelists/locationGazeteers.csv:3
 msgid ""
-"GeoNames provides numerical identifiers for many points of interest "
-"around the world, including administrative divisions, poulated centres "
-"and other locations, embedded within a structured tree of geographic "
-"relations."
+"GeoNames provides numerical identifiers for many points of interest around "
+"the world, including administrative divisions, poulated centres and other "
+"locations, embedded within a structured tree of geographic relations."
 msgstr ""
 
 #. Title
@@ -105,8 +108,8 @@ msgstr ""
 #: codelists/locationGazeteers.csv:5
 msgid ""
 "Relations are used to model logical (and usually local) or geographic "
-"relationships between objects. In practice, boundaries of geographic "
-"areas are available as Relations in Open Street Map."
+"relationships between objects. In practice, boundaries of geographic areas "
+"are available as Relations in Open Street Map."
 msgstr ""
 
 #. Title
@@ -117,7 +120,6 @@ msgstr ""
 #. Description
 #: codelists/locationGazeteers.csv:6
 msgid ""
-"An Open Street Map Way is an ordered list of Open Street Map nodes. May "
-"be used to describe fragments of roads or local boundaries and bounding "
-"boxes."
+"An Open Street Map Way is an ordered list of Open Street Map nodes. May be "
+"used to describe fragments of roads or local boundaries and bounding boxes."
 msgstr ""

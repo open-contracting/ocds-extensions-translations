@@ -1,21 +1,26 @@
 # Translations template for PROJECT.
-# Copyright (C) 2018 ORGANIZATION
+# Copyright (C) 2019 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# James McKinney <jmckinney@open-contracting.org>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-11-13 18:59-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"PO-Revision-Date: 2019-03-14 18:27+0000\n"
+"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2019\n"
+"Language-Team: Italian (https://www.transifex.com/OpenDataServices/teams/95084/it/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. /name/en
 #: extension.json:1
@@ -24,7 +29,8 @@ msgstr "Statistiche e dettagli dell'offerta"
 
 #. /description/en
 #: extension.json:1
-msgid "Allowing bid statistics, and detailed bid information to be represented."
+msgid ""
+"Allowing bid statistics, and detailed bid information to be represented."
 msgstr ""
 "Consentire la visualizzazione di statistiche di offerta e informazioni "
 "dettagliate sull'offerta."
@@ -38,8 +44,8 @@ msgstr "Offerte"
 #. /properties/bids/description
 #: release-schema.json:1
 msgid ""
-"The bid section is used to publish summary statistics, and where "
-"applicable, individual bid information."
+"The bid section is used to publish summary statistics, and where applicable,"
+" individual bid information."
 msgstr ""
 
 #. /definitions/Award/properties/relatedBid/title
@@ -50,8 +56,8 @@ msgstr ""
 #. /definitions/Award/properties/relatedBid/description
 #: release-schema.json:1
 msgid ""
-"Where bid details are used, a cross reference to the entry in the bids "
-"array to which this award relates. Provide the bid identifier here."
+"Where bid details are used, a cross reference to the entry in the bids array"
+" to which this award relates. Provide the bid identifier here."
 msgstr ""
 
 #. /definitions/BidsStatistic/title
@@ -62,8 +68,8 @@ msgstr ""
 #. /definitions/BidsStatistic/description
 #: release-schema.json:1
 msgid ""
-"For reporting aggregate statistics about the bids related to a tender. "
-"Where lots are in use, statistics may optionally be broken down by lot."
+"For reporting aggregate statistics about the bids related to a tender. Where"
+" lots are in use, statistics may optionally be broken down by lot."
 msgstr ""
 
 #. /definitions/BidsStatistic/properties/id/title
@@ -85,9 +91,8 @@ msgstr ""
 #. /definitions/BidsStatistic/properties/measure/description
 #: release-schema.json:1
 msgid ""
-"An item from the bidStatistics codelist for the statistic reported in "
-"value. This is an open codelist, and other statistics may also be "
-"included."
+"An item from the bidStatistics codelist for the statistic reported in value."
+" This is an open codelist, and other statistics may also be included."
 msgstr ""
 "Un elemento per il tipo di statistica dal vocabolario bidStatistics da "
 "usarsi come valore. Questo è un vocabolario aperto e possono essere incluse "
@@ -103,16 +108,16 @@ msgstr "Data"
 #: release-schema.json:1
 msgid ""
 "The date when this statistic was last updated. This is often the closing "
-"date of the tender process. This field can be left blank unless either "
-"(a) the same statistic is provided from multiple points in time, or (b) "
-"there is a specific local requirement for the date when statistics were "
-"calculated to be provided."
+"date of the tender process. This field can be left blank unless either (a) "
+"the same statistic is provided from multiple points in time, or (b) there is"
+" a specific local requirement for the date when statistics were calculated "
+"to be provided."
 msgstr ""
-"La data in cui questa statistica è stata aggiornata l'ultima volta. Questa è "
-"spesso la data di chiusura della procedura di gara. Questo campo può essere "
-"lasciato in bianco a meno che o (a) la stessa statistica sia fornita in più "
-"istanti nel tempo, o (b) ci sia un requisito locale specifico per la data in "
-"cui sono state calcolate le statistiche da fornire."
+"La data in cui questa statistica è stata aggiornata l'ultima volta. Questa è"
+" spesso la data di chiusura della procedura di gara. Questo campo può essere"
+" lasciato in bianco a meno che o (a) la stessa statistica sia fornita in più"
+" istanti nel tempo, o (b) ci sia un requisito locale specifico per la data "
+"in cui sono state calcolate le statistiche da fornire."
 
 #. /definitions/BidsStatistic/properties/value/title
 #. /definitions/Bid/properties/value/title
@@ -123,9 +128,9 @@ msgstr "Valore"
 #. /definitions/BidsStatistic/properties/value/description
 #: release-schema.json:1
 msgid ""
-"The value for the measure in question. Total counts should be provided as"
-" an integer. Percentages should be presented as a proportion of 1 (e.g. "
-"10% = 0.1)"
+"The value for the measure in question. Total counts should be provided as an"
+" integer. Percentages should be presented as a proportion of 1 (e.g. 10% = "
+"0.1)"
 msgstr ""
 "Il valore per la misura in questione. I conteggi totali dovrebbero essere "
 "forniti come numero intero. Le percentuali devono essere presentate in "
@@ -152,8 +157,8 @@ msgstr "Lotto correlato"
 #: release-schema.json:1
 msgid ""
 "Where lots are in use, if this statistic relates to bids on a particular "
-"lot, provide the lot identifier here. If left blank, the statistic will "
-"be interpreted as applying to the whole tender."
+"lot, provide the lot identifier here. If left blank, the statistic will be "
+"interpreted as applying to the whole tender."
 msgstr ""
 "Dove sono in uso lotti, se questa statistica si riferisce a offerte su un "
 "particolare lotto, fornire qui l'identificatore del lotto. Se questo viene "
@@ -163,8 +168,8 @@ msgstr ""
 #. /definitions/Bids/description
 #: release-schema.json:1
 msgid ""
-"Summary and detailed information about bids received and evaluated as "
-"part of this contracting process."
+"Summary and detailed information about bids received and evaluated as part "
+"of this contracting process."
 msgstr ""
 
 #. /definitions/Bids/properties/statistics/title
@@ -176,8 +181,8 @@ msgstr ""
 #: release-schema.json:1
 msgid ""
 "Summary statistics on the number and nature of bids received. Where "
-"information is provided on individual bids, these statistics should match"
-" those that can be calculated from the bid details array."
+"information is provided on individual bids, these statistics should match "
+"those that can be calculated from the bid details array."
 msgstr ""
 
 #. /definitions/Bids/properties/details/title
@@ -202,8 +207,8 @@ msgstr "Offerta"
 #. /definitions/Bid/description
 #: release-schema.json:1
 msgid ""
-"For representing a bid in response to the tender or qualification stage "
-"in this contracting process."
+"For representing a bid in response to the tender or qualification stage in "
+"this contracting process."
 msgstr ""
 
 #. /definitions/Bid/properties/id/description
@@ -235,9 +240,9 @@ msgstr "Concorrente"
 #. /definitions/Bid/properties/tenderers/description
 #: release-schema.json:1
 msgid ""
-"The party, or parties, responsible for this bid. This should provide a "
-"name and identifier, cross-referenced to an entry in the parties array at"
-" the top level of the release."
+"The party, or parties, responsible for this bid. This should provide a name "
+"and identifier, cross-referenced to an entry in the parties array at the top"
+" level of the release."
 msgstr ""
 "La festa o le parti responsabili di questa offerta. Questo dovrebbe fornire "
 "un nome e un identificatore, con riferimenti incrociati a una voce "
@@ -257,4 +262,5 @@ msgstr "Documenti"
 #: release-schema.json:1
 msgid "All documents and attachments related to the bid and its evaluation."
 msgstr ""
-"Tutti i documenti e gli allegati relativi all'offerta e alla sua valutazione."
+"Tutti i documenti e gli allegati relativi all'offerta e alla sua "
+"valutazione."

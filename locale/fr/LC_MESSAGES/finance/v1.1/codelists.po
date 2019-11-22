@@ -1,21 +1,26 @@
 # Translations template for PROJECT.
-# Copyright (C) 2018 ORGANIZATION
+# Copyright (C) 2019 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# James McKinney <jmckinney@open-contracting.org>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-11-13 18:59-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"PO-Revision-Date: 2019-03-14 18:30+0000\n"
+"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2019\n"
+"Language-Team: French (https://www.transifex.com/OpenDataServices/teams/95084/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: codelists/financeCategory.csv codelists/financeTypes.csv
 msgid "Code"
@@ -41,9 +46,9 @@ msgstr ""
 #. Description
 #: codelists/financeCategory.csv:1
 msgid ""
-"Equity finance is given in exchange for a share of ownership in the "
-"project (usually via direct or indirect shareholding in a Special Purpose"
-" Vehicle (SPV) company created to run the project)."
+"Equity finance is given in exchange for a share of ownership in the project "
+"(usually via direct or indirect shareholding in a Special Purpose Vehicle "
+"(SPV) company created to run the project)."
 msgstr ""
 
 #. Title
@@ -54,8 +59,8 @@ msgstr ""
 #. Description
 #: codelists/financeCategory.csv:2
 msgid ""
-"Senior debt (sometimes called senior loans) take priority over other more"
-" junior debt."
+"Senior debt (sometimes called senior loans) take priority over other more "
+"junior debt."
 msgstr ""
 
 #. Title
@@ -66,8 +71,8 @@ msgstr ""
 #. Description
 #: codelists/financeCategory.csv:3
 msgid ""
-"Mezzanine debt (sometimes called mezzanine loans) take priority over "
-"common shares."
+"Mezzanine debt (sometimes called mezzanine loans) take priority over common "
+"shares."
 msgstr ""
 
 #. Title
@@ -88,9 +93,9 @@ msgstr ""
 #. Description
 #: codelists/financeCategory.csv:5
 msgid ""
-"A guarantee is a promise by one party to assume the debt of another if "
-"the other defaults. Guarantees should not be counted in totals of the "
-"overall financing of a project."
+"A guarantee is a promise by one party to assume the debt of another if the "
+"other defaults. Guarantees should not be counted in totals of the overall "
+"financing of a project."
 msgstr ""
 
 #. Title
@@ -101,8 +106,8 @@ msgstr ""
 #. Description
 #: codelists/financeCategory.csv:6
 msgid ""
-"Any details of the conditions attached to this finance can be recorded in"
-" an associated notes field."
+"Any details of the conditions attached to this finance can be recorded in an"
+" associated notes field."
 msgstr ""
 
 #. Title
@@ -113,11 +118,11 @@ msgstr ""
 #. Description
 #: codelists/financeTypes.csv:1
 msgid ""
-"This finance was provided by institutional investors: entities which pool"
-" money to purchase securities, real property, and other investment assets"
-" or originate loans. Institutional investors include banks, insurance "
-"companies, pensions, hedge funds, REITs, investment advisors, endowments,"
-" and mutual funds."
+"This finance was provided by institutional investors: entities which pool "
+"money to purchase securities, real property, and other investment assets or "
+"originate loans. Institutional investors include banks, insurance companies,"
+" pensions, hedge funds, REITs, investment advisors, endowments, and mutual "
+"funds."
 msgstr ""
 
 #. Title
@@ -141,8 +146,8 @@ msgstr ""
 #: codelists/financeTypes.csv:3
 msgid ""
 "This finance was provided by a bilateral institution: an agency of one "
-"specific government, usually a development agency or export-credit agency"
-" with a mandate to support domestic businesses in pursuing investments "
+"specific government, usually a development agency or export-credit agency "
+"with a mandate to support domestic businesses in pursuing investments "
 "abroad."
 msgstr ""
 
@@ -154,8 +159,8 @@ msgstr ""
 #. Description
 #: codelists/financeTypes.csv:4
 msgid ""
-"This finance was provided by a multilateral institution: a body created "
-"by a group of countries to provides financing and professional support, "
+"This finance was provided by a multilateral institution: a body created by a"
+" group of countries to provides financing and professional support, "
 "primarily for the purpose of development."
 msgstr ""
 
@@ -176,7 +181,8 @@ msgstr ""
 
 #. Description
 #: codelists/financeTypes.csv:6
-msgid "This finance was provided through a line of credit provided by a supplier."
+msgid ""
+"This finance was provided through a line of credit provided by a supplier."
 msgstr ""
 
 #. Title

@@ -1,20 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 
+# Copyright (C)
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
+# James McKinney <jmckinney@open-contracting.org>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-13 18:59-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"PO-Revision-Date: 2019-03-14 18:29+0000\n"
+"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2019\n"
+"Language-Team: Italian (https://www.transifex.com/OpenDataServices/teams/95084/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: README.md:0
 msgid "Contract signatories"
@@ -30,16 +35,16 @@ msgid ""
 "the `contract` section. Instead the contract signatories are implicitly "
 "assumed to be the `buyer` defined at release level (known as the "
 "`publicAuthority` in the PPP extension) and the `suppliers` listed in the "
-"`award` associated with the contract (known as the `preferredBidders` in the "
-"PPP extension)."
+"`award` associated with the contract (known as the `preferredBidders` in the"
+" PPP extension)."
 msgstr ""
 
 #: README.md:7
 msgid ""
 "In some types of contracting process there may be additional signatories to "
 "the contract or the signatories to the contract may differ from those "
-"specified in `buyer` / `publicAuthority` and `award/suppliers` / `award/"
-"preferredBidders`."
+"specified in `buyer` / `publicAuthority` and `award/suppliers` / "
+"`award/preferredBidders`."
 msgstr ""
 
 #: README.md:0
@@ -75,8 +80,8 @@ msgstr ""
 
 #: README.md:56
 msgid ""
-"This extension follows the approach to modelling organizations introduced in "
-"OCDS V1.1."
+"This extension follows the approach to modelling organizations introduced in"
+" OCDS V1.1."
 msgstr ""
 
 #: README.md:0
@@ -85,9 +90,9 @@ msgstr "Problemi (issues)"
 
 #: README.md:60
 msgid ""
-"Report issues for this extension in the [ocds-extensions repository](https://"
-"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
-"name in the issue's title."
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
 msgstr ""
 "Segnala i problemi per questa estensione nel [repository ocds-"
 "extensions](https://github.com/open-contracting/ocds-extensions/issues), "

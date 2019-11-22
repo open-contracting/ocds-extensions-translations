@@ -1,21 +1,26 @@
 # Translations template for PROJECT.
-# Copyright (C) 2018 ORGANIZATION
+# Copyright (C) 2019 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# James McKinney <jmckinney@open-contracting.org>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-11-13 18:59-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"PO-Revision-Date: 2019-03-14 18:30+0000\n"
+"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2019\n"
+"Language-Team: French (https://www.transifex.com/OpenDataServices/teams/95084/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. /name/en
 #: extension.json:1
@@ -25,10 +30,9 @@ msgstr ""
 #. /description/en
 #: extension.json:1
 msgid ""
-"Adds fields to the implementation section to allow disclosure of an array"
-" of contracting performance failures. Based on the performance failures "
-"reporting table defined in the World Bank Framework for Disclosure in "
-"PPPs."
+"Adds fields to the implementation section to allow disclosure of an array of"
+" contracting performance failures. Based on the performance failures "
+"reporting table defined in the World Bank Framework for Disclosure in PPPs."
 msgstr ""
 
 #. /definitions/PerformanceFailure/title
@@ -39,9 +43,9 @@ msgstr ""
 #. /definitions/PerformanceFailure/description
 #: release-schema.json:1
 msgid ""
-"Details of the performance failures for a given period and category. "
-"Details of the associated penalties and abatements provided for in the "
-"contract, imposed and paid can also be provided."
+"Details of the performance failures for a given period and category. Details"
+" of the associated penalties and abatements provided for in the contract, "
+"imposed and paid can also be provided."
 msgstr ""
 
 #. /definitions/PerformanceFailure/properties/id/title
@@ -53,8 +57,8 @@ msgstr "Identifiant"
 #: release-schema.json:1
 msgid ""
 "A local identifier for this specific category and period of performance "
-"failure. This field is used to keep track of revisions of a charge across"
-" multiple OCDS releases."
+"failure. This field is used to keep track of revisions of a charge across "
+"multiple OCDS releases."
 msgstr ""
 
 #. /definitions/PerformanceFailure/properties/period/title
@@ -107,8 +111,8 @@ msgstr ""
 #. /definitions/PerformanceFailure/properties/penaltyImposed/description
 #: release-schema.json:1
 msgid ""
-"A free text description of the penalty or abatement imposed for this "
-"period, category and number of performance failures."
+"A free text description of the penalty or abatement imposed for this period,"
+" category and number of performance failures."
 msgstr ""
 
 #. /definitions/PerformanceFailure/properties/penaltyPaid/title
@@ -131,6 +135,6 @@ msgstr ""
 #. /definitions/Implementation/properties/performanceFailures/description
 #: release-schema.json:1
 msgid ""
-"An array of performance failure disclosures, detailing performance "
-"failures for different periods and categories."
+"An array of performance failure disclosures, detailing performance failures "
+"for different periods and categories."
 msgstr ""

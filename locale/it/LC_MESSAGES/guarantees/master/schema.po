@@ -1,16 +1,16 @@
 # Translations template for PROJECT.
 # Copyright (C) 2019 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# Automatically generated, 2019.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-11-06 11:39-0500\n"
-"PO-Revision-Date: 2019-11-06 11:39-0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2019-11-06 16:40+0000\n"
+"Language-Team: Italian (https://www.transifex.com/OpenDataServices/teams/95084/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -27,13 +27,9 @@ msgstr ""
 #. /description/en
 #: extension.json:1
 msgid ""
-"Some procurement processes consider the specification of guarantees in order "
-"to ensure compliance with the terms of a contract.\n"
+"Some procurement processes consider the specification of guarantees in order to ensure compliance with the terms of a contract.\n"
 "\n"
-"There are many types of guarantees, so we consider the creation of a new "
-"extension based on the formats that are required for the Federal Treasury "
-"(Mexico). See discussion in https://github.com/open-contracting/standard/"
-"issues/651"
+"There are many types of guarantees, so we consider the creation of a new extension based on the formats that are required for the Federal Treasury (Mexico). See discussion in https://github.com/open-contracting/standard/issues/651"
 msgstr ""
 
 #. /definitions/Guarantee/title
@@ -66,9 +62,9 @@ msgstr ""
 #. /definitions/Guarantee/properties/type/description
 #: release-schema.json:1
 msgid ""
-"Specify the guarantee type for this contract using the [guaranteeType]"
-"(https://github.com/INAImexico/ocds_guarantees_extension/blob/master/"
-"codelists/guaranteeType.csv) codelist."
+"Specify the guarantee type for this contract using the "
+"[guaranteeType](https://github.com/INAImexico/ocds_guarantees_extension/blob/master/codelists/guaranteeType.csv)"
+" codelist."
 msgstr ""
 
 #. /definitions/Guarantee/properties/date/title
@@ -79,7 +75,8 @@ msgstr ""
 #. /definitions/Guarantee/properties/date/description
 #: release-schema.json:1
 msgid ""
-"The date of the guarantee. This is the date on which the guarantee is issued."
+"The date of the guarantee. This is the date on which the guarantee is "
+"issued."
 msgstr ""
 
 #. /definitions/Guarantee/properties/obligations/title
@@ -91,8 +88,8 @@ msgstr ""
 #: release-schema.json:1
 msgid ""
 "Specify the type of obligations that are guaranteed, using the "
-"[obligationType](https://github.com/INAImexico/ocds_guarantees_extension/"
-"blob/master/codelists/guaranteedObligations.csv) codelist."
+"[obligationType](https://github.com/INAImexico/ocds_guarantees_extension/blob/master/codelists/guaranteedObligations.csv)"
+" codelist."
 msgstr ""
 
 #. /definitions/Guarantee/properties/value/title

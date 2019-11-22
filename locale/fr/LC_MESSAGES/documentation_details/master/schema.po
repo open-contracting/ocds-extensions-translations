@@ -1,21 +1,22 @@
 # Translations template for PROJECT.
-# Copyright (C) 2018 ORGANIZATION
+# Copyright (C) 2019 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-11-13 18:59-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"PO-Revision-Date: 2019-03-14 18:26+0000\n"
+"Language-Team: French (https://www.transifex.com/OpenDataServices/teams/95084/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. /name/en
 #: extension.json:1
@@ -25,8 +26,8 @@ msgstr ""
 #. /description/en
 #: extension.json:1
 msgid ""
-"Extends the document object with page references, access details and "
-"author information."
+"Extends the document object with page references, access details and author "
+"information."
 msgstr ""
 
 #. /definitions/Document/properties/pageStart/title
@@ -37,9 +38,9 @@ msgstr ""
 #. /definitions/Document/properties/pageStart/description
 #: release-schema.json:1
 msgid ""
-"When the information referenced exists within a large document, indicate "
-"the first page on which it can be found. This should refer to the printed"
-" page number, not the page number reported by software applications."
+"When the information referenced exists within a large document, indicate the"
+" first page on which it can be found. This should refer to the printed page "
+"number, not the page number reported by software applications."
 msgstr ""
 
 #. /definitions/Document/properties/pageEnd/title
@@ -50,9 +51,9 @@ msgstr ""
 #. /definitions/Document/properties/pageEnd/description
 #: release-schema.json:1
 msgid ""
-"When the information referenced exists within a large document, indicate "
-"the last page on which it can be found. This should refer to the printed "
-"page number, not the page number reported by software applications."
+"When the information referenced exists within a large document, indicate the"
+" last page on which it can be found. This should refer to the printed page "
+"number, not the page number reported by software applications."
 msgstr ""
 
 #. /definitions/Document/properties/accessDetails/title
@@ -63,9 +64,9 @@ msgstr ""
 #. /definitions/Document/properties/accessDetails/description
 #: release-schema.json:1
 msgid ""
-"A description of any special arrangements required to access this "
-"document. This may include a requirement to register for document access,"
-" a fee to be paid, or the location where documents can be inspected."
+"A description of any special arrangements required to access this document. "
+"This may include a requirement to register for document access, a fee to be "
+"paid, or the location where documents can be inspected."
 msgstr ""
 
 #. /definitions/Document/properties/author/title
@@ -76,8 +77,8 @@ msgstr ""
 #. /definitions/Document/properties/author/description
 #: release-schema.json:1
 msgid ""
-"The name of the author of these documents. Include the name of "
-"individuals and/or organizations responsible. For example, when a "
-"technical specification was written by a consultant, include the name and"
-" organization of the consultant."
+"The name of the author of these documents. Include the name of individuals "
+"and/or organizations responsible. For example, when a technical "
+"specification was written by a consultant, include the name and organization"
+" of the consultant."
 msgstr ""

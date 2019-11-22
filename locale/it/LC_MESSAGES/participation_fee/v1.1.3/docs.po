@@ -1,20 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 
+# Copyright (C)
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
+# James McKinney <jmckinney@open-contracting.org>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-13 18:59-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"PO-Revision-Date: 2019-03-14 18:26+0000\n"
+"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2019\n"
+"Language-Team: Italian (https://www.transifex.com/OpenDataServices/teams/95084/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: README.md:0
 msgid "Participation fees"
@@ -60,14 +65,15 @@ msgid ""
 "This extension adds a `participationFees` field to the `tender` section of "
 "OCDS and introduces a new `participationFee` building block."
 msgstr ""
-"Questa estensione aggiunge un campo `participationFees` alla sezione` tender`"
-" di OCDS e introduce un nuovo oggetto `participationFee`."
+"Questa estensione aggiunge un campo `participationFees` alla sezione` "
+"tender` di OCDS e introduce un nuovo oggetto `participationFee`."
 
 #: README.md:15
 msgid ""
 "The `participationFees` field is an array of `participationFee` building "
 "blocks."
-msgstr "Il campo `participationFees` è un array di oggetti `participationFee`."
+msgstr ""
+"Il campo `participationFees` è un array di oggetti `participationFee`."
 
 #: README.md:17
 msgid "The `participationFee` building block is made up of three fields:"
@@ -101,9 +107,9 @@ msgid ""
 "payment accepted for the documentation. This is currently an array of "
 "strings, but an open codelist may be introduced in future."
 msgstr ""
-"`methodOfPayment`: un campo facoltativo che fornisce informazioni sui metodi "
-"di pagamento accettati per la documentazione. Questo è attualmente un array "
-"di stringhe, ma un vocabolario aperto potrebbe essere introdotto in futuro."
+"`methodOfPayment`: un campo facoltativo che fornisce informazioni sui metodi"
+" di pagamento accettati per la documentazione. Questo è attualmente un array"
+" di stringhe, ma un vocabolario aperto potrebbe essere introdotto in futuro."
 
 #: README.md:0
 msgid "Extension codelists"
@@ -155,14 +161,14 @@ msgstr "Note per l'utilizzo"
 #: README.md:66
 msgid ""
 "In some cases, a fee may be levied for 'official copies' of procurement "
-"documents (although copies may also be available freely online), and bidders "
-"required to prove they have paid for an official copy of the documents as "
+"documents (although copies may also be available freely online), and bidders"
+" required to prove they have paid for an official copy of the documents as "
 "part of their submission."
 msgstr ""
 "In alcuni casi, può essere richiesta una tassa per una copia degli \"atti "
 "ufficiali\" dei documenti di gara (anche se le copie possono anche essere "
-"disponibili gratuitamente online), e gli offerenti devono dimostrare di aver "
-"pagato per una copia ufficiale dei documenti come parte della loro "
+"disponibili gratuitamente online), e gli offerenti devono dimostrare di aver"
+" pagato per una copia ufficiale dei documenti come parte della loro "
 "presentazione."
 
 #: README.md:68
@@ -180,9 +186,9 @@ msgstr "Problemi (issues)"
 
 #: README.md:72
 msgid ""
-"Report issues for this extension in the [ocds-extensions repository](https://"
-"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
-"name in the issue's title."
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
 msgstr ""
 "Segnala i problemi per questa estensione nel [repository ocds-"
 "extensions](https://github.com/open-contracting/ocds-extensions/issues), "

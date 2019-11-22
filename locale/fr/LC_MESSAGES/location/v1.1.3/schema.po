@@ -1,21 +1,26 @@
 # Translations template for PROJECT.
-# Copyright (C) 2018 ORGANIZATION
+# Copyright (C) 2019 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# James McKinney <jmckinney@open-contracting.org>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-11-13 18:59-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"PO-Revision-Date: 2019-03-14 18:27+0000\n"
+"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2019\n"
+"Language-Team: French (https://www.transifex.com/OpenDataServices/teams/95084/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. /name/en
 #: extension.json:1
@@ -36,8 +41,8 @@ msgstr ""
 #. /definitions/Item/properties/deliveryLocation/description
 #: release-schema.json:1
 msgid ""
-"The location where activity related to this tender, contract or license "
-"will be delivered, or will take place."
+"The location where activity related to this tender, contract or license will"
+" be delivered, or will take place."
 msgstr ""
 
 #. /definitions/Item/properties/deliveryAddress/title
@@ -48,17 +53,16 @@ msgstr ""
 #. /definitions/Item/properties/deliveryAddress/description
 #: release-schema.json:1
 msgid ""
-"The address to which, or where, goods or services related to this tender,"
-" contract or license will be delivered."
+"The address to which, or where, goods or services related to this tender, "
+"contract or license will be delivered."
 msgstr ""
 
 #. /definitions/Location/description
 #: release-schema.json:1
 msgid ""
-"The location where activity related to this tender, contract or license "
-"will be delivered, or will take place. A location can be described by "
-"either a geometry (point location, line or polygon), or a gazetteer "
-"entry, or both."
+"The location where activity related to this tender, contract or license will"
+" be delivered, or will take place. A location can be described by either a "
+"geometry (point location, line or polygon), or a gazetteer entry, or both."
 msgstr ""
 
 #. /definitions/Location/properties/description/title
@@ -69,8 +73,8 @@ msgstr "Description"
 #. /definitions/Location/properties/description/description
 #: release-schema.json:1
 msgid ""
-"A name or description of this location. This might include the name(s) of"
-" the location(s), or might provide a human readable description of the "
+"A name or description of this location. This might include the name(s) of "
+"the location(s), or might provide a human readable description of the "
 "location to be covered. This description may be used in a user-interface."
 msgstr ""
 "Un nom ou une description de cette localisation. Cela peut inclure le(s) "
@@ -103,12 +107,11 @@ msgstr "Type"
 #. /definitions/Location/properties/geometry/properties/type/description
 #: release-schema.json:1
 msgid ""
-"The type of [GeoJSON Geometry Objects](http://geojson.org/geojson-"
-"spec.html#geometry-objects) being provided. To provide latitude and "
-"longitude use 'point', and enter an array of [latitude,longitude] as the "
-"value of coordinates field: e.g. [37.42,-122.085]. Note the "
-"capitalization of type values - set in order to maintain compatibility "
-"with GeoJSON."
+"The type of [GeoJSON Geometry Objects](http://geojson.org/geojson-spec.html"
+"#geometry-objects) being provided. To provide latitude and longitude use "
+"'point', and enter an array of [latitude,longitude] as the value of "
+"coordinates field: e.g. [37.42,-122.085]. Note the capitalization of type "
+"values - set in order to maintain compatibility with GeoJSON."
 msgstr ""
 
 #. /definitions/Location/properties/geometry/properties/coordinates/title
@@ -119,9 +122,9 @@ msgstr ""
 #. /definitions/Location/properties/geometry/properties/coordinates/description
 #: release-schema.json:1
 msgid ""
-"The relevant array of points, e.g. [latitude,longitude], or nested array,"
-" for the GeoJSON geometry being described. The longitude and latitude "
-"MUST be expressed in decimal degrees in the WGS84 (EPSG:4326) projection"
+"The relevant array of points, e.g. [latitude,longitude], or nested array, "
+"for the GeoJSON geometry being described. The longitude and latitude MUST be"
+" expressed in decimal degrees in the WGS84 (EPSG:4326) projection"
 msgstr ""
 "La liste pertinente de points, par ex. [latitude, longitude] ou une liste "
 "imbriquée, pour la géométrie GeoJSON décrite. La longitude et la latitude "
@@ -153,13 +156,13 @@ msgstr ""
 #. /definitions/Location/properties/gazetteer/properties/scheme/description
 #: release-schema.json:1
 msgid ""
-"The entry of the selected gazetteer in the gazetteers codelist. The "
-"codelist provides details of services, where available, that can resolve "
-"a gazetteer entry to provide location names."
+"The entry of the selected gazetteer in the gazetteers codelist. The codelist"
+" provides details of services, where available, that can resolve a gazetteer"
+" entry to provide location names."
 msgstr ""
-"L'entrée de la nomenclature géographique sélectionnée dans la liste de codes "
-"sur la nomenclature géographique. La liste de codes fournit des détails sur "
-"les services, le cas échéant, qui peuvent faire correspondre une entrée de "
+"L'entrée de la nomenclature géographique sélectionnée dans la liste de codes"
+" sur la nomenclature géographique. La liste de codes fournit des détails sur"
+" les services, le cas échéant, qui peuvent faire correspondre une entrée de "
 "nomenclature pour fournir des noms de localisation."
 
 #. /definitions/Location/properties/gazetteer/properties/identifiers/title
@@ -170,8 +173,7 @@ msgstr "Identifiants"
 #. /definitions/Location/properties/gazetteer/properties/identifiers/description
 #: release-schema.json:1
 msgid ""
-"An array of one or more codes drawn from the gazetteer indicated in "
-"scheme."
+"An array of one or more codes drawn from the gazetteer indicated in scheme."
 msgstr ""
 "Une liste d'un ou plusieurs codes tirés de la nomenclature indiquée dans le "
 "schéma."
@@ -184,11 +186,11 @@ msgstr "URI"
 #. /definitions/Location/properties/uri/description
 #: release-schema.json:1
 msgid ""
-"A URI to a further description of the activity location. This may be a "
-"human readable document with information on the location, or a machine-"
-"readable description of the location."
+"A URI to a further description of the activity location. This may be a human"
+" readable document with information on the location, or a machine-readable "
+"description of the location."
 msgstr ""
 "Un URI vers une description plus détaillée de l'emplacement de l'activité. "
 "Il s'agit peut-être d'un document lisible par les humains avec des "
-"informations sur la localisation ou une description lisible par les machines "
-"de la localisation."
+"informations sur la localisation ou une description lisible par les machines"
+" de la localisation."

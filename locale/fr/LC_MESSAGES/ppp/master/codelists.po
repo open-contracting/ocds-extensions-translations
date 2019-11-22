@@ -1,21 +1,26 @@
 # Translations template for PROJECT.
-# Copyright (C) 2018 ORGANIZATION
+# Copyright (C) 2019 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# James McKinney <jmckinney@open-contracting.org>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-11-13 18:59-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"PO-Revision-Date: 2019-03-14 18:28+0000\n"
+"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2019\n"
+"Language-Team: French (https://www.transifex.com/OpenDataServices/teams/95084/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: codelists/+milestoneType.csv codelists/+partyRole.csv
 #: codelists/+releaseTag.csv codelists/-partyRole.csv
@@ -51,9 +56,9 @@ msgstr ""
 #. Description
 #: codelists/+milestoneType.csv:1
 msgid ""
-"Events taking place during the procurement which are not captured by "
-"fields in core OCDS, such as additional enquiry periods or draft tender "
-"submissions in a competitive dialogue process"
+"Events taking place during the procurement which are not captured by fields "
+"in core OCDS, such as additional enquiry periods or draft tender submissions"
+" in a competitive dialogue process"
 msgstr ""
 
 #. Title
@@ -86,11 +91,10 @@ msgstr ""
 #. Description
 #: codelists/+partyRole.csv:2
 msgid ""
-"The company or a group of companies, such as a consortium, that submits a"
-" bid in response to a RFP. A bidder could be a single party or a "
-"consortium of parties, each responsible for a specific element, such as "
-"constructing the infrastructure, supplying the equipment, or operating "
-"the business."
+"The company or a group of companies, such as a consortium, that submits a "
+"bid in response to a RFP. A bidder could be a single party or a consortium "
+"of parties, each responsible for a specific element, such as constructing "
+"the infrastructure, supplying the equipment, or operating the business."
 msgstr ""
 
 #. Title
@@ -102,8 +106,8 @@ msgstr ""
 #: codelists/+partyRole.csv:3
 msgid ""
 "Those parties invited to submit a proposal in response to a Request for "
-"Proposal (RFP) for a project in which the government only allows a "
-"limited number of pre-qualified bidders to proceed to the RFP phase."
+"Proposal (RFP) for a project in which the government only allows a limited "
+"number of pre-qualified bidders to proceed to the RFP phase."
 msgstr ""
 
 #. Title
@@ -114,10 +118,10 @@ msgstr ""
 #. Description
 #: codelists/+partyRole.csv:4
 msgid ""
-"The bidder identified at the end of the tender evaluation process as "
-"being the government’s preferred partner to enter into (or enter into "
-"final negotiations for) a PPP contract. The preferred bidder is awarded "
-"the contract and called to contract signature."
+"The bidder identified at the end of the tender evaluation process as being "
+"the government’s preferred partner to enter into (or enter into final "
+"negotiations for) a PPP contract. The preferred bidder is awarded the "
+"contract and called to contract signature."
 msgstr ""
 
 #. Title
@@ -128,10 +132,10 @@ msgstr ""
 #. Description
 #: codelists/+partyRole.csv:5
 msgid ""
-"The counter party of the procuring authority in the PPP contract. A "
-"private entity which has been granted the contract to construct and "
-"operate a government asset, and which is usually created under the form "
-"of a Special Purpose Vehicle or SPV."
+"The counter party of the procuring authority in the PPP contract. A private "
+"entity which has been granted the contract to construct and operate a "
+"government asset, and which is usually created under the form of a Special "
+"Purpose Vehicle or SPV."
 msgstr ""
 
 #. Title
@@ -141,7 +145,8 @@ msgstr ""
 
 #. Description
 #: codelists/+partyRole.csv:6
-msgid "A lead bank is a bank that oversees the arrangement of a loan syndication"
+msgid ""
+"A lead bank is a bank that oversees the arrangement of a loan syndication"
 msgstr ""
 
 #. Title
@@ -152,9 +157,9 @@ msgstr ""
 #. Description
 #: codelists/+partyRole.csv:7
 msgid ""
-"The APMG PPP Certification Program defines lenders as \"Institutions that"
-" provide lending to the project: mainly banks and institutional investors"
-" through project bonds\""
+"The APMG PPP Certification Program defines lenders as \"Institutions that "
+"provide lending to the project: mainly banks and institutional investors "
+"through project bonds\""
 msgstr ""
 
 #. Title
@@ -165,9 +170,9 @@ msgstr ""
 #. Description
 #: codelists/+partyRole.csv:8
 msgid ""
-"The APMG PPP Certification Program defines equity investors as "
-"\"Investors who finance a portion of the project’s capital expenditures "
-"(Capex), typically as share capital or subordinated debt\""
+"The APMG PPP Certification Program defines equity investors as \"Investors "
+"who finance a portion of the project’s capital expenditures (Capex), "
+"typically as share capital or subordinated debt\""
 msgstr ""
 
 #. Title
@@ -177,7 +182,8 @@ msgstr ""
 
 #. Description
 #: codelists/+partyRole.csv:9
-msgid "One of a group of companies that has joined together to bid for a project."
+msgid ""
+"One of a group of companies that has joined together to bid for a project."
 msgstr ""
 
 #. Title
@@ -189,8 +195,8 @@ msgstr ""
 #: codelists/+partyRole.csv:10
 msgid ""
 "A party which has expressed an interest in the project, for example by "
-"purchasing tender documents or submitted clarification questions, but has"
-" not yet formally submitted a bid."
+"purchasing tender documents or submitted clarification questions, but has "
+"not yet formally submitted a bid."
 msgstr ""
 
 #. Title
@@ -211,9 +217,8 @@ msgstr ""
 #. Description
 #: codelists/+partyRole.csv:12
 msgid ""
-"A bidder which either did not pass the qualification stage of the "
-"evaluation process or did not pass the pre-qualification stage of the "
-"process."
+"A bidder which either did not pass the qualification stage of the evaluation"
+" process or did not pass the pre-qualification stage of the process."
 msgstr ""
 
 #. Title
@@ -236,8 +241,8 @@ msgstr ""
 #. Description
 #: codelists/+partyRole.csv:14
 msgid ""
-"A witness attends one or more stages of the procurement process to "
-"observe proceedings."
+"A witness attends one or more stages of the procurement process to observe "
+"proceedings."
 msgstr ""
 
 #. Title
@@ -260,8 +265,8 @@ msgstr ""
 #. Description
 #: codelists/+releaseTag.csv:1
 msgid ""
-"Providing information about a new pre-qualification process (to qualify "
-"or pre-select bidders for a tender process)."
+"Providing information about a new pre-qualification process (to qualify or "
+"pre-select bidders for a tender process)."
 msgstr ""
 
 #. Title
@@ -272,12 +277,12 @@ msgstr ""
 #. Description
 #: codelists/+releaseTag.csv:2
 msgid ""
-"An update to an existing qualification release. There should be at least "
-"one qualification release with the same ocid, but an earlier releaseDate,"
-" before a qualificationUpdate is published. An update may add new "
-"information or make corrections to prior published information. It should"
-" not be used for formal legal amendments to a pre-qualification process, "
-"for which the qualificationAmendment tag should be used."
+"An update to an existing qualification release. There should be at least one"
+" qualification release with the same ocid, but an earlier releaseDate, "
+"before a qualificationUpdate is published. An update may add new information"
+" or make corrections to prior published information. It should not be used "
+"for formal legal amendments to a pre-qualification process, for which the "
+"qualificationAmendment tag should be used."
 msgstr ""
 
 #. Title
@@ -288,10 +293,10 @@ msgstr ""
 #. Description
 #: codelists/+releaseTag.csv:3
 msgid ""
-"An amendment to an existing qualification release. There should be at "
-"least one qualification release with the same ocid, but an earlier "
-"releaseDate, before a qualificationAmendment is published. The term "
-"amendment has legal meaning in many jurisdictions."
+"An amendment to an existing qualification release. There should be at least "
+"one qualification release with the same ocid, but an earlier releaseDate, "
+"before a qualificationAmendment is published. The term amendment has legal "
+"meaning in many jurisdictions."
 msgstr ""
 
 #. Title
@@ -302,9 +307,9 @@ msgstr ""
 #. Description
 #: codelists/+releaseTag.csv:4
 msgid ""
-"The cancellation of an existing pre-qualification process. There should "
-"be at least one release with the same ocid, but an earlier releaseDate, "
-"which provides details of the pre-qualification process being cancelled."
+"The cancellation of an existing pre-qualification process. There should be "
+"at least one release with the same ocid, but an earlier releaseDate, which "
+"provides details of the pre-qualification process being cancelled."
 msgstr ""
 
 #. Title
@@ -315,10 +320,10 @@ msgstr ""
 #. Description
 #: codelists/+releaseTag.csv:5
 msgid ""
-"Providing information about the qualification or pre-selection of "
-"bidders. The preQualification section may be populated with details of "
-"the process leading up to the shortlist, and details of qualified or "
-"shortlisted bidders will be provided in the parties section."
+"Providing information about the qualification or pre-selection of bidders. "
+"The preQualification section may be populated with details of the process "
+"leading up to the shortlist, and details of qualified or shortlisted bidders"
+" will be provided in the parties section."
 msgstr ""
 
 #. Title
@@ -330,9 +335,9 @@ msgstr ""
 #: codelists/+releaseTag.csv:6
 msgid ""
 "An update to an existing shortlist release. There should be at least one "
-"shortlist release with the same ocid, but an earlier releaseDate before "
-"an shortlistUpdate is published. An update may add new information or "
-"make corrections."
+"shortlist release with the same ocid, but an earlier releaseDate before an "
+"shortlistUpdate is published. An update may add new information or make "
+"corrections."
 msgstr ""
 
 #: codelists/documentType.csv
@@ -355,8 +360,8 @@ msgstr "Évaluation des besoins"
 #. Description
 #: codelists/documentType.csv:1
 msgid ""
-"Information on the project need, benefits provided, and economic and "
-"social impact"
+"Information on the project need, benefits provided, and economic and social "
+"impact"
 msgstr ""
 
 #. Title
@@ -367,9 +372,9 @@ msgstr ""
 #. Description
 #: codelists/documentType.csv:2
 msgid ""
-"A summary of the value for money analysis carried out for the project, "
-"along with supporting figures, calculations and business case, based on "
-"projected or actual procurement outcomes."
+"A summary of the value for money analysis carried out for the project, along"
+" with supporting figures, calculations and business case, based on projected"
+" or actual procurement outcomes."
 msgstr ""
 
 #. Title
@@ -381,7 +386,8 @@ msgstr "Spécifications techniques"
 #: codelists/documentType.csv:3
 msgid "Detailed technical information about goods or services to be provided."
 msgstr ""
-"Des informations techniques détaillées sur les biens et services à fournir.  "
+"Des informations techniques détaillées sur les biens et services à fournir."
+"  "
 
 #. Title
 #: codelists/documentType.csv:4
@@ -401,8 +407,8 @@ msgstr ""
 #. Description
 #: codelists/documentType.csv:5
 msgid ""
-"A narrative describing the estimated demand to be served (annually) by "
-"the project."
+"A narrative describing the estimated demand to be served (annually) by the "
+"project."
 msgstr ""
 
 #. Title
@@ -432,7 +438,8 @@ msgstr ""
 
 #. Description
 #: codelists/documentType.csv:8
-msgid "A description of the reasons for choosing to conduct this project as a PPP"
+msgid ""
+"A description of the reasons for choosing to conduct this project as a PPP"
 msgstr ""
 
 #. Title
@@ -454,8 +461,8 @@ msgstr ""
 #. Description
 #: codelists/documentType.csv:10
 msgid ""
-"Documentation setting out key milestones and schedules. Structured "
-"versions of this information may be modelled using the milestones block."
+"Documentation setting out key milestones and schedules. Structured versions "
+"of this information may be modelled using the milestones block."
 msgstr ""
 
 #. Title
@@ -488,8 +495,8 @@ msgid ""
 "goods, works or services."
 msgstr ""
 "Documentation des études de faisabilité réalisées pour ce processus de "
-"passation de marchés, fournissant des informations sur les avantages nets ou "
-"les coûts des biens, travaux ou services proposés."
+"passation de marchés, fournissant des informations sur les avantages nets ou"
+" les coûts des biens, travaux ou services proposés."
 
 #. Title
 #: codelists/documentType.csv:13
@@ -499,8 +506,8 @@ msgstr "Impact environnemental"
 #. Description
 #: codelists/documentType.csv:13
 msgid ""
-"Documentation of environmental impact assessments carried out before, "
-"during or after the contracting process."
+"Documentation of environmental impact assessments carried out before, during"
+" or after the contracting process."
 msgstr ""
 "Documentation des évaluations de l'impact environnemental réalisées avant, "
 "pendant ou après le processus de passation de marché. "
@@ -526,12 +533,12 @@ msgstr "Avis d'appel d'offres"
 #. Description
 #: codelists/documentType.csv:15
 msgid ""
-"The formal notice that gives details of a tender. This may be a link to a"
-" downloadable document, to a web page, or to an official gazette in which"
-" the notice is contained."
+"The formal notice that gives details of a tender. This may be a link to a "
+"downloadable document, to a web page, or to an official gazette in which the"
+" notice is contained."
 msgstr ""
-"L'avis formel qui fournit les détails sur un appel d'offres et sa publicité. "
-"Cela peut être un lien vers un document téléchargeable, "
+"L'avis formel qui fournit les détails sur un appel d'offres et sa publicité."
+" Cela peut être un lien vers un document téléchargeable, "
 
 #. Title
 #: codelists/documentType.csv:16
@@ -551,11 +558,11 @@ msgstr ""
 #. Description
 #: codelists/documentType.csv:17
 msgid ""
-"The set of documents issued by the procuring authority that constitute "
-"the basis of the qualification and potentially the pre-selection of "
-"candidates (the short list). Qualified (or short-listed candidates) will "
-"then be invited to submit a proposal (or to enter into a new phase prior "
-"to bid submission, such as a dialogue phase or interactive phase)."
+"The set of documents issued by the procuring authority that constitute the "
+"basis of the qualification and potentially the pre-selection of candidates "
+"(the short list). Qualified (or short-listed candidates) will then be "
+"invited to submit a proposal (or to enter into a new phase prior to bid "
+"submission, such as a dialogue phase or interactive phase)."
 msgstr ""
 
 #. Title
@@ -601,20 +608,20 @@ msgstr ""
 #. Description
 #: codelists/documentType.csv:21
 msgid ""
-"A description of the parameters for negotiation with the preferred "
-"proponent"
+"A description of the parameters for negotiation with the preferred proponent"
 msgstr ""
 
 #. Title
 #: codelists/documentType.csv:22
 msgid "Provisions for management of risks and liabilities"
-msgstr "Dispositions prises pour la gestion des risques et des responsabilités "
+msgstr ""
+"Dispositions prises pour la gestion des risques et des responsabilités "
 
 #. Description
 #: codelists/documentType.csv:22
 msgid ""
-"Documentation covering how risks will be managed as part of this "
-"contracting process."
+"Documentation covering how risks will be managed as part of this contracting"
+" process."
 msgstr ""
 "Documentation relatives aux risques gérés dans le cadre de ce processus de "
 "passation de marchés."
@@ -651,9 +658,9 @@ msgstr ""
 #. Description
 #: codelists/documentType.csv:25
 msgid ""
-"An explanation of the discount rate, and any risk premium used, including"
-" information on project-specific circumstances that justify the risk "
-"premium rate used."
+"An explanation of the discount rate, and any risk premium used, including "
+"information on project-specific circumstances that justify the risk premium "
+"rate used."
 msgstr ""
 
 #. Title
@@ -665,8 +672,8 @@ msgstr ""
 #: codelists/documentType.csv:26
 msgid ""
 "Details of any restrictions on the transfer of equity by shareholders or "
-"other relevant participants in the project. Certain contracts provide for"
-" caps on equity transfer in different stages of the contract, especially "
+"other relevant participants in the project. Certain contracts provide for "
+"caps on equity transfer in different stages of the contract, especially "
 "during the construction stage and for a few years thereafter."
 msgstr ""
 
@@ -678,11 +685,11 @@ msgstr ""
 #. Description
 #: codelists/documentType.csv:27
 msgid ""
-"Details of any rights granted to a lender to access value in the event of"
-" default by a borrower and any rights granted to a party to \"step in\" "
-"to the shoes of another party, for example, a right granted to a lender "
-"or public authority to take over temporarily the operation of a project "
-"in case of failure to perform by a private party."
+"Details of any rights granted to a lender to access value in the event of "
+"default by a borrower and any rights granted to a party to \"step in\" to "
+"the shoes of another party, for example, a right granted to a lender or "
+"public authority to take over temporarily the operation of a project in case"
+" of failure to perform by a private party."
 msgstr ""
 
 #. Title
@@ -692,7 +699,8 @@ msgstr "Garanties"
 
 #. Description
 #: codelists/documentType.csv:28
-msgid "Documentation of guarantees relating to a contracting process or contract."
+msgid ""
+"Documentation of guarantees relating to a contracting process or contract."
 msgstr ""
 "Documentation des garanties liées à un processus de passation de marché ou "
 "un contrat."
@@ -705,10 +713,10 @@ msgstr ""
 #. Description
 #: codelists/documentType.csv:29
 msgid ""
-"Reports detailing the fiscal commitments of the public authority to the "
-"PPP, for example known payments that must be made if the PPP proceeds or "
-"payment commitments whose occurrence, timing and magnitude depend on some"
-" uncertain future event, outside the control of the public authority."
+"Reports detailing the fiscal commitments of the public authority to the PPP,"
+" for example known payments that must be made if the PPP proceeds or payment"
+" commitments whose occurrence, timing and magnitude depend on some uncertain"
+" future event, outside the control of the public authority."
 msgstr ""
 
 #. Title
@@ -719,13 +727,13 @@ msgstr ""
 #. Description
 #: codelists/documentType.csv:30
 msgid ""
-"Information on grants given to support the project. Grant information "
-"should detail the total value of subsidy, and/or the value of subsidy as "
-"a proportion of the overall project value, as well as providing "
-"information on the nature of the grant. For capital subsidies paid during"
-" construction of a project, or operating subsidies paid during operation,"
-" details of periodicity of grant payments, and particular grant "
-"milestones, should be provided."
+"Information on grants given to support the project. Grant information should"
+" detail the total value of subsidy, and/or the value of subsidy as a "
+"proportion of the overall project value, as well as providing information on"
+" the nature of the grant. For capital subsidies paid during construction of "
+"a project, or operating subsidies paid during operation, details of "
+"periodicity of grant payments, and particular grant milestones, should be "
+"provided."
 msgstr ""
 
 #. Title
@@ -736,11 +744,11 @@ msgstr ""
 #. Description
 #: codelists/documentType.csv:31
 msgid ""
-"Service payments are payments made by the public authority or purchaser "
-"to the private provider for infrastructure services (applicable in some "
-"types of Public Private Partnership projects). The documentation should "
-"cover the total number of payments and their periodicity, as well as the "
-"methodology used for calculating payments and the indexation used."
+"Service payments are payments made by the public authority or purchaser to "
+"the private provider for infrastructure services (applicable in some types "
+"of Public Private Partnership projects). The documentation should cover the "
+"total number of payments and their periodicity, as well as the methodology "
+"used for calculating payments and the indexation used."
 msgstr ""
 
 #. Title
@@ -751,9 +759,9 @@ msgstr ""
 #. Description
 #: codelists/documentType.csv:32
 msgid ""
-"Details of land transferred on lease or other basis by government, "
-"including details of property numbers with the quantum of land "
-"transferred, zoning information and conditions of transfer."
+"Details of land transferred on lease or other basis by government, including"
+" details of property numbers with the quantum of land transferred, zoning "
+"information and conditions of transfer."
 msgstr ""
 
 #. Title
@@ -776,8 +784,8 @@ msgstr ""
 #. Description
 #: codelists/documentType.csv:34
 msgid ""
-"Documentation of any revenue share arrangements, including revenue share "
-"on the base-case and upside for a public private partnership project."
+"Documentation of any revenue share arrangements, including revenue share on "
+"the base-case and upside for a public private partnership project."
 msgstr ""
 
 #. Title
@@ -800,11 +808,10 @@ msgstr ""
 #. Description
 #: codelists/documentType.csv:36
 msgid ""
-"For summarizing the method by which tariffs are set, and linking to "
-"detailed documentation of the methods for setting tariffs. This may "
-"include written documentation, and spreadsheets providing the models used"
-" to calculate tariffs. This should make clear who sets the tariff and on "
-"what basis."
+"For summarizing the method by which tariffs are set, and linking to detailed"
+" documentation of the methods for setting tariffs. This may include written "
+"documentation, and spreadsheets providing the models used to calculate "
+"tariffs. This should make clear who sets the tariff and on what basis."
 msgstr ""
 
 #. Title
@@ -815,10 +822,10 @@ msgstr ""
 #. Description
 #: codelists/documentType.csv:37
 msgid ""
-"For summarizing the arrangements for the review and regulation of "
-"tariffs, and linking to detailed documentation that covers how tariffs "
-"are regulated. This is important to explain to users why they are paying "
-"what they are paying, and the scope for changes to payment structures."
+"For summarizing the arrangements for the review and regulation of tariffs, "
+"and linking to detailed documentation that covers how tariffs are regulated."
+" This is important to explain to users why they are paying what they are "
+"paying, and the scope for changes to payment structures."
 msgstr ""
 
 #. Title
@@ -839,9 +846,9 @@ msgstr ""
 #. Description
 #: codelists/documentType.csv:39
 msgid ""
-"For linking to graphs and reports on the change over time in tariff "
-"prices. Use the relevant image media type when linking to PNG, JPEG or "
-"GIF graphs to allow applications to directly display this content."
+"For linking to graphs and reports on the change over time in tariff prices. "
+"Use the relevant image media type when linking to PNG, JPEG or GIF graphs to"
+" allow applications to directly display this content."
 msgstr ""
 
 #. Title
@@ -872,9 +879,9 @@ msgstr ""
 #. Description
 #: codelists/documentType.csv:42
 msgid ""
-"Contractual provisions for, or reporting on, handover of assets back to "
-"the state, including details of condition of assets and any other "
-"conditions of handover."
+"Contractual provisions for, or reporting on, handover of assets back to the "
+"state, including details of condition of assets and any other conditions of "
+"handover."
 msgstr ""
 
 #. Title
@@ -906,11 +913,10 @@ msgstr ""
 #: codelists/initiationType.csv:1
 msgid ""
 "An open competitive bidding or tendering to form a Public Private "
-"Partnership contract. The process may involve a qualification stage, "
-"whereby the number of qualified bidders is limited by reviewing each "
-"bidder’s qualifications against a set of criteria, before inviting "
-"prospective partners to submit bids for evaluation and selecting a winner"
-" or winners."
+"Partnership contract. The process may involve a qualification stage, whereby"
+" the number of qualified bidders is limited by reviewing each bidder’s "
+"qualifications against a set of criteria, before inviting prospective "
+"partners to submit bids for evaluation and selecting a winner or winners."
 msgstr ""
 
 #. Title
@@ -978,8 +984,8 @@ msgstr ""
 #. Description
 #: codelists/milestoneCode.csv:3
 msgid ""
-"In a financing, the point at which the documentation has been executed "
-"and conditions precedent have been satisfied or waived. Drawdowns become "
+"In a financing, the point at which the documentation has been executed and "
+"conditions precedent have been satisfied or waived. Drawdowns become "
 "permissible after this point."
 msgstr ""
 
@@ -1011,8 +1017,8 @@ msgstr ""
 #. Description
 #: codelists/milestoneCode.csv:6
 msgid ""
-"The testing and inspection of the completed works to verify that the "
-"works are ready for commercial operation."
+"The testing and inspection of the completed works to verify that the works "
+"are ready for commercial operation."
 msgstr ""
 
 #. Title
@@ -1024,9 +1030,8 @@ msgstr ""
 #: codelists/milestoneCode.csv:7
 msgid ""
 "For processes with multiple enquiry periods,the start date of a period "
-"during which enquiries may be made and responded to which is not provided"
-" in the tender/enquiryPeriod block. Sometimes known as clarification "
-"periods."
+"during which enquiries may be made and responded to which is not provided in"
+" the tender/enquiryPeriod block. Sometimes known as clarification periods."
 msgstr ""
 
 #. Title
@@ -1037,10 +1042,9 @@ msgstr ""
 #. Description
 #: codelists/milestoneCode.csv:8
 msgid ""
-"For processes with multiple enquiry periods, the end date of a period "
-"during which enquiries may be made and responded to which is not provided"
-" in the tender/enquiryPeriod block. Sometimes known as clarification "
-"periods."
+"For processes with multiple enquiry periods, the end date of a period during"
+" which enquiries may be made and responded to which is not provided in the "
+"tender/enquiryPeriod block. Sometimes known as clarification periods."
 msgstr ""
 
 #. Title

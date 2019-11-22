@@ -1,21 +1,26 @@
 # Translations template for PROJECT.
-# Copyright (C) 2018 ORGANIZATION
+# Copyright (C) 2019 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# James McKinney <jmckinney@open-contracting.org>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-11-13 18:59-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"PO-Revision-Date: 2019-03-14 18:26+0000\n"
+"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2019\n"
+"Language-Team: French (https://www.transifex.com/OpenDataServices/teams/95084/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. /name/en
 #. /definitions/Implementation/properties/metrics/title
@@ -26,8 +31,8 @@ msgstr ""
 #. /description/en
 #: extension.json:1
 msgid ""
-"The metrics extension supports publication of forecasts (planning stage),"
-" targets (tender stage), agreed performance targets (award and contract "
+"The metrics extension supports publication of forecasts (planning stage), "
+"targets (tender stage), agreed performance targets (award and contract "
 "stage) and results (implementation stage)."
 msgstr ""
 
@@ -82,11 +87,11 @@ msgstr ""
 #. /definitions/Metric/description
 #: release-schema.json:1
 msgid ""
-"Metrics are used to set out targets and results from a contracting "
-"process. During the planning and tender sections, a metric indicates the "
-"anticipated results. In award and contract sections it indicates the "
-"awarded/contracted results. In the implementation section it is used to "
-"provide updates on actually delivered results, also known as outputs."
+"Metrics are used to set out targets and results from a contracting process. "
+"During the planning and tender sections, a metric indicates the anticipated "
+"results. In award and contract sections it indicates the awarded/contracted "
+"results. In the implementation section it is used to provide updates on "
+"actually delivered results, also known as outputs."
 msgstr ""
 
 #. /definitions/Metric/properties/id/title
@@ -143,16 +148,16 @@ msgstr ""
 #. /definitions/Observation/description
 #: release-schema.json:1
 msgid ""
-"An actual or target observation. Observations should include either a "
-"value (for financial metrics) or measure (for other metrics)."
+"An actual or target observation. Observations should include either a value "
+"(for financial metrics) or measure (for other metrics)."
 msgstr ""
 
 #. /definitions/Observation/properties/id/description
 #: release-schema.json:1
 msgid ""
-"A local identifier for this specific observation. This may be an "
-"arbitrary identifier, or could be a composite of the metric identifier, "
-"and the date and other dimensions of this observation."
+"A local identifier for this specific observation. This may be an arbitrary "
+"identifier, or could be a composite of the metric identifier, and the date "
+"and other dimensions of this observation."
 msgstr ""
 
 #. /definitions/Observation/properties/period/title
@@ -185,8 +190,8 @@ msgstr ""
 #. /definitions/Observation/properties/measure/description
 #: release-schema.json:1
 msgid ""
-"For non-financial metrics, the measure of this forecast, target or actual"
-" observation. Measures may be provided as free text or numerical values."
+"For non-financial metrics, the measure of this forecast, target or actual "
+"observation. Measures may be provided as free text or numerical values."
 msgstr ""
 
 #. /definitions/Observation/properties/unit/title
@@ -213,10 +218,10 @@ msgstr "Schéma d'URI"
 #. /definitions/Observation/properties/unit/properties/scheme/description
 #: release-schema.json:1
 msgid ""
-"The list from which units of measure identifiers are taken. This should "
-"be an entry in the unitClassificationScheme codelist. Use of the scheme "
-"'UNCEFACT' for the UN/CEFACT Recommendation 20 list of 'Codes for Units "
-"of Measure Used in International Trade' is recommended."
+"The list from which units of measure identifiers are taken. This should be "
+"an entry in the unitClassificationScheme codelist. Use of the scheme "
+"'UNCEFACT' for the UN/CEFACT Recommendation 20 list of 'Codes for Units of "
+"Measure Used in International Trade' is recommended."
 msgstr ""
 
 #. /definitions/Observation/properties/unit/properties/id/title
@@ -228,9 +233,9 @@ msgstr "Identifiant"
 #: release-schema.json:1
 msgid ""
 "The identifier from the codelist referenced in the schema property. For "
-"example, with UNCEFACT, this is the value of the 'Common Code' column. "
-"From this identifier, applications can look-up the human readable name or"
-" symbol for this unit of measure."
+"example, with UNCEFACT, this is the value of the 'Common Code' column. From "
+"this identifier, applications can look-up the human readable name or symbol "
+"for this unit of measure."
 msgstr ""
 
 #. /definitions/Observation/properties/unit/properties/uri/title
@@ -241,8 +246,8 @@ msgstr "URI"
 #. /definitions/Observation/properties/unit/properties/uri/description
 #: release-schema.json:1
 msgid ""
-"If the scheme used provide a machine-readable URI for this unit of "
-"measure, this can be given."
+"If the scheme used provide a machine-readable URI for this unit of measure, "
+"this can be given."
 msgstr ""
 "Si le schéma utilisé fournit une URI pour cette unité de mesure, elle peut "
 "être indiquée."
@@ -266,7 +271,8 @@ msgstr ""
 
 #. /definitions/Observation/properties/notes/description
 #: release-schema.json:1
-msgid "Any notes on this observation. This may include clarifying information."
+msgid ""
+"Any notes on this observation. This may include clarifying information."
 msgstr ""
 
 #. /definitions/Observation/properties/relatedImplementationMilestone/title
@@ -277,8 +283,8 @@ msgstr ""
 #. /definitions/Observation/properties/relatedImplementationMilestone/description
 #: release-schema.json:1
 msgid ""
-"A link to the milestone in the implementation section of OCDS to which "
-"this forecast, target or actual observation relates."
+"A link to the milestone in the implementation section of OCDS to which this "
+"forecast, target or actual observation relates."
 msgstr ""
 
 #. /definitions/MilestoneReference/title
@@ -302,8 +308,7 @@ msgstr ""
 #: release-schema.json:1
 msgid ""
 "The ID of the milestone being referenced, this must match the ID of a "
-"milestone described elsewhere in a release about this contracting "
-"process."
+"milestone described elsewhere in a release about this contracting process."
 msgstr ""
 
 #. /definitions/MilestoneReference/properties/title/title
@@ -314,7 +319,6 @@ msgstr "Titre de l'étape"
 #. /definitions/MilestoneReference/properties/title/description
 #: release-schema.json:1
 msgid ""
-"The title of the milestone being referenced, this must match the title of"
-" a milestone described elsewhere in a release about this contracting "
-"process."
+"The title of the milestone being referenced, this must match the title of a "
+"milestone described elsewhere in a release about this contracting process."
 msgstr ""

@@ -1,20 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 
+# Copyright (C)
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
+# James McKinney <jmckinney@open-contracting.org>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-13 18:59-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"PO-Revision-Date: 2019-03-14 18:27+0000\n"
+"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2019\n"
+"Language-Team: French (https://www.transifex.com/OpenDataServices/teams/95084/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: README.md:0
 msgid "Bid statistics and details"
@@ -31,7 +36,8 @@ msgstr ""
 
 #: README.md:5
 msgid ""
-"Market analysis for understanding the competitiveness of a given marketplace;"
+"Market analysis for understanding the competitiveness of a given "
+"marketplace;"
 msgstr ""
 "Des analyses de marché pour comprendre la compétitivité d'un marché donné ;"
 
@@ -66,16 +72,16 @@ msgstr ""
 
 #: README.md:11
 msgid ""
-"The OCDS bid extension introduces a new, flexible, top-level section to each "
-"contracting process to capture bidding information. Implementers will need "
+"The OCDS bid extension introduces a new, flexible, top-level section to each"
+" contracting process to capture bidding information. Implementers will need "
 "to assess which fields are applicable to their local regulatory regime, and "
 "to local use-cases."
 msgstr ""
 "L'extension OCDS sur les offres introduit une nouvelle section flexible de "
 "haut niveau à chaque processus de passation de marché pour capturer des "
 "informations sur les offres. Celles et ceux qui la mettent en œuvre doivent "
-"évaluer quels champs sont applicables dans leur régime de régulation et dans "
-"des cas d'usage locaux. "
+"évaluer quels champs sont applicables dans leur régime de régulation et dans"
+" des cas d'usage locaux. "
 
 #: README.md:0
 msgid "Bid Statistics"
@@ -84,8 +90,8 @@ msgstr "Statistiques sur les offres"
 #: README.md:15
 msgid ""
 "The `bids/bidStatistics` array can be used to represent key statistical "
-"information about the number of bids and bidders. Each entry in the array is "
-"a `BidsStatistic` object containing at least:"
+"information about the number of bids and bidders. Each entry in the array is"
+" a `BidsStatistic` object containing at least:"
 msgstr ""
 "La liste `bids/bidStatistics` peut être utilisée pour représenter des "
 "informations statistiques clés sur le nombre d'offres et de candidats. "
@@ -166,9 +172,9 @@ msgstr "Problèmes"
 
 #: README.md:141
 msgid ""
-"Report issues for this extension in the [ocds-extensions repository](https://"
-"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
-"name in the issue's title."
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
 msgstr ""
 "Signalez les problèmes concernant cette extension dans le [répertoire "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), en "
@@ -179,10 +185,22 @@ msgid "Changelog"
 msgstr "Journal des modifications"
 
 #: README.md:0
+msgid "v1.1.4"
+msgstr ""
+
+#: README.md:147
+msgid "Add `foreignBidsFromNonEU` code to `bidStatistics.csv`"
+msgstr ""
+
+#: README.md:148
+msgid "Remove invalid `required` property on array field `Bids.details`"
+msgstr ""
+
+#: README.md:0
 msgid "v1.1.3"
 msgstr "v1.1.3"
 
-#: README.md:147
+#: README.md:152
 msgid ""
 "Disallow required fields `BidsStatistic.id`, `BidsStatistic.measure`, "
 "`BidsStatistic.value` from being null"
@@ -190,37 +208,37 @@ msgstr ""
 "Interdit aux champs requis `BidsStatistic.id`, `BidsStatistic.measure`, "
 "`BidsStatistic.value` de prendre la valeur `null`"
 
-#: README.md:148
+#: README.md:153
 msgid "Disallow `Bids.statistics` from having null in its array of objects"
 msgstr ""
 "Interdit au champ `Bids.statistics` d'avoir une valeur `null` dans sa liste "
 "d'objets."
 
-#: README.md:149
+#: README.md:154
 msgid "Allow `Bids.statistics` to be null"
 msgstr "Autorise `Bids.statistics` à prendre la valeur `null`"
 
-#: README.md:150
+#: README.md:155
 msgid "Add enum to `BidsStatistic.status`"
 msgstr "Ajoute les listes de type énuméré à `BidsStatistics.status`"
 
-#: README.md:151
+#: README.md:156
 msgid "Move `BidsStatistic.requirementResponses` to requirements extension"
 msgstr ""
 "Déplace `BidsStatistic.requirementResponses` à l'extension `requirements`"
 
-#: README.md:152
+#: README.md:157
 msgid "Add descriptions to bidStatus.csv"
 msgstr "Ajoute des descriptions à bidStatus.csv"
 
-#: README.md:153
+#: README.md:158
 msgid "List codelists in extension.json"
 msgstr "Liste les nomenclatures dans extension.json"
 
-#: README.md:154
+#: README.md:159
 msgid "Add example to documentation"
 msgstr "Ajoute un exemple à la documentation"
 
-#: README.md:155
+#: README.md:160
 msgid "Add tests and tidy code"
 msgstr "Ajoute des tests et nettoie le code"

@@ -1,20 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 
+# Copyright (C)
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
+# James McKinney <jmckinney@open-contracting.org>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-13 18:59-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"PO-Revision-Date: 2019-03-14 18:30+0000\n"
+"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2019\n"
+"Language-Team: French (https://www.transifex.com/OpenDataServices/teams/95084/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: README.md:0
 msgid "Financing extension"
@@ -29,15 +34,15 @@ msgstr ""
 
 #: README.md:5
 msgid ""
-"The financing extension provides a space to declare the finance arranged for "
-"a contract."
+"The financing extension provides a space to declare the finance arranged for"
+" a contract."
 msgstr ""
 
 #: README.md:7
 msgid ""
 "This is declared within the `contract` section, based on an understanding "
-"that this information is generally only disclosed following the signature of "
-"a contract. This information can be updated over the lifetime of the "
+"that this information is generally only disclosed following the signature of"
+" a contract. This information can be updated over the lifetime of the "
 "contract."
 msgstr ""
 
@@ -110,8 +115,8 @@ msgstr "Listes de codes"
 #: README.md:28
 msgid ""
 "The 'financeType' codelist is based on the list on [Page 57 of the World "
-"Bank PPP Disclosure Framework](http://pubdocs.worldbank.org/"
-"en/143671469558797229/FrameworkPPPDisclosure-071416.pdf#page=57)"
+"Bank PPP Disclosure "
+"Framework](http://pubdocs.worldbank.org/en/143671469558797229/FrameworkPPPDisclosure-071416.pdf#page=57)"
 msgstr ""
 
 #: README.md:30
@@ -127,9 +132,9 @@ msgstr "Problèmes"
 
 #: README.md:34
 msgid ""
-"Report issues for this extension in the [ocds-extensions repository](https://"
-"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
-"name in the issue's title."
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
 msgstr ""
 "Signalez les problèmes concernant cette extension dans le [répertoire "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), en "
@@ -141,7 +146,7 @@ msgstr "Journal des modifications"
 
 #: README.md:38
 msgid ""
-"2018-05-08 - Make `finance/id` required and non-nullable to support revision "
-"tracking and [list merging](http://standard.open-contracting.org/latest/en/"
-"schema/merging/#lists)."
+"2018-05-08 - Make `finance/id` required and non-nullable to support revision"
+" tracking and [list merging](http://standard.open-"
+"contracting.org/latest/en/schema/merging/#lists)."
 msgstr ""

@@ -2,20 +2,25 @@
 # Copyright (C) 2019 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
-#
+# 
+# Translators:
+# James McKinney <jmckinney@open-contracting.org>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-06-27 17:45-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-03-14 18:28+0000\n"
+"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2019\n"
+"Language-Team: French (https://www.transifex.com/OpenDataServices/teams/95084/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. /name/en
 #. /definitions/Tender/properties/lots/title
@@ -27,11 +32,11 @@ msgstr "Lots"
 #. /description/en
 #: extension.json:1
 msgid ""
-"A tender process may be divided into lots, where bidders can bid on one "
-"or more lots. Details of each lot can be provided here. Items, documents "
-"and other features can then reference the lot they are related to using "
-"relatedLot. Where no relatedLot identifier is given, the values should be"
-" interpreted as applicable to the whole tender."
+"A tender process may be divided into lots, where bidders can bid on one or "
+"more lots. Details of each lot can be provided here. Items, documents and "
+"other features can then reference the lot they are related to using "
+"relatedLot. Where no relatedLot identifier is given, the values should be "
+"interpreted as applicable to the whole tender."
 msgstr ""
 "Un processus d'appel d'offres peut être divisé en lots. Les candidats "
 "peuvent ainsi soumettre des offres sur un ou plusieurs lots. Les détails de "
@@ -44,13 +49,12 @@ msgstr ""
 #. /definitions/Tender/properties/lots/description
 #: release-schema.json:1
 msgid ""
-"A tender process may be divided into lots, where bidders can bid on one "
-"or more lots. Details of each lot can be provided here. Items, documents "
-"and other features can then reference the lot they are related to using "
-"relatedLot. Where no relatedLots identifier is given, the values should "
-"be interpreted as applicable to the whole tender. Properties of tender "
-"can be overridden for a given Lot through their inclusion in the Lot "
-"object."
+"A tender process may be divided into lots, where bidders can bid on one or "
+"more lots. Details of each lot can be provided here. Items, documents and "
+"other features can then reference the lot they are related to using "
+"relatedLot. Where no relatedLots identifier is given, the values should be "
+"interpreted as applicable to the whole tender. Properties of tender can be "
+"overridden for a given Lot through their inclusion in the Lot object."
 msgstr ""
 
 #. /definitions/Tender/properties/lotDetails/title
@@ -84,8 +88,8 @@ msgstr ""
 #. /definitions/Tender/properties/lotDetails/properties/maximumLotsAwardedPerSupplier/description
 #: release-schema.json:1
 msgid ""
-"The maximum number of lots that may be awarded to one supplier as part of"
-" this contracting process."
+"The maximum number of lots that may be awarded to one supplier as part of "
+"this contracting process."
 msgstr ""
 "Le nombre maximum de lots qui peuvent être attribués à un fournisseur dans "
 "le cadre de ce processus de passation de marché."
@@ -99,8 +103,8 @@ msgstr ""
 #. /definitions/LotGroup/description
 #: release-schema.json:1
 msgid ""
-"Where the buyer reserves the right to combine lots, or wishes to specify "
-"the total value for a group of lots, a lot group is used to capture this "
+"Where the buyer reserves the right to combine lots, or wishes to specify the"
+" total value for a group of lots, a lot group is used to capture this "
 "information."
 msgstr ""
 
@@ -116,8 +120,8 @@ msgstr ""
 #. /definitions/Document/properties/relatedLots/description
 #: release-schema.json:1
 msgid ""
-"If this document relates to a particular lot, provide the identifier(s) "
-"of the related lot(s) here."
+"If this document relates to a particular lot, provide the identifier(s) of "
+"the related lot(s) here."
 msgstr ""
 
 #. /definitions/Item/properties/relatedLot/title
@@ -135,8 +139,8 @@ msgstr ""
 #. /definitions/Milestone/properties/relatedLots/description
 #: release-schema.json:1
 msgid ""
-"If this milestone relates to a particular lot, provide the identifier(s) "
-"of the related lot(s) here."
+"If this milestone relates to a particular lot, provide the identifier(s) of "
+"the related lot(s) here."
 msgstr ""
 
 #. /definitions/Award/properties/relatedLots/description
@@ -149,15 +153,15 @@ msgstr ""
 #. /definitions/Bid/properties/relatedLots/description
 #: release-schema.json:1
 msgid ""
-"If this bid relates to one or more specific lots, provide the "
-"identifier(s) of the related lot(s) here."
+"If this bid relates to one or more specific lots, provide the identifier(s) "
+"of the related lot(s) here."
 msgstr ""
 
 #. /definitions/Lot/description
 #: release-schema.json:1
 msgid ""
-"A lot is a grouping of items within a tender that can be bid on or "
-"awarded together."
+"A lot is a grouping of items within a tender that can be bid on or awarded "
+"together."
 msgstr ""
 
 #. /definitions/Lot/properties/id/title
@@ -236,8 +240,8 @@ msgstr "Un identifiant local pour ce groupe de lots."
 #. /definitions/LotGroup/properties/relatedLots/description
 #: release-schema.json:1
 msgid ""
-"A list of the identifiers of the lots that form this group. Lots may "
-"appear in more than one group."
+"A list of the identifiers of the lots that form this group. Lots may appear "
+"in more than one group."
 msgstr ""
 "Une liste des identifiants des lots formant ce groupe. Les lots peuvent "
 "apparaître dans plusieurs groupes."
@@ -250,11 +254,11 @@ msgstr ""
 #. /definitions/LotGroup/properties/optionToCombine/description
 #: release-schema.json:1
 msgid ""
-"The buyer reserves the right to combine the lots in this group when "
-"awarding a contract."
+"The buyer reserves the right to combine the lots in this group when awarding"
+" a contract."
 msgstr ""
-"L'acheteur se réserve le droit de combiner les lots dans ce groupe lorsqu'il "
-"attribue un marché."
+"L'acheteur se réserve le droit de combiner les lots dans ce groupe lorsqu'il"
+" attribue un marché."
 
 #. /definitions/LotGroup/properties/maximumValue/title
 #: release-schema.json:1

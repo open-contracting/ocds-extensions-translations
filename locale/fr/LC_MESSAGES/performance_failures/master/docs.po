@@ -1,20 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 
+# Copyright (C)
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
+# James McKinney <jmckinney@open-contracting.org>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-13 18:59-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"PO-Revision-Date: 2019-03-14 18:30+0000\n"
+"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2019\n"
+"Language-Team: French (https://www.transifex.com/OpenDataServices/teams/95084/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: README.md:0
 msgid "Performance Failures Extension"
@@ -26,11 +31,12 @@ msgstr "Contexte"
 
 #: README.md:5
 msgid ""
-"The [Framework for disclosure in Public Private Partnerships](http://pubdocs."
-"worldbank.org/en/773541448296707678/Disclosure-in-PPPs-Framework.pdf) "
-"requires disclosure of instances of performance failures during the the life "
-"of a contract, along with the penalties or abatements defined, imposed and "
-"paid in relation to each category of performance failures."
+"The [Framework for disclosure in Public Private "
+"Partnerships](http://pubdocs.worldbank.org/en/773541448296707678/Disclosure-"
+"in-PPPs-Framework.pdf) requires disclosure of instances of performance "
+"failures during the the life of a contract, along with the penalties or "
+"abatements defined, imposed and paid in relation to each category of "
+"performance failures."
 msgstr ""
 
 #: README.md:0
@@ -116,9 +122,9 @@ msgstr "Problèmes"
 
 #: README.md:52
 msgid ""
-"Report issues for this extension in the [ocds-extensions repository](https://"
-"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
-"name in the issue's title."
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
 msgstr ""
 "Signalez les problèmes concernant cette extension dans le [répertoire "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), en "
@@ -131,6 +137,6 @@ msgstr "Journal des modifications"
 #: README.md:56
 msgid ""
 "2018-05-08 - Make `performanceFailure/id` required to support revision "
-"tracking and [list merging](http://standard.open-contracting.org/latest/en/"
-"schema/merging/#lists)."
+"tracking and [list merging](http://standard.open-"
+"contracting.org/latest/en/schema/merging/#lists)."
 msgstr ""

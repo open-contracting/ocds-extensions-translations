@@ -1,20 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 
+# Copyright (C)
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
+# James McKinney <jmckinney@open-contracting.org>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-13 18:59-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"PO-Revision-Date: 2019-03-14 18:31+0000\n"
+"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2019\n"
+"Language-Team: Italian (https://www.transifex.com/OpenDataServices/teams/95084/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: README.md:0
 msgid "Enquiries"
@@ -35,11 +40,12 @@ msgstr "Struttura"
 
 #: README.md:7
 msgid ""
-"The extension adds an `enquiries` array to tender, consisting of one or more "
-"enquiry objects, each with fields for a question, and an answer."
+"The extension adds an `enquiries` array to tender, consisting of one or more"
+" enquiry objects, each with fields for a question, and an answer."
 msgstr ""
 "L'estensione aggiunge una serie di 'enquiries` alla gara, costituite da uno "
-"o più oggetti di indagine, ciascuno con campi per una domanda e una risposta."
+"o più oggetti di indagine, ciascuno con campi per una domanda e una "
+"risposta."
 
 #: README.md:9
 msgid "Example:"
@@ -52,20 +58,21 @@ msgid ""
 "`documentType` of 'clarifications'."
 msgstr ""
 "I documenti giustificativi con chiarimenti o un documento completo "
-"contenente le risposte alle domande possono essere inclusi nella matrice `"
-"gara/documenti` con un `documentType` di 'clarifications'."
+"contenente le risposte alle domande possono essere inclusi nella matrice "
+"`gara/documenti` con un `documentType` di 'clarifications'."
 
 #: README.md:34
 msgid ""
-"Where the answers to a question are only available in attached documents, an "
-"`answer` value such as 'Consult section N of \"%document name%\" in the "
+"Where the answers to a question are only available in attached documents, an"
+" `answer` value such as 'Consult section N of \"%document name%\" in the "
 "documents section' may be entered to allow analysts of the data to identify "
 "that an answer to this question has been provided."
 msgstr ""
 "Se le risposte a una domanda sono disponibili solo in documenti allegati, è "
-"possibile inserire un valore `answer` come 'Consultare la sezione N di \"%"
-"dnome di documento%\" nella sezione documenti' per consentire agli analisti "
-"dei dati di identificare se una risposta a questa domanda è stata fornita."
+"possibile inserire un valore `answer` come 'Consultare la sezione N di "
+"\"%dnome di documento%\" nella sezione documenti' per consentire agli "
+"analisti dei dati di identificare se una risposta a questa domanda è stata "
+"fornita."
 
 #: README.md:36
 msgid ""
@@ -89,10 +96,10 @@ msgstr ""
 #: README.md:42
 msgid ""
 "Some publishers may omit the identity of the question author to protect "
-"confidentiality of enquirers, or may anonymize this information (e.g. simply "
-"putting the author name as 'Organization 1' or 'Organization 2' so that it "
-"is possible to see questions from the same organization, but not to know the "
-"identity of that organization.)"
+"confidentiality of enquirers, or may anonymize this information (e.g. simply"
+" putting the author name as 'Organization 1' or 'Organization 2' so that it "
+"is possible to see questions from the same organization, but not to know the"
+" identity of that organization.)"
 msgstr ""
 "Alcune organizzazioni che pubblicano dati possono omettere l'identità "
 "dell'autore della domanda per proteggere la riservatezza dei richiedenti o "
@@ -119,8 +126,8 @@ msgid ""
 "batch of questions received, providing an enquiries array with each of the "
 "questions in;"
 msgstr ""
-"Rilasciare un tag di versione `tenderUpdate` per ogni nuova domanda o gruppo "
-"di domande ricevute, fornendo un blocco di domande contenente tutte le "
+"Rilasciare un tag di versione `tenderUpdate` per ogni nuova domanda o gruppo"
+" di domande ricevute, fornendo un blocco di domande contenente tutte le "
 "domande ricevute;"
 
 #: README.md:49
@@ -139,15 +146,15 @@ msgid ""
 "that provide answers to questions, and will support procurement monitors in "
 "reviewing the way in which questions are being answered."
 msgstr ""
-"Questo approccio consentirà alle applicazioni di terze parti di tenere sotto "
-"controllo le versioni che forniscono risposte alle domande e supporterà i "
+"Questo approccio consentirà alle applicazioni di terze parti di tenere sotto"
+" controllo le versioni che forniscono risposte alle domande e supporterà i "
 "responsabili degli appalti nel rivedere il modo in cui le domande ricevono "
 "risposta."
 
 #: README.md:53
 msgid ""
-"We recommend that publishers provide question answers as plain text, or with "
-"minimal HTML markup (paragraphs and line-breaks), and that consuming "
+"We recommend that publishers provide question answers as plain text, or with"
+" minimal HTML markup (paragraphs and line-breaks), and that consuming "
 "applications parse text appropriately to format it for readability (e.g. "
 "replace line-breaks with paragraph breaks in HTML)."
 msgstr ""
@@ -167,9 +174,9 @@ msgstr "Problemi (issues)"
 
 #: README.md:65
 msgid ""
-"Report issues for this extension in the [ocds-extensions repository](https://"
-"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
-"name in the issue's title."
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
 msgstr ""
 "Segnala i problemi per questa estensione nel [repository ocds-"
 "extensions](https://github.com/open-contracting/ocds-extensions/issues), "
@@ -193,8 +200,8 @@ msgstr ""
 #: README.md:72
 msgid "Correct name of +partyRole.csv codelist (was +partyRoles.csv)"
 msgstr ""
-"Il nome corretto dell'elenco di valori del vocabolario controllato +"
-"partyRole.csv (era + partyRoles.csv)"
+"Il nome corretto dell'elenco di valori del vocabolario controllato "
+"+partyRole.csv (era + partyRoles.csv)"
 
 #: README.md:73
 msgid "Allow `Enquiry.date` to be null"

@@ -1,20 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 
+# Copyright (C)
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
+# James McKinney <jmckinney@open-contracting.org>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-13 18:59-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"PO-Revision-Date: 2019-03-14 18:31+0000\n"
+"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2019\n"
+"Language-Team: Italian (https://www.transifex.com/OpenDataServices/teams/95084/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: README.md:0
 msgid "Enquiries"
@@ -73,10 +78,10 @@ msgstr ""
 #: README.md:40
 msgid ""
 "Some publishers may omit the identity of the question author to protect "
-"confidentiality of enquirers, or may anonymise this information (e.g. simply "
-"putting the author name as 'Organisation 1' or 'Organisation 2' so that it "
-"is possible to see questions from the same organisation, but not to know the "
-"identity of that organisation.)"
+"confidentiality of enquirers, or may anonymise this information (e.g. simply"
+" putting the author name as 'Organisation 1' or 'Organisation 2' so that it "
+"is possible to see questions from the same organisation, but not to know the"
+" identity of that organisation.)"
 msgstr ""
 
 #: README.md:42
@@ -91,15 +96,15 @@ msgstr "Ove possibile, l'approccio raccomandato è:"
 
 #: README.md:46
 msgid ""
-"Make release with a ```tenderUpdate``` release tag for every new question or "
-"batch of questions received, providing an enquiries array with each of the "
+"Make release with a ```tenderUpdate``` release tag for every new question or"
+" batch of questions received, providing an enquiries array with each of the "
 "questions in;"
 msgstr ""
 
 #: README.md:47
 msgid ""
-"Make a release with a ```tenderUpdate``` release tag when the answers to the "
-"questions are provided, updating the earlier enquiries array so each entry "
+"Make a release with a ```tenderUpdate``` release tag when the answers to the"
+" questions are provided, updating the earlier enquiries array so each entry "
 "now contains both a question and an answer;"
 msgstr ""
 
@@ -109,15 +114,15 @@ msgid ""
 "that provide answers to questions, and will support procurement monitors in "
 "reviewing the way in which questions are being answered."
 msgstr ""
-"Questo approccio consentirà alle applicazioni di terze parti di tenere sotto "
-"controllo le versioni che forniscono risposte alle domande e supporterà i "
+"Questo approccio consentirà alle applicazioni di terze parti di tenere sotto"
+" controllo le versioni che forniscono risposte alle domande e supporterà i "
 "responsabili degli appalti nel rivedere il modo in cui le domande ricevono "
 "risposta."
 
 #: README.md:51
 msgid ""
-"We recommend that publishers provide question answers as plain text, or with "
-"minimal HTML markup (paragraphs and line-breaks), and that consuming "
+"We recommend that publishers provide question answers as plain text, or with"
+" minimal HTML markup (paragraphs and line-breaks), and that consuming "
 "applications parse text appropriately to format it for readability (e.g. "
 "replace line-breaks with paragraph breaks in HTML)."
 msgstr ""

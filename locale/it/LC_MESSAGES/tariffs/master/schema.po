@@ -1,21 +1,26 @@
 # Translations template for PROJECT.
-# Copyright (C) 2018 ORGANIZATION
+# Copyright (C) 2019 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# James McKinney <jmckinney@open-contracting.org>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-11-13 18:59-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"PO-Revision-Date: 2019-03-14 18:27+0000\n"
+"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2019\n"
+"Language-Team: Italian (https://www.transifex.com/OpenDataServices/teams/95084/it/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. /name/en
 #. /definitions/Implementation/properties/tariffs/title
@@ -27,8 +32,8 @@ msgstr ""
 #. /description/en
 #: extension.json:1
 msgid ""
-"Adds fields to the contract and implementation objects to capture details"
-" of the tariffs, tolls and user fees set out in the contract and in use "
+"Adds fields to the contract and implementation objects to capture details of"
+" the tariffs, tolls and user fees set out in the contract and in use "
 "throughout the life of the project."
 msgstr ""
 
@@ -45,8 +50,8 @@ msgstr ""
 #: release-schema.json:1
 msgid ""
 "The tariffs as set out in the contract schedules. Also known as tolls or "
-"user charges. Updates to tariffs over the operation of the contract can "
-"be provided in the implementation section."
+"user charges. Updates to tariffs over the operation of the contract can be "
+"provided in the implementation section."
 msgstr ""
 
 #. /definitions/Tariff/title
@@ -57,9 +62,8 @@ msgstr ""
 #. /definitions/Tariff/description
 #: release-schema.json:1
 msgid ""
-"An item in a tariff table, setting out a breakdown of the user or "
-"government fees payable in relation to each unit of a particular good or "
-"services."
+"An item in a tariff table, setting out a breakdown of the user or government"
+" fees payable in relation to each unit of a particular good or services."
 msgstr ""
 
 #. /definitions/Tariff/properties/id/title
@@ -92,8 +96,8 @@ msgstr ""
 #. /definitions/Tariff/properties/paidBy/description
 #: release-schema.json:1
 msgid ""
-"Is this a user charge (paid by businesses or citizens using the "
-"facilities provided by the contract), or a charge paid by the government?"
+"Is this a user charge (paid by businesses or citizens using the facilities "
+"provided by the contract), or a charge paid by the government?"
 msgstr ""
 
 #. /definitions/Tariff/properties/period/title
@@ -144,10 +148,10 @@ msgstr "Schema"
 #. /definitions/Tariff/properties/unit/properties/scheme/description
 #: release-schema.json:1
 msgid ""
-"The list from which units of measure identifiers are taken. This should "
-"be an entry in the unitClassificationScheme codelist. Use of the scheme "
-"'UNCEFACT' for the UN/CEFACT Recommendation 20 list of 'Codes for Units "
-"of Measure Used in International Trade' is recommended."
+"The list from which units of measure identifiers are taken. This should be "
+"an entry in the unitClassificationScheme codelist. Use of the scheme "
+"'UNCEFACT' for the UN/CEFACT Recommendation 20 list of 'Codes for Units of "
+"Measure Used in International Trade' is recommended."
 msgstr ""
 
 #. /definitions/Tariff/properties/unit/properties/id/title
@@ -159,9 +163,9 @@ msgstr "ID"
 #: release-schema.json:1
 msgid ""
 "The identifier from the codelist referenced in the schema property. For "
-"example, with UNCEFACT, this is the value of the 'Common Code' column. "
-"From this identifier, applications can look-up the human readable name or"
-" symbol for this unit of measure."
+"example, with UNCEFACT, this is the value of the 'Common Code' column. From "
+"this identifier, applications can look-up the human readable name or symbol "
+"for this unit of measure."
 msgstr ""
 
 #. /definitions/Tariff/properties/unit/properties/uri/title
@@ -172,8 +176,8 @@ msgstr "URI"
 #. /definitions/Tariff/properties/unit/properties/uri/description
 #: release-schema.json:1
 msgid ""
-"If the scheme used provide a machine-readable URI for this unit of "
-"measure, this can be given."
+"If the scheme used provide a machine-readable URI for this unit of measure, "
+"this can be given."
 msgstr ""
 "Se lo schema utilizzato fornisce un URI leggibile dalle macchine per questa "
 "unità di misura, questo può essere fornito."
@@ -186,8 +190,8 @@ msgstr ""
 #. /definitions/Tariff/properties/dimensions/description
 #: release-schema.json:1
 msgid ""
-"Used to capture the different breakdowns in tariff charges. Any number of"
-" dimensions can be recorded within this object. Dimensions names should "
+"Used to capture the different breakdowns in tariff charges. Any number of "
+"dimensions can be recorded within this object. Dimensions names should "
 "follow the camelCase conventions of OCDS."
 msgstr ""
 
@@ -199,6 +203,5 @@ msgstr ""
 #. /definitions/Tariff/properties/notes/description
 #: release-schema.json:1
 msgid ""
-"Any notes on this tariff line item. This may include clarifying "
-"information."
+"Any notes on this tariff line item. This may include clarifying information."
 msgstr ""

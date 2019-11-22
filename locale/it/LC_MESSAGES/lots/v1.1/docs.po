@@ -1,20 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 
+# Copyright (C)
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
+# James McKinney <jmckinney@open-contracting.org>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-13 18:59-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"PO-Revision-Date: 2019-03-14 18:29+0000\n"
+"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2019\n"
+"Language-Team: Italian (https://www.transifex.com/OpenDataServices/teams/95084/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: README.md:0
 msgid "Lots"
@@ -50,9 +55,9 @@ msgstr ""
 msgid ""
 "This means that systems which are not 'lot aware' can still understand the "
 "overall value of contracting taking place, key events, and relationships "
-"between buyers and suppliers. At the same time, 'lot aware' systems can make "
-"use of the cross-referenced information to present a lot-centric view on the "
-"information to users, or to analyse contracting lot by lot."
+"between buyers and suppliers. At the same time, 'lot aware' systems can make"
+" use of the cross-referenced information to present a lot-centric view on "
+"the information to users, or to analyse contracting lot by lot."
 msgstr ""
 
 #: README.md:0
@@ -145,7 +150,8 @@ msgid ""
 "lots."
 msgstr ""
 "Anche se fa parte della stessa gara, l'acquirente è disposto a concedere "
-"questi diversi articoli a diverse ditte e divide così l'offerta in tre lotti."
+"questi diversi articoli a diverse ditte e divide così l'offerta in tre "
+"lotti."
 
 #: README.md:0
 msgid "Schema"

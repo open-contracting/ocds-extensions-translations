@@ -1,20 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 
+# Copyright (C)
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
+# James McKinney <jmckinney@open-contracting.org>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-13 18:59-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"PO-Revision-Date: 2019-03-14 18:27+0000\n"
+"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2019\n"
+"Language-Team: French (https://www.transifex.com/OpenDataServices/teams/95084/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: README.md:0
 msgid "Bid statistics and details"
@@ -31,7 +36,8 @@ msgstr ""
 
 #: README.md:6
 msgid ""
-"Market analysis for understanding the competitiveness of a given marketplace;"
+"Market analysis for understanding the competitiveness of a given "
+"marketplace;"
 msgstr ""
 "Des analyses de marché pour comprendre la compétitivité d'un marché donné ;"
 
@@ -58,16 +64,16 @@ msgstr ""
 
 #: README.md:12
 msgid ""
-"The OCDS bid extension introduces a new, flexible, top-level section to each "
-"contracting process to capture bidding information. Implementers will need "
+"The OCDS bid extension introduces a new, flexible, top-level section to each"
+" contracting process to capture bidding information. Implementers will need "
 "to assess which fields are applicable to their local regulatory regime, and "
 "to local use-cases."
 msgstr ""
 "L'extension OCDS sur les offres introduit une nouvelle section flexible de "
 "haut niveau à chaque processus de passation de marché pour capturer des "
 "informations sur les offres. Celles et ceux qui la mettent en œuvre doivent "
-"évaluer quels champs sont applicables dans leur régime de régulation et dans "
-"des cas d'usage locaux. "
+"évaluer quels champs sont applicables dans leur régime de régulation et dans"
+" des cas d'usage locaux. "
 
 #: README.md:0
 msgid "Bid Statistics"
@@ -76,8 +82,8 @@ msgstr "Statistiques sur les offres"
 #: README.md:16
 msgid ""
 "The ```bids/bidStatistics``` array can be used to represent key statistical "
-"information about the number of bids and bidders. Each entry in the array is "
-"a ```BidStatistic``` object containing at least:"
+"information about the number of bids and bidders. Each entry in the array is"
+" a ```BidStatistic``` object containing at least:"
 msgstr ""
 
 #: README.md:18
@@ -131,8 +137,8 @@ msgid ""
 "The ```bids/details``` array is used to provide one or more ```Bid``` "
 "objects, each representing a unique bid received."
 msgstr ""
-"La liste ```bids/details``` est utilisée pour fournir un ou plusieurs objets "
-"```Bid```, chacun représentant une unique offre reçue."
+"La liste ```bids/details``` est utilisée pour fournir un ou plusieurs objets"
+" ```Bid```, chacun représentant une unique offre reçue."
 
 #: README.md:0
 msgid "Example"

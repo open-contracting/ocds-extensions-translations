@@ -1,20 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 
+# Copyright (C)
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
+# James McKinney <jmckinney@open-contracting.org>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-27 17:45-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-03-14 18:25+0000\n"
+"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2019\n"
+"Language-Team: French (https://www.transifex.com/OpenDataServices/teams/95084/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: README.md:0
 msgid "Process title and description"
@@ -42,19 +47,19 @@ msgid ""
 "that is provided elsewhere in the OCDS document as structured data."
 msgstr ""
 "Ceux-ci seront souvent utilisés pour fournir un résumé lisible par les "
-"humains des informations qui sont fournies ailleurs dans le document OCDS en "
-"tant que données structurées."
+"humains des informations qui sont fournies ailleurs dans le document OCDS en"
+" tant que données structurées."
 
 #: README.md:9
 msgid ""
-"Publishers using these fields should be aware that not all applications will "
-"display their contents, and so key information for understanding the nature "
-"of the contracting process should generally **also** be provided using core "
-"OCDS fields."
+"Publishers using these fields should be aware that not all applications will"
+" display their contents, and so key information for understanding the nature"
+" of the contracting process should generally **also** be provided using core"
+" OCDS fields."
 msgstr ""
 "Les producteurs de données utilisant ces champs doivent être conscients que "
-"toutes les applications ne montrent pas leur contenu et, par conséquent, les "
-"informations clés pour comprendre la nature du processus de passation de "
+"toutes les applications ne montrent pas leur contenu et, par conséquent, les"
+" informations clés pour comprendre la nature du processus de passation de "
 "marchés devraient généralement **aussi** être fournies à l'aide des champs "
 "de base d'OCDS."
 
@@ -68,9 +73,9 @@ msgstr "Problèmes"
 
 #: README.md:22
 msgid ""
-"Report issues for this extension in the [ocds-extensions repository](https://"
-"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
-"name in the issue's title."
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
 msgstr ""
 "Signalez les problèmes concernant cette extension dans le [répertoire "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), en "

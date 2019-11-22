@@ -1,20 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 
+# Copyright (C)
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
+# James McKinney <jmckinney@open-contracting.org>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-27 17:45-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-03-14 18:31+0000\n"
+"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2019\n"
+"Language-Team: French (https://www.transifex.com/OpenDataServices/teams/95084/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: README.md:0
 msgid "Enquiries"
@@ -35,8 +40,8 @@ msgstr "Structure"
 
 #: README.md:7
 msgid ""
-"The extension adds an `enquiries` array to tender, consisting of one or more "
-"enquiry objects, each with fields for a question, and an answer."
+"The extension adds an `enquiries` array to tender, consisting of one or more"
+" enquiry objects, each with fields for a question, and an answer."
 msgstr ""
 "Cette extension ajoute une liste `enquiries` au composant de l'appel "
 "d'offres (`tender`) comprenant un ou plusieurs objets d'échange, chacun "
@@ -53,21 +58,21 @@ msgid ""
 "`documentType` of 'clarifications'."
 msgstr ""
 "Les documents qui apportent des clarifications ou un document entier "
-"comprenant les réponses aux questions peut être inclus dans la liste `"
-"tenders/documents` avec un champ `documentType` de type \"clarifications\"."
+"comprenant les réponses aux questions peut être inclus dans la liste "
+"`tenders/documents` avec un champ `documentType` de type \"clarifications\"."
 
 #: README.md:36
 msgid ""
-"Where the answers to a question are only available in attached documents, an "
-"`answer` value such as 'Consult section N of \"%document name%\" in the "
+"Where the answers to a question are only available in attached documents, an"
+" `answer` value such as 'Consult section N of \"%document name%\" in the "
 "documents section' may be entered to allow analysts of the data to identify "
 "that an answer to this question has been provided."
 msgstr ""
 "Là où les réponses à une question sont seulement disponibles dans les "
-"documents attachés, une valeur `answer` telle que \"Consult section N of \"%"
-"document name%\" in the documents section\" peut être entrée pour permettre "
-"aux analystes des données d'identifier que la réponse à la question a bien "
-"été fournie."
+"documents attachés, une valeur `answer` telle que \"Consult section N of "
+"\"%document name%\" in the documents section\" peut être entrée pour "
+"permettre aux analystes des données d'identifier que la réponse à la "
+"question a bien été fournie."
 
 #: README.md:38
 msgid ""
@@ -85,31 +90,31 @@ msgid ""
 "Implementations may vary on the amount of enquiry information they provide, "
 "and when it is provided."
 msgstr ""
-"Les mises en application de cette extension peuvent faire varier la quantité "
-"d'information qui sont fournies et quand elles sont fournies. "
+"Les mises en application de cette extension peuvent faire varier la quantité"
+" d'information qui sont fournies et quand elles sont fournies. "
 
 #: README.md:44
 msgid ""
 "Some publishers may omit the identity of the question author to protect "
-"confidentiality of enquirers, or may anonymize this information (e.g. simply "
-"putting the author name as 'Organization 1' or 'Organization 2' so that it "
-"is possible to see questions from the same organization, but not to know the "
-"identity of that organization.)"
+"confidentiality of enquirers, or may anonymize this information (e.g. simply"
+" putting the author name as 'Organization 1' or 'Organization 2' so that it "
+"is possible to see questions from the same organization, but not to know the"
+" identity of that organization.)"
 msgstr ""
-"Certains producteurs de données peuvent enlever l'identité de l'auteur de la "
-"question pour protéger la confidentialité des candidats ou peuvent "
-"anonymiser cette information (par exemple en indiquant \"organisation 1\" ou "
-"\"organisation 2\" comme nom d'auteur pour qu'il soit possible de voir les "
-"questions d'une seule organisation mais pas de connaître l'identité de cette "
-"organisation). "
+"Certains producteurs de données peuvent enlever l'identité de l'auteur de la"
+" question pour protéger la confidentialité des candidats ou peuvent "
+"anonymiser cette information (par exemple en indiquant \"organisation 1\" ou"
+" \"organisation 2\" comme nom d'auteur pour qu'il soit possible de voir les "
+"questions d'une seule organisation mais pas de connaître l'identité de cette"
+" organisation). "
 
 #: README.md:46
 msgid ""
 "The `relatedItem` and `relatedLot` properties are available for use when "
 "questions can be asked in relation to a specific lot or item."
 msgstr ""
-"Les propriétés `relatedItem`et `relatedLot` peuvent être utilisées quand des "
-"questions peuvent être posées à propos d'un lot ou d'un objet spécifique."
+"Les propriétés `relatedItem`et `relatedLot` peuvent être utilisées quand des"
+" questions peuvent être posées à propos d'un lot ou d'un objet spécifique."
 
 #: README.md:48
 msgid "Where possible, the recommended approach is to:"
@@ -149,16 +154,16 @@ msgstr ""
 
 #: README.md:55
 msgid ""
-"We recommend that publishers provide question answers as plain text, or with "
-"minimal HTML markup (paragraphs and line-breaks), and that consuming "
+"We recommend that publishers provide question answers as plain text, or with"
+" minimal HTML markup (paragraphs and line-breaks), and that consuming "
 "applications parse text appropriately to format it for readability (e.g. "
 "replace line-breaks with paragraph breaks in HTML)."
 msgstr ""
 "Nous recommandons aux producteurs de données de fournir les réponses en "
-"texte brut ou avec un minimum de balises HTML (paragraphes et sauts de ligne)"
-" et en s'appuyant sur des applications qui parcourent (*parse*) le texte de "
-"manière appropriée pour que le texte soit lisible (par exemple, en replaçant "
-"les sauts de ligne avec des sauts de paragraphe en HTML)."
+"texte brut ou avec un minimum de balises HTML (paragraphes et sauts de "
+"ligne) et en s'appuyant sur des applications qui parcourent (*parse*) le "
+"texte de manière appropriée pour que le texte soit lisible (par exemple, en "
+"replaçant les sauts de ligne avec des sauts de paragraphe en HTML)."
 
 #: README.md:0
 msgid "Issues"
@@ -166,9 +171,9 @@ msgstr "Problèmes"
 
 #: README.md:59
 msgid ""
-"Report issues for this extension in the [ocds-extensions repository](https://"
-"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
-"name in the issue's title."
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
 msgstr ""
 "Signalez les problèmes concernant cette extension dans le [répertoire "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), en "

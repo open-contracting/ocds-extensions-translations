@@ -1,21 +1,22 @@
 # Translations template for PROJECT.
-# Copyright (C) 2018 ORGANIZATION
+# Copyright (C) 2019 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-11-13 18:59-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"PO-Revision-Date: 2019-03-14 18:28+0000\n"
+"Language-Team: Italian (https://www.transifex.com/OpenDataServices/teams/95084/it/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. /name/en
 #: extension.json:1
@@ -25,9 +26,9 @@ msgstr ""
 #. /description/en
 #: extension.json:1
 msgid ""
-"Makes changes required by the OCDS for PPPs profile, including deleting "
-"core fields. Evaluation indicators, finance summary and project details "
-"may be moved into new extensions."
+"Makes changes required by the OCDS for PPPs profile, including deleting core"
+" fields. Evaluation indicators, finance summary and project details may be "
+"moved into new extensions."
 msgstr ""
 
 #. /properties/initiationType/description
@@ -46,9 +47,9 @@ msgstr ""
 #. /properties/publicAuthority/description
 #: release-schema.json:1
 msgid ""
-"The public authority is the unit/body/department within a government that"
-" is tendering and contracting the project. The public counterpart in the "
-"PPP contract."
+"The public authority is the unit/body/department within a government that is"
+" tendering and contracting the project. The public counterpart in the PPP "
+"contract."
 msgstr ""
 
 #. /definitions/Award/properties/preferredBidders/title
@@ -60,8 +61,8 @@ msgstr ""
 #: release-schema.json:1
 msgid ""
 "The bidder or bidders awarded this award, the preferred bidder(s) will "
-"become the counter party or parties of the procuring authority in the PPP"
-" contract when the contract is signed."
+"become the counter party or parties of the procuring authority in the PPP "
+"contract when the contract is signed."
 msgstr ""
 
 #. /definitions/Award/properties/evaluationIndicators/title
@@ -102,9 +103,9 @@ msgstr ""
 #. /definitions/EvaluationIndicators/properties/riskPremium/description
 #: release-schema.json:1
 msgid ""
-"The risk premium used by government when evaluating the PPP option "
-"expressed as a decimal fraction (e.g. 3.2% = 0.032). An explanation of "
-"the risk premium used should be provided in the riskPremiumDetails field."
+"The risk premium used by government when evaluating the PPP option expressed"
+" as a decimal fraction (e.g. 3.2% = 0.032). An explanation of the risk "
+"premium used should be provided in the riskPremiumDetails field."
 msgstr ""
 
 #. /definitions/EvaluationIndicators/properties/riskPremiumDetails/title
@@ -115,8 +116,8 @@ msgstr ""
 #. /definitions/EvaluationIndicators/properties/riskPremiumDetails/description
 #: release-schema.json:1
 msgid ""
-"Further details on the risk premium used including an explanation of why "
-"it was used."
+"Further details on the risk premium used including an explanation of why it "
+"was used."
 msgstr ""
 
 #. /definitions/EvaluationIndicators/properties/discountRate/title
@@ -128,8 +129,8 @@ msgstr ""
 #: release-schema.json:1
 msgid ""
 "The discount rate used by government when evaluating the PPP option "
-"expressed as a decimal fraction (e.g. 3.2% = 0.032). Further details can "
-"be provided in the discountRateDetails field."
+"expressed as a decimal fraction (e.g. 3.2% = 0.032). Further details can be "
+"provided in the discountRateDetails field."
 msgstr ""
 
 #. /definitions/EvaluationIndicators/properties/discountRateDetails/title
@@ -150,8 +151,8 @@ msgstr ""
 #. /definitions/EvaluationIndicators/properties/netPresentValue/description
 #: release-schema.json:1
 msgid ""
-"The discounted value of an investment's cash inflows minus the discounted"
-" value of its cash outflows. Further details can be provided in the "
+"The discounted value of an investment's cash inflows minus the discounted "
+"value of its cash outflows. Further details can be provided in the "
 "netPresentValueRateDetails field."
 msgstr ""
 
@@ -174,10 +175,10 @@ msgstr ""
 #: release-schema.json:1
 msgid ""
 "The debt-equity ratio of the project, expressed as a decimal value. The "
-"World Bank PPPIRC defines the debt equity ratio as 'long term debt "
-"(divided by) the shareholder equity of the project company'. Also known "
-"as 'leverage' or 'gearing'. Further details on the debt equity ratio can "
-"be provided in the debtEquityRatioDetails field."
+"World Bank PPPIRC defines the debt equity ratio as 'long term debt (divided "
+"by) the shareholder equity of the project company'. Also known as 'leverage'"
+" or 'gearing'. Further details on the debt equity ratio can be provided in "
+"the debtEquityRatioDetails field."
 msgstr ""
 
 #. /definitions/FinanceSummary/properties/debtEquityRatioDetails/title
@@ -198,8 +199,8 @@ msgstr ""
 #. /definitions/FinanceSummary/properties/shareCapital/description
 #: release-schema.json:1
 msgid ""
-"The value of the capital in the project that comes from the issue of "
-"shares. Further details on the share capital can be provided in the "
+"The value of the capital in the project that comes from the issue of shares."
+" Further details on the share capital can be provided in the "
 "shareCapitalDetails field."
 msgstr ""
 
@@ -221,9 +222,9 @@ msgstr ""
 #. /definitions/FinanceSummary/properties/subsidyRatio/description
 #: release-schema.json:1
 msgid ""
-"Subsidy as a proportion of project value, expressed as a decimal fraction"
-" (e.g. 3.2% = 0.032). Further details of the subsidy ratio can be "
-"provided in the subsidyRatioDetails field."
+"Subsidy as a proportion of project value, expressed as a decimal fraction "
+"(e.g. 3.2% = 0.032). Further details of the subsidy ratio can be provided in"
+" the subsidyRatioDetails field."
 msgstr ""
 
 #. /definitions/FinanceSummary/properties/subsidyRatioDetails/title
@@ -244,13 +245,13 @@ msgstr ""
 #. /definitions/FinanceSummary/properties/projectIRR/description
 #: release-schema.json:1
 msgid ""
-"The internal rate of return of the project, expressed as a decimal "
-"fraction (e.g. 3.2% = 0.032). The APMG PPP Certification Program defines "
-"IRR as 'The rate of return of an investment calculated from its projected"
-" cash flows. The internal rate of return (IRR) is also the discount rate "
-"that equates the present value of a future stream of cash flows to the "
-"initial investment'. Further details on the project IRR can be provided "
-"in the projectIRRDetails field."
+"The internal rate of return of the project, expressed as a decimal fraction "
+"(e.g. 3.2% = 0.032). The APMG PPP Certification Program defines IRR as 'The "
+"rate of return of an investment calculated from its projected cash flows. "
+"The internal rate of return (IRR) is also the discount rate that equates the"
+" present value of a future stream of cash flows to the initial investment'. "
+"Further details on the project IRR can be provided in the projectIRRDetails "
+"field."
 msgstr ""
 
 #. /definitions/FinanceSummary/properties/projectIRRDetails/title

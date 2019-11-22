@@ -1,21 +1,26 @@
 # Translations template for PROJECT.
-# Copyright (C) 2018 ORGANIZATION
+# Copyright (C) 2019 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# James McKinney <jmckinney@open-contracting.org>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-11-13 18:59-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"PO-Revision-Date: 2019-03-14 18:31+0000\n"
+"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2019\n"
+"Language-Team: French (https://www.transifex.com/OpenDataServices/teams/95084/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. /name/en
 #: extension.json:1
@@ -25,8 +30,8 @@ msgstr ""
 #. /description/en
 #: extension.json:1
 msgid ""
-"Adds company ownership fields to the organization object used in the "
-"parties array."
+"Adds company ownership fields to the organization object used in the parties"
+" array."
 msgstr ""
 
 #. /definitions/Shareholder/title
@@ -48,8 +53,8 @@ msgstr ""
 #: release-schema.json:1
 msgid ""
 "A local identifier for this shareholder, unique within this block. This "
-"field is used to keep track of multiple revisions of a shareholder "
-"through the compilation from release to record mechanism."
+"field is used to keep track of multiple revisions of a shareholder through "
+"the compilation from release to record mechanism."
 msgstr ""
 
 #. /definitions/Shareholder/properties/shareholder/title
@@ -60,8 +65,8 @@ msgstr ""
 #. /definitions/Shareholder/properties/shareholder/description
 #: release-schema.json:1
 msgid ""
-"An organization reference pointing the entry in the parties section for "
-"the shareholding organization."
+"An organization reference pointing the entry in the parties section for the "
+"shareholding organization."
 msgstr ""
 
 #. /definitions/Shareholder/properties/shareholding/title
@@ -110,9 +115,9 @@ msgstr ""
 #. /definitions/Shareholder/properties/notes/description
 #: release-schema.json:1
 msgid ""
-"Additional notes on this shareholder. This field should be used to "
-"provide details on any caps on equity transfer, or lock-in arrangements, "
-"applicable to this shareholder."
+"Additional notes on this shareholder. This field should be used to provide "
+"details on any caps on equity transfer, or lock-in arrangements, applicable "
+"to this shareholder."
 msgstr ""
 
 #. /definitions/Organization/properties/shareholders/title
@@ -124,9 +129,9 @@ msgstr ""
 #: release-schema.json:1
 msgid ""
 "A list of shareholders in the organization: used to provide company "
-"ownership information for firms, primarily in the case of large and "
-"complex contracts, or Public Private Partnerships, that require "
-"disclosure of this information for certain bidders or awarded parties."
+"ownership information for firms, primarily in the case of large and complex "
+"contracts, or Public Private Partnerships, that require disclosure of this "
+"information for certain bidders or awarded parties."
 msgstr ""
 
 #. /definitions/Organization/properties/beneficialOwnership/title
@@ -139,10 +144,9 @@ msgstr ""
 msgid ""
 "This section can be used to record information concerning individuals or "
 "organizations with a beneficial ownership or control interests in this "
-"party. Where structured data is available, this section may be extended "
-"by embedding or linking to information modelled using the [Beneficial "
-"Ownership Data Standard (BODS)](https://github.com/openownership/data-"
-"standard)."
+"party. Where structured data is available, this section may be extended by "
+"embedding or linking to information modelled using the [Beneficial Ownership"
+" Data Standard (BODS)](https://github.com/openownership/data-standard)."
 msgstr ""
 
 #. /definitions/Organization/properties/beneficialOwnership/properties/description/title
@@ -152,5 +156,6 @@ msgstr "Description"
 
 #. /definitions/Organization/properties/beneficialOwnership/properties/description/description
 #: release-schema.json:1
-msgid "A free text description of beneficial ownership or control arrangements."
+msgid ""
+"A free text description of beneficial ownership or control arrangements."
 msgstr ""

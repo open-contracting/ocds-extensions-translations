@@ -1,20 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 
+# Copyright (C)
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
+# James McKinney <jmckinney@open-contracting.org>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-13 18:59-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"PO-Revision-Date: 2019-03-14 18:27+0000\n"
+"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2019\n"
+"Language-Team: Italian (https://www.transifex.com/OpenDataServices/teams/95084/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: README.md:0
 msgid "Party Details - Scale"
@@ -29,7 +34,8 @@ msgstr ""
 
 #: README.md:5
 msgid ""
-"The `scale` field should be included in a release at `parties/details/scale`."
+"The `scale` field should be included in a release at "
+"`parties/details/scale`."
 msgstr ""
 
 #: README.md:0
@@ -44,8 +50,8 @@ msgstr ""
 
 #: README.md:11
 msgid ""
-"This is a metric used by a number of procurement statistics. For example, to "
-"calculate the share of procurement going to micro, small or medium "
+"This is a metric used by a number of procurement statistics. For example, to"
+" calculate the share of procurement going to micro, small or medium "
 "enterprises."
 msgstr ""
 
@@ -75,8 +81,8 @@ msgstr ""
 #: README.md:21
 msgid ""
 "Laws and regulations vary as to the exact definition of these terms. The "
-"OECD [provide a relevant glossary definition here](https://stats.oecd.org/"
-"glossary/detail.asp?ID=3123)."
+"OECD [provide a relevant glossary definition "
+"here](https://stats.oecd.org/glossary/detail.asp?ID=3123)."
 msgstr ""
 
 #: README.md:0
@@ -95,9 +101,9 @@ msgstr "Problemi (issues)"
 
 #: README.md:47
 msgid ""
-"Report issues for this extension in the [ocds-extensions repository](https://"
-"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
-"name in the issue's title."
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
 msgstr ""
 "Segnala i problemi per questa estensione nel [repository ocds-"
 "extensions](https://github.com/open-contracting/ocds-extensions/issues), "
