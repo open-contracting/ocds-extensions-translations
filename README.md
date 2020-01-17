@@ -112,10 +112,10 @@ For posterity, the commands to initialize this repository were as follows (using
 ```
 set wip path/to/working/directory
 
-for lang in (ls standard/docs/locale)
+for lang in (ls docs/locale)
   for tag in (git tag | grep 1__1)
     git checkout $tag
-    msgcat --use-first standard/docs/locale/$lang/**.po > $lang-$tag.po
+    msgcat --use-first docs/locale/$lang/**.po > $lang-$tag.po
   end
   msgcat --use-first (ls $lang-*.po | tail -r) > $wip/$lang-standard.po
   rm -f $lang-*.po
@@ -133,10 +133,10 @@ git checkout 1.1-dev
 ```
 set wip path/to/working/directory
 
-for lang in (ls locale)
+for lang in (ls docs/locale)
   for tag in (git tag) a99b1da1470aef95a8b0e0e15638b2bf2f2928c1 881ef0e33f6045cd9bc8a9f66c2425856b21d01b c9618931c813b874e4cc8b07237700a067f9dbea 659324007ab17b6070e241ce7aeed08722360340
     git checkout $tag
-    msgcat --use-first locale/$lang/**.po > $lang-(git show -s --format=%ct $tag).po
+    msgcat --use-first docs/locale/$lang/**.po > $lang-(git show -s --format=%ct $tag).po
   end
   msgcat --use-first (ls $lang-*.po | tail -r) > $wip/$lang-ppp.po
   rm -f $lang-*.po
