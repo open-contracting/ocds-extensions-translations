@@ -1,0 +1,156 @@
+# Translations template for PROJECT.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# Automatically generated, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-04-06 18:31-0400\n"
+"PO-Revision-Date: 2020-04-06 18:31-0400\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. /name/en
+#. /definitions/Amendment/properties/unstructuredChanges/title
+#: extension.json:1 release-schema.json:1
+msgid "Unstructured changes"
+msgstr ""
+
+#. /description/en
+#: extension.json:1
+msgid "Adds an unstructuredChanges array to the Amendment object."
+msgstr ""
+
+#. /definitions/Amendment/properties/unstructuredChanges/description
+#: release-schema.json:1
+msgid "Unstructured or semi-structured changes to an earlier notice."
+msgstr ""
+
+#. /definitions/UnstructuredChange/title
+#: release-schema.json:1
+msgid "Unstructured change"
+msgstr ""
+
+#. /definitions/UnstructuredChange/description
+#: release-schema.json:1
+msgid "Unstructured or semi-structured change to an earlier notice."
+msgstr ""
+
+#. /definitions/UnstructuredChange/properties/relatedLot/title
+#: release-schema.json:1
+msgid "Related lot"
+msgstr ""
+
+#. /definitions/UnstructuredChange/properties/relatedLot/description
+#: release-schema.json:1
+msgid "The identifier of the lot to which this change relates, if any."
+msgstr ""
+
+#. /definitions/UnstructuredChange/properties/oldValue/title
+#: release-schema.json:1
+msgid "Old value"
+msgstr ""
+
+#. /definitions/UnstructuredChange/properties/oldValue/description
+#: release-schema.json:1
+msgid ""
+"The value of the data element referenced by the `where` field, before the "
+"change."
+msgstr ""
+
+#. /definitions/UnstructuredChange/properties/newValue/title
+#: release-schema.json:1
+msgid "New value"
+msgstr ""
+
+#. /definitions/UnstructuredChange/properties/newValue/description
+#: release-schema.json:1
+msgid ""
+"The value of the data element referenced by the `where` field, after the "
+"change."
+msgstr ""
+
+#. /definitions/UnstructuredChange/properties/where/title
+#: release-schema.json:1
+msgid "Where"
+msgstr ""
+
+#. /definitions/UnstructuredChange/properties/where/description
+#: release-schema.json:1
+msgid ""
+"A reference to a data element on an earlier notice that is being changed."
+msgstr ""
+
+#. /definitions/UnstructuredChange/properties/where/properties/section/title
+#: release-schema.json:1
+msgid "Section"
+msgstr ""
+
+#. /definitions/UnstructuredChange/properties/where/properties/section/description
+#: release-schema.json:1
+msgid ""
+"The identifier of the section containing the data element, if the earlier "
+"notice is organized into sections."
+msgstr ""
+
+#. /definitions/UnstructuredChange/properties/where/properties/label/title
+#: release-schema.json:1
+msgid "Label"
+msgstr ""
+
+#. /definitions/UnstructuredChange/properties/where/properties/label/description
+#: release-schema.json:1
+msgid "The label for the data element."
+msgstr ""
+
+#. /definitions/UnstructuredChangeValue/title
+#: release-schema.json:1
+msgid "Unstructured change value"
+msgstr ""
+
+#. /definitions/UnstructuredChangeValue/description
+#: release-schema.json:1
+msgid ""
+"A value of a data element. The value must be described using only one of the "
+"fields `text`, `classifications` or `date`."
+msgstr ""
+
+#. /definitions/UnstructuredChangeValue/properties/text/title
+#: release-schema.json:1
+msgid "Text value"
+msgstr ""
+
+#. /definitions/UnstructuredChangeValue/properties/text/description
+#: release-schema.json:1
+msgid ""
+"A text. If the change deleted or erased the data element, use the empty "
+"string (\"\")."
+msgstr ""
+
+#. /definitions/UnstructuredChangeValue/properties/classifications/title
+#: release-schema.json:1
+msgid "Classifications"
+msgstr ""
+
+#. /definitions/UnstructuredChangeValue/properties/classifications/description
+#: release-schema.json:1
+msgid "A list of classifications."
+msgstr ""
+
+#. /definitions/UnstructuredChangeValue/properties/date/title
+#: release-schema.json:1
+msgid "Date"
+msgstr ""
+
+#. /definitions/UnstructuredChangeValue/properties/date/description
+#: release-schema.json:1
+msgid "A date."
+msgstr ""

@@ -1,0 +1,130 @@
+# Translations template for PROJECT.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# Automatically generated, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-04-06 18:31-0400\n"
+"PO-Revision-Date: 2020-04-06 18:31-0400\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. /name/en
+#. /definitions/Tender/properties/submissionTerms/title
+#. /definitions/Lot/properties/submissionTerms/title
+#. /definitions/SubmissionTerms/title
+#: extension.json:1 release-schema.json:1
+msgid "Submission terms"
+msgstr ""
+
+#. /description/en
+#: extension.json:1
+msgid ""
+"Adds a submission terms object to the tender and lot objects, to describe "
+"how, when and where the tenderers must submit their bids."
+msgstr ""
+
+#. /definitions/Tender/properties/submissionTerms/description
+#: release-schema.json:1
+msgid ""
+"Information about the submission terms to describe how, when and where the "
+"tenderers need to submit their bids for the procedure."
+msgstr ""
+
+#. /definitions/Lot/properties/submissionTerms/description
+#: release-schema.json:1
+msgid ""
+"Information about the submission terms to describe how, when and where the "
+"tenderers need to submit their bids for the lot."
+msgstr ""
+
+#. /definitions/SubmissionTerms/description
+#: release-schema.json:1
+msgid ""
+"Information about the submission terms to describe how, when and where the "
+"tenderers need to submit their bids."
+msgstr ""
+
+#. /definitions/SubmissionTerms/properties/electronicSubmissionPolicy/title
+#: release-schema.json:1
+msgid "Electronic submission policy"
+msgstr ""
+
+#. /definitions/SubmissionTerms/properties/electronicSubmissionPolicy/description
+#: release-schema.json:1
+msgid ""
+"Whether tenderers are required, allowed or not allowed to submit bids "
+"electronically."
+msgstr ""
+
+#. /definitions/SubmissionTerms/properties/variantPolicy/title
+#: release-schema.json:1
+msgid "Variant policy"
+msgstr ""
+
+#. /definitions/SubmissionTerms/properties/variantPolicy/description
+#: release-schema.json:1
+msgid ""
+"Whether tenderers are required, allowed or not allowed to submit tenders "
+"which fulfill the buyer's needs differently than as proposed in the "
+"procurement documents."
+msgstr ""
+
+#. /definitions/SubmissionTerms/properties/electronicCataloguePolicy/title
+#: release-schema.json:1
+msgid "Electronic catalogue policy"
+msgstr ""
+
+#. /definitions/SubmissionTerms/properties/electronicCataloguePolicy/description
+#: release-schema.json:1
+msgid ""
+"Whether tenderers are required, allowed or not allowed to submit bids as "
+"electronic catalogues."
+msgstr ""
+
+#. /definitions/SubmissionTerms/properties/languages/title
+#: release-schema.json:1
+msgid "Submission language"
+msgstr ""
+
+#. /definitions/SubmissionTerms/properties/languages/description
+#: release-schema.json:1
+msgid ""
+"One or more languages in which bids or requests to participate can be "
+"submitted, using either two-letter [ISO639-1](https://en.wikipedia.org/wiki/"
+"List_of_ISO_639-1_codes), or extended [BCP47 language tags](http://www.w3."
+"org/International/articles/language-tags/). The use of lowercase two-letter "
+"codes from [ISO639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) "
+"is recommended."
+msgstr ""
+
+#. /definitions/SubmissionTerms/properties/bidValidityPeriod/title
+#: release-schema.json:1
+msgid "Bid valididity period"
+msgstr ""
+
+#. /definitions/SubmissionTerms/properties/bidValidityPeriod/description
+#: release-schema.json:1
+msgid ""
+"The period, from the bid submission deadline, for which bids must remain "
+"valid."
+msgstr ""
+
+#. /definitions/SubmissionTerms/properties/requiresGuarantees/title
+#: release-schema.json:1
+msgid "Guarantees required"
+msgstr ""
+
+#. /definitions/SubmissionTerms/properties/requiresGuarantees/description
+#: release-schema.json:1
+msgid "Whether or not a financial guarantee is required."
+msgstr ""

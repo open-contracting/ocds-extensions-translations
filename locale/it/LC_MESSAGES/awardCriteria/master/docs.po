@@ -1,0 +1,96 @@
+# Italian translations for Python package
+# Traduzioni italiane per il pacchetto Python..
+# Copyright (C) 
+# This file is distributed under the same license as the Python package.
+# Automatically generated, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Python \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-06 18:31-0400\n"
+"PO-Revision-Date: 2020-04-06 18:31-0400\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../README.md:1
+msgid "Award criteria breakdown"
+msgstr ""
+
+#: ../README.md:3
+msgid ""
+"Adds an award criteria array to the lot object, to break down award criteria "
+"by price, cost and quality."
+msgstr ""
+
+#: ../README.md:5
+msgid "Legal context"
+msgstr ""
+
+#: ../README.md:7
+msgid ""
+"In the European Union, this extension's fields correspond to [eForms BG-707 "
+"(Award Criteria)](https://github.com/eForms/eForms). See [OCDS for the "
+"European Union](http://standard.open-contracting.org/profiles/eu/master/en/) "
+"for the correspondences to Tenders Electronic Daily (TED)."
+msgstr ""
+
+#: ../README.md:9
+msgid ""
+"[Directive 2014/24/EU](https://eur-lex.europa.eu/eli/dir/2014/24/oj) "
+"[Article 67](https://eur-lex.europa.eu/eli/dir/2014/24/oj#d1e5950-65-1)(5) "
+"describes weightings and orders of importance."
+msgstr ""
+
+#: ../README.md:11
+msgid "Examples"
+msgstr ""
+
+#: ../README.md:13
+msgid "Weight"
+msgstr ""
+
+#: ../README.md:15
+msgid "These award criteria are 50% service quality and 50% price."
+msgstr ""
+
+#: ../README.md:53
+msgid "Fixed"
+msgstr ""
+
+#: ../README.md:55
+msgid ""
+"The price is fixed at $100,000, such that tenderers compete on quality only."
+msgstr ""
+
+#: ../README.md:97
+msgid "Issues"
+msgstr ""
+
+#: ../README.md:99
+msgid ""
+"Report issues for this extension in the [ocds-extensions repository](https://"
+"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
+"name in the issue's title."
+msgstr ""
+
+#: ../README.md:101
+msgid "Changelog"
+msgstr ""
+
+#: ../README.md:103
+msgid ""
+"This model was discussed in <https://github.com/eForms/eForms/issues/119>, "
+"<https://github.com/eprocurementontology/eprocurementontology/issues/157> "
+"and <https://github.com/eprocurementontology/eprocurementontology/"
+"issues/203>. This extension was originally discussed as part of the [OCDS "
+"for EU profile](https://github.com/open-contracting-extensions/european-"
+"union/issues), in [pull requests](https://github.com/open-contracting-"
+"extensions/ocds_awardCriteria_extension/pulls?q=is%3Apr+is%3Aclosed) and in "
+"<https://github.com/open-contracting/standard/issues/443>."
+msgstr ""

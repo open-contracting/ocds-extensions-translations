@@ -1,0 +1,59 @@
+# Translations template for PROJECT.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# Automatically generated, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-04-06 18:31-0400\n"
+"PO-Revision-Date: 2020-04-06 18:31-0400\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. /name/en
+#. /definitions/Tender/properties/procedure/title
+#. /definitions/Procedure/title
+#: extension.json:1 release-schema.json:1
+msgid "Procedure"
+msgstr ""
+
+#. /description/en
+#: extension.json:1
+msgid "This extension adds a block to describe the procurement procedure."
+msgstr ""
+
+#. /definitions/Tender/properties/procedure/description
+#. /definitions/Procedure/description
+#: release-schema.json:1
+msgid "Information about the procurement procedure."
+msgstr ""
+
+#. /definitions/Procedure/properties/isAccelerated/title
+#: release-schema.json:1
+msgid "Accelerated procedure used"
+msgstr ""
+
+#. /definitions/Procedure/properties/isAccelerated/description
+#: release-schema.json:1
+msgid ""
+"Whether the time limit for receipt of bids or requests to participate can be "
+"reduced due to a state of urgency."
+msgstr ""
+
+#. /definitions/Procedure/properties/acceleratedRationale/title
+#: release-schema.json:1
+msgid "Accelerated procedure rationale"
+msgstr ""
+
+#. /definitions/Procedure/properties/acceleratedRationale/description
+#: release-schema.json:1
+msgid "The justification for using an accelerated procedure."
+msgstr ""

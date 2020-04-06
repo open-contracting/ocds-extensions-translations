@@ -1,0 +1,110 @@
+# Translations template for PROJECT.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# Automatically generated, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-04-06 18:31-0400\n"
+"PO-Revision-Date: 2020-04-06 18:31-0400\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. /name/en
+#: extension.json:1
+msgid "Second stage description"
+msgstr ""
+
+#. /description/en
+#: extension.json:1
+msgid ""
+"Adds a second stage object to the tender and lot objects, to describe the "
+"second stage of a two-stage procedure."
+msgstr ""
+
+#. /definitions/Tender/properties/secondStage/title
+#. /definitions/Lot/properties/secondStage/title
+#. /definitions/SecondStage/title
+#: release-schema.json:1
+msgid "Second stage"
+msgstr ""
+
+#. /definitions/Tender/properties/secondStage/description
+#. /definitions/Lot/properties/secondStage/description
+#. /definitions/SecondStage/description
+#: release-schema.json:1
+msgid ""
+"Information about the second stage of a two-stage procedure (e.g. a "
+"restricted procedure, a competitive procedure with negotiation, a "
+"competitive dialogue or an innovation partnership)."
+msgstr ""
+
+#. /definitions/SecondStage/properties/minimumCandidates/title
+#: release-schema.json:1
+msgid "Minimum number of candidates"
+msgstr ""
+
+#. /definitions/SecondStage/properties/minimumCandidates/description
+#: release-schema.json:1
+msgid ""
+"The minimum number of candidates to be invited for the second stage of the "
+"procedure. If there is an exact limit on the number of candidates, set "
+"`minimumCandidates` and `maximumCandidates` to the same number."
+msgstr ""
+
+#. /definitions/SecondStage/properties/maximumCandidates/title
+#: release-schema.json:1
+msgid "Maximum number of candidates"
+msgstr ""
+
+#. /definitions/SecondStage/properties/maximumCandidates/description
+#: release-schema.json:1
+msgid ""
+"The maximum number of candidates to be invited for the second stage of the "
+"procedure. If there is an exact limit on the number of candidates, set "
+"`minimumCandidates` and `maximumCandidates` to the same number."
+msgstr ""
+
+#. /definitions/SecondStage/properties/successiveReduction/title
+#: release-schema.json:1
+msgid "Successive reduction"
+msgstr ""
+
+#. /definitions/SecondStage/properties/successiveReduction/description
+#: release-schema.json:1
+msgid ""
+"The procedure will take place in successive stages. In each stage, some "
+"participants might be eliminated."
+msgstr ""
+
+#. /definitions/SecondStage/properties/noNegotiationNecessary/title
+#: release-schema.json:1
+msgid "No negotiation necessary"
+msgstr ""
+
+#. /definitions/SecondStage/properties/noNegotiationNecessary/description
+#: release-schema.json:1
+msgid ""
+"The buyer or procuring entity reserves the right to award the contract on "
+"the basis of the initial bids without any further negotiations."
+msgstr ""
+
+#. /definitions/SecondStage/properties/invitationDate/title
+#: release-schema.json:1
+msgid "Invitation date"
+msgstr ""
+
+#. /definitions/SecondStage/properties/invitationDate/description
+#: release-schema.json:1
+msgid ""
+"The estimated date of dispatch of the invitations to participate or to "
+"submit bids."
+msgstr ""
