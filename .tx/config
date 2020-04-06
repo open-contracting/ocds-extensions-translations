@@ -1009,3 +1009,249 @@ source_file = build/locale/budget_project/master/docs.pot
 source_lang = en
 type = PO
 
+[ocds-extensions.procurementMethodRationaleClassifications--master--schema]
+file_filter = locale/<lang>/LC_MESSAGES/procurementMethodRationaleClassifications/master/schema.po
+source_file = build/locale/procurementMethodRationaleClassifications/master/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.procurementMethodRationaleClassifications--master--docs]
+file_filter = locale/<lang>/LC_MESSAGES/procurementMethodRationaleClassifications/master/docs.po
+source_file = build/locale/procurementMethodRationaleClassifications/master/docs.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.options--master--schema]
+file_filter = locale/<lang>/LC_MESSAGES/options/master/schema.po
+source_file = build/locale/options/master/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.options--master--docs]
+file_filter = locale/<lang>/LC_MESSAGES/options/master/docs.po
+source_file = build/locale/options/master/docs.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.submissionTerms--master--codelists]
+file_filter = locale/<lang>/LC_MESSAGES/submissionTerms/master/codelists.po
+source_file = build/locale/submissionTerms/master/codelists.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.submissionTerms--master--schema]
+file_filter = locale/<lang>/LC_MESSAGES/submissionTerms/master/schema.po
+source_file = build/locale/submissionTerms/master/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.submissionTerms--master--docs]
+file_filter = locale/<lang>/LC_MESSAGES/submissionTerms/master/docs.po
+source_file = build/locale/submissionTerms/master/docs.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.coveredBy--master--codelists]
+file_filter = locale/<lang>/LC_MESSAGES/coveredBy/master/codelists.po
+source_file = build/locale/coveredBy/master/codelists.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.coveredBy--master--schema]
+file_filter = locale/<lang>/LC_MESSAGES/coveredBy/master/schema.po
+source_file = build/locale/coveredBy/master/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.coveredBy--master--docs]
+file_filter = locale/<lang>/LC_MESSAGES/coveredBy/master/docs.po
+source_file = build/locale/coveredBy/master/docs.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.organizationClassification--master--schema]
+file_filter = locale/<lang>/LC_MESSAGES/organizationClassification/master/schema.po
+source_file = build/locale/organizationClassification/master/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.organizationClassification--master--docs]
+file_filter = locale/<lang>/LC_MESSAGES/organizationClassification/master/docs.po
+source_file = build/locale/organizationClassification/master/docs.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.contractTerms--master--codelists]
+file_filter = locale/<lang>/LC_MESSAGES/contractTerms/master/codelists.po
+source_file = build/locale/contractTerms/master/codelists.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.contractTerms--master--schema]
+file_filter = locale/<lang>/LC_MESSAGES/contractTerms/master/schema.po
+source_file = build/locale/contractTerms/master/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.contractTerms--master--docs]
+file_filter = locale/<lang>/LC_MESSAGES/contractTerms/master/docs.po
+source_file = build/locale/contractTerms/master/docs.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.unstructuredChanges--master--schema]
+file_filter = locale/<lang>/LC_MESSAGES/unstructuredChanges/master/schema.po
+source_file = build/locale/unstructuredChanges/master/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.unstructuredChanges--master--docs]
+file_filter = locale/<lang>/LC_MESSAGES/unstructuredChanges/master/docs.po
+source_file = build/locale/unstructuredChanges/master/docs.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.procedure--master--schema]
+file_filter = locale/<lang>/LC_MESSAGES/procedure/master/schema.po
+source_file = build/locale/procedure/master/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.procedure--master--docs]
+file_filter = locale/<lang>/LC_MESSAGES/procedure/master/docs.po
+source_file = build/locale/procedure/master/docs.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.bidOpening--master--schema]
+file_filter = locale/<lang>/LC_MESSAGES/bidOpening/master/schema.po
+source_file = build/locale/bidOpening/master/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.bidOpening--master--docs]
+file_filter = locale/<lang>/LC_MESSAGES/bidOpening/master/docs.po
+source_file = build/locale/bidOpening/master/docs.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.subcontracting--master--schema]
+file_filter = locale/<lang>/LC_MESSAGES/subcontracting/master/schema.po
+source_file = build/locale/subcontracting/master/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.subcontracting--master--docs]
+file_filter = locale/<lang>/LC_MESSAGES/subcontracting/master/docs.po
+source_file = build/locale/subcontracting/master/docs.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.communication--master--schema]
+file_filter = locale/<lang>/LC_MESSAGES/communication/master/schema.po
+source_file = build/locale/communication/master/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.communication--master--docs]
+file_filter = locale/<lang>/LC_MESSAGES/communication/master/docs.po
+source_file = build/locale/communication/master/docs.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.designContest--master--schema]
+file_filter = locale/<lang>/LC_MESSAGES/designContest/master/schema.po
+source_file = build/locale/designContest/master/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.designContest--master--docs]
+file_filter = locale/<lang>/LC_MESSAGES/designContest/master/docs.po
+source_file = build/locale/designContest/master/docs.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.otherRequirements--master--codelists]
+file_filter = locale/<lang>/LC_MESSAGES/otherRequirements/master/codelists.po
+source_file = build/locale/otherRequirements/master/codelists.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.otherRequirements--master--schema]
+file_filter = locale/<lang>/LC_MESSAGES/otherRequirements/master/schema.po
+source_file = build/locale/otherRequirements/master/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.otherRequirements--master--docs]
+file_filter = locale/<lang>/LC_MESSAGES/otherRequirements/master/docs.po
+source_file = build/locale/otherRequirements/master/docs.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.secondStageDescription--master--schema]
+file_filter = locale/<lang>/LC_MESSAGES/secondStageDescription/master/schema.po
+source_file = build/locale/secondStageDescription/master/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.secondStageDescription--master--docs]
+file_filter = locale/<lang>/LC_MESSAGES/secondStageDescription/master/docs.po
+source_file = build/locale/secondStageDescription/master/docs.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.awardCriteria--master--codelists]
+file_filter = locale/<lang>/LC_MESSAGES/awardCriteria/master/codelists.po
+source_file = build/locale/awardCriteria/master/codelists.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.awardCriteria--master--schema]
+file_filter = locale/<lang>/LC_MESSAGES/awardCriteria/master/schema.po
+source_file = build/locale/awardCriteria/master/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.awardCriteria--master--docs]
+file_filter = locale/<lang>/LC_MESSAGES/awardCriteria/master/docs.po
+source_file = build/locale/awardCriteria/master/docs.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.selectionCriteria--master--codelists]
+file_filter = locale/<lang>/LC_MESSAGES/selectionCriteria/master/codelists.po
+source_file = build/locale/selectionCriteria/master/codelists.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.selectionCriteria--master--schema]
+file_filter = locale/<lang>/LC_MESSAGES/selectionCriteria/master/schema.po
+source_file = build/locale/selectionCriteria/master/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.selectionCriteria--master--docs]
+file_filter = locale/<lang>/LC_MESSAGES/selectionCriteria/master/docs.po
+source_file = build/locale/selectionCriteria/master/docs.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.techniques--master--codelists]
+file_filter = locale/<lang>/LC_MESSAGES/techniques/master/codelists.po
+source_file = build/locale/techniques/master/codelists.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.techniques--master--schema]
+file_filter = locale/<lang>/LC_MESSAGES/techniques/master/schema.po
+source_file = build/locale/techniques/master/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.techniques--master--docs]
+file_filter = locale/<lang>/LC_MESSAGES/techniques/master/docs.po
+source_file = build/locale/techniques/master/docs.pot
+source_lang = en
+type = PO
+
