@@ -1399,3 +1399,111 @@ source_file = build/locale/essentialAssets/master/docs.pot
 source_lang = en
 type = PO
 
+[ocds-extensions.process_title--v1_1_5--schema]
+file_filter = locale/<lang>/LC_MESSAGES/process_title/v1.1.5/schema.po
+source_file = build/locale/process_title/v1.1.5/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.process_title--v1_1_5--docs]
+file_filter = locale/<lang>/LC_MESSAGES/process_title/v1.1.5/docs.po
+source_file = build/locale/process_title/v1.1.5/docs.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.participation_fee--v1_1_5--codelists]
+file_filter = locale/<lang>/LC_MESSAGES/participation_fee/v1.1.5/codelists.po
+source_file = build/locale/participation_fee/v1.1.5/codelists.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.participation_fee--v1_1_5--schema]
+file_filter = locale/<lang>/LC_MESSAGES/participation_fee/v1.1.5/schema.po
+source_file = build/locale/participation_fee/v1.1.5/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.participation_fee--v1_1_5--docs]
+file_filter = locale/<lang>/LC_MESSAGES/participation_fee/v1.1.5/docs.po
+source_file = build/locale/participation_fee/v1.1.5/docs.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.bids--v1_1_5--codelists]
+file_filter = locale/<lang>/LC_MESSAGES/bids/v1.1.5/codelists.po
+source_file = build/locale/bids/v1.1.5/codelists.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.bids--v1_1_5--schema]
+file_filter = locale/<lang>/LC_MESSAGES/bids/v1.1.5/schema.po
+source_file = build/locale/bids/v1.1.5/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.bids--v1_1_5--docs]
+file_filter = locale/<lang>/LC_MESSAGES/bids/v1.1.5/docs.po
+source_file = build/locale/bids/v1.1.5/docs.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.location--v1_1_5--codelists]
+file_filter = locale/<lang>/LC_MESSAGES/location/v1.1.5/codelists.po
+source_file = build/locale/location/v1.1.5/codelists.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.location--v1_1_5--schema]
+file_filter = locale/<lang>/LC_MESSAGES/location/v1.1.5/schema.po
+source_file = build/locale/location/v1.1.5/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.location--v1_1_5--docs]
+file_filter = locale/<lang>/LC_MESSAGES/location/v1.1.5/docs.po
+source_file = build/locale/location/v1.1.5/docs.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.lots--v1_1_5--schema]
+file_filter = locale/<lang>/LC_MESSAGES/lots/v1.1.5/schema.po
+source_file = build/locale/lots/v1.1.5/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.lots--v1_1_5--docs]
+file_filter = locale/<lang>/LC_MESSAGES/lots/v1.1.5/docs.po
+source_file = build/locale/lots/v1.1.5/docs.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.milestone_documents--v1_1_5--schema]
+file_filter = locale/<lang>/LC_MESSAGES/milestone_documents/v1.1.5/schema.po
+source_file = build/locale/milestone_documents/v1.1.5/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.milestone_documents--v1_1_5--docs]
+file_filter = locale/<lang>/LC_MESSAGES/milestone_documents/v1.1.5/docs.po
+source_file = build/locale/milestone_documents/v1.1.5/docs.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.enquiries--v1_1_5--codelists]
+file_filter = locale/<lang>/LC_MESSAGES/enquiries/v1.1.5/codelists.po
+source_file = build/locale/enquiries/v1.1.5/codelists.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.enquiries--v1_1_5--schema]
+file_filter = locale/<lang>/LC_MESSAGES/enquiries/v1.1.5/schema.po
+source_file = build/locale/enquiries/v1.1.5/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.enquiries--v1_1_5--docs]
+file_filter = locale/<lang>/LC_MESSAGES/enquiries/v1.1.5/docs.po
+source_file = build/locale/enquiries/v1.1.5/docs.pot
+source_lang = en
+type = PO
+
