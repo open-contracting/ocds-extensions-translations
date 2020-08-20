@@ -1255,3 +1255,147 @@ source_file = build/locale/techniques/master/docs.pot
 source_lang = en
 type = PO
 
+[ocds-extensions.statusDetails--master--schema]
+file_filter = locale/<lang>/LC_MESSAGES/statusDetails/master/schema.po
+source_file = build/locale/statusDetails/master/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.statusDetails--master--docs]
+file_filter = locale/<lang>/LC_MESSAGES/statusDetails/master/docs.po
+source_file = build/locale/statusDetails/master/docs.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.recurrence--master--schema]
+file_filter = locale/<lang>/LC_MESSAGES/recurrence/master/schema.po
+source_file = build/locale/recurrence/master/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.recurrence--master--docs]
+file_filter = locale/<lang>/LC_MESSAGES/recurrence/master/docs.po
+source_file = build/locale/recurrence/master/docs.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.pagination--master--schema]
+file_filter = locale/<lang>/LC_MESSAGES/pagination/master/schema.po
+source_file = build/locale/pagination/master/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.pagination--master--docs]
+file_filter = locale/<lang>/LC_MESSAGES/pagination/master/docs.po
+source_file = build/locale/pagination/master/docs.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.renewal--master--schema]
+file_filter = locale/<lang>/LC_MESSAGES/renewal/master/schema.po
+source_file = build/locale/renewal/master/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.renewal--master--docs]
+file_filter = locale/<lang>/LC_MESSAGES/renewal/master/docs.po
+source_file = build/locale/renewal/master/docs.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.countryCode--master--codelists]
+file_filter = locale/<lang>/LC_MESSAGES/countryCode/master/codelists.po
+source_file = build/locale/countryCode/master/codelists.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.countryCode--master--schema]
+file_filter = locale/<lang>/LC_MESSAGES/countryCode/master/schema.po
+source_file = build/locale/countryCode/master/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.countryCode--master--docs]
+file_filter = locale/<lang>/LC_MESSAGES/countryCode/master/docs.po
+source_file = build/locale/countryCode/master/docs.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.tenderClassification--master--codelists]
+file_filter = locale/<lang>/LC_MESSAGES/tenderClassification/master/codelists.po
+source_file = build/locale/tenderClassification/master/codelists.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.tenderClassification--master--schema]
+file_filter = locale/<lang>/LC_MESSAGES/tenderClassification/master/schema.po
+source_file = build/locale/tenderClassification/master/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.tenderClassification--master--docs]
+file_filter = locale/<lang>/LC_MESSAGES/tenderClassification/master/docs.po
+source_file = build/locale/tenderClassification/master/docs.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.tender_datePublished--master--schema]
+file_filter = locale/<lang>/LC_MESSAGES/tender_datePublished/master/schema.po
+source_file = build/locale/tender_datePublished/master/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.tender_datePublished--master--docs]
+file_filter = locale/<lang>/LC_MESSAGES/tender_datePublished/master/docs.po
+source_file = build/locale/tender_datePublished/master/docs.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.eu--master--codelists]
+file_filter = locale/<lang>/LC_MESSAGES/eu/master/codelists.po
+source_file = build/locale/eu/master/codelists.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.eu--master--schema]
+file_filter = locale/<lang>/LC_MESSAGES/eu/master/schema.po
+source_file = build/locale/eu/master/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.eu--master--docs]
+file_filter = locale/<lang>/LC_MESSAGES/eu/master/docs.po
+source_file = build/locale/eu/master/docs.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.legalBasis--master--codelists]
+file_filter = locale/<lang>/LC_MESSAGES/legalBasis/master/codelists.po
+source_file = build/locale/legalBasis/master/codelists.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.legalBasis--master--schema]
+file_filter = locale/<lang>/LC_MESSAGES/legalBasis/master/schema.po
+source_file = build/locale/legalBasis/master/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.legalBasis--master--docs]
+file_filter = locale/<lang>/LC_MESSAGES/legalBasis/master/docs.po
+source_file = build/locale/legalBasis/master/docs.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.essentialAssets--master--schema]
+file_filter = locale/<lang>/LC_MESSAGES/essentialAssets/master/schema.po
+source_file = build/locale/essentialAssets/master/schema.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.essentialAssets--master--docs]
+file_filter = locale/<lang>/LC_MESSAGES/essentialAssets/master/docs.po
+source_file = build/locale/essentialAssets/master/docs.pot
+source_lang = en
+type = PO
+
