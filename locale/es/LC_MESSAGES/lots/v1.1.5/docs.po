@@ -1,0 +1,303 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-20 16:50-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../README.md:1
+msgid "Lots"
+msgstr "Lotes"
+
+#: ../README.md:3
+msgid ""
+"When a single tender is broken down into parts that can be bid upon, and "
+"awarded, separately, this is modelled using the **lots extension**."
+msgstr ""
+"Cuando se desglosa una sola licitación en partes que pueden ofertarse y se "
+"adjudican separadamente, esto se presenta utilizando la **extensión de "
+"lotes**."
+
+#: ../README.md:5
+msgid ""
+"The lots extension maintains the overall structure of an OCDS release, with "
+"items, documents and milestones nested immediately within `tender`, `awards` "
+"and `contracts` sections, but it introduces an array of Lots in the `tender` "
+"section, and the ability to cross-reference a specific `relatedLot` for each "
+"item, and an array of `relatedLots` for documents, milestones and awards."
+msgstr ""
+
+#: ../README.md:7
+msgid ""
+"The `lotDetails` and `lotGroups` sections allow more complex conditions "
+"around the award of lots to be expressed, such as the maximum value of a "
+"group of lots."
+msgstr ""
+
+#: ../README.md:9
+msgid ""
+"This means that systems which are not 'lot aware' can still understand the "
+"overall value of contracting taking place, key events, and relationships "
+"between buyers and suppliers. At the same time, 'lot aware' systems can make "
+"use of the cross-referenced information to present a lot-centric view on the "
+"information to users, or to analyze contracting lot by lot."
+msgstr ""
+"Esto significa que los sistemas que no conocen la 'existencia de lotes' de "
+"igual forma pueden entender el valor global de la contratación que se esta "
+"llevando a cabo, los acontecimientos clave y las relaciones entre los "
+"compradores y los proveedores. Al mismo tiempo, los sistemas que sí conocen "
+"de la 'existencia de lotes' pueden hacer uso de la información referenciada "
+"para presentar una visión centrada-en-lotes en la información a los "
+"usuarios, o para analizar la contratación lote por lote."
+
+#: ../README.md:11
+msgid "Related Lot"
+msgstr "Lote Relacionado"
+
+#: ../README.md:13
+msgid "The `relatedLot` (singular) property is available for:"
+msgstr "La propiedad `relatedLot` (singular) está disponible para:"
+
+#: ../README.md:15
+msgid "items"
+msgstr "items"
+
+#: ../README.md:17
+msgid "An array of `relatedLots` (plural) can be provided for each of:"
+msgstr ""
+"Se puede proporcionar una lista de `relatedLots` (plural) para cada uno de "
+"los siguientes:"
+
+#: ../README.md:19
+msgid "documents"
+msgstr "documents"
+
+#: ../README.md:20
+msgid "milestones"
+msgstr "milestones"
+
+#: ../README.md:21
+msgid "awards"
+msgstr "awards"
+
+#: ../README.md:23
+msgid ""
+"In other extensions, the following objects can also declare related lots:"
+msgstr ""
+
+#: ../README.md:25
+msgid ""
+"bids submitted by tenderers (`Bid`), in the [bid extension](https://github."
+"com/open-contracting-extensions/ocds_bid_extension)"
+msgstr ""
+
+#: ../README.md:26
+msgid ""
+"sources of finance (`Finance`), in the [finance extension](https://github."
+"com/open-contracting-extensions/ocds_finance_extension)"
+msgstr ""
+
+#: ../README.md:28
+msgid "When lots are used, **all** items should have a `relatedLot` field."
+msgstr ""
+
+#: ../README.md:30
+msgid ""
+"Documents and milestones may have a `relatedLots` field. Those without this "
+"field ought to be interpreted as applicable to the tender as a whole."
+msgstr ""
+
+#: ../README.md:32
+msgid ""
+"The items within an award should have a `relatedLot` field. Publishers may "
+"also reference all the lots an award relates to at the award level using "
+"`relatedLots`."
+msgstr ""
+
+#: ../README.md:34
+msgid "How to set `tender.status` if lots' statuses differ?"
+msgstr ""
+
+#: ../README.md:36
+msgid ""
+"`tender.status` and `Lot.status` use the closed tenderStatus.csv codelist. "
+"This codelist progresses from planning statuses ('planning', 'planned'), to "
+"'active' status, and then result statuses ('complete', 'cancelled', "
+"'unsuccessful')."
+msgstr ""
+
+#: ../README.md:38
+msgid ""
+"If any lot's status is 'active', then `tender.status` should be 'active', to "
+"indicate that some lots are awaiting results."
+msgstr ""
+
+#: ../README.md:39
+msgid ""
+"If all lots' status are a result status, then `tender.status` describes the "
+"aggregate result:"
+msgstr ""
+
+#: ../README.md:40
+msgid ""
+"If at least one lot's status is 'complete', then `tender.status` should be "
+"'complete', to indicate that there is at least one award."
+msgstr ""
+
+#: ../README.md:41
+msgid ""
+"Otherwise, if at least one lot's status is 'unsuccessful', then `tender."
+"status` should be 'unsuccessful', to indicate that the procedure was "
+"completed but unsuccessfully."
+msgstr ""
+
+#: ../README.md:42
+msgid ""
+"Otherwise, If all lots' status are 'cancelled', then `tender.status` should "
+"be 'cancelled', to indicate that the procedure was discontinued as a whole."
+msgstr ""
+
+#: ../README.md:44
+msgid "Example"
+msgstr ""
+
+#: ../README.md:46
+msgid ""
+"A tender is issued for consultancy in the development of a new public "
+"building. This might include items for:"
+msgstr ""
+"Se emite una licitación para consultoría en el desarrollo de un nuevo "
+"edificio público. Esto podría incluir elementos para:"
+
+#: ../README.md:48
+msgid "Architectural design"
+msgstr "Diseño arquitectónico"
+
+#: ../README.md:49
+msgid "Architectural advisory services"
+msgstr "Servicios de asesoramiento arquitectónico"
+
+#: ../README.md:50
+msgid "Civil engineering consultancy"
+msgstr "Consultoría de ingeniería civil"
+
+#: ../README.md:51
+msgid "Structural engineering consultancy"
+msgstr "Consultoría en ingeniería estructural"
+
+#: ../README.md:53
+msgid ""
+"Although part of the same tender, the buyer is willing to award these "
+"different items to different firms, and so divides the tender into three "
+"lots."
+msgstr ""
+"Aunque forma parte de la misma oferta, el comprador está dispuesto a "
+"adjudicar estos diferentes artículos a diferentes empresas, y así divide la "
+"oferta en tres lotes."
+
+#: ../README.md:171
+msgid "Issues"
+msgstr "Issues"
+
+#: ../README.md:173
+msgid ""
+"Report issues for this extension in the [ocds-extensions repository](https://"
+"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
+"name in the issue's title."
+msgstr ""
+"Reporte issues para esta extensión en el [repositorio de extensiones "
+"ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
+"el nombre de la extensión en el título del issue."
+
+#: ../README.md:175
+msgid "Changelog"
+msgstr "Registro de cambios"
+
+#: ../README.md:177
+msgid "v1.1.5"
+msgstr ""
+
+#: ../README.md:179
+msgid "Add `tender.lotDetails.awardCriteriaDetails` field"
+msgstr ""
+
+#: ../README.md:180
+msgid "Add `Finance.relatedLots` field"
+msgstr ""
+
+#: ../README.md:181
+msgid "Add `Lot.contractPeriod` field"
+msgstr ""
+
+#: ../README.md:182
+msgid "Remove type information from field descriptions"
+msgstr ""
+
+#: ../README.md:183
+msgid "Review normative and non-normative words"
+msgstr ""
+
+#: ../README.md:185
+msgid "v1.1.4"
+msgstr "v1.1.4"
+
+#: ../README.md:187
+msgid ""
+"Disallow `Tender.lotDetails` from being null (bug introduced in first "
+"release)"
+msgstr ""
+
+#: ../README.md:188
+msgid ""
+"`Tender.lotDetails` no longer uses a `$ref` to a `LotDetails` definition"
+msgstr ""
+"`Tender.lotDetails` ya no usa `$ref` para una definición de `LotDetails` "
+
+#: ../README.md:189
+msgid "Remove Sphinx directives from readme"
+msgstr "Quita las directrices Sphinx del readme"
+
+#: ../README.md:190
+msgid "Update extension.json for Extension Explorer"
+msgstr "Actualiza extension.json para Extension Explorer"
+
+#: ../README.md:192
+msgid "v1.1.3"
+msgstr "v1.1.3"
+
+#: ../README.md:194
+msgid ""
+"Disallow `relatedLots` fields from having null in their arrays of strings"
+msgstr ""
+"No permitir que los campos `relatedLots` tengan null en sus listas de cadenas"
+
+#: ../README.md:195
+msgid "Add enum to `Lot.status`"
+msgstr "Agregar enum a `Lot.status`"
+
+#: ../README.md:196
+msgid "Allow `relatedLots` fields to be null"
+msgstr "Permitir que los campos `relatedLots` sean null"
+
+#: ../README.md:197
+msgid "Add title and description to `Tender.lotDetails`"
+msgstr "Agregar título y descripción a `Tender.lotDetails`"
+
+#: ../README.md:198
+msgid "Use Apache 2.0 License"
+msgstr "Usa la licencia Apache 2.0"
+
+#: ../README.md:199
+msgid "Add tests and tidy code"
+msgstr "Agregar pruebas y ordenar el código"

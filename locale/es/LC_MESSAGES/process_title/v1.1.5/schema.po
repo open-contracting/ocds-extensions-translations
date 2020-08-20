@@ -1,0 +1,55 @@
+# Translations template for PROJECT.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-08-20 16:50-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#. /name/en
+#: extension.json:1
+msgid "Process level title and description"
+msgstr "Título y descripción del nivel del proceso"
+
+#. /description/en
+#: extension.json:1
+msgid ""
+"For providing overall process titles and descriptions, often to give a "
+"free-text summary of the contracting process as a whole."
+msgstr ""
+"Para proporcionar títulos y descripciones del proceso en general , a menudo "
+"para dar un resumen de texto libre del proceso de contratación como un todo."
+
+#. /properties/title/title
+#: release-schema.json:1
+msgid "Title"
+msgstr "Título"
+
+#. /properties/title/description
+#: release-schema.json:1
+msgid "A overall title for this contracting process or release."
+msgstr "Un título general para este proceso de contratación o entrega."
+
+#. /properties/description/title
+#: release-schema.json:1
+msgid "Description"
+msgstr "Descripción"
+
+#. /properties/description/description
+#: release-schema.json:1
+msgid ""
+"An overall description of this contracting process or release. This does "
+"not replace a detailed breakdown of the objects of the contracting "
+"process in the planning, tender, award or contracts section."
+msgstr ""

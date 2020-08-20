@@ -1,0 +1,166 @@
+# Translations template for PROJECT.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-08-20 16:50-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#. /name/en
+#. /definitions/Tender/properties/enquiries/title
+#: extension.json:1 release-schema.json:1
+msgid "Enquiries"
+msgstr "Domande"
+
+#. /description/en
+#: extension.json:1
+msgid ""
+"The enquiries extension can be used to record questions raised during a "
+"contracting process, and the answers provided."
+msgstr ""
+"L'estensione per le richieste di informazioni può essere utilizzata per "
+"registrare le domande sollevate durante una procedura di appalto e le "
+"risposte fornite."
+
+#. /definitions/Tender/properties/enquiries/description
+#: release-schema.json:1
+msgid "Questions sent to the procuring entity, and the answers given"
+msgstr ""
+
+#. /definitions/Enquiry/title
+#: release-schema.json:1
+msgid "Enquiry"
+msgstr "Domanda"
+
+#. /definitions/Enquiry/description
+#: release-schema.json:1
+msgid ""
+"A question related to this contracting process, generally sent during the"
+" enquiry period."
+msgstr ""
+
+#. /definitions/Enquiry/properties/id/title
+#: release-schema.json:1
+msgid "Identifier"
+msgstr "Identificatore"
+
+#. /definitions/Enquiry/properties/id/description
+#: release-schema.json:1
+msgid "A unique identifier for the enquiry."
+msgstr "Un identificativo univoco per la richiesta."
+
+#. /definitions/Enquiry/properties/date/title
+#: release-schema.json:1
+msgid "Date"
+msgstr "Data"
+
+#. /definitions/Enquiry/properties/date/description
+#: release-schema.json:1
+msgid "The date the enquiry was received or processed."
+msgstr "La data in cui la richiesta è stata ricevuta o elaborata."
+
+#. /definitions/Enquiry/properties/author/title
+#: release-schema.json:1
+msgid "Question author"
+msgstr ""
+
+#. /definitions/Enquiry/properties/author/description
+#: release-schema.json:1
+msgid ""
+"The party asking this question. The corresponding entry in the `parties` "
+"array should have 'enquirer' in its `roles` array. Procurement policies "
+"vary on whether or not the identity of those asking questions is "
+"disclosed, or at which stage this information is disclosed."
+msgstr ""
+
+#. /definitions/Enquiry/properties/title/title
+#: release-schema.json:1
+msgid "Question title"
+msgstr ""
+
+#. /definitions/Enquiry/properties/title/description
+#: release-schema.json:1
+msgid "The subject line of the question."
+msgstr "L'oggetto della domanda."
+
+#. /definitions/Enquiry/properties/description/title
+#: release-schema.json:1
+msgid "Description"
+msgstr "Descrizione"
+
+#. /definitions/Enquiry/properties/description/description
+#: release-schema.json:1
+msgid "The body of the question."
+msgstr "Il corpo della domanda."
+
+#. /definitions/Enquiry/properties/answer/title
+#: release-schema.json:1
+msgid "Answer"
+msgstr ""
+
+#. /definitions/Enquiry/properties/answer/description
+#: release-schema.json:1
+msgid "The answer to this question, when available."
+msgstr "La risposta a questa domanda, se disponibile."
+
+#. /definitions/Enquiry/properties/dateAnswered/title
+#: release-schema.json:1
+msgid "Date answered"
+msgstr ""
+
+#. /definitions/Enquiry/properties/dateAnswered/description
+#: release-schema.json:1
+msgid "The date the answer to the question was provided."
+msgstr "La data in cui è stata fornita la risposta alla domanda."
+
+#. /definitions/Enquiry/properties/relatedItem/title
+#: release-schema.json:1
+msgid "Related item"
+msgstr ""
+
+#. /definitions/Enquiry/properties/relatedItem/description
+#: release-schema.json:1
+msgid ""
+"If this question relates to a specific line-item, this field contains the"
+" line-item identifier."
+msgstr ""
+"Se questa domanda si riferisce a uno specifico elemento o lotto, allora "
+"questo campo contiene l'identificativo di tale elemento"
+
+#. /definitions/Enquiry/properties/relatedLot/title
+#: release-schema.json:1
+msgid "Related lot"
+msgstr ""
+
+#. /definitions/Enquiry/properties/relatedLot/description
+#: release-schema.json:1
+msgid ""
+"Where lots are used, if this question relates to a specific lot, this "
+"field contains the lot identifier."
+msgstr ""
+"Dove vengono utilizzati i lotti, se questa domanda si riferisce a un lotto "
+"specifico, questo campo contiene l'identificatore del lotto."
+
+#. /definitions/Enquiry/properties/threadID/title
+#: release-schema.json:1
+msgid "Thread identifier"
+msgstr ""
+
+#. /definitions/Enquiry/properties/threadID/description
+#: release-schema.json:1
+msgid ""
+"If this question and answer forms part of a discussion thread (e.g. the "
+"question is a follow-up to a previous answer) a thread identifier can be "
+"used to associate multiple enquiries."
+msgstr ""

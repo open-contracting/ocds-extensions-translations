@@ -1,0 +1,264 @@
+# Translations template for PROJECT.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-08-20 16:50-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: codelists/bidStatistics.csv
+msgid "Category"
+msgstr "Categoría"
+
+#: codelists/bidStatistics.csv codelists/bidStatus.csv
+msgid "Code"
+msgstr "Código"
+
+#: codelists/bidStatistics.csv codelists/bidStatus.csv
+msgid "Title"
+msgstr "Título"
+
+#: codelists/bidStatistics.csv codelists/bidStatus.csv
+msgid "Description"
+msgstr "Descripción"
+
+#. Title
+#: codelists/bidStatistics.csv:1
+msgid "Requests to participate"
+msgstr "Solicitudes de participación"
+
+#. Description
+#: codelists/bidStatistics.csv:1
+msgid "The total number of unique requests to participate received"
+msgstr "El número total de solicitudes únicas de participación recibidas"
+
+#. Title
+#: codelists/bidStatistics.csv:2
+msgid "Bids"
+msgstr "Ofertas"
+
+#. Description
+#: codelists/bidStatistics.csv:2
+msgid ""
+"The total number of unique bids received (prior to any being discounted "
+"for not meeting essential criteria)."
+msgstr ""
+"El número total de ofertas únicas recibidas (antes de que se descarten por "
+"no cumplir los criterios esenciales)."
+
+#. Title
+#: codelists/bidStatistics.csv:3
+msgid "Valid bids"
+msgstr "Ofertas válidas"
+
+#. Description
+#: codelists/bidStatistics.csv:3
+msgid ""
+"The total number of unique bids received that were considered valid "
+"against relevant criteria (either of the bidder, or the bid submission "
+"itself). All valid bids are considered during the tender evaluation "
+"stage."
+msgstr ""
+
+#. Title
+#: codelists/bidStatistics.csv:4
+msgid "Lowest valid bid value"
+msgstr ""
+
+#. Description
+#: codelists/bidStatistics.csv:4
+msgid "The value of the lowest valid bid."
+msgstr ""
+
+#. Title
+#: codelists/bidStatistics.csv:5
+msgid "Highest valid bid value"
+msgstr ""
+
+#. Description
+#: codelists/bidStatistics.csv:5
+msgid "The value of the highest valid bid."
+msgstr ""
+
+#. Title
+#: codelists/bidStatistics.csv:6
+msgid "Bidders"
+msgstr "Licitantes"
+
+#. Description
+#: codelists/bidStatistics.csv:6
+msgid ""
+"The total number of unique organizations or consortia submitting bids  "
+"(prior to any being discounted for not meeting essential criteria)."
+msgstr ""
+"El número total de organizaciones únicas o consorcios que presentan ofertas ("
+"antes de que se descarten por no cumplir los criterios esenciales)."
+
+#. Title
+#: codelists/bidStatistics.csv:7
+msgid "Qualified bidders"
+msgstr "Licitantes calificados"
+
+#. Description
+#: codelists/bidStatistics.csv:7
+msgid ""
+"The total number of unique organizations or consortia passing the "
+"qualification stage of the evaluation process."
+msgstr ""
+"El número total de organizaciones únicas o consorcios que pasan la fase de "
+"calificación del proceso de evaluación."
+
+#. Title
+#: codelists/bidStatistics.csv:8
+msgid "Disqualified bidders"
+msgstr "Licitantes descalificados"
+
+#. Description
+#: codelists/bidStatistics.csv:8
+msgid ""
+"The total number of unique organizations or consortia that did not pass "
+"the qualification stage of the evaluation process."
+msgstr ""
+"El número total de organizaciones únicas o consorcios que no pasaron la "
+"etapa de calificación del proceso de evaluación."
+
+#. Title
+#: codelists/bidStatistics.csv:9
+msgid "Electronic bids"
+msgstr "Ofertas electrónicas"
+
+#. Description
+#: codelists/bidStatistics.csv:9
+msgid "The number of bids received by electronic means."
+msgstr "El número de ofertas recibidas por medios electrónicos."
+
+#. Title
+#: codelists/bidStatistics.csv:10
+msgid "Bids from SMEs"
+msgstr "Ofertas de PYMES"
+
+#. Description
+#: codelists/bidStatistics.csv:10
+msgid "The number of bids received from small and medium-sized enterprises."
+msgstr "El número de ofertas recibidas de pequeñas o medianas empresas."
+
+#. Title
+#: codelists/bidStatistics.csv:11
+msgid "Bids from foreign firms"
+msgstr "Ofertas de empresas extranjeras"
+
+#. Description
+#: codelists/bidStatistics.csv:11
+msgid ""
+"The number of bids received from bidders from outside the country where "
+"the tender is issued."
+msgstr ""
+"El número de ofertas recibidas de licitantes de fuera del país donde se "
+"emite la oferta."
+
+#. Title
+#: codelists/bidStatistics.csv:12
+msgid "Bids from firms in other European Economic Area countries"
+msgstr ""
+
+#. Description
+#: codelists/bidStatistics.csv:12
+msgid ""
+"The number of bids received from tenderers from other European Economic "
+"Area countries."
+msgstr ""
+
+#. Title
+#: codelists/bidStatistics.csv:13
+msgid "Bids from firms in non-European Economic Area countries"
+msgstr ""
+
+#. Description
+#: codelists/bidStatistics.csv:13
+msgid ""
+"The number of bids received from tenderers from non-European Economic "
+"Area countries."
+msgstr ""
+
+#. Title
+#: codelists/bidStatistics.csv:14
+msgid "Tenders excluded because they were abnormally low"
+msgstr "Ofertas excluídas porque eran anormalmente bajas"
+
+#. Description
+#: codelists/bidStatistics.csv:14
+msgid ""
+"The number of tenders excluded because they were abnormally low. Note "
+"that in some EU datasets this might have been converted from a boolean, "
+"such that a value of 1 would indicate \"1 or more\" tenders were "
+"excluded. Users need to evaluate and interpret data accordingly."
+msgstr ""
+
+#. Title
+#: codelists/bidStatus.csv:1
+msgid "Invited"
+msgstr "Invitado"
+
+#. Description
+#: codelists/bidStatus.csv:1
+msgid "A bid has been invited from the listed tenderer(s)."
+msgstr "Se ha invitado una oferta de los licitadores listados."
+
+#. Title
+#: codelists/bidStatus.csv:2
+msgid "Pending"
+msgstr "Pendiente"
+
+#. Description
+#: codelists/bidStatus.csv:2
+msgid "A bid has been submitted but not yet evaluated."
+msgstr "Se ha enviado una oferta pero aún no se ha evaluado."
+
+#. Title
+#: codelists/bidStatus.csv:3
+msgid "Valid"
+msgstr "Válida"
+
+#. Description
+#: codelists/bidStatus.csv:3
+msgid ""
+"The submitted bid met the qualification requirements in order to be "
+"evaluated."
+msgstr ""
+"La oferta presentada cumplió con los requisitos de calificación para ser "
+"evaluada."
+
+#. Title
+#: codelists/bidStatus.csv:4
+msgid "Disqualified"
+msgstr "Descalificada"
+
+#. Description
+#: codelists/bidStatus.csv:4
+msgid ""
+"The submitted bid did not meet the qualification requirements in order to"
+" be evaluated."
+msgstr ""
+"La oferta presentada no cumplió con los requisitos de calificación para ser "
+"evaluada."
+
+#. Title
+#: codelists/bidStatus.csv:5
+msgid "Withdrawn"
+msgstr "Retirada"
+
+#. Description
+#: codelists/bidStatus.csv:5
+msgid "The submitted bid was withdrawn by the tenderer(s)."
+msgstr "La oferta presentada fue retirada por el(los) licitador(es)."
