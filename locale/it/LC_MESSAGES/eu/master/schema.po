@@ -1,0 +1,111 @@
+# Translations template for PROJECT.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# Automatically generated, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-08-20 16:42-0400\n"
+"PO-Revision-Date: 2020-08-20 16:42-0400\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. /name/en
+#: extension.json:1
+msgid "European Union"
+msgstr ""
+
+#. /description/en
+#: extension.json:1
+msgid "Implements fields and codes that are specific to European law."
+msgstr ""
+
+#. /definitions/Tender/properties/reviewDetails/title
+#: release-schema.json:1
+msgid "Review details"
+msgstr ""
+
+#. /definitions/Tender/properties/reviewDetails/description
+#: release-schema.json:1
+msgid ""
+"Precise information concerning the time limits for the review procedures or "
+"contact information from which it can be obtained."
+msgstr ""
+
+#. /definitions/Tender/properties/valueCalculationMethod/title
+#. /definitions/Award/properties/valueCalculationMethod/title
+#: release-schema.json:1
+msgid "Value calculation method"
+msgstr ""
+
+#. /definitions/Tender/properties/valueCalculationMethod/description
+#: release-schema.json:1
+msgid "The method used for calculating the estimated value of the concession."
+msgstr ""
+
+#. /definitions/Organization/properties/details/properties/url/title
+#: release-schema.json:1
+msgid "Website URL"
+msgstr ""
+
+#. /definitions/Organization/properties/details/properties/url/description
+#: release-schema.json:1
+msgid "The website of the organization."
+msgstr ""
+
+#. /definitions/Organization/properties/details/properties/buyerProfile/title
+#: release-schema.json:1
+msgid "Buyer profile URL"
+msgstr ""
+
+#. /definitions/Organization/properties/details/properties/buyerProfile/description
+#: release-schema.json:1
+msgid "The Web address of the buyer profile."
+msgstr ""
+
+#. /definitions/Award/properties/valueCalculationMethod/description
+#: release-schema.json:1
+msgid ""
+"Any details relevant to the value of the concession according to article "
+"8(3) of Directive 2014/23/EU on concession contracts."
+msgstr ""
+
+#. /definitions/Contract/properties/periodRationale/title
+#: release-schema.json:1
+msgid "Contract period rationale"
+msgstr ""
+
+#. /definitions/Contract/properties/periodRationale/description
+#: release-schema.json:1
+msgid "The rationale for the duration of the contract."
+msgstr ""
+
+#. /definitions/Contract/properties/publicPassengerTransportServicesKilometers/title
+#: release-schema.json:1
+msgid "Kilometers of public passenger transport services"
+msgstr ""
+
+#. /definitions/Contract/properties/publicPassengerTransportServicesKilometers/description
+#: release-schema.json:1
+msgid ""
+"The number of kilometers of public passenger transport services provided by "
+"a public service contract."
+msgstr ""
+
+#. /definitions/Item/properties/deliveryAddresses/title
+#: release-schema.json:1
+msgid "Delivery addresses"
+msgstr ""
+
+#. /definitions/Item/properties/deliveryAddresses/description
+#: release-schema.json:1
+msgid "The addresse(s) to which the supplier delivers the item."
+msgstr ""

@@ -1,0 +1,78 @@
+# Translations template for PROJECT.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# Automatically generated, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-08-20 16:42-0400\n"
+"PO-Revision-Date: 2020-08-20 16:42-0400\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. /name/en
+#. /definitions/Recurrence/title
+#. /definitions/Tender/properties/recurrence/title
+#. /definitions/Lot/properties/recurrence/title
+#: extension.json:1 release-schema.json:1
+msgid "Recurrence"
+msgstr ""
+
+#. /description/en
+#: extension.json:1
+msgid ""
+"Adds fields for information on the recurrence of the contracting process."
+msgstr ""
+
+#. /definitions/Recurrence/description
+#. /definitions/Tender/properties/recurrence/description
+#: release-schema.json:1
+msgid "Information on the recurrence of the contracting process."
+msgstr ""
+
+#. /definitions/Recurrence/properties/dates/title
+#: release-schema.json:1
+msgid "Estimated dates"
+msgstr ""
+
+#. /definitions/Recurrence/properties/dates/description
+#: release-schema.json:1
+msgid ""
+"An estimate of the timing of subsequent initiations of contracting processes "
+"(e.g. notices of intended procurement)."
+msgstr ""
+
+#. /definitions/Recurrence/properties/description/title
+#: release-schema.json:1
+msgid "Further information"
+msgstr ""
+
+#. /definitions/Recurrence/properties/description/description
+#: release-schema.json:1
+msgid "Any further information on the recurrence of the contracting process."
+msgstr ""
+
+#. /definitions/Tender/properties/hasRecurrence/title
+#. /definitions/Lot/properties/hasRecurrence/title
+#: release-schema.json:1
+msgid "Has recurrence"
+msgstr ""
+
+#. /definitions/Tender/properties/hasRecurrence/description
+#. /definitions/Lot/properties/hasRecurrence/description
+#: release-schema.json:1
+msgid "Whether the contracting process is recurrent."
+msgstr ""
+
+#. /definitions/Lot/properties/recurrence/description
+#: release-schema.json:1
+msgid "Information on the recurrence of the lot."
+msgstr ""
