@@ -56,6 +56,7 @@ Set environment variables as appropriate (using the fish shell):
 ```
 set old_version v1.1.3
 set new_version v1.1.4
+set new_version_underscored v1_1_4
 ```
 
 Generate POT files for the new versions of core extensions:
@@ -88,7 +89,7 @@ sphinx-intl update-txconfig-resources --transifex-project-name ocds-extensions -
 Push the new source files:
 
 ```
-for i in (grep v1_1_4 .tx/config | tr -d '[]')
+for i in (grep $new_version_underscored .tx/config | tr -d '[]')
   tx push -s -r $i
 end
 ```
@@ -96,7 +97,7 @@ end
 Push the pre-populated translation files:
 
 ```
-for i in (grep v1_1_4 .tx/config | tr -d '[]')
+for i in (grep $new_version_underscored .tx/config | tr -d '[]')
   tx push -t -r $i
 end
 ```
