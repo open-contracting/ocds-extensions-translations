@@ -98,7 +98,7 @@ Push the pre-populated translation files:
 
 ```
 for i in (grep $new_version_underscored .tx/config | tr -d '[]')
-  tx push -t -r $i
+  tx push -t -r $i -f --no-interactive
 end
 ```
 
