@@ -1,25 +1,26 @@
 # Translations template for PROJECT.
-# Copyright (C) 2019 ORGANIZATION
+# Copyright (C) 2020 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 # 
 # Translators:
-# James McKinney <jmckinney@open-contracting.org>, 2019
+# James McKinney, 2019
 # Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019
+# Romina Fernandez <rfernandez@cds.com.py>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"POT-Creation-Date: 2020-08-20 17:17-0400\n"
 "PO-Revision-Date: 2019-03-14 18:27+0000\n"
-"Last-Translator: Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019\n"
-"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/95084/es/)\n"
+"Last-Translator: Romina Fernandez <rfernandez@cds.com.py>, 2020\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.8.0\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -75,9 +76,9 @@ msgstr "Estadística de ofertas"
 #: release-schema.json:1
 msgid ""
 "For reporting aggregate statistics about the bids related to a tender. Where"
-" lots are in use, statistics may optionally be broken down by lot."
+" lots are in use, statistics can be broken down by lot."
 msgstr ""
-"Para reportar estadísticas agregadas sobre las ofertas relacionadas a una "
+"Para reportar estadísticas agregadas sobre las ofertas pertenecientes a una "
 "licitación. Cuando se utilizan lotes, las estadísticas pueden dividirse por "
 "lotes."
 
@@ -89,8 +90,8 @@ msgstr "ID"
 
 #. /definitions/BidsStatistic/properties/id/description
 #: release-schema.json:1
-msgid "An internal identifier for this statistical item."
-msgstr "Un identificador interno para este elemento estadístico."
+msgid "An internal identifier for this statistic."
+msgstr "Un identificador interno para esta estadística."
 
 #. /definitions/BidsStatistic/properties/measure/title
 #: release-schema.json:1
@@ -99,13 +100,8 @@ msgstr "Medida"
 
 #. /definitions/BidsStatistic/properties/measure/description
 #: release-schema.json:1
-msgid ""
-"An item from the bidStatistics codelist for the statistic reported in value."
-" This is an open codelist, and other statistics may also be included."
-msgstr ""
-"Un elemento de la lista de códigos bidStatistics para la estadística "
-"informada en valor. Esta es una lista de códigos abierta, también se pueden "
-"incluir otras estadísticas."
+msgid "The statistic reported in the value."
+msgstr "La estadística reportada por este valor."
 
 #. /definitions/BidsStatistic/properties/date/title
 #. /definitions/Bid/properties/date/title
@@ -117,16 +113,17 @@ msgstr "Fecha"
 #: release-schema.json:1
 msgid ""
 "The date when this statistic was last updated. This is often the closing "
-"date of the tender process. This field can be left blank unless either (a) "
-"the same statistic is provided from multiple points in time, or (b) there is"
-" a specific local requirement for the date when statistics were calculated "
-"to be provided."
+"date of the tender process. This field may be omitted unless either (a) the "
+"same statistic is provided from multiple points in time, or (b) there is a "
+"specific local requirement for the date when statistics were calculated to "
+"be provided."
 msgstr ""
 "La fecha en que se actualizó por última vez esta estadística. Esta es a "
 "menudo la fecha de cierre del proceso de licitación. Este campo puede "
 "dejarse en blanco a menos que (a) se proporcione la misma estadística desde "
-"múltiples puntos en el tiempo, o (b) exista un requisito local específico "
-"para los datos cuando se calculen estadísticas para que estén disponibles."
+"múltiples puntos en el tiempo, o (b) exista un requerimiento local "
+"específico para proveer la fecha en la cual las estadísticas fueron "
+"calculadas."
 
 #. /definitions/BidsStatistic/properties/value/title
 #. /definitions/Bid/properties/value/title
@@ -138,12 +135,26 @@ msgstr "Valor"
 #: release-schema.json:1
 msgid ""
 "The value for the measure in question. Total counts should be provided as an"
-" integer. Percentages should be presented as a proportion of 1 (e.g. 10% = "
+" integer. Percentages should be provided as a proportion of 1 (e.g. 10% = "
 "0.1)"
 msgstr ""
 "El valor de la medida en cuestión. Los recuentos totales deben "
-"proporcionarse como un entero. Los porcentajes deben presentarse como una "
-"proporción de 1 (por ejemplo, 10% = 0.1)"
+"proporcionarse como un entero. Los porcentajes deberían presentarse como una"
+" proporción de 1 (por ejemplo, 10% = 0.1)"
+
+#. /definitions/BidsStatistic/properties/currency/title
+#: release-schema.json:1
+msgid "Currency"
+msgstr "Moneda"
+
+#. /definitions/BidsStatistic/properties/currency/description
+#: release-schema.json:1
+msgid ""
+"The currency of the amount in the `value` field, if the statistic has a "
+"monetary value."
+msgstr ""
+"La moneda para el monto contenido en el campo `value`, si la estadística "
+"tiene un valor monetario."
 
 #. /definitions/BidsStatistic/properties/notes/title
 #: release-schema.json:1
@@ -152,8 +163,10 @@ msgstr "Notas"
 
 #. /definitions/BidsStatistic/properties/notes/description
 #: release-schema.json:1
-msgid "Any notes required to understand or interpret the given statistic."
-msgstr "Cualquier nota requerida para entender o interpretar la estadística."
+msgid "Any notes needed to understand or interpret the given statistic."
+msgstr ""
+"Cualquier nota requerida para entender o interpretar la estadística "
+"proporcionada."
 
 #. /definitions/BidsStatistic/properties/relatedLot/title
 #: release-schema.json:1
@@ -246,8 +259,8 @@ msgstr "Estado"
 
 #. /definitions/Bid/properties/status/description
 #: release-schema.json:1
-msgid "The status of the bid, drawn from the bidStatus codelist"
-msgstr "El estado de la oferta, extraído de la lista de códigos bidStatus"
+msgid "The status of the bid."
+msgstr "El estado de la oferta."
 
 #. /definitions/Bid/properties/tenderers/title
 #: release-schema.json:1
@@ -256,14 +269,8 @@ msgstr "Licitante"
 
 #. /definitions/Bid/properties/tenderers/description
 #: release-schema.json:1
-msgid ""
-"The party, or parties, responsible for this bid. This should provide a name "
-"and identifier, cross-referenced to an entry in the parties array at the top"
-" level of the release."
-msgstr ""
-"La parte o partes responsables de esta oferta. Esto debe proporcionar un "
-"nombre y un identificador, con referencias cruzadas a una entrada en la "
-"lista de partes en el nivel superior de la entrega."
+msgid "The party, or parties, responsible for this bid."
+msgstr "La parte, o partes, responsable(s) por esta oferta."
 
 #. /definitions/Bid/properties/value/description
 #: release-schema.json:1

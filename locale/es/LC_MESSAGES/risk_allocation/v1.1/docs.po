@@ -4,8 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# James McKinney <jmckinney@open-contracting.org>, 2019
-# Maria Esther Cervantes <mariaesther@idatosabiertos.org>, 2019
+# James McKinney, 2019
 # Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019
 # 
 #, fuzzy
@@ -13,21 +12,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"POT-Creation-Date: 2020-08-20 17:17-0400\n"
 "PO-Revision-Date: 2019-03-14 18:32+0000\n"
 "Last-Translator: Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019\n"
-"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/95084/es/)\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: README.md:0
+#: ../README.md:1
 msgid "Risk allocation"
 msgstr "Asignación de riesgos"
 
-#: README.md:3
+#: ../README.md:3
 msgid ""
 "The [framework for disclosure in "
 "PPPs](http://pubdocs.worldbank.org/en/773541448296707678/Disclosure-in-PPPs-"
@@ -37,7 +36,7 @@ msgstr ""
 "APP](http://pubdocs.worldbank.org/en/773541448296707678/Disclosure-in-PPPs-"
 "Framework.pdf) exige información individual sobre la asignación de riesgos."
 
-#: README.md:5
+#: ../README.md:5
 msgid ""
 "The risk allocation extension is used to provide structured data on the risk"
 " allocations defined in a public private partnerships contract."
@@ -46,11 +45,11 @@ msgstr ""
 "estructurados sobre las asignaciones de riesgo definidas en un contrato de "
 "asociación público-privada."
 
-#: README.md:0
+#: ../README.md:7
 msgid "Overview"
 msgstr "Resumen"
 
-#: README.md:9
+#: ../README.md:9
 msgid ""
 "Risk allocations can be represented using an array of [risk "
 "blocks](../../../schema/reference/#organization) in the ```riskAllocation```"
@@ -60,7 +59,7 @@ msgstr ""
 "[bloques de riesgo](../../../schema/reference/#organization) en el campo "
 "```riskAllocation``` de la sección ```contract``` de una entrega de OCDS."
 
-#: README.md:11
+#: ../README.md:11
 msgid ""
 "The risk category can be represented using the ```risk/category``` field "
 "using values from the [risk category codelist](../schema/codelists/#risk-"
@@ -71,7 +70,7 @@ msgstr ""
 "de riesgo](../schema/codelists/#risk-category) basados ​​en el APMG PPP "
 "Certification Program."
 
-#: README.md:13
+#: ../README.md:13
 msgid ""
 "The party retaining each risk should be represented using the "
 "```risk/allocation``` field using values from the [risk allocation "
@@ -81,7 +80,7 @@ msgstr ""
 "```risk/allocation```, utilizando valores de la [lista de códigos de "
 "asignación de riesgos](../schema/codelists/#risk-allocation)."
 
-#: README.md:15
+#: ../README.md:15
 msgid ""
 "The description of the risk should be provided as free text using the "
 "```risk/description``` field and the mitigation for the risk should be "
@@ -91,96 +90,10 @@ msgstr ""
 " campo ```risk/description``` y la mitigación del riesgo debe proporcionarse"
 " como texto libre utilizando el campo ```risk/mitigation```."
 
-#: README.md:17
+#: ../README.md:17
 msgid ""
 "Additional free text information on the risk can be provided using the "
 "```risk/notes``` field."
 msgstr ""
 "Se puede proporcionar información de texto libre adicional sobre el riesgo "
 "utilizando el campo ```risk/notes```."
-
-#: docs/index.md:0
-msgid "Risk Allocation Extension"
-msgstr "Extensión de Asignación de Riesgos"
-
-#: docs/index.md:3
-msgid ""
-"The risk allocation extension provides a way to describe the risk "
-"allocations defined in a contract."
-msgstr ""
-"La extensión de asignación de riesgos da una forma de describir las "
-"asignaciones de riesgo definida en un contrato."
-
-#: docs/index.md:5
-msgid ""
-"Understanding the allocation of risk between the parties involved in a "
-"contracting process is important for comparison of the agreements between "
-"public authorities and private parties in different projects and "
-"jurisdictions."
-msgstr ""
-"Entender la asignación de riesgo entre las partes involucradas en una "
-"proceso de contrataciones es importante para comparar los acuerdos entre las"
-" autoridades públicas y las partes privadas en los diferentes proyectos y "
-"jurisdicciones."
-
-#: docs/index.md:7
-msgid ""
-"This extension introduces a new ```risk``` building block and extends the "
-"```contract``` section of OCDS block with a new ```riskAllocation``` field."
-msgstr ""
-"Esta extensión introduce un nuevo bloque de ```risk``` que extiende la "
-"sección  ```contract``` del bloque OCDS con un nuevo campo "
-"```riskAllocation```."
-
-#: docs/index.md:0
-msgid "Risk Allocation Field"
-msgstr "Campo de asignación de riesgo"
-
-#: docs/index.md:11
-msgid ""
-"The ```contract/riskAllocation``` field is an array of ```risk``` buliding "
-"blocks, describing the allocation of risks in the contract."
-msgstr ""
-"El campo ```contract/riskAllocation``` es una lista de bloques de "
-"construcción ```risk``` que describen la asignación de riesgo en el "
-"contrato."
-
-#: docs/index.md:0
-msgid "Risk Building Block"
-msgstr "Bloque de construcción de riesgo"
-
-#: docs/index.md:15
-msgid "The risk building block provides a way to:"
-msgstr "El bloque de construcción de riesgo permite:"
-
-#: docs/index.md:17
-msgid ""
-"Categorise the risk against the [risk category codelist](http://standard"
-".open-contracting.org/latest/en/schema/codelists/#risk-category)"
-msgstr ""
-"Categorizar el riesgo contra la [risk category codelist](http://standard"
-".open-contracting.org/latest/en/schema/codelists/#risk-category)"
-
-#: docs/index.md:18
-msgid "Provide a free text description of the risk"
-msgstr "Dar una descripción en texto sobre el riesgo"
-
-#: docs/index.md:19
-msgid ""
-"Describe the allocation of the risk between the parties in the contracting "
-"process"
-msgstr ""
-"Describir la asignación de riesgo entre las partes del proceso de "
-"contrataciones"
-
-#: docs/index.md:20
-msgid "Describe the likelihood and fiscal impact of the risk"
-msgstr "Describir la posibilidad y el impacto fiscal del riesgo"
-
-#: docs/index.md:21
-msgid "Describe the mitigation for the risk"
-msgstr "Describir la mitigación del riesgo"
-
-#: docs/index.md:22
-msgid "Provide additional notes on the risk"
-msgstr "Dar notas adicionales sobre el riesgo"

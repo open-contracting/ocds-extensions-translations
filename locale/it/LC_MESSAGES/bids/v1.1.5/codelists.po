@@ -2,20 +2,25 @@
 # Copyright (C) 2020 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
-#
+# 
+# Translators:
+# James McKinney, 2020
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-08-20 16:50-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2020-08-20 17:17-0400\n"
+"PO-Revision-Date: 2020-08-20 21:03+0000\n"
+"Last-Translator: James McKinney, 2020\n"
+"Language-Team: Italian (https://www.transifex.com/open-contracting-partnership-1/teams/112300/it/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: codelists/bidStatistics.csv
 msgid "Category"
@@ -51,8 +56,8 @@ msgstr "Offerte"
 #. Description
 #: codelists/bidStatistics.csv:2
 msgid ""
-"The total number of unique bids received (prior to any being discounted "
-"for not meeting essential criteria)."
+"The total number of unique bids received (prior to any being discounted for "
+"not meeting essential criteria)."
 msgstr ""
 "Il numero totale di offerte uniche ricevute (prima che qualcuna venga "
 "esclusa per il mancato rispetto dei criteri essenziali)"
@@ -65,10 +70,9 @@ msgstr ""
 #. Description
 #: codelists/bidStatistics.csv:3
 msgid ""
-"The total number of unique bids received that were considered valid "
-"against relevant criteria (either of the bidder, or the bid submission "
-"itself). All valid bids are considered during the tender evaluation "
-"stage."
+"The total number of unique bids received that were considered valid against "
+"relevant criteria (either of the bidder, or the bid submission itself). All "
+"valid bids are considered during the tender evaluation stage."
 msgstr ""
 
 #. Title
@@ -102,8 +106,8 @@ msgid ""
 "The total number of unique organizations or consortia submitting bids  "
 "(prior to any being discounted for not meeting essential criteria)."
 msgstr ""
-"Il numero totale di organizzazioni o consorzi unici che presentano domande ("
-"prima che qualcuna venga esclusa per il mancato rispetto dei criteri "
+"Il numero totale di organizzazioni o consorzi unici che presentano domande "
+"(prima che qualcuna venga esclusa per il mancato rispetto dei criteri "
 "essenziali)."
 
 #. Title
@@ -128,8 +132,8 @@ msgstr ""
 #. Description
 #: codelists/bidStatistics.csv:8
 msgid ""
-"The total number of unique organizations or consortia that did not pass "
-"the qualification stage of the evaluation process."
+"The total number of unique organizations or consortia that did not pass the "
+"qualification stage of the evaluation process."
 msgstr ""
 "Il numero totale di organizzazioni o consorzi unici che non hanno superato "
 "la fase di qualificazione del processo di valutazione."
@@ -162,8 +166,8 @@ msgstr ""
 #. Description
 #: codelists/bidStatistics.csv:11
 msgid ""
-"The number of bids received from bidders from outside the country where "
-"the tender is issued."
+"The number of bids received from bidders from outside the country where the "
+"tender is issued."
 msgstr ""
 "Il numero di offerte ricevute da parte di concorrenti al di fuori del paese "
 "nel quale si tiene la gara"
@@ -176,8 +180,8 @@ msgstr ""
 #. Description
 #: codelists/bidStatistics.csv:12
 msgid ""
-"The number of bids received from tenderers from other European Economic "
-"Area countries."
+"The number of bids received from tenderers from other European Economic Area"
+" countries."
 msgstr ""
 
 #. Title
@@ -188,8 +192,8 @@ msgstr ""
 #. Description
 #: codelists/bidStatistics.csv:13
 msgid ""
-"The number of bids received from tenderers from non-European Economic "
-"Area countries."
+"The number of bids received from tenderers from non-European Economic Area "
+"countries."
 msgstr ""
 
 #. Title
@@ -200,10 +204,10 @@ msgstr "Offerte escluse in quanto eccessivamente basse"
 #. Description
 #: codelists/bidStatistics.csv:14
 msgid ""
-"The number of tenders excluded because they were abnormally low. Note "
-"that in some EU datasets this might have been converted from a boolean, "
-"such that a value of 1 would indicate \"1 or more\" tenders were "
-"excluded. Users need to evaluate and interpret data accordingly."
+"The number of tenders excluded because they were abnormally low. Note that "
+"in some EU datasets this might have been converted from a boolean, such that"
+" a value of 1 would indicate \"1 or more\" tenders were excluded. Users need"
+" to evaluate and interpret data accordingly."
 msgstr ""
 
 #. Title
@@ -248,8 +252,8 @@ msgstr "Escluso"
 #. Description
 #: codelists/bidStatus.csv:4
 msgid ""
-"The submitted bid did not meet the qualification requirements in order to"
-" be evaluated."
+"The submitted bid did not meet the qualification requirements in order to be"
+" evaluated."
 msgstr ""
 "L'offerta presentata non risponde ai requisiti richiesti per essere oggetto "
 "di valutazione."

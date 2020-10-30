@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# James McKinney <jmckinney@open-contracting.org>, 2019
+# James McKinney, 2019
 # Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019
 # 
 #, fuzzy
@@ -12,21 +12,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"POT-Creation-Date: 2020-08-20 17:17-0400\n"
 "PO-Revision-Date: 2019-03-14 18:26+0000\n"
 "Last-Translator: Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019\n"
-"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/95084/es/)\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: README.md:0
+#: ../README.md:1
 msgid "Metrics Extension"
 msgstr "Extensión de Métricas"
 
-#: README.md:4
+#: ../README.md:4
 msgid ""
 "The metrics extension provides a common building block for reporting "
 "structured performance information on contracts."
@@ -34,7 +34,7 @@ msgstr ""
 "La extensión de métricas proporciona un bloque de construcción común para "
 "reportar información estructurada de rendimiento de los contratos."
 
-#: README.md:6
+#: ../README.md:6
 msgid ""
 "Metrics are structured like an [OLAP data "
 "cube](https://en.wikipedia.org/wiki/OLAP_cube) with each instance of "
@@ -46,11 +46,11 @@ msgstr ""
 "```Metric``` representando una sola **observation**, categorizada por un "
 "número de **dimensions**."
 
-#: README.md:0
+#: ../README.md:48
 msgid "Use with requirements"
 msgstr "Uso con requerimientos "
 
-#: README.md:50
+#: ../README.md:50
 msgid ""
 "Metrics can be used along with the **requirements extension** which will add"
 " a 'relatedRequirementID' property to metrics."
@@ -58,7 +58,7 @@ msgstr ""
 "Las métricas se pueden utilizar junto con la **extensión de requisitos** que"
 " agregará una propiedad 'relatedRequirementID' a las métricas."
 
-#: README.md:52
+#: ../README.md:52
 msgid ""
 "With the requirements extension, bids, awards and contracts can include a "
 "```requirementResponse``` indicating the values against each metric that a "
@@ -68,7 +68,7 @@ msgstr ""
 "pueden incluir un ```requirementResponse``` que indica los valores contra "
 "cada métrica que un proveedor desea cumplir."
 
-#: README.md:54
+#: ../README.md:54
 msgid ""
 "This can allow a degree of comparison between performance anticipated at "
 "bid, award, contract and implementation phases."
@@ -76,18 +76,18 @@ msgstr ""
 "Esto puede permitir un cierto grado de comparación entre el rendimiento "
 "previsto en las fases de licitación, adjudicación, contrato y ejecución."
 
-#: README.md:0
+#: ../README.md:56
 msgid "To Do"
 msgstr "Por hacer"
 
-#: README.md:58
+#: ../README.md:58
 msgid "[ ] Check oneOf schema syntax for value **or** quantity"
 msgstr "[ ] Comprobar la sintaxis del esquema oneOf para value **o**quantity"
 
-#: README.md:59
+#: ../README.md:59
 msgid "[ ] Add relatedRequirementID to requirements extension"
 msgstr "[ ] Agregar relatedRequirementID a la extensión de requisitos"
 
-#: README.md:60
+#: ../README.md:60
 msgid "[ ] Validate schema updates"
 msgstr "[ ] Validar actualizaciones de esquema"

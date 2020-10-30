@@ -1,10 +1,10 @@
 # Translations template for PROJECT.
-# Copyright (C) 2019 ORGANIZATION
+# Copyright (C) 2020 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 # 
 # Translators:
-# James McKinney <jmckinney@open-contracting.org>, 2019
+# James McKinney, 2019
 # Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019
 # 
 #, fuzzy
@@ -12,14 +12,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"POT-Creation-Date: 2020-08-20 17:20-0400\n"
 "PO-Revision-Date: 2019-03-14 18:32+0000\n"
 "Last-Translator: Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019\n"
-"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/95084/es/)\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.8.0\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -100,16 +100,11 @@ msgstr "Riesgo medioambiental"
 #. Description
 #: codelists/riskCategory.csv:2
 msgid ""
-"Environmental risks may be related to a number of environmental issues such "
-"as general contamination, pollution, water contamination, impact on the "
-"natural environment etc. An adverse assessment may require changes in "
+"Environmental risks might be related to a number of environmental issues "
+"such as general contamination, pollution, water contamination, impact on the"
+" natural environment etc. An adverse assessment might lead to changes in "
 "design, leading to a direct impact on cost of infrastructure"
 msgstr ""
-"Los riesgos medioambientales pueden estar relacionados con una serie de "
-"cuestiones ambientales tales como la contaminación general, la contaminación"
-" del aire, la contaminación del agua, el impacto en el medio ambiente, etc. "
-"Una evaluación adversa puede requerir cambios en el diseño que lleven a un "
-"impacto directo en el costo de la infraestructura"
 
 #. Title
 #: codelists/riskCategory.csv:3
@@ -168,8 +163,8 @@ msgstr ""
 
 #. Title
 #: codelists/riskCategory.csv:7
-msgid "Foreign exchange, Inflation and indexation risk"
-msgstr "Riesgo de inflación y de indexación"
+msgid "Foreign exchange, inflation and indexation risk"
+msgstr ""
 
 #. Description
 #: codelists/riskCategory.csv:7
@@ -246,18 +241,15 @@ msgstr ""
 
 #. Title
 #: codelists/riskCategory.csv:13
-msgid "Force Majeure"
-msgstr "Fuerza mayor"
+msgid "Force majeure"
+msgstr ""
 
 #. Description
 #: codelists/riskCategory.csv:13
 msgid ""
 "Risk that external events beyond the control of the parties to the contract,"
-" such as natural disasters, wars, terrorism etc.,  affect the project"
+" such as natural disasters, wars, terrorism etc., affect the project"
 msgstr ""
-"Riesgo de que eventos externos fuera del control de las partes en el "
-"contrato, como desastres naturales, guerras, terrorismo, etc., afecten el "
-"proyecto"
 
 #. Title
 #: codelists/riskCategory.csv:14
@@ -267,12 +259,9 @@ msgstr "Terminación anticipada"
 #. Description
 #: codelists/riskCategory.csv:14
 msgid ""
-"Risk that compensation sum due to early termination may be insufficient to "
-"meet private party’s financial obligations or is less than expected"
+"Risk that compensation sum due to early termination might be insufficient to"
+" meet private party’s financial obligations or is less than expected"
 msgstr ""
-"Riesgo de que la suma de compensación debida a la terminación anticipada "
-"pueda ser insuficiente para satisfacer las obligaciones financieras de las "
-"partes privadas o sea inferior a la esperada"
 
 #. Title
 #: codelists/riskCategory.csv:15

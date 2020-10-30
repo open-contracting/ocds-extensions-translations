@@ -4,28 +4,28 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# James McKinney <jmckinney@open-contracting.org>, 2019
+# James McKinney, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"POT-Creation-Date: 2020-08-20 17:17-0400\n"
 "PO-Revision-Date: 2019-03-14 18:27+0000\n"
-"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2019\n"
-"Language-Team: Italian (https://www.transifex.com/OpenDataServices/teams/95084/it/)\n"
+"Last-Translator: James McKinney, 2019\n"
+"Language-Team: Italian (https://www.transifex.com/open-contracting-partnership-1/teams/112300/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: README.md:0
+#: ../README.md:1
 msgid "Bid statistics and details"
 msgstr "Statistiche e dettagli dell'offerta"
 
-#: README.md:4
+#: ../README.md:4
 msgid ""
 "Information on bids submitted as part of a contracting process is important "
 "for many forms of analysis, including:"
@@ -33,24 +33,24 @@ msgstr ""
 "Le informazioni sulle offerte presentate come parte di un processo di "
 "contrattazione sono importanti per molte forme di analisi, tra cui:"
 
-#: README.md:6
+#: ../README.md:6
 msgid ""
 "Market analysis for understanding the competitiveness of a given "
 "marketplace;"
 msgstr ""
 "Analisi di mercato per capire la competitività in un determinato mercato;"
 
-#: README.md:7
+#: ../README.md:7
 msgid "Red flag analysis for understanding potential corruption risks; and"
 msgstr ""
 "Analisi delle allerte per la comprensione dei potenziali rischi di "
 "corruzione; e"
 
-#: README.md:8
+#: ../README.md:8
 msgid "Value for money analysis;"
 msgstr "Analisi del rapporto qualità/prezzo;"
 
-#: README.md:10
+#: ../README.md:10
 msgid ""
 "Regulatory regimes vary on the extent to which they allow information on "
 "bidding to be proactively published, and at what point in the procurement "
@@ -69,7 +69,7 @@ msgstr ""
 "solo le statistiche riassuntive sul numero di offerte ricevute possono "
 "essere rese pubbliche."
 
-#: README.md:12
+#: ../README.md:12
 msgid ""
 "The OCDS bid extension introduces a new, flexible, top-level section to each"
 " contracting process to capture bidding information. Implementers will need "
@@ -82,38 +82,38 @@ msgstr ""
 "dovranno valutare quali campi sono applicabili al loro regime normativo "
 "locale e ai casi d'uso locali."
 
-#: README.md:0
+#: ../README.md:14
 msgid "Bid Statistics"
 msgstr "Statistiche sulle offerte"
 
-#: README.md:16
+#: ../README.md:16
 msgid ""
 "The ```bids/bidStatistics``` array can be used to represent key statistical "
 "information about the number of bids and bidders. Each entry in the array is"
 " a ```BidsStatistic``` object containing at least:"
 msgstr ""
 
-#: README.md:18
+#: ../README.md:18
 msgid "An identifier;"
 msgstr "Un identificatore;"
 
-#: README.md:19
+#: ../README.md:19
 msgid "A measure, from the bidStatistics codelist;"
 msgstr "Una misura, dal vocabolario controllato del bidStatistics;"
 
-#: README.md:20
+#: ../README.md:20
 msgid "A value for that measure;"
 msgstr "Un valore per quella misura;"
 
-#: README.md:0
+#: ../README.md:22
 msgid "Bid Statistics Schema"
 msgstr ""
 
-#: README.md:0
+#: ../README.md:30
 msgid "Bid Statistics Codelist"
 msgstr "Vocabolario delle statistiche sulle offerte"
 
-#: README.md:32
+#: ../README.md:32
 msgid ""
 "This is an **open** codelist. Publishers can add their own codes to this "
 "list. When doing so, publishers are encouraged to engage with the open "
@@ -124,7 +124,7 @@ msgstr ""
 "incoraggiati ad impegnarsi con la comunità per concordare le definizioni di "
 "ciascun codice."
 
-#: README.md:34
+#: ../README.md:34
 msgid ""
 "For example, publishers may wish to add statistics on minority or women "
 "owned businesses, or bids that meet certain environmental standards and "
@@ -134,24 +134,24 @@ msgstr ""
 "statistiche sulle imprese di minoranza o di proprietà delle donne o sulle "
 "offerte che soddisfano determinati standard e obiettivi ambientali."
 
-#: README.md:0
+#: ../README.md:42
 msgid "Bid details"
 msgstr ""
 
-#: README.md:44
+#: ../README.md:44
 msgid ""
 "The ```bids/details``` array is used to provide one or more ```Bid``` "
 "objects, each representing a unique bid received."
 msgstr ""
 
-#: README.md:0
+#: ../README.md:52
 msgid "Bid Status Codelist"
 msgstr "Vocabolario controllato degli stati dell'offerta"
 
-#: README.md:0
+#: ../README.md:60
 msgid "Example"
 msgstr "Esempio"
 
-#: README.md:62
+#: ../README.md:62
 msgid "ToDo"
 msgstr ""

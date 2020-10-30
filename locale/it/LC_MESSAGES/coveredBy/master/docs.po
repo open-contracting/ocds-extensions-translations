@@ -1,17 +1,16 @@
-# Italian translations for Python package
-# Traduzioni italiane per il pacchetto Python..
-# Copyright (C) 
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)
 # This file is distributed under the same license as the Python package.
-# Automatically generated, 2020.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-06 18:31-0400\n"
-"PO-Revision-Date: 2020-04-06 18:31-0400\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"POT-Creation-Date: 2020-08-20 17:17-0400\n"
+"PO-Revision-Date: 2020-08-20 21:41+0000\n"
+"Language-Team: Italian (https://www.transifex.com/open-contracting-partnership-1/teams/112300/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,63 +23,77 @@ msgstr ""
 
 #: ../README.md:3
 msgid ""
-"This extension adds a field to indicate the treaties, laws, regulations or "
-"other instruments that the contracting process is covered by."
+"This extension adds a field to indicate the treaties that the contracting "
+"process is covered by."
 msgstr ""
 
 #: ../README.md:5
-msgid "Usage"
+msgid ""
+"A treaty, like the Agreement on Government Procurement (GPA), can require a "
+"member to indicate that a contracting process is covered by it. The "
+"`tender.coveredBy` field should be used to meet such requirements."
 msgstr ""
 
 #: ../README.md:7
 msgid ""
-"A treaty, law, regulation or other instrument may require that a buyer "
-"indicate that a contracting process is covered by it."
+"To disclose the laws or regulations that govern the contracting process and "
+"that grant legal authority to the procuring entity, use the [legalBasis "
+"extension](https://github.com/open-contracting-"
+"extensions/ocds_legalBasis_extension) instead."
 msgstr ""
 
 #: ../README.md:9
-msgid "The `tender.coveredBy` field should be used to meet such requirements."
+msgid "Legal context"
 msgstr ""
 
 #: ../README.md:11
-msgid "Legal context"
+msgid ""
+"The [Revised Agreement on Government "
+"Procurement](https://www.wto.org/english/docs_e/legal_e/rev-gpr-94_01_e.htm)"
+" (GPA) includes: \"each notice of intended procurement shall include … l. an"
+" indication that the procurement is covered by this Agreement.\""
 msgstr ""
 
 #: ../README.md:13
 msgid ""
-"The [Revised Agreement on Government Procurement](https://www.wto.org/"
-"english/docs_e/legal_e/rev-gpr-94_01_e.htm) (GPA) includes: \"each notice of "
-"intended procurement shall include … l. an indication that the procurement "
-"is covered by this Agreement.\""
+"The European Union is a "
+"[party](https://www.wto.org/english/tratop_e/gproc_e/memobs_e.htm) to the "
+"GPA, and as such its [Directive 2014/24/EU](https://eur-lex.europa.eu/legal-"
+"content/EN/TXT/?uri=uriserv:OJ.L_.2014.094.01.0065.01.ENG) (Public contracts"
+" — setting out clear ground rules) includes: \"Part C: Information to be "
+"included in contract notices … 29. Indication whether the contract is "
+"covered by the GPA.\""
 msgstr ""
 
 #: ../README.md:15
-msgid ""
-"The European Union is a [party](https://www.wto.org/english/tratop_e/gproc_e/"
-"memobs_e.htm) to the GPA, and as such its [Directive 2014/24/EU](https://eur-"
-"lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.094.01.0065.01."
-"ENG) (Public contracts — setting out clear ground rules) includes: \"Part C: "
-"Information to be included in contract notices … 29. Indication whether the "
-"contract is covered by the GPA.\""
-msgstr ""
-
-#: ../README.md:17
 msgid "Example"
 msgstr ""
 
-#: ../README.md:19
+#: ../README.md:17
 msgid ""
 "The `tender.coveredBy` field is an array of strings, whose values are "
 "selected from the `coveredBy.csv` open codelist."
 msgstr ""
 
-#: ../README.md:31
+#: ../README.md:29
 msgid "Issues"
 msgstr ""
 
-#: ../README.md:33
+#: ../README.md:31
 msgid ""
-"Report issues for this extension in the [ocds-extensions repository](https://"
-"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
-"name in the issue's title."
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
+msgstr ""
+
+#: ../README.md:33
+msgid "Changelog"
+msgstr ""
+
+#: ../README.md:35
+msgid "2020-04-24"
+msgstr ""
+
+#: ../README.md:37
+msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
 msgstr ""

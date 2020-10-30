@@ -4,29 +4,28 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# James McKinney <jmckinney@open-contracting.org>, 2019
-# Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019
+# James McKinney, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"POT-Creation-Date: 2020-08-20 17:17-0400\n"
 "PO-Revision-Date: 2019-03-14 18:28+0000\n"
-"Last-Translator: Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019\n"
-"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/95084/es/)\n"
+"Last-Translator: James McKinney, 2019\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: README.md:0
+#: ../README.md:1
 msgid "Charges"
 msgstr "Cargos"
 
-#: README.md:3
+#: ../README.md:3
 msgid ""
 "The charges extension is used to record details of the **total** charges "
 "that are estimated or applied to users or government during the operation of"
@@ -36,7 +35,7 @@ msgstr ""
 "totales** estimados o aplicados a los usuarios o al gobierno durante la "
 "operación de un contrato de Asociación Público Privada."
 
-#: README.md:5
+#: ../README.md:5
 msgid ""
 "This can be used to provide a breakdown of **government support** to a "
 "project, on a period-by-period basis."
@@ -44,60 +43,21 @@ msgstr ""
 "Esto puede utilizarse para proporcionar un desglose del **apoyo "
 "gubernamental** a un proyecto, sobre una base de período por período."
 
-#: README.md:0
-msgid "Overview"
-msgstr "Resumen"
-
-#: README.md:9
+#: ../README.md:7
 msgid ""
-"The Charges extension introduces a `charges` property to both `Contract` and"
-" `Contract/Implementation`."
+"The Charges extension introduces a `charges` property to "
+"`Contract.implementation`."
 msgstr ""
-"La extensión Cargos introduce una propiedad `charges` tanto para `Contract` "
-"como para `Contract/Implementation`."
 
-#: README.md:11
-msgid "This contains an array of `Charge` objects with properties for:"
-msgstr "Contiene una lista de objetos `Charge` con propiedades para:"
-
-#: README.md:13
-msgid "`title` - a descriptive title of the charge;"
-msgstr "`title` - título descriptivo del cargo;"
-
-#: README.md:14
-msgid "`paidBy` - either 'government' or 'user';"
-msgstr "`paidBy` - ya sea 'gobierno' o 'usuario';"
-
-#: README.md:15
-msgid "`period` - the start and end-date of the period covered by the charge;"
+#: ../README.md:9
+msgid "Example"
 msgstr ""
-"`period`: la fecha de inicio y de finalización del período cubierto por el "
-"cargo;"
 
-#: README.md:16
-msgid ""
-"`estimatedValue` - the predicated total value of this charge during the "
-"period;"
-msgstr ""
-"`estimatedValue` - el valor total previsto de este cargo durante el período;"
-
-#: README.md:17
-msgid ""
-"`actualValue` - the actual value (updated after the period has ended) of the"
-" charge during the period;"
-msgstr ""
-"`actualValue` - el valor real (actualizado después de finalizado el período)"
-" del cargo durante el período;"
-
-#: README.md:18
-msgid "`notes` - further information on the charge;"
-msgstr "`notes` - información adicional sobre el cargo;"
-
-#: README.md:0
+#: ../README.md:54
 msgid "Issues"
 msgstr "Issues"
 
-#: README.md:22
+#: ../README.md:56
 msgid ""
 "Report issues for this extension in the [ocds-extensions "
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "
@@ -107,16 +67,35 @@ msgstr ""
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
 "el nombre de la extensión en el título del issue."
 
-#: README.md:0
+#: ../README.md:58
 msgid "Changelog"
 msgstr "Registro de cambios"
 
-#: README.md:26
-msgid ""
-"2018-05-08 - Make `charge/id` required to support revision tracking and "
-"[list merging](http://standard.open-"
-"contracting.org/latest/en/schema/merging/#lists)."
+#: ../README.md:60
+msgid "2020-04-24"
 msgstr ""
-"2018-05-08 - Hace `charge/id` un requisito para soportar el seguimiento de "
-"revisiones y [list merging](http://standard.open-"
-"contracting.org/latest/en/schema/merging/#lists)."
+
+#: ../README.md:62
+msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
+msgstr ""
+
+#: ../README.md:64
+msgid "2019-03-20"
+msgstr ""
+
+#: ../README.md:66
+msgid ""
+"Set `\"uniqueItems\": true` on array fields, and add `\"minLength\": 1` on "
+"required string fields."
+msgstr ""
+
+#: ../README.md:68
+msgid "2018-05-08"
+msgstr ""
+
+#: ../README.md:70
+msgid ""
+"Make `Charge.id` required to support revision tracking and [list "
+"merging](http://standard.open-"
+"contracting.org/latest/en/schema/merging/#lists)"
+msgstr ""

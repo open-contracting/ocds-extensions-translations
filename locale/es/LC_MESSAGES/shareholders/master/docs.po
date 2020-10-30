@@ -4,30 +4,28 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# James McKinney <jmckinney@open-contracting.org>, 2019
-# Maria Esther Cervantes <mariaesther@idatosabiertos.org>, 2019
-# Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019
+# James McKinney, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"POT-Creation-Date: 2020-08-20 17:17-0400\n"
 "PO-Revision-Date: 2019-03-14 18:31+0000\n"
-"Last-Translator: Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019\n"
-"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/95084/es/)\n"
+"Last-Translator: James McKinney, 2019\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: README.md:0
+#: ../README.md:1
 msgid "Shareholder and ownership details"
 msgstr "Detalles del accionista y de la propiedad"
 
-#: README.md:3
+#: ../README.md:3
 msgid ""
 "The shareholder extension can be used to provide details of the owners of "
 "parties involved in a contracting process."
@@ -35,7 +33,7 @@ msgstr ""
 "La extensión de accionista se puede utilizar para proporcionar detalles de "
 "los propietarios de las partes involucradas en un proceso de contratación."
 
-#: README.md:5
+#: ../README.md:5
 msgid ""
 "For example, in Public Private Partnerships processes, companies are often "
 "required to disclose information on their ownership structures when bidding,"
@@ -49,31 +47,25 @@ msgstr ""
 "mantener información sobre la propiedad de una Sociedad con Fines "
 "Específicos (SPV) actualizada durante la ejecución del proyecto."
 
-#: README.md:7
+#: ../README.md:7
 msgid ""
 "Because each owner mentioned in the shareholders array should also gain an "
-"entry in the 'parties' array, it is possible to use this extension to build "
+"entry in the `parties` array, it is possible to use this extension to build "
 "up information on corporate ownership networks involved in a contracting "
 "process."
 msgstr ""
-"Debido a que cada propietario mencionado en la matriz de accionistas también"
-" debe tener una entrada en la lista de 'parties', es posible utilizar esta "
-"extensión para crear información sobre las redes de propiedad corporativa "
-"involucrados en un proceso de contratación."
 
-#: README.md:0
+#: ../README.md:9
 msgid "Beneficial ownership"
 msgstr "Propiedad beneficiaria "
 
-#: README.md:11
+#: ../README.md:11
 msgid ""
-"This extension also includes a 'stub' entry for recording beneficial "
+"This extension also includes a \"stub\" entry for recording beneficial "
 "ownership information against a party."
 msgstr ""
-"Esta extensión también incluye una entrada 'stub' para registrar información"
-" de propiedad beneficiaria contra una parte."
 
-#: README.md:13
+#: ../README.md:13
 msgid ""
 "At present this includes space for free-text description of ownership and "
 "control structures, but this may be further extended with structured "
@@ -86,11 +78,15 @@ msgstr ""
 "[Beneficial Ownership Data Standard](https://github.com/openownership/data-"
 "standard)."
 
-#: README.md:0
+#: ../README.md:15
+msgid "Example"
+msgstr ""
+
+#: ../README.md:61
 msgid "Issues"
 msgstr "Issues"
 
-#: README.md:17
+#: ../README.md:63
 msgid ""
 "Report issues for this extension in the [ocds-extensions "
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "
@@ -100,80 +96,46 @@ msgstr ""
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
 "el nombre de la extensión en el título del issue."
 
-#: README.md:0
+#: ../README.md:65
 msgid "Changelog"
 msgstr "Registro de cambios"
 
-#: README.md:21
-msgid ""
-"2018-05-08 - Make `shareholder/id` required to support revision tracking and"
-" [list merging](http://standard.open-"
-"contracting.org/latest/en/schema/merging/#lists)."
+#: ../README.md:67
+msgid "2020-04-24"
 msgstr ""
-"2018-05-08 - Hacer `shareholder/id` requerido para soportar el seguimiento "
-"de revisiones y  [list merging](http://standard.open-"
-"contracting.org/latest/en/schema/merging/#lists)."
 
-#: docs/index.md:0
-msgid "Shareholders Extension"
-msgstr "Extensión de Accionistas"
-
-#: docs/index.md:3
-msgid ""
-"The shareholder extension provides a way to describe the shareholders of the"
-" entities involved in a contracting process."
+#: ../README.md:69
+msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
 msgstr ""
-"La extensión de accionistas da una forma de describir a los accionistas de "
-"las entidades involucradas en un proceso de contrataciones"
 
-#: docs/index.md:5
-msgid ""
-"Understanding the shareholders of the bidders or successful suppliers is "
-"important for analysis of the different organizations involved in "
-"contracting processes. This is particularly important where bidders are "
-"consortia."
+#: ../README.md:71
+msgid "2019-03-20"
 msgstr ""
-"Entender los accionistas de los ofertantes o proveedores exitosos es "
-"importante para el análisis de diferentes organizaciones involucradas en un "
-"proceso de contrataciones. Esto es particularmente importante cuando los "
-"ofertantes son consorcios."
 
-#: docs/index.md:7
-msgid ""
-"The extension introduces a new `Shareholder` building block and extends the "
-"`Organization` building block with a new `shareholders` field."
+#: ../README.md:73
+msgid "Add `\"minLength\": 1` on required string fields."
 msgstr ""
-"la extensión incluye un nuevo bloque de construcción `Shareholder` que "
-"extiende el bloque de construcción con un nuevo campo `shareholders`."
 
-#: docs/index.md:0
-msgid "Shareholders Field"
-msgstr "Campo de accionistas"
-
-#: docs/index.md:11
+#: ../README.md:74
 msgid ""
-"The `Organization/shareholders` field is an array of `Shareholder` building "
-"blocks, describing the shareholders for the organization."
+"Make `Organization.beneficialOwnership` non-nullable (undo earlier change)."
 msgstr ""
-"El campo  `Organization/shareholders` es una matriz de bloques de "
-"construcción `Shareholder`, describiendo los accionistas de la organización."
 
-#: docs/index.md:0
-msgid "Shareholder Building Block"
-msgstr "Bloque de construcción de accionistas"
+#: ../README.md:76
+msgid "2018-05-08"
+msgstr ""
 
-#: docs/index.md:15
-msgid "The shareholder building block provides a way to:"
-msgstr "Bloque de construcción de accionistas da una forma de:"
+#: ../README.md:78
+msgid ""
+"Make `Shareholder.id` required to support revision tracking and [list "
+"merging](http://standard.open-"
+"contracting.org/latest/en/schema/merging/#lists)"
+msgstr ""
 
-#: docs/index.md:17
-msgid "Link to the organization details of the shareholder"
-msgstr "Liga a los detalles de la organización del accionista"
+#: ../README.md:80
+msgid "2018-01-29"
+msgstr ""
 
-#: docs/index.md:18
-msgid "Describe the amount of shares held by the shareholder"
-msgstr "Describe el número de acciones que tiene el accionista"
-
-#: docs/index.md:19
-msgid "Describe the voting rights associated with the shareholding"
-msgstr "Describir los derechos de voto que se asocian con ser accionista"
+#: ../README.md:82
+msgid "Make `Organization.beneficialOwnership` nullable."
+msgstr ""

@@ -1,26 +1,27 @@
 # Translations template for PROJECT.
-# Copyright (C) 2019 ORGANIZATION
+# Copyright (C) 2020 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 # 
 # Translators:
-# James McKinney <jmckinney@open-contracting.org>, 2019
-# Maria Esther Cervantes <mariaesther@idatosabiertos.org>, 2019
+# James McKinney, 2019
+# Maria Esther Cervantes <mcervantes@cds.com.py>, 2019
 # Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019
+# Romina Fernandez <rfernandez@cds.com.py>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"POT-Creation-Date: 2020-08-20 17:18-0400\n"
 "PO-Revision-Date: 2019-03-14 18:29+0000\n"
-"Last-Translator: Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019\n"
-"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/95084/es/)\n"
+"Last-Translator: Romina Fernandez <rfernandez@cds.com.py>, 2020\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.8.0\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -34,10 +35,10 @@ msgstr "Lotes"
 #. /description/en
 #: extension.json:1
 msgid ""
-"A tender process may be divided into lots, where bidders can bid on one or "
+"A tender process can be divided into lots, where bidders can bid on one or "
 "more lots. Details of each lot can be provided here. Items, documents and "
-"other features can then reference the lot they are related to using "
-"relatedLot. Where no relatedLot identifier is given, the values should be "
+"other features may then reference the lot they are related to using "
+"relatedLot. Where no relatedLot identifier is given, the values ought to be "
 "interpreted as applicable to the whole tender."
 msgstr ""
 "Un proceso de licitación se puede dividir en lotes, donde los licitadores "
@@ -45,24 +46,26 @@ msgstr ""
 "proporcionar aquí. Los artículos, documentos y otras características pueden "
 "hacer referencia al lote que están relacionados con el uso de relatedLot. "
 "Cuando no se indique ningún identificador relacionado, los valores deben "
-"interpretarse como aplicables a toda la oferta."
+"interpretarse como aplicables a toda la licitación."
 
 #. /definitions/Tender/properties/lots/description
 #: release-schema.json:1
 msgid ""
-"A tender process may be divided into lots, where bidders can bid on one or "
+"A tender process can be divided into lots, where bidders can bid on one or "
 "more lots. Details of each lot can be provided here. Items, documents and "
-"other features can then reference the lot they are related to using "
-"relatedLot. Where no relatedLots identifier is given, the values should be "
-"interpreted as applicable to the whole tender. Properties of tender can be "
+"other features may then reference the lot they are related to using "
+"relatedLot. Where no relatedLots identifier is given, the values ought to be"
+" interpreted as applicable to the whole tender. Properties of tender can be "
 "overridden for a given Lot through their inclusion in the Lot object."
 msgstr ""
 "Un proceso de licitación se puede dividir en lotes, donde los licitadores "
 "pueden ofertar en uno o más lotes. Los detalles de cada lote se pueden "
 "proporcionar aquí. Los artículos, documentos y otras características pueden "
-"hacer referencia a la porción que están relacionados con el uso de "
-"relatedLot. Cuando no se indique ningún identificador relacionado, los "
-"valores deben interpretarse como aplicables a toda la oferta."
+"hacer referencia al lote al que están relacionados con el uso de relatedLot."
+" Cuando no se indique ningún identificador relacionado, los valores deben "
+"interpretarse como aplicables a toda la licitación. Las propiedades de la "
+"licitación pueden ser sobreescritas para un lote dado a través de su "
+"inclusión en el objeto Lot."
 
 #. /definitions/Tender/properties/lotDetails/title
 #: release-schema.json:1
@@ -73,13 +76,10 @@ msgstr "Detalles del lote"
 #: release-schema.json:1
 msgid ""
 "If this tender is divided into lots, details can be provided here of any "
-"criteria that apply to bidding on these lots. This extended property is "
-"currently focused on fields required by the EU TED data standard"
+"criteria that apply to bidding on these lots."
 msgstr ""
-"Si esta licitación se divide en lotes, se pueden proporcionar detalles aquí "
-"de cualquier criterio que se aplique a la licitación de estos lotes. Esta "
-"propiedad extendida se centra actualmente en los campos requeridos por el "
-"estándar de datos TED de la UE"
+"Si esta licitación está dividida en lotes, aquí pueden darse detalles de los"
+" criterios que aplican para hacer una oferta en estos lotes."
 
 #. /definitions/Tender/properties/lotDetails/properties/maximumLotsBidPerSupplier/title
 #. /definitions/Tender/properties/lotDetails/properties/maximumLotsAwardedPerSupplier/title
@@ -90,7 +90,7 @@ msgstr "Lotes máximos por proveedor"
 #. /definitions/Tender/properties/lotDetails/properties/maximumLotsBidPerSupplier/description
 #: release-schema.json:1
 msgid ""
-"The maximum number of lots that one supplier may bid for as part of this "
+"The maximum number of lots that one supplier can bid on as part of this "
 "contracting process."
 msgstr ""
 "El número máximo de lotes por los que un proveedor puede ofertar como parte "
@@ -99,11 +99,24 @@ msgstr ""
 #. /definitions/Tender/properties/lotDetails/properties/maximumLotsAwardedPerSupplier/description
 #: release-schema.json:1
 msgid ""
-"The maximum number of lots that may be awarded to one supplier as part of "
+"The maximum number of lots that can be awarded to one supplier as part of "
 "this contracting process."
 msgstr ""
 "El número máximo de lotes que pueden adjudicarse a un proveedor como parte "
 "de este proceso de contratación."
+
+#. /definitions/Tender/properties/lotDetails/properties/awardCriteriaDetails/title
+#: release-schema.json:1
+msgid "Award criteria details"
+msgstr "Detalles de criterios de adjudicación"
+
+#. /definitions/Tender/properties/lotDetails/properties/awardCriteriaDetails/description
+#: release-schema.json:1
+msgid ""
+"Any detailed or further information on the award or selection criteria."
+msgstr ""
+"Cualquier información detallada o adicional sobre la adjudicación o los "
+"criterios de selección."
 
 #. /definitions/Tender/properties/lotGroups/title
 #: release-schema.json:1
@@ -126,6 +139,7 @@ msgstr ""
 #. /definitions/Milestone/properties/relatedLots/title
 #. /definitions/Award/properties/relatedLots/title
 #. /definitions/Bid/properties/relatedLots/title
+#. /definitions/Finance/properties/relatedLots/title
 #. /definitions/LotGroup/properties/relatedLots/title
 #: release-schema.json:1
 msgid "Related lot(s)"
@@ -149,10 +163,10 @@ msgstr "Lote relacionado"
 #: release-schema.json:1
 msgid ""
 "If this item belongs to a lot, provide the identifier of the related lot "
-"here. Each item may only belong to a single lot."
+"here."
 msgstr ""
-"Si este artículo pertenece a un lote, proporcione el identificador del lote "
-"relacionado aquí. Cada artículo puede pertenecer solamente a un solo lote."
+"Si este artículo pertenece a un lote, provea el identificador del lote "
+"relacionado aquí."
 
 #. /definitions/Milestone/properties/relatedLots/description
 #: release-schema.json:1
@@ -180,6 +194,15 @@ msgid ""
 msgstr ""
 "Si esta oferta se relaciona con uno o más lotes específicos, proporcione el "
 "(los) identificador(es) del(los) lote(s) relacionado(s) aquí."
+
+#. /definitions/Finance/properties/relatedLots/description
+#: release-schema.json:1
+msgid ""
+"If this source of finance relates to one or more specific lots, provide the "
+"identifier(s) of the related lot(s) here."
+msgstr ""
+"Si esta fuente de financiamiento se relaciona con uno o más lotes "
+"específicos, provea el/los identificador(es) de los lotes relacionados aquí."
 
 #. /definitions/Lot/description
 #: release-schema.json:1
@@ -232,14 +255,8 @@ msgstr "Estado del lote"
 
 #. /definitions/Lot/properties/status/description
 #: release-schema.json:1
-msgid ""
-"The current status of the process related to this lot based on the "
-"[tenderStatus codelist](http://standard.open-"
-"contracting.org/1.1/en/schema/codelists/#tender-status)"
-msgstr ""
-"El estado actual del proceso relacionado con este lote se basa en [la lista "
-"de códigos de estado de licitación] (http://standard.open-"
-"contracting.org/1.1/en/schema/codelists/#tender-status)"
+msgid "The current status of the process related to this lot."
+msgstr "El estado actual del proceso relacionado a este lote."
 
 #. /definitions/Lot/properties/value/title
 #: release-schema.json:1
@@ -250,6 +267,21 @@ msgstr "Valor del Lote"
 #: release-schema.json:1
 msgid "The maximum estimated value of this lot."
 msgstr "El valor máximo estimado de este lote."
+
+#. /definitions/Lot/properties/contractPeriod/title
+#: release-schema.json:1
+msgid "Contract period"
+msgstr "Periodo del contrato"
+
+#. /definitions/Lot/properties/contractPeriod/description
+#: release-schema.json:1
+msgid ""
+"The period over which the contract is estimated or specified to be active. "
+"If the lot does not specify explicit dates, the duration field can be used."
+msgstr ""
+"El periodo sobre el cual se estima o especifica que el contrato estará "
+"activo. Si el lote no especifica fechas explícitas, se puede usar el campo "
+"`duration`."
 
 #. /definitions/LotGroup/title
 #: release-schema.json:1
@@ -269,7 +301,7 @@ msgstr "Un identificador local para este grupo de lotes."
 #. /definitions/LotGroup/properties/relatedLots/description
 #: release-schema.json:1
 msgid ""
-"A list of the identifiers of the lots that form this group. Lots may appear "
+"A list of the identifiers of the lots that form this group. Lots can appear "
 "in more than one group."
 msgstr ""
 "Una lista de los identificadores de los lotes que forman este grupo. Los "
@@ -297,8 +329,8 @@ msgstr "Valor máximo"
 #. /definitions/LotGroup/properties/maximumValue/description
 #: release-schema.json:1
 msgid ""
-"The maximum estimated value of the lots in this group. This may be lower "
+"The maximum estimated value of the lots in this group. This can be lower "
 "than the sum total of lot values"
 msgstr ""
 "El valor máximo estimado de los lotes de este grupo. Este puede ser inferior"
-" a la suma total de los valores del lote"
+" a la suma total de los valores de los lotes."

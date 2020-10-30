@@ -4,33 +4,33 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# James McKinney <jmckinney@open-contracting.org>, 2019
-# Maria Esther Cervantes <mariaesther@idatosabiertos.org>, 2019
+# James McKinney, 2019
+# Maria Esther Cervantes <mcervantes@cds.com.py>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"POT-Creation-Date: 2020-08-20 17:17-0400\n"
 "PO-Revision-Date: 2019-03-14 18:29+0000\n"
-"Last-Translator: Maria Esther Cervantes <mariaesther@idatosabiertos.org>, 2019\n"
-"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/95084/es/)\n"
+"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2019\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: README.md:0
+#: ../README.md:1
 msgid "Contract level buyer information"
 msgstr "Información del comprador a nivel de contrato"
 
-#: README.md:0
+#: ../README.md:3
 msgid "Background"
 msgstr "Antecedentes"
 
-#: README.md:5
+#: ../README.md:5
 msgid ""
 "The core OCDS schema provides space for a single `buyer` to be described for"
 " each contracting process. The buyer is defined as the organizations whose "
@@ -42,7 +42,7 @@ msgstr ""
 "una organización cuyos fondos se usan directamente para la compra de bienes,"
 " servicios o trabajos descritos en el contrato."
 
-#: README.md:7
+#: ../README.md:7
 msgid ""
 "However, some forms of contracting process, such as framework agreements, "
 "may result in multiple contracts, with each contract signed by a different "
@@ -52,7 +52,7 @@ msgstr ""
 "son resultado de múltiples contratos, con cada contrato firmado por un "
 "comprador diferente"
 
-#: README.md:9
+#: ../README.md:9
 msgid ""
 "This extension provides a way to provide `buyer` information on a per "
 "contract basis."
@@ -60,26 +60,22 @@ msgstr ""
 "Esta extensión provee una forma de dar información sobre `buyer` por "
 "contrato."
 
-#: README.md:0
+#: ../README.md:11
 msgid "Extension fields"
 msgstr "Campos de extensión"
 
-#: README.md:13
+#: ../README.md:13
 msgid ""
-"This extension adds a `buyer` property to the `contract` section of OCDS."
+"This extension adds a `buyer` property to the `contracts` section of OCDS."
 msgstr ""
-"Esta extensión añade una propiedad `buyer` en la sección  `contract` de "
-"OCDS."
 
-#: README.md:15
+#: ../README.md:15
 msgid ""
-"`contract.buyer` is an `OrganizationReference` consisting of the following "
+"`contracts.buyer` is an `OrganizationReference` consisting of the following "
 "fields:"
 msgstr ""
-"`contract.buyer` es un `OrganizationReference` que consiste de los "
-"siguientes campos:"
 
-#: README.md:17
+#: ../README.md:17
 msgid ""
 "`name` - The name of the party being referenced. This must match the name of"
 " an entry in the `parties` section."
@@ -87,7 +83,7 @@ msgstr ""
 "`name` - El nombre de la parte a la que se hace referencia. Esto debe ser "
 "igual que el nombre en la entrada de la sección `parties`."
 
-#: README.md:18
+#: ../README.md:18
 msgid ""
 "`id` - The id of the party being referenced. This must match the id of an "
 "entry in the `parties` section."
@@ -95,11 +91,11 @@ msgstr ""
 "`id` - El id de la parte a la que se hace referencia. Debe ser igual que el "
 "id en la entrada de la sección  `parties`. "
 
-#: README.md:0
+#: ../README.md:20
 msgid "Dependencies"
 msgstr "Dependencias"
 
-#: README.md:22
+#: ../README.md:22
 msgid ""
 "This extension is only valid from OCDS Version 1.1, as it makes use of the "
 "updated organization reference approach."
@@ -107,15 +103,15 @@ msgstr ""
 "Esta extensión solo es válida de la Versión 1.1 del OCDS, ya que hace uso "
 "del enfoque de referencia de organización actualizado."
 
-#: README.md:0
+#: ../README.md:24
 msgid "Example"
 msgstr "Ejemplo"
 
-#: README.md:0
+#: ../README.md:49
 msgid "Issues"
 msgstr "Issues"
 
-#: README.md:47
+#: ../README.md:51
 msgid ""
 "Report issues for this extension in the [ocds-extensions "
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "

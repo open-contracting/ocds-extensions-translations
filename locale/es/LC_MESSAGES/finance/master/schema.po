@@ -1,11 +1,10 @@
 # Translations template for PROJECT.
-# Copyright (C) 2019 ORGANIZATION
+# Copyright (C) 2020 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 # 
 # Translators:
-# James McKinney <jmckinney@open-contracting.org>, 2019
-# Maria Esther Cervantes <mariaesther@idatosabiertos.org>, 2019
+# James McKinney, 2019
 # Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019
 # 
 #, fuzzy
@@ -13,14 +12,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"POT-Creation-Date: 2020-08-20 17:18-0400\n"
 "PO-Revision-Date: 2019-03-14 18:30+0000\n"
 "Last-Translator: Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019\n"
-"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/95084/es/)\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.8.0\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -32,13 +31,12 @@ msgstr "Financiamiento"
 #. /description/en
 #: extension.json:1
 msgid ""
-"Capturing details of the finance arranged for a contract, including loans, "
-"grants and other finance sources."
+"Adds fields to disclose the financing of the whole process and its "
+"individual contracts."
 msgstr ""
-"Capturar detalles del financiamiento dispuesto para un contrato, incluidos "
-"préstamos, subvenciones y otras fuentes de financiamiento."
 
 #. /definitions/Contract/properties/finance/title
+#. /definitions/Budget/properties/finance/title
 #: release-schema.json:1
 msgid "Finance"
 msgstr "Financiamiento"
@@ -50,6 +48,12 @@ msgid ""
 msgstr ""
 "Una lista con los detalles de cada fuente de financiamiento acordada para "
 "este contrato."
+
+#. /definitions/Budget/properties/finance/description
+#: release-schema.json:1
+msgid ""
+"An array with details of each source of finance planned for this procedure."
+msgstr ""
 
 #. /definitions/Finance/title
 #: release-schema.json:1
@@ -125,10 +129,8 @@ msgstr "Tipo de financiamiento"
 
 #. /definitions/Finance/properties/financeType/description
 #: release-schema.json:1
-msgid "The type of finance arranged, from the finance type codelist."
+msgid "The type of finance arranged."
 msgstr ""
-"El tipo de financiamiento acordado, tomado de la lista de códigos de tipo de"
-" financiamiento."
 
 #. /definitions/Finance/properties/financeCategory/title
 #: release-schema.json:1
@@ -138,15 +140,10 @@ msgstr "Categoría de financiamiento"
 #. /definitions/Finance/properties/financeCategory/description
 #: release-schema.json:1
 msgid ""
-"For categorizing the nature of any financial investment. This field must be "
-"filled in for debt finance. This information can be used to identify the "
-"order of preference for investors to get their money back in cases of "
+"The nature of the finance. This information can be used when determining the"
+" order of preference for investors to get their money back in cases of "
 "liquidation."
 msgstr ""
-"Para categorizar la naturaleza de cualquier inversión financiera. Este campo"
-" debe ser llenado para el financiamiento de la deuda. Esta información se "
-"puede utilizar para identificar el orden de preferencia de los inversores "
-"para recuperar su dinero en casos de liquidación."
 
 #. /definitions/Finance/properties/value/title
 #: release-schema.json:1
@@ -188,13 +185,9 @@ msgstr "Base"
 msgid ""
 "The variable to which an additional margin amount is added to get the "
 "Interest amount. This can be specified as a fixed number, as a known "
-"variable (e.g. LIBOR), or can be omitted if margin specifies the entire "
-"interest rate."
+"variable (e.g. LIBOR or LIBOR+1%), or can be omitted if margin specifies the"
+" entire interest rate."
 msgstr ""
-"La variable a la que se agrega una cantidad de margen adicional para obtener"
-" el monto de interés. Esto se puede especificar como un número fijo, como "
-"una variable conocida (por ejemplo, LIBOR), o puede omitirse si el margen "
-"especifica toda la tasa de interés."
 
 #. /definitions/Finance/properties/interestRate/properties/margin/title
 #: release-schema.json:1

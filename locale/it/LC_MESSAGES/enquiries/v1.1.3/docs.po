@@ -4,28 +4,28 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# James McKinney <jmckinney@open-contracting.org>, 2019
+# James McKinney, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"POT-Creation-Date: 2020-08-20 17:17-0400\n"
 "PO-Revision-Date: 2019-03-14 18:30+0000\n"
-"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2019\n"
-"Language-Team: Italian (https://www.transifex.com/OpenDataServices/teams/95084/it/)\n"
+"Last-Translator: James McKinney, 2019\n"
+"Language-Team: Italian (https://www.transifex.com/open-contracting-partnership-1/teams/112300/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: README.md:0
+#: ../README.md:1
 msgid "Enquiries"
 msgstr "Domande"
 
-#: README.md:3
+#: ../README.md:3
 msgid ""
 "The enquiries extension can be used to record questions raised during a "
 "contracting process, and the answers provided."
@@ -34,11 +34,11 @@ msgstr ""
 "registrare le domande sollevate durante una procedura di appalto e le "
 "risposte fornite."
 
-#: README.md:0
+#: ../README.md:5
 msgid "Structure"
 msgstr "Struttura"
 
-#: README.md:7
+#: ../README.md:7
 msgid ""
 "The extension adds an `enquiries` array to tender, consisting of one or more"
 " enquiry objects, each with fields for a question, and an answer."
@@ -47,11 +47,11 @@ msgstr ""
 "o più oggetti di indagine, ciascuno con campi per una domanda e una "
 "risposta."
 
-#: README.md:9
+#: ../README.md:9
 msgid "Example:"
 msgstr "Esempio:"
 
-#: README.md:32
+#: ../README.md:32
 msgid ""
 "Supporting documents with clarifications, or a full document containing "
 "answers to questions can be included in the `tender/documents` array with a "
@@ -61,7 +61,7 @@ msgstr ""
 "contenente le risposte alle domande possono essere inclusi nella matrice "
 "`gara/documenti` con un `documentType` di 'clarifications'."
 
-#: README.md:34
+#: ../README.md:34
 msgid ""
 "Where the answers to a question are only available in attached documents, an"
 " `answer` value such as 'Consult section N of \"%document name%\" in the "
@@ -74,7 +74,7 @@ msgstr ""
 "analisti dei dati di identificare se una risposta a questa domanda è stata "
 "fornita."
 
-#: README.md:36
+#: ../README.md:36
 msgid ""
 "When a system allow a discussion format, where each answer can be followed "
 "by a further clarification question, the `threadID` property can be used to "
@@ -85,11 +85,11 @@ msgstr ""
 "proprietà `threadID` può essere utilizzata per collegare insieme più voci "
 "nella matrice  `enquiries`."
 
-#: README.md:0
+#: ../README.md:38
 msgid "Usage guidance"
 msgstr "Guida all'uso"
 
-#: README.md:40
+#: ../README.md:40
 msgid ""
 "Implementations may vary on the amount of enquiry information they provide, "
 "and when it is provided."
@@ -97,7 +97,7 @@ msgstr ""
 "Le implementazioni possono variare in base alla quantità di informazioni "
 "richieste che forniscono e quando vengono fornite."
 
-#: README.md:42
+#: ../README.md:42
 msgid ""
 "Some publishers may omit the identity of the question author to protect "
 "confidentiality of enquirers, or may anonymize this information (e.g. simply"
@@ -112,7 +112,7 @@ msgstr ""
 "2\" in modo che sia possibile visualizzare le domande della stessa "
 "organizzazione , ma non conoscere l'identità di quell'organizzazione.)"
 
-#: README.md:44
+#: ../README.md:44
 msgid ""
 "The `relatedItem` and `relatedLot` properties are available for use when "
 "questions can be asked in relation to a specific lot or item."
@@ -120,11 +120,11 @@ msgstr ""
 "Le proprietà `relatedItem` e `relatedLot` sono disponibili per l'uso quando "
 "è possibile porre domande in relazione a un lotto o elemento specifico."
 
-#: README.md:46
+#: ../README.md:46
 msgid "Where possible, the recommended approach is to:"
 msgstr "Ove possibile, l'approccio raccomandato è:"
 
-#: README.md:48
+#: ../README.md:48
 msgid ""
 "Make release with a `tenderUpdate` release tag for every new question or "
 "batch of questions received, providing an enquiries array with each of the "
@@ -134,7 +134,7 @@ msgstr ""
 " di domande ricevute, fornendo un blocco di domande contenente tutte le "
 "domande ricevute;"
 
-#: README.md:49
+#: ../README.md:49
 msgid ""
 "Make a release with a `tenderUpdate` release tag when the answers to the "
 "questions are provided, updating the earlier enquiries array so each entry "
@@ -144,7 +144,7 @@ msgstr ""
 "risposte alle domande, aggiornando l'array di richieste precedenti in modo "
 "che ogni voce contenga sia una domanda sia una risposta;"
 
-#: README.md:51
+#: ../README.md:51
 msgid ""
 "This approach will enable third-party applications to watch for releases "
 "that provide answers to questions, and will support procurement monitors in "
@@ -155,7 +155,7 @@ msgstr ""
 "responsabili degli appalti nel rivedere il modo in cui le domande ricevono "
 "risposta."
 
-#: README.md:53
+#: ../README.md:53
 msgid ""
 "We recommend that publishers provide question answers as plain text, or with"
 " minimal HTML markup (paragraphs and line-breaks), and that consuming "
@@ -168,15 +168,15 @@ msgstr ""
 "testo in modo appropriato per formattarlo e renderlo leggibile (ad esempio, "
 "sostituire interruzioni di riga con interruzioni di paragrafo in HTML)."
 
-#: README.md:0
+#: ../README.md:55
 msgid "Reference"
 msgstr "Riferimento"
 
-#: README.md:0
+#: ../README.md:63
 msgid "Issues"
 msgstr "Problemi (issues)"
 
-#: README.md:65
+#: ../README.md:65
 msgid ""
 "Report issues for this extension in the [ocds-extensions "
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "
@@ -186,40 +186,40 @@ msgstr ""
 "extensions](https://github.com/open-contracting/ocds-extensions/issues), "
 "inserendo il nome dell'estensione nel titolo del problema."
 
-#: README.md:0
+#: ../README.md:67
 msgid "Changelog"
 msgstr "Storico delle modifiche"
 
-#: README.md:0
+#: ../README.md:69
 msgid "v1.1.3"
 msgstr "v1.1.3"
 
-#: README.md:71
+#: ../README.md:71
 msgid ""
 "Use `OrganizationReference` instead of `Organization` for `Enquiry.author`"
 msgstr ""
 "Utilizzare `OrganizationReference` invece di` Organization` per "
 "`Enquiry.author`"
 
-#: README.md:72
+#: ../README.md:72
 msgid "Correct name of +partyRole.csv codelist (was +partyRoles.csv)"
 msgstr ""
 "Il nome corretto dell'elenco di valori del vocabolario controllato "
 "+partyRole.csv (era + partyRoles.csv)"
 
-#: README.md:73
+#: ../README.md:73
 msgid "Allow `Enquiry.date` to be null"
 msgstr "Permetti che `Enquiry.date` sia nullo"
 
-#: README.md:74
+#: ../README.md:74
 msgid "List codelists in extension.json"
 msgstr ""
 "Elenca i valori ammissibili del vocabolari controllati in extension.json"
 
-#: README.md:75
+#: ../README.md:75
 msgid "Use Apache 2.0 License"
 msgstr "Utilizzare la licenza di Apache 2.0"
 
-#: README.md:76
+#: ../README.md:76
 msgid "Add tests and tidy code"
 msgstr "Aggiungi test e codice ordinato"

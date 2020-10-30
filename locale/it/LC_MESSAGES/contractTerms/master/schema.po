@@ -1,20 +1,20 @@
 # Translations template for PROJECT.
 # Copyright (C) 2020 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# Automatically generated, 2020.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-04-06 18:31-0400\n"
-"PO-Revision-Date: 2020-04-06 18:31-0400\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"POT-Creation-Date: 2020-08-20 17:18-0400\n"
+"PO-Revision-Date: 2020-08-20 21:46+0000\n"
+"Language-Team: Italian (https://www.transifex.com/open-contracting-partnership-1/teams/112300/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
+"Generated-By: Babel 2.8.0\n"
 "Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -42,7 +42,8 @@ msgstr ""
 
 #. /definitions/Lot/properties/contractTerms/description
 #: release-schema.json:1
-msgid "Information about the terms governing the future contracts for the lot."
+msgid ""
+"Information about the terms governing the future contracts for the lot."
 msgstr ""
 
 #. /definitions/ContractTerms/description
@@ -77,7 +78,8 @@ msgstr ""
 
 #. /definitions/ContractTerms/properties/electronicInvoicingPolicy/description
 #: release-schema.json:1
-msgid "Whether the buyer will require, allow or not allow electronic invoices."
+msgid ""
+"Whether the buyer will require, allow or not allow electronic invoices."
 msgstr ""
 
 #. /definitions/ContractTerms/properties/reservedExecution/title
@@ -151,7 +153,7 @@ msgstr ""
 #: release-schema.json:1
 msgid ""
 "The nature and extent of the exclusive rights granted by the procuring "
-"entity to the contractor."
+"entity to the supplier."
 msgstr ""
 
 #. /definitions/ContractTerms/properties/operatorRevenueShare/title
@@ -163,7 +165,7 @@ msgstr ""
 #: release-schema.json:1
 msgid ""
 "The percentage of revenue from the sale of tickets allocated to the "
-"contractor."
+"supplier."
 msgstr ""
 
 #. /definitions/ContractTerms/properties/otherTerms/title
@@ -195,7 +197,7 @@ msgstr ""
 #. /definitions/ContractTerms/properties/socialStandards/description
 #: release-schema.json:1
 msgid ""
-"The required social standards, for example: detail of the contractual rights "
-"of the staff concerned, and conditions under which employees are considered "
-"to be linked to the services."
+"The required social standards, for example: detail of the contractual rights"
+" of the staff concerned, and conditions under which employees are considered"
+" to be linked to the services."
 msgstr ""

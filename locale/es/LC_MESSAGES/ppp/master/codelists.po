@@ -1,10 +1,10 @@
 # Translations template for PROJECT.
-# Copyright (C) 2019 ORGANIZATION
+# Copyright (C) 2020 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 # 
 # Translators:
-# James McKinney <jmckinney@open-contracting.org>, 2019
+# James McKinney, 2019
 # Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019
 # 
 #, fuzzy
@@ -12,14 +12,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"POT-Creation-Date: 2020-08-20 17:19-0400\n"
 "PO-Revision-Date: 2019-03-14 18:28+0000\n"
 "Last-Translator: Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019\n"
-"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/95084/es/)\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.8.0\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -111,28 +111,11 @@ msgstr ""
 
 #. Title
 #: codelists/+partyRole.csv:3
-msgid "Qualified bidder"
-msgstr "Licitante calificado"
-
-#. Description
-#: codelists/+partyRole.csv:3
-msgid ""
-"Those parties invited to submit a proposal in response to a Request for "
-"Proposal (RFP) for a project in which the government only allows a limited "
-"number of pre-qualified bidders to proceed to the RFP phase."
-msgstr ""
-"Las partes invitadas a presentar una propuesta en respuesta a un llamado a "
-"propuestas (RFP) para un proyecto en el que el gobierno sólo permite a un "
-"número limitado de licitadores precalificados para proceder a la fase de "
-"llamado a propuestas."
-
-#. Title
-#: codelists/+partyRole.csv:4
 msgid "Preferred bidder"
 msgstr "Licitante seleccionado"
 
 #. Description
-#: codelists/+partyRole.csv:4
+#: codelists/+partyRole.csv:3
 msgid ""
 "The bidder identified at the end of the tender evaluation process as being "
 "the government’s preferred partner to enter into (or enter into final "
@@ -145,12 +128,12 @@ msgstr ""
 "seleccionado y se le llama a firmar el contrato."
 
 #. Title
-#: codelists/+partyRole.csv:5
+#: codelists/+partyRole.csv:4
 msgid "Private party"
 msgstr "Parte privada"
 
 #. Description
-#: codelists/+partyRole.csv:5
+#: codelists/+partyRole.csv:4
 msgid ""
 "The counter party of the procuring authority in the PPP contract. A private "
 "entity which has been granted the contract to construct and operate a "
@@ -163,12 +146,12 @@ msgstr ""
 "de Propósito Especial o SPV. "
 
 #. Title
-#: codelists/+partyRole.csv:6
+#: codelists/+partyRole.csv:5
 msgid "Lead bank"
 msgstr "Lider del consorcio"
 
 #. Description
-#: codelists/+partyRole.csv:6
+#: codelists/+partyRole.csv:5
 msgid ""
 "A lead bank is a bank that oversees the arrangement of a loan syndication"
 msgstr ""
@@ -176,12 +159,12 @@ msgstr ""
 "sindicación de préstamos"
 
 #. Title
-#: codelists/+partyRole.csv:7
+#: codelists/+partyRole.csv:6
 msgid "Lender"
 msgstr "Prestador"
 
 #. Description
-#: codelists/+partyRole.csv:7
+#: codelists/+partyRole.csv:6
 msgid ""
 "The APMG PPP Certification Program defines lenders as \"Institutions that "
 "provide lending to the project: mainly banks and institutional investors "
@@ -192,12 +175,12 @@ msgstr ""
 "bancos e inversores institucionales a través de bonos de proyectos\""
 
 #. Title
-#: codelists/+partyRole.csv:8
+#: codelists/+partyRole.csv:7
 msgid "Equity investor"
 msgstr "Inversor de capital"
 
 #. Description
-#: codelists/+partyRole.csv:8
+#: codelists/+partyRole.csv:7
 msgid ""
 "The APMG PPP Certification Program defines equity investors as \"Investors "
 "who finance a portion of the project’s capital expenditures (Capex), "
@@ -208,64 +191,34 @@ msgstr ""
 "proyecto (Capex), típicamente como capital social o deuda subordinada\""
 
 #. Title
-#: codelists/+partyRole.csv:9
+#: codelists/+partyRole.csv:8
 msgid "Consortia member"
 msgstr "Miembro de los consorcios"
 
 #. Description
-#: codelists/+partyRole.csv:9
+#: codelists/+partyRole.csv:8
 msgid ""
 "One of a group of companies that has joined together to bid for a project."
 msgstr ""
 "Uno de un grupo de empresas que se han unido para licitar un proyecto."
 
 #. Title
-#: codelists/+partyRole.csv:10
-msgid "Interested party"
-msgstr "Parte interesada"
-
-#. Description
-#: codelists/+partyRole.csv:10
-msgid ""
-"A party which has expressed an interest in the project, for example by "
-"purchasing tender documents or submitted clarification questions, but has "
-"not yet formally submitted a bid."
-msgstr ""
-"Una parte que haya manifestado su interés en el proyecto, por ejemplo, "
-"comprando documentos de licitación o presentado preguntas de aclaración, "
-"pero aún no ha presentado formalmente una oferta."
-
-#. Title
-#: codelists/+partyRole.csv:11
+#: codelists/+partyRole.csv:9
 msgid "Grantor"
 msgstr "Concedente"
 
 #. Description
-#: codelists/+partyRole.csv:11
+#: codelists/+partyRole.csv:9
 msgid "The party which grants a concession, a license or some other right."
 msgstr "La parte que otorga una concesión, una licencia u otro derecho."
 
 #. Title
-#: codelists/+partyRole.csv:12
-msgid "Disqualified bidder"
-msgstr "Licitador descalificado"
-
-#. Description
-#: codelists/+partyRole.csv:12
-msgid ""
-"A bidder which either did not pass the qualification stage of the evaluation"
-" process or did not pass the pre-qualification stage of the process."
-msgstr ""
-"Un licitante que no pasó la fase de calificación del proceso de evaluación o"
-" no pasó la etapa de precalificación del proceso."
-
-#. Title
-#: codelists/+partyRole.csv:13
+#: codelists/+partyRole.csv:10
 msgid "Social witness"
 msgstr "Testigo social"
 
 #. Description
-#: codelists/+partyRole.csv:13
+#: codelists/+partyRole.csv:10
 msgid ""
 "A social witness participates as an external observer in a public "
 "procurements process. They have a formal role as an observer."
@@ -274,12 +227,12 @@ msgstr ""
 "adquisiciones públicas. Tienen un papel formal como observador."
 
 #. Title
-#: codelists/+partyRole.csv:14
+#: codelists/+partyRole.csv:11
 msgid "Other witness"
 msgstr "Otro testigo"
 
 #. Description
-#: codelists/+partyRole.csv:14
+#: codelists/+partyRole.csv:11
 msgid ""
 "A witness attends one or more stages of the procurement process to observe "
 "proceedings."
@@ -288,12 +241,12 @@ msgstr ""
 "observar los procedimientos."
 
 #. Title
-#: codelists/+partyRole.csv:15
+#: codelists/+partyRole.csv:12
 msgid "Notary"
 msgstr "Notario"
 
 #. Description
-#: codelists/+partyRole.csv:15
+#: codelists/+partyRole.csv:12
 msgid ""
 "A person authorized to perform certain legal formalities, especially to "
 "certify documents and proceedings."
@@ -317,8 +270,8 @@ msgstr ""
 
 #. Title
 #: codelists/+releaseTag.csv:2
-msgid "Qualification Update"
-msgstr "Actualización de Calificación"
+msgid "Qualification update"
+msgstr ""
 
 #. Description
 #: codelists/+releaseTag.csv:2
@@ -340,8 +293,8 @@ msgstr ""
 
 #. Title
 #: codelists/+releaseTag.csv:3
-msgid "Qualification Amendment"
-msgstr "Enmienda de Calificación"
+msgid "Qualification amendment"
+msgstr ""
 
 #. Description
 #: codelists/+releaseTag.csv:3
@@ -358,8 +311,8 @@ msgstr ""
 
 #. Title
 #: codelists/+releaseTag.csv:4
-msgid "Qualification Cancellation"
-msgstr "Cancelación de la Calificación"
+msgid "Qualification cancellation"
+msgstr ""
 
 #. Description
 #: codelists/+releaseTag.csv:4
@@ -393,8 +346,8 @@ msgstr ""
 
 #. Title
 #: codelists/+releaseTag.csv:6
-msgid "Shortlist Update"
-msgstr "Actualización de lista corta"
+msgid "Shortlist update"
+msgstr ""
 
 #. Description
 #: codelists/+releaseTag.csv:6
@@ -423,8 +376,8 @@ msgstr "Resumen requerido"
 
 #. Title
 #: codelists/documentType.csv:1
-msgid "Needs Assessment"
-msgstr "Evaluación de Necesidad"
+msgid "Needs assessment"
+msgstr ""
 
 #. Description
 #: codelists/documentType.csv:1
@@ -453,8 +406,8 @@ msgstr ""
 
 #. Title
 #: codelists/documentType.csv:3
-msgid "Technical Specifications"
-msgstr "Especificaciones Técnicas"
+msgid "Technical specifications"
+msgstr ""
 
 #. Description
 #: codelists/documentType.csv:3
@@ -538,27 +491,21 @@ msgstr "Calendarios e hitos"
 #: codelists/documentType.csv:10
 msgid ""
 "Documentation setting out key milestones and schedules. Structured versions "
-"of this information may be modelled using the milestones block."
+"of this information can be provided using the milestones block."
 msgstr ""
-"Documentación que muestra calendarios e hitos clave. Se pueden modelar "
-"versiones estructuradas de esta información usando el bloque de hitos."
 
 #. Title
 #: codelists/documentType.csv:11
-msgid "Signed Contract"
-msgstr "Contrato Firmado"
+msgid "Signed contract"
+msgstr ""
 
 #. Description
 #: codelists/documentType.csv:11
 msgid ""
 "A copy of the signed contract. Consider providing both machine-readable "
 "(e.g. original PDF, Word or Open Document format files), and a separate "
-"document entry for scanned-signed pages where this is required."
+"document entry for scanned-signed pages where this is needed."
 msgstr ""
-"Una copia del contrato firmado. Considera proveer tanto un documento legible"
-" por computadora (p.ej. PDF original, o formato de Word u Open Document) "
-"como un documento separado para páginas firmadas digitalizadas donde sea "
-"requerido."
 
 #. Title
 #: codelists/documentType.csv:12
@@ -578,8 +525,8 @@ msgstr ""
 
 #. Title
 #: codelists/documentType.csv:13
-msgid "Environmental Impact"
-msgstr "Impacto Ambiental"
+msgid "Environmental impact"
+msgstr ""
 
 #. Description
 #: codelists/documentType.csv:13
@@ -592,8 +539,8 @@ msgstr ""
 
 #. Title
 #: codelists/documentType.csv:14
-msgid "Final Audit"
-msgstr "Auditoría Final"
+msgid "Final audit"
+msgstr ""
 
 #. Description
 #: codelists/documentType.csv:14
@@ -606,24 +553,21 @@ msgstr ""
 
 #. Title
 #: codelists/documentType.csv:15
-msgid "Tender Notice"
-msgstr "Aviso de Licitación"
+msgid "Tender notice"
+msgstr ""
 
 #. Description
 #: codelists/documentType.csv:15
 msgid ""
-"The formal notice that gives details of a tender. This may be a link to a "
+"The formal notice that gives details of a tender. This can be a link to a "
 "downloadable document, to a web page, or to an official gazette in which the"
 " notice is contained."
 msgstr ""
-"El aviso formal que da los detalles de una licitación. Este puede ser un "
-"enlace a un documento descargable, a un sitio web o a una gaceta oficial en "
-"la cual se contiene el aviso. "
 
 #. Title
 #: codelists/documentType.csv:16
-msgid "Evaluation Committee Details"
-msgstr "Detalles del Comité de Evaluación"
+msgid "Evaluation committee details"
+msgstr ""
 
 #. Description
 #: codelists/documentType.csv:16
@@ -632,8 +576,8 @@ msgstr "Información sobre la constitución del comité de evaluación"
 
 #. Title
 #: codelists/documentType.csv:17
-msgid "Request for Qualification"
-msgstr "Solicitud de Calificación"
+msgid "Request for qualification"
+msgstr ""
 
 #. Description
 #: codelists/documentType.csv:17
@@ -653,8 +597,8 @@ msgstr ""
 
 #. Title
 #: codelists/documentType.csv:18
-msgid "Evaluation Criteria"
-msgstr "Criterios de Evaluación"
+msgid "Evaluation criteria"
+msgstr ""
 
 #. Description
 #: codelists/documentType.csv:18
@@ -675,8 +619,8 @@ msgstr ""
 
 #. Title
 #: codelists/documentType.csv:20
-msgid "Shortlisted Firms"
-msgstr "Firmas Preseleccionadas"
+msgid "Shortlisted firms"
+msgstr ""
 
 #. Description
 #: codelists/documentType.csv:20
@@ -690,8 +634,8 @@ msgstr ""
 
 #. Title
 #: codelists/documentType.csv:21
-msgid "Negotiation Parameters"
-msgstr "Parámetros de Negociación"
+msgid "Negotiation parameters"
+msgstr ""
 
 #. Description
 #: codelists/documentType.csv:21
@@ -818,15 +762,10 @@ msgstr ""
 #: codelists/documentType.csv:29
 msgid ""
 "Reports detailing the fiscal commitments of the public authority to the PPP,"
-" for example known payments that must be made if the PPP proceeds or payment"
-" commitments whose occurrence, timing and magnitude depend on some uncertain"
-" future event, outside the control of the public authority."
+" for example known payments that need to be made if the PPP proceeds or "
+"payment commitments whose occurrence, timing and magnitude depend on some "
+"uncertain future event, outside the control of the public authority."
 msgstr ""
-"Reportes que detallen los compromisos fiscales de la autoridad pública para "
-"el APP, por ejemplo, pagos que se deben de hacer si el APP procede, o "
-"compromisos de pago que debido a algún acontecimiento, la fecha y magnitud "
-"dependen de un evento futuro incierto, fuera del control de la autoridad "
-"pública"
 
 #. Title
 #: codelists/documentType.csv:30
@@ -836,22 +775,14 @@ msgstr "Subsidios"
 #. Description
 #: codelists/documentType.csv:30
 msgid ""
-"Information on grants given to support the project. Grant information should"
-" detail the total value of subsidy, and/or the value of subsidy as a "
+"Information on grants given to support the project. Grant information ought "
+"to detail the total value of subsidy, and/or the value of subsidy as a "
 "proportion of the overall project value, as well as providing information on"
 " the nature of the grant. For capital subsidies paid during construction of "
 "a project, or operating subsidies paid during operation, details of "
-"periodicity of grant payments, and particular grant milestones, should be "
+"periodicity of grant payments, and particular grant milestones, ought to be "
 "provided."
 msgstr ""
-"Información sobre las subvenciones concedidas para apoyar el proyecto. La "
-"información sobre la subvención debe detallar el valor total de la "
-"subvención y/o el valor de la subvención como proporción del valor total del"
-" proyecto, así como proporcionar información sobre la naturaleza de la "
-"subvención. Para las subvenciones de capital pagadas durante la construcción"
-" de un proyecto, o las subvenciones de funcionamiento pagadas durante la "
-"operación, se deben proporcionar detalles de la periodicidad de los pagos de"
-" la subvención y los hitos particulares de la subvención."
 
 #. Title
 #: codelists/documentType.csv:31
@@ -863,16 +794,10 @@ msgstr "Pagos de servicios"
 msgid ""
 "Service payments are payments made by the public authority or purchaser to "
 "the private provider for infrastructure services (applicable in some types "
-"of Public Private Partnership projects). The documentation should cover the "
-"total number of payments and their periodicity, as well as the methodology "
-"used for calculating payments and the indexation used."
+"of Public Private Partnership projects). The documentation ought to cover "
+"the total number of payments and their periodicity, as well as the "
+"methodology used for calculating payments and the indexation used."
 msgstr ""
-"Los pagos por servicios son pagos efectuados por la autoridad pública o el "
-"comprador al proveedor privado para servicios de infraestructura (aplicable "
-"en algunos tipos de proyectos de asociación público-privada). La "
-"documentación debe cubrir el número total de pagos y su periodicidad, así "
-"como la metodología utilizada para calcular los pagos y la indexación "
-"utilizada."
 
 #. Title
 #: codelists/documentType.csv:32
@@ -893,8 +818,8 @@ msgstr ""
 
 #. Title
 #: codelists/documentType.csv:33
-msgid "Asset Transfer"
-msgstr "Transferencia de activos"
+msgid "Asset transfer"
+msgstr ""
 
 #. Description
 #: codelists/documentType.csv:33
@@ -907,8 +832,8 @@ msgstr ""
 
 #. Title
 #: codelists/documentType.csv:34
-msgid "Revenue Share"
-msgstr "Participación de los ingresos"
+msgid "Revenue share"
+msgstr ""
 
 #. Description
 #: codelists/documentType.csv:34
@@ -943,15 +868,11 @@ msgstr "Método de tarifas"
 #: codelists/documentType.csv:36
 msgid ""
 "For summarizing the method by which tariffs are set, and linking to detailed"
-" documentation of the methods for setting tariffs. This may include written "
-"documentation, and spreadsheets providing the models used to calculate "
-"tariffs. This should make clear who sets the tariff and on what basis."
+" documentation of the methods for setting tariffs. This might include "
+"written documentation, and spreadsheets providing the models used to "
+"calculate tariffs. This ought to make clear who sets the tariff and on what "
+"basis."
 msgstr ""
-"Para resumir el método por el cual se establecen las tarifas y vincular a la"
-" documentación detallada de los métodos de definición de tarifas. Esto puede"
-" incluir documentación escrita y hojas de cálculo que proporcionen los "
-"modelos utilizados para calcular las tarifas. Esto debería aclarar quién "
-"establece la tarifa y sobre qué base."
 
 #. Title
 #: codelists/documentType.csv:37
@@ -1057,24 +978,19 @@ msgstr "Informes de evaluación de rendimiento"
 
 #. Title
 #: codelists/initiationType.csv:1
-msgid "Public Private Partnership"
-msgstr "Asociación Público-Privada"
+msgid "Public private partnership"
+msgstr ""
 
 #. Description
 #: codelists/initiationType.csv:1
 msgid ""
 "An open competitive bidding or tendering to form a Public Private "
-"Partnership contract. The process may involve a qualification stage, whereby"
-" the number of qualified bidders is limited by reviewing each bidder’s "
-"qualifications against a set of criteria, before inviting prospective "
-"partners to submit bids for evaluation and selecting a winner or winners."
+"Partnership contract. The process might involve a qualification stage, "
+"whereby the number of qualified bidders is limited by reviewing each "
+"bidder’s qualifications against a set of criteria, before inviting "
+"prospective partners to submit bids for evaluation and selecting a winner or"
+" winners."
 msgstr ""
-"Una competencia de oferta o licitiación abierta para hacer un contrato de "
-"Asociación Público Privada. El proceso puede involucrar una etapa de "
-"calificación, donde el número de licitadores calificados esta limitado por "
-"una revisión de las aptitudes de cada licitante contra una serie de "
-"criterios, antes de invitar a posibles socios a enviar ofertas para "
-"evaluación y seleccionar un ganador o ganadores."
 
 #. Title
 #: codelists/metricID.csv:1
@@ -1098,8 +1014,8 @@ msgstr "Para informar sobre los ingresos previstos o reales"
 
 #. Title
 #: codelists/metricID.csv:3
-msgid "Internal Rate of Return"
-msgstr "Tasa de Rentabilidad Interna"
+msgid "Internal rate of return"
+msgstr ""
 
 #. Description
 #: codelists/metricID.csv:3
@@ -1117,9 +1033,8 @@ msgstr "Aprobación del proyecto"
 
 #. Description
 #: codelists/milestoneCode.csv:1
-msgid "The dates of approvals required from relevant authorities."
+msgid "The dates of approvals from relevant authorities."
 msgstr ""
-"Las fechas de las aprobaciones requeridas por las autoridades pertinentes."
 
 #. Title
 #: codelists/milestoneCode.csv:2
@@ -1195,14 +1110,10 @@ msgstr "Comienzo del período de consulta"
 #. Description
 #: codelists/milestoneCode.csv:7
 msgid ""
-"For processes with multiple enquiry periods,the start date of a period "
-"during which enquiries may be made and responded to which is not provided in"
+"For processes with multiple enquiry periods, the start date of a period "
+"during which enquiries can be made and responded to which is not provided in"
 " the tender/enquiryPeriod block. Sometimes known as clarification periods."
 msgstr ""
-"Para los procesos con múltiples períodos de consulta, la fecha de inicio de "
-"un período durante el cual se pueden hacer consultas y se responderán que no"
-" se proporciona en el bloque de tender/enquiryPeriod. A veces conocido como "
-"períodos de clarificación."
 
 #. Title
 #: codelists/milestoneCode.csv:8
@@ -1213,13 +1124,9 @@ msgstr "Fin del período de consulta"
 #: codelists/milestoneCode.csv:8
 msgid ""
 "For processes with multiple enquiry periods, the end date of a period during"
-" which enquiries may be made and responded to which is not provided in the "
+" which enquiries can be made and responded to which is not provided in the "
 "tender/enquiryPeriod block. Sometimes known as clarification periods."
 msgstr ""
-"Para los procesos con múltiples períodos de consulta, la fecha de "
-"finalización de un período durante el cual se pueden realizar y responder "
-"preguntas que no se proporcionan en el bloque de tender/enquiryPeriod. A "
-"veces conocido como períodos de clarificación."
 
 #. Title
 #: codelists/milestoneCode.csv:9

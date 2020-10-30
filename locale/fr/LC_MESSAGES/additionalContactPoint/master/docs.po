@@ -4,73 +4,75 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# James McKinney <jmckinney@open-contracting.org>, 2019
+# James McKinney, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"POT-Creation-Date: 2020-08-20 17:17-0400\n"
 "PO-Revision-Date: 2019-03-14 18:30+0000\n"
-"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2019\n"
-"Language-Team: French (https://www.transifex.com/OpenDataServices/teams/95084/fr/)\n"
+"Last-Translator: James McKinney, 2019\n"
+"Language-Team: French (https://www.transifex.com/open-contracting-partnership-1/teams/112300/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: README.md:0
+#: ../README.md:1
 msgid "Additional Contact Points and Contact Point Languages"
 msgstr ""
 
-#: README.md:3
+#: ../README.md:3
 msgid ""
 "There are some cases where it is important to list multiple contact points "
-"for an organization, particularly in cases where each contact point may deal"
-" with enquiries in particular languages only."
+"for an organization, particularly in cases where each contact point deals "
+"with enquiries in particular languages only."
 msgstr ""
 
-#: README.md:5
+#: ../README.md:5
 msgid ""
 "This extension adds an array of `additionalContactPoints` to the "
-"`organization` object, and introduces an `availableLanguage` array of "
+"`Organization` object, and introduces an `availableLanguage` array of "
 "language codes to `ContactPoint`."
 msgstr ""
 
-#: README.md:7
+#: ../README.md:7
 msgid ""
-"When this extension is used, publishers should always include a **primary "
-"contact point** for the `contactPoint` property, on the basis that many "
-"applications will not be aware of the `additionalContactPoints` array."
+"When this extension is used, publishers should include a **primary contact "
+"point** for the `contactPoint` property, on the basis that many applications"
+" will not be aware of the `additionalContactPoints` array. However, if a "
+"primary contact point can't be determined, all contact points may be "
+"disclosed in the `additionalContactPoints` array."
 msgstr ""
 
-#: README.md:0
+#: ../README.md:9
 msgid "Example"
 msgstr "Exemple"
 
-#: README.md:11
+#: ../README.md:11
 msgid ""
 "The example below shows a procuring entity with two contact points. A "
 "primarily contact"
 msgstr ""
 
-#: README.md:0
-msgid "Modeling notes"
+#: ../README.md:59
+msgid "Modelling notes"
 msgstr ""
 
-#: README.md:51
+#: ../README.md:61
 msgid ""
 "`availableLanguage` is singular, although it is an array, to align with "
 "[Schema.org](https://schema.org/availableLanguage)."
 msgstr ""
 
-#: README.md:0
+#: ../README.md:63
 msgid "Issues"
 msgstr "Problèmes"
 
-#: README.md:55
+#: ../README.md:65
 msgid ""
 "Report issues for this extension in the [ocds-extensions "
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "
@@ -79,3 +81,43 @@ msgstr ""
 "Signalez les problèmes concernant cette extension dans le [répertoire "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), en "
 "mettant le nom de l'extension dans le titre du signalement."
+
+#: ../README.md:67
+msgid "Changelog"
+msgstr ""
+
+#: ../README.md:69
+msgid "2020-06-04"
+msgstr ""
+
+#: ../README.md:71
+msgid "Review normative and non-normative words"
+msgstr ""
+
+#: ../README.md:73
+msgid "2020-04-24"
+msgstr ""
+
+#: ../README.md:75
+msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
+msgstr ""
+
+#: ../README.md:77
+msgid "2019-03-20"
+msgstr ""
+
+#: ../README.md:79
+msgid "Set `\"uniqueItems\": true` on array fields."
+msgstr ""
+
+#: ../README.md:81
+msgid "2018-12-21"
+msgstr ""
+
+#: ../README.md:83
+msgid "Set `wholeListMerge` on `Organization.additionalContactPoints`"
+msgstr ""
+
+#: ../README.md:84
+msgid "Clarify use of language codes on `ContactPoint.availableLanguage`"
+msgstr ""

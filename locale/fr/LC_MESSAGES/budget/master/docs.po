@@ -4,49 +4,49 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# James McKinney <jmckinney@open-contracting.org>, 2019
+# James McKinney, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"POT-Creation-Date: 2020-08-20 17:17-0400\n"
 "PO-Revision-Date: 2019-03-14 18:32+0000\n"
-"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2019\n"
-"Language-Team: French (https://www.transifex.com/OpenDataServices/teams/95084/fr/)\n"
+"Last-Translator: James McKinney, 2019\n"
+"Language-Team: French (https://www.transifex.com/open-contracting-partnership-1/teams/112300/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: README.md:0
+#: ../README.md:1
 msgid "Budget Breakdown"
 msgstr ""
 
-#: README.md:0
+#: ../README.md:3
 msgid "Background"
 msgstr "Contexte"
 
-#: README.md:5
+#: ../README.md:5
 msgid ""
 "The `planning` section of OCDS can be used to describe the background to a "
 "contracting process, which may include details of the budget from which "
 "funds are drawn."
 msgstr ""
 
-#: README.md:7
+#: ../README.md:7
 msgid ""
 "OCDS core includes a single `budget.amount` field to capture the total value"
 " of the budget for the contracting process."
 msgstr ""
 
-#: README.md:0
+#: ../README.md:9
 msgid "Providing more detailed budget information"
 msgstr ""
 
-#: README.md:11
+#: ../README.md:11
 msgid ""
 "Some OCDS implementations require more detailed information on budgets to be"
 " disclosed, for example multi-year budgets or budgets sourced from multiple "
@@ -54,13 +54,13 @@ msgid ""
 "sourced from the private sector or from multi-lateral development banks."
 msgstr ""
 
-#: README.md:13
+#: ../README.md:13
 msgid ""
 "This extension provides a way to describe multi-year and multi-source "
 "budgets."
 msgstr ""
 
-#: README.md:15
+#: ../README.md:15
 msgid ""
 "Disclosing structured data on multi-source budgets allows users to "
 "understand how much of the funds for a project come from government or from "
@@ -68,60 +68,17 @@ msgid ""
 "users to understand the expected spend profile of a contract."
 msgstr ""
 
-#: README.md:0
-msgid "Extension fields"
-msgstr "Champs d'extension"
-
-#: README.md:19
-msgid ""
-"This extension adds a `budgetBreakdown` property to the `planning` section "
-"of OCDS. `budgetBreakdown` is an array of `budget` blocks."
-msgstr ""
-
-#: README.md:21
-msgid ""
-"This extension also extends the `budget` block with the following additional"
-" properties for use in the `budgetBreakdown` section:"
-msgstr ""
-
-#: README.md:23
-msgid ""
-"`budget.sourceParty` - an organization reference, linking to the entry in "
-"the `parties` section describing the organization providing the funds for "
-"this part of the budget"
-msgstr ""
-
-#: README.md:24
-msgid ""
-"`budget.period` - a period block, describing the period to which this part "
-"of the budget applies"
-msgstr ""
-
-#: README.md:0
+#: ../README.md:17
 msgid "Guidance"
 msgstr "Conseils d'utilisation"
 
-#: README.md:28
-msgid "In the core `planning.budget` block:"
-msgstr ""
-
-#: README.md:30
+#: ../README.md:19
 msgid ""
-"`budget.amount` should be used to capture the total value of the budget for "
-"the contracting process."
+"In the core `planning.budget` block, `budget.amount` should be used to "
+"capture the total value of the budget for the contracting process."
 msgstr ""
 
-#: README.md:31
-msgid ""
-"`budget.period` should be used to capture the total period over which the "
-"budget applies."
-msgstr ""
-
-#: README.md:32
-msgid "`budget.sourceParty` should be omitted."
-msgstr ""
-
-#: README.md:34
+#: ../README.md:21
 msgid ""
 "Where `budget.budgetBreakdown` is used to express a multi-source budget but "
 "the organization details are not known for one or more parts of the budget, "
@@ -131,51 +88,31 @@ msgid ""
 "\"Private sector investment from successful bidder\"."
 msgstr ""
 
-#: README.md:0
+#: ../README.md:23
 msgid "Examples"
 msgstr "Exemples"
 
-#: README.md:0
+#: ../README.md:25
 msgid "Multi-source budgets"
 msgstr ""
 
-#: README.md:40
+#: ../README.md:27
 msgid "The following JSON snippet models a single year multi-source budget:"
 msgstr ""
 
-#: README.md:0
+#: ../README.md:94
 msgid "Multi-year budgets"
 msgstr ""
 
-#: README.md:93
+#: ../README.md:96
 msgid "The following JSON snippet models a multi-year single source budget:"
 msgstr ""
 
-#: README.md:0
-msgid "To do"
-msgstr "ToDo"
-
-#: README.md:138
-msgid ""
-"Finalize guidance on use of extended fields in the core `planning.budget` "
-"field."
-msgstr ""
-
-#: README.md:139
-msgid ""
-"Finalize guidance where source entity is not known at time of budgeting"
-msgstr ""
-
-#: README.md:141
-msgid ""
-"See issue [#377](https://github.com/open-contracting/standard/issues/377)."
-msgstr ""
-
-#: README.md:0
+#: ../README.md:139
 msgid "Issues"
 msgstr "Problèmes"
 
-#: README.md:145
+#: ../README.md:141
 msgid ""
 "Report issues for this extension in the [ocds-extensions "
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "
@@ -185,13 +122,43 @@ msgstr ""
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), en "
 "mettant le nom de l'extension dans le titre du signalement."
 
-#: README.md:0
+#: ../README.md:143
 msgid "Changelog"
 msgstr "Journal des modifications"
 
-#: README.md:149
+#: ../README.md:145
+msgid "2020-04-24"
+msgstr ""
+
+#: ../README.md:147
+msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
+msgstr ""
+
+#: ../README.md:149
+msgid "2019-03-20"
+msgstr ""
+
+#: ../README.md:151
 msgid ""
-"2018-05-08 - Make `budgetBreakdown/id` required and non-nullable to support "
-"revision tracking and [list merging](http://standard.open-"
-"contracting.org/latest/en/schema/merging/#lists)."
+"Set `\"uniqueItems\": true` on array fields, and add `\"minLength\": 1` on "
+"required string fields."
+msgstr ""
+
+#: ../README.md:153
+msgid "2019-01-30"
+msgstr ""
+
+#: ../README.md:155
+msgid "Remove obsolete `mergeStrategy` properties"
+msgstr ""
+
+#: ../README.md:157
+msgid "2018-05-08"
+msgstr ""
+
+#: ../README.md:159
+msgid ""
+"Make `BudgetBreakdown.id` required and non-nullable to support revision "
+"tracking and [list merging](http://standard.open-"
+"contracting.org/latest/en/schema/merging/#lists)"
 msgstr ""

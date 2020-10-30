@@ -4,49 +4,49 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# James McKinney <jmckinney@open-contracting.org>, 2019
+# James McKinney, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"POT-Creation-Date: 2020-08-20 17:17-0400\n"
 "PO-Revision-Date: 2019-03-14 18:30+0000\n"
-"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2019\n"
-"Language-Team: Italian (https://www.transifex.com/OpenDataServices/teams/95084/it/)\n"
+"Last-Translator: James McKinney, 2019\n"
+"Language-Team: Italian (https://www.transifex.com/open-contracting-partnership-1/teams/112300/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: README.md:0
+#: ../README.md:1
 msgid "Contract Suppliers"
 msgstr ""
 
-#: README.md:3
+#: ../README.md:3
 msgid "OCDS is designed around a contracting model in which:"
 msgstr ""
 
-#: README.md:5
+#: ../README.md:5
 msgid "One or more awards are made naming the selected suppliers;"
 msgstr ""
 
-#: README.md:6
+#: ../README.md:6
 msgid ""
 "One contract is signed for each award made, referring back to the related "
 "award;"
 msgstr ""
 
-#: README.md:8
+#: ../README.md:8
 msgid ""
-"For this reason, the core `contract` block does not include information on "
-"`suppliers`. These can be located by looking at the related `award` using "
+"For this reason, the core `Contract` block does not include information on "
+"`suppliers`. These can be located by looking at the related `Award` using "
 "the `awardID` cross-reference."
 msgstr ""
 
-#: README.md:10
+#: ../README.md:10
 msgid ""
 "However, there are some contracting processes in which a single award to "
 "multiple suppliers, results in multiple contracts, each to a single "
@@ -54,21 +54,29 @@ msgid ""
 "contract level."
 msgstr ""
 
-#: README.md:12
+#: ../README.md:12
 msgid ""
-"The Contract suppliers extension introduces a `contract/suppliers` array for"
-" this purpose."
+"The Contract Suppliers extension introduces a `contracts.suppliers` array "
+"for this purpose."
 msgstr ""
 
-#: README.md:0
-msgid "Schema"
-msgstr "Schema"
+#: ../README.md:14
+msgid "Example"
+msgstr ""
 
-#: README.md:0
+#: ../README.md:16
+msgid ""
+"An award is made to a consortium with multiple suppliers. Then, a contract "
+"is signed with each of them separately. When this extension is used, you "
+"should fill `contracts.items` and `contracts.value` with the awarded items "
+"and value for each supplier."
+msgstr ""
+
+#: ../README.md:114
 msgid "Issues"
 msgstr "Problemi (issues)"
 
-#: README.md:18
+#: ../README.md:116
 msgid ""
 "Report issues for this extension in the [ocds-extensions "
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "
@@ -77,3 +85,15 @@ msgstr ""
 "Segnala i problemi per questa estensione nel [repository ocds-"
 "extensions](https://github.com/open-contracting/ocds-extensions/issues), "
 "inserendo il nome dell'estensione nel titolo del problema."
+
+#: ../README.md:118
+msgid "Changelog"
+msgstr ""
+
+#: ../README.md:120
+msgid "2020-04-24"
+msgstr ""
+
+#: ../README.md:122
+msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
+msgstr ""

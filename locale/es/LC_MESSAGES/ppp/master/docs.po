@@ -4,29 +4,28 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# James McKinney <jmckinney@open-contracting.org>, 2019
-# Maria Esther Cervantes <mariaesther@idatosabiertos.org>, 2019
+# James McKinney, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"POT-Creation-Date: 2020-08-20 17:17-0400\n"
 "PO-Revision-Date: 2019-03-14 18:28+0000\n"
-"Last-Translator: Maria Esther Cervantes <mariaesther@idatosabiertos.org>, 2019\n"
-"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/95084/es/)\n"
+"Last-Translator: James McKinney, 2019\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: README.md:0
+#: ../README.md:1
 msgid "OCDS for Public Private Partnerships"
 msgstr "OCDS para Asociaciones Público-Privadas"
 
-#: README.md:3
+#: ../README.md:3
 msgid ""
 "The Open Contracting Data Standard for Public Private Partnerships profile "
 "provides an extended Open Contracting Data Standard schema, offering a "
@@ -39,10 +38,10 @@ msgstr ""
 "estructurados para presentar información en proyectos de  Asociaciones "
 "Público Privadas."
 
-#: README.md:5
+#: ../README.md:5
 msgid ""
 "It is based on the [World Bank Framework for Disclosure in Public Private "
-"Patnership "
+"Partnership "
 "Projects](http://www.worldbank.org/en/topic/publicprivatepartnerships/brief"
 "/ppp-tools#T1) and was developed between May 2016 and May 2017 through a "
 "partnership between the [World Bank Open Contracting "
@@ -51,17 +50,8 @@ msgid ""
 "Contracting Partnership](http://open-contracting.org), and [Open Data "
 "Services Co-operative](http://www.opendataservices.coop)."
 msgstr ""
-"Esta basado en el  [World Bank Framework for Disclosure in Public Private "
-"Patnership "
-"Projects](http://www.worldbank.org/en/topic/publicprivatepartnerships/brief"
-"/ppp-tools#T1) y fue desarrollado entre Mayo 2016 y Mayo 2017 a través de "
-"una asociación entre [World Bank Open Contracting "
-"team](https://blogs.worldbank.org/category/tags/open-contracting), [PPP "
-"team](http://www.worldbank.org/en/topic/publicprivatepartnerships), [Open "
-"Contracting Partnership](http://open-contracting.org), y  [Open Data "
-"Services Co-operative](http://www.opendataservices.coop)."
 
-#: README.md:7
+#: ../README.md:7
 msgid ""
 "Full documentation of the profile is available at [http://standard.open-"
 "contracting.org/profiles/ppp/](http://standard.open-"
@@ -71,7 +61,7 @@ msgstr ""
 ".open-contracting.org/profiles/ppp/](http://standard.open-"
 "contracting.org/profiles/ppp/)"
 
-#: README.md:9
+#: ../README.md:9
 msgid ""
 "The consolidated OCDS for PPPs extension can be declared in [OCDS package "
 "metadata](http://standard.open-"
@@ -81,11 +71,11 @@ msgstr ""
 "package metadata](http://standard.open-"
 "contracting.org/latest/en/schema/release_package/) usando:"
 
-#: README.md:0
+#: ../README.md:20
 msgid "About PPP extensions"
 msgstr "Sobre extensiones APP"
 
-#: README.md:20
+#: ../README.md:22
 msgid ""
 "OCDS for PPPs is constructed from [a number of different modular extensions "
 "to OCDS](http://standard.open-"
@@ -97,72 +87,25 @@ msgstr ""
 "contracting.org/profiles/ppp/latest/en/extensions/),, de los cuales la "
 "mayoría puede ser usadas independientemente del perfil."
 
-#: README.md:22
+#: ../README.md:24
 msgid ""
 "This repository contains one additional extensions that forms part of the "
 "OCDS for PPPs profile. This extension introduces a number of fields and "
 "building blocks that are specific to PPP disclosure against the World Bank "
-"Framework, as well as a set of modifications that should only apply in an "
-"OCDS Profile (e.g. removing standard fields that are not required in the "
+"Framework, as well as a set of modifications that only apply in an OCDS "
+"Profile (e.g. removing standard fields that are not required in the "
 "profile)."
 msgstr ""
-"Este repositorio contiene una extensión adicional que forma parte del perfil"
-" OCDS para APPs. Esta extensión introduce un número de campos y bloques de "
-"construcción que son específicos para dla ivulgación de APP contra el Marco "
-"del Banco Mundial, así como una serie de modificaciones que solo deben "
-"aplicarse al Perfil OCDS (e.j, quitar los campos del estándar que no se "
-"requieren en el perfil)."
 
-#: README.md:0
+#: ../README.md:26
 msgid "PPP Specific extensions"
 msgstr "Extensiones específicas de APP"
 
-#: README.md:0
-msgid "Project level information"
-msgstr "Información a nivel de proyecto"
-
-#: README.md:28
-msgid ""
-"Building on the [Budget and Projects extension](https://github.com/open-"
-"contracting-extensions/ocds_budget_projects_extension) this adds to project "
-"with:"
-msgstr ""
-"Construida a partir de [Budget and Projects extension](https://github.com"
-"/open-contracting-extensions/ocds_budget_projects_extension) this adds to "
-"project with:"
-
-#: README.md:30
-msgid ""
-"Sector classifications - using the [UN Classifications of the Functions of "
-"Government](http://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=4)"
-msgstr ""
-"Clasificaciones sectoriales - utilizando las [Clasificaciones de las "
-"Naciones Unidas de las Funciones del "
-"Gobierno](http://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=4)"
-
-#: README.md:31
-msgid ""
-"Additional classifications - allowing arbitrary additional project "
-"categorization"
-msgstr ""
-"Clasificaciones adicionales - permitiendo la categorización arbitraria de "
-"proyectos adicionales"
-
-#: README.md:32
-msgid "Project location - with options for gazetteer or point location"
-msgstr ""
-"Ubicación del proyecto - con opciones para la localización geográfica o de "
-"puntos"
-
-#: README.md:34
-msgid "An example is shown below:"
-msgstr "A continuación se muestra un ejemplo:"
-
-#: README.md:0
+#: ../README.md:28
 msgid "Evaluation Indicators"
 msgstr "Indicadores de Evaluación"
 
-#: README.md:66
+#: ../README.md:30
 msgid ""
 "The PPP disclosure framework calls for a number of different indicators to "
 "be reported relating to governments evaluation of a PPP project."
@@ -171,31 +114,29 @@ msgstr ""
 "diferentes relacionados con la evaluación de los gobiernos de un proyecto de"
 " APP."
 
-#: README.md:68
+#: ../README.md:32
 msgid ""
-"The `award/evaluationIndicators` section includes properties to express the "
-"**value** and supporting **free-text details** for each indicator:"
+"The `awards.evaluationIndicators` section includes properties to express the"
+" **value** and supporting **free-text details** for each indicator:"
 msgstr ""
-"La sección `award/evaluationIndicators` incluye propiedades para expresar el"
-" **value** y apoyar **detalles de texto libre** para cada indicador:"
 
-#: README.md:70
+#: ../README.md:34
 msgid "discountRate"
 msgstr "discountRate"
 
-#: README.md:71
+#: ../README.md:35
 msgid "riskPremium"
 msgstr "riskPremium"
 
-#: README.md:72
+#: ../README.md:36
 msgid "netPresentValue"
 msgstr "netPresentValue"
 
-#: README.md:0
+#: ../README.md:38
 msgid "Finance Summary"
 msgstr "Resumen Financiero"
 
-#: README.md:76
+#: ../README.md:40
 msgid ""
 "The PPP disclosure framework calls for a number of different indicators "
 "relating to the financial model of a PPP project. Whilst some of these may "
@@ -206,50 +147,42 @@ msgstr ""
 "algunos de estos pueden ser reportados como métricas en forma continua, "
 "algunos son simples valores individuales."
 
-#: README.md:78
+#: ../README.md:42
 msgid ""
-"The `contract/financeSummary` section includes properties to express the "
+"The `contracts.financeSummary` section includes properties to express the "
 "**value** and supporting **free-text details** for each indicator:"
 msgstr ""
-"La sección `contract/financeSummary` incluye propiedades para expresar el "
-"**value** y soporta **detalles de texto libre** para cada indicador:"
 
-#: README.md:80
+#: ../README.md:44
 msgid "debtEquityRatio"
 msgstr "debtEquityRatio"
 
-#: README.md:81
+#: ../README.md:45
 msgid "shareCapital"
 msgstr "shareCapital"
 
-#: README.md:82
+#: ../README.md:46
 msgid "subsidyRatio"
 msgstr "subsidyRatio"
 
-#: README.md:83
+#: ../README.md:47
 msgid "projectIRR"
 msgstr "projectIRR"
 
-#: README.md:0
+#: ../README.md:49
 msgid "Removals"
 msgstr "Eliminaciones"
 
-#: README.md:87
+#: ../README.md:51
 msgid ""
-"A standard OCDS extension should not remove content from the OCDS schema. "
+"A standard OCDS extension must not remove content from the OCDS schema. "
 "However, to allow us to generate a profile schema and reference pages that "
-"contain **only** fields that should be considered when publishing OCDS for "
-"PPPs data, the release-schema.json for this extension contains a number of "
+"contain **only** fields that ought to be considered when publishing OCDS for"
+" PPPs data, the release-schema.json for this extension contains a number of "
 "`null` fields, which remove schema elements not used by OCDS for PPPs."
 msgstr ""
-"Una extensión del estándar OCDS no debe de quitar contenido del esquema "
-"OCDS. De cualquier forma, para permitir que se genere un perfil del esquema,"
-" y páginas de referencia que tengan **solo* campos que se deben considerar "
-"cuando se publican datos de OCDS para APPs, la entrega release-schema.json "
-"para esta extensión contiene una variedad de campos `null`, que quitan "
-"elementos del esquema que no se utilizan por OCDS para APPs."
 
-#: README.md:89
+#: ../README.md:53
 msgid ""
 "This includes elements deprecated in OCDS 1.0, or procurement specific "
 "elements that don't apply in a PPP context."
@@ -257,11 +190,11 @@ msgstr ""
 "Esto incluye elementos descontinuados en OCDS 1.0, o elementos específicos "
 "de presupuesto que no aplican en un contexto de APP"
 
-#: README.md:0
+#: ../README.md:55
 msgid "Issues"
 msgstr "Issues"
 
-#: README.md:93
+#: ../README.md:57
 msgid ""
 "Report issues for this extension in the [ocds-extensions "
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "
@@ -270,3 +203,42 @@ msgstr ""
 "Reporte issues para esta extensión en el [repositorio de extensiones "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
 "el nombre de la extensión en el título del issue."
+
+#: ../README.md:59
+msgid "Changelog"
+msgstr ""
+
+#: ../README.md:61
+msgid "2020-06-04"
+msgstr ""
+
+#: ../README.md:63
+msgid "Review normative and non-normative words."
+msgstr ""
+
+#: ../README.md:65
+msgid "2020-04-24"
+msgstr ""
+
+#: ../README.md:67
+msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
+msgstr ""
+
+#: ../README.md:69
+msgid "2019-05-01"
+msgstr ""
+
+#: ../README.md:71
+msgid ""
+"Remove 'qualifiedBidder' and 'disqualifiedBidder' codes from "
+"`+partyRole.csv` (moved to [qualification](https://extensions.open-"
+"contracting.org/en/extensions/qualification/master/) extension)."
+msgstr ""
+
+#: ../README.md:73
+msgid "2019-03-20"
+msgstr ""
+
+#: ../README.md:75
+msgid "Set `\"uniqueItems\": true` on array fields."
+msgstr ""

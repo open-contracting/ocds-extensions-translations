@@ -4,98 +4,98 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# James McKinney <jmckinney@open-contracting.org>, 2019
+# James McKinney, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"POT-Creation-Date: 2020-08-20 17:17-0400\n"
 "PO-Revision-Date: 2019-03-14 18:27+0000\n"
-"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2019\n"
-"Language-Team: Italian (https://www.transifex.com/OpenDataServices/teams/95084/it/)\n"
+"Last-Translator: James McKinney, 2019\n"
+"Language-Team: Italian (https://www.transifex.com/open-contracting-partnership-1/teams/112300/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: README.md:0
+#: ../README.md:1
 msgid "Tariffs"
 msgstr ""
 
-#: README.md:0
+#: ../README.md:3
 msgid "Introduction"
 msgstr ""
 
-#: README.md:5
+#: ../README.md:5
 msgid ""
 "Some contracts, particularly Public Private Partnership contracts, include "
 "agreements about the user fees to be charged for use of the infrastructure "
 "or services the contract relates to."
 msgstr ""
 
-#: README.md:7
+#: ../README.md:7
 msgid ""
 "For example, a Public Private Partnership project to build a bridge may set "
 "out the tolls for cars and other vehicles cross the bridge."
 msgstr ""
 
-#: README.md:9
+#: ../README.md:9
 msgid ""
 "The tariff extension allows a structured list of these charges to be set "
 "out."
 msgstr ""
 
-#: README.md:11
+#: ../README.md:11
 msgid ""
 "It also includes an additional codelist entries for the documentType "
 "codelist for:"
 msgstr ""
 
-#: README.md:13
+#: ../README.md:13
 msgid "tariffs"
 msgstr ""
 
-#: README.md:14
+#: ../README.md:14
 msgid "tariffMethod"
 msgstr ""
 
-#: README.md:15
+#: ../README.md:15
 msgid "tariffReview"
 msgstr ""
 
-#: README.md:16
+#: ../README.md:16
 msgid "tariffIllustration"
 msgstr ""
 
-#: README.md:0
+#: ../README.md:18
 msgid "Tariff modelling"
 msgstr ""
 
-#: README.md:20
+#: ../README.md:20
 msgid ""
 "The tariff model builds upon the metrics extension, allowing an array of "
 "tariff items, each with an identifier, title, period, value, units and an "
 "arbitrary set of dimensions."
 msgstr ""
 
-#: README.md:22
+#: ../README.md:22
 msgid ""
 "For example, if the toll for a road bridge varies based on (a) the type of "
 "vehicle; and (b) the time of day; an implementation of the tariff extension "
-"may create new fields for `dimension/vehicleType` and `dimension/timeOfDay`,"
-" populating these according to local codelists. In PPP cases, these "
-"additional dimensions may mirror those used in the estimated demand and "
-"other metrics sections."
+"may create new fields for `dimensions.vehicleType` and "
+"`dimensions.timeOfDay`, populating these according to local codelists. In "
+"PPP cases, these additional dimensions may mirror those used in the "
+"estimated demand and other metrics sections."
 msgstr ""
 
-#: README.md:0
-msgid "Worked example"
-msgstr "Esempio elaborato"
+#: ../README.md:24
+msgid "Example"
+msgstr ""
 
-#: README.md:26
+#: ../README.md:26
 msgid ""
 "The example below shows a very simply tariff table, without periods or "
 "units, but with two dimensions. Tariffs which relate to a particular set of "
@@ -103,19 +103,19 @@ msgid ""
 "(e.g. tonnes) could have this indicated using a `unit` block."
 msgstr ""
 
-#: README.md:0
+#: ../README.md:89
 msgid "Codelist entries"
 msgstr ""
 
-#: README.md:85
+#: ../README.md:91
 msgid "The following document types are introduced by the tariff extension"
 msgstr ""
 
-#: README.md:87
+#: ../README.md:93
 msgid "tariffs - For providing tariff and pricing schedules."
 msgstr ""
 
-#: README.md:88
+#: ../README.md:94
 msgid ""
 "tariffMethod - For summarizing the method by which tariffs are set, and "
 "linking to detailed documentation of the methods for setting tariffs. This "
@@ -123,7 +123,7 @@ msgid ""
 "used to calculate tariffs."
 msgstr ""
 
-#: README.md:89
+#: ../README.md:95
 msgid ""
 "tariffReview - For summarizing the arrangements for the review and "
 "regulation of tariffs, and linking to detailed documentation that covers how"
@@ -132,7 +132,7 @@ msgid ""
 "structures."
 msgstr ""
 
-#: README.md:90
+#: ../README.md:96
 msgid ""
 "tariffIllustration - For linking to graphs and reports on the change over "
 "time in tariff prices. Use the relevant image media type when linking to "
@@ -140,11 +140,11 @@ msgid ""
 "content."
 msgstr ""
 
-#: README.md:0
+#: ../README.md:98
 msgid "Issues"
 msgstr "Problemi (issues)"
 
-#: README.md:94
+#: ../README.md:100
 msgid ""
 "Report issues for this extension in the [ocds-extensions "
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "
@@ -154,13 +154,59 @@ msgstr ""
 "extensions](https://github.com/open-contracting/ocds-extensions/issues), "
 "inserendo il nome dell'estensione nel titolo del problema."
 
-#: README.md:0
+#: ../README.md:102
 msgid "Changelog"
 msgstr "Storico delle modifiche"
 
-#: README.md:98
+#: ../README.md:104
+msgid "2020-06-04"
+msgstr ""
+
+#: ../README.md:106
+msgid "Review normative and non-normative words"
+msgstr ""
+
+#: ../README.md:108
+msgid "2020-04-24"
+msgstr ""
+
+#: ../README.md:110
+msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
+msgstr ""
+
+#: ../README.md:112
+msgid "2019-03-20"
+msgstr ""
+
+#: ../README.md:114
 msgid ""
-"2018-05-08 - Make `tariff/id` required to support revision tracking and "
-"[list merging](http://standard.open-"
-"contracting.org/latest/en/schema/merging/#lists)."
+"Set `\"uniqueItems\": true` on array fields, and add `\"minLength\": 1` on "
+"required string fields."
+msgstr ""
+
+#: ../README.md:115
+msgid "Make `Tariff.unit` non-nullable, like `Item.unit`."
+msgstr ""
+
+#: ../README.md:116
+msgid "Make `Tariff.dimensions` non-nullable (undo earlier change)."
+msgstr ""
+
+#: ../README.md:118
+msgid "2018-05-08"
+msgstr ""
+
+#: ../README.md:120
+msgid ""
+"Make `Tariff.id` required to support revision tracking and [list "
+"merging](http://standard.open-"
+"contracting.org/latest/en/schema/merging/#lists)"
+msgstr ""
+
+#: ../README.md:122
+msgid "2018-05-01"
+msgstr ""
+
+#: ../README.md:124
+msgid "Make `Tariff.dimensions` nullable."
 msgstr ""

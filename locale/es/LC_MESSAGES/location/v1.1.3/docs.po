@@ -4,28 +4,28 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# James McKinney <jmckinney@open-contracting.org>, 2019
+# James McKinney, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"POT-Creation-Date: 2020-08-20 17:17-0400\n"
 "PO-Revision-Date: 2019-03-14 18:27+0000\n"
-"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2019\n"
-"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/95084/es/)\n"
+"Last-Translator: James McKinney, 2019\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: README.md:0
+#: ../README.md:1
 msgid "Location Data"
 msgstr "Datos de ubicación"
 
-#: README.md:3
+#: ../README.md:3
 msgid ""
 "Communicating the location of proposed or executed contract delivery is "
 "important to make users of contracting data."
@@ -33,7 +33,7 @@ msgstr ""
 "La comunicación de la ubicación de la entrega del contrato propuesto o "
 "ejecutado es importante para usar los datos de contratación."
 
-#: README.md:5
+#: ../README.md:5
 msgid ""
 "This extension introduces two properties at the `items` level to describe "
 "location:"
@@ -41,7 +41,7 @@ msgstr ""
 "Esta extensión introduce dos propiedades en el nivel `items` para describir "
 "la ubicación:"
 
-#: README.md:7
+#: ../README.md:7
 msgid ""
 "`deliveryAddress` - a standard `Address` block which can be used to provide "
 "a postal address where services should be delivered."
@@ -49,7 +49,7 @@ msgstr ""
 "`deliveryAddress` - un bloque estándar `Address` que puede usarse para "
 "proporcionar una dirección postal donde deben entregarse los servicios."
 
-#: README.md:8
+#: ../README.md:8
 msgid ""
 "`deliveryLocation` - a new block consisting of GeoJSON and Gazetteer entries"
 " to describe a wider range of locations to which the contract line item "
@@ -59,27 +59,27 @@ msgstr ""
 "diccionario geográfico para describir una gama más amplia de ubicaciones a "
 "las que se refiere la partida del contrato."
 
-#: README.md:0
+#: ../README.md:10
 msgid "Schema reference"
 msgstr "Referencia de esquema"
 
-#: README.md:0
+#: ../README.md:18
 msgid "Gazetteer Codelist"
 msgstr "Lista de códigos de diccionario geográfico "
 
-#: README.md:20
+#: ../README.md:20
 msgid "See locationGazetteers.csv"
 msgstr "Ver locationGazetteers.csv"
 
-#: README.md:0
+#: ../README.md:22
 msgid "Example"
 msgstr "Ejemplo"
 
-#: README.md:24
+#: ../README.md:24
 msgid "Below is an example of a geolocated item:"
 msgstr "A continuación se muestra un ejemplo de un elemento geolocalizado:"
 
-#: README.md:70
+#: ../README.md:70
 msgid ""
 "If the procurement related to the rebuilding of a road, then the item could "
 "also specify more complex geometries such as:"
@@ -88,7 +88,7 @@ msgstr ""
 "entonces el elemento también podría especificar geometrías más complejas, "
 "tales como:"
 
-#: README.md:89
+#: ../README.md:89
 msgid ""
 "You can take the contents of the geometry object, excluding the `geometry` "
 "keyword, and plug this into any GeoJSON tool to see the shape that is "
@@ -98,11 +98,11 @@ msgstr ""
 "`geometry`, y conectarlo a cualquier herramienta de GeoJSON para ver la "
 "forma en que se describe."
 
-#: README.md:0
+#: ../README.md:91
 msgid "Issues"
 msgstr "Issues"
 
-#: README.md:93
+#: ../README.md:93
 msgid ""
 "Report issues for this extension in the [ocds-extensions "
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "
@@ -112,15 +112,15 @@ msgstr ""
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
 "el nombre de la extensión en el título del issue."
 
-#: README.md:0
+#: ../README.md:95
 msgid "Changelog"
 msgstr "Registro de cambios"
 
-#: README.md:0
+#: ../README.md:97
 msgid "v1.1.3"
 msgstr "v1.1.3"
 
-#: README.md:99
+#: ../README.md:99
 msgid ""
 "Disallow `Location.geometry.coordinates` from having null in its array of "
 "coordinates"
@@ -128,7 +128,7 @@ msgstr ""
 "No permitir que `Location.geometry.coordinates` tenga null en su matriz de "
 "coordenadas"
 
-#: README.md:100
+#: ../README.md:100
 msgid ""
 "Disallow `Location.gazetteer.identifiers` from having null in its array of "
 "strings"
@@ -136,34 +136,34 @@ msgstr ""
 "No permitir que `Location.gazetteer.identifiers` tenga null en su lista de "
 "strings"
 
-#: README.md:101
+#: ../README.md:101
 msgid ""
 "Correct name of locationGazetteers.csv codelist (was locationGazeteers.csv)"
 msgstr ""
 "Corregir el nombre de la lista de código locationGazetteers.csv (era "
 "locationGazeteers.csv)"
 
-#: README.md:102
+#: ../README.md:102
 msgid "Allow `Location.geometry` and `Location.gazetteer` to be null"
 msgstr "Permitir que `Location.geometry` y` Location.gazetteer` sean null"
 
-#: README.md:103
+#: ../README.md:103
 msgid "Add title and description to `Location.gazetteer`"
 msgstr "Agregar título y descripción a `Location.gazetteer`"
 
-#: README.md:104
+#: ../README.md:104
 msgid "Add description to `Item.deliveryLocation`, `Item.deliveryAddress`"
 msgstr "Agregar descripción a `Item.deliveryLocation`,` Item.deliveryAddress`"
 
-#: README.md:105
+#: ../README.md:105
 msgid "Add geometryType.csv codelist for `Location.geometry.type`"
 msgstr ""
 "Agregar la lista de código geometryType.csv para `Location.geometry.type`"
 
-#: README.md:106
+#: ../README.md:106
 msgid "List codelists in extension.json"
 msgstr "Enlista listas de códigos en extension.json"
 
-#: README.md:107
+#: ../README.md:107
 msgid "Add tests and tidy code"
 msgstr "Agregar pruebas y ordenar el código"

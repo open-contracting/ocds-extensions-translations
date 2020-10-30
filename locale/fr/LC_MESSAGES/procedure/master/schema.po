@@ -1,20 +1,20 @@
 # Translations template for PROJECT.
 # Copyright (C) 2020 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# Automatically generated, 2020.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-04-06 18:31-0400\n"
-"PO-Revision-Date: 2020-04-06 18:31-0400\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"POT-Creation-Date: 2020-08-20 17:19-0400\n"
+"PO-Revision-Date: 2020-08-20 21:49+0000\n"
+"Language-Team: French (https://www.transifex.com/open-contracting-partnership-1/teams/112300/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
+"Generated-By: Babel 2.8.0\n"
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
@@ -44,8 +44,8 @@ msgstr ""
 #. /definitions/Procedure/properties/isAccelerated/description
 #: release-schema.json:1
 msgid ""
-"Whether the time limit for receipt of bids or requests to participate can be "
-"reduced due to a state of urgency."
+"Whether the time limit for receipt of bids or requests to participate can be"
+" reduced due to a state of urgency."
 msgstr ""
 
 #. /definitions/Procedure/properties/acceleratedRationale/title
@@ -56,4 +56,17 @@ msgstr ""
 #. /definitions/Procedure/properties/acceleratedRationale/description
 #: release-schema.json:1
 msgid "The justification for using an accelerated procedure."
+msgstr ""
+
+#. /definitions/Procedure/properties/features/title
+#: release-schema.json:1
+msgid "Features"
+msgstr ""
+
+#. /definitions/Procedure/properties/features/description
+#: release-schema.json:1
+msgid ""
+"The main features of the procedure (e.g. description of the individual "
+"stages) and information about where the full rules for the procedure can be "
+"found."
 msgstr ""

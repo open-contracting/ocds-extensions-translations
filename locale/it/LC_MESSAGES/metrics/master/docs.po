@@ -4,34 +4,34 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# James McKinney <jmckinney@open-contracting.org>, 2019
+# James McKinney, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"POT-Creation-Date: 2020-08-20 17:17-0400\n"
 "PO-Revision-Date: 2019-03-14 18:26+0000\n"
-"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2019\n"
-"Language-Team: Italian (https://www.transifex.com/OpenDataServices/teams/95084/it/)\n"
+"Last-Translator: James McKinney, 2019\n"
+"Language-Team: Italian (https://www.transifex.com/open-contracting-partnership-1/teams/112300/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: README.md:0
+#: ../README.md:1
 msgid "Metrics Extension"
 msgstr ""
 
-#: README.md:3
+#: ../README.md:3
 msgid ""
 "The metrics extension provides a common building block for reporting "
 "structured performance information on contracts."
 msgstr ""
 
-#: README.md:5
+#: ../README.md:5
 msgid ""
 "Metrics are structured like an [OLAP data "
 "cube](https://en.wikipedia.org/wiki/OLAP_cube) with each instance of "
@@ -39,50 +39,54 @@ msgid ""
 "**dimensions**."
 msgstr ""
 
-#: README.md:7
+#: ../README.md:7
 msgid "The metrics extension can be used at:"
 msgstr ""
 
-#: README.md:9
+#: ../README.md:9
 msgid ""
 "The `planning` stage for forecasts for the contracting process (e.g. "
 "forecast demand levels)"
 msgstr ""
 
-#: README.md:10
+#: ../README.md:10
 msgid ""
 "The `tender` stage for targets for the contracting process (e.g. target "
 "availability levels or KPIs)"
 msgstr ""
 
-#: README.md:11
+#: ../README.md:11
 msgid ""
-"The `award` and `contract` stages for targets agreed with the successful "
+"The `awards` and `contracts` stages for targets agreed with the successful "
 "supplier (e.g. availability levels or KPIs)"
 msgstr ""
 
-#: README.md:12
+#: ../README.md:12
 msgid ""
 "The `implementation` stage for actual performance information (e.g. actual "
 "demand, availability, KPIs etc.)"
 msgstr ""
 
-#: README.md:14
+#: ../README.md:14
 msgid ""
 "Where the metrics extension is used to model targets for a contracting "
 "process, the `description` field can be used to start whether the target is "
 "a minimum or recommended target."
 msgstr ""
 
-#: README.md:0
-msgid "Example - Forecasts"
+#: ../README.md:16
+msgid "Example"
 msgstr ""
 
-#: README.md:0
-msgid "Example - Physical progress"
+#: ../README.md:18
+msgid "Forecasts"
 msgstr ""
 
-#: README.md:55
+#: ../README.md:59
+msgid "Physical progress"
+msgstr ""
+
+#: ../README.md:61
 msgid ""
 "The metrics extension can also be used to report on the physical progress of"
 " a contract. The following JSON snippet shows how the metrics extension "
@@ -90,50 +94,11 @@ msgid ""
 "by percent completion and number of kilometres constructed:"
 msgstr ""
 
-#: README.md:0
-msgid "Use with requirements"
-msgstr ""
-
-#: README.md:108
-msgid ""
-"Metrics can be used along with the **requirements extension** which will add"
-" a 'relatedRequirementID' property to metrics."
-msgstr ""
-
-#: README.md:110
-msgid ""
-"With the requirements extension, bids, awards and contracts can include a "
-"`RequirementResponse` indicating the values against each metric that a "
-"supplier intends to meet."
-msgstr ""
-
-#: README.md:112
-msgid ""
-"This can allow a degree of comparison between performance anticipated at "
-"bid, award, contract and implementation phases."
-msgstr ""
-
-#: README.md:0
-msgid "To Do"
-msgstr ""
-
-#: README.md:116
-msgid "[ ] Check oneOf schema syntax for value **or** quantity"
-msgstr ""
-
-#: README.md:117
-msgid "[ ] Add relatedRequirementID to requirements extension"
-msgstr ""
-
-#: README.md:118
-msgid "[ ] Validate schema updates"
-msgstr ""
-
-#: README.md:0
+#: ../README.md:118
 msgid "Issues"
 msgstr "Problemi (issues)"
 
-#: README.md:122
+#: ../README.md:120
 msgid ""
 "Report issues for this extension in the [ocds-extensions "
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "
@@ -142,3 +107,57 @@ msgstr ""
 "Segnala i problemi per questa estensione nel [repository ocds-"
 "extensions](https://github.com/open-contracting/ocds-extensions/issues), "
 "inserendo il nome dell'estensione nel titolo del problema."
+
+#: ../README.md:122
+msgid "Changelog"
+msgstr ""
+
+#: ../README.md:124
+msgid "2020-04-24"
+msgstr ""
+
+#: ../README.md:126
+msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
+msgstr ""
+
+#: ../README.md:128
+msgid "2019-03-20"
+msgstr ""
+
+#: ../README.md:130
+msgid ""
+"Set `\"uniqueItems\": true` on array fields, and add `\"minLength\": 1` on "
+"required string fields."
+msgstr ""
+
+#: ../README.md:131
+msgid "Make `Observation.unit` non-nullable, like `Item.unit`."
+msgstr ""
+
+#: ../README.md:132
+msgid "Make `Observation.dimensions` non-nullable (undo earlier change)."
+msgstr ""
+
+#: ../README.md:134
+msgid "2018-05-08"
+msgstr ""
+
+#: ../README.md:136
+msgid ""
+"Make `Metric.id` and `Observation.id` required to support revision tracking "
+"and [list merging](http://standard.open-"
+"contracting.org/latest/en/schema/merging/#lists)"
+msgstr ""
+
+#: ../README.md:138
+msgid "2018-05-01"
+msgstr ""
+
+#: ../README.md:140
+msgid ""
+"Add title and description to `Observation.period` and `Observation.value`."
+msgstr ""
+
+#: ../README.md:141
+msgid "Make `Observation.dimensions` nullable."
+msgstr ""

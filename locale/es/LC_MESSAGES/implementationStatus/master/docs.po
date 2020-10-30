@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Maria Esther Cervantes <mariaesther@idatosabiertos.org>, 2019
+# Maria Esther Cervantes <mcervantes@cds.com.py>, 2019
 # Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019
 # 
 #, fuzzy
@@ -12,25 +12,25 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-14 14:32-0400\n"
+"POT-Creation-Date: 2020-08-20 17:17-0400\n"
 "PO-Revision-Date: 2019-03-14 18:35+0000\n"
 "Last-Translator: Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019\n"
-"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/95084/es/)\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: README.md:0
+#: ../README.md:1
 msgid "Implementation Status"
 msgstr "Estado de la Implementación"
 
-#: README.md:0
+#: ../README.md:2
 msgid "Description:"
 msgstr "Descripción:"
 
-#: README.md:4
+#: ../README.md:4
 msgid ""
 "In Mexico, when talking about works and services related with them it is "
 "necessary to publish a set of specific variables about its implementation. "
@@ -42,46 +42,46 @@ msgstr ""
 "Una de las variables es el status de la implementación del trabajo o "
 "servicios, esto incluye una lista de código con los siguientes valores: "
 
-#: README.md:6
+#: ../README.md:6
 msgid "planning"
 msgstr "planeación"
 
-#: README.md:7
+#: ../README.md:7
 msgid "ongoing"
 msgstr "proyectos en marcha"
 
-#: README.md:8
+#: ../README.md:8
 msgid "concluded"
 msgstr "proyectos concluidos"
 
-#: README.md:0
+#: ../README.md:10
 msgid "Proposal:"
 msgstr "Propuesta:"
 
-#: README.md:12
+#: ../README.md:12
 msgid ""
 "Add a new field named “implementationStatus” in the “Implementation” object."
 msgstr ""
 "Añadir un campo nuevo llamado \"“implementationStatus” en el objeto  "
 "“Implementation”."
 
-#: README.md:0
+#: ../README.md:14
 msgid "Schema"
 msgstr "Esquema"
 
-#: README.md:16
+#: ../README.md:16
 msgid "Implementation {object}"
 msgstr "Implementación {object}"
 
-#: README.md:17
+#: ../README.md:17
 msgid "status (string, null) (codelist)"
 msgstr "Estatus (string, null) (codelist)"
 
-#: README.md:0
+#: ../README.md:20
 msgid "Defining texts:"
 msgstr "Textos definidos: "
 
-#: README.md:23
+#: ../README.md:23
 msgid ""
 "**Code** | **Title** | **Description** --|--|-- status | Implementation "
 "status | The current status of the contract implementation based on the "
@@ -102,11 +102,11 @@ msgstr ""
 "en curso. concluido | Concluido | La prestación o construcción de los "
 "bienes, servicios u obras ha finalizado oficialmente."
 
-#: README.md:0
+#: ../README.md:30
 msgid "Issues"
 msgstr "Issues"
 
-#: README.md:32
+#: ../README.md:32
 msgid ""
 "Report issues for this extension in the [standard "
 "repository](https://github.com/open-contracting/standard/issues/624) of the "

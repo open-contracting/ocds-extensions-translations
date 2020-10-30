@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Maria Esther Cervantes <mariaesther@idatosabiertos.org>, 2019
+# Maria Esther Cervantes <mcervantes@cds.com.py>, 2019
 # Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019
 # 
 #, fuzzy
@@ -12,25 +12,25 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-14 14:32-0400\n"
+"POT-Creation-Date: 2020-08-20 17:17-0400\n"
 "PO-Revision-Date: 2019-03-14 18:34+0000\n"
 "Last-Translator: Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019\n"
-"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/95084/es/)\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: README.md:0
+#: ../README.md:1
 msgid "Release Publisher Extension"
 msgstr "Extensión de publicador de release"
 
-#: README.md:0
+#: ../README.md:2
 msgid "Description"
 msgstr "Descripción"
 
-#: README.md:3
+#: ../README.md:3
 msgid ""
 "Includes the information about the publisher at release level for the cases "
 "in that a release-package or record-packages  contains releases from "
@@ -40,11 +40,11 @@ msgstr ""
 "los cuales el paquet de releases o el paquete de records contienen releases "
 "de otros publicadores"
 
-#: README.md:0
+#: ../README.md:6
 msgid "Fields"
 msgstr "Campos"
 
-#: README.md:7
+#: ../README.md:7
 msgid ""
 "release.publisher: Information to uniquely identify the publisher of this "
 "release."
@@ -52,6 +52,6 @@ msgstr ""
 "release.publisher: Información que se usa únicamente para identificar el "
 "publicador de este release"
 
-#: README.md:0
+#: ../README.md:9
 msgid "Example"
 msgstr "Ejemplo"

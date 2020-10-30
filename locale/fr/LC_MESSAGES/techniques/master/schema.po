@@ -1,20 +1,20 @@
 # Translations template for PROJECT.
 # Copyright (C) 2020 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# Automatically generated, 2020.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-04-06 18:31-0400\n"
-"PO-Revision-Date: 2020-04-06 18:31-0400\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"POT-Creation-Date: 2020-08-20 17:20-0400\n"
+"PO-Revision-Date: 2020-08-20 21:57+0000\n"
+"Language-Team: French (https://www.transifex.com/open-contracting-partnership-1/teams/112300/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
+"Generated-By: Babel 2.8.0\n"
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
@@ -29,8 +29,8 @@ msgstr ""
 #. /description/en
 #: extension.json:1
 msgid ""
-"Adds fields to the tender and lot objects to describe the use of techniques, "
-"such as framework agreements, dynamic purchasing systems and electronic "
+"Adds fields to the tender and lot objects to describe the use of techniques,"
+" such as framework agreements, dynamic purchasing systems and electronic "
 "auctions."
 msgstr ""
 
@@ -153,8 +153,8 @@ msgstr ""
 #. /definitions/FrameworkAgreement/properties/buyerCategories/description
 #: release-schema.json:1
 msgid ""
-"Any additional categories of buyers participating in the framework agreement "
-"and not mentioned by name (e.g. 'all hospitals in the Tuscany region')."
+"Any additional categories of buyers participating in the framework agreement"
+" and not mentioned by name (e.g. 'all hospitals in the Tuscany region')."
 msgstr ""
 
 #. /definitions/DynamicPurchasingSystem/properties/type/title

@@ -1,24 +1,24 @@
 # Translations template for PROJECT.
-# Copyright (C) 2019 ORGANIZATION
+# Copyright (C) 2020 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 # 
 # Translators:
-# James McKinney <jmckinney@open-contracting.org>, 2019
+# James McKinney, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"POT-Creation-Date: 2020-08-20 17:18-0400\n"
 "PO-Revision-Date: 2019-03-14 18:30+0000\n"
-"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2019\n"
-"Language-Team: Italian (https://www.transifex.com/OpenDataServices/teams/95084/it/)\n"
+"Last-Translator: James McKinney, 2019\n"
+"Language-Team: Italian (https://www.transifex.com/open-contracting-partnership-1/teams/112300/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.8.0\n"
 "Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -30,11 +30,12 @@ msgstr ""
 #. /description/en
 #: extension.json:1
 msgid ""
-"Capturing details of the finance arranged for a contract, including loans, "
-"grants and other finance sources."
+"Adds fields to disclose the financing of the whole process and its "
+"individual contracts."
 msgstr ""
 
 #. /definitions/Contract/properties/finance/title
+#. /definitions/Budget/properties/finance/title
 #: release-schema.json:1
 msgid "Finance"
 msgstr ""
@@ -43,6 +44,12 @@ msgstr ""
 #: release-schema.json:1
 msgid ""
 "An array with details of each source of finance arranged for this contract."
+msgstr ""
+
+#. /definitions/Budget/properties/finance/description
+#: release-schema.json:1
+msgid ""
+"An array with details of each source of finance planned for this procedure."
 msgstr ""
 
 #. /definitions/Finance/title
@@ -110,7 +117,7 @@ msgstr ""
 
 #. /definitions/Finance/properties/financeType/description
 #: release-schema.json:1
-msgid "The type of finance arranged, from the finance type codelist."
+msgid "The type of finance arranged."
 msgstr ""
 
 #. /definitions/Finance/properties/financeCategory/title
@@ -121,9 +128,8 @@ msgstr ""
 #. /definitions/Finance/properties/financeCategory/description
 #: release-schema.json:1
 msgid ""
-"For categorizing the nature of any financial investment. This field must be "
-"filled in for debt finance. This information can be used to identify the "
-"order of preference for investors to get their money back in cases of "
+"The nature of the finance. This information can be used when determining the"
+" order of preference for investors to get their money back in cases of "
 "liquidation."
 msgstr ""
 
@@ -167,8 +173,8 @@ msgstr ""
 msgid ""
 "The variable to which an additional margin amount is added to get the "
 "Interest amount. This can be specified as a fixed number, as a known "
-"variable (e.g. LIBOR), or can be omitted if margin specifies the entire "
-"interest rate."
+"variable (e.g. LIBOR or LIBOR+1%), or can be omitted if margin specifies the"
+" entire interest rate."
 msgstr ""
 
 #. /definitions/Finance/properties/interestRate/properties/margin/title

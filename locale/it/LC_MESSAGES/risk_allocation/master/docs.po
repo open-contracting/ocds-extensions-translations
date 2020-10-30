@@ -4,85 +4,85 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# James McKinney <jmckinney@open-contracting.org>, 2019
+# James McKinney, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"POT-Creation-Date: 2020-08-20 17:17-0400\n"
 "PO-Revision-Date: 2019-03-14 18:32+0000\n"
-"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2019\n"
-"Language-Team: Italian (https://www.transifex.com/OpenDataServices/teams/95084/it/)\n"
+"Last-Translator: James McKinney, 2019\n"
+"Language-Team: Italian (https://www.transifex.com/open-contracting-partnership-1/teams/112300/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: README.md:0
+#: ../README.md:1
 msgid "Risk allocation"
 msgstr ""
 
-#: README.md:3
+#: ../README.md:3
 msgid ""
 "The [framework for disclosure in "
 "PPPs](http://pubdocs.worldbank.org/en/773541448296707678/Disclosure-in-PPPs-"
 "Framework.pdf) calls for individual risk allocation information."
 msgstr ""
 
-#: README.md:5
+#: ../README.md:5
 msgid ""
 "The risk allocation extension is used to provide structured data on the risk"
 " allocations defined in a public private partnership's contract."
 msgstr ""
 
-#: README.md:0
+#: ../README.md:7
 msgid "Overview"
 msgstr "Panoramica"
 
-#: README.md:9
+#: ../README.md:9
 msgid ""
-"Risk allocations can be represented using an array of [risk "
-"blocks](../../../schema/reference/#organization) in the `riskAllocation` "
-"field of the `contract` section of an OCDS release."
+"Risk allocations can be represented using an array of `Risk` objects in the "
+"`riskAllocation` field of the `contracts` section of an OCDS release."
 msgstr ""
 
-#: README.md:11
+#: ../README.md:11
 msgid ""
-"The risk category can be represented using the `risk/category` field using "
-"values from the [risk category codelist](../schema/codelists/#risk-category)"
-" based on the APMG PPP Certification Program. The codelist's Category column"
-" indicates the stage or aspect of the contracting process to which the risk "
-"category applies."
+"The risk category can be represented using the `Risk.category` field using "
+"values from the `riskCategory.csv` codelist based on the APMG PPP "
+"Certification Program. The codelist's Category column indicates the stage or"
+" aspect of the contracting process to which the risk category applies."
 msgstr ""
 
-#: README.md:13
+#: ../README.md:13
 msgid ""
 "The party retaining each risk should be represented using the "
-"`risk/allocation` field using values from the [risk allocation "
-"codelist](../schema/codelists/#risk-allocation)."
+"`Risk.allocation` field using values from the `riskAllocation.csv` codelist."
 msgstr ""
 
-#: README.md:15
+#: ../README.md:15
 msgid ""
 "The description of the risk should be provided as free text using the "
-"`risk/description` field and the mitigation for the risk should be provided "
-"as free text using the `risk/mitigation` field."
+"`Risk.description` field."
 msgstr ""
 
-#: README.md:17
+#: ../README.md:17
 msgid ""
 "Additional free text information on the risk can be provided using the "
-"`risk/notes` field."
+"`Risk.notes` field."
 msgstr ""
 
-#: README.md:0
+#: ../README.md:19
+msgid "Example"
+msgstr ""
+
+#: ../README.md:54
 msgid "Issues"
 msgstr "Problemi (issues)"
 
-#: README.md:21
+#: ../README.md:56
 msgid ""
 "Report issues for this extension in the [ocds-extensions "
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "
@@ -92,83 +92,41 @@ msgstr ""
 "extensions](https://github.com/open-contracting/ocds-extensions/issues), "
 "inserendo il nome dell'estensione nel titolo del problema."
 
-#: README.md:0
+#: ../README.md:58
 msgid "Changelog"
 msgstr "Storico delle modifiche"
 
-#: README.md:25
+#: ../README.md:60
+msgid "2020-06-04"
+msgstr ""
+
+#: ../README.md:62
+msgid "Review normative and non-normative words."
+msgstr ""
+
+#: ../README.md:64
+msgid "2020-04-24"
+msgstr ""
+
+#: ../README.md:66
+msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
+msgstr ""
+
+#: ../README.md:68
+msgid "2019-03-20"
+msgstr ""
+
+#: ../README.md:70
+msgid "Add `\"minLength\": 1` on required string fields."
+msgstr ""
+
+#: ../README.md:72
+msgid "2018-05-08"
+msgstr ""
+
+#: ../README.md:74
 msgid ""
-"2018-05-08 - Make `risk/id` required to support revision tracking and [list "
+"Make `Risk.id` required to support revision tracking and [list "
 "merging](http://standard.open-"
-"contracting.org/latest/en/schema/merging/#lists)."
-msgstr ""
-
-#: docs/index.md:0
-msgid "Risk Allocation Extension"
-msgstr ""
-
-#: docs/index.md:3
-msgid ""
-"The risk allocation extension provides a way to describe the risk "
-"allocations defined in a contract."
-msgstr ""
-
-#: docs/index.md:5
-msgid ""
-"Understanding the allocation of risk between the parties involved in a "
-"contracting process is important for comparison of the agreements between "
-"public authorities and private parties in different projects and "
-"jurisdictions."
-msgstr ""
-
-#: docs/index.md:7
-msgid ""
-"This extension introduces a new `risk` building block and extends the "
-"`contract` section of OCDS block with a new `riskAllocation` field."
-msgstr ""
-
-#: docs/index.md:0
-msgid "Risk Allocation Field"
-msgstr ""
-
-#: docs/index.md:11
-msgid ""
-"The `contract/riskAllocation` field is an array of `risk` building blocks, "
-"describing the allocation of risks in the contract."
-msgstr ""
-
-#: docs/index.md:0
-msgid "Risk Building Block"
-msgstr ""
-
-#: docs/index.md:15
-msgid "The risk building block provides a way to:"
-msgstr ""
-
-#: docs/index.md:17
-msgid ""
-"Categorize the risk against the [risk category codelist](http://standard"
-".open-contracting.org/latest/en/schema/codelists/#risk-category)"
-msgstr ""
-
-#: docs/index.md:18
-msgid "Provide a free text description of the risk"
-msgstr ""
-
-#: docs/index.md:19
-msgid ""
-"Describe the allocation of the risk between the parties in the contracting "
-"process"
-msgstr ""
-
-#: docs/index.md:20
-msgid "Describe the likelihood and fiscal impact of the risk"
-msgstr ""
-
-#: docs/index.md:21
-msgid "Describe the mitigation for the risk"
-msgstr ""
-
-#: docs/index.md:22
-msgid "Provide additional notes on the risk"
+"contracting.org/latest/en/schema/merging/#lists)"
 msgstr ""

@@ -1,20 +1,20 @@
 # Translations template for PROJECT.
 # Copyright (C) 2020 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# Automatically generated, 2020.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-04-06 18:31-0400\n"
-"PO-Revision-Date: 2020-04-06 18:31-0400\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"POT-Creation-Date: 2020-08-20 17:17-0400\n"
+"PO-Revision-Date: 2020-08-20 21:56+0000\n"
+"Language-Team: French (https://www.transifex.com/open-contracting-partnership-1/teams/112300/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
+"Generated-By: Babel 2.8.0\n"
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
@@ -41,8 +41,8 @@ msgstr ""
 #. Description
 #: codelists/awardCriterionFixed.csv:1
 msgid ""
-"The number is the fixed price or fixed cost for the bid. For example: 'The "
-"price of a bid must be $100,000.'"
+"The number is the fixed price or fixed cost for the bid. For example: \"The "
+"price of a bid must be $100,000.\""
 msgstr ""
 
 #. Title
@@ -53,8 +53,8 @@ msgstr ""
 #. Description
 #: codelists/awardCriterionFixed.csv:2
 msgid ""
-"The number is the fixed price or fixed cost for a unit. For example: 'The "
-"price of each widget must be $100.'"
+"The number is the fixed price or fixed cost for a unit. For example: \"The "
+"price of each widget must be $100.\""
 msgstr ""
 
 #. Title
@@ -97,7 +97,7 @@ msgstr ""
 #: codelists/criterionThreshold.csv:1
 msgid ""
 "The number is a minimum score that bids need to receive for the criterion. "
-"For example: 'A bid must receive 20 points or more for criterion X.'"
+"For example: \"A bid must receive 20 points or more for criterion X.\""
 msgstr ""
 
 #. Title
@@ -109,7 +109,7 @@ msgstr ""
 #: codelists/criterionThreshold.csv:2
 msgid ""
 "The number is the maximum number of bids that can pass the criterion. For "
-"example: 'A bid must receive one of the highest 3 scores for criterion X.'"
+"example: \"A bid must receive one of the highest 3 scores for criterion X.\""
 msgstr ""
 
 #. Title
@@ -131,8 +131,8 @@ msgstr ""
 #: codelists/criterionWeight.csv:2
 msgid ""
 "The weighting is expressed as a range of percentages. The sum of the minima "
-"must be less than or equal to 100. The sum of the maxima must be equal to or "
-"greater than 100."
+"must be less than or equal to 100. The sum of the maxima must be equal to or"
+" greater than 100."
 msgstr ""
 
 #. Title
@@ -156,8 +156,8 @@ msgstr ""
 #: codelists/criterionWeight.csv:4
 msgid ""
 "The weighting is expressed as a range of finite decimal proper fractions. "
-"The sum of the minima must be less than or equal to 1. The sum of the maxima "
-"must be equal to or greater than 1."
+"The sum of the minima must be less than or equal to 1. The sum of the maxima"
+" must be equal to or greater than 1."
 msgstr ""
 
 #. Title

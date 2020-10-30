@@ -1,25 +1,26 @@
 # Translations template for PROJECT.
-# Copyright (C) 2019 ORGANIZATION
+# Copyright (C) 2020 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 # 
 # Translators:
-# James McKinney <jmckinney@open-contracting.org>, 2019
-# Maria Esther Cervantes <mariaesther@idatosabiertos.org>, 2019
+# James McKinney, 2019
+# Maria Esther Cervantes <mcervantes@cds.com.py>, 2019
+# Romina Fernandez <rfernandez@cds.com.py>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"POT-Creation-Date: 2020-08-20 17:18-0400\n"
 "PO-Revision-Date: 2019-03-14 18:31+0000\n"
-"Last-Translator: Maria Esther Cervantes <mariaesther@idatosabiertos.org>, 2019\n"
-"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/95084/es/)\n"
+"Last-Translator: Romina Fernandez <rfernandez@cds.com.py>, 2020\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.8.0\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -86,21 +87,15 @@ msgstr "Autor de la pregunta"
 #. /definitions/Enquiry/properties/author/description
 #: release-schema.json:1
 msgid ""
-"The identifier and name of the party asking this question. Questioners may "
-"be listed in the parties array with a role of 'enquirer'. Procurement "
-"policies vary on whether or not the identity of those asking questions "
-"should be disclosed, or at which stage this information may be disclosed. "
-"When the identity of the questioner cannot be disclosed leave the author "
-"section blank. Display systems should interpret this as an anonymous "
-"question."
+"The party asking this question. The corresponding entry in the `parties` "
+"array should have 'enquirer' in its `roles` array. Procurement policies vary"
+" on whether or not the identity of those asking questions is disclosed, or "
+"at which stage this information is disclosed."
 msgstr ""
-"El identificador y el nombre de la parte involucrada que hace esta pregunta."
-" Los solicitantes pueden mostrarse en la lista de las partes con un rol de "
-"\"enquirer\". Las políticas de adquisición varían en cuanto a si la "
-"identidad de los que hacen preguntas debe ser divulgada, o en qué etapa se "
-"puede divulgar esta información. Cuando no se pueda identificar al "
-"solicitante de la información, deje la sección de autor en blanco. Los "
-"sistemas deberían de interpretar esta como una pregunta anónima."
+"La parte que realiza esta pregunta. La entrada correspondiente en la lista "
+"de `parties` debería tener el valor 'enquirer' en su lista de `roles`. Las "
+"políticas de adquisición varían sobre si se divulga la identidad de los que "
+"realizan preguntas, o en qué etapa se divulga esta información."
 
 #. /definitions/Enquiry/properties/title/title
 #: release-schema.json:1
@@ -179,9 +174,9 @@ msgstr "Identificador de hilo"
 #: release-schema.json:1
 msgid ""
 "If this question and answer forms part of a discussion thread (e.g. the "
-"question is a follow up to a previous answer) an optional thread identifier "
-"can be used to associate together multiple enquiries."
+"question is a follow-up to a previous answer) a thread identifier can be "
+"used to associate multiple enquiries."
 msgstr ""
-"Si esta pregunta y respuesta forma parte de un hilo de discusión (por "
-"ejemplo, la pregunta es un seguimiento a una respuesta anterior), se puede "
-"usar un identificador de hilo opcional para asociar varias consultas."
+"Si esta pregunta y respuesta forma parte de un hilo de discusión (ej. la "
+"pregunta es la continuación a una respuesta previa) un identificador de hilo"
+" puede ser usado para asociar múltiples preguntas."

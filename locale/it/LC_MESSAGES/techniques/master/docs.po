@@ -1,17 +1,16 @@
-# Italian translations for Python package
-# Traduzioni italiane per il pacchetto Python..
-# Copyright (C) 
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)
 # This file is distributed under the same license as the Python package.
-# Automatically generated, 2020.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-06 18:31-0400\n"
-"PO-Revision-Date: 2020-04-06 18:31-0400\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"POT-Creation-Date: 2020-08-20 17:17-0400\n"
+"PO-Revision-Date: 2020-08-20 21:57+0000\n"
+"Language-Team: Italian (https://www.transifex.com/open-contracting-partnership-1/teams/112300/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,8 +23,8 @@ msgstr ""
 
 #: ../README.md:3
 msgid ""
-"Adds fields to the tender and lot objects to describe the use of techniques, "
-"such as framework agreements, dynamic purchasing systems and electronic "
+"Adds fields to the tender and lot objects to describe the use of techniques,"
+" such as framework agreements, dynamic purchasing systems and electronic "
 "auctions."
 msgstr ""
 
@@ -63,9 +62,9 @@ msgstr ""
 
 #: ../README.md:78
 msgid ""
-"Report issues for this extension in the [ocds-extensions repository](https://"
-"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
-"name in the issue's title."
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
 msgstr ""
 
 #: ../README.md:80
@@ -73,10 +72,18 @@ msgid "Changelog"
 msgstr ""
 
 #: ../README.md:82
+msgid "2020-04-24"
+msgstr ""
+
+#: ../README.md:84
+msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
+msgstr ""
+
+#: ../README.md:86
 msgid ""
-"This extension was originally discussed as part of the [OCDS for EU profile]"
-"(https://github.com/open-contracting-extensions/european-union/issues), in "
-"[pull requests](https://github.com/open-contracting-extensions/"
-"ocds_techniques_extension/pulls?q=is%3Apr+is%3Aclosed) and in <https://"
-"github.com/open-contracting/standard/issues/695>."
+"This extension was originally discussed as part of the [OCDS for EU "
+"profile](https://github.com/open-contracting-extensions/european-"
+"union/issues), in [pull requests](https://github.com/open-contracting-"
+"extensions/ocds_techniques_extension/pulls?q=is%3Apr+is%3Aclosed) and in "
+"<https://github.com/open-contracting/standard/issues/695>."
 msgstr ""

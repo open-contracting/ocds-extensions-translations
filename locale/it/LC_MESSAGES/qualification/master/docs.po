@@ -4,63 +4,55 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# James McKinney <jmckinney@open-contracting.org>, 2019
+# James McKinney, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"POT-Creation-Date: 2020-08-20 17:17-0400\n"
 "PO-Revision-Date: 2019-03-14 18:31+0000\n"
-"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2019\n"
-"Language-Team: Italian (https://www.transifex.com/OpenDataServices/teams/95084/it/)\n"
+"Last-Translator: James McKinney, 2019\n"
+"Language-Team: Italian (https://www.transifex.com/open-contracting-partnership-1/teams/112300/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: README.md:0
-msgid "Qualification (profile use only)"
+#: ../README.md:1
+msgid "Qualification"
 msgstr ""
 
-#: README.md:3
+#: ../README.md:3
 msgid ""
-"This extension forms part of the [OCDS for PPPs profile](http://standard"
-".open-contracting.org/profiles/ppp/) which adds a qualification section "
-"between planning and tender."
+"**Only use this extension as part of the [OCDS for PPPs "
+"profile](http://standard.open-contracting.org/profiles/ppp/), as it is not "
+"clear that it is consistent with the semantics of OCDS.**"
 msgstr ""
 
-#: README.md:5
+#: ../README.md:5
 msgid ""
-"Profiles re-purpose elements of the OCDS data model, but are not backwards "
-"compatible with OCDS."
+"This extension adds a `preQualification` section between `planning` and "
+"`tender`. It was designed to be used as part of the [OCDS for PPPs "
+"profile](http://standard.open-contracting.org/profiles/ppp/): see the "
+"documentation in [II.1](http://standard.open-"
+"contracting.org/profiles/ppp/latest/en/framework/#ii-1-pre-qualification) "
+"and [II.2](http://standard.open-"
+"contracting.org/profiles/ppp/latest/en/framework/#ii-2-list-of-pre-"
+"qualified-suppliers)."
 msgstr ""
 
-#: README.md:7
-msgid ""
-"In particular, this extension adds a second initiation stage "
-"(`qualification`), which is incompatible with the OCDS 1.x definition of a "
-"Contracting Process."
+#: ../README.md:7
+msgid "Example"
 msgstr ""
 
-#: README.md:9
-msgid "This extension should not be used outside of the PPP Profile."
-msgstr ""
-
-#: README.md:11
-msgid ""
-"For more background on this extension, see discussion in "
-"[#36](https://github.com/open-contracting-extensions/public-private-"
-"partnerships/issues/36)."
-msgstr ""
-
-#: README.md:0
+#: ../README.md:40
 msgid "Issues"
 msgstr "Problemi (issues)"
 
-#: README.md:15
+#: ../README.md:42
 msgid ""
 "Report issues for this extension in the [ocds-extensions "
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "
@@ -69,3 +61,59 @@ msgstr ""
 "Segnala i problemi per questa estensione nel [repository ocds-"
 "extensions](https://github.com/open-contracting/ocds-extensions/issues), "
 "inserendo il nome dell'estensione nel titolo del problema."
+
+#: ../README.md:44
+msgid "Changelog"
+msgstr ""
+
+#: ../README.md:46
+msgid "2020-06-04"
+msgstr ""
+
+#: ../README.md:48
+msgid "Review normative and non-normative words"
+msgstr ""
+
+#: ../README.md:50
+msgid "2020-04-24"
+msgstr ""
+
+#: ../README.md:52
+msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
+msgstr ""
+
+#: ../README.md:54
+msgid ""
+"This extension was originally discussed in <https://github.com/open-"
+"contracting-extensions/public-private-partnerships/issues/36>."
+msgstr ""
+
+#: ../README.md:56
+msgid "2019-05-01"
+msgstr ""
+
+#: ../README.md:58
+msgid ""
+"Add 'qualifiedBidder' and 'disqualifiedBidder' codes to `+partyRole.csv`."
+msgstr ""
+
+#: ../README.md:60
+msgid "2019-03-20"
+msgstr ""
+
+#: ../README.md:62
+msgid ""
+"Set `\"uniqueItems\": true` on array fields, and add `\"minLength\": 1` on "
+"required string fields."
+msgstr ""
+
+#: ../README.md:64
+msgid "2019-01-24"
+msgstr ""
+
+#: ../README.md:66
+msgid ""
+"Remove multilingual support for non-existent "
+"`PreQualification.procurementMethodRationale` and "
+"`PreQualification.awardCriteriaDetails` fields."
+msgstr ""

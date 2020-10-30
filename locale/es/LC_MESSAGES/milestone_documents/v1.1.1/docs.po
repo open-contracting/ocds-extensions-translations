@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# James McKinney <jmckinney@open-contracting.org>, 2019
+# James McKinney, 2019
 # Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019
 # 
 #, fuzzy
@@ -12,21 +12,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"POT-Creation-Date: 2020-08-20 17:17-0400\n"
 "PO-Revision-Date: 2019-03-14 18:30+0000\n"
 "Last-Translator: Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019\n"
-"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/95084/es/)\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: README.md:0
+#: ../README.md:1
 msgid "Milestone Documents"
 msgstr "Documentos de Hito"
 
-#: README.md:4
+#: ../README.md:4
 msgid ""
 "In OCDS 1.1, core support for documents attached to individual milestones "
 "was removed from the milestones block to simplify the standard."
@@ -34,7 +34,7 @@ msgstr ""
 "En OCDS 1.1, el soporte básico para documentos adjuntos a hitos individuales"
 " se eliminó del bloque de hitos para simplificar el estándar."
 
-#: README.md:6
+#: ../README.md:6
 msgid ""
 "This extension re-introduces the ```documents``` block to ```milestones```, "
 "providing fields to detail the documents related to each individual "
@@ -44,11 +44,11 @@ msgstr ""
 "proporcionando campos para detallar los documentos relacionados con cada "
 "hito individual."
 
-#: README.md:0
+#: ../README.md:8
 msgid "Guidance"
 msgstr "Guía"
 
-#: README.md:10
+#: ../README.md:10
 msgid ""
 "Publishers should consider that many consuming applications will only look "
 "at the ```tender/documents```, ```award/documents```, "
@@ -60,7 +60,7 @@ msgstr ""
 "```contracts/documents``` y ```contracts/implementation/documents``` para "
 "acceder y mostrar la documentación relevante a los usuarios."
 
-#: README.md:12
+#: ../README.md:12
 msgid ""
 "Document titles, document types, and descriptions can be used to indicate to"
 " human readers the particular nature of the documents and any milestones "
@@ -70,7 +70,7 @@ msgstr ""
 "se pueden utilizar para indicar a los lectores humanos la naturaleza "
 "particular de los documentos y los hitos con los que se relacionan."
 
-#: README.md:14
+#: ../README.md:14
 msgid ""
 "However, in cases where it is important to track documents on a milestone-"
 "by-milestone basis this extension can be introduced."
@@ -78,7 +78,7 @@ msgstr ""
 "Sin embargo, en los casos en que es importante rastrear los documentos hito "
 "por hito, esta extensión puede ser introducida."
 
-#: README.md:16
+#: ../README.md:16
 msgid ""
 "Depending on the nature of the documents, publishers should consider "
 "duplicating information in the parent sections documents block also."

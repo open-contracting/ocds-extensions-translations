@@ -1,26 +1,27 @@
 # Translations template for PROJECT.
-# Copyright (C) 2019 ORGANIZATION
+# Copyright (C) 2020 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 # 
 # Translators:
-# James McKinney <jmckinney@open-contracting.org>, 2019
-# Maria Esther Cervantes <mariaesther@idatosabiertos.org>, 2019
+# James McKinney, 2019
+# Maria Esther Cervantes <mcervantes@cds.com.py>, 2019
 # Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019
+# Romina Fernandez <rfernandez@cds.com.py>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"POT-Creation-Date: 2020-08-20 17:19-0400\n"
 "PO-Revision-Date: 2019-03-14 18:26+0000\n"
-"Last-Translator: Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019\n"
-"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/95084/es/)\n"
+"Last-Translator: Romina Fernandez <rfernandez@cds.com.py>, 2020\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.8.0\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -49,13 +50,13 @@ msgstr "Costos de participación"
 #: release-schema.json:1
 msgid ""
 "A fee applicable to bidders wishing to participate in the tender process. "
-"Fees may apply for access to bidding documents, for the submission of bids "
-"or there may be a win fee payable by the successful bidder."
+"Fees can apply for accessing bidding documents or for submitting bids, or "
+"there can be a \"win fee\" payable by the successful bidder."
 msgstr ""
-"Un costo aplicable a los ofertantes que quieran participar en el proceso de "
-"licitación. Se pueden aplicar cuotas para tener acceso a los documentos de "
-"oferta, para la presentación de ofertas o puede haber una tarifa de ganancia"
-" que se pague por el ofertante ganador."
+"Una tarifa que aplica a los ofertantes que quieren participar en el proceso "
+"de licitaciones. Las tarifas pueden aplicar para acceder los documentos de "
+"oferta, para enviar las ofertas o puede haber una cuota que debe ser pagada "
+"por el ofertante ganador."
 
 #. /definitions/ParticipationFee/properties/id/title
 #: release-schema.json:1
@@ -80,15 +81,8 @@ msgstr "Tipo de cuota"
 
 #. /definitions/ParticipationFee/properties/type/description
 #: release-schema.json:1
-msgid ""
-"A fees applicable to bidders wishing to participate in the tender process. "
-"Fees may apply for access to bidding documents, for the submission of bids "
-"or there may be a win fee payable by the successful bidder."
-msgstr ""
-"Una cuota que aplica a los ofertantes que quieren participar en el proceso "
-"de licitaciones. Las cuotas pueden aplicar para acceder los documentos de "
-"oferta, para enviar las ofertas o puede haber una cuota que debe ser pagada "
-"por el ofertante ganador"
+msgid "The type of this fee."
+msgstr "El tipo de esta tarifa."
 
 #. /definitions/ParticipationFee/properties/value/title
 #: release-schema.json:1
@@ -108,11 +102,14 @@ msgstr "Descripción"
 #. /definitions/ParticipationFee/properties/description/description
 #: release-schema.json:1
 msgid ""
-"Optional information about the way in which fees are levied, or the exact "
-"nature of the fees."
+"Additional information about this fee, for example: the specific cases in "
+"which the fee is applicable (e.g. hard copies of documents only), the way in"
+" which the fee is levied, or the exact nature of the fee."
 msgstr ""
-"Información opcional sobre la forma en que se cobran las tarifas, o la "
-"naturaleza exacta de las tarifas."
+"Información adicional sobre esta tarifa, por ejemplo: casos específicos en "
+"los que la tarifa es aplicable (ej. sólo para copias físicas de documentos),"
+" la manera en la cual la tarifa es cobrada o la naturaleza exacta de la "
+"tarifa."
 
 #. /definitions/ParticipationFee/properties/methodOfPayment/title
 #: release-schema.json:1
@@ -121,8 +118,8 @@ msgstr "Métodos de pago"
 
 #. /definitions/ParticipationFee/properties/methodOfPayment/description
 #: release-schema.json:1
-msgid "Optional information about the way in which fees can be paid."
-msgstr "Información opcional sobre la manera en que se pagan las tarifas."
+msgid "The accepted ways in which fees can be paid."
+msgstr "Las vías aceptadas para el pago de las tarifas."
 
 #. /definitions/Tender/properties/participationFees/title
 #: release-schema.json:1
@@ -133,10 +130,10 @@ msgstr "Cuotas de participación"
 #: release-schema.json:1
 msgid ""
 "Any fees applicable to bidders wishing to participate in the tender process."
-" Fees may apply for access to bidding documents, for the submission of bids "
-"or there may be a win fee payable by the successful bidder."
+" Fees can apply for accessing bidding documents or for submitting bids, or "
+"there can be a \"win fee\" payable by the successful bidder."
 msgstr ""
-"Una tarifa que aplica a los ofertantes que quieren participar en el proceso "
-"de licitaciones. Las tarifas pueden aplicar para acceder los documentos de "
-"oferta, para enviar las ofertas o puede haber una cuota que debe ser pagada "
-"por el ofertante ganador"
+"Cualquier tarifa aplicable a los ofertantes que quieren participar en el "
+"proceso de licitaciones. Las tarifas pueden aplicar para acceder los "
+"documentos de oferta, para enviar las ofertas o puede haber una cuota que "
+"debe ser pagada por el ofertante ganador."

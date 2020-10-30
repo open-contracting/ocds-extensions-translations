@@ -1,24 +1,24 @@
 # Translations template for PROJECT.
-# Copyright (C) 2019 ORGANIZATION
+# Copyright (C) 2020 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 # 
 # Translators:
-# James McKinney <jmckinney@open-contracting.org>, 2019
+# James McKinney, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"POT-Creation-Date: 2020-08-20 17:18-0400\n"
 "PO-Revision-Date: 2019-03-14 18:28+0000\n"
-"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2019\n"
-"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/95084/es/)\n"
+"Last-Translator: James McKinney, 2019\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.8.0\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -97,11 +97,9 @@ msgstr "Polygon"
 #. Description
 #: codelists/geometryType.csv:5
 msgid ""
-"For type 'Polygon', the 'coordinates' member MUST be an array of linear ring"
+"For type 'Polygon', the 'coordinates' member must be an array of linear ring"
 " coordinate arrays."
 msgstr ""
-"Para el tipo 'Polygon' el miembro 'coordinates' DEBE ser un array de "
-"coordenadas 'LinearRing'"
 
 #. Title
 #: codelists/geometryType.csv:6
@@ -178,13 +176,9 @@ msgstr "Nodo de Open Street Map"
 #: codelists/locationGazetteers.csv:4
 msgid ""
 "OpenStreetMap Nodes consist of a single point in space defined by a "
-"latitude, longitude and node ID. Nodes may have tags to indicate the "
+"latitude, longitude and node ID. Nodes might have tags to indicate the "
 "particular geographic feature they represent."
 msgstr ""
-"Los Nodos de Open Street Map consisten en un único punto en el espacio "
-"definido por una latitud, longitud y ID de nodo. Los nodos pueden tener "
-"etiquetas para indicar la característica geográfica particular que "
-"representan."
 
 #. Title
 #: codelists/locationGazetteers.csv:5
@@ -210,9 +204,6 @@ msgstr "Vía de Open Street Map"
 #. Description
 #: codelists/locationGazetteers.csv:6
 msgid ""
-"An OpenStreetMap Way is an ordered list of OpenStreetMap nodes. May be used "
-"to describe fragments of roads or local boundaries and bounding boxes."
+"An OpenStreetMap Way is an ordered list of OpenStreetMap nodes. It can be "
+"used to describe fragments of roads or local boundaries and bounding boxes."
 msgstr ""
-"Una Vía de Open Street Map es una lista ordenada de nodos Open Street Map. "
-"Puede ser usado para describir fragmentos de caminos o límites locales y "
-"cajas delimitadoras."

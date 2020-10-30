@@ -4,125 +4,76 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# James McKinney <jmckinney@open-contracting.org>, 2019
+# James McKinney, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"POT-Creation-Date: 2020-08-20 17:17-0400\n"
 "PO-Revision-Date: 2019-03-14 18:26+0000\n"
-"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2019\n"
-"Language-Team: French (https://www.transifex.com/OpenDataServices/teams/95084/fr/)\n"
+"Last-Translator: James McKinney, 2019\n"
+"Language-Team: French (https://www.transifex.com/open-contracting-partnership-1/teams/112300/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: README.md:0
-msgid "Documentation details"
+#: ../README.md:1
+msgid "Document details"
 msgstr ""
 
-#: README.md:3
+#: ../README.md:3
 msgid ""
-"Contracting processes involve many different documents. There should be a "
-"presumption of 'open by default' when it comes to publishing these documents"
-" as part of an Open Contracting process."
+"[Document objects](https://standard.open-"
+"contracting.org/latest/en/schema/reference/#document) are used to describe "
+"and link to documents. This extension adds fields to document objects to:"
 msgstr ""
 
-#: README.md:5
+#: ../README.md:5
 msgid ""
-"The OCDS documentation block, which is used widely through the different "
-"sections of the standard, provides a means to link out to externally hosted "
-"documents."
+"Indicate the page numbers at which relevant information can be found within "
+"a large document"
 msgstr ""
 
-#: README.md:7
+#: ../README.md:6
+msgid "Describe any special arrangements needed to access the document"
+msgstr ""
+
+#: ../README.md:7
 msgid ""
-"These should generally be provided at their own stable URL, without "
-"requirements to log-in or authenticate. Redactions should be kept to a "
-"minimum."
+"Name the author of the document (not to be confused with its publisher)"
 msgstr ""
 
-#: README.md:0
-msgid "Providing enhanced documentation and document links"
+#: ../README.md:9
+msgid "Use cases include:"
 msgstr ""
 
-#: README.md:11
+#: ../README.md:11
+msgid "Accessing the document and locating the information within it"
+msgstr ""
+
+#: ../README.md:12
 msgid ""
-"A number of implementations of OCDS, notable OCDS for PPPs, explicitly "
-"require a number of key items of information to be disclosed. These items "
-"are articulated as an extended list of entries for the `documentType` "
-"codelist."
+"Checking whether authors are involved in other ways in the contracting "
+"process, e.g. as bidders"
 msgstr ""
 
-#: README.md:13
-msgid ""
-"However, rather than just linking out to the entire document where the "
-"information is found, this extension describes a way to:"
+#: ../README.md:13
+msgid "Measuring the accessibility of documents"
 msgstr ""
 
-#: README.md:15
-msgid ""
-"Summarize the information in the `description` field of the relevant "
-"document block;"
+#: ../README.md:15
+msgid "Example"
 msgstr ""
 
-#: README.md:16
-msgid "Link to specific page numbers;"
-msgstr ""
-
-#: README.md:17
-msgid ""
-"Describe any additional arrangements required to access the document or find"
-" the relevant information;"
-msgstr ""
-
-#: README.md:18
-msgid "Record the author of the document;"
-msgstr ""
-
-#: README.md:20
-msgid ""
-"Providing clear summaries allows applications to display this information in"
-" a user-interface, allowing users to access key facts and justifications "
-"without clicking through to download and search for the information in a "
-"full document."
-msgstr ""
-
-#: README.md:22
-msgid ""
-"Linking to the specific page where information is found supports quality "
-"assurance of disclosure."
-msgstr ""
-
-#: README.md:24
-msgid ""
-"Describing `accessDetails` for a document ensures that, even when documents "
-"are only accessible through attendance at a location (for example), that "
-"users can find how to discover them - and so that auditors can check "
-"documents have been made accessible in the appropriate ways."
-msgstr ""
-
-#: README.md:26
-msgid ""
-"Recording the author of a document is important for checking whether there "
-"are potential conflicts of interest to be aware of: for example, when the "
-"author of a feasibility study is later involved in the team submitting a "
-"bid."
-msgstr ""
-
-#: README.md:0
-msgid "Extension fields"
-msgstr "Champs d'extension"
-
-#: README.md:0
+#: ../README.md:37
 msgid "Issues"
 msgstr "Problèmes"
 
-#: README.md:37
+#: ../README.md:39
 msgid ""
 "Report issues for this extension in the [ocds-extensions "
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "
@@ -131,3 +82,35 @@ msgstr ""
 "Signalez les problèmes concernant cette extension dans le [répertoire "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), en "
 "mettant le nom de l'extension dans le titre du signalement."
+
+#: ../README.md:41
+msgid "Changelog"
+msgstr ""
+
+#: ../README.md:43
+msgid "2020-04-24"
+msgstr ""
+
+#: ../README.md:45
+msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
+msgstr ""
+
+#: ../README.md:47
+msgid "2020-04-15"
+msgstr ""
+
+#: ../README.md:49
+msgid "Improve documentation"
+msgstr ""
+
+#: ../README.md:50
+msgid "Use non-normative keywords where appropriate"
+msgstr ""
+
+#: ../README.md:52
+msgid "2019-01-30"
+msgstr ""
+
+#: ../README.md:54
+msgid "Remove obsolete `mergeStrategy` properties"
+msgstr ""

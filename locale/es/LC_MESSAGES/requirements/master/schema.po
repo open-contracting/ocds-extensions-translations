@@ -1,11 +1,11 @@
 # Translations template for PROJECT.
-# Copyright (C) 2019 ORGANIZATION
+# Copyright (C) 2020 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 # 
 # Translators:
-# James McKinney <jmckinney@open-contracting.org>, 2019
-# Maria Esther Cervantes <mariaesther@idatosabiertos.org>, 2019
+# James McKinney, 2019
+# Maria Esther Cervantes <mcervantes@cds.com.py>, 2019
 # Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019
 # 
 #, fuzzy
@@ -13,14 +13,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"POT-Creation-Date: 2020-08-20 17:20-0400\n"
 "PO-Revision-Date: 2019-03-14 18:29+0000\n"
 "Last-Translator: Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019\n"
-"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/95084/es/)\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.8.0\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -110,13 +110,10 @@ msgstr "Fuente"
 #. /definitions/Criterion/properties/source/description
 #: release-schema.json:1
 msgid ""
-"Source of response to the requirements specified in the criterion, for "
-"example responses may be submitted by tenderers or by an assessment "
+"Source of response to the requirements specified in the criterion. For "
+"example, responses might be submitted by tenderers or by an assessment "
 "committee at the procuringEntity."
 msgstr ""
-"Origen de la respuesta a los requisitos especificados en el criterio, por "
-"ejemplo que las respuestas deben de enviarse por los licitadores o por un "
-"comité de evaluación en la procuringEntity."
 
 #. /definitions/Criterion/properties/relatesTo/title
 #: release-schema.json:1
@@ -127,10 +124,8 @@ msgstr "Elementos relacionados al esquema"
 #: release-schema.json:1
 msgid ""
 "The schema element that the criterion judges, evaluates or assesses. For "
-"example criterion may be defined against items or against bidders."
+"example, the criterion might be defined against items or against bidders."
 msgstr ""
-"El elemento del esquema que el criterio juzga, evalúa o valora. Por ejemplo "
-"criterio se puede definir contra artículos o contra licitadores."
 
 #. /definitions/Criterion/properties/relatedItem/title
 #: release-schema.json:1

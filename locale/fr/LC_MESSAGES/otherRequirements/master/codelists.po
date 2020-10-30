@@ -1,20 +1,20 @@
 # Translations template for PROJECT.
 # Copyright (C) 2020 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# Automatically generated, 2020.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-04-06 18:31-0400\n"
-"PO-Revision-Date: 2020-04-06 18:31-0400\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"POT-Creation-Date: 2020-08-20 17:19-0400\n"
+"PO-Revision-Date: 2020-08-20 21:52+0000\n"
+"Language-Team: French (https://www.transifex.com/open-contracting-partnership-1/teams/112300/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
+"Generated-By: Babel 2.8.0\n"
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
@@ -38,8 +38,8 @@ msgstr ""
 #. Description
 #: codelists/reservedParticipation.csv:1
 msgid ""
-"Participation is reserved to sheltered workshops and suppliers aiming at the "
-"social and professional integration of disabled or disadvantaged persons."
+"Participation is reserved to sheltered workshops and suppliers aiming at the"
+" social and professional integration of disabled or disadvantaged persons."
 msgstr ""
 
 #. Title
@@ -50,6 +50,6 @@ msgstr ""
 #. Description
 #: codelists/reservedParticipation.csv:2
 msgid ""
-"Participation is reserved to organizations pursuing a public service mission "
-"and fulfilling other legislative conditions."
+"Participation is reserved to organizations pursuing a public service mission"
+" and fulfilling other legislative conditions."
 msgstr ""

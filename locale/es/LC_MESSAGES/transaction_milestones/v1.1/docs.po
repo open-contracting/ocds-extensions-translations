@@ -4,32 +4,32 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# James McKinney <jmckinney@open-contracting.org>, 2019
+# James McKinney, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"POT-Creation-Date: 2020-08-20 17:17-0400\n"
 "PO-Revision-Date: 2019-03-14 18:29+0000\n"
-"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2019\n"
-"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/95084/es/)\n"
+"Last-Translator: James McKinney, 2019\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: README.md:0
+#: ../README.md:1
 msgid "Transactions - relatedMilestone Extension"
 msgstr "Transacciones  - Extensión relatedMilestone"
 
-#: README.md:0
+#: ../README.md:3
 msgid "Background"
 msgstr "Antecedentes"
 
-#: README.md:5
+#: ../README.md:5
 msgid ""
 "In core OCDS ```transactions``` are a property of the ```implementation``` "
 "object."
@@ -37,7 +37,7 @@ msgstr ""
 "En OCDS  las ```transactions``` son propiedad del objeto ``` "
 "implementation```."
 
-#: README.md:7
+#: ../README.md:7
 msgid ""
 "Some contracts link payments against a contract to specific milestones for "
 "the delivery of the contract."
@@ -45,11 +45,11 @@ msgstr ""
 "Algunos contratos vinculan los pagos con un contrato a hitos específicos "
 "para la entrega del contrato."
 
-#: README.md:0
+#: ../README.md:9
 msgid "Extension fields"
 msgstr "Campos de extensión"
 
-#: README.md:11
+#: ../README.md:11
 msgid ""
 "This extension adds a ```relatedImplementationMilestone``` property to the "
 "```transaction``` object."
@@ -57,7 +57,7 @@ msgstr ""
 "Esta extensión agrega una propiedad ```relatedImplementationMilestone``` al "
 "objeto ```transaction```."
 
-#: README.md:13
+#: ../README.md:13
 msgid ""
 "The ```relatedImplementationMilestone``` property is a "
 "```milestoneReference``` object."
@@ -65,7 +65,7 @@ msgstr ""
 "La propiedad ```relatedImplementationMilestone``` es un objeto de ``` "
 "milestoneReference```."
 
-#: README.md:15
+#: ../README.md:15
 msgid ""
 "The ```milestoneReference``` object is introduced by the [metrics "
 "extension](https://github.com/open-contracting/ocds_metrics_extension)."
@@ -73,6 +73,6 @@ msgstr ""
 "El objeto ```milestoneReference``` es introducido por la [extensión de "
 "métricas](https://github.com/open-contracting/ocds_metrics_extension)."
 
-#: README.md:0
+#: ../README.md:17
 msgid "Example"
 msgstr "Ejemplo"

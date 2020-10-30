@@ -4,133 +4,74 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# James McKinney <jmckinney@open-contracting.org>, 2019
+# James McKinney, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"POT-Creation-Date: 2020-08-20 17:17-0400\n"
 "PO-Revision-Date: 2019-03-14 18:30+0000\n"
-"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2019\n"
-"Language-Team: Italian (https://www.transifex.com/OpenDataServices/teams/95084/it/)\n"
+"Last-Translator: James McKinney, 2019\n"
+"Language-Team: Italian (https://www.transifex.com/open-contracting-partnership-1/teams/112300/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: README.md:0
+#: ../README.md:1
 msgid "Financing extension"
 msgstr ""
 
-#: README.md:3
+#: ../README.md:3
+msgid ""
+"Adds fields to disclose the financing of the whole process and its "
+"individual contracts."
+msgstr ""
+
+#: ../README.md:5
 msgid ""
 "Sometimes, particularly in the case of Public Private Partnerships, "
 "contracts are financed using a range of instruments, including loans, "
-"grants, share issues and so-on."
+"grants, share issues and so-on. This information can be updated over the "
+"lifetime of the contract."
 msgstr ""
 
-#: README.md:5
+#: ../README.md:7
+msgid "Legal context"
+msgstr ""
+
+#: ../README.md:9
 msgid ""
-"The financing extension provides a space to declare the finance arranged for"
-" a contract."
+"In the European Union, this extension's fields correspond to [eForms BG-611 "
+"(Contract EU funds) and BG-61 (EU funds)](https://github.com/eForms/eForms)."
+" See [OCDS for the European Union](http://standard.open-"
+"contracting.org/profiles/eu/master/en/) for the correspondences to Tenders "
+"Electronic Daily (TED)."
 msgstr ""
 
-#: README.md:7
-msgid ""
-"This is declared within the `contract` section, based on an understanding "
-"that this information is generally only disclosed following the signature of"
-" a contract. This information can be updated over the lifetime of the "
-"contract."
-msgstr ""
-
-#: README.md:9
-msgid "The finance building block includes:"
-msgstr ""
-
-#: README.md:11
-msgid ""
-"**Title** and **Description** - for providing summary information about the "
-"finance"
-msgstr ""
-
-#: README.md:12
-msgid ""
-"**Financing Party** - an organization reference to the id and name of an "
-"organization listed in the main parties array."
-msgstr ""
-
-#: README.md:13
-msgid "**Finance Type** - an entry from a FinanceType codelist"
-msgstr ""
-
-#: README.md:14
-msgid "**Finance Category** - an entry from a Finance Category codelist"
-msgstr ""
-
-#: README.md:15
-msgid ""
-"**Step in arrangements** and **Exchange rate guarantee** flags, to indicate "
-"whether either apply to this finance"
-msgstr ""
-
-#: README.md:16
-msgid "**Repayment Frequency** - to give an indication of likely repayments"
-msgstr ""
-
-#: README.md:17
-msgid "**Period** - a start, end date and/or duration for the finance"
-msgstr ""
-
-#: README.md:18
-msgid "**interestRate** - an object consisting of:"
-msgstr ""
-
-#: README.md:19
-msgid "**base** - a constant such as 0.1, or a known rate such as LIBOR"
-msgstr ""
-
-#: README.md:20
-msgid "**margin** - the component added to this base to give the rate"
-msgstr ""
-
-#: README.md:21
-msgid "**fixed** - a boolean for whether the rate is fixed or variable"
-msgstr ""
-
-#: README.md:22
-msgid "**notes** - space to provide more information on the rate"
-msgstr ""
-
-#: README.md:24
-msgid "This allows modelling of rates such as 'LIBOR+1%'."
-msgstr ""
-
-#: README.md:0
+#: ../README.md:11
 msgid "Codelists"
 msgstr "vocabolari controllati"
 
-#: README.md:28
+#: ../README.md:13
 msgid ""
-"The 'financeType' codelist is based on the list on [Page 57 of the World "
-"Bank PPP Disclosure "
+"The `financeType.csv` codelist is based on the list on [Page 57 of the World"
+" Bank PPP Disclosure "
 "Framework](http://pubdocs.worldbank.org/en/143671469558797229/FrameworkPPPDisclosure-071416.pdf#page=57)"
 msgstr ""
 
-#: README.md:30
-msgid ""
-"The 'financeCategory' codelist is used to indicate (a) the rights attached "
-"to finance (in terms of equity, mezzanine and senior loans), and (b) to "
-"distinguish direct finance from guarantees."
+#: ../README.md:15
+msgid "Example"
 msgstr ""
 
-#: README.md:0
+#: ../README.md:71
 msgid "Issues"
 msgstr "Problemi (issues)"
 
-#: README.md:34
+#: ../README.md:73
 msgid ""
 "Report issues for this extension in the [ocds-extensions "
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "
@@ -140,13 +81,75 @@ msgstr ""
 "extensions](https://github.com/open-contracting/ocds-extensions/issues), "
 "inserendo il nome dell'estensione nel titolo del problema."
 
-#: README.md:0
+#: ../README.md:75
 msgid "Changelog"
 msgstr "Storico delle modifiche"
 
-#: README.md:38
+#: ../README.md:77
+msgid "2020-06-04"
+msgstr ""
+
+#: ../README.md:79
+msgid "Review normative and non-normative words."
+msgstr ""
+
+#: ../README.md:81
+msgid "2020-04-24"
+msgstr ""
+
+#: ../README.md:83
+msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
+msgstr ""
+
+#: ../README.md:85
+msgid "2020-04-17"
+msgstr ""
+
+#: ../README.md:87
+msgid "Add `planning.budget.finance` field."
+msgstr ""
+
+#: ../README.md:88
+msgid "Fix description of `financeCategory`."
+msgstr ""
+
+#: ../README.md:90
+msgid "2019-03-20"
+msgstr ""
+
+#: ../README.md:92
 msgid ""
-"2018-05-08 - Make `finance/id` required and non-nullable to support revision"
-" tracking and [list merging](http://standard.open-"
-"contracting.org/latest/en/schema/merging/#lists)."
+"Set `\"uniqueItems\": true` on array fields, and add `\"minLength\": 1` on "
+"required string fields."
+msgstr ""
+
+#: ../README.md:93
+msgid "Make `interestRate` non-nullable (undo earlier change)."
+msgstr ""
+
+#: ../README.md:95
+msgid "2018-05-08"
+msgstr ""
+
+#: ../README.md:97
+msgid ""
+"Make `Finance.id` required and non-nullable to support revision tracking and"
+" [list merging](http://standard.open-"
+"contracting.org/latest/en/schema/merging/#lists)"
+msgstr ""
+
+#: ../README.md:99
+msgid "2018-05-01"
+msgstr ""
+
+#: ../README.md:101
+msgid "Add title and description to `Finance.financingParty`."
+msgstr ""
+
+#: ../README.md:103
+msgid "2018-01-29"
+msgstr ""
+
+#: ../README.md:105
+msgid "Make `interestRate` nullable."
 msgstr ""

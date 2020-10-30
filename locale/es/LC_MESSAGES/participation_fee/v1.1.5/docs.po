@@ -1,20 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 
+# Copyright (C)
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
+# James McKinney, 2020
+# Maria Esther Cervantes <mcervantes@cds.com.py>, 2020
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-20 16:50-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2020-08-20 17:17-0400\n"
+"PO-Revision-Date: 2020-08-20 21:03+0000\n"
+"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2020\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../README.md:1
 msgid "Participation fees"
@@ -25,14 +31,18 @@ msgid ""
 "This extension adds a participation fees array to the tender object, to "
 "disclose any participation fees for the contracting process."
 msgstr ""
+"Esta extensión añade una matriz de los costos de participación al objeto de "
+"licitación, para revelar cualquier costo de participación en el proceso de "
+"contrataciones."
 
 #: ../README.md:5
 msgid "The `id` field will be required in future versions of the extension."
 msgstr ""
+"El campo `id` se va a requerir en las futuras versiones de la extensión."
 
 #: ../README.md:7
 msgid "Context"
-msgstr ""
+msgstr "Contexto"
 
 #: ../README.md:9
 msgid ""
@@ -43,6 +53,13 @@ msgid ""
 "parameters (often set as a fixed maximum value, or as a percentage of the "
 "total contract value) or to monitor how participation fees are being used."
 msgstr ""
+"Algunas veces hay costos asociados con el acceso a documentos de "
+"licitaciones relacionados al proceso de contratación. Los licitadores "
+"potenciales quieren saber sobre esos costos. Los monitores de adquisiciones "
+"también deben de asegurar que los costos de participación estén dentro de "
+"los parámetros legales (generalmente se establecen con un valor fijo máximo,"
+" o como un porcentaje del valor total del contrato) o para monitorear como "
+"se usan las tarifas de participación."
 
 #: ../README.md:11
 msgid "Example"
@@ -53,6 +70,9 @@ msgid ""
 "The following JSON snippet models a contracting process where fees are "
 "applied to access bidding documents and to submit bids:"
 msgstr ""
+"El siguiente fragmento de JSON modela un proceso de contratación donde las "
+"tarifas son aplicables  al acceso a documentos y para la presentación de "
+"ofertas:"
 
 #: ../README.md:53
 msgid "Usage notes"
@@ -61,12 +81,19 @@ msgstr "Notas de uso"
 #: ../README.md:55
 msgid ""
 "In some cases, a fee can be levied for 'official copies' of procurement "
-"documents (although copies can also be available freely online), and bidders "
-"might be required to prove that they have paid for an official copy of the "
+"documents (although copies can also be available freely online), and bidders"
+" might be required to prove that they have paid for an official copy of the "
 "documents as part of their submission. In this case, the fee should be "
 "modelled as a **submission** fee, as submission is only possible when this "
 "document access fee has been paid."
 msgstr ""
+"En algunos casos, se puede cobrar una cuota por las \"copias oficiales\" de "
+"los documentos de adquisición (aunque también se pueden obtener copias en "
+"línea de forma gratuita) y los licitadores deben probar que han pagado una "
+"copia oficial de los documentos como parte de su presentación. En ese caso, "
+"las tarifas deben de modelarse como una tarifa de **envío de documentos**, "
+"ya que solo se puede enviar los documentos una vez que la tarifa de acceso a"
+" los documentos se ha pagado."
 
 #: ../README.md:57
 msgid "Issues"
@@ -74,9 +101,9 @@ msgstr "Issues"
 
 #: ../README.md:59
 msgid ""
-"Report issues for this extension in the [ocds-extensions repository](https://"
-"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
-"name in the issue's title."
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
 msgstr ""
 "Reporte issues para esta extensión en el [repositorio de extensiones "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
@@ -88,39 +115,44 @@ msgstr "Registro de cambios"
 
 #: ../README.md:63
 msgid "v1.1.5"
-msgstr ""
+msgstr "v1.1.5"
 
 #: ../README.md:65
 msgid "Add `id` field to example in readme"
-msgstr ""
+msgstr "Añadir el campo  `id` al ejemplo en readme"
 
 #: ../README.md:66
 msgid "Fix description of `ParticipationFee.type` field"
-msgstr ""
+msgstr "Corregir la descripción del campo `ParticipationFee.type`"
 
 #: ../README.md:67
 msgid ""
 "Merge and reconcile field and code descriptions with schema and codelist"
 msgstr ""
+"Combinar y conciliar descripciones de campos y códigos con esquemas y listas"
+" de códigos"
 
 #: ../README.md:68
 msgid "Remove indication of fields as \"optional\""
-msgstr ""
+msgstr "Quitar la indicación de campos \"opcionales\""
 
 #: ../README.md:69
 msgid ""
-"Add `methodOfPayment` codelist from [paymentMethod extension](https://github."
-"com/INAImexico/ocds_paymentMethod_extension/blob/master/codelists/"
-"paymentMethod.csv)"
+"Add `methodOfPayment` codelist from [paymentMethod "
+"extension](https://github.com/INAImexico/ocds_paymentMethod_extension/blob/master/codelists/paymentMethod.csv)"
 msgstr ""
+"Añadir la lista de código `methodOfPayment`  de la [extensión paymentMethod]"
+" "
+"(https://github.com/INAImexico/ocds_paymentMethod_extension/blob/master/codelists/paymentMethod.csv)"
 
 #: ../README.md:70
 msgid "Remove type information from field descriptions"
 msgstr ""
+"Quitar la información sobre el tipo de las descripciones de los campos"
 
 #: ../README.md:71
 msgid "Review normative and non-normative words"
-msgstr ""
+msgstr "Revisar palabras normativas y no-normativas"
 
 #: ../README.md:73
 msgid "v1.1.4"

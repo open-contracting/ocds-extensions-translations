@@ -4,83 +4,83 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# James McKinney <jmckinney@open-contracting.org>, 2019
+# James McKinney, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"POT-Creation-Date: 2020-08-20 17:17-0400\n"
 "PO-Revision-Date: 2019-03-14 18:30+0000\n"
-"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2019\n"
-"Language-Team: Italian (https://www.transifex.com/OpenDataServices/teams/95084/it/)\n"
+"Last-Translator: James McKinney, 2019\n"
+"Language-Team: Italian (https://www.transifex.com/open-contracting-partnership-1/teams/112300/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: README.md:0
+#: ../README.md:1
 msgid "extendsContractID"
 msgstr ""
 
-#: README.md:3
+#: ../README.md:3
 msgid ""
 "Under some procurement rules and processes, to extend the duration or value "
 "of a contract, or to make other substantial alterations, requires a new "
 "contract to be signed."
 msgstr ""
 
-#: README.md:5
+#: ../README.md:5
 msgid ""
 "This new contract will form part of the same overall contracting process as "
 "the old contract which it extends."
 msgstr ""
 
-#: README.md:7
+#: ../README.md:7
 msgid ""
 "In these cases, the `extendsContractID` property can be used to identify "
 "that a given entry in the `contracts` array should be understood as related "
 "to a previous contract."
 msgstr ""
 
-#: README.md:0
+#: ../README.md:9
 msgid "Notes"
 msgstr ""
 
-#: README.md:11
+#: ../README.md:11
 msgid ""
-"This extension should **only** be used in cases where there is a substantive"
-" **new contract** signed as the extension of a previous contract. In most "
-"cases, an update to the value or duration of a contract should be modelled "
-"as an amendment within a single entry in the contracts array."
+"Use this extension **only** in cases where there is a substantive **new "
+"contract** signed as the extension of a previous contract. In most cases, an"
+" update to the value or duration of a contract should be modelled as an "
+"amendment within a single entry in the contracts array."
 msgstr ""
 
-#: README.md:0
+#: ../README.md:13
 msgid "Example"
 msgstr "Esempio"
 
-#: README.md:15
+#: ../README.md:15
 msgid ""
 "The extract below shows three contracts in the contracts array of an OCDS "
 "release."
 msgstr ""
 
-#: README.md:17
+#: ../README.md:17
 msgid ""
 "The first two contracts were signed in 2011: one for one year for property "
 "rental, and the other for two years for services related to property rental."
 msgstr ""
 
-#: README.md:19
+#: ../README.md:19
 msgid ""
 "The third contract was signed in 2012, and renews the property rental for "
 "another year. This is related back to the contract for the first year of "
 "rental with the `extendsContractID` property."
 msgstr ""
 
-#: README.md:110
+#: ../README.md:110
 msgid ""
 "The image below shows an example of how the information provided by the "
 "`extendsContractID` property is used in Paraguay, to display two contracts "
@@ -88,18 +88,18 @@ msgid ""
 "extended (the blue circle)."
 msgstr ""
 
-#: README.md:112
+#: ../README.md:112
 msgid ""
 "![Paraguay "
 "Example](https://cloud.githubusercontent.com/assets/342624/9915392/aecb1e52"
 "-5cae-11e5-9824-a6eb616e568b.png)"
 msgstr ""
 
-#: README.md:0
+#: ../README.md:114
 msgid "Issues"
 msgstr "Problemi (issues)"
 
-#: README.md:116
+#: ../README.md:116
 msgid ""
 "Report issues for this extension in the [ocds-extensions "
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "
@@ -108,3 +108,31 @@ msgstr ""
 "Segnala i problemi per questa estensione nel [repository ocds-"
 "extensions](https://github.com/open-contracting/ocds-extensions/issues), "
 "inserendo il nome dell'estensione nel titolo del problema."
+
+#: ../README.md:118
+msgid "Changelog"
+msgstr ""
+
+#: ../README.md:120
+msgid "2020-06-04"
+msgstr ""
+
+#: ../README.md:122
+msgid "Review normative and non-normative words."
+msgstr ""
+
+#: ../README.md:124
+msgid "2020-04-24"
+msgstr ""
+
+#: ../README.md:126
+msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
+msgstr ""
+
+#: ../README.md:128
+msgid "2018-01-29"
+msgstr ""
+
+#: ../README.md:130
+msgid "Make `Contract.extendsContractID` nullable."
+msgstr ""

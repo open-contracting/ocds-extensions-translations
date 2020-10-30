@@ -4,32 +4,32 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# James McKinney <jmckinney@open-contracting.org>, 2019
+# James McKinney, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"POT-Creation-Date: 2020-08-20 17:17-0400\n"
 "PO-Revision-Date: 2019-03-14 18:26+0000\n"
-"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2019\n"
-"Language-Team: Italian (https://www.transifex.com/OpenDataServices/teams/95084/it/)\n"
+"Last-Translator: James McKinney, 2019\n"
+"Language-Team: Italian (https://www.transifex.com/open-contracting-partnership-1/teams/112300/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: README.md:0
+#: ../README.md:1
 msgid "Participation fees"
 msgstr "Tasse per la partecipazione"
 
-#: README.md:0
+#: ../README.md:3
 msgid "Background"
 msgstr "Sfondo"
 
-#: README.md:5
+#: ../README.md:5
 msgid ""
 "There are a number of cases where there may be costs to access documents "
 "for, or to participate within, a tender process."
@@ -37,7 +37,7 @@ msgstr ""
 "Ci sono numerosi casi in cui possono esserci dei costi per accedere ai "
 "documenti o per partecipare a una gara d'appalto."
 
-#: README.md:7
+#: ../README.md:7
 msgid ""
 "Potential bidders will want to be aware of the fees that a process might "
 "involve."
@@ -45,7 +45,7 @@ msgstr ""
 "I potenziali offerenti vorranno essere consapevoli delle commissioni che un "
 "processo potrebbe comportare."
 
-#: README.md:9
+#: ../README.md:9
 msgid ""
 "Procurement monitors may wish to ensure that participation fees are within "
 "legal parameters (often set as a fixed maximum, or a percentage of total "
@@ -56,83 +56,83 @@ msgstr ""
 "massimo fisso, o una percentuale del valore totale del contratto), o per "
 "monitorare come vengono utilizzate le quote di partecipazione."
 
-#: README.md:0
+#: ../README.md:11
 msgid "Extension fields"
 msgstr "Campi dell'estensione"
 
-#: README.md:13
+#: ../README.md:13
 msgid ""
 "This extension adds a ```participationFees``` field to the ```tender``` "
 "section of OCDS and introduces a new ```participationFee``` building block."
 msgstr ""
 
-#: README.md:15
+#: ../README.md:15
 msgid ""
 "The ```participationFees``` field is an array of ```participationFee``` "
 "building blocks."
 msgstr ""
 
-#: README.md:17
+#: ../README.md:17
 msgid "The ```participationFee``` building block is made up of three fields:"
 msgstr ""
 
-#: README.md:19
+#: ../README.md:19
 msgid ""
 "```type``` - a value from the ```participationFeeType``` codelist, "
 "describing the type of the fee"
 msgstr ""
 
-#: README.md:20
+#: ../README.md:20
 msgid "```value``` - the amount and currency of the fee"
 msgstr ""
 
-#: README.md:21
+#: ../README.md:21
 msgid ""
 "```description``` - an optional field with more information on the fee "
 "requirements. For example, sometimes a document fee is only applicable to "
 "the hard copy of the documents."
 msgstr ""
 
-#: README.md:22
+#: ../README.md:22
 msgid ""
 "```methodOfPayment``` - an optional field providing information on methods "
 "of payment accepted for the documentation. This is currently an array of "
 "strings, but an open codelist may be introduced in future."
 msgstr ""
 
-#: README.md:0
+#: ../README.md:24
 msgid "Extension codelists"
 msgstr "Vocabolario controllato dell'estensione"
 
-#: README.md:26
+#: ../README.md:26
 msgid ""
 "This extension adds **closed** ```participationFeeType``` codelist with the "
 "following codes:"
 msgstr ""
 
-#: README.md:28
+#: ../README.md:28
 msgid "document - a fee payable for access to bidding documents"
 msgstr "documento - una tassa pagabile per l'accesso ai documenti di offerta"
 
-#: README.md:29
+#: ../README.md:29
 msgid "deposit - a refundable fee payable for the submission of bids"
 msgstr "deposito - una tassa rimborsabile per la presentazione delle offerte"
 
-#: README.md:30
+#: ../README.md:30
 msgid "submission - a non-refundable fee payable for the submission of bids"
 msgstr ""
 "presentazione - una tassa non rimborsabile pagabile per la presentazione "
 "delle offerte"
 
-#: README.md:31
+#: ../README.md:31
 msgid "win - a fee payable by the winning bidder"
 msgstr "vincere - una commissione pagabile dall'offerente vincitore"
 
-#: README.md:0
+#: ../README.md:33
 msgid "Example"
 msgstr "Esempio"
 
-#: README.md:35
+#: ../README.md:35
 msgid ""
 "The following JSON snippet models a contracting process where fees are "
 "applicable for both access to documents and submission of bids:"
@@ -141,11 +141,11 @@ msgstr ""
 "sono applicabili sia per l'accesso ai documenti che per la presentazione "
 "delle offerte:"
 
-#: README.md:0
+#: ../README.md:64
 msgid "Usage notes"
 msgstr "Note per l'utilizzo"
 
-#: README.md:66
+#: ../README.md:66
 msgid ""
 "In some cases, a fee may be levied for 'official copies' of procurement "
 "documents (although copies may also be available freely online), and bidders"
@@ -158,7 +158,7 @@ msgstr ""
 " pagato per una copia ufficiale dei documenti come parte della loro "
 "presentazione."
 
-#: README.md:68
+#: ../README.md:68
 msgid ""
 "In this case, the fee should be modelled as a **submission** fee, as "
 "submission is only possible when this document access fee has been paid."
@@ -167,14 +167,14 @@ msgstr ""
 "presentazione**, in quanto la presentazione è possibile solo quando è stata "
 "pagata la tariffa di accesso al documento."
 
-#: README.md:0
+#: ../README.md:70
 msgid "To do"
 msgstr ""
 
-#: README.md:72
+#: ../README.md:72
 msgid "participation / submission terminology"
 msgstr ""
 
-#: README.md:73
+#: ../README.md:73
 msgid "finalise codelist"
 msgstr ""

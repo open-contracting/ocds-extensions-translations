@@ -4,32 +4,32 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# James McKinney <jmckinney@open-contracting.org>, 2019
+# James McKinney, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-09 11:10-0500\n"
+"POT-Creation-Date: 2020-08-20 17:17-0400\n"
 "PO-Revision-Date: 2019-03-14 18:30+0000\n"
-"Last-Translator: James McKinney <jmckinney@open-contracting.org>, 2019\n"
-"Language-Team: Spanish (https://www.transifex.com/OpenDataServices/teams/95084/es/)\n"
+"Last-Translator: James McKinney, 2019\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: README.md:0
-msgid "Performance Failures Extension"
-msgstr "Extensión de Incumplimientos"
+#: ../README.md:1
+msgid "Performance Failures"
+msgstr ""
 
-#: README.md:0
+#: ../README.md:3
 msgid "Background"
 msgstr "Antecedentes"
 
-#: README.md:5
+#: ../README.md:5
 msgid ""
 "The [Framework for disclosure in Public Private "
 "Partnerships](http://pubdocs.worldbank.org/en/773541448296707678/Disclosure-"
@@ -44,11 +44,11 @@ msgstr ""
 " duración de un contrato, junto con las sanciones o reducciones definidas, "
 "impuestas y pagadas en relación con cada categoría de incumplimiento."
 
-#: README.md:0
+#: ../README.md:7
 msgid "Extension Fields"
 msgstr "Campos de Extensión"
 
-#: README.md:9
+#: ../README.md:9
 msgid ""
 "This extension introduces the `performanceFailures` property to the "
 "`implementation` section of an OCDS release."
@@ -56,7 +56,7 @@ msgstr ""
 "Esta extensión introduce la propiedad `performanceFailures` a la sección "
 "`implementation` de una entrega de OCDS."
 
-#: README.md:11
+#: ../README.md:11
 msgid ""
 "The new property is an array of `PerformanceFailure` objects. The "
 "`PerformanceFailure` object has the following properties:"
@@ -64,7 +64,7 @@ msgstr ""
 "La nueva propiedad es una lista de objetos `PerformanceFailure`. El objeto "
 "`PerformanceFailure` tiene las siguientes propiedades:"
 
-#: README.md:13
+#: ../README.md:13
 msgid ""
 "`period` - an OCDS `period` object defining the reporting period to "
 "applicable to the performance failures being reported"
@@ -72,7 +72,7 @@ msgstr ""
 "`period` - un objeto `period` de OCDS que define el período de reporte "
 "aplicable a los incumplimientos que se informan"
 
-#: README.md:14
+#: ../README.md:14
 msgid ""
 "`category` - a free text field used to describe the category of performance "
 "failures being reported"
@@ -80,7 +80,7 @@ msgstr ""
 "`category` - un campo de texto libre utilizado para describir la categoría "
 "de incumplimientos que se reportan"
 
-#: README.md:15
+#: ../README.md:15
 msgid ""
 "`events` - a number field used to state the number of performance failure "
 "events in the period and category being reported"
@@ -88,7 +88,7 @@ msgstr ""
 "`events` - un campo numérico utilizado para indicar el número de eventos de "
 "incumplimiento en el período y la categoría que se reporta"
 
-#: README.md:16
+#: ../README.md:16
 msgid ""
 "`penaltyContracted` - a free text field used to describe the penalty or "
 "abatement defined in the contract for the number, category and period of "
@@ -98,7 +98,7 @@ msgstr ""
 "la penalización o la reducción definida en el contrato para el número, la "
 "categoría y el período de los incumplimientos que se reportan"
 
-#: README.md:17
+#: ../README.md:17
 msgid ""
 "`penaltyImposed` - a free text field used to describe the penalty or "
 "abatement actually imposed for the number, category and period of "
@@ -108,7 +108,7 @@ msgstr ""
 "penalización o la reducción definida en el contrato para el número, la "
 "categoría y el período de los incumplimientos que se reportan"
 
-#: README.md:18
+#: ../README.md:18
 msgid ""
 "`penaltyPaid` - a boolean field indicating whether the penalty imposed has "
 "been paid. A value of `true` indicates that the penalty has been paid"
@@ -116,11 +116,11 @@ msgstr ""
 "`penaltyPaid` - un campo booleano que indica si la penalización impuesta ha "
 "sido pagada. Un valor de `true` indica que la penalización ha sido pagada"
 
-#: README.md:0
+#: ../README.md:20
 msgid "Example"
 msgstr "Ejemplo"
 
-#: README.md:22
+#: ../README.md:22
 msgid ""
 "The following JSON snippet models the performance failures reported for a "
 "single period and category."
@@ -128,25 +128,11 @@ msgstr ""
 "El fragmento de JSON a continuación modela los incumplimientos reportados "
 "para un solo período y categoría."
 
-#: README.md:0
-msgid "Usage Notes"
-msgstr "Notas de Uso"
-
-#: README.md:0
-msgid "To do"
-msgstr "Por hacer"
-
-#: README.md:48
-msgid ""
-"Add a `relatedTransactions` reference to the performance failure object?"
-msgstr ""
-"Agrega una referencia `relatedTransactions` al objeto de incumplimiento"
-
-#: README.md:0
+#: ../README.md:51
 msgid "Issues"
 msgstr "Issues"
 
-#: README.md:52
+#: ../README.md:53
 msgid ""
 "Report issues for this extension in the [ocds-extensions "
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "
@@ -156,16 +142,47 @@ msgstr ""
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
 "el nombre de la extensión en el título del issue."
 
-#: README.md:0
+#: ../README.md:55
 msgid "Changelog"
 msgstr "Registro de cambios"
 
-#: README.md:56
-msgid ""
-"2018-05-08 - Make `performanceFailure/id` required to support revision "
-"tracking and [list merging](http://standard.open-"
-"contracting.org/latest/en/schema/merging/#lists)."
+#: ../README.md:57
+msgid "2020-04-24"
 msgstr ""
-"2018-05-08 - Hacer  `performanceFailure/id` requerido para soportar el "
-"seguimiento de revisiones y [list merging](http://standard.open-"
-"contracting.org/latest/en/schema/merging/#lists)."
+
+#: ../README.md:59
+msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
+msgstr ""
+
+#: ../README.md:61
+msgid "2019-03-20"
+msgstr ""
+
+#: ../README.md:63
+msgid "Add `\"minLength\": 1` on required string fields."
+msgstr ""
+
+#: ../README.md:64
+msgid ""
+"Make `PerformanceFailure.period` non-nullable (undo earlier change), given "
+"that it refers to the `Period` object."
+msgstr ""
+
+#: ../README.md:66
+msgid "2018-05-08"
+msgstr ""
+
+#: ../README.md:68
+msgid ""
+"Make `PerformanceFailure.id` required to support revision tracking and [list"
+" merging](http://standard.open-"
+"contracting.org/latest/en/schema/merging/#lists)"
+msgstr ""
+
+#: ../README.md:70
+msgid "2018-01-29"
+msgstr ""
+
+#: ../README.md:72
+msgid "Make `PerformanceFailure.period` nullable."
+msgstr ""
