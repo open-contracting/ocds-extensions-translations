@@ -6,7 +6,7 @@ To update this repository, see [these instructions on translating extensions](ht
 
 ### Add new extensions
 
-To determine what extensions to add, compare the first column of [extensions.csv](https://github.com/open-contracting/extension_registry/raw/master/extensions.csv) to `ls -1 locale/es/LC_MESSAGES`.
+To determine what extensions to add, compare the first column of [extensions.csv](https://github.com/open-contracting/extension_registry/raw/main/extensions.csv) to `ls -1 locale/es/LC_MESSAGES`.
 
 Set environment variables as appropriate (using the fish shell):
 
