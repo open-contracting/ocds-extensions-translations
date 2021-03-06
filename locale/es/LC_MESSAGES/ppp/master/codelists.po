@@ -1,20 +1,20 @@
 # Translations template for PROJECT.
-# Copyright (C) 2020 ORGANIZATION
+# Copyright (C) 2021 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
 # 
 # Translators:
 # James McKinney, 2019
-# Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019
+# Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-08-20 17:19-0400\n"
+"POT-Creation-Date: 2021-03-05 17:32-0500\n"
 "PO-Revision-Date: 2019-03-14 18:28+0000\n"
-"Last-Translator: Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019\n"
+"Last-Translator: Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2019\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,22 +24,19 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: codelists/+milestoneType.csv codelists/+partyRole.csv
-#: codelists/+releaseTag.csv codelists/-partyRole.csv
-#: codelists/documentType.csv codelists/initiationType.csv
-#: codelists/metricID.csv codelists/milestoneCode.csv
+#: codelists/documentType.csv codelists/metricID.csv
+#: codelists/milestoneCode.csv
 msgid "Code"
 msgstr "Código"
 
 #: codelists/+milestoneType.csv codelists/+partyRole.csv
-#: codelists/+releaseTag.csv codelists/documentType.csv
-#: codelists/initiationType.csv codelists/metricID.csv
+#: codelists/documentType.csv codelists/metricID.csv
 #: codelists/milestoneCode.csv
 msgid "Title"
 msgstr "Título"
 
 #: codelists/+milestoneType.csv codelists/+partyRole.csv
-#: codelists/+releaseTag.csv codelists/documentType.csv
-#: codelists/initiationType.csv codelists/metricID.csv
+#: codelists/documentType.csv codelists/metricID.csv
 #: codelists/milestoneCode.csv
 msgid "Description"
 msgstr "Descripción"
@@ -78,62 +75,11 @@ msgstr "Eventos como el cierre comercial y financiero"
 
 #. Title
 #: codelists/+partyRole.csv:1
-msgid "Public authority"
-msgstr "Autoridad pública"
-
-#. Description
-#: codelists/+partyRole.csv:1
-msgid ""
-"The unit/body/department within a government that is tendering and "
-"contracting the project. The public counterpart in the PPP contract."
-msgstr ""
-"La unidad/cuerpo/departamento dentro de un gobierno que está licitando y "
-"contratando el proyecto. La contraparte pública en el contrato de APP."
-
-#. Title
-#: codelists/+partyRole.csv:2
-msgid "Bidder"
-msgstr "Licitador"
-
-#. Description
-#: codelists/+partyRole.csv:2
-msgid ""
-"The company or a group of companies, such as a consortium, that submits a "
-"bid in response to a RFP. A bidder could be a single party or a consortium "
-"of parties, each responsible for a specific element, such as constructing "
-"the infrastructure, supplying the equipment, or operating the business."
-msgstr ""
-"La empresa o un grupo de empresas, como un consorcio, que presenta una "
-"oferta en respuesta a una solicitud de propuesta. Un licitador podría ser "
-"una sola parte o un consorcio de partes, cada uno responsable de un elemento"
-" específico, como la construcción de la infraestructura, el suministro del "
-"equipo o la operación del negocio."
-
-#. Title
-#: codelists/+partyRole.csv:3
-msgid "Preferred bidder"
-msgstr "Licitante seleccionado"
-
-#. Description
-#: codelists/+partyRole.csv:3
-msgid ""
-"The bidder identified at the end of the tender evaluation process as being "
-"the government’s preferred partner to enter into (or enter into final "
-"negotiations for) a PPP contract. The preferred bidder is awarded the "
-"contract and called to contract signature."
-msgstr ""
-"El licitador identificado al final del proceso de evaluación de ofertas como"
-" el socio seleccionado del gobierno para celebrar (o entrar en negociaciones"
-" finales) un contrato de APP. Se adjudica el contrato al licitador "
-"seleccionado y se le llama a firmar el contrato."
-
-#. Title
-#: codelists/+partyRole.csv:4
 msgid "Private party"
 msgstr "Parte privada"
 
 #. Description
-#: codelists/+partyRole.csv:4
+#: codelists/+partyRole.csv:1
 msgid ""
 "The counter party of the procuring authority in the PPP contract. A private "
 "entity which has been granted the contract to construct and operate a "
@@ -146,12 +92,12 @@ msgstr ""
 "de Propósito Especial o SPV. "
 
 #. Title
-#: codelists/+partyRole.csv:5
+#: codelists/+partyRole.csv:2
 msgid "Lead bank"
 msgstr "Lider del consorcio"
 
 #. Description
-#: codelists/+partyRole.csv:5
+#: codelists/+partyRole.csv:2
 msgid ""
 "A lead bank is a bank that oversees the arrangement of a loan syndication"
 msgstr ""
@@ -159,12 +105,12 @@ msgstr ""
 "sindicación de préstamos"
 
 #. Title
-#: codelists/+partyRole.csv:6
+#: codelists/+partyRole.csv:3
 msgid "Lender"
 msgstr "Prestador"
 
 #. Description
-#: codelists/+partyRole.csv:6
+#: codelists/+partyRole.csv:3
 msgid ""
 "The APMG PPP Certification Program defines lenders as \"Institutions that "
 "provide lending to the project: mainly banks and institutional investors "
@@ -175,12 +121,12 @@ msgstr ""
 "bancos e inversores institucionales a través de bonos de proyectos\""
 
 #. Title
-#: codelists/+partyRole.csv:7
+#: codelists/+partyRole.csv:4
 msgid "Equity investor"
 msgstr "Inversor de capital"
 
 #. Description
-#: codelists/+partyRole.csv:7
+#: codelists/+partyRole.csv:4
 msgid ""
 "The APMG PPP Certification Program defines equity investors as \"Investors "
 "who finance a portion of the project’s capital expenditures (Capex), "
@@ -191,34 +137,34 @@ msgstr ""
 "proyecto (Capex), típicamente como capital social o deuda subordinada\""
 
 #. Title
-#: codelists/+partyRole.csv:8
+#: codelists/+partyRole.csv:5
 msgid "Consortia member"
 msgstr "Miembro de los consorcios"
 
 #. Description
-#: codelists/+partyRole.csv:8
+#: codelists/+partyRole.csv:5
 msgid ""
 "One of a group of companies that has joined together to bid for a project."
 msgstr ""
 "Uno de un grupo de empresas que se han unido para licitar un proyecto."
 
 #. Title
-#: codelists/+partyRole.csv:9
+#: codelists/+partyRole.csv:6
 msgid "Grantor"
 msgstr "Concedente"
 
 #. Description
-#: codelists/+partyRole.csv:9
+#: codelists/+partyRole.csv:6
 msgid "The party which grants a concession, a license or some other right."
 msgstr "La parte que otorga una concesión, una licencia u otro derecho."
 
 #. Title
-#: codelists/+partyRole.csv:10
+#: codelists/+partyRole.csv:7
 msgid "Social witness"
 msgstr "Testigo social"
 
 #. Description
-#: codelists/+partyRole.csv:10
+#: codelists/+partyRole.csv:7
 msgid ""
 "A social witness participates as an external observer in a public "
 "procurements process. They have a formal role as an observer."
@@ -227,12 +173,12 @@ msgstr ""
 "adquisiciones públicas. Tienen un papel formal como observador."
 
 #. Title
-#: codelists/+partyRole.csv:11
+#: codelists/+partyRole.csv:8
 msgid "Other witness"
 msgstr "Otro testigo"
 
 #. Description
-#: codelists/+partyRole.csv:11
+#: codelists/+partyRole.csv:8
 msgid ""
 "A witness attends one or more stages of the procurement process to observe "
 "proceedings."
@@ -241,126 +187,18 @@ msgstr ""
 "observar los procedimientos."
 
 #. Title
-#: codelists/+partyRole.csv:12
+#: codelists/+partyRole.csv:9
 msgid "Notary"
 msgstr "Notario"
 
 #. Description
-#: codelists/+partyRole.csv:12
+#: codelists/+partyRole.csv:9
 msgid ""
 "A person authorized to perform certain legal formalities, especially to "
 "certify documents and proceedings."
 msgstr ""
 "Una persona autorizada para realizar ciertas formalidades legales, "
 "especialmente para certificar documentos y procedimientos."
-
-#. Title
-#: codelists/+releaseTag.csv:1
-msgid "Qualification"
-msgstr "Calificación"
-
-#. Description
-#: codelists/+releaseTag.csv:1
-msgid ""
-"Providing information about a new pre-qualification process (to qualify or "
-"pre-select bidders for a tender process)."
-msgstr ""
-"Proporcionar información sobre un nuevo proceso de precalificación (para "
-"calificar o preseleccionar a los licitadores para un proceso de licitación)."
-
-#. Title
-#: codelists/+releaseTag.csv:2
-msgid "Qualification update"
-msgstr ""
-
-#. Description
-#: codelists/+releaseTag.csv:2
-msgid ""
-"An update to an existing qualification release. There should be at least one"
-" qualification release with the same ocid, but an earlier releaseDate, "
-"before a qualificationUpdate is published. An update may add new information"
-" or make corrections to prior published information. It should not be used "
-"for formal legal amendments to a pre-qualification process, for which the "
-"qualificationAmendment tag should be used."
-msgstr ""
-"Actualización de una entrega de calificación existente. Debe haber al menos "
-"una entrega de calificación con el mismo ocid, pero un releaseDate anterior,"
-" antes de que se edite un qualifiedUpdate. Una actualización puede agregar "
-"nueva información o hacer correcciones a la información publicada "
-"anteriormente. No debe utilizarse para las enmiendas legales formales a un "
-"proceso de precalificación, para lo cual se debe usar la etiqueta "
-"qualificationAmendment."
-
-#. Title
-#: codelists/+releaseTag.csv:3
-msgid "Qualification amendment"
-msgstr ""
-
-#. Description
-#: codelists/+releaseTag.csv:3
-msgid ""
-"An amendment to an existing qualification release. There should be at least "
-"one qualification release with the same ocid, but an earlier releaseDate, "
-"before a qualificationAmendment is published. The term amendment has legal "
-"meaning in many jurisdictions."
-msgstr ""
-"Una enmienda a una entrega de calificación existente. Debe haber por lo "
-"menos una entrega de calificación con el mismo ocid, pero una releaseDate "
-"anterior, antes de que se publique una qualificationAmendment. El término "
-"enmienda tiene significado legal en muchas jurisdicciones."
-
-#. Title
-#: codelists/+releaseTag.csv:4
-msgid "Qualification cancellation"
-msgstr ""
-
-#. Description
-#: codelists/+releaseTag.csv:4
-msgid ""
-"The cancellation of an existing pre-qualification process. There should be "
-"at least one release with the same ocid, but an earlier releaseDate, which "
-"provides details of the pre-qualification process being cancelled."
-msgstr ""
-"La cancelación de un proceso de precalificación existente. Debe haber al "
-"menos una entrega con el mismo ocid, pero un releaseDate anterior, que "
-"proporciona detalles del proceso de precalificación que se cancela."
-
-#. Title
-#: codelists/+releaseTag.csv:5
-msgid "Shortlist"
-msgstr "Lista Corta"
-
-#. Description
-#: codelists/+releaseTag.csv:5
-msgid ""
-"Providing information about the qualification or pre-selection of bidders. "
-"The preQualification section may be populated with details of the process "
-"leading up to the shortlist, and details of qualified or shortlisted bidders"
-" will be provided in the parties section."
-msgstr ""
-"Proporcionar información sobre la calificación o preselección de los "
-"licitadores. La sección de precalificación puede ser llenada con detalles "
-"sobre el proceso que conduce a la lista corta, y los detalles de licitadores"
-" calificados o preseleccionados serán proporcionados en la sección de "
-"partes."
-
-#. Title
-#: codelists/+releaseTag.csv:6
-msgid "Shortlist update"
-msgstr ""
-
-#. Description
-#: codelists/+releaseTag.csv:6
-msgid ""
-"An update to an existing shortlist release. There should be at least one "
-"shortlist release with the same ocid, but an earlier releaseDate before an "
-"shortlistUpdate is published. An update may add new information or make "
-"corrections."
-msgstr ""
-"Una actualización de una lista de preselecciones existente. Debe haber al "
-"menos una entrega de lista corta con el mismo ocid, pero un releaseDate "
-"anterior, antes de que se publique una shortlistUpdate. Una actualización "
-"puede agregar nueva información o hacer correcciones."
 
 #: codelists/documentType.csv
 msgid "Framework"
@@ -975,22 +813,6 @@ msgstr "Reporte de desempeño"
 #: codelists/documentType.csv:44
 msgid "Performance assessment reports"
 msgstr "Informes de evaluación de rendimiento"
-
-#. Title
-#: codelists/initiationType.csv:1
-msgid "Public private partnership"
-msgstr ""
-
-#. Description
-#: codelists/initiationType.csv:1
-msgid ""
-"An open competitive bidding or tendering to form a Public Private "
-"Partnership contract. The process might involve a qualification stage, "
-"whereby the number of qualified bidders is limited by reviewing each "
-"bidder’s qualifications against a set of criteria, before inviting "
-"prospective partners to submit bids for evaluation and selecting a winner or"
-" winners."
-msgstr ""
 
 #. Title
 #: codelists/metricID.csv:1

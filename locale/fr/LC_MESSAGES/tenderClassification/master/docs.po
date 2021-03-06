@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-20 17:17-0400\n"
+"POT-Creation-Date: 2021-03-05 17:31-0500\n"
 "PO-Revision-Date: 2020-08-20 20:50+0000\n"
 "Language-Team: French (https://www.transifex.com/open-contracting-partnership-1/teams/112300/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr ""
 #: ../README.md:3
 msgid ""
 "Adds an array of classification objects to the tender object, in order to "
-"categorize the procedure as a whole."
+"categorize the procedure or call-off as a whole."
 msgstr ""
 
 #: ../README.md:5
@@ -65,14 +65,22 @@ msgid "Changelog"
 msgstr ""
 
 #: ../README.md:43
-msgid "2020-04-24"
+msgid "2021-01-19"
 msgstr ""
 
 #: ../README.md:45
-msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
+msgid "Add \"or call-off\" in the description of the extension."
 msgstr ""
 
 #: ../README.md:47
+msgid "2020-04-24"
+msgstr ""
+
+#: ../README.md:49
+msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
+msgstr ""
+
+#: ../README.md:51
 msgid ""
 "This extension was originally discussed as part of the [OCDS for EU "
 "profile](https://github.com/open-contracting-extensions/european-"

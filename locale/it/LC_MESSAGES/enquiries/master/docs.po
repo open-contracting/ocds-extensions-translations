@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-20 17:17-0400\n"
+"POT-Creation-Date: 2021-03-05 17:31-0500\n"
 "PO-Revision-Date: 2019-03-14 18:31+0000\n"
 "Last-Translator: James McKinney, 2019\n"
 "Language-Team: Italian (https://www.transifex.com/open-contracting-partnership-1/teams/112300/it/)\n"
@@ -174,55 +174,64 @@ msgid "Changelog"
 msgstr "Storico delle modifiche"
 
 #: ../README.md:63
-msgid "v1.1.5"
+msgid "Unreleased"
 msgstr ""
 
 #: ../README.md:65
-msgid "Review normative and non-normative words"
+msgid ""
+"Remove the `+partyRole.csv` codelist, whose codes already exist in OCDS 1.1"
 msgstr ""
 
 #: ../README.md:67
-msgid "v1.1.4"
+msgid "v1.1.5"
 msgstr ""
 
 #: ../README.md:69
+msgid "Review normative and non-normative words"
+msgstr ""
+
+#: ../README.md:71
+msgid "v1.1.4"
+msgstr ""
+
+#: ../README.md:73
 msgid "Remove Sphinx directives from readme"
 msgstr ""
 
-#: ../README.md:70
+#: ../README.md:74
 msgid "Update extension.json for Extension Explorer"
 msgstr ""
 
-#: ../README.md:72
+#: ../README.md:76
 msgid "v1.1.3"
 msgstr "v1.1.3"
 
-#: ../README.md:74
+#: ../README.md:78
 msgid ""
 "Use `OrganizationReference` instead of `Organization` for `Enquiry.author`"
 msgstr ""
 "Utilizzare `OrganizationReference` invece di` Organization` per "
 "`Enquiry.author`"
 
-#: ../README.md:75
+#: ../README.md:79
 msgid "Correct name of +partyRole.csv codelist (was +partyRoles.csv)"
 msgstr ""
 "Il nome corretto dell'elenco di valori del vocabolario controllato "
 "+partyRole.csv (era + partyRoles.csv)"
 
-#: ../README.md:76
+#: ../README.md:80
 msgid "Allow `Enquiry.date` to be null"
 msgstr "Permetti che `Enquiry.date` sia nullo"
 
-#: ../README.md:77
+#: ../README.md:81
 msgid "List codelists in extension.json"
 msgstr ""
 "Elenca i valori ammissibili del vocabolari controllati in extension.json"
 
-#: ../README.md:78
+#: ../README.md:82
 msgid "Use Apache 2.0 License"
 msgstr "Utilizzare la licenza di Apache 2.0"
 
-#: ../README.md:79
+#: ../README.md:83
 msgid "Add tests and tidy code"
 msgstr "Aggiungi test e codice ordinato"

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-20 17:17-0400\n"
+"POT-Creation-Date: 2021-03-05 17:31-0500\n"
 "PO-Revision-Date: 2019-03-14 18:28+0000\n"
 "Last-Translator: James McKinney, 2019\n"
 "Language-Team: Italian (https://www.transifex.com/open-contracting-partnership-1/teams/112300/it/)\n"
@@ -74,12 +74,10 @@ msgstr ""
 
 #: ../README.md:24
 msgid ""
-"This repository contains one additional extensions that forms part of the "
+"This repository contains one additional extension that forms part of the "
 "OCDS for PPPs profile. This extension introduces a number of fields and "
 "building blocks that are specific to PPP disclosure against the World Bank "
-"Framework, as well as a set of modifications that only apply in an OCDS "
-"Profile (e.g. removing standard fields that are not required in the "
-"profile)."
+"Framework."
 msgstr ""
 
 #: ../README.md:26
@@ -114,63 +112,48 @@ msgstr ""
 msgid "netPresentValue"
 msgstr ""
 
-#: ../README.md:38
+#: ../README.md:38 ../README.md:63
+msgid "Example"
+msgstr ""
+
+#: ../README.md:52
 msgid "Finance Summary"
 msgstr ""
 
-#: ../README.md:40
+#: ../README.md:54
 msgid ""
 "The PPP disclosure framework calls for a number of different indicators "
 "relating to the financial model of a PPP project. Whilst some of these may "
 "be reported as metrics on an ongoing basis, some are simple single values."
 msgstr ""
 
-#: ../README.md:42
+#: ../README.md:56
 msgid ""
 "The `contracts.financeSummary` section includes properties to express the "
 "**value** and supporting **free-text details** for each indicator:"
 msgstr ""
 
-#: ../README.md:44
+#: ../README.md:58
 msgid "debtEquityRatio"
 msgstr ""
 
-#: ../README.md:45
+#: ../README.md:59
 msgid "shareCapital"
 msgstr ""
 
-#: ../README.md:46
+#: ../README.md:60
 msgid "subsidyRatio"
 msgstr ""
 
-#: ../README.md:47
+#: ../README.md:61
 msgid "projectIRR"
 msgstr ""
 
-#: ../README.md:49
-msgid "Removals"
-msgstr ""
-
-#: ../README.md:51
-msgid ""
-"A standard OCDS extension must not remove content from the OCDS schema. "
-"However, to allow us to generate a profile schema and reference pages that "
-"contain **only** fields that ought to be considered when publishing OCDS for"
-" PPPs data, the release-schema.json for this extension contains a number of "
-"`null` fields, which remove schema elements not used by OCDS for PPPs."
-msgstr ""
-
-#: ../README.md:53
-msgid ""
-"This includes elements deprecated in OCDS 1.0, or procurement specific "
-"elements that don't apply in a PPP context."
-msgstr ""
-
-#: ../README.md:55
+#: ../README.md:75
 msgid "Issues"
 msgstr "Problemi (issues)"
 
-#: ../README.md:57
+#: ../README.md:77
 msgid ""
 "Report issues for this extension in the [ocds-extensions "
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "
@@ -180,41 +163,83 @@ msgstr ""
 "extensions](https://github.com/open-contracting/ocds-extensions/issues), "
 "inserendo il nome dell'estensione nel titolo del problema."
 
-#: ../README.md:59
+#: ../README.md:79
 msgid "Changelog"
 msgstr ""
 
-#: ../README.md:61
+#: ../README.md:81
+msgid "2021-02-15"
+msgstr ""
+
+#: ../README.md:83
+msgid ""
+"Restore 'procuringEntity', 'tenderer' and 'funder' roles. Remove 'bidder' "
+"role."
+msgstr ""
+
+#: ../README.md:85
+msgid "2021-01-14"
+msgstr ""
+
+#: ../README.md:87
+msgid "Remove `+releaseTag.csv` codelist."
+msgstr ""
+
+#: ../README.md:89
+msgid "2021-01-11"
+msgstr ""
+
+#: ../README.md:91
+msgid "Remove `initiationType.csv` codelist."
+msgstr ""
+
+#: ../README.md:92
+msgid "Restore `buyer` and `awards.suppliers` fields."
+msgstr ""
+
+#: ../README.md:94
+msgid "2020-11-16"
+msgstr ""
+
+#: ../README.md:96
+msgid "Restore deprecated fields."
+msgstr ""
+
+#: ../README.md:97
+msgid "Restore `Budget.project` and `Budget.projectID` fields."
+msgstr ""
+
+#: ../README.md:99
 msgid "2020-06-04"
 msgstr ""
 
-#: ../README.md:63
+#: ../README.md:101
 msgid "Review normative and non-normative words."
 msgstr ""
 
-#: ../README.md:65
+#: ../README.md:103
 msgid "2020-04-24"
 msgstr ""
 
-#: ../README.md:67
+#: ../README.md:105
 msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
 msgstr ""
 
-#: ../README.md:69
+#: ../README.md:107
 msgid "2019-05-01"
 msgstr ""
 
-#: ../README.md:71
+#: ../README.md:109
 msgid ""
 "Remove 'qualifiedBidder' and 'disqualifiedBidder' codes from "
 "`+partyRole.csv` (moved to [qualification](https://extensions.open-"
 "contracting.org/en/extensions/qualification/master/) extension)."
 msgstr ""
 
-#: ../README.md:73
+#: ../README.md:111
 msgid "2019-03-20"
 msgstr ""
 
-#: ../README.md:75
+#: ../README.md:113
 msgid "Set `\"uniqueItems\": true` on array fields."
 msgstr ""

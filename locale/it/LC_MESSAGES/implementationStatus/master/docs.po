@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-20 17:17-0400\n"
+"POT-Creation-Date: 2021-03-05 17:31-0500\n"
 "PO-Revision-Date: 2019-03-14 18:35+0000\n"
 "Language-Team: Italian (https://www.transifex.com/open-contracting-partnership-1/teams/112300/it/)\n"
 "MIME-Version: 1.0\n"
@@ -33,15 +33,15 @@ msgid ""
 " it. It includes a code list whose values are the following:"
 msgstr ""
 
-#: ../README.md:6
+#: ../README.md:6 ../README.md:0
 msgid "planning"
 msgstr ""
 
-#: ../README.md:7
+#: ../README.md:7 ../README.md:0
 msgid "ongoing"
 msgstr ""
 
-#: ../README.md:8
+#: ../README.md:8 ../README.md:0
 msgid "concluded"
 msgstr ""
 
@@ -70,16 +70,61 @@ msgstr ""
 msgid "Defining texts:"
 msgstr ""
 
-#: ../README.md:23
+#: ../README.md:0
+msgid "**Code**"
+msgstr ""
+
+#: ../README.md:0
+msgid "**Title**"
+msgstr ""
+
+#: ../README.md:0
+msgid "**Description**"
+msgstr ""
+
+#: ../README.md:0
+msgid "status"
+msgstr ""
+
+#: ../README.md:0
+msgid "Implementation status"
+msgstr ""
+
+#: ../README.md:0
 msgid ""
-"**Code** | **Title** | **Description** --|--|-- status | Implementation "
-"status | The current status of the contract implementation based on the "
+"The current status of the contract implementation based on the "
 "[implementationStatus](https://github.com/INAImexico/ocds_implementationStatus_extension/blob/master/codelists/implementationStatus.csv)"
-"  codelist. planning | Planning | The contract has been signed, but the "
-"provision or construction of the goods, services or works has not started. "
-"ongoing | Ongoing | The provision or construction of the goods, services or "
-"works is in progress. concluded | Concluded | The provision or construction "
-"of the goods, services or works has officially ended."
+"  codelist."
+msgstr ""
+
+#: ../README.md:0
+msgid "Planning"
+msgstr ""
+
+#: ../README.md:0
+msgid ""
+"The contract has been signed, but the provision or construction of the "
+"goods, services or works has not started."
+msgstr ""
+
+#: ../README.md:0
+msgid "Ongoing"
+msgstr ""
+
+#: ../README.md:0
+msgid ""
+"The provision or construction of the goods, services or works is in "
+"progress."
+msgstr ""
+
+#: ../README.md:0
+msgid "Concluded"
+msgstr ""
+
+#: ../README.md:0
+msgid ""
+"The provision or construction of the goods, services or works has officially"
+" ended."
 msgstr ""
 
 #: ../README.md:30

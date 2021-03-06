@@ -1,14 +1,14 @@
 # Translations template for PROJECT.
-# Copyright (C) 2020 ORGANIZATION
+# Copyright (C) 2021 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-08-20 17:18-0400\n"
+"POT-Creation-Date: 2021-03-05 17:32-0500\n"
 "PO-Revision-Date: 2020-08-20 20:51+0000\n"
 "Language-Team: French (https://www.transifex.com/open-contracting-partnership-1/teams/112300/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -49,6 +49,16 @@ msgstr ""
 #. /definitions/Tender/properties/valueCalculationMethod/description
 #: release-schema.json:1
 msgid "The method used for calculating the estimated value of the concession."
+msgstr ""
+
+#. /definitions/Tender/properties/legislativeReferences/title
+#: release-schema.json:1
+msgid "Legislative references"
+msgstr ""
+
+#. /definitions/Tender/properties/legislativeReferences/description
+#: release-schema.json:1
+msgid "Legislative references and associated contact points for information."
 msgstr ""
 
 #. /definitions/Organization/properties/details/properties/url/title
@@ -108,4 +118,73 @@ msgstr ""
 #. /definitions/Item/properties/deliveryAddresses/description
 #: release-schema.json:1
 msgid "The addresse(s) to which the supplier delivers the item."
+msgstr ""
+
+#. /definitions/LegislativeReference/title
+#: release-schema.json:1
+msgid "Legislative reference"
+msgstr ""
+
+#. /definitions/LegislativeReference/description
+#: release-schema.json:1
+msgid "Legislative reference and associated contact point"
+msgstr ""
+
+#. /definitions/LegislativeReference/properties/title/title
+#: release-schema.json:1
+msgid "Title"
+msgstr ""
+
+#. /definitions/LegislativeReference/properties/title/description
+#: release-schema.json:1
+msgid "The title of the legislative reference"
+msgstr ""
+
+#. /definitions/LegislativeReference/properties/url/title
+#: release-schema.json:1
+msgid "URL"
+msgstr ""
+
+#. /definitions/LegislativeReference/properties/url/description
+#: release-schema.json:1
+msgid "A link to the Web page of the legislative reference."
+msgstr ""
+
+#. /definitions/LegislativeReference/properties/informationService/title
+#: release-schema.json:1
+msgid "Information service"
+msgstr ""
+
+#. /definitions/LegislativeReference/properties/informationService/description
+#: release-schema.json:1
+msgid ""
+"An organization that can provide information about the legislative "
+"reference."
+msgstr ""
+
+#. /definitions/Lot/properties/minimumValue/title
+#: release-schema.json:1
+msgid "Minimum value"
+msgstr ""
+
+#. /definitions/Lot/properties/minimumValue/description
+#: release-schema.json:1
+msgid ""
+"The minimum estimated value of the lot. A negative value indicates that the "
+"contracting process may involve payments from the supplier to the buyer "
+"(commonly used in concession contracts)."
+msgstr ""
+
+#. /definitions/Lot/properties/awardPeriod/title
+#: release-schema.json:1
+msgid "Award period"
+msgstr ""
+
+#. /definitions/Lot/properties/awardPeriod/description
+#: release-schema.json:1
+msgid ""
+"The period for decision making regarding the contract award for the lot. The"
+" end date should be the date on which an award decision is due to be "
+"finalized. The start date may be used to indicate the start of an evaluation"
+" period."
 msgstr ""

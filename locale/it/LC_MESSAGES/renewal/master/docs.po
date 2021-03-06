@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-20 17:17-0400\n"
+"POT-Creation-Date: 2021-03-05 17:31-0500\n"
 "PO-Revision-Date: 2020-08-20 20:49+0000\n"
 "Language-Team: Italian (https://www.transifex.com/open-contracting-partnership-1/teams/112300/it/)\n"
 "MIME-Version: 1.0\n"
@@ -23,7 +23,8 @@ msgstr ""
 
 #: ../README.md:3
 msgid ""
-"Adds fields to lots, to describe the options for the renewal of contracts."
+"Adds fields to the Tender and Lot objects to describe the options for the "
+"renewal of contracts."
 msgstr ""
 
 #: ../README.md:5
@@ -39,33 +40,61 @@ msgid ""
 msgstr ""
 
 #: ../README.md:9
+msgid "Guidance"
+msgstr ""
+
+#: ../README.md:11
+msgid ""
+"If the number of times a contract can be renewed is an exact number and not "
+"a range, set `minimumRenewals` and `maximumRenewals` to the same number."
+msgstr ""
+
+#: ../README.md:13
 msgid "Example"
 msgstr ""
 
-#: ../README.md:71
+#: ../README.md:85
 msgid "Issues"
 msgstr ""
 
-#: ../README.md:73
+#: ../README.md:87
 msgid ""
 "Report issues for this extension in the [ocds-extensions "
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "
 "putting the extension's name in the issue's title."
 msgstr ""
 
-#: ../README.md:75
+#: ../README.md:89
 msgid "Changelog"
 msgstr ""
 
-#: ../README.md:77
+#: ../README.md:91
+msgid "2021-01-19"
+msgstr ""
+
+#: ../README.md:93
+msgid "Add the `hasRenewal` and `renewal` fields to the Tender object."
+msgstr ""
+
+#: ../README.md:95
+msgid "2020-10-06"
+msgstr ""
+
+#: ../README.md:97
+msgid ""
+"Add the `minimumRenewals`, `maximumRenewals` and `period` fields to the "
+"`Renewal` object."
+msgstr ""
+
+#: ../README.md:99
 msgid "2020-04-24"
 msgstr ""
 
-#: ../README.md:79
+#: ../README.md:101
 msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
 msgstr ""
 
-#: ../README.md:81
+#: ../README.md:103
 msgid ""
 "This extension was originally discussed as part of the [OCDS for EU "
 "profile](https://github.com/open-contracting-extensions/european-"

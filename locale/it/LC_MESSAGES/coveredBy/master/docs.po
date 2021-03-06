@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-20 17:17-0400\n"
+"POT-Creation-Date: 2021-03-05 17:31-0500\n"
 "PO-Revision-Date: 2020-08-20 21:41+0000\n"
 "Language-Team: Italian (https://www.transifex.com/open-contracting-partnership-1/teams/112300/it/)\n"
 "MIME-Version: 1.0\n"
@@ -43,10 +43,51 @@ msgid ""
 msgstr ""
 
 #: ../README.md:9
-msgid "Legal context"
+msgid "Guidance"
 msgstr ""
 
 #: ../README.md:11
+msgid ""
+"If you need to refer to a treaty that is not in the `coveredBy` codelist:"
+msgstr ""
+
+#: ../README.md:13
+msgid ""
+"If the treaty has a national or subnational scope, pick a relevant [ISO "
+"3166-1 alpha-2 country "
+"code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) (e.g \"CA\" for "
+"Canada)."
+msgstr ""
+
+#: ../README.md:14
+msgid ""
+"If the treaty has a subnational scope, pick a relevant [ISO 3166-2 region "
+"code](https://en.wikipedia.org/wiki/ISO_3166-2) (e.g \"NT\" for [Northern "
+"Territories](https://en.wikipedia.org/wiki/ISO_3166-2:CA#Current_codes), a "
+"province of Canada)."
+msgstr ""
+
+#: ../README.md:15
+msgid ""
+"Concatenate the code(s) to the acronym of the treaty, separating each part "
+"with a dash (e.g \"CA-NT-BPI\")."
+msgstr ""
+
+#: ../README.md:16
+msgid "Add this code to the `tender.coveredBy` array."
+msgstr ""
+
+#: ../README.md:17
+msgid ""
+"Document the new code (see [Extending open codelists](https://standard.open-"
+"contracting.org/latest/en/schema/codelists/))."
+msgstr ""
+
+#: ../README.md:19
+msgid "Legal context"
+msgstr ""
+
+#: ../README.md:21
 msgid ""
 "The [Revised Agreement on Government "
 "Procurement](https://www.wto.org/english/docs_e/legal_e/rev-gpr-94_01_e.htm)"
@@ -54,7 +95,7 @@ msgid ""
 " indication that the procurement is covered by this Agreement.\""
 msgstr ""
 
-#: ../README.md:13
+#: ../README.md:23
 msgid ""
 "The European Union is a "
 "[party](https://www.wto.org/english/tratop_e/gproc_e/memobs_e.htm) to the "
@@ -65,35 +106,44 @@ msgid ""
 "covered by the GPA.\""
 msgstr ""
 
-#: ../README.md:15
+#: ../README.md:25
 msgid "Example"
 msgstr ""
 
-#: ../README.md:17
+#: ../README.md:27
 msgid ""
 "The `tender.coveredBy` field is an array of strings, whose values are "
 "selected from the `coveredBy.csv` open codelist."
 msgstr ""
 
-#: ../README.md:29
+#: ../README.md:39
 msgid "Issues"
 msgstr ""
 
-#: ../README.md:31
+#: ../README.md:41
 msgid ""
 "Report issues for this extension in the [ocds-extensions "
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "
 "putting the extension's name in the issue's title."
 msgstr ""
 
-#: ../README.md:33
+#: ../README.md:43
 msgid "Changelog"
 msgstr ""
 
-#: ../README.md:35
+#: ../README.md:45
+msgid "2020-11-04"
+msgstr ""
+
+#: ../README.md:47
+msgid ""
+"Add guidance on the creation of new codes for the `coveredBy` codelist."
+msgstr ""
+
+#: ../README.md:49
 msgid "2020-04-24"
 msgstr ""
 
-#: ../README.md:37
+#: ../README.md:51
 msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
 msgstr ""

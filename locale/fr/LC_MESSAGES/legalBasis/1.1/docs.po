@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-20 17:17-0400\n"
+"POT-Creation-Date: 2021-03-05 17:31-0500\n"
 "PO-Revision-Date: 2020-08-20 20:52+0000\n"
 "Language-Team: French (https://www.transifex.com/open-contracting-partnership-1/teams/112300/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -41,20 +41,37 @@ msgid ""
 "To identify the procedure used, whether by formal name or by legal citation,"
 " use the [`tender.procurementMethodDetails`](https://standard.open-"
 "contracting.org/latest/en/schema/reference/#release-"
-"schema.json,/definitions/Tender,procurementMethodDetails) field. To indicate"
-" whether the contracting process is covered by a treaty, like the Agreement "
-"on Government Procurement (GPA), use the [coveredBy](https://extensions"
-".open-contracting.org/en/extensions/coveredBy/) extension. To indicate "
-"whether the contracting process is accelerated, involves framework "
-"agreements, or has other modalities, [browse the "
-"extensions](https://extensions.open-contracting.org/)."
+"schema.json,/definitions/Tender,procurementMethodDetails) field."
 msgstr ""
 
 #: ../README.md:9
-msgid "Legal context"
+msgid ""
+"To indicate whether the contracting process is covered by a treaty, like the"
+" Agreement on Government Procurement (GPA), use the "
+"[coveredBy](https://extensions.open-"
+"contracting.org/en/extensions/coveredBy/) extension. To indicate whether the"
+" contracting process is accelerated, involves framework agreements, or has "
+"other modalities, [browse the extensions](https://extensions.open-"
+"contracting.org/)."
 msgstr ""
 
 #: ../README.md:11
+msgid "Guidance"
+msgstr ""
+
+#: ../README.md:13
+msgid ""
+"If the legal basis is country-specific, it is recommended to prefix the [ISO"
+" 3166-1 alpha-2 code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) to "
+"the classification scheme: for example, \"HN-ONCAE\" for the Oficina "
+"Normativa de Contratación y Adquisiciones del Estado (ONCAE) in Honduras."
+msgstr ""
+
+#: ../README.md:15
+msgid "Legal context"
+msgstr ""
+
+#: ../README.md:17
 msgid ""
 "In the European Union, this extension's fields correspond to [eForms BT-01 "
 "(Procedure Legal Basis), BT-09 (Cross Border "
@@ -66,34 +83,44 @@ msgid ""
 "Electronic Daily (TED)."
 msgstr ""
 
-#: ../README.md:13
+#: ../README.md:19
 msgid "Example"
 msgstr ""
 
-#: ../README.md:27
+#: ../README.md:33
 msgid "Issues"
 msgstr ""
 
-#: ../README.md:29
+#: ../README.md:35
 msgid ""
 "Report issues for this extension in the [ocds-extensions "
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "
 "putting the extension's name in the issue's title."
 msgstr ""
 
-#: ../README.md:31
+#: ../README.md:37
 msgid "Changelog"
 msgstr ""
 
-#: ../README.md:33
+#: ../README.md:39
+msgid "2021-01-19"
+msgstr ""
+
+#: ../README.md:41
+msgid ""
+"Add guidance on the choice of the classification scheme for country-specific"
+" legal basis."
+msgstr ""
+
+#: ../README.md:43
 msgid "2020-04-24"
 msgstr ""
 
-#: ../README.md:35
+#: ../README.md:45
 msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
 msgstr ""
 
-#: ../README.md:37
+#: ../README.md:47
 msgid ""
 "This extension was originally discussed as part of the [OCDS for EU "
 "profile](https://github.com/open-contracting-extensions/european-"

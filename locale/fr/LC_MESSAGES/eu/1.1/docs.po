@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-20 17:17-0400\n"
+"POT-Creation-Date: 2021-03-05 17:31-0500\n"
 "PO-Revision-Date: 2020-08-20 20:51+0000\n"
 "Language-Team: French (https://www.transifex.com/open-contracting-partnership-1/teams/112300/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -63,46 +63,77 @@ msgstr ""
 msgid "Example"
 msgstr ""
 
-#: ../README.md:76
+#: ../README.md:112
 msgid "Issues"
 msgstr ""
 
-#: ../README.md:78
+#: ../README.md:114
 msgid ""
 "Report issues for this extension in the [ocds-extensions "
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "
 "putting the extension's name in the issue's title."
 msgstr ""
 
-#: ../README.md:80
+#: ../README.md:116
 msgid "Changelog"
 msgstr ""
 
-#: ../README.md:82
+#: ../README.md:118
+msgid "2021-01-19"
+msgstr ""
+
+#: ../README.md:120
+msgid ""
+"Set the object type of `informationService` to `OrganizationReference`."
+msgstr ""
+
+#: ../README.md:121
+msgid "Add 'informationService' code to `+partyRole.csv` codelist."
+msgstr ""
+
+#: ../README.md:123
+msgid "2020-10-06"
+msgstr ""
+
+#: ../README.md:125
+msgid "Add the `awardPeriod` field to the `Lot` object."
+msgstr ""
+
+#: ../README.md:127
+msgid "2020-10-05"
+msgstr ""
+
+#: ../README.md:129
+msgid "Add the `minimumValue` field to the `Lot` object."
+msgstr ""
+
+#: ../README.md:131
 msgid "2020-07-13"
 msgstr ""
 
-#: ../README.md:84
-msgid "Add 'securityClearanceDeadline' code to `+milestoneType.csv` codelist"
+#: ../README.md:133
+msgid ""
+"Add the 'securityClearanceDeadline' code to the `+milestoneType.csv` "
+"codelist."
 msgstr ""
 
-#: ../README.md:86
+#: ../README.md:135
 msgid "2020-04-29"
 msgstr ""
 
-#: ../README.md:88
-msgid "Add `Item.deliveryAddresses` field"
+#: ../README.md:137
+msgid "Add the `deliveryAddresses` field to the `Item` object."
 msgstr ""
 
-#: ../README.md:90
+#: ../README.md:139
 msgid "2020-04-24"
 msgstr ""
 
-#: ../README.md:92
-msgid "Add `minProperties`, `minItems` and/or `minLength` properties"
+#: ../README.md:141
+msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
 msgstr ""
 
-#: ../README.md:94
+#: ../README.md:143
 msgid ""
 "This extension was originally discussed as part of the [OCDS for EU "
 "profile](https://github.com/open-contracting-extensions/european-"

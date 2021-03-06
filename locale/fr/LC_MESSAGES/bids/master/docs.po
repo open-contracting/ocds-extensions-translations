@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-20 17:17-0400\n"
+"POT-Creation-Date: 2021-03-05 17:31-0500\n"
 "PO-Revision-Date: 2019-03-14 18:27+0000\n"
 "Last-Translator: James McKinney, 2019\n"
 "Language-Team: French (https://www.transifex.com/open-contracting-partnership-1/teams/112300/fr/)\n"
@@ -133,11 +133,11 @@ msgstr "Exemple"
 msgid "Below is an example of a bids extension:"
 msgstr "Ci-dessous, un exemple d'extension sur les offres : "
 
-#: ../README.md:134
+#: ../README.md:129
 msgid "Issues"
 msgstr "Problèmes"
 
-#: ../README.md:136
+#: ../README.md:131
 msgid ""
 "Report issues for this extension in the [ocds-extensions "
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "
@@ -147,70 +147,78 @@ msgstr ""
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), en "
 "mettant le nom de l'extension dans le titre du signalement."
 
-#: ../README.md:138
+#: ../README.md:133
 msgid "Changelog"
 msgstr "Journal des modifications"
 
-#: ../README.md:140
+#: ../README.md:135
+msgid "Unreleased"
+msgstr ""
+
+#: ../README.md:137
+msgid "Add `BidsStatistic.valueGross` field"
+msgstr ""
+
+#: ../README.md:139
 msgid "v1.1.5"
 msgstr ""
 
-#: ../README.md:142
+#: ../README.md:141
 msgid "Add `BidsStatistic.currency` field"
 msgstr ""
 
-#: ../README.md:143
+#: ../README.md:142
 msgid ""
 "Add 'lowestValidBidValue' and 'highestValidBidValue' codes to "
 "`bidStatistics.csv`"
 msgstr ""
 
-#: ../README.md:144
+#: ../README.md:143
 msgid "Remove type information from field descriptions"
 msgstr ""
 
-#: ../README.md:145
+#: ../README.md:144
 msgid "Review normative and non-normative words"
 msgstr ""
 
-#: ../README.md:147
+#: ../README.md:146
 msgid "v1.1.4"
 msgstr ""
 
-#: ../README.md:149
+#: ../README.md:148
 msgid ""
 "Fix the title and description of the 'foreignBidsFromEU' code to refer to "
 "the European Economic Area (EEA). Previously, its title referred to the "
 "European Single Market, but its description listed the members of the EEA."
 msgstr ""
 
-#: ../README.md:150
+#: ../README.md:149
 msgid "Add a 'foreignBidsFromNonEU' code to `bidStatistics.csv`"
 msgstr ""
 
-#: ../README.md:151
+#: ../README.md:150
 msgid "Remove invalid `required` property on array field `Bids.details`"
 msgstr ""
 
-#: ../README.md:152
+#: ../README.md:151
 msgid ""
 "Fix the merge behavior of `Bids.statistics` and `Bid.tenderers` to use "
 "identifier merge strategy"
 msgstr ""
 
-#: ../README.md:153
+#: ../README.md:152
 msgid "Remove Sphinx directives from readme"
 msgstr ""
 
-#: ../README.md:154
+#: ../README.md:153
 msgid "Update extension.json for Extension Explorer"
 msgstr ""
 
-#: ../README.md:156
+#: ../README.md:155
 msgid "v1.1.3"
 msgstr "v1.1.3"
 
-#: ../README.md:158
+#: ../README.md:157
 msgid ""
 "Disallow required fields `BidsStatistic.id`, `BidsStatistic.measure`, "
 "`BidsStatistic.value` from being null"
@@ -218,37 +226,37 @@ msgstr ""
 "Interdit aux champs requis `BidsStatistic.id`, `BidsStatistic.measure`, "
 "`BidsStatistic.value` de prendre la valeur `null`"
 
-#: ../README.md:159
+#: ../README.md:158
 msgid "Disallow `Bids.statistics` from having null in its array of objects"
 msgstr ""
 "Interdit au champ `Bids.statistics` d'avoir une valeur `null` dans sa liste "
 "d'objets."
 
-#: ../README.md:160
+#: ../README.md:159
 msgid "Allow `Bids.statistics` to be null"
 msgstr "Autorise `Bids.statistics` à prendre la valeur `null`"
 
-#: ../README.md:161
+#: ../README.md:160
 msgid "Add enum to `Bid.status`"
 msgstr ""
 
-#: ../README.md:162
+#: ../README.md:161
 msgid "Move `BidsStatistic.requirementResponses` to requirements extension"
 msgstr ""
 "Déplace `BidsStatistic.requirementResponses` à l'extension `requirements`"
 
-#: ../README.md:163
+#: ../README.md:162
 msgid "Add descriptions to bidStatus.csv"
 msgstr "Ajoute des descriptions à bidStatus.csv"
 
-#: ../README.md:164
+#: ../README.md:163
 msgid "List codelists in extension.json"
 msgstr "Liste les nomenclatures dans extension.json"
 
-#: ../README.md:165
+#: ../README.md:164
 msgid "Add example to documentation"
 msgstr "Ajoute un exemple à la documentation"
 
-#: ../README.md:166
+#: ../README.md:165
 msgid "Add tests and tidy code"
 msgstr "Ajoute des tests et nettoie le code"

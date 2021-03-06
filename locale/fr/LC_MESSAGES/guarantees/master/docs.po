@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-20 17:17-0400\n"
+"POT-Creation-Date: 2021-03-05 17:31-0500\n"
 "PO-Revision-Date: 2019-11-06 16:40+0000\n"
 "Language-Team: French (https://www.transifex.com/open-contracting-partnership-1/teams/112300/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../README.md:1
+#: ../README.md:1 ../README.md:0
 msgid "Guarantees"
 msgstr ""
 
@@ -50,23 +50,23 @@ msgstr ""
 msgid "Guarantee types:"
 msgstr ""
 
-#: ../README.md:13
+#: ../README.md:13 ../README.md:0
 msgid "Bail"
 msgstr ""
 
-#: ../README.md:14
+#: ../README.md:14 ../README.md:0
 msgid "Deposit slip"
 msgstr ""
 
-#: ../README.md:15
+#: ../README.md:15 ../README.md:0
 msgid "Letter of credit"
 msgstr ""
 
-#: ../README.md:16
+#: ../README.md:16 ../README.md:0
 msgid "Surety bond"
 msgstr ""
 
-#: ../README.md:17
+#: ../README.md:17 ../README.md:0
 msgid "Check"
 msgstr ""
 
@@ -74,23 +74,23 @@ msgstr ""
 msgid "Guaranteed obligations:"
 msgstr ""
 
-#: ../README.md:20
+#: ../README.md:20 ../README.md:0
 msgid "Fulfillment"
 msgstr ""
 
-#: ../README.md:21
+#: ../README.md:21 ../README.md:0
 msgid "Prepaid"
 msgstr ""
 
-#: ../README.md:22
+#: ../README.md:22 ../README.md:0
 msgid "Latent defects"
 msgstr ""
 
-#: ../README.md:23
+#: ../README.md:23 ../README.md:0
 msgid "Confidentiality"
 msgstr ""
 
-#: ../README.md:24
+#: ../README.md:24 ../README.md:0
 msgid "Quality"
 msgstr ""
 
@@ -158,41 +158,225 @@ msgstr ""
 msgid "Defining texts:"
 msgstr ""
 
-#: ../README.md:46
+#: ../README.md:0
+msgid "**Code**"
+msgstr ""
+
+#: ../README.md:0
+msgid "**Title**"
+msgstr ""
+
+#: ../README.md:0
+msgid "**Description**"
+msgstr ""
+
+#: ../README.md:0
+msgid "guarantees"
+msgstr ""
+
+#: ../README.md:0
+msgid "A list of the guarantees given for this contract."
+msgstr ""
+
+#: ../README.md:0
+msgid "Guarantee"
+msgstr ""
+
+#: ../README.md:0
 msgid ""
-"**Code** | **Title** | **Description** --|--|-- guarantees | Guarantees | A "
-"list of the guarantees given for this contract. Guarantee | Guarantee | "
 "Information of the guarantee used to ensure compliance with the terms of a "
-"contract. id | Guarantee ID | A local identifier for this guarantee, unique "
-"within this block. type | Guarantee type | Specify the guarantee type for "
-"this contract using the "
+"contract."
+msgstr ""
+
+#: ../README.md:0
+msgid "id"
+msgstr ""
+
+#: ../README.md:0
+msgid "Guarantee ID"
+msgstr ""
+
+#: ../README.md:0
+msgid "A local identifier for this guarantee, unique within this block."
+msgstr ""
+
+#: ../README.md:0
+msgid "type"
+msgstr ""
+
+#: ../README.md:0
+msgid "Guarantee type"
+msgstr ""
+
+#: ../README.md:0
+msgid ""
+"Specify the guarantee type for this contract using the "
 "[guaranteeType](https://github.com/INAImexico/ocds_guarantees_extension/blob/master/codelists/guaranteeType.csv)"
-" codelist. bail | Bail | A bail bond is a written promise by which a person "
-"agrees with the creditor to pay for the debtor, if he does not. depositSlip "
-"| Deposit slip | The deposit slip is an instrument used to establish cash "
-"guarantees available to judicial or administrative authorities. "
-"letterOfCredit | Letter of credit | Letters of credit are used to guarantee "
-"that a supplier will receive a specified amount of money within a specified "
-"time providing strict terms. suretyBond | Surety bond | A surety bond is an "
-"instrument through which The surety is obliged to compensate the obligee for"
-" the damages suffered in the event that the principal fails to comply with "
-"the terms of the contract. check | Check | A certified check as a form of "
-"guarantee. date | Guarantee date | The date of the guarantee. This is the "
-"date on which the guarantee is issued. obligations | Guaranteed obligations "
-"| Specify the type of obligations that are guaranteed, using the "
+" codelist."
+msgstr ""
+
+#: ../README.md:0
+msgid "bail"
+msgstr ""
+
+#: ../README.md:0
+msgid ""
+"A bail bond is a written promise by which a person agrees with the creditor "
+"to pay for the debtor, if he does not."
+msgstr ""
+
+#: ../README.md:0
+msgid "depositSlip"
+msgstr ""
+
+#: ../README.md:0
+msgid ""
+"The deposit slip is an instrument used to establish cash guarantees "
+"available to judicial or administrative authorities."
+msgstr ""
+
+#: ../README.md:0
+msgid "letterOfCredit"
+msgstr ""
+
+#: ../README.md:0
+msgid ""
+"Letters of credit are used to guarantee that a supplier will receive a "
+"specified amount of money within a specified time providing strict terms."
+msgstr ""
+
+#: ../README.md:0
+msgid "suretyBond"
+msgstr ""
+
+#: ../README.md:0
+msgid ""
+"A surety bond is an instrument through which The surety is obliged to "
+"compensate the obligee for the damages suffered in the event that the "
+"principal fails to comply with the terms of the contract."
+msgstr ""
+
+#: ../README.md:0
+msgid "check"
+msgstr ""
+
+#: ../README.md:0
+msgid "A certified check as a form of guarantee."
+msgstr ""
+
+#: ../README.md:0
+msgid "date"
+msgstr ""
+
+#: ../README.md:0
+msgid "Guarantee date"
+msgstr ""
+
+#: ../README.md:0
+msgid ""
+"The date of the guarantee. This is the date on which the guarantee is "
+"issued."
+msgstr ""
+
+#: ../README.md:0
+msgid "obligations"
+msgstr ""
+
+#: ../README.md:0
+msgid "Guaranteed obligations"
+msgstr ""
+
+#: ../README.md:0
+msgid ""
+"Specify the type of obligations that are guaranteed, using the "
 "[obligationType](https://github.com/INAImexico/ocds_guarantees_extension/blob/master/codelists/guaranteedObligations.csv)"
-" codelist. fulfillment | Fulfillment | Guarantees fulfillment in time with "
-"the conditions stipulated in the contract. prepaid | Prepaid | Guarantee by "
-"which the supplier requests a prepayment from the procuring entity. "
-"latentDefects | Latent defects | Guarantee on the possible defects that a "
-"good may have that are not discoverable through general inspection at the "
-"time of delivery. confidentiality | Confidentiality | Guarantee that commits"
-" the supplier to safeguard the confidential information that has been "
-"granted. quality | Quality | Commitment from the supplier to deliver the "
-"goods and services in the quality specified in the contract. value | "
-"Guarantee value | Total amount of the guarantee. guarantor | Guarantor | "
-"Institution that issues the guarantee. period | Guarantee period | The "
-"period on which this quote is valid."
+" codelist."
+msgstr ""
+
+#: ../README.md:0
+msgid "fulfillment"
+msgstr ""
+
+#: ../README.md:0
+msgid ""
+"Guarantees fulfillment in time with the conditions stipulated in the "
+"contract."
+msgstr ""
+
+#: ../README.md:0
+msgid "prepaid"
+msgstr ""
+
+#: ../README.md:0
+msgid ""
+"Guarantee by which the supplier requests a prepayment from the procuring "
+"entity."
+msgstr ""
+
+#: ../README.md:0
+msgid "latentDefects"
+msgstr ""
+
+#: ../README.md:0
+msgid ""
+"Guarantee on the possible defects that a good may have that are not "
+"discoverable through general inspection at the time of delivery."
+msgstr ""
+
+#: ../README.md:0
+msgid "confidentiality"
+msgstr ""
+
+#: ../README.md:0
+msgid ""
+"Guarantee that commits the supplier to safeguard the confidential "
+"information that has been granted."
+msgstr ""
+
+#: ../README.md:0
+msgid "quality"
+msgstr ""
+
+#: ../README.md:0
+msgid ""
+"Commitment from the supplier to deliver the goods and services in the "
+"quality specified in the contract."
+msgstr ""
+
+#: ../README.md:0
+msgid "value"
+msgstr ""
+
+#: ../README.md:0
+msgid "Guarantee value"
+msgstr ""
+
+#: ../README.md:0
+msgid "Total amount of the guarantee."
+msgstr ""
+
+#: ../README.md:0
+msgid "guarantor"
+msgstr ""
+
+#: ../README.md:0
+msgid "Guarantor"
+msgstr ""
+
+#: ../README.md:0
+msgid "Institution that issues the guarantee."
+msgstr ""
+
+#: ../README.md:0
+msgid "period"
+msgstr ""
+
+#: ../README.md:0
+msgid "Guarantee period"
+msgstr ""
+
+#: ../README.md:0
+msgid "The period on which this quote is valid."
 msgstr ""
 
 #: ../README.md:68

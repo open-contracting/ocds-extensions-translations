@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-20 17:17-0400\n"
+"POT-Creation-Date: 2021-03-05 17:31-0500\n"
 "PO-Revision-Date: 2020-08-20 21:38+0000\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
@@ -80,41 +80,49 @@ msgstr ""
 msgid "Example"
 msgstr ""
 
-#: ../README.md:32
+#: ../README.md:35
 msgid "Footnotes"
 msgstr ""
 
-#: ../README.md:34
+#: ../README.md:37
 msgid ""
 "¹ Usage guidance is adapted from [eForms technical "
 "specifications](http://ec.europa.eu/growth/content/targeted-consultation-"
 "eforms-next-generation-public-procurement-standard-forms-0_en)."
 msgstr ""
 
-#: ../README.md:36
+#: ../README.md:39
 msgid "Issues"
 msgstr ""
 
-#: ../README.md:38
+#: ../README.md:41
 msgid ""
 "Report issues for this extension in the [ocds-extensions "
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "
 "putting the extension's name in the issue's title."
 msgstr ""
 
-#: ../README.md:40
+#: ../README.md:43
 msgid "Changelog"
 msgstr ""
 
-#: ../README.md:42
+#: ../README.md:45
+msgid "2020-10-06"
+msgstr ""
+
+#: ../README.md:47
+msgid "Add the `period` field to the `Options` object."
+msgstr ""
+
+#: ../README.md:49
 msgid "2020-04-24"
 msgstr ""
 
-#: ../README.md:44
+#: ../README.md:51
 msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
 msgstr ""
 
-#: ../README.md:46
+#: ../README.md:53
 msgid ""
 "This extension was originally discussed as part of the [OCDS for EU "
 "profile](https://github.com/open-contracting-extensions/european-"

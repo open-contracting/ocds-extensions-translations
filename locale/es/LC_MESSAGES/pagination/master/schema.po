@@ -1,14 +1,14 @@
 # Translations template for PROJECT.
-# Copyright (C) 2020 ORGANIZATION
+# Copyright (C) 2021 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-08-20 17:19-0400\n"
+"POT-Creation-Date: 2021-03-05 17:32-0500\n"
 "PO-Revision-Date: 2020-08-20 20:48+0000\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
@@ -26,166 +26,4 @@ msgstr ""
 #. /description/en
 #: extension.json:1
 msgid "Adds a links object to packages, to support pagination."
-msgstr ""
-
-#. /properties/links/properties/all/deprecated/description
-#: record-package-schema.json:1 release-package-schema.json:1
-msgid "Publishers are not expected to provide a list of all packages."
-msgstr ""
-
-#. /definitions/record/properties/packageMetadata/deprecated/description
-#: record-package-schema.json:1
-msgid ""
-"[See discussion](https://github.com/open-contracting/standard/issues/325)"
-msgstr ""
-
-#. /definitions/record/properties/packageMetadata/title
-#. /properties/packageMetadata/title
-#: record-package-schema.json:1 release-schema.json:1
-msgid "Package metadata"
-msgstr ""
-
-#. /definitions/record/properties/packageMetadata/description
-#: record-package-schema.json:1
-msgid ""
-"Package metadata is hoisted from the package-level to the record-level in "
-"APIs."
-msgstr ""
-
-#. /definitions/record/properties/packageMetadata/properties/uri/title
-#. /properties/packageMetadata/properties/uri/title
-#: record-package-schema.json:1 release-schema.json:1
-msgid "Package Identifier"
-msgstr ""
-
-#. /definitions/record/properties/packageMetadata/properties/uri/description
-#. /properties/packageMetadata/properties/uri/description
-#: record-package-schema.json:1 release-schema.json:1
-msgid "The URI of this package that identifies it uniquely in the world."
-msgstr ""
-
-#. /definitions/record/properties/packageMetadata/properties/publishedDate/title
-#. /properties/packageMetadata/properties/publishedDate/title
-#: record-package-schema.json:1 release-schema.json:1
-msgid "Published date"
-msgstr ""
-
-#. /definitions/record/properties/packageMetadata/properties/publishedDate/description
-#. /properties/packageMetadata/properties/publishedDate/description
-#: record-package-schema.json:1 release-schema.json:1
-msgid ""
-"The date that this package was published. Ideally this should be the latest "
-"date that there is release information in this package."
-msgstr ""
-
-#. /definitions/record/properties/packageMetadata/properties/publisher/title
-#. /properties/packageMetadata/properties/publisher/title
-#: record-package-schema.json:1 release-schema.json:1
-msgid "Publisher"
-msgstr ""
-
-#. /definitions/record/properties/packageMetadata/properties/publisher/description
-#. /properties/packageMetadata/properties/publisher/description
-#: record-package-schema.json:1 release-schema.json:1
-msgid "Information to uniquely identify the publisher of this package."
-msgstr ""
-
-#. /definitions/record/properties/packageMetadata/properties/publisher/properties/name/title
-#. /properties/packageMetadata/properties/publisher/properties/name/title
-#: record-package-schema.json:1 release-schema.json:1
-msgid "Name"
-msgstr ""
-
-#. /definitions/record/properties/packageMetadata/properties/publisher/properties/name/description
-#. /properties/packageMetadata/properties/publisher/properties/name/description
-#: record-package-schema.json:1 release-schema.json:1
-msgid ""
-"The name of the organization or department responsible for publishing this "
-"data."
-msgstr ""
-
-#. /definitions/record/properties/packageMetadata/properties/publisher/properties/scheme/title
-#. /properties/packageMetadata/properties/publisher/properties/scheme/title
-#: record-package-schema.json:1 release-schema.json:1
-msgid "Scheme"
-msgstr ""
-
-#. /definitions/record/properties/packageMetadata/properties/publisher/properties/scheme/description
-#. /properties/packageMetadata/properties/publisher/properties/scheme/description
-#: record-package-schema.json:1 release-schema.json:1
-msgid ""
-"The scheme that holds the unique identifiers used to identify the item being"
-" identified."
-msgstr ""
-
-#. /definitions/record/properties/packageMetadata/properties/publisher/properties/uid/title
-#. /properties/packageMetadata/properties/publisher/properties/uid/title
-#: record-package-schema.json:1 release-schema.json:1
-msgid "uid"
-msgstr ""
-
-#. /definitions/record/properties/packageMetadata/properties/publisher/properties/uid/description
-#. /properties/packageMetadata/properties/publisher/properties/uid/description
-#: record-package-schema.json:1 release-schema.json:1
-msgid ""
-"The unique ID for this entity under the given ID scheme. Note the use of "
-"'uid' rather than 'id'. See issue #245."
-msgstr ""
-
-#. /definitions/record/properties/packageMetadata/properties/publisher/properties/uri/title
-#. /properties/packageMetadata/properties/publisher/properties/uri/title
-#: record-package-schema.json:1 release-schema.json:1
-msgid "URI"
-msgstr ""
-
-#. /definitions/record/properties/packageMetadata/properties/publisher/properties/uri/description
-#. /properties/packageMetadata/properties/publisher/properties/uri/description
-#: record-package-schema.json:1 release-schema.json:1
-msgid "A URI to identify the publisher."
-msgstr ""
-
-#. /definitions/record/properties/packageMetadata/properties/license/title
-#. /properties/packageMetadata/properties/license/title
-#: record-package-schema.json:1 release-schema.json:1
-msgid "License"
-msgstr ""
-
-#. /definitions/record/properties/packageMetadata/properties/license/description
-#. /properties/packageMetadata/properties/license/description
-#: record-package-schema.json:1 release-schema.json:1
-msgid ""
-"A link to the license that applies to the data in this package. A Public "
-"Domain Dedication or [Open Definition "
-"Conformant](http://opendefinition.org/licenses/) license is strongly "
-"recommended. The canonical URI of the license should be used. Documents "
-"linked from this file may be under other license conditions."
-msgstr ""
-
-#. /definitions/record/properties/packageMetadata/properties/publicationPolicy/title
-#. /properties/packageMetadata/properties/publicationPolicy/title
-#: record-package-schema.json:1 release-schema.json:1
-msgid "Publication policy"
-msgstr ""
-
-#. /definitions/record/properties/packageMetadata/properties/publicationPolicy/description
-#. /properties/packageMetadata/properties/publicationPolicy/description
-#: record-package-schema.json:1 release-schema.json:1
-msgid ""
-"A link to a document describing the publishers [publication "
-"policy](http://standard.open-"
-"contracting.org/latest/en/implementation/publication_policy/)."
-msgstr ""
-
-#. /properties/packageMetadata/deprecated/description
-#: release-schema.json:1
-msgid ""
-"This field conflicts with the immutability of releases. [See "
-"discussion](https://github.com/open-contracting/standard/issues/325)."
-msgstr ""
-
-#. /properties/packageMetadata/description
-#: release-schema.json:1
-msgid ""
-"Package metadata is hoisted from the package-level to the release-level in "
-"APIs."
 msgstr ""

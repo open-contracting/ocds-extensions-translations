@@ -1,14 +1,14 @@
 # Translations template for PROJECT.
-# Copyright (C) 2020 ORGANIZATION
+# Copyright (C) 2021 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-08-20 17:18-0400\n"
+"POT-Creation-Date: 2021-03-05 17:32-0500\n"
 "PO-Revision-Date: 2020-08-20 20:51+0000\n"
 "Language-Team: French (https://www.transifex.com/open-contracting-partnership-1/teams/112300/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -18,16 +18,39 @@ msgstr ""
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: codelists/+milestoneType.csv codelists/+partyRole.csv
+#: codelists/+documentType.csv codelists/+milestoneType.csv
+#: codelists/+partyRole.csv
 msgid "Code"
 msgstr ""
 
-#: codelists/+milestoneType.csv codelists/+partyRole.csv
+#: codelists/+documentType.csv codelists/+milestoneType.csv
+#: codelists/+partyRole.csv
 msgid "Title"
 msgstr ""
 
-#: codelists/+milestoneType.csv codelists/+partyRole.csv
+#: codelists/+documentType.csv codelists/+milestoneType.csv
+#: codelists/+partyRole.csv
 msgid "Description"
+msgstr ""
+
+#. Title
+#: codelists/+documentType.csv:1
+msgid "Economic selection criteria"
+msgstr ""
+
+#. Description
+#: codelists/+documentType.csv:1
+msgid "Documentation that describes the economic selection criteria."
+msgstr ""
+
+#. Title
+#: codelists/+documentType.csv:2
+msgid "Technical selection criteria"
+msgstr ""
+
+#. Description
+#: codelists/+documentType.csv:2
+msgid "Documentation that describes the technical selection criteria."
 msgstr ""
 
 #. Title
@@ -93,4 +116,16 @@ msgstr ""
 #: codelists/+partyRole.csv:5
 msgid ""
 "A party that has already been selected to participate in the design contest."
+msgstr ""
+
+#. Title
+#: codelists/+partyRole.csv:6
+msgid "Information service"
+msgstr ""
+
+#. Description
+#: codelists/+partyRole.csv:6
+msgid ""
+"An organization that can provide information regarding specific aspects of "
+"the contracting process."
 msgstr ""

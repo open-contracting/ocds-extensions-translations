@@ -1,14 +1,14 @@
 # Translations template for PROJECT.
-# Copyright (C) 2020 ORGANIZATION
+# Copyright (C) 2021 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-08-20 17:20-0400\n"
+"POT-Creation-Date: 2021-03-05 17:32-0500\n"
 "PO-Revision-Date: 2020-08-20 20:48+0000\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
@@ -19,6 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. /name/en
+#. /definitions/Tender/properties/renewal/title
 #. /definitions/Lot/properties/renewal/title
 #. /definitions/Renewal/title
 #: extension.json:1 release-schema.json:1
@@ -28,12 +29,24 @@ msgstr ""
 #. /description/en
 #: extension.json:1
 msgid ""
-"Adds fields to lots, to describe the options for the renewal of contracts."
+"Adds fields to the Tender and Lot objects to describe the options for the "
+"renewal of contracts."
 msgstr ""
 
+#. /definitions/Tender/properties/hasRenewal/title
 #. /definitions/Lot/properties/hasRenewal/title
 #: release-schema.json:1
 msgid "Has renewal"
+msgstr ""
+
+#. /definitions/Tender/properties/hasRenewal/description
+#: release-schema.json:1
+msgid "Whether the contracts can be renewed."
+msgstr ""
+
+#. /definitions/Tender/properties/renewal/description
+#: release-schema.json:1
+msgid "The options for the renewal of the contracts."
 msgstr ""
 
 #. /definitions/Lot/properties/hasRenewal/description
@@ -59,4 +72,36 @@ msgstr ""
 #. /definitions/Renewal/properties/description/description
 #: release-schema.json:1
 msgid "A description of the options for the renewal of the contract."
+msgstr ""
+
+#. /definitions/Renewal/properties/minimumRenewals/title
+#: release-schema.json:1
+msgid "Minimum renewal"
+msgstr ""
+
+#. /definitions/Renewal/properties/minimumRenewals/description
+#: release-schema.json:1
+msgid "The minimum number of renewals."
+msgstr ""
+
+#. /definitions/Renewal/properties/maximumRenewals/title
+#: release-schema.json:1
+msgid "Maximum renewal"
+msgstr ""
+
+#. /definitions/Renewal/properties/maximumRenewals/description
+#: release-schema.json:1
+msgid ""
+"The maximum number of renewals. If there is no maximum, set to 1e9999 (which"
+" parses to infinity)."
+msgstr ""
+
+#. /definitions/Renewal/properties/period/title
+#: release-schema.json:1
+msgid "Renewal period"
+msgstr ""
+
+#. /definitions/Renewal/properties/period/description
+#: release-schema.json:1
+msgid "The period over which the contract can be renewed."
 msgstr ""

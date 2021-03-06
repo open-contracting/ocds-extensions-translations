@@ -1,20 +1,20 @@
 # Translations template for PROJECT.
-# Copyright (C) 2020 ORGANIZATION
+# Copyright (C) 2021 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
 # 
 # Translators:
 # James McKinney, 2019
-# Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019
+# Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-08-20 17:18-0400\n"
+"POT-Creation-Date: 2021-03-05 17:32-0500\n"
 "PO-Revision-Date: 2019-03-14 18:30+0000\n"
-"Last-Translator: Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019\n"
+"Last-Translator: Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2019\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,8 +24,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. /name/en
-#: extension.json:1
-msgid "Financing"
+#. /definitions/Contract/properties/finance/title
+#. /definitions/Budget/properties/finance/title
+#: extension.json:1 release-schema.json:1
+msgid "Finance"
 msgstr "Financiamiento"
 
 #. /description/en
@@ -34,12 +36,6 @@ msgid ""
 "Adds fields to disclose the financing of the whole process and its "
 "individual contracts."
 msgstr ""
-
-#. /definitions/Contract/properties/finance/title
-#. /definitions/Budget/properties/finance/title
-#: release-schema.json:1
-msgid "Finance"
-msgstr "Financiamiento"
 
 #. /definitions/Contract/properties/finance/description
 #: release-schema.json:1

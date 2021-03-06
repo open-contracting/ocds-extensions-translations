@@ -5,16 +5,16 @@
 # 
 # Translators:
 # Maria Esther Cervantes <mcervantes@cds.com.py>, 2019
-# Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019
+# Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-20 17:17-0400\n"
+"POT-Creation-Date: 2021-03-05 17:31-0500\n"
 "PO-Revision-Date: 2019-03-14 18:35+0000\n"
-"Last-Translator: Yohanna Lisnichuk <ylisnichuk@idatosabiertos.org>, 2019\n"
+"Last-Translator: Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2019\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -42,15 +42,15 @@ msgstr ""
 "Una de las variables es el status de la implementación del trabajo o "
 "servicios, esto incluye una lista de código con los siguientes valores: "
 
-#: ../README.md:6
+#: ../README.md:6 ../README.md:0
 msgid "planning"
 msgstr "planeación"
 
-#: ../README.md:7
+#: ../README.md:7 ../README.md:0
 msgid "ongoing"
 msgstr "proyectos en marcha"
 
-#: ../README.md:8
+#: ../README.md:8 ../README.md:0
 msgid "concluded"
 msgstr "proyectos concluidos"
 
@@ -81,26 +81,62 @@ msgstr "Estatus (string, null) (codelist)"
 msgid "Defining texts:"
 msgstr "Textos definidos: "
 
-#: ../README.md:23
-msgid ""
-"**Code** | **Title** | **Description** --|--|-- status | Implementation "
-"status | The current status of the contract implementation based on the "
-"[implementationStatus](https://github.com/INAImexico/ocds_implementationStatus_extension/blob/master/codelists/implementationStatus.csv)"
-"  codelist. planning | Planning | The contract has been signed, but the "
-"provision or construction of the goods, services or works has not started. "
-"ongoing | Ongoing | The provision or construction of the goods, services or "
-"works is in progress. concluded | Concluded | The provision or construction "
-"of the goods, services or works has officially ended."
+#: ../README.md:0
+msgid "**Code**"
 msgstr ""
-"**Código** | **Título** | **Descripción** --|--|-- estado | Estado de la "
-"Implementación | El estado actual de la implementación del contrato basado "
-"en el codelist "
-"[implementationStatus](https://github.com/INAImexico/ocds_implementationStatus_extension/blob/master/codelists/implementationStatus.csv)."
-" planning | Planeación| El contrato ha sido firmado, pero la prestación o "
-"construcción de los bienes, servicios u obras no ha comenzado. en curso | En"
-" curso | La provisión o construcción de los bienes, servicios u obras está "
-"en curso. concluido | Concluido | La prestación o construcción de los "
-"bienes, servicios u obras ha finalizado oficialmente."
+
+#: ../README.md:0
+msgid "**Title**"
+msgstr ""
+
+#: ../README.md:0
+msgid "**Description**"
+msgstr ""
+
+#: ../README.md:0
+msgid "status"
+msgstr ""
+
+#: ../README.md:0
+msgid "Implementation status"
+msgstr ""
+
+#: ../README.md:0
+msgid ""
+"The current status of the contract implementation based on the "
+"[implementationStatus](https://github.com/INAImexico/ocds_implementationStatus_extension/blob/master/codelists/implementationStatus.csv)"
+"  codelist."
+msgstr ""
+
+#: ../README.md:0
+msgid "Planning"
+msgstr ""
+
+#: ../README.md:0
+msgid ""
+"The contract has been signed, but the provision or construction of the "
+"goods, services or works has not started."
+msgstr ""
+
+#: ../README.md:0
+msgid "Ongoing"
+msgstr ""
+
+#: ../README.md:0
+msgid ""
+"The provision or construction of the goods, services or works is in "
+"progress."
+msgstr ""
+
+#: ../README.md:0
+msgid "Concluded"
+msgstr ""
+
+#: ../README.md:0
+msgid ""
+"The provision or construction of the goods, services or works has officially"
+" ended."
+msgstr ""
 
 #: ../README.md:30
 msgid "Issues"

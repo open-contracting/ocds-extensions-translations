@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-20 17:17-0400\n"
+"POT-Creation-Date: 2021-03-05 17:31-0500\n"
 "PO-Revision-Date: 2020-08-20 21:47+0000\n"
 "Language-Team: French (https://www.transifex.com/open-contracting-partnership-1/teams/112300/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -26,60 +26,132 @@ msgid "Adds an unstructuredChanges array to the Amendment object."
 msgstr ""
 
 #: ../README.md:5
-msgid "Legal context"
+msgid "Guidance"
 msgstr ""
 
 #: ../README.md:7
+msgid ""
+"In many procurement regimes, it is common to amend a procurement notice by "
+"describing the changes in words, rather than by re-publishing the full "
+"notice. This is because the process is designed for humans: it is easier for"
+" a human to read a description of changes, than to calculate the difference "
+"between two full notices."
+msgstr ""
+
+#: ../README.md:9
+msgid ""
+"On the other hand, it is easy for a machine to calculate the difference "
+"between two full notices, but difficult or impossible to interpret a "
+"description of changes. There are many ways in which a change description "
+"can go wrong, which a human can recover from, but which a machine cannot. "
+"For example:"
+msgstr ""
+
+#: ../README.md:11
+msgid "The label of the field that is subject to modification can refer to:"
+msgstr ""
+
+#: ../README.md:12
+msgid "a label that doesn't occur on the earlier notice"
+msgstr ""
+
+#: ../README.md:13
+msgid "an incorrect or imprecise label on the earlier notice"
+msgstr ""
+
+#: ../README.md:14
+msgid ""
+"The data type of the new value can be inconsistent with the data type of the"
+" field."
+msgstr ""
+
+#: ../README.md:16
+msgid ""
+"OCDS is designed to be read by machines. Ideally, the source system from "
+"which OCDS data is exported contains the values of each field before and "
+"after a change. In that case, you should simply follow [the releases and "
+"records model](https://standard.open-"
+"contracting.org/latest/en/schema/reference/#release-handling)."
+msgstr ""
+
+#: ../README.md:18
+msgid ""
+"This extension is intended to be used only in cases where a source system "
+"doesn't track the values of fields, but instead tracks a description of "
+"changes, like in the EU (see *Legal context* below). Note: The lack of "
+"structure prevents much data analysis."
+msgstr ""
+
+#: ../README.md:20
+msgid "Legal context"
+msgstr ""
+
+#: ../README.md:22
+msgid ""
+"This extension was developed primarily to enable the mapping of the European"
+" Union's standard forms for public procurement to OCDS (specifically Form 14"
+" Corrigendum), but it might be useful in non-EU contexts."
+msgstr ""
+
+#: ../README.md:24
 msgid ""
 "See [OCDS for the European Union](http://standard.open-"
 "contracting.org/profiles/eu/master/en/F14) for guidance on how to use it "
 "with TED F14 data."
 msgstr ""
 
-#: ../README.md:9
+#: ../README.md:26
 msgid "Example"
 msgstr ""
 
-#: ../README.md:72
+#: ../README.md:89
 msgid "Issues"
 msgstr ""
 
-#: ../README.md:74
+#: ../README.md:91
 msgid ""
 "Report issues for this extension in the [ocds-extensions "
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "
 "putting the extension's name in the issue's title."
 msgstr ""
 
-#: ../README.md:76
+#: ../README.md:93
 msgid "Changelog"
 msgstr ""
 
-#: ../README.md:78
+#: ../README.md:95
+msgid "2020-09-16"
+msgstr ""
+
+#: ../README.md:97
+msgid "Add Guidance section"
+msgstr ""
+
+#: ../README.md:99
 msgid "2020-07-13"
 msgstr ""
 
-#: ../README.md:80
+#: ../README.md:101
 msgid "Relax date format to allow either date or datetime"
 msgstr ""
 
-#: ../README.md:82
+#: ../README.md:103
 msgid "2020-06-04"
 msgstr ""
 
-#: ../README.md:84
+#: ../README.md:105
 msgid "Review normative and non-normative words."
 msgstr ""
 
-#: ../README.md:86
+#: ../README.md:107
 msgid "2020-04-24"
 msgstr ""
 
-#: ../README.md:88
+#: ../README.md:109
 msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
 msgstr ""
 
-#: ../README.md:90
+#: ../README.md:111
 msgid ""
 "This extension was originally discussed as part of the [OCDS for EU "
 "profile](https://github.com/open-contracting-extensions/european-"

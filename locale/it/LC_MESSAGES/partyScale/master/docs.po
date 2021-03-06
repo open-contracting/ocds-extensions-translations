@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-20 17:17-0400\n"
+"POT-Creation-Date: 2021-03-05 17:31-0500\n"
 "PO-Revision-Date: 2019-03-14 18:27+0000\n"
 "Last-Translator: James McKinney, 2019\n"
 "Language-Team: Italian (https://www.transifex.com/open-contracting-partnership-1/teams/112300/it/)\n"
@@ -20,14 +20,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: ../README.md:1
-msgid "OECD: Small and Medium-Sized Enterprises (SMEs) definition"
-msgstr ""
-
-#: ../README.md:1
-msgid "European Commission: What is an SME?"
-msgstr ""
 
 #: ../README.md:1
 msgid "Party Details - Scale"
@@ -50,6 +42,18 @@ msgstr ""
 msgid ""
 "The codes in the `partyScale.csv` codelist do not have precise definitions, "
 "and instead defer to local laws and regulations, for example:"
+msgstr ""
+
+#: ../README.md:9
+msgid ""
+"[OECD: Small and Medium-Sized Enterprises (SMEs) "
+"definition](https://stats.oecd.org/glossary/detail.asp?ID=3123)"
+msgstr ""
+
+#: ../README.md:10
+msgid ""
+"[European Commission: What is an SME?](https://ec.europa.eu/growth/smes"
+"/business-friendly-environment/sme-definition_en)"
 msgstr ""
 
 #: ../README.md:12

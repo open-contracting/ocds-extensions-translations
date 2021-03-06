@@ -1,14 +1,14 @@
 # Translations template for PROJECT.
-# Copyright (C) 2020 ORGANIZATION
+# Copyright (C) 2021 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-08-20 17:20-0400\n"
+"POT-Creation-Date: 2021-03-05 17:32-0500\n"
 "PO-Revision-Date: 2020-08-20 21:57+0000\n"
 "Language-Team: Italian (https://www.transifex.com/open-contracting-partnership-1/teams/112300/it/)\n"
 "MIME-Version: 1.0\n"
@@ -109,6 +109,16 @@ msgstr ""
 msgid "Information about the electronic auction."
 msgstr ""
 
+#. /definitions/FrameworkAgreement/properties/minimumParticipants/title
+#: release-schema.json:1
+msgid "Minimum number of participants"
+msgstr ""
+
+#. /definitions/FrameworkAgreement/properties/minimumParticipants/description
+#: release-schema.json:1
+msgid "The minimum number of participants in the framework agreement."
+msgstr ""
+
 #. /definitions/FrameworkAgreement/properties/maximumParticipants/title
 #: release-schema.json:1
 msgid "Maximum number of participants"
@@ -157,6 +167,40 @@ msgid ""
 " and not mentioned by name (e.g. 'all hospitals in the Tuscany region')."
 msgstr ""
 
+#. /definitions/FrameworkAgreement/properties/value/title
+#: release-schema.json:1
+msgid "Value"
+msgstr ""
+
+#. /definitions/FrameworkAgreement/properties/value/description
+#: release-schema.json:1
+msgid "The total upper estimated value of the framework agreement."
+msgstr ""
+
+#. /definitions/FrameworkAgreement/properties/period/title
+#: release-schema.json:1
+msgid "Period"
+msgstr ""
+
+#. /definitions/FrameworkAgreement/properties/period/description
+#: release-schema.json:1
+msgid ""
+"The period over which the framework agreement is estimated to be active."
+msgstr ""
+
+#. /definitions/FrameworkAgreement/properties/description/title
+#. /definitions/ElectronicAuction/properties/description/title
+#: release-schema.json:1
+msgid "Description"
+msgstr ""
+
+#. /definitions/FrameworkAgreement/properties/description/description
+#: release-schema.json:1
+msgid ""
+"A summary description of the framework agreement. This complements any "
+"structured information provided using the other fields."
+msgstr ""
+
 #. /definitions/DynamicPurchasingSystem/properties/type/title
 #: release-schema.json:1
 msgid "Type"
@@ -187,11 +231,6 @@ msgstr ""
 #. /definitions/ElectronicAuction/properties/url/description
 #: release-schema.json:1
 msgid "The internet address of the electronic auction."
-msgstr ""
-
-#. /definitions/ElectronicAuction/properties/description/title
-#: release-schema.json:1
-msgid "Description"
 msgstr ""
 
 #. /definitions/ElectronicAuction/properties/description/description

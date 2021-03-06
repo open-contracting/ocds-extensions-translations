@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-20 17:17-0400\n"
+"POT-Creation-Date: 2021-03-05 17:31-0500\n"
 "PO-Revision-Date: 2020-08-20 21:51+0000\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
@@ -57,30 +57,40 @@ msgstr ""
 msgid "Examples"
 msgstr ""
 
-#: ../README.md:66
+#: ../README.md:76
 msgid "Issues"
 msgstr ""
 
-#: ../README.md:68
+#: ../README.md:78
 msgid ""
 "Report issues for this extension in the [ocds-extensions "
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "
 "putting the extension's name in the issue's title."
 msgstr ""
 
-#: ../README.md:70
+#: ../README.md:80
 msgid "Changelog"
 msgstr ""
 
-#: ../README.md:72
+#: ../README.md:82
+msgid "2020-10-07"
+msgstr ""
+
+#: ../README.md:84
+msgid ""
+"Rename the `subcontracting` field in the `Tender` object to "
+"`subcontractingTerms`."
+msgstr ""
+
+#: ../README.md:86
 msgid "2020-04-24"
 msgstr ""
 
-#: ../README.md:74
+#: ../README.md:88
 msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
 msgstr ""
 
-#: ../README.md:76
+#: ../README.md:90
 msgid ""
 "This extension was originally discussed as part of the [OCDS for EU "
 "profile](https://github.com/open-contracting-extensions/european-"
