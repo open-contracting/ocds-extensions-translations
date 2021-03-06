@@ -1,25 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C)
+# Copyright (C) 
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# James McKinney, 2019
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python\n"
+"Project-Id-Version: Python \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 17:31-0500\n"
-"PO-Revision-Date: 2019-03-14 18:26+0000\n"
-"Last-Translator: James McKinney, 2019\n"
-"Language-Team: Italian (https://www.transifex.com/open-contracting-partnership-1/teams/112300/it/)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../README.md:1
 msgid "Participation fees"
@@ -148,14 +143,14 @@ msgstr "Note per l'utilizzo"
 #: ../README.md:66
 msgid ""
 "In some cases, a fee may be levied for 'official copies' of procurement "
-"documents (although copies may also be available freely online), and bidders"
-" required to prove they have paid for an official copy of the documents as "
+"documents (although copies may also be available freely online), and bidders "
+"required to prove they have paid for an official copy of the documents as "
 "part of their submission."
 msgstr ""
 "In alcuni casi, può essere richiesta una tassa per una copia degli \"atti "
 "ufficiali\" dei documenti di gara (anche se le copie possono anche essere "
-"disponibili gratuitamente online), e gli offerenti devono dimostrare di aver"
-" pagato per una copia ufficiale dei documenti come parte della loro "
+"disponibili gratuitamente online), e gli offerenti devono dimostrare di aver "
+"pagato per una copia ufficiale dei documenti come parte della loro "
 "presentazione."
 
 #: ../README.md:68

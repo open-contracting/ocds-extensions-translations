@@ -1,25 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C)
+# Copyright (C) 
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# James McKinney, 2019
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python\n"
+"Project-Id-Version: Python \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 17:31-0500\n"
-"PO-Revision-Date: 2019-03-14 18:31+0000\n"
-"Last-Translator: James McKinney, 2019\n"
-"Language-Team: Italian (https://www.transifex.com/open-contracting-partnership-1/teams/112300/it/)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../README.md:1
 msgid "Qualification"
@@ -27,26 +22,25 @@ msgstr ""
 
 #: ../README.md:3
 msgid ""
-"**Only use this extension as part of the [OCDS for PPPs "
-"profile](http://standard.open-contracting.org/profiles/ppp/), as it is not "
-"clear that it is consistent with the semantics of OCDS.**"
+"**Only use this extension as part of the [OCDS for PPPs profile](http://"
+"standard.open-contracting.org/profiles/ppp/), as it is not clear that it is "
+"consistent with the semantics of OCDS.**"
 msgstr ""
 
 #: ../README.md:5
 msgid ""
 "This extension adds a `preQualification` section between `planning` and "
-"`tender`. It was designed to be used as part of the [OCDS for PPPs "
-"profile](http://standard.open-contracting.org/profiles/ppp/): see the "
-"documentation in [II.1](http://standard.open-"
-"contracting.org/profiles/ppp/latest/en/framework/#ii-1-pre-qualification) "
-"and [II.2](http://standard.open-"
-"contracting.org/profiles/ppp/latest/en/framework/#ii-2-list-of-pre-"
-"qualified-suppliers)."
+"`tender`. It was designed to be used as part of the [OCDS for PPPs profile]"
+"(http://standard.open-contracting.org/profiles/ppp/): see the documentation "
+"in [II.1](http://standard.open-contracting.org/profiles/ppp/latest/en/"
+"framework/#ii-1-pre-qualification) and [II.2](http://standard.open-"
+"contracting.org/profiles/ppp/latest/en/framework/#ii-2-list-of-pre-qualified-"
+"suppliers)."
 msgstr ""
 
 #: ../README.md:7
 msgid "Example"
-msgstr ""
+msgstr "Esempio"
 
 #: ../README.md:40
 msgid "Issues"
@@ -54,9 +48,9 @@ msgstr "Problemi (issues)"
 
 #: ../README.md:42
 msgid ""
-"Report issues for this extension in the [ocds-extensions "
-"repository](https://github.com/open-contracting/ocds-extensions/issues), "
-"putting the extension's name in the issue's title."
+"Report issues for this extension in the [ocds-extensions repository](https://"
+"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
+"name in the issue's title."
 msgstr ""
 "Segnala i problemi per questa estensione nel [repository ocds-"
 "extensions](https://github.com/open-contracting/ocds-extensions/issues), "
@@ -64,7 +58,7 @@ msgstr ""
 
 #: ../README.md:44
 msgid "Changelog"
-msgstr ""
+msgstr "Storico delle modifiche"
 
 #: ../README.md:46
 msgid "2020-06-04"
@@ -113,7 +107,7 @@ msgstr ""
 
 #: ../README.md:66
 msgid ""
-"Remove multilingual support for non-existent "
-"`PreQualification.procurementMethodRationale` and "
-"`PreQualification.awardCriteriaDetails` fields."
+"Remove multilingual support for non-existent `PreQualification."
+"procurementMethodRationale` and `PreQualification.awardCriteriaDetails` "
+"fields."
 msgstr ""

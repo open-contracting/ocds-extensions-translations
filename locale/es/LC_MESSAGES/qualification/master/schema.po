@@ -2,26 +2,20 @@
 # Copyright (C) 2021 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
-# 
-# Translators:
-# James McKinney, 2019
-# Maria Esther Cervantes <mcervantes@cds.com.py>, 2019
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-03-05 17:32-0500\n"
-"PO-Revision-Date: 2019-03-14 18:31+0000\n"
-"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2019\n"
-"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
-"Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. /name/en
 #: extension.json:1
@@ -46,8 +40,8 @@ msgstr "Pre calificación"
 #. /properties/preQualification/description
 #: release-schema.json:1
 msgid ""
-"The activities undertaken in order to qualify suppliers to participate in "
-"the tender."
+"The activities undertaken in order to qualify suppliers to participate in"
+" the tender."
 msgstr ""
 "Las actividades llevadas a cabo para aprobar a los proveedores para que "
 "participen en la licitación."
@@ -55,12 +49,13 @@ msgstr ""
 #. /definitions/PreQualification/description
 #: release-schema.json:1
 msgid ""
-"Data regarding pre-qualification process - limiting the number of qualified "
-"bidders by reviewing each bidder's qualifications against a set of criteria."
+"Data regarding pre-qualification process - limiting the number of "
+"qualified bidders by reviewing each bidder's qualifications against a set"
+" of criteria."
 msgstr ""
 "Datos sobre el proceso de precalificación- limitar el número de licitantes "
-"calificados al revisar las calificaciones de cada licitante en función de un"
-" conjunto de criterios."
+"calificados al revisar las calificaciones de cada licitante en función de un "
+"conjunto de criterios."
 
 #. /definitions/PreQualification/properties/id/title
 #: release-schema.json:1
@@ -70,8 +65,8 @@ msgstr "ID de pre calificación"
 #. /definitions/PreQualification/properties/id/description
 #: release-schema.json:1
 msgid ""
-"An identifier for this pre-qualification process. This may be the same as "
-"the ocid, or may be drawn from an internally held identifier for this "
+"An identifier for this pre-qualification process. This may be the same as"
+" the ocid, or may be drawn from an internally held identifier for this "
 "process."
 msgstr ""
 "Un identificador para este proceso de pre calificación. Este puede ser el "
@@ -119,8 +114,9 @@ msgstr "Detalles del método de presentación"
 #: release-schema.json:1
 msgid ""
 "Any detailed or further information on the submission method. This may "
-"include the address, e-mail address or online service to which bids should "
-"be submitted, and any special requirements to be followed for submissions."
+"include the address, e-mail address or online service to which bids "
+"should be submitted, and any special requirements to be followed for "
+"submissions."
 msgstr ""
 "Cualquier detalle o información adicional sobre el método de presentación. "
 "Esto puede incluir la dirección, dirección de correo o servicio en línea en "
@@ -135,8 +131,8 @@ msgstr "Periodo de pre calificación"
 #. /definitions/PreQualification/properties/period/description
 #: release-schema.json:1
 msgid ""
-"The period when the pre-qualification is open for submissions. The end date "
-"is the closing date for pre-qualification submissions."
+"The period when the pre-qualification is open for submissions. The end "
+"date is the closing date for pre-qualification submissions."
 msgstr ""
 "El periodo en el que la pre calificación está abierta para recibir "
 "propuestas. La fecha de fin es la fecha de cierre para envíos de pre "
@@ -164,11 +160,11 @@ msgstr "¿Tiene consultas?"
 #. /definitions/PreQualification/properties/hasEnquiries/description
 #: release-schema.json:1
 msgid ""
-"A true/false field to indicate whether any enquiries were received during "
-"the pre-qualification process"
+"A true/false field to indicate whether any enquiries were received during"
+" the pre-qualification process"
 msgstr ""
-"Un campo true/false que indica si se recibieron consultas durante el proceso"
-" de pre calificación"
+"Un campo true/false que indica si se recibieron consultas durante el proceso "
+"de pre calificación"
 
 #. /definitions/PreQualification/properties/eligibilityCriteria/title
 #: release-schema.json:1
@@ -178,8 +174,8 @@ msgstr "Criterios de elegibilidad"
 #. /definitions/PreQualification/properties/eligibilityCriteria/description
 #: release-schema.json:1
 msgid ""
-"A description of any eligibility criteria for bidders to participate in the "
-"pre-qualification."
+"A description of any eligibility criteria for bidders to participate in "
+"the pre-qualification."
 msgstr ""
 "Una descripción de cualquier criterio de elegibilidad para que los "
 "licitadores participen en la pre calificación."
@@ -192,8 +188,8 @@ msgstr "Periodo de calificación"
 #. /definitions/PreQualification/properties/qualificationPeriod/description
 #: release-schema.json:1
 msgid ""
-"The date or period when candidates will are anticipated to be qualified or "
-"pre-selected (shortlisted)."
+"The date or period when candidates will are anticipated to be qualified "
+"or pre-selected (shortlisted)."
 msgstr ""
 "La fecha o periodo cuando se espera que los candidatos se califiquen o pre "
 "seleccionen (sean finalistas)."
@@ -206,8 +202,7 @@ msgstr "Número de licitantes"
 #. /definitions/PreQualification/properties/numberOfTenderers/description
 #: release-schema.json:1
 msgid "The number of entities who submit a response to the pre-qualification."
-msgstr ""
-"El número de entidades que envían una respuesta a la pre calificación."
+msgstr "El número de entidades que envían una respuesta a la pre calificación."
 
 #. /definitions/PreQualification/properties/tenderers/title
 #: release-schema.json:1
@@ -227,8 +222,8 @@ msgstr "Entidad contratante"
 #. /definitions/PreQualification/properties/procuringEntity/description
 #: release-schema.json:1
 msgid ""
-"The entity managing the procurement, which may be different from the buyer "
-"who is paying / using the items being procured."
+"The entity managing the procurement, which may be different from the "
+"buyer who is paying / using the items being procured."
 msgstr ""
 "La entidad gestionando la adquisición, que puede ser distinta del comprador "
 "que paga/usa los artículos adquiridos."
@@ -241,9 +236,9 @@ msgstr "Documentos"
 #. /definitions/PreQualification/properties/documents/description
 #: release-schema.json:1
 msgid ""
-"All documents and attachments related to the pre-qualification, including "
-"any notices. See the `documentType.csv` codelist for details of potential "
-"documents to include."
+"All documents and attachments related to the pre-qualification, including"
+" any notices. See the `documentType.csv` codelist for details of "
+"potential documents to include."
 msgstr ""
 
 #. /definitions/PreQualification/properties/milestones/title

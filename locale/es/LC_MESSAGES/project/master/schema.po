@@ -2,26 +2,20 @@
 # Copyright (C) 2021 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
-# 
-# Translators:
-# James McKinney, 2019
-# Maria Esther Cervantes <mcervantes@cds.com.py>, 2019
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-03-05 17:32-0500\n"
-"PO-Revision-Date: 2019-03-14 18:32+0000\n"
-"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2019\n"
-"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
-"Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. /name/en
 #: extension.json:1
@@ -32,103 +26,90 @@ msgstr ""
 #: extension.json:1
 msgid ""
 "Adds a project object to the planning object to describe the project to "
-"which the contracting process is related, including the total value of the "
-"project (not to be confused with the total value of the contracting "
+"which the contracting process is related, including the total value of "
+"the project (not to be confused with the total value of the contracting "
 "process)."
 msgstr ""
-"Agrega un objeto de proyecto al objeto de planificación para describir el "
-"proyecto con el que está relacionado el proceso de contratación, incluido el"
-" valor total del proyecto (no debe confundirse con el valor total del "
-"proceso de contratación)."
 
 #. /definitions/Planning/properties/project/title
 #. /definitions/Project/title
 #: release-schema.json:1
 msgid "Project information"
-msgstr "Información de proyecto"
+msgstr ""
 
 #. /definitions/Planning/properties/project/description
 #: release-schema.json:1
 msgid ""
-"The project section can be used to describe the relationship between this "
-"contracting process and a project or programme of work."
+"The project section can be used to describe the relationship between this"
+" contracting process and a project or programme of work."
 msgstr ""
-"Una sección de proyecto se puede usar para describir la relación entre este "
-"proceso de contratación y un proyecto o programa de trabajo."
 
 #. /definitions/Project/description
 #: release-schema.json:1
 msgid "A project or programme of work."
-msgstr "Un proyecto o programa de trabajo."
+msgstr ""
 
 #. /definitions/Project/properties/id/title
 #: release-schema.json:1
 msgid "Project identifier"
-msgstr "Identificador de proyecto"
+msgstr ""
 
 #. /definitions/Project/properties/id/description
 #: release-schema.json:1
 msgid ""
-"An externally provided identifier for the project. This might be drawn from "
-"a projects register, or may be based on the canonical version of a project "
-"name. Project IDs should be unique to a publisher. URIs can be used."
+"An externally provided identifier for the project. This might be drawn "
+"from a projects register, or may be based on the canonical version of a "
+"project name. Project IDs should be unique to a publisher. URIs can be "
+"used."
 msgstr ""
-"Un identificador externo para el proyecto. Éste puede tomarse de un registro"
-" de proyectos o puede basarse en la versión canónica de un nombre de "
-"proyecto. Los IDs de proyecto deben de ser únicos para un publicador. Se "
-"pueden usar URIs."
 
 #. /definitions/Project/properties/title/title
 #: release-schema.json:1
 msgid "Project title"
-msgstr "Título del Proyecto"
+msgstr ""
 
 #. /definitions/Project/properties/title/description
 #: release-schema.json:1
 msgid ""
 "The name of the project to which this contracting process relates. Some "
-"organizations maintain a registry of projects, and the data should use the "
-"name by which the project is known in that registry."
+"organizations maintain a registry of projects, and the data should use "
+"the name by which the project is known in that registry."
 msgstr ""
-"El nombre del proyecto con el cual se relaciona este proceso de "
-"contratación. Algunas organizaciones mantienen un registro de proyectos y "
-"los datos deben de usar el nombre por el cual se conoce al proyecto en dicho"
-" registro."
 
 #. /definitions/Project/properties/description/title
 #: release-schema.json:1
 msgid "Project description"
-msgstr "Descripción del proyecto"
+msgstr ""
 
 #. /definitions/Project/properties/description/description
 #: release-schema.json:1
 msgid "A short free text description of the project."
-msgstr "Una breve descripción en texto libre del proyecto."
+msgstr ""
 
 #. /definitions/Project/properties/totalValue/title
 #: release-schema.json:1
 msgid "Total project value"
-msgstr "Valor total del proyecto"
+msgstr ""
 
 #. /definitions/Project/properties/totalValue/description
 #: release-schema.json:1
 msgid "The total anticipated value of the project over it's lifetime."
-msgstr "El monto total anticipado del proyecto a lo largo de su duración."
+msgstr ""
 
 #. /definitions/Project/properties/uri/title
 #: release-schema.json:1
 msgid "Linked project information"
-msgstr "Información vinculada del proyecto"
+msgstr ""
 
 #. /definitions/Project/properties/uri/description
 #: release-schema.json:1
 msgid "A URI pointing to further information about this project."
-msgstr "Una URI que apunte a mayor información sobre este proyecto."
+msgstr ""
 
 #. /definitions/Project/properties/sector/title
 #: release-schema.json:1
 msgid "Project sector"
-msgstr "Sector del proyecto"
+msgstr ""
 
 #. /definitions/Project/properties/sector/description
 #: release-schema.json:1
@@ -136,30 +117,28 @@ msgid ""
 "A high-level categorization of the main sector this procurement process "
 "relates to. Use of [UN COFOG "
 "codes](https://unstats.un.org/unsd/publications/catalogue?selectID=145), "
-"with 'COFOG' as the classification scheme, and the numerical COFOG code is "
-"recommended for the primary sector classification."
+"with 'COFOG' as the classification scheme, and the numerical COFOG code "
+"is recommended for the primary sector classification."
 msgstr ""
 
 #. /definitions/Project/properties/additionalClassifications/title
 #: release-schema.json:1
 msgid "Additional sector classifications"
-msgstr "Clasificaciones sectoriales adicionales "
+msgstr ""
 
 #. /definitions/Project/properties/additionalClassifications/description
 #: release-schema.json:1
 msgid ""
-"Additional project classification, by other sector classifications, or using"
-" other classification schemes (e.g. against a strategic framework)."
+"Additional project classification, by other sector classifications, or "
+"using other classification schemes (e.g. against a strategic framework)."
 msgstr ""
-"Clasificación adicional del proyecto por otras clasificaciones de sector o "
-"usando otros esquemas de clasificación (p.ej. Contra un marco estratégico)."
 
 #. /definitions/Project/properties/locations/title
 #: release-schema.json:1
 msgid "Project location"
-msgstr "Ubicación de Proyecto"
+msgstr ""
 
 #. /definitions/Project/properties/locations/description
 #: release-schema.json:1
 msgid "Information about the location where a project is taking place."
-msgstr "Información sobre la ubicación donde se llevará a cabo un proyecto."
+msgstr ""

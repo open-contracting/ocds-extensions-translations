@@ -1,25 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C)
+# Copyright (C) 
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# James McKinney, 2019
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python\n"
+"Project-Id-Version: Python \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 17:31-0500\n"
-"PO-Revision-Date: 2019-03-14 18:26+0000\n"
-"Last-Translator: James McKinney, 2019\n"
-"Language-Team: French (https://www.transifex.com/open-contracting-partnership-1/teams/112300/fr/)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../README.md:1
 msgid "Document details"
@@ -27,9 +22,9 @@ msgstr ""
 
 #: ../README.md:3
 msgid ""
-"[Document objects](https://standard.open-"
-"contracting.org/latest/en/schema/reference/#document) are used to describe "
-"and link to documents. This extension adds fields to document objects to:"
+"[Document objects](https://standard.open-contracting.org/latest/en/schema/"
+"reference/#document) are used to describe and link to documents. This "
+"extension adds fields to document objects to:"
 msgstr ""
 
 #: ../README.md:5
@@ -43,8 +38,7 @@ msgid "Describe any special arrangements needed to access the document"
 msgstr ""
 
 #: ../README.md:7
-msgid ""
-"Name the author of the document (not to be confused with its publisher)"
+msgid "Name the author of the document (not to be confused with its publisher)"
 msgstr ""
 
 #: ../README.md:9
@@ -67,7 +61,7 @@ msgstr ""
 
 #: ../README.md:15
 msgid "Example"
-msgstr ""
+msgstr "Exemple"
 
 #: ../README.md:37
 msgid "Issues"
@@ -75,9 +69,9 @@ msgstr "Problèmes"
 
 #: ../README.md:39
 msgid ""
-"Report issues for this extension in the [ocds-extensions "
-"repository](https://github.com/open-contracting/ocds-extensions/issues), "
-"putting the extension's name in the issue's title."
+"Report issues for this extension in the [ocds-extensions repository](https://"
+"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
+"name in the issue's title."
 msgstr ""
 "Signalez les problèmes concernant cette extension dans le [répertoire "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), en "
@@ -85,7 +79,7 @@ msgstr ""
 
 #: ../README.md:41
 msgid "Changelog"
-msgstr ""
+msgstr "Journal des modifications"
 
 #: ../README.md:43
 msgid "2020-04-24"

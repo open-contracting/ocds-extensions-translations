@@ -1,26 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C)
+# Copyright (C) 
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# James McKinney, 2019
-# Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2019
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python\n"
+"Project-Id-Version: Python \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 17:31-0500\n"
-"PO-Revision-Date: 2019-03-14 18:27+0000\n"
-"Last-Translator: Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2019\n"
-"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../README.md:1
 msgid "Party Details - Scale"
@@ -47,25 +41,24 @@ msgstr ""
 
 #: ../README.md:9
 msgid ""
-"[OECD: Small and Medium-Sized Enterprises (SMEs) "
-"definition](https://stats.oecd.org/glossary/detail.asp?ID=3123)"
+"[OECD: Small and Medium-Sized Enterprises (SMEs) definition](https://stats."
+"oecd.org/glossary/detail.asp?ID=3123)"
 msgstr ""
 
 #: ../README.md:10
 msgid ""
-"[European Commission: What is an SME?](https://ec.europa.eu/growth/smes"
-"/business-friendly-environment/sme-definition_en)"
+"[European Commission: What is an SME?](https://ec.europa.eu/growth/smes/"
+"business-friendly-environment/sme-definition_en)"
 msgstr ""
 
 #: ../README.md:12
 msgid "Guidance"
-msgstr ""
+msgstr "Guía"
 
 #: ../README.md:14
 msgid ""
 "For small and medium-sized enterprises, if you can distinguish between the "
-"two sizes, use the 'small' and 'medium' codes. Otherwise, use the 'sme' "
-"code."
+"two sizes, use the 'small' and 'medium' codes. Otherwise, use the 'sme' code."
 msgstr ""
 
 #: ../README.md:16
@@ -85,7 +78,7 @@ msgstr "Ejemplo"
 
 #: ../README.md:36
 msgid "Changelog"
-msgstr ""
+msgstr "Registro de cambios"
 
 #: ../README.md:38
 msgid "2020-05-20"
@@ -149,9 +142,9 @@ msgstr "Issues"
 
 #: ../README.md:68
 msgid ""
-"Report issues for this extension in the [ocds-extensions "
-"repository](https://github.com/open-contracting/ocds-extensions/issues), "
-"putting the extension's name in the issue's title."
+"Report issues for this extension in the [ocds-extensions repository](https://"
+"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
+"name in the issue's title."
 msgstr ""
 "Reporte issues para esta extensión en el [repositorio de extensiones "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "

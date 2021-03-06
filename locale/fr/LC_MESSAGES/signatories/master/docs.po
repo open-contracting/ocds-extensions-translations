@@ -1,25 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C)
+# Copyright (C) 
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# James McKinney, 2019
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python\n"
+"Project-Id-Version: Python \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 17:31-0500\n"
-"PO-Revision-Date: 2019-03-14 18:29+0000\n"
-"Last-Translator: James McKinney, 2019\n"
-"Language-Team: French (https://www.transifex.com/open-contracting-partnership-1/teams/112300/fr/)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../README.md:1
 msgid "Contract signatories"
@@ -59,8 +54,8 @@ msgstr ""
 #: ../README.md:13
 msgid ""
 "Use this extension only if the signatories to a contract differ from its "
-"related award's `suppliers` and the contracting process' `buyer`. If that is"
-" the case, list all signatories to the contract, including the `buyer` and "
+"related award's `suppliers` and the contracting process' `buyer`. If that is "
+"the case, list all signatories to the contract, including the `buyer` and "
 "`suppliers`."
 msgstr ""
 
@@ -71,8 +66,8 @@ msgstr "Exemple"
 #: ../README.md:17
 msgid ""
 "The following JSON snippet models a contracting process where there is an "
-"additional signatory to the contract beyond those defined in the `buyer` and"
-" `awards.suppliers` fields."
+"additional signatory to the contract beyond those defined in the `buyer` and "
+"`awards.suppliers` fields."
 msgstr ""
 
 #: ../README.md:59
@@ -87,8 +82,8 @@ msgstr ""
 
 #: ../README.md:63
 msgid ""
-"This extension follows the approach to modelling organizations introduced in"
-" OCDS V1.1."
+"This extension follows the approach to modelling organizations introduced in "
+"OCDS V1.1."
 msgstr ""
 
 #: ../README.md:65
@@ -97,9 +92,9 @@ msgstr "Problèmes"
 
 #: ../README.md:67
 msgid ""
-"Report issues for this extension in the [ocds-extensions "
-"repository](https://github.com/open-contracting/ocds-extensions/issues), "
-"putting the extension's name in the issue's title."
+"Report issues for this extension in the [ocds-extensions repository](https://"
+"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
+"name in the issue's title."
 msgstr ""
 "Signalez les problèmes concernant cette extension dans le [répertoire "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), en "
@@ -107,7 +102,7 @@ msgstr ""
 
 #: ../README.md:69
 msgid "Changelog"
-msgstr ""
+msgstr "Journal des modifications"
 
 #: ../README.md:71
 msgid "2020-04-24"

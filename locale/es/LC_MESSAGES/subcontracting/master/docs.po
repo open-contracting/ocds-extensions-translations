@@ -1,21 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C)
+# Copyright (C) 
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python\n"
+"Project-Id-Version: Python \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 17:31-0500\n"
-"PO-Revision-Date: 2020-08-20 21:51+0000\n"
-"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../README.md:1
 msgid "Subcontracting"
@@ -29,7 +28,7 @@ msgstr ""
 
 #: ../README.md:5
 msgid "Guidance"
-msgstr ""
+msgstr "Guía"
 
 #: ../README.md:7
 msgid ""
@@ -46,31 +45,33 @@ msgstr ""
 msgid ""
 "In the European Union, this extension's fields correspond to [eForms BG-709 "
 "(Second Stage), BT-65, BT-64, BT-729](https://github.com/eForms/eForms) and "
-"[article 21 of directive 2009/81/EC](https://eur-lex.europa.eu/legal-"
-"content/EN/TXT/HTML/?uri=CELEX:32009L0081&from=EN#d1e2623-76-1). See [OCDS "
-"for the European Union](http://standard.open-"
-"contracting.org/profiles/eu/master/en/) for the correspondences to Tenders "
-"Electronic Daily (TED)."
+"[article 21 of directive 2009/81/EC](https://eur-lex.europa.eu/legal-content/"
+"EN/TXT/HTML/?uri=CELEX:32009L0081&from=EN#d1e2623-76-1). See [OCDS for the "
+"European Union](http://standard.open-contracting.org/profiles/eu/master/en/) "
+"for the correspondences to Tenders Electronic Daily (TED)."
 msgstr ""
 
 #: ../README.md:13
 msgid "Examples"
-msgstr ""
+msgstr "Ejemplos"
 
 #: ../README.md:76
 msgid "Issues"
-msgstr ""
+msgstr "Issues"
 
 #: ../README.md:78
 msgid ""
-"Report issues for this extension in the [ocds-extensions "
-"repository](https://github.com/open-contracting/ocds-extensions/issues), "
-"putting the extension's name in the issue's title."
+"Report issues for this extension in the [ocds-extensions repository](https://"
+"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
+"name in the issue's title."
 msgstr ""
+"Reporte issues para esta extensión en el [repositorio de extensiones "
+"ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
+"el nombre de la extensión en el título del issue."
 
 #: ../README.md:80
 msgid "Changelog"
-msgstr ""
+msgstr "Registro de cambios"
 
 #: ../README.md:82
 msgid "2020-10-07"
@@ -92,11 +93,10 @@ msgstr ""
 
 #: ../README.md:90
 msgid ""
-"This extension was originally discussed as part of the [OCDS for EU "
-"profile](https://github.com/open-contracting-extensions/european-"
-"union/issues) and in [pull requests](https://github.com/open-contracting-"
-"extensions/ocds_subcontracting_extension/pulls?q=is%3Apr+is%3Aclosed). You "
-"can also see discussions about this extension in [this "
-"issue](https://github.com/open-contracting-"
-"extensions/ocds_subcontracting_extension/issues/2)."
+"This extension was originally discussed as part of the [OCDS for EU profile]"
+"(https://github.com/open-contracting-extensions/european-union/issues) and "
+"in [pull requests](https://github.com/open-contracting-extensions/"
+"ocds_subcontracting_extension/pulls?q=is%3Apr+is%3Aclosed). You can also see "
+"discussions about this extension in [this issue](https://github.com/open-"
+"contracting-extensions/ocds_subcontracting_extension/issues/2)."
 msgstr ""

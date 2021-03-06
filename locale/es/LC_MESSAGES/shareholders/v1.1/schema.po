@@ -2,26 +2,20 @@
 # Copyright (C) 2021 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
-# 
-# Translators:
-# James McKinney, 2019
-# Maria Esther Cervantes <mcervantes@cds.com.py>, 2019
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-03-05 17:32-0500\n"
-"PO-Revision-Date: 2019-03-14 18:31+0000\n"
-"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2019\n"
-"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
-"Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. /name
 #: extension.json:1
@@ -31,8 +25,8 @@ msgstr "ocds-shareholders-extension"
 #. /description
 #: extension.json:1
 msgid ""
-"The shareholders extension can be used to attach company ownership details "
-"to each party in the parties array."
+"The shareholders extension can be used to attach company ownership "
+"details to each party in the parties array."
 msgstr ""
 "La extensión de las partes se puede utilizar para adjuntar los detalles de "
 "propiedad de la compañía a cada parte en la matriz de partes."
@@ -56,8 +50,8 @@ msgstr "ID del Accionista"
 #: release-schema.json:1
 msgid ""
 "A local identifier for this shareholder, unique within this block. This "
-"field is used to keep track of multiple revisions of a shareholder through "
-"the compilation from release to record mechanism."
+"field is used to keep track of multiple revisions of a shareholder "
+"through the compilation from release to record mechanism."
 msgstr ""
 "Un identificador local para este accionista, único dentro de este bloque. "
 "Este campo se utiliza para realizar un seguimiento de las revisiones "
@@ -72,8 +66,8 @@ msgstr "Referencia de la organización de accionistas."
 #. /definitions/Shareholder/properties/shareholder/description
 #: release-schema.json:1
 msgid ""
-"An organization reference pointing the entry in the parties section for the "
-"shareholding organization."
+"An organization reference pointing the entry in the parties section for "
+"the shareholding organization."
 msgstr ""
 "Una referencia de la organización señalando la entrada en la sección de "
 "partes de la organización accionaria."
@@ -106,8 +100,8 @@ msgid ""
 msgstr ""
 "Especifica el tipo de derechos de voto asociado a las acciones que posee el "
 "accionista en contra de la [lista de códigos de derechos de "
-"voto](http://standard.open-contracting.org/latest/en/schema/codelists"
-"/#voting-rights)."
+"voto](http://standard.open-contracting.org/latest/en/schema/codelists/"
+"#voting-rights)."
 
 #. /definitions/Shareholder/properties/votingRightsDetails/title
 #: release-schema.json:1
@@ -133,9 +127,9 @@ msgstr "Notas sobre los accionistas"
 #. /definitions/Shareholder/properties/notes/description
 #: release-schema.json:1
 msgid ""
-"Additional notes on this shareholder. This field should be used to provide "
-"details on any caps on equity transfer, or lock-in arrangements, applicable "
-"to this shareholder."
+"Additional notes on this shareholder. This field should be used to "
+"provide details on any caps on equity transfer, or lock-in arrangements, "
+"applicable to this shareholder."
 msgstr ""
 "Notas adicionales sobre este accionista. Este campo debe usarse para "
 "proporcionar detalles sobre los límites máximos en la transferencia de "
@@ -150,9 +144,9 @@ msgstr "Accionistas de la organización"
 #: release-schema.json:1
 msgid ""
 "A list of shareholders in the organization: used to provide company "
-"ownership information for firms, primarily in the case of large and complex "
-"contracts, or Public Private Partnerships, that require disclosure of this "
-"information for certain bidders or awarded parties."
+"ownership information for firms, primarily in the case of large and "
+"complex contracts, or Public Private Partnerships, that require "
+"disclosure of this information for certain bidders or awarded parties."
 msgstr ""
 "Una lista de los accionistas de la organización: se utiliza para "
 "proporcionar información sobre la propiedad de la empresa para las "
@@ -170,9 +164,10 @@ msgstr "Propiedad beneficiaria "
 msgid ""
 "This section can be used to record information concerning individuals or "
 "organisations with a beneficial ownership or control interests in this "
-"party. Where structured data is available, this section may be extended by "
-"embedding or linking to information modelled using the [Beneficial Ownership"
-" Data Standard (BODS)](https://github.com/openownership/data-standard)."
+"party. Where structured data is available, this section may be extended "
+"by embedding or linking to information modelled using the [Beneficial "
+"Ownership Data Standard (BODS)](https://github.com/openownership/data-"
+"standard)."
 msgstr ""
 "Esta sección puede usarse para registrar información concerniente a "
 "individuos u organizaciones con intereses de propiedad o control efectivas "
@@ -188,8 +183,7 @@ msgstr "Descripción"
 
 #. /definitions/Organization/properties/beneficialOwnership/properties/description/description
 #: release-schema.json:1
-msgid ""
-"A free text description of beneficial ownership or control arrangements."
+msgid "A free text description of beneficial ownership or control arrangements."
 msgstr ""
 "Una descripción en texto libre de la propiedad efectiva o los acuerdos de "
 "control."

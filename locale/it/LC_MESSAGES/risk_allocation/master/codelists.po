@@ -2,25 +2,20 @@
 # Copyright (C) 2021 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
-# 
-# Translators:
-# James McKinney, 2019
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-03-05 17:32-0500\n"
-"PO-Revision-Date: 2019-03-14 18:32+0000\n"
-"Last-Translator: James McKinney, 2019\n"
-"Language-Team: Italian (https://www.transifex.com/open-contracting-partnership-1/teams/112300/it/)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
-"Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: codelists/riskAllocation.csv codelists/riskCategory.csv
 msgid "Code"
@@ -62,8 +57,8 @@ msgstr ""
 #. Description
 #: codelists/riskAllocation.csv:3
 msgid ""
-"The risk is not clearly assigned to a specific party. Further details can be"
-" provided in the notes field."
+"The risk is not clearly assigned to a specific party. Further details can"
+" be provided in the notes field."
 msgstr ""
 
 #: codelists/riskCategory.csv
@@ -95,9 +90,9 @@ msgstr ""
 #: codelists/riskCategory.csv:2
 msgid ""
 "Environmental risks might be related to a number of environmental issues "
-"such as general contamination, pollution, water contamination, impact on the"
-" natural environment etc. An adverse assessment might lead to changes in "
-"design, leading to a direct impact on cost of infrastructure"
+"such as general contamination, pollution, water contamination, impact on "
+"the natural environment etc. An adverse assessment might lead to changes "
+"in design, leading to a direct impact on cost of infrastructure"
 msgstr ""
 
 #. Title
@@ -108,8 +103,8 @@ msgstr ""
 #. Description
 #: codelists/riskCategory.csv:3
 msgid ""
-"Represents the possibility that design quality for the asset is not adequate"
-" to meet project requirements"
+"Represents the possibility that design quality for the asset is not "
+"adequate to meet project requirements"
 msgstr ""
 
 #. Title
@@ -120,8 +115,8 @@ msgstr ""
 #. Description
 #: codelists/riskCategory.csv:4
 msgid ""
-"Represents the possibility that during the construction Phase, the actual "
-"project costs or construction time exceeds the projected time and costs"
+"Represents the possibility that during the construction Phase, the actual"
+" project costs or construction time exceeds the projected time and costs"
 msgstr ""
 
 #. Title
@@ -132,8 +127,8 @@ msgstr ""
 #. Description
 #: codelists/riskCategory.csv:5
 msgid ""
-"Refers to the failure to meet the construction outcome or finalization as "
-"prescribed"
+"Refers to the failure to meet the construction outcome or finalization as"
+" prescribed"
 msgstr ""
 
 #. Title
@@ -188,8 +183,8 @@ msgstr ""
 #. Description
 #: codelists/riskCategory.csv:10
 msgid ""
-"Represents the risk of financing not being available at commercial close or "
-"before construction starts"
+"Represents the risk of financing not being available at commercial close "
+"or before construction starts"
 msgstr ""
 
 #. Title
@@ -222,8 +217,9 @@ msgstr ""
 #. Description
 #: codelists/riskCategory.csv:13
 msgid ""
-"Risk that external events beyond the control of the parties to the contract,"
-" such as natural disasters, wars, terrorism etc., affect the project"
+"Risk that external events beyond the control of the parties to the "
+"contract, such as natural disasters, wars, terrorism etc., affect the "
+"project"
 msgstr ""
 
 #. Title
@@ -234,8 +230,8 @@ msgstr ""
 #. Description
 #: codelists/riskCategory.csv:14
 msgid ""
-"Risk that compensation sum due to early termination might be insufficient to"
-" meet private party’s financial obligations or is less than expected"
+"Risk that compensation sum due to early termination might be insufficient"
+" to meet private party’s financial obligations or is less than expected"
 msgstr ""
 
 #. Title
@@ -246,8 +242,8 @@ msgstr ""
 #. Description
 #: codelists/riskCategory.csv:15
 msgid ""
-"Risks deriving from the compliance or lack thereof of regulatory obligations"
-" related to the development of the project"
+"Risks deriving from the compliance or lack thereof of regulatory "
+"obligations related to the development of the project"
 msgstr ""
 
 #. Title

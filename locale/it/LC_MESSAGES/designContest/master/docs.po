@@ -1,21 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C)
+# Copyright (C) 
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python\n"
+"Project-Id-Version: Python \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 17:31-0500\n"
-"PO-Revision-Date: 2020-08-20 21:52+0000\n"
-"Language-Team: Italian (https://www.transifex.com/open-contracting-partnership-1/teams/112300/it/)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../README.md:1
 msgid "Design contest"
@@ -32,32 +31,34 @@ msgstr ""
 #: ../README.md:7
 msgid ""
 "In the European Union, this extension's fields correspond to [eForms BG-704 "
-"(Reward and Jury)](https://github.com/eForms/eForms) and [Title III, Chapter"
-" II of Directive 2014/24/EU](https://eur-lex.europa.eu/legal-"
-"content/EN/TXT/?qid=1585836130257&uri=CELEX:32014L0024#d1e6612-65-1). See "
-"[OCDS for the European Union](http://standard.open-"
-"contracting.org/profiles/eu/master/en/) for the correspondences to Tenders "
-"Electronic Daily (TED)."
+"(Reward and Jury)](https://github.com/eForms/eForms) and [Title III, Chapter "
+"II of Directive 2014/24/EU](https://eur-lex.europa.eu/legal-content/EN/TXT/?"
+"qid=1585836130257&uri=CELEX:32014L0024#d1e6612-65-1). See [OCDS for the "
+"European Union](http://standard.open-contracting.org/profiles/eu/master/en/) "
+"for the correspondences to Tenders Electronic Daily (TED)."
 msgstr ""
 
 #: ../README.md:9
 msgid "Examples"
-msgstr ""
+msgstr "Esempi"
 
 #: ../README.md:51
 msgid "Issues"
-msgstr ""
+msgstr "Problemi (issues)"
 
 #: ../README.md:53
 msgid ""
-"Report issues for this extension in the [ocds-extensions "
-"repository](https://github.com/open-contracting/ocds-extensions/issues), "
-"putting the extension's name in the issue's title."
+"Report issues for this extension in the [ocds-extensions repository](https://"
+"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
+"name in the issue's title."
 msgstr ""
+"Segnala i problemi per questa estensione nel [repository ocds-"
+"extensions](https://github.com/open-contracting/ocds-extensions/issues), "
+"inserendo il nome dell'estensione nel titolo del problema."
 
 #: ../README.md:55
 msgid "Changelog"
-msgstr ""
+msgstr "Storico delle modifiche"
 
 #: ../README.md:57
 msgid "2020-04-24"
@@ -69,8 +70,8 @@ msgstr ""
 
 #: ../README.md:61
 msgid ""
-"This extension was originally discussed as part of the [OCDS for EU "
-"profile](https://github.com/open-contracting-extensions/european-"
-"union/issues) and in [pull requests](https://github.com/open-contracting-"
-"extensions/ocds_designContest_extension/pulls?q=is%3Apr+is%3Aclosed)."
+"This extension was originally discussed as part of the [OCDS for EU profile]"
+"(https://github.com/open-contracting-extensions/european-union/issues) and "
+"in [pull requests](https://github.com/open-contracting-extensions/"
+"ocds_designContest_extension/pulls?q=is%3Apr+is%3Aclosed)."
 msgstr ""

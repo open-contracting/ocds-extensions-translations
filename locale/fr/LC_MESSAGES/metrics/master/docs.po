@@ -1,25 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C)
+# Copyright (C) 
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# James McKinney, 2019
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python\n"
+"Project-Id-Version: Python \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 17:31-0500\n"
-"PO-Revision-Date: 2019-03-14 18:26+0000\n"
-"Last-Translator: James McKinney, 2019\n"
-"Language-Team: French (https://www.transifex.com/open-contracting-partnership-1/teams/112300/fr/)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../README.md:1
 msgid "Metrics Extension"
@@ -33,10 +28,9 @@ msgstr ""
 
 #: ../README.md:5
 msgid ""
-"Metrics are structured like an [OLAP data "
-"cube](https://en.wikipedia.org/wiki/OLAP_cube) with each instance of "
-"`Metric` representing a single **observation**, categorized by a number of "
-"**dimensions**."
+"Metrics are structured like an [OLAP data cube](https://en.wikipedia.org/"
+"wiki/OLAP_cube) with each instance of `Metric` representing a single "
+"**observation**, categorized by a number of **dimensions**."
 msgstr ""
 
 #: ../README.md:7
@@ -76,7 +70,7 @@ msgstr ""
 
 #: ../README.md:16
 msgid "Example"
-msgstr ""
+msgstr "Exemple"
 
 #: ../README.md:18
 msgid "Forecasts"
@@ -88,10 +82,10 @@ msgstr ""
 
 #: ../README.md:61
 msgid ""
-"The metrics extension can also be used to report on the physical progress of"
-" a contract. The following JSON snippet shows how the metrics extension "
-"could be used to report on progress for the construction of a highway, both "
-"by percent completion and number of kilometres constructed:"
+"The metrics extension can also be used to report on the physical progress of "
+"a contract. The following JSON snippet shows how the metrics extension could "
+"be used to report on progress for the construction of a highway, both by "
+"percent completion and number of kilometres constructed:"
 msgstr ""
 
 #: ../README.md:118
@@ -100,9 +94,9 @@ msgstr "Problèmes"
 
 #: ../README.md:120
 msgid ""
-"Report issues for this extension in the [ocds-extensions "
-"repository](https://github.com/open-contracting/ocds-extensions/issues), "
-"putting the extension's name in the issue's title."
+"Report issues for this extension in the [ocds-extensions repository](https://"
+"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
+"name in the issue's title."
 msgstr ""
 "Signalez les problèmes concernant cette extension dans le [répertoire "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), en "
@@ -110,7 +104,7 @@ msgstr ""
 
 #: ../README.md:122
 msgid "Changelog"
-msgstr ""
+msgstr "Journal des modifications"
 
 #: ../README.md:124
 msgid "2020-04-24"
@@ -145,8 +139,8 @@ msgstr ""
 #: ../README.md:136
 msgid ""
 "Make `Metric.id` and `Observation.id` required to support revision tracking "
-"and [list merging](http://standard.open-"
-"contracting.org/latest/en/schema/merging/#lists)"
+"and [list merging](http://standard.open-contracting.org/latest/en/schema/"
+"merging/#lists)"
 msgstr ""
 
 #: ../README.md:138

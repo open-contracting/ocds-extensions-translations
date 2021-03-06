@@ -2,21 +2,20 @@
 # Copyright (C) 2021 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-03-05 17:32-0500\n"
-"PO-Revision-Date: 2020-08-20 21:47+0000\n"
-"Language-Team: French (https://www.transifex.com/open-contracting-partnership-1/teams/112300/fr/)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
-"Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. /name/en
 #. /definitions/Amendment/properties/unstructuredChanges/title
@@ -62,8 +61,8 @@ msgstr ""
 #. /definitions/UnstructuredChange/properties/oldValue/description
 #: release-schema.json:1
 msgid ""
-"The value of the data element referenced by the `where` field, before the "
-"change."
+"The value of the data element referenced by the `where` field, before the"
+" change."
 msgstr ""
 
 #. /definitions/UnstructuredChange/properties/newValue/title
@@ -85,20 +84,19 @@ msgstr ""
 
 #. /definitions/UnstructuredChange/properties/where/description
 #: release-schema.json:1
-msgid ""
-"A reference to a data element on an earlier notice that is being changed."
+msgid "A reference to a data element on an earlier notice that is being changed."
 msgstr ""
 
 #. /definitions/UnstructuredChange/properties/where/properties/section/title
 #: release-schema.json:1
 msgid "Section"
-msgstr ""
+msgstr "Section"
 
 #. /definitions/UnstructuredChange/properties/where/properties/section/description
 #: release-schema.json:1
 msgid ""
-"The identifier of the section containing the data element, if the earlier "
-"notice is organized into sections."
+"The identifier of the section containing the data element, if the earlier"
+" notice is organized into sections."
 msgstr ""
 
 #. /definitions/UnstructuredChange/properties/where/properties/label/title
@@ -119,8 +117,8 @@ msgstr ""
 #. /definitions/UnstructuredChangeValue/description
 #: release-schema.json:1
 msgid ""
-"A value of a data element. The value must be described using exactly one of "
-"the fields `text`, `classifications` or `date`."
+"A value of a data element. The value must be described using exactly one "
+"of the fields `text`, `classifications` or `date`."
 msgstr ""
 
 #. /definitions/UnstructuredChangeValue/properties/text/title
@@ -148,7 +146,7 @@ msgstr ""
 #. /definitions/UnstructuredChangeValue/properties/date/title
 #: release-schema.json:1
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #. /definitions/UnstructuredChangeValue/properties/date/description
 #: release-schema.json:1

@@ -1,21 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C)
+# Copyright (C) 
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python\n"
+"Project-Id-Version: Python \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 17:31-0500\n"
-"PO-Revision-Date: 2020-08-20 20:48+0000\n"
-"Language-Team: French (https://www.transifex.com/open-contracting-partnership-1/teams/112300/fr/)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../README.md:1
 msgid "Pagination"
@@ -59,8 +58,8 @@ msgstr ""
 msgid ""
 "`offset=NUMBER`, to return a page of results that are positioned after the "
 "`offset` number, in sequential order (for example, if the results are "
-"retrieved from a [SQL database](https://www.postgresql.org/docs/current"
-"/queries-limit.html))"
+"retrieved from a [SQL database](https://www.postgresql.org/docs/current/"
+"queries-limit.html))"
 msgstr ""
 
 #: ../README.md:17
@@ -92,44 +91,46 @@ msgstr ""
 
 #: ../README.md:23
 msgid ""
-"Reference: [HTML link types](https://developer.mozilla.org/en-"
-"US/docs/Web/HTML/Link_types), [18F API Standards](https://github.com/18F"
-"/api-standards#pagination), [Government of Canada Standards on "
-"APIs](https://www.canada.ca/en/government/system/digital-government/modern-"
-"emerging-technologies/government-canada-standards-apis.html), [Government of"
-" Ontario API Guidelines](https://github.com/ongov/API-"
-"Guidelines/blob/develop/API-Guidelines.md#implement-pagination-and-data-"
-"segmentation), [OpenActive Realtime Paged Data "
-"Exchange](https://www.openactive.io/realtime-paged-data-exchange/#overall-"
-"approach)."
+"Reference: [HTML link types](https://developer.mozilla.org/en-US/docs/Web/"
+"HTML/Link_types), [18F API Standards](https://github.com/18F/api-"
+"standards#pagination), [Government of Canada Standards on APIs](https://www."
+"canada.ca/en/government/system/digital-government/modern-emerging-"
+"technologies/government-canada-standards-apis.html), [Government of Ontario "
+"API Guidelines](https://github.com/ongov/API-Guidelines/blob/develop/API-"
+"Guidelines.md#implement-pagination-and-data-segmentation), [OpenActive "
+"Realtime Paged Data Exchange](https://www.openactive.io/realtime-paged-data-"
+"exchange/#overall-approach)."
 msgstr ""
 
 #: ../README.md:25
 msgid "Example"
-msgstr ""
+msgstr "Exemple"
 
 #: ../README.md:27
 msgid ""
 "A publisher has a large number of releases. Instead of gathering them into "
-"one release package, it segments them into multiple release packages, via an"
-" API with pagination. The `links.next` field provides the link to the next "
+"one release package, it segments them into multiple release packages, via an "
+"API with pagination. The `links.next` field provides the link to the next "
 "page."
 msgstr ""
 
 #: ../README.md:53
 msgid "Issues"
-msgstr ""
+msgstr "Problèmes"
 
 #: ../README.md:55
 msgid ""
-"Report issues for this extension in the [ocds-extensions "
-"repository](https://github.com/open-contracting/ocds-extensions/issues), "
-"putting the extension's name in the issue's title."
+"Report issues for this extension in the [ocds-extensions repository](https://"
+"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
+"name in the issue's title."
 msgstr ""
+"Signalez les problèmes concernant cette extension dans le [répertoire "
+"ocds](https://github.com/open-contracting/ocds-extensions/issues), en "
+"mettant le nom de l'extension dans le titre du signalement."
 
 #: ../README.md:57
 msgid "Changelog"
-msgstr ""
+msgstr "Journal des modifications"
 
 #: ../README.md:59
 msgid "2020-11-05"

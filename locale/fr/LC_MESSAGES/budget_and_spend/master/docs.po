@@ -1,21 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C)
+# Copyright (C) 
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python\n"
+"Project-Id-Version: Python \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 17:31-0500\n"
-"PO-Revision-Date: 2019-03-20 18:30+0000\n"
-"Language-Team: French (https://www.transifex.com/open-contracting-partnership-1/teams/112300/fr/)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../README.md:1
 msgid "Open Contracting Budgets and Spend Extension"
@@ -23,25 +22,25 @@ msgstr ""
 
 #: ../README.md:3
 msgid ""
-"The Budgets and Spend extension extends [budget "
-"breakdown](https://github.com/open-contracting-"
-"extensions/ocds_budget_breakdown_extension/blob/master/README.md) and the "
-"contract implementation section to allow the publication of detailed budget "
-"allocations and execution for a contracting process."
+"The Budgets and Spend extension extends [budget breakdown](https://github."
+"com/open-contracting-extensions/ocds_budget_breakdown_extension/blob/master/"
+"README.md) and the contract implementation section to allow the publication "
+"of detailed budget allocations and execution for a contracting process."
 msgstr ""
 
 #: ../README.md:5
 msgid ""
-"A [discussion paper providing background approach taken is available "
-"here](https://docs.google.com/document/d/1b43JeG5YQ62tGTTbP7jTE4XqUxYzG-r-emgRILZPRn4/edit)."
+"A [discussion paper providing background approach taken is available here]"
+"(https://docs.google.com/document/d/1b43JeG5YQ62tGTTbP7jTE4XqUxYzG-r-"
+"emgRILZPRn4/edit)."
 msgstr ""
 
 #: ../README.md:7
 msgid ""
 "This repository is under active development, and currently contains a "
-"[worked example](https://github.com/open-contracting-"
-"extensions/ocds_budget_and_spend_extension/tree/master/examples#readme) of "
-"how this extension can be used to record yearly financial commitments to a "
+"[worked example](https://github.com/open-contracting-extensions/"
+"ocds_budget_and_spend_extension/tree/master/examples#readme) of how this "
+"extension can be used to record yearly financial commitments to a "
 "contracting process and individual contracts."
 msgstr ""
 
@@ -52,8 +51,8 @@ msgstr ""
 #: ../README.md:11
 msgid ""
 "This extension introduces three new features that build on the [budget "
-"breakdown](https://github.com/open-contracting-"
-"extensions/ocds_budget_breakdown_extension/blob/master/README.md) extension:"
+"breakdown](https://github.com/open-contracting-extensions/"
+"ocds_budget_breakdown_extension/blob/master/README.md) extension:"
 msgstr ""
 
 #: ../README.md:13
@@ -65,8 +64,8 @@ msgstr ""
 #: ../README.md:14
 msgid ""
 "`measures` - allowing different budget measures (planned, committed, "
-"executed etc.) to be expressed at the contracting process level for each set"
-" of budget classifications;"
+"executed etc.) to be expressed at the contracting process level for each set "
+"of budget classifications;"
 msgstr ""
 
 #: ../README.md:15
@@ -79,11 +78,10 @@ msgstr ""
 
 #: ../README.md:17
 msgid ""
-"In addition, it introduces the `financialProgress` object into "
-"`contracts.implementation`, allowing a detailed breakdown of the financial "
-"execution of each contract to be expressed, using the same "
-"`classifications`, `measures` and `fiscalBreakdownFieldMapping` features as "
-"for `budgetBreakdown`."
+"In addition, it introduces the `financialProgress` object into `contracts."
+"implementation`, allowing a detailed breakdown of the financial execution of "
+"each contract to be expressed, using the same `classifications`, `measures` "
+"and `fiscalBreakdownFieldMapping` features as for `budgetBreakdown`."
 msgstr ""
 
 #: ../README.md:19
@@ -97,28 +95,28 @@ msgstr ""
 
 #: ../README.md:23
 msgid ""
-"The **[coordination example](https://github.com/open-contracting-"
-"extensions/ocds_budget_and_spend_extension/blob/master/examples/coordination.md)**"
-" illustrates how to express data on budget allocation and execution that may"
-" be drawn from different data systems (e.g. finance systems and procurement "
+"The **[coordination example](https://github.com/open-contracting-extensions/"
+"ocds_budget_and_spend_extension/blob/master/examples/coordination.md)** "
+"illustrates how to express data on budget allocation and execution that may "
+"be drawn from different data systems (e.g. finance systems and procurement "
 "systems)."
 msgstr ""
 
 #: ../README.md:25
 msgid ""
-"The **[integration example](https://github.com/open-contracting-"
-"extensions/ocds_budget_and_spend_extension/blob/master/examples/integration.md)**"
-" illustrates how references to a Fiscal Data Package can support display of "
+"The **[integration example](https://github.com/open-contracting-extensions/"
+"ocds_budget_and_spend_extension/blob/master/examples/integration.md)** "
+"illustrates how references to a Fiscal Data Package can support display of "
 "data to users, and comparison between contracting process level and budget "
 "level data."
 msgstr ""
 
 #: ../README.md:27
 msgid ""
-"The **[flat data example](https://github.com/open-contracting-"
-"extensions/ocds_budget_and_spend_extension/blob/master/examples/flat.md)** "
-"illustrates how the structured data published using this extension can be "
-"analyzed using spreadsheet tools."
+"The **[flat data example](https://github.com/open-contracting-extensions/"
+"ocds_budget_and_spend_extension/blob/master/examples/flat.md)** illustrates "
+"how the structured data published using this extension can be analyzed using "
+"spreadsheet tools."
 msgstr ""
 
 #: ../README.md:29
@@ -139,13 +137,13 @@ msgstr ""
 
 #: ../README.md:35
 msgid ""
-"**A budget** is a forward-looking statements of how an organization proposes"
-" to raise revenues, spend resources, and finance its operations. The "
-"National Government budget should cover all the activities of a state. "
-"Detailed budgets may also exist at the level of agencies and projects. In "
-"public contracting, the funding for a contracting process may come from a "
-"particular section of the National budget, or from an organizational budget."
-" It may also come wholly or partially from an external funders budget (e.g. "
+"**A budget** is a forward-looking statements of how an organization proposes "
+"to raise revenues, spend resources, and finance its operations. The National "
+"Government budget should cover all the activities of a state. Detailed "
+"budgets may also exist at the level of agencies and projects. In public "
+"contracting, the funding for a contracting process may come from a "
+"particular section of the National budget, or from an organizational budget. "
+"It may also come wholly or partially from an external funders budget (e.g. "
 "an International Development Bank), either directly, or passing through "
 "government systems."
 msgstr ""
@@ -154,9 +152,8 @@ msgstr ""
 msgid ""
 "Budget lines are constructed from a set of **classifications** (often "
 "described in terms of Functional, Administrative and Economic "
-"classifications), and **measures** (such as the original amount committed to"
-" a particular set of classifications, or the modified, or executed, "
-"amounts)."
+"classifications), and **measures** (such as the original amount committed to "
+"a particular set of classifications, or the modified, or executed, amounts)."
 msgstr ""
 
 #: ../README.md:39
@@ -165,11 +162,11 @@ msgid ""
 "revenues, **spending** and financing. They may report the fiscal activities "
 "of the central government, state governments, or local governments, or of "
 "all levels of government in a country (referred to as the general "
-"government). Reports may cover a whole government in aggregate as an entity,"
-" and/or individual government entities e.g. ministries, departments or "
+"government). Reports may cover a whole government in aggregate as an entity, "
+"and/or individual government entities e.g. ministries, departments or "
 "agencies. They may be on a cash or accruals basis (full or partial). As "
-"payments are made during the execution of a contract, these may be allocated"
-" against one or more sections of the budget. In some cases, this may allow "
+"payments are made during the execution of a contract, these may be allocated "
+"against one or more sections of the budget. In some cases, this may allow "
 "the creation of fiscal reporting at the level of individual contracts."
 msgstr ""
 
@@ -187,10 +184,9 @@ msgstr ""
 
 #: ../README.md:45
 msgid ""
-"![Budget, Contract and Spending "
-"relationships](https://raw.githubusercontent.com/open-contracting-"
-"extensions/ocds_budget_and_spend_extension/master/images/budget-contract-"
-"spend.png)"
+"![Budget, Contract and Spending relationships](https://raw.githubusercontent."
+"com/open-contracting-extensions/ocds_budget_and_spend_extension/master/"
+"images/budget-contract-spend.png)"
 msgstr ""
 
 #: ../README.md:47
@@ -206,8 +202,8 @@ msgstr ""
 #: ../README.md:51
 msgid ""
 "This does not represent a linear sequence of events. Data may become "
-"available at different points in time, such as when budgeting takes place on"
-" an annual cycle, but contracts are signed to cover multiple years. In such "
+"available at different points in time, such as when budgeting takes place on "
+"an annual cycle, but contracts are signed to cover multiple years. In such "
 "cases, the budget information in the `planning` section of an OCDS "
 "contracting process may be updated after contracts are awarded and being "
 "implemented."
@@ -215,8 +211,8 @@ msgstr ""
 
 #: ../README.md:53
 msgid ""
-"Budget and spend data may be provided at varying levels of granularity, from"
-" a single budget line that funds multiple contracting processes, to the "
+"Budget and spend data may be provided at varying levels of granularity, from "
+"a single budget line that funds multiple contracting processes, to the "
 "fiscal classification of individual items of spend against a particular "
 "contract. Data publishers will vary as to the level of detail that can be "
 "extracted reliably from their systems."
@@ -241,10 +237,9 @@ msgstr ""
 
 #: ../README.md:59
 msgid ""
-"![Transaction and contracting process "
-"mapping](https://raw.githubusercontent.com/open-contracting-"
-"extensions/ocds_budget_and_spend_extension/master/images/transaction-"
-"contracting_process.png)"
+"![Transaction and contracting process mapping](https://raw.githubusercontent."
+"com/open-contracting-extensions/ocds_budget_and_spend_extension/master/"
+"images/transaction-contracting_process.png)"
 msgstr ""
 
 #: ../README.md:61
@@ -281,11 +276,11 @@ msgstr ""
 #: ../README.md:71
 msgid ""
 "The [Fiscal Data Package](https://frictionlessdata.io/specs/fiscal-data-"
-"package/), developed by Open Knowledge with the support of "
-"[GIFT](http://www.fiscaltransparency.net/), provides *\"a lightweight and "
-"user-oriented format for publishing and consuming fiscal data\"*. Unlike "
-"OCDS, which requires data to be converted to a set JSON structure before "
-"publication, a Fiscal Data Package consists of:"
+"package/), developed by Open Knowledge with the support of [GIFT](http://www."
+"fiscaltransparency.net/), provides *\"a lightweight and user-oriented format "
+"for publishing and consuming fiscal data\"*. Unlike OCDS, which requires "
+"data to be converted to a set JSON structure before publication, a Fiscal "
+"Data Package consists of:"
 msgstr ""
 
 #: ../README.md:73
@@ -304,21 +299,20 @@ msgstr ""
 
 #: ../README.md:76
 msgid ""
-"Considerable research and user-testing has taken place to develop the Fiscal"
-" Data Package, establishing that, instead of seeking agreement on some "
-"global set of fiscal concepts, it is important, given the diversity of "
-"budget and spending systems around the world, to allow publishers to provide"
-" data using their existing fiscal concepts, and to then annotate these with "
-"additional data that can progressively support comparison and analysis "
-"across datasets."
+"Considerable research and user-testing has taken place to develop the Fiscal "
+"Data Package, establishing that, instead of seeking agreement on some global "
+"set of fiscal concepts, it is important, given the diversity of budget and "
+"spending systems around the world, to allow publishers to provide data using "
+"their existing fiscal concepts, and to then annotate these with additional "
+"data that can progressively support comparison and analysis across datasets."
 msgstr ""
 
 #: ../README.md:78
 msgid ""
 "To avoid duplication of effort by data publishers and consumers, this "
 "extension defers to the Fiscal Data Package model with respect to the "
-"definition of fiscal concepts, and follows FDP's approach of allowing use of"
-" existing data column names. Whilst FDP makes no direct distinction between "
+"definition of fiscal concepts, and follows FDP's approach of allowing use of "
+"existing data column names. Whilst FDP makes no direct distinction between "
 "\"classifications\" and \"measures\", considering both to be instances of "
 "\"fiscal concepts\", in this extension we do draw a distinction to allow "
 "measures to be validated as numerical, whilst classifications can take "
@@ -327,13 +321,13 @@ msgstr ""
 
 #: ../README.md:80
 msgid "Background"
-msgstr ""
+msgstr "Contexte"
 
 #: ../README.md:82
 msgid ""
 "A full exploration of the approach taken in this extension can be found in "
-"the [background discussion "
-"paper](https://docs.google.com/document/d/1b43JeG5YQ62tGTTbP7jTE4XqUxYzG-r-emgRILZPRn4/edit)."
+"the [background discussion paper](https://docs.google.com/document/"
+"d/1b43JeG5YQ62tGTTbP7jTE4XqUxYzG-r-emgRILZPRn4/edit)."
 msgstr ""
 
 #: ../README.md:84
@@ -360,10 +354,10 @@ msgstr ""
 
 #: ../README.md:92
 msgid ""
-"U3: As a civil society organization focused on infrastructure I want to find"
-" all the contracting processes related to a given infrastructure programme "
-"or project so that I can carry out a review of compliance with "
-"infrastructure project transparency requirements."
+"U3: As a civil society organization focused on infrastructure I want to find "
+"all the contracting processes related to a given infrastructure programme or "
+"project so that I can carry out a review of compliance with infrastructure "
+"project transparency requirements."
 msgstr ""
 
 #: ../README.md:94
@@ -409,8 +403,8 @@ msgstr ""
 #: ../README.md:106
 msgid ""
 "U9: As a civil society organization I want to identify how far particular "
-"budget lines have spend allocated against them, and the status of that spend"
-" over time so that I can report on areas of over or under spending."
+"budget lines have spend allocated against them, and the status of that spend "
+"over time so that I can report on areas of over or under spending."
 msgstr ""
 
 #: ../README.md:108
@@ -446,20 +440,18 @@ msgstr ""
 msgid ""
 "**Requirement met?**: Yes. BudgetBreakdown is extended with a flexible "
 "`classifications` object that can include any number of classification "
-"properties, mirroring the terms and column names used within budget "
-"datasets."
+"properties, mirroring the terms and column names used within budget datasets."
 msgstr ""
 
 #: ../README.md:118
 msgid ""
-"R2: Uniquely identify the projects providing funding to a contracting "
-"process"
+"R2: Uniquely identify the projects providing funding to a contracting process"
 msgstr ""
 
 #: ../README.md:119
 msgid ""
-"**Requirement met?**: Partially. No changes are currently introduced to meet"
-" this use case. The core budget object already includes a `projectID` field."
+"**Requirement met?**: Partially. No changes are currently introduced to meet "
+"this use case. The core budget object already includes a `projectID` field."
 msgstr ""
 
 #: ../README.md:120
@@ -496,20 +488,19 @@ msgstr ""
 
 #: ../README.md:125
 msgid ""
-"**Requirement met?**: Partial. The `measures` in "
-"`financialProgress.breakdown` for each contract can be used to describe "
-"different moments of payment processing. However, this only provides a full "
-"history of the timing of payment processes when used with a detailed version"
-" history of releases. An alternative approach of adding details of "
-"`transactions` to represent different moments such as requests for payment "
-"and payment approvals has not been included in this extension, but may be "
-"developed separately in future."
+"**Requirement met?**: Partial. The `measures` in `financialProgress."
+"breakdown` for each contract can be used to describe different moments of "
+"payment processing. However, this only provides a full history of the timing "
+"of payment processes when used with a detailed version history of releases. "
+"An alternative approach of adding details of `transactions` to represent "
+"different moments such as requests for payment and payment approvals has not "
+"been included in this extension, but may be developed separately in future."
 msgstr ""
 
 #: ../README.md:126
 msgid ""
-"R6: Allow individual amount allocations of budget to contract within OCDS to"
-" be checked against overall budget line allocations in a budget dataset"
+"R6: Allow individual amount allocations of budget to contract within OCDS to "
+"be checked against overall budget line allocations in a budget dataset"
 msgstr ""
 
 #: ../README.md:127
@@ -535,18 +526,21 @@ msgstr ""
 
 #: ../README.md:131
 msgid "Issues"
-msgstr ""
+msgstr "Problèmes"
 
 #: ../README.md:133
 msgid ""
-"Report issues for this extension in the [ocds-extensions "
-"repository](https://github.com/open-contracting/ocds-extensions/issues), "
-"putting the extension's name in the issue's title."
+"Report issues for this extension in the [ocds-extensions repository](https://"
+"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
+"name in the issue's title."
 msgstr ""
+"Signalez les problèmes concernant cette extension dans le [répertoire "
+"ocds](https://github.com/open-contracting/ocds-extensions/issues), en "
+"mettant le nom de l'extension dans le titre du signalement."
 
 #: ../README.md:135
 msgid "Changelog"
-msgstr ""
+msgstr "Journal des modifications"
 
 #: ../README.md:137
 msgid "2020-06-04"

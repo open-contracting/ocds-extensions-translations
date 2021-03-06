@@ -2,26 +2,20 @@
 # Copyright (C) 2021 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
-# 
-# Translators:
-# James McKinney, 2020
-# Maria Esther Cervantes <mcervantes@cds.com.py>, 2020
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-03-05 17:32-0500\n"
-"PO-Revision-Date: 2020-08-20 21:03+0000\n"
-"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2020\n"
-"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
-"Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: codelists/methodOfPayment.csv codelists/participationFeeType.csv
 msgid "Code"
@@ -73,8 +67,8 @@ msgstr "Débito directo"
 #. Description
 #: codelists/methodOfPayment.csv:4
 msgid ""
-"The payment is made by direct debit, also known as direct withdrawal, pre-"
-"authorized debit (PAD) or pre-authorized payment (PAP)."
+"The payment is made by direct debit, also known as direct withdrawal, "
+"pre-authorized debit (PAD) or pre-authorized payment (PAP)."
 msgstr ""
 "El pago se hace por medio de débito directo, también conocido como retiro "
 "directo, débito preautorizado (PAD) o pago preautorizado (PAP)."
@@ -97,8 +91,8 @@ msgstr "Transferencia bancaria"
 #. Description
 #: codelists/methodOfPayment.csv:6
 msgid ""
-"The payment is made by wire transfer, also known as bank transfer or credit "
-"transfer."
+"The payment is made by wire transfer, also known as bank transfer or "
+"credit transfer."
 msgstr ""
 "El pago se hace por transferencia bancaria, también conocida como "
 "transferencia de crédito."
@@ -111,7 +105,8 @@ msgstr "Documento"
 #. Description
 #: codelists/participationFeeType.csv:1
 msgid "A fee payable for access to bidding documents."
-msgstr "Una cuota para acceder a los documentos de oferta"
+msgstr ""
+"Una cuota/cargo que se debe pagar para acceder a los documentos de oferta"
 
 #. Title
 #: codelists/participationFeeType.csv:2
@@ -121,7 +116,7 @@ msgstr "Depósito"
 #. Description
 #: codelists/participationFeeType.csv:2
 msgid "A refundable fee payable for the submission of bids."
-msgstr "Una cuota reembolsable que se debe pagar para para hacer una oferta."
+msgstr "Una cuota/cargo reembolsable que se debe pagar para hacer una oferta."
 
 #. Title
 #: codelists/participationFeeType.csv:3
@@ -131,7 +126,8 @@ msgstr "Presentación de oferta"
 #. Description
 #: codelists/participationFeeType.csv:3
 msgid "A non-refundable fee payable for the submission of bids."
-msgstr "Una cuota no reembolsable para pagar para hacer una oferta."
+msgstr ""
+"Una cuota/cargo no-reembolsable que se debe pagar para hacer una oferta."
 
 #. Title
 #: codelists/participationFeeType.csv:4
@@ -141,4 +137,4 @@ msgstr "Triunfo"
 #. Description
 #: codelists/participationFeeType.csv:4
 msgid "A fee payable by the winning bidder."
-msgstr "Una cuota que se debe pagar por el ganador de la oferta."
+msgstr "Una cuota/cargo que debe pagar el ofertante ganador"

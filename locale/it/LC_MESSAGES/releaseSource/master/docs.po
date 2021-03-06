@@ -1,21 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C)
+# Copyright (C) 
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python\n"
+"Project-Id-Version: Python \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 17:31-0500\n"
-"PO-Revision-Date: 2019-03-20 19:04+0000\n"
-"Language-Team: Italian (https://www.transifex.com/open-contracting-partnership-1/teams/112300/it/)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../README.md:1
 msgid "Sources"
@@ -42,38 +41,37 @@ msgstr ""
 
 #: ../README.md:7
 msgid ""
-"Different systems can be responsible for different stages of the contracting"
-" process, published in different releases; for example, budget data from a "
+"Different systems can be responsible for different stages of the contracting "
+"process, published in different releases; for example, budget data from a "
 "Ministry of Finance system, and solicitation data from a Public Procurement "
 "Agency system."
 msgstr ""
 
 #: ../README.md:8
 msgid ""
-"Different systems can cover different periods; for example, older data might"
-" not be migrated into a newer system."
+"Different systems can cover different periods; for example, older data might "
+"not be migrated into a newer system."
 msgstr ""
 
 #: ../README.md:10
 msgid ""
-"Data's provenance is relevant to many use cases, including data "
-"verification."
+"Data's provenance is relevant to many use cases, including data verification."
 msgstr ""
 
 #: ../README.md:12
 msgid ""
 "To satisfy such use cases, this extension adds a `sources` array to the "
-"release schema, in which the publisher can list the information systems from"
-" which the data in the release originates."
+"release schema, in which the publisher can list the information systems from "
+"which the data in the release originates."
 msgstr ""
 
 #: ../README.md:14
 msgid "Example"
-msgstr ""
+msgstr "Esempio"
 
 #: ../README.md:33
 msgid "Usage notes"
-msgstr ""
+msgstr "Note per l'utilizzo"
 
 #: ../README.md:35
 msgid ""
@@ -89,7 +87,7 @@ msgstr ""
 
 #: ../README.md:39
 msgid "Changelog"
-msgstr ""
+msgstr "Storico delle modifiche"
 
 #: ../README.md:41
 msgid ""

@@ -1,31 +1,24 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C)
+# Copyright (C) 
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# James McKinney, 2019
-# Maria Esther Cervantes <mcervantes@cds.com.py>, 2019
-# Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2019
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python\n"
+"Project-Id-Version: Python \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 17:31-0500\n"
-"PO-Revision-Date: 2019-03-14 18:26+0000\n"
-"Last-Translator: Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2019\n"
-"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../README.md:1
 msgid "Participation fees"
-msgstr "Costos de participación"
+msgstr "Cuotas de participación"
 
 #: ../README.md:3
 msgid "Background"
@@ -60,7 +53,7 @@ msgstr ""
 
 #: ../README.md:11
 msgid "Extension fields"
-msgstr "Campos de la extensión"
+msgstr "Campos de extensión"
 
 #: ../README.md:13
 msgid ""
@@ -110,9 +103,9 @@ msgid ""
 "strings, but an open codelist may be introduced in future."
 msgstr ""
 "`methodOfPayment` - un campo opcional que proporciona información sobre los "
-"métodos de pago aceptados para la documentación. Actualmente se trata de una"
-" serie de cadenas, pero se podría introducir una lista de códigos abierta en"
-" el futuro."
+"métodos de pago aceptados para la documentación. Actualmente se trata de una "
+"serie de cadenas, pero se podría introducir una lista de códigos abierta en "
+"el futuro."
 
 #: ../README.md:24
 msgid "Extension codelists"
@@ -123,8 +116,8 @@ msgid ""
 "This extension adds **closed** `participationFeeType` codelist with the "
 "following codes:"
 msgstr ""
-"Esta extensión agrega una lista de códigos **cerrada** "
-"`participationFeeType` con los siguientes códigos:"
+"Esta extensión agrega una lista de códigos **cerrada** `participationFeeType`"
+" con los siguientes códigos:"
 
 #: ../README.md:28
 msgid "document - a fee payable for access to bidding documents"
@@ -133,14 +126,12 @@ msgstr ""
 
 #: ../README.md:29
 msgid "deposit - a refundable fee payable for the submission of bids"
-msgstr ""
-"deposit - una cuota reembolsable a pagar por la presentación de ofertas"
+msgstr "deposit - una cuota reembolsable a pagar por la presentación de ofertas"
 
 #: ../README.md:30
 msgid "submission - a non-refundable fee payable for the submission of bids"
 msgstr ""
-"submission - una cuota no reembolsable a pagar por la presentación de "
-"ofertas"
+"submission - una cuota no reembolsable a pagar por la presentación de ofertas"
 
 #: ../README.md:31
 msgid "win - a fee payable by the winning bidder"
@@ -166,8 +157,8 @@ msgstr "Notas de uso"
 #: ../README.md:66
 msgid ""
 "In some cases, a fee may be levied for 'official copies' of procurement "
-"documents (although copies may also be available freely online), and bidders"
-" required to prove they have paid for an official copy of the documents as "
+"documents (although copies may also be available freely online), and bidders "
+"required to prove they have paid for an official copy of the documents as "
 "part of their submission."
 msgstr ""
 "En algunos casos, se puede cobrar una cuota por las \"copias oficiales\" de "
@@ -180,8 +171,8 @@ msgid ""
 "In this case, the fee should be modelled as a **submission** fee, as "
 "submission is only possible when this document access fee has been paid."
 msgstr ""
-"En este caso, la cuota debe ser modelada como un cargo de **oferta**, ya que"
-" la presentación sólo es posible cuando se ha pagado la cuota de acceso al "
+"En este caso, la cuota debe ser modelada como un cargo de **oferta**, ya que "
+"la presentación sólo es posible cuando se ha pagado la cuota de acceso al "
 "documento."
 
 #: ../README.md:70
@@ -190,9 +181,9 @@ msgstr "Issues"
 
 #: ../README.md:72
 msgid ""
-"Report issues for this extension in the [ocds-extensions "
-"repository](https://github.com/open-contracting/ocds-extensions/issues), "
-"putting the extension's name in the issue's title."
+"Report issues for this extension in the [ocds-extensions repository](https://"
+"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
+"name in the issue's title."
 msgstr ""
 "Reporte issues para esta extensión en el [repositorio de extensiones "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
@@ -213,7 +204,7 @@ msgstr ""
 
 #: ../README.md:79
 msgid "Update extension.json for Extension Explorer"
-msgstr "Actualizar extension.json para Extension Explorer"
+msgstr "Añadir extension.json para el Extension Explorer"
 
 #: ../README.md:81
 msgid "v1.1.3"

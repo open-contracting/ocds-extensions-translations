@@ -1,25 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C)
+# Copyright (C) 
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# James McKinney, 2019
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python\n"
+"Project-Id-Version: Python \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 17:31-0500\n"
-"PO-Revision-Date: 2019-03-14 18:27+0000\n"
-"Last-Translator: James McKinney, 2019\n"
-"Language-Team: Italian (https://www.transifex.com/open-contracting-partnership-1/teams/112300/it/)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../README.md:1
 msgid "Tariffs"
@@ -44,8 +39,7 @@ msgstr ""
 
 #: ../README.md:9
 msgid ""
-"The tariff extension allows a structured list of these charges to be set "
-"out."
+"The tariff extension allows a structured list of these charges to be set out."
 msgstr ""
 
 #: ../README.md:11
@@ -85,15 +79,15 @@ msgstr ""
 msgid ""
 "For example, if the toll for a road bridge varies based on (a) the type of "
 "vehicle; and (b) the time of day; an implementation of the tariff extension "
-"may create new fields for `dimensions.vehicleType` and "
-"`dimensions.timeOfDay`, populating these according to local codelists. In "
-"PPP cases, these additional dimensions may mirror those used in the "
-"estimated demand and other metrics sections."
+"may create new fields for `dimensions.vehicleType` and `dimensions."
+"timeOfDay`, populating these according to local codelists. In PPP cases, "
+"these additional dimensions may mirror those used in the estimated demand "
+"and other metrics sections."
 msgstr ""
 
 #: ../README.md:24
 msgid "Example"
-msgstr ""
+msgstr "Esempio"
 
 #: ../README.md:26
 msgid ""
@@ -126,10 +120,9 @@ msgstr ""
 #: ../README.md:95
 msgid ""
 "tariffReview - For summarizing the arrangements for the review and "
-"regulation of tariffs, and linking to detailed documentation that covers how"
-" tariffs are regulated. This is important to explain to users why they are "
-"paying what they are paying, and the scope for changes to payment "
-"structures."
+"regulation of tariffs, and linking to detailed documentation that covers how "
+"tariffs are regulated. This is important to explain to users why they are "
+"paying what they are paying, and the scope for changes to payment structures."
 msgstr ""
 
 #: ../README.md:96
@@ -146,9 +139,9 @@ msgstr "Problemi (issues)"
 
 #: ../README.md:100
 msgid ""
-"Report issues for this extension in the [ocds-extensions "
-"repository](https://github.com/open-contracting/ocds-extensions/issues), "
-"putting the extension's name in the issue's title."
+"Report issues for this extension in the [ocds-extensions repository](https://"
+"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
+"name in the issue's title."
 msgstr ""
 "Segnala i problemi per questa estensione nel [repository ocds-"
 "extensions](https://github.com/open-contracting/ocds-extensions/issues), "
@@ -198,9 +191,8 @@ msgstr ""
 
 #: ../README.md:120
 msgid ""
-"Make `Tariff.id` required to support revision tracking and [list "
-"merging](http://standard.open-"
-"contracting.org/latest/en/schema/merging/#lists)"
+"Make `Tariff.id` required to support revision tracking and [list merging]"
+"(http://standard.open-contracting.org/latest/en/schema/merging/#lists)"
 msgstr ""
 
 #: ../README.md:122

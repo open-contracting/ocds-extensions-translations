@@ -1,25 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C)
+# Copyright (C) 
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# James McKinney, 2019
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python\n"
+"Project-Id-Version: Python \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 17:31-0500\n"
-"PO-Revision-Date: 2019-03-14 18:30+0000\n"
-"Last-Translator: James McKinney, 2019\n"
-"Language-Team: Italian (https://www.transifex.com/open-contracting-partnership-1/teams/112300/it/)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../README.md:1
 msgid "extendsContractID"
@@ -52,8 +47,8 @@ msgstr ""
 #: ../README.md:11
 msgid ""
 "Use this extension **only** in cases where there is a substantive **new "
-"contract** signed as the extension of a previous contract. In most cases, an"
-" update to the value or duration of a contract should be modelled as an "
+"contract** signed as the extension of a previous contract. In most cases, an "
+"update to the value or duration of a contract should be modelled as an "
 "amendment within a single entry in the contracts array."
 msgstr ""
 
@@ -90,9 +85,8 @@ msgstr ""
 
 #: ../README.md:112
 msgid ""
-"![Paraguay "
-"Example](https://cloud.githubusercontent.com/assets/342624/9915392/aecb1e52"
-"-5cae-11e5-9824-a6eb616e568b.png)"
+"![Paraguay Example](https://cloud.githubusercontent.com/"
+"assets/342624/9915392/aecb1e52-5cae-11e5-9824-a6eb616e568b.png)"
 msgstr ""
 
 #: ../README.md:114
@@ -101,9 +95,9 @@ msgstr "Problemi (issues)"
 
 #: ../README.md:116
 msgid ""
-"Report issues for this extension in the [ocds-extensions "
-"repository](https://github.com/open-contracting/ocds-extensions/issues), "
-"putting the extension's name in the issue's title."
+"Report issues for this extension in the [ocds-extensions repository](https://"
+"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
+"name in the issue's title."
 msgstr ""
 "Segnala i problemi per questa estensione nel [repository ocds-"
 "extensions](https://github.com/open-contracting/ocds-extensions/issues), "
@@ -111,7 +105,7 @@ msgstr ""
 
 #: ../README.md:118
 msgid "Changelog"
-msgstr ""
+msgstr "Storico delle modifiche"
 
 #: ../README.md:120
 msgid "2020-06-04"

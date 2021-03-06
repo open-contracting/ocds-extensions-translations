@@ -1,25 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C)
+# Copyright (C) 
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# James McKinney, 2019
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python\n"
+"Project-Id-Version: Python \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 17:31-0500\n"
-"PO-Revision-Date: 2019-03-14 18:28+0000\n"
-"Last-Translator: James McKinney, 2019\n"
-"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../README.md:1
 msgid "Charges"
@@ -28,8 +23,8 @@ msgstr "Cargos"
 #: ../README.md:3
 msgid ""
 "The charges extension is used to record details of the **total** charges "
-"that are estimated or applied to users or government during the operation of"
-" a Public Private Partnership contract."
+"that are estimated or applied to users or government during the operation of "
+"a Public Private Partnership contract."
 msgstr ""
 "La extensión de cargos se utiliza para registrar detalles de los **cargos "
 "totales** estimados o aplicados a los usuarios o al gobierno durante la "
@@ -45,13 +40,13 @@ msgstr ""
 
 #: ../README.md:7
 msgid ""
-"The Charges extension introduces a `charges` property to "
-"`Contract.implementation`."
+"The Charges extension introduces a `charges` property to `Contract."
+"implementation`."
 msgstr ""
 
 #: ../README.md:9
 msgid "Example"
-msgstr ""
+msgstr "Ejemplo"
 
 #: ../README.md:54
 msgid "Issues"
@@ -59,9 +54,9 @@ msgstr "Issues"
 
 #: ../README.md:56
 msgid ""
-"Report issues for this extension in the [ocds-extensions "
-"repository](https://github.com/open-contracting/ocds-extensions/issues), "
-"putting the extension's name in the issue's title."
+"Report issues for this extension in the [ocds-extensions repository](https://"
+"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
+"name in the issue's title."
 msgstr ""
 "Reporte issues para esta extensión en el [repositorio de extensiones "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
@@ -95,7 +90,6 @@ msgstr ""
 
 #: ../README.md:70
 msgid ""
-"Make `Charge.id` required to support revision tracking and [list "
-"merging](http://standard.open-"
-"contracting.org/latest/en/schema/merging/#lists)"
+"Make `Charge.id` required to support revision tracking and [list merging]"
+"(http://standard.open-contracting.org/latest/en/schema/merging/#lists)"
 msgstr ""

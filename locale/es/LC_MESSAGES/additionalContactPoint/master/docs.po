@@ -1,26 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C)
+# Copyright (C) 
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# James McKinney, 2019
-# Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2019
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python\n"
+"Project-Id-Version: Python \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 17:31-0500\n"
-"PO-Revision-Date: 2019-03-14 18:30+0000\n"
-"Last-Translator: Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2019\n"
-"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../README.md:1
 msgid "Additional Contact Points and Contact Point Languages"
@@ -43,8 +37,8 @@ msgstr ""
 #: ../README.md:7
 msgid ""
 "When this extension is used, publishers should include a **primary contact "
-"point** for the `contactPoint` property, on the basis that many applications"
-" will not be aware of the `additionalContactPoints` array. However, if a "
+"point** for the `contactPoint` property, on the basis that many applications "
+"will not be aware of the `additionalContactPoints` array. However, if a "
 "primary contact point can't be determined, all contact points may be "
 "disclosed in the `additionalContactPoints` array."
 msgstr ""
@@ -79,9 +73,9 @@ msgstr "Issues"
 
 #: ../README.md:65
 msgid ""
-"Report issues for this extension in the [ocds-extensions "
-"repository](https://github.com/open-contracting/ocds-extensions/issues), "
-"putting the extension's name in the issue's title."
+"Report issues for this extension in the [ocds-extensions repository](https://"
+"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
+"name in the issue's title."
 msgstr ""
 "Reporte issues para esta extensión en el [repositorio de extensiones "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
@@ -89,7 +83,7 @@ msgstr ""
 
 #: ../README.md:67
 msgid "Changelog"
-msgstr ""
+msgstr "Registro de cambios"
 
 #: ../README.md:69
 msgid "2020-06-04"
@@ -97,7 +91,7 @@ msgstr ""
 
 #: ../README.md:71
 msgid "Review normative and non-normative words"
-msgstr ""
+msgstr "Revisar las palabras normativas y no-normativas"
 
 #: ../README.md:73
 msgid "2020-04-24"

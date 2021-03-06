@@ -1,21 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C)
+# Copyright (C) 
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python\n"
+"Project-Id-Version: Python \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 17:31-0500\n"
-"PO-Revision-Date: 2020-08-20 21:38+0000\n"
-"Language-Team: French (https://www.transifex.com/open-contracting-partnership-1/teams/112300/fr/)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../README.md:1
 msgid "Options"
@@ -39,10 +38,10 @@ msgstr ""
 
 #: ../README.md:9
 msgid ""
-"The `tender.hasOptions` field can be set to `true`, and the "
-"`tender.options.description` field can describe the options for additional "
-"purchases. `hasOptions` and `options` can also be set on `Lot` objects in "
-"the `tender.lots` array."
+"The `tender.hasOptions` field can be set to `true`, and the `tender.options."
+"description` field can describe the options for additional purchases. "
+"`hasOptions` and `options` can also be set on `Lot` objects in the `tender."
+"lots` array."
 msgstr ""
 
 #: ../README.md:11
@@ -59,26 +58,24 @@ msgstr ""
 
 #: ../README.md:15
 msgid ""
-"The [Revised Agreement on Government "
-"Procurement](https://www.wto.org/english/docs_e/legal_e/rev-gpr-94_01_e.htm)"
-" (GPA) includes: \"each notice of intended procurement shall include … d. a "
-"description of any options\"."
+"The [Revised Agreement on Government Procurement](https://www.wto.org/"
+"english/docs_e/legal_e/rev-gpr-94_01_e.htm) (GPA) includes: \"each notice of "
+"intended procurement shall include … d. a description of any options\"."
 msgstr ""
 
 #: ../README.md:17
 msgid ""
-"The European Union is a "
-"[party](https://www.wto.org/english/tratop_e/gproc_e/memobs_e.htm) to the "
-"GPA, and as such its [Directive 2014/24/EU](https://eur-lex.europa.eu/legal-"
-"content/EN/TXT/?uri=uriserv:OJ.L_.2014.094.01.0065.01.ENG) (Public contracts"
-" — setting out clear ground rules) includes: \"Part C: Information to be "
-"included in contract notices … 7. … Where appropriate, description of any "
-"options.\""
+"The European Union is a [party](https://www.wto.org/english/tratop_e/gproc_e/"
+"memobs_e.htm) to the GPA, and as such its [Directive 2014/24/EU](https://eur-"
+"lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.094.01.0065.01."
+"ENG) (Public contracts — setting out clear ground rules) includes: \"Part C: "
+"Information to be included in contract notices … 7. … Where appropriate, "
+"description of any options.\""
 msgstr ""
 
 #: ../README.md:19
 msgid "Example"
-msgstr ""
+msgstr "Exemple"
 
 #: ../README.md:35
 msgid "Footnotes"
@@ -86,25 +83,28 @@ msgstr ""
 
 #: ../README.md:37
 msgid ""
-"¹ Usage guidance is adapted from [eForms technical "
-"specifications](http://ec.europa.eu/growth/content/targeted-consultation-"
-"eforms-next-generation-public-procurement-standard-forms-0_en)."
+"¹ Usage guidance is adapted from [eForms technical specifications](http://ec."
+"europa.eu/growth/content/targeted-consultation-eforms-next-generation-public-"
+"procurement-standard-forms-0_en)."
 msgstr ""
 
 #: ../README.md:39
 msgid "Issues"
-msgstr ""
+msgstr "Problèmes"
 
 #: ../README.md:41
 msgid ""
-"Report issues for this extension in the [ocds-extensions "
-"repository](https://github.com/open-contracting/ocds-extensions/issues), "
-"putting the extension's name in the issue's title."
+"Report issues for this extension in the [ocds-extensions repository](https://"
+"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
+"name in the issue's title."
 msgstr ""
+"Signalez les problèmes concernant cette extension dans le [répertoire "
+"ocds](https://github.com/open-contracting/ocds-extensions/issues), en "
+"mettant le nom de l'extension dans le titre du signalement."
 
 #: ../README.md:43
 msgid "Changelog"
-msgstr ""
+msgstr "Journal des modifications"
 
 #: ../README.md:45
 msgid "2020-10-06"
@@ -124,9 +124,9 @@ msgstr ""
 
 #: ../README.md:53
 msgid ""
-"This extension was originally discussed as part of the [OCDS for EU "
-"profile](https://github.com/open-contracting-extensions/european-"
-"union/issues), in [pull requests](https://github.com/open-contracting-"
-"extensions/ocds_options_extension/pulls?q=is%3Apr+is%3Aclosed) and in "
-"<https://github.com/open-contracting/standard/issues/691>."
+"This extension was originally discussed as part of the [OCDS for EU profile]"
+"(https://github.com/open-contracting-extensions/european-union/issues), in "
+"[pull requests](https://github.com/open-contracting-extensions/"
+"ocds_options_extension/pulls?q=is%3Apr+is%3Aclosed) and in <https://github."
+"com/open-contracting/standard/issues/691>."
 msgstr ""

@@ -1,21 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C)
+# Copyright (C) 
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python\n"
+"Project-Id-Version: Python \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 17:31-0500\n"
-"PO-Revision-Date: 2020-08-20 20:49+0000\n"
-"Language-Team: French (https://www.transifex.com/open-contracting-partnership-1/teams/112300/fr/)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../README.md:1
 msgid "Renewal"
@@ -35,13 +34,13 @@ msgstr ""
 msgid ""
 "In the European Union, this extension's fields correspond to [eForms BT-57 "
 "(Renewal Description)](https://github.com/eForms/eForms). See [OCDS for the "
-"European Union](http://standard.open-contracting.org/profiles/eu/master/en/)"
-" for the correspondences to Tenders Electronic Daily (TED)."
+"European Union](http://standard.open-contracting.org/profiles/eu/master/en/) "
+"for the correspondences to Tenders Electronic Daily (TED)."
 msgstr ""
 
 #: ../README.md:9
 msgid "Guidance"
-msgstr ""
+msgstr "Conseils d'utilisation"
 
 #: ../README.md:11
 msgid ""
@@ -51,22 +50,25 @@ msgstr ""
 
 #: ../README.md:13
 msgid "Example"
-msgstr ""
+msgstr "Exemple"
 
 #: ../README.md:85
 msgid "Issues"
-msgstr ""
+msgstr "Problèmes"
 
 #: ../README.md:87
 msgid ""
-"Report issues for this extension in the [ocds-extensions "
-"repository](https://github.com/open-contracting/ocds-extensions/issues), "
-"putting the extension's name in the issue's title."
+"Report issues for this extension in the [ocds-extensions repository](https://"
+"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
+"name in the issue's title."
 msgstr ""
+"Signalez les problèmes concernant cette extension dans le [répertoire "
+"ocds](https://github.com/open-contracting/ocds-extensions/issues), en "
+"mettant le nom de l'extension dans le titre du signalement."
 
 #: ../README.md:89
 msgid "Changelog"
-msgstr ""
+msgstr "Journal des modifications"
 
 #: ../README.md:91
 msgid "2021-01-19"
@@ -96,9 +98,9 @@ msgstr ""
 
 #: ../README.md:103
 msgid ""
-"This extension was originally discussed as part of the [OCDS for EU "
-"profile](https://github.com/open-contracting-extensions/european-"
-"union/issues) in [issue 22](https://github.com/open-contracting-extensions"
-"/european-union/issues/22) and in [pull requests](https://github.com/open-"
-"contracting-extensions/ocds_renewal_extension/pulls?q=is%3Apr+is%3Aclosed)."
+"This extension was originally discussed as part of the [OCDS for EU profile]"
+"(https://github.com/open-contracting-extensions/european-union/issues) in "
+"[issue 22](https://github.com/open-contracting-extensions/european-union/"
+"issues/22) and in [pull requests](https://github.com/open-contracting-"
+"extensions/ocds_renewal_extension/pulls?q=is%3Apr+is%3Aclosed)."
 msgstr ""
