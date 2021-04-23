@@ -1,20 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 
+# Copyright (C)
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
+# James McKinney, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 17:31-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-03-14 18:26+0000\n"
+"Last-Translator: James McKinney, 2019\n"
+"Language-Team: French (https://www.transifex.com/open-contracting-partnership-1/teams/112300/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../README.md:1
 msgid "Participation fees"
@@ -29,9 +34,9 @@ msgid ""
 "There are a number of cases where there may be costs to access documents "
 "for, or to participate within, a tender process."
 msgstr ""
-"Il existe un certain nombre de cas où il peut y avoir des coûts pour accéder "
-"aux documents concernant un processus d'appel d'offres ou pour participer à "
-"cet appel d'offres."
+"Il existe un certain nombre de cas où il peut y avoir des coûts pour accéder"
+" aux documents concernant un processus d'appel d'offres ou pour participer à"
+" cet appel d'offres."
 
 #: ../README.md:7
 msgid ""
@@ -47,10 +52,10 @@ msgid ""
 "legal parameters (often set as a fixed maximum, or a percentage of total "
 "contract value), or to monitor how participation fees are being used."
 msgstr ""
-"Les personnes qui contrôlent les appels d'offres peuvent souhaiter s'assurer "
-"que les frais de participation se situent dans des paramètres légaux ("
-"souvent définis comme un maximum fixe ou un pourcentage de la valeur totale "
-"du contrat) ou pour surveiller la manière dont les frais de participation "
+"Les personnes qui contrôlent les appels d'offres peuvent souhaiter s'assurer"
+" que les frais de participation se situent dans des paramètres légaux "
+"(souvent définis comme un maximum fixe ou un pourcentage de la valeur totale"
+" du contrat) ou pour surveiller la manière dont les frais de participation "
 "sont utilisés."
 
 #: ../README.md:11
@@ -81,8 +86,8 @@ msgid ""
 "`type` - a value from the `participationFeeType` codelist, describing the "
 "type of the fee"
 msgstr ""
-"`type` - une valeur de la liste de codes `participationFeeType` décrivant le "
-"type de chaque frais"
+"`type` - une valeur de la liste de codes `participationFeeType` décrivant le"
+" type de chaque frais"
 
 #: ../README.md:20
 msgid "`value` - the amount and currency of the fee"
@@ -95,8 +100,8 @@ msgid ""
 "the hard copy of the documents."
 msgstr ""
 "`description` - un champ optionnel avec plus d'informations sur les frais "
-"requis. Par exemple, parfois, une taxe sur le document s'applique uniquement "
-"à la copie papier des documents."
+"requis. Par exemple, parfois, une taxe sur le document s'applique uniquement"
+" à la copie papier des documents."
 
 #: ../README.md:22
 msgid ""
@@ -163,23 +168,23 @@ msgstr "Notes d'utilisation"
 #: ../README.md:66
 msgid ""
 "In some cases, a fee may be levied for 'official copies' of procurement "
-"documents (although copies may also be available freely online), and bidders "
-"required to prove they have paid for an official copy of the documents as "
+"documents (although copies may also be available freely online), and bidders"
+" required to prove they have paid for an official copy of the documents as "
 "part of their submission."
 msgstr ""
 "Dans certains cas, des frais peuvent être perçus pour les «copies "
-"officielles» des documents du marché (bien que des copies puissent également "
-"être disponibles en ligne) et les candidats doivent prouver qu'ils ont payé "
-"une copie officielle des documents dans le cadre de leur soumission."
+"officielles» des documents du marché (bien que des copies puissent également"
+" être disponibles en ligne) et les candidats doivent prouver qu'ils ont payé"
+" une copie officielle des documents dans le cadre de leur soumission."
 
 #: ../README.md:68
 msgid ""
 "In this case, the fee should be modelled as a **submission** fee, as "
 "submission is only possible when this document access fee has been paid."
 msgstr ""
-"Dans ce cas, les frais devront être modélisés en tant que frais de type \""
-"submission\" car la soumission n'est possible que lorsque cette taxe d'accès "
-"au document a été payée."
+"Dans ce cas, les frais devront être modélisés en tant que frais de type "
+"\"submission\" car la soumission n'est possible que lorsque cette taxe "
+"d'accès au document a été payée."
 
 #: ../README.md:70
 msgid "Issues"
@@ -187,9 +192,9 @@ msgstr "Problèmes"
 
 #: ../README.md:72
 msgid ""
-"Report issues for this extension in the [ocds-extensions repository](https://"
-"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
-"name in the issue's title."
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
 msgstr ""
 "Signalez les problèmes concernant cette extension dans le [répertoire "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), en "

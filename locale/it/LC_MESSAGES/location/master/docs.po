@@ -1,20 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 
+# Copyright (C)
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
+# James McKinney, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 17:31-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-03-14 18:28+0000\n"
+"Last-Translator: James McKinney, 2019\n"
+"Language-Team: Italian (https://www.transifex.com/open-contracting-partnership-1/teams/112300/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../README.md:1
 msgid "Location Data"
@@ -45,8 +50,8 @@ msgstr ""
 
 #: ../README.md:8
 msgid ""
-"`deliveryLocation` - a new block consisting of GeoJSON and Gazetteer entries "
-"to describe a wider range of locations to which the contract line item "
+"`deliveryLocation` - a new block consisting of GeoJSON and Gazetteer entries"
+" to describe a wider range of locations to which the contract line item "
 "relates."
 msgstr ""
 "`deliveryLocation`: è un nuovo blocco costituito da voci in formato GeoJSON "
@@ -56,8 +61,8 @@ msgstr ""
 #: ../README.md:10
 msgid ""
 "The `locationGazetteers.csv` codelist's `Category` column indicates whether "
-"the gazetteer has identifiers for the whole world ('Universal') or only some "
-"subset ('National' or 'Sub-National')."
+"the gazetteer has identifiers for the whole world ('Universal') or only some"
+" subset ('National' or 'Sub-National')."
 msgstr ""
 
 #: ../README.md:12
@@ -90,9 +95,9 @@ msgstr "Problemi (issues)"
 
 #: ../README.md:116
 msgid ""
-"Report issues for this extension in the [ocds-extensions repository](https://"
-"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
-"name in the issue's title."
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
 msgstr ""
 "Segnala i problemi per questa estensione nel [repository ocds-"
 "extensions](https://github.com/open-contracting/ocds-extensions/issues), "

@@ -1,20 +1,28 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 
+# Copyright (C)
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
+# Maria Esther Cervantes <mcervantes@cds.com.py>, 2019
+# Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2019
+# James McKinney, 2021
+# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 17:31-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-03-14 18:30+0000\n"
+"Last-Translator: Natalia Valdez <nataliavaldez@cds.com.py>, 2021\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../README.md:1
 msgid "Contract Suppliers"
@@ -43,6 +51,9 @@ msgid ""
 "`suppliers`. These can be located by looking at the related `Award` using "
 "the `awardID` cross-reference."
 msgstr ""
+"Por esta razón, el principal bloque `Contract` no incluye información sobre "
+"los `suppliers`. Estos se pueden encontrar en el `Award` relacionado usando "
+"la referencia cruzada `awardID`."
 
 #: ../README.md:10
 msgid ""
@@ -61,6 +72,8 @@ msgid ""
 "The Contract Suppliers extension introduces a `contracts.suppliers` array "
 "for this purpose."
 msgstr ""
+"La extensión Proveedores de Contratos introduce la matriz "
+"`contracts.suppliers` para este propósito."
 
 #: ../README.md:14
 msgid "Example"
@@ -80,9 +93,9 @@ msgstr "Issues"
 
 #: ../README.md:116
 msgid ""
-"Report issues for this extension in the [ocds-extensions repository](https://"
-"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
-"name in the issue's title."
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
 msgstr ""
 "Reporte issues para esta extensión en el [repositorio de extensiones "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "

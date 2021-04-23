@@ -2,20 +2,26 @@
 # Copyright (C) 2021 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
-#
+# 
+# Translators:
+# James McKinney, 2019
+# Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-03-05 17:32-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-03-14 18:28+0000\n"
+"Last-Translator: Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2019\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. /name/en
 #: extension.json:1
@@ -25,9 +31,8 @@ msgstr "Extensión OCDS para APPs"
 #. /description/en
 #: extension.json:1
 msgid ""
-"Makes changes required by the OCDS for PPPs profile. Evaluation "
-"indicators, finance summary and project details may be moved into new "
-"extensions."
+"Makes changes required by the OCDS for PPPs profile. Evaluation indicators, "
+"finance summary and project details may be moved into new extensions."
 msgstr ""
 
 #. /definitions/Award/properties/evaluationIndicators/title
@@ -70,9 +75,9 @@ msgstr "Prima de riesgo"
 #. /definitions/EvaluationIndicators/properties/riskPremium/description
 #: release-schema.json:1
 msgid ""
-"The risk premium used by government when evaluating the PPP option "
-"expressed as a decimal fraction (e.g. 3.2% = 0.032). An explanation of "
-"the risk premium used should be provided in the riskPremiumDetails field."
+"The risk premium used by government when evaluating the PPP option expressed"
+" as a decimal fraction (e.g. 3.2% = 0.032). An explanation of the risk "
+"premium used should be provided in the riskPremiumDetails field."
 msgstr ""
 "La prima de riesgo utilizada por el gobierno al evaluar la opción APP "
 "expresada como una fracción decimal (por ejemplo, 3,2% = 0,032). Se debe "
@@ -87,8 +92,8 @@ msgstr "Detalles de la prima de riesgo"
 #. /definitions/EvaluationIndicators/properties/riskPremiumDetails/description
 #: release-schema.json:1
 msgid ""
-"Further details on the risk premium used including an explanation of why "
-"it was used."
+"Further details on the risk premium used including an explanation of why it "
+"was used."
 msgstr ""
 "Más detalles sobre la prima de riesgo utilizada, incluyendo una explicación "
 "de por qué se utilizó."
@@ -102,8 +107,8 @@ msgstr "Tasa de descuento"
 #: release-schema.json:1
 msgid ""
 "The discount rate used by government when evaluating the PPP option "
-"expressed as a decimal fraction (e.g. 3.2% = 0.032). Further details can "
-"be provided in the discountRateDetails field."
+"expressed as a decimal fraction (e.g. 3.2% = 0.032). Further details can be "
+"provided in the discountRateDetails field."
 msgstr ""
 "La tasa de descuento utilizada por el gobierno al evaluar la opción APP "
 "expresada como una fracción decimal (por ejemplo, 3,2% = 0,032). Se pueden "
@@ -127,8 +132,8 @@ msgstr "Valor presente neto"
 #. /definitions/EvaluationIndicators/properties/netPresentValue/description
 #: release-schema.json:1
 msgid ""
-"The discounted value of an investment's cash inflows minus the discounted"
-" value of its cash outflows. Further details can be provided in the "
+"The discounted value of an investment's cash inflows minus the discounted "
+"value of its cash outflows. Further details can be provided in the "
 "netPresentValueRateDetails field."
 msgstr ""
 "El valor descontado de las entradas de efectivo de una inversión menos el "
@@ -154,15 +159,15 @@ msgstr "Proporción de capital de la deuda"
 #: release-schema.json:1
 msgid ""
 "The debt-equity ratio of the project, expressed as a decimal value. The "
-"World Bank PPPIRC defines the debt equity ratio as 'long term debt "
-"(divided by) the shareholder equity of the project company'. Also known "
-"as 'leverage' or 'gearing'. Further details on the debt equity ratio can "
-"be provided in the debtEquityRatioDetails field."
+"World Bank PPPIRC defines the debt equity ratio as 'long term debt (divided "
+"by) the shareholder equity of the project company'. Also known as 'leverage'"
+" or 'gearing'. Further details on the debt equity ratio can be provided in "
+"the debtEquityRatioDetails field."
 msgstr ""
 "La proporción deuda-capital del proyecto, expresada como un valor decimal. "
-"El PPPIRC del Banco Mundial define la proporción de endeudamiento como \""
-"deuda a largo plazo (dividida por) el capital accionario de la empresa del "
-"proyecto\". También conocido como \"apalancamiento\" o \"gearing\". Pueden "
+"El PPPIRC del Banco Mundial define la proporción de endeudamiento como "
+"\"deuda a largo plazo (dividida por) el capital accionario de la empresa del"
+" proyecto\". También conocido como \"apalancamiento\" o \"gearing\". Pueden "
 "proporcionarse más detalles sobre la proporción de capital de deuda en el "
 "campo debtEquityRatioDetails."
 
@@ -174,7 +179,8 @@ msgstr "Detalles de la relación de capital de la deuda"
 #. /definitions/FinanceSummary/properties/debtEquityRatioDetails/description
 #: release-schema.json:1
 msgid "Further details on the calculation of the debt equity ratio."
-msgstr "Más detalles sobre el cálculo de la proporción del capital de la deuda."
+msgstr ""
+"Más detalles sobre el cálculo de la proporción del capital de la deuda."
 
 #. /definitions/FinanceSummary/properties/shareCapital/title
 #: release-schema.json:1
@@ -184,8 +190,8 @@ msgstr "Capital accionario"
 #. /definitions/FinanceSummary/properties/shareCapital/description
 #: release-schema.json:1
 msgid ""
-"The value of the capital in the project that comes from the issue of "
-"shares. Further details on the share capital can be provided in the "
+"The value of the capital in the project that comes from the issue of shares."
+" Further details on the share capital can be provided in the "
 "shareCapitalDetails field."
 msgstr ""
 "El valor del capital en el proyecto que proviene de la emisión de acciones. "
@@ -210,9 +216,9 @@ msgstr "Relación de subsidio"
 #. /definitions/FinanceSummary/properties/subsidyRatio/description
 #: release-schema.json:1
 msgid ""
-"Subsidy as a proportion of project value, expressed as a decimal fraction"
-" (e.g. 3.2% = 0.032). Further details of the subsidy ratio can be "
-"provided in the subsidyRatioDetails field."
+"Subsidy as a proportion of project value, expressed as a decimal fraction "
+"(e.g. 3.2% = 0.032). Further details of the subsidy ratio can be provided in"
+" the subsidyRatioDetails field."
 msgstr ""
 "Subvención como proporción del valor del proyecto, expresada como una "
 "fracción decimal (por ejemplo, 3,2% = 0,032). Se pueden proporcionar más "
@@ -236,13 +242,13 @@ msgstr "Tasa Interna de Retorno del Proyecto"
 #. /definitions/FinanceSummary/properties/projectIRR/description
 #: release-schema.json:1
 msgid ""
-"The internal rate of return of the project, expressed as a decimal "
-"fraction (e.g. 3.2% = 0.032). The APMG PPP Certification Program defines "
-"IRR as 'The rate of return of an investment calculated from its projected"
-" cash flows. The internal rate of return (IRR) is also the discount rate "
-"that equates the present value of a future stream of cash flows to the "
-"initial investment'. Further details on the project IRR can be provided "
-"in the projectIRRDetails field."
+"The internal rate of return of the project, expressed as a decimal fraction "
+"(e.g. 3.2% = 0.032). The APMG PPP Certification Program defines IRR as 'The "
+"rate of return of an investment calculated from its projected cash flows. "
+"The internal rate of return (IRR) is also the discount rate that equates the"
+" present value of a future stream of cash flows to the initial investment'. "
+"Further details on the project IRR can be provided in the projectIRRDetails "
+"field."
 msgstr ""
 "La tasa interna de rendimiento del proyecto, expresada como una fracción "
 "decimal (por ejemplo, 3,2% = 0,032). El Programa de Certificación PPM de "
@@ -250,8 +256,8 @@ msgstr ""
 "a partir de sus flujos de efectivo proyectados. La tasa interna de "
 "rentabilidad (TIR) ​​es también la tasa de descuento que equipara el valor "
 "presente de una corriente futura de flujos de efectivo a la inversión "
-"inicial\" Pueden proporcionarse más detalles sobre la TIR del proyecto en el "
-"campo projectIRRdetails."
+"inicial\" Pueden proporcionarse más detalles sobre la TIR del proyecto en el"
+" campo projectIRRdetails."
 
 #. /definitions/FinanceSummary/properties/projectIRRDetails/title
 #: release-schema.json:1

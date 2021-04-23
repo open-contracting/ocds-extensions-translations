@@ -1,42 +1,55 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 
+# Copyright (C)
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
+# James McKinney, 2021
+# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 17:31-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2020-08-20 21:56+0000\n"
+"Last-Translator: Natalia Valdez <nataliavaldez@cds.com.py>, 2021\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../README.md:1
 msgid "Award criteria breakdown"
-msgstr ""
+msgstr "Desglose de los criterios de adjudicación"
 
 #: ../README.md:3
 msgid ""
-"Adds an award criteria array to the lot object, to break down award criteria "
-"by price, cost and quality."
+"Adds an award criteria array to the lot object, to break down award criteria"
+" by price, cost and quality."
 msgstr ""
+"Agrega una matriz de criterios de adjudicación al objeto lote, para "
+"desglosar los criterios de adjudicación por precio, costo y calidad."
 
 #: ../README.md:5
 msgid "Legal context"
-msgstr ""
+msgstr "Contexto legal"
 
 #: ../README.md:7
 msgid ""
 "In the European Union, this extension's fields correspond to [eForms BG-707 "
 "(Award Criteria)](https://github.com/eForms/eForms). See [OCDS for the "
-"European Union](http://standard.open-contracting.org/profiles/eu/master/en/) "
-"for the correspondences to Tenders Electronic Daily (TED)."
+"European Union](http://standard.open-contracting.org/profiles/eu/master/en/)"
+" for the correspondences to Tenders Electronic Daily (TED)."
 msgstr ""
+"En la Unión Europea, los campos de esta extensión corresponden a [eForms "
+"BG-707 (Award Criteria)] (https://github.com/eForms/eForms). Consulte [OCDS "
+"para la Unión Europea] (http://standard.open-"
+"contracting.org/profiles/eu/master/en/) para ver las correspondencias con "
+"Tenders Electronic Daily (TED)."
 
 #: ../README.md:9
 msgid ""
@@ -44,6 +57,9 @@ msgid ""
 "[Article 67](https://eur-lex.europa.eu/eli/dir/2014/24/oj#d1e5950-65-1)(5) "
 "describes weightings and orders of importance."
 msgstr ""
+"[Directiva 2014/24/EU](https://eur-lex.europa.eu/eli/dir/2014/24/oj) "
+"[Artículo 67](https://eur-lex.europa.eu/eli/dir/2014/24/oj#d1e5950-65-1)(5) "
+"describe ponderaciones y órdenes de importancia."
 
 #: ../README.md:11
 msgid "Examples"
@@ -51,20 +67,23 @@ msgstr "Ejemplos"
 
 #: ../README.md:13
 msgid "Weight"
-msgstr ""
+msgstr "Peso"
 
 #: ../README.md:15
 msgid "These award criteria are 50% service quality and 50% price."
 msgstr ""
+"Estos criterios de adjudicación son 50% calidad de servicio y 50% precio."
 
 #: ../README.md:53
 msgid "Fixed"
-msgstr ""
+msgstr "Fijado"
 
 #: ../README.md:55
 msgid ""
 "The price is fixed at $100,000, such that tenderers compete on quality only."
 msgstr ""
+"El precio es fijado a $100,000, de manera que los licitadores compitan "
+"únicamente en calidad."
 
 #: ../README.md:97
 msgid "Issues"
@@ -72,9 +91,9 @@ msgstr "Issues"
 
 #: ../README.md:99
 msgid ""
-"Report issues for this extension in the [ocds-extensions repository](https://"
-"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
-"name in the issue's title."
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
 msgstr ""
 "Reporte issues para esta extensión en el [repositorio de extensiones "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
@@ -86,20 +105,29 @@ msgstr "Registro de cambios"
 
 #: ../README.md:103
 msgid "2020-04-24"
-msgstr ""
+msgstr "2020-04-24"
 
 #: ../README.md:105
 msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
-msgstr ""
+msgstr "Agregar las propiedades `minProperties`, `minItems` y/o `minLength`."
 
 #: ../README.md:107
 msgid ""
 "This model was discussed in <https://github.com/eForms/eForms/issues/119>, "
 "<https://github.com/eprocurementontology/eprocurementontology/issues/157> "
-"and <https://github.com/eprocurementontology/eprocurementontology/"
-"issues/203>. This extension was originally discussed as part of the [OCDS "
-"for EU profile](https://github.com/open-contracting-extensions/european-"
+"and "
+"<https://github.com/eprocurementontology/eprocurementontology/issues/203>. "
+"This extension was originally discussed as part of the [OCDS for EU "
+"profile](https://github.com/open-contracting-extensions/european-"
 "union/issues), in [pull requests](https://github.com/open-contracting-"
 "extensions/ocds_awardCriteria_extension/pulls?q=is%3Apr+is%3Aclosed) and in "
 "<https://github.com/open-contracting/standard/issues/443>."
 msgstr ""
+"Este modelo fue discutido en <https://github.com/eForms/eForms/issues/119>, "
+"<https://github.com/eprocurementontology/eprocurementontology/issues/157> y "
+"<https://github.com/eprocurementontology/eprocurementontology/issues/203>. "
+"Esta extensión fue discutida originalmente como parte de [OCDS para el "
+"perfil de la UE](https://github.com/open-contracting-extensions/european-"
+"union/issues), en [pull requests](https://github.com/open-contracting-"
+"extensions/ocds_awardCriteria_extension/pulls?q=is%3Apr+is%3Aclosed) y en "
+"<https://github.com/open-contracting/standard/issues/443>."

@@ -2,54 +2,62 @@
 # Copyright (C) 2021 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
-#
+# 
+# Translators:
+# James McKinney, 2021
+# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-03-05 17:31-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2020-08-20 21:56+0000\n"
+"Last-Translator: Natalia Valdez <nataliavaldez@cds.com.py>, 2021\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. /name/en
 #: extension.json:1
 msgid "Award criteria breakdown"
-msgstr ""
+msgstr "Desglose de los criterios de adjudicación"
 
 #. /description/en
 #: extension.json:1
 msgid ""
-"Adds an award criteria array to the lot object, to break down award "
-"criteria by price, cost and quality."
+"Adds an award criteria array to the lot object, to break down award criteria"
+" by price, cost and quality."
 msgstr ""
+"Agrega una matriz de criterios de adjudicación al objeto lote, para "
+"desglosar los criterios de adjudicación por precio, costo y calidad."
 
 #. /definitions/Lot/properties/awardCriteria/title
 #. /definitions/AwardCriteria/title
 #. /definitions/AwardCriteria/properties/criteria/title
 #: release-schema.json:1
 msgid "Award criteria"
-msgstr ""
+msgstr "Criterio de adjudicación"
 
 #. /definitions/Lot/properties/awardCriteria/description
 #: release-schema.json:1
 msgid "Information about the award criteria for the lot."
-msgstr ""
+msgstr "Información acerca del criterio de adjudicación del lote."
 
 #. /definitions/AwardCriteria/description
 #: release-schema.json:1
 msgid "Information about the award criteria."
-msgstr ""
+msgstr "Información sobre el criterio de adjudicación."
 
 #. /definitions/AwardCriteria/properties/weightingDescription/title
 #: release-schema.json:1
 msgid "Complicated weighting description"
-msgstr ""
+msgstr "Descripción de ponderación compleja"
 
 #. /definitions/AwardCriteria/properties/weightingDescription/description
 #: release-schema.json:1
@@ -58,11 +66,14 @@ msgid ""
 "equation (or other description) that expresses the complicated (e.g. non-"
 "linear) weighting."
 msgstr ""
+"Cuando la ponderación no se puede expresar por criterio, la ecuación "
+"matemática (u otra descripción) que expresa la ponderación compleja (por "
+"ejemplo, no lineal)."
 
 #. /definitions/AwardCriteria/properties/orderRationale/title
 #: release-schema.json:1
 msgid "Justification for order of importance"
-msgstr ""
+msgstr "Justificación para el orden de importancia"
 
 #. /definitions/AwardCriteria/properties/orderRationale/description
 #: release-schema.json:1
@@ -70,21 +81,23 @@ msgid ""
 "The justification for only indicating the award criteria's order of "
 "importance, not their weighting."
 msgstr ""
+"La justificación para indicar únicamente el orden de importancia de los "
+"criterios de adjudicación, no su ponderación."
 
 #. /definitions/AwardCriteria/properties/criteria/description
 #: release-schema.json:1
 msgid "The award criteria."
-msgstr ""
+msgstr "El criterio de adjudicación."
 
 #. /definitions/AwardCriterion/title
 #: release-schema.json:1
 msgid "Award criterion"
-msgstr ""
+msgstr "Criterio de adjudicación"
 
 #. /definitions/AwardCriterion/description
 #: release-schema.json:1
 msgid "Information about the award criterion."
-msgstr ""
+msgstr "Información sobre el criterio de adjudicación."
 
 #. /definitions/AwardCriterion/properties/type/title
 #: release-schema.json:1
@@ -94,7 +107,7 @@ msgstr "Tipo"
 #. /definitions/AwardCriterion/properties/type/description
 #: release-schema.json:1
 msgid "The aspect of the bid that the criterion concerns."
-msgstr ""
+msgstr "El aspecto de la oferta al que se refiere el criterio."
 
 #. /definitions/AwardCriterion/properties/name/title
 #: release-schema.json:1
@@ -104,7 +117,7 @@ msgstr "Nombre"
 #. /definitions/AwardCriterion/properties/name/description
 #: release-schema.json:1
 msgid "The name of the criterion."
-msgstr ""
+msgstr "El nombre del criterio."
 
 #. /definitions/AwardCriterion/properties/description/title
 #: release-schema.json:1
@@ -114,27 +127,27 @@ msgstr "Descripción"
 #. /definitions/AwardCriterion/properties/description/description
 #: release-schema.json:1
 msgid "The description of the criterion."
-msgstr ""
+msgstr "La descripción del criterio."
 
 #. /definitions/AwardCriterion/properties/numbers/title
 #: release-schema.json:1
 msgid "Numbers"
-msgstr ""
+msgstr "Números"
 
 #. /definitions/AwardCriterion/properties/numbers/description
 #: release-schema.json:1
 msgid "Numbers linked to the criterion."
-msgstr ""
+msgstr "Números ligados al criterio."
 
 #. /definitions/AwardCriterionNumber/title
 #: release-schema.json:1
 msgid "Award criterion number"
-msgstr ""
+msgstr "Número de criterio de adjudicación"
 
 #. /definitions/AwardCriterionNumber/description
 #: release-schema.json:1
 msgid "Information about a number linked to an award criterion."
-msgstr ""
+msgstr "Información sobre un numero ligado a un criterio de adjudicación."
 
 #. /definitions/AwardCriterionNumber/properties/number/title
 #: release-schema.json:1
@@ -144,34 +157,34 @@ msgstr "Número"
 #. /definitions/AwardCriterionNumber/properties/number/description
 #: release-schema.json:1
 msgid "The number."
-msgstr ""
+msgstr "El número."
 
 #. /definitions/AwardCriterionNumber/properties/weight/title
 #: release-schema.json:1
 msgid "Weight"
-msgstr ""
+msgstr "Peso"
 
 #. /definitions/AwardCriterionNumber/properties/weight/description
 #: release-schema.json:1
 msgid "Whether the number is a type of weight."
-msgstr ""
+msgstr "Si el número es un tipo de ponderación."
 
 #. /definitions/AwardCriterionNumber/properties/fixed/title
 #: release-schema.json:1
 msgid "Fixed"
-msgstr ""
+msgstr "Fijado"
 
 #. /definitions/AwardCriterionNumber/properties/fixed/description
 #: release-schema.json:1
 msgid "Whether the number is a fixed value."
-msgstr ""
+msgstr "Si el número es un valor fijo."
 
 #. /definitions/AwardCriterionNumber/properties/threshold/title
 #: release-schema.json:1
 msgid "Threshold"
-msgstr ""
+msgstr "Umbral"
 
 #. /definitions/AwardCriterionNumber/properties/threshold/description
 #: release-schema.json:1
 msgid "Whether the number is a type of threshold."
-msgstr ""
+msgstr "Si el número es un tipo de umbral."

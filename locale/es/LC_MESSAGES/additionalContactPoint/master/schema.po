@@ -2,20 +2,27 @@
 # Copyright (C) 2021 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
-#
+# 
+# Translators:
+# Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2019
+# Cecilia Casco <ceciliacasco@cds.com.py>, 2021
+# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-03-05 17:31-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-03-14 18:30+0000\n"
+"Last-Translator: Natalia Valdez <nataliavaldez@cds.com.py>, 2021\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. /name/en
 #: extension.json:1
@@ -25,9 +32,9 @@ msgstr "Puntos de contacto adicionales"
 #. /description/en
 #: extension.json:1
 msgid ""
-"For providing multiple contact points for an organization, or for "
-"providing the available languages of a contact point. For example, it may"
-" be used to provide a contact point for each language."
+"For providing multiple contact points for an organization, or for providing "
+"the available languages of a contact point. For example, it may be used to "
+"provide a contact point for each language."
 msgstr ""
 "Para proveer múltiples puntos de contacto de una organización, o para "
 "indicar los idiomas disponibles de un punto de contacto. Por ejemplo, puede "
@@ -36,15 +43,14 @@ msgstr ""
 #. /definitions/Organization/properties/additionalContactPoints/title
 #: release-schema.json:1
 msgid "Additional contact points"
-msgstr ""
+msgstr "Puntos adicionales de contacto"
 
 #. /definitions/Organization/properties/additionalContactPoints/description
 #: release-schema.json:1
 msgid ""
-"An array of additional contact points that may be consulted for "
-"information. Additional contact points should each list the languages "
-"they operate in their name, and as structured data in the "
-"availableLanguage field."
+"An array of additional contact points that may be consulted for information."
+" Additional contact points should each list the languages they operate in "
+"their name, and as structured data in the availableLanguage field."
 msgstr ""
 "Una lista de puntos de contacto adicionales  puede consultarse para obtener "
 "información. Los puntos de contacto adicionales deben listar en su nombre "
@@ -54,7 +60,7 @@ msgstr ""
 #. /definitions/ContactPoint/properties/availableLanguage/title
 #: release-schema.json:1
 msgid "Available languages"
-msgstr ""
+msgstr "Lenguajes disponibles"
 
 #. /definitions/ContactPoint/properties/availableLanguage/description
 #: release-schema.json:1
@@ -64,6 +70,14 @@ msgid ""
 "extended [BCP47 language tags](http://www.w3.org/International/articles"
 "/language-tags/). The use of lowercase two-letter codes from "
 "[ISO639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) is "
-"strongly recommended unless there is a clear user need for distinguishing"
-" the language subtype."
+"strongly recommended unless there is a clear user need for distinguishing "
+"the language subtype."
 msgstr ""
+"Los idiomas en los que opera el punto de contacto, utilizando [ISO639-1] de "
+"dos letras (https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes), o "
+"extendido [BCP47 language tags](http://www.w3.org/International/articles"
+"/language-tags/). Se recomienda el uso el uso del código de dos letras en "
+"minúsculas de "
+"[ISO639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) a menos "
+"que exista una clara necesidad del usuario para distinguir el subtipo de "
+"idioma."

@@ -2,46 +2,54 @@
 # Copyright (C) 2021 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
-#
+# 
+# Translators:
+# James McKinney, 2021
+# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-03-05 17:32-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2020-08-20 21:47+0000\n"
+"Last-Translator: Natalia Valdez <nataliavaldez@cds.com.py>, 2021\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. /name/en
 #. /definitions/Amendment/properties/unstructuredChanges/title
 #: extension.json:1 release-schema.json:1
 msgid "Unstructured changes"
-msgstr ""
+msgstr "Cambios no estructurados"
 
 #. /description/en
 #: extension.json:1
 msgid "Adds an unstructuredChanges array to the Amendment object."
-msgstr ""
+msgstr "Agrega una matriz unstructuredChanges al objeto Amendment."
 
 #. /definitions/Amendment/properties/unstructuredChanges/description
 #: release-schema.json:1
 msgid "Unstructured or semi-structured changes to an earlier notice."
 msgstr ""
+"Cambios no estructurados o semi-estructurados de una notificación anterior."
 
 #. /definitions/UnstructuredChange/title
 #: release-schema.json:1
 msgid "Unstructured change"
-msgstr ""
+msgstr "Cambio no estructurado"
 
 #. /definitions/UnstructuredChange/description
 #: release-schema.json:1
 msgid "Unstructured or semi-structured change to an earlier notice."
 msgstr ""
+"Cambio no estructurado o semi-estructurado de una notificación anterior."
 
 #. /definitions/UnstructuredChange/properties/relatedLot/title
 #: release-schema.json:1
@@ -52,23 +60,26 @@ msgstr "Lote relacionado"
 #: release-schema.json:1
 msgid "The identifier of the lot to which this change relates, if any."
 msgstr ""
+"El identificador del lote al que se refiere este cambio, si lo hubiera."
 
 #. /definitions/UnstructuredChange/properties/oldValue/title
 #: release-schema.json:1
 msgid "Old value"
-msgstr ""
+msgstr "Valor viejo"
 
 #. /definitions/UnstructuredChange/properties/oldValue/description
 #: release-schema.json:1
 msgid ""
-"The value of the data element referenced by the `where` field, before the"
-" change."
+"The value of the data element referenced by the `where` field, before the "
+"change."
 msgstr ""
+"El valor del elemento de datos al que hace referencia el campo `where`, "
+"antes del cambio."
 
 #. /definitions/UnstructuredChange/properties/newValue/title
 #: release-schema.json:1
 msgid "New value"
-msgstr ""
+msgstr "Nuevo valor"
 
 #. /definitions/UnstructuredChange/properties/newValue/description
 #: release-schema.json:1
@@ -76,16 +87,21 @@ msgid ""
 "The value of the data element referenced by the `where` field, after the "
 "change."
 msgstr ""
+"El valor del elemento de datos al que hace referencia el campo `where`, "
+"después del cambio."
 
 #. /definitions/UnstructuredChange/properties/where/title
 #: release-schema.json:1
 msgid "Where"
-msgstr ""
+msgstr "Donde"
 
 #. /definitions/UnstructuredChange/properties/where/description
 #: release-schema.json:1
-msgid "A reference to a data element on an earlier notice that is being changed."
+msgid ""
+"A reference to a data element on an earlier notice that is being changed."
 msgstr ""
+"Una referencia a un elemento de datos de una notificación anterior que se "
+"está modificando."
 
 #. /definitions/UnstructuredChange/properties/where/properties/section/title
 #: release-schema.json:1
@@ -95,36 +111,40 @@ msgstr "Sección"
 #. /definitions/UnstructuredChange/properties/where/properties/section/description
 #: release-schema.json:1
 msgid ""
-"The identifier of the section containing the data element, if the earlier"
-" notice is organized into sections."
+"The identifier of the section containing the data element, if the earlier "
+"notice is organized into sections."
 msgstr ""
+"El identificador de la sección que contiene el elemento de datos, si el "
+"aviso anterior está organizado en secciones."
 
 #. /definitions/UnstructuredChange/properties/where/properties/label/title
 #: release-schema.json:1
 msgid "Label"
-msgstr ""
+msgstr "Etiqueta"
 
 #. /definitions/UnstructuredChange/properties/where/properties/label/description
 #: release-schema.json:1
 msgid "The label for the data element."
-msgstr ""
+msgstr "La etiqueta del elemento de datos."
 
 #. /definitions/UnstructuredChangeValue/title
 #: release-schema.json:1
 msgid "Unstructured change value"
-msgstr ""
+msgstr "Valor del cambio no estructurado"
 
 #. /definitions/UnstructuredChangeValue/description
 #: release-schema.json:1
 msgid ""
-"A value of a data element. The value must be described using exactly one "
-"of the fields `text`, `classifications` or `date`."
+"A value of a data element. The value must be described using exactly one of "
+"the fields `text`, `classifications` or `date`."
 msgstr ""
+"Un valor de un elemento de datos. El valor debe describirse utilizando "
+"exactamente uno de los campos `text`,  `classifications` o `date`."
 
 #. /definitions/UnstructuredChangeValue/properties/text/title
 #: release-schema.json:1
 msgid "Text value"
-msgstr ""
+msgstr "Valor del texto"
 
 #. /definitions/UnstructuredChangeValue/properties/text/description
 #: release-schema.json:1
@@ -132,16 +152,18 @@ msgid ""
 "A text. If the change deleted or erased the data element, use the empty "
 "string (\"\")."
 msgstr ""
+"Un texto. Si el cambio eliminó o borró el elemento de datos, utilice la "
+"cadena vacía (\"\")."
 
 #. /definitions/UnstructuredChangeValue/properties/classifications/title
 #: release-schema.json:1
 msgid "Classifications"
-msgstr ""
+msgstr "Clasificaciones"
 
 #. /definitions/UnstructuredChangeValue/properties/classifications/description
 #: release-schema.json:1
 msgid "A list of classifications."
-msgstr ""
+msgstr "Una lista de clasificaciones"
 
 #. /definitions/UnstructuredChangeValue/properties/date/title
 #: release-schema.json:1
@@ -151,4 +173,4 @@ msgstr "Fecha"
 #. /definitions/UnstructuredChangeValue/properties/date/description
 #: release-schema.json:1
 msgid "A date."
-msgstr ""
+msgstr "Una fecha."

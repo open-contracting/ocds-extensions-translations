@@ -1,20 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 
+# Copyright (C)
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
+# Maria Esther Cervantes <mcervantes@cds.com.py>, 2019
+# Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2019
+# James McKinney, 2021
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 17:31-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-03-14 18:29+0000\n"
+"Last-Translator: James McKinney, 2021\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../README.md:1
 msgid "Requirements"
@@ -28,8 +35,8 @@ msgid ""
 msgstr ""
 "La ampliación de los requisitos se basa en el modelo de la UE [Vocabulario "
 "de Criterios Fundamentales y Evidencia Básica "
-"(CCCEV)](https://joinup.ec.europa.eu/node/153001) para comunicar criterios y "
-"respuestas."
+"(CCCEV)](https://joinup.ec.europa.eu/node/153001) para comunicar criterios y"
+" respuestas."
 
 #: ../README.md:5
 msgid ""
@@ -37,9 +44,9 @@ msgid ""
 "criteria, relating to either items being procured or bidders themselves, as "
 "structured data."
 msgstr ""
-"La extensión está diseñada para permitir que las entidades compradoras o los "
-"compradores expresen criterios, relacionados con los artículos adquiridos o "
-"sobre los propios licitadores, como datos estructurados."
+"La extensión está diseñada para permitir que las entidades compradoras o los"
+" compradores expresen criterios, relacionados con los artículos adquiridos o"
+" sobre los propios licitadores, como datos estructurados."
 
 #: ../README.md:7
 msgid ""
@@ -67,8 +74,8 @@ msgid ""
 "evaluate or assess either an item or bidder. A criterion is satisfied when "
 "one or more of it's requirement groups are satisfied."
 msgstr ""
-"**Criterio** Un criterio representa una regla o principio usado para juzgar, "
-"evaluar o calificar un artículo o un licitador. Un criterio se satisface "
+"**Criterio** Un criterio representa una regla o principio usado para juzgar,"
+" evaluar o calificar un artículo o un licitador. Un criterio se satisface "
 "cuando uno o más de sus grupos están satisfechos."
 
 #: ../README.md:16
@@ -78,8 +85,8 @@ msgid ""
 "requirements are satisfied."
 msgstr ""
 "**Grupo de requisitos** Un grupo de requisitos es una serie de uno o más "
-"requisitos individuales. Un grupo de requisito se satisface cuando todos sus "
-"requerimientos están satisfechos."
+"requisitos individuales. Un grupo de requisito se satisface cuando todos sus"
+" requerimientos están satisfechos."
 
 #: ../README.md:19
 msgid ""
@@ -94,14 +101,14 @@ msgid ""
 "**Requirement Response** A requirements response is an assertion that "
 "responds to a specific requirement."
 msgstr ""
-"**Respuesta de requisito** Una respuesta de requisitos es una afirmación que "
-"responde a un requisito específico."
+"**Respuesta de requisito** Una respuesta de requisitos es una afirmación que"
+" responde a un requisito específico."
 
 #: ../README.md:25
 msgid ""
 "Therefore the CCCEV model can be used to express both **AND** conditions, "
-"where a group of requirements must be met to satisfy a criterion, and **OR** "
-"conditions, where there are alternative requirements that can satisfy a "
+"where a group of requirements must be met to satisfy a criterion, and **OR**"
+" conditions, where there are alternative requirements that can satisfy a "
 "criterion."
 msgstr ""
 "Por lo tanto, el modelo CCCEV puede usarse para expresar las condiciones "
@@ -120,8 +127,8 @@ msgid ""
 "schema:"
 msgstr ""
 "La extensión introduce un nuevo bloque para cada uno de los conceptos "
-"descritos anteriormente, estos se agregan a las siguientes ubicaciones en el "
-"esquema de OCDS:"
+"descritos anteriormente, estos se agregan a las siguientes ubicaciones en el"
+" esquema de OCDS:"
 
 #: ../README.md:31
 msgid "*tender.criteria* - an array of criteria"
@@ -129,7 +136,8 @@ msgstr "*tender.criteria* - una lista de criterios"
 
 #: ../README.md:32
 msgid "*tender.criteria.requirementGroups* - an array of requirement groups"
-msgstr "*tender.criteria.requirementGroups* - una lista de grupos de requisitos"
+msgstr ""
+"*tender.criteria.requirementGroups* - una lista de grupos de requisitos"
 
 #: ../README.md:33
 msgid ""
@@ -163,8 +171,9 @@ msgid ""
 "Below is an example of requirements specified against both an item and a "
 "bidder which demonstrates both **AND** and **OR** conditions:"
 msgstr ""
-"A continuación se muestra un ejemplo de requisitos especificados tanto en un "
-"artículo como en un licitador que demuestra las condiciones **AND** y **OR**:"
+"A continuación se muestra un ejemplo de requisitos especificados tanto en un"
+" artículo como en un licitador que demuestra las condiciones **AND** y "
+"**OR**:"
 
 #: ../README.md:143
 msgid "Below is an example of responses which meet the above requirements:"
@@ -186,9 +195,9 @@ msgid ""
 "implemented in this extension."
 msgstr ""
 "El modelo CCCEV también define una serie de conceptos adicionales, "
-"incluyendo **formalFrameworks**, utilizado para especificar los instrumentos "
-"jurídicos de los que se derivan los criterios, **evidence**, utilizado para "
-"especificar y proporcionar la evidencia necesaria para respaldar una "
+"incluyendo **formalFrameworks**, utilizado para especificar los instrumentos"
+" jurídicos de los que se derivan los criterios, **evidence**, utilizado para"
+" especificar y proporcionar la evidencia necesaria para respaldar una "
 "respuesta de requisito, y propiedades adicionales de *requirements* como "
 "**certificationLevel** que actualmente no están implementadas en esta "
 "extensión."
@@ -205,9 +214,9 @@ msgstr "Issues"
 
 #: ../README.md:188
 msgid ""
-"Report issues for this extension in the [ocds-extensions repository](https://"
-"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
-"name in the issue's title."
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
 msgstr ""
 "Reporte issues para esta extensión en el [repositorio de extensiones "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "

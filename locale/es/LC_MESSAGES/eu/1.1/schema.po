@@ -2,83 +2,94 @@
 # Copyright (C) 2021 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
-#
+# 
+# Translators:
+# James McKinney, 2021
+# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
+# Maria Esther Cervantes <mcervantes@cds.com.py>, 2021
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-03-05 17:32-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2020-08-20 20:51+0000\n"
+"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2021\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. /name/en
 #: extension.json:1
 msgid "European Union"
-msgstr ""
+msgstr "Unión Europea"
 
 #. /description/en
 #: extension.json:1
 msgid "Implements fields and codes that are specific to European law."
 msgstr ""
+"Implementa campos y código que son específicos de la legislación europea."
 
 #. /definitions/Tender/properties/reviewDetails/title
 #: release-schema.json:1
 msgid "Review details"
-msgstr ""
+msgstr "Detalles de la revisión"
 
 #. /definitions/Tender/properties/reviewDetails/description
 #: release-schema.json:1
 msgid ""
-"Precise information concerning the time limits for the review procedures "
-"or contact information from which it can be obtained."
+"Precise information concerning the time limits for the review procedures or "
+"contact information from which it can be obtained."
 msgstr ""
+"Información precisa sobre los plazos para los procedimientos de revisión o "
+"información de contacto de la que se puede obtener."
 
 #. /definitions/Tender/properties/valueCalculationMethod/title
 #. /definitions/Award/properties/valueCalculationMethod/title
 #: release-schema.json:1
 msgid "Value calculation method"
-msgstr ""
+msgstr "Método de cálculo de valor"
 
 #. /definitions/Tender/properties/valueCalculationMethod/description
 #: release-schema.json:1
 msgid "The method used for calculating the estimated value of the concession."
-msgstr ""
+msgstr "El método usado para el cálculo del valor estimado de la concesión."
 
 #. /definitions/Tender/properties/legislativeReferences/title
 #: release-schema.json:1
 msgid "Legislative references"
-msgstr ""
+msgstr "Referencias legislativas"
 
 #. /definitions/Tender/properties/legislativeReferences/description
 #: release-schema.json:1
 msgid "Legislative references and associated contact points for information."
 msgstr ""
+"Referencias legislativas y puntos de contacto asociados para información."
 
 #. /definitions/Organization/properties/details/properties/url/title
 #: release-schema.json:1
 msgid "Website URL"
-msgstr ""
+msgstr "URL del sitio web"
 
 #. /definitions/Organization/properties/details/properties/url/description
 #: release-schema.json:1
 msgid "The website of the organization."
-msgstr ""
+msgstr "Sitio web de la organización"
 
 #. /definitions/Organization/properties/details/properties/buyerProfile/title
 #: release-schema.json:1
 msgid "Buyer profile URL"
-msgstr ""
+msgstr "URL del perfil del comprador"
 
 #. /definitions/Organization/properties/details/properties/buyerProfile/description
 #: release-schema.json:1
 msgid "The Web address of the buyer profile."
-msgstr ""
+msgstr "Dirección web del perfil del comprador."
 
 #. /definitions/Award/properties/valueCalculationMethod/description
 #: release-schema.json:1
@@ -86,48 +97,52 @@ msgid ""
 "Any details relevant to the value of the concession according to article "
 "8(3) of Directive 2014/23/EU on concession contracts."
 msgstr ""
+"Cualquier detalle relevante al valor de la concesión según el artículo 8(3) "
+"de la Directiva 2014/23/UE sobre contratos de concesión."
 
 #. /definitions/Contract/properties/periodRationale/title
 #: release-schema.json:1
 msgid "Contract period rationale"
-msgstr ""
+msgstr "Justificación del período del contrato"
 
 #. /definitions/Contract/properties/periodRationale/description
 #: release-schema.json:1
 msgid "The rationale for the duration of the contract."
-msgstr ""
+msgstr "La justificación de la duración del contrato."
 
 #. /definitions/Contract/properties/publicPassengerTransportServicesKilometers/title
 #: release-schema.json:1
 msgid "Kilometers of public passenger transport services"
-msgstr ""
+msgstr "Kilómetros de servicios de transporte público de pasajeros"
 
 #. /definitions/Contract/properties/publicPassengerTransportServicesKilometers/description
 #: release-schema.json:1
 msgid ""
-"The number of kilometers of public passenger transport services provided "
-"by a public service contract."
+"The number of kilometers of public passenger transport services provided by "
+"a public service contract."
 msgstr ""
+"El número de kilómetros de servicios de transporte público de pasajeros "
+"prestados por un contrato de servicio público."
 
 #. /definitions/Item/properties/deliveryAddresses/title
 #: release-schema.json:1
 msgid "Delivery addresses"
-msgstr ""
+msgstr "Dirección de entrega"
 
 #. /definitions/Item/properties/deliveryAddresses/description
 #: release-schema.json:1
 msgid "The addresse(s) to which the supplier delivers the item."
-msgstr ""
+msgstr "La(s) dirección(es) a la(s) cual(es) el proveedor entrega el ítem."
 
 #. /definitions/LegislativeReference/title
 #: release-schema.json:1
 msgid "Legislative reference"
-msgstr ""
+msgstr "Referencia legislativa"
 
 #. /definitions/LegislativeReference/description
 #: release-schema.json:1
 msgid "Legislative reference and associated contact point"
-msgstr ""
+msgstr "Referencias legislativas y puntos de contacto asociados"
 
 #. /definitions/LegislativeReference/properties/title/title
 #: release-schema.json:1
@@ -137,7 +152,7 @@ msgstr "Título"
 #. /definitions/LegislativeReference/properties/title/description
 #: release-schema.json:1
 msgid "The title of the legislative reference"
-msgstr ""
+msgstr "El título de una referencia legislativa"
 
 #. /definitions/LegislativeReference/properties/url/title
 #: release-schema.json:1
@@ -147,12 +162,12 @@ msgstr "URL"
 #. /definitions/LegislativeReference/properties/url/description
 #: release-schema.json:1
 msgid "A link to the Web page of the legislative reference."
-msgstr ""
+msgstr "Un enlace a la página web de la referencia legislativa."
 
 #. /definitions/LegislativeReference/properties/informationService/title
 #: release-schema.json:1
 msgid "Information service"
-msgstr ""
+msgstr "Servicio de información"
 
 #. /definitions/LegislativeReference/properties/informationService/description
 #: release-schema.json:1
@@ -160,6 +175,8 @@ msgid ""
 "An organization that can provide information about the legislative "
 "reference."
 msgstr ""
+"Una organización que puede proporcionar información sobre la referencia "
+"legislativa."
 
 #. /definitions/Lot/properties/minimumValue/title
 #: release-schema.json:1
@@ -169,21 +186,28 @@ msgstr "Valor mínimo"
 #. /definitions/Lot/properties/minimumValue/description
 #: release-schema.json:1
 msgid ""
-"The minimum estimated value of the lot. A negative value indicates that "
-"the contracting process may involve payments from the supplier to the "
-"buyer (commonly used in concession contracts)."
+"The minimum estimated value of the lot. A negative value indicates that the "
+"contracting process may involve payments from the supplier to the buyer "
+"(commonly used in concession contracts)."
 msgstr ""
+"El valor mínimo estimado del lote. Un valor negativo indica que el proceso "
+"de contratación puede implicar pagos del proveedor al comprador (comúnmente "
+"utilizado en los contratos de concesión)."
 
 #. /definitions/Lot/properties/awardPeriod/title
 #: release-schema.json:1
 msgid "Award period"
-msgstr ""
+msgstr "Periodo de adjudicación"
 
 #. /definitions/Lot/properties/awardPeriod/description
 #: release-schema.json:1
 msgid ""
-"The period for decision making regarding the contract award for the lot. "
-"The end date should be the date on which an award decision is due to be "
-"finalized. The start date may be used to indicate the start of an "
-"evaluation period."
+"The period for decision making regarding the contract award for the lot. The"
+" end date should be the date on which an award decision is due to be "
+"finalized. The start date may be used to indicate the start of an evaluation"
+" period."
 msgstr ""
+"El plazo para la toma de decisiones sobre la adjudicación del contrato del "
+"lote. La fecha de finalización debe ser la fecha en la que se debe finalizar"
+" la decisión de adjudicación. La fecha de inicio se puede utilizar para "
+"indicar el inicio de un período de evaluación."

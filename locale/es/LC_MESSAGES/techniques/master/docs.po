@@ -1,31 +1,42 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 
+# Copyright (C)
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
+# James McKinney, 2021
+# Cecilia Casco <ceciliacasco@cds.com.py>, 2021
+# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
+# Maria Esther Cervantes <mcervantes@cds.com.py>, 2021
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 17:31-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2020-08-20 21:57+0000\n"
+"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2021\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../README.md:1
 msgid "Techniques"
-msgstr ""
+msgstr "Técnicas"
 
 #: ../README.md:3
 msgid ""
-"Adds fields to the tender and lot objects to describe the use of techniques, "
-"such as framework agreements, dynamic purchasing systems and electronic "
+"Adds fields to the tender and lot objects to describe the use of techniques,"
+" such as framework agreements, dynamic purchasing systems and electronic "
 "auctions."
 msgstr ""
+"Agrega campos a los objetos de licitación y lote para describir el uso de "
+"técnicas, como acuerdos marco, sistemas dinámicos de compra y subastas "
+"electrónicas."
 
 #: ../README.md:5
 msgid "Guidance"
@@ -33,52 +44,64 @@ msgstr "Guía"
 
 #: ../README.md:7
 msgid "Framework agreement's `value` and `period`"
-msgstr ""
+msgstr " `value` y  `period` del acuerdo marco"
 
 #: ../README.md:9
 msgid ""
 "The `value` and `period` fields of `FrameworkAgreement` objects should only "
-"be used if a data source provides values and periods for both the contract/"
-"lot and the framework agreement, like TED XML Schema R2.08. Otherwise:"
+"be used if a data source provides values and periods for both the "
+"contract/lot and the framework agreement, like TED XML Schema R2.08. "
+"Otherwise:"
 msgstr ""
+"Los campos `value` y` period` de los objetos `FrameworkAgreement` solo deben"
+" usarse si una fuente de datos proporciona valores y períodos tanto para el "
+"contrato / lote como para el acuerdo marco, como TED XML Schema R2.08. De lo"
+" contrario:"
 
 #: ../README.md:11
 msgid ""
-"If a procurement isn't divided into lots, use the `tender.value` and `tender."
-"contractPeriod` fields."
+"If a procurement isn't divided into lots, use the `tender.value` and "
+"`tender.contractPeriod` fields."
 msgstr ""
+"Si una adquisición no está dividida en lotes, utilice los campos "
+"`tender.value` y` tender.contractPeriod`."
 
 #: ../README.md:12
 msgid ""
 "If a procurement is divided into lots, use the `value` and `contractPeriod` "
 "fields of `Lot` objects."
 msgstr ""
+"Si una adquisición se divide en lotes, utilice los campos `value` y` "
+"contractPeriod` de los objetos `Lot`."
 
 #: ../README.md:14
 msgid "Framework agreement's `method`"
-msgstr ""
+msgstr "`method` del acuerdo marco"
 
 #: ../README.md:16
 msgid ""
 "Here are the possible values for `FrameworkAgreement.method`, and common "
 "synonyms:"
 msgstr ""
+"Estos son los valores posibles para `FrameworkAgreement.method` y sinónimos "
+"comunes:"
 
 #: ../README.md:18
 msgid "withoutReopeningCompetition: call-offs"
-msgstr ""
+msgstr "withoutReopeningCompetition: cancelaciones"
 
 #: ../README.md:19
 msgid "withReopeningCompetition: mini-competitions"
-msgstr ""
+msgstr "withReopeningCompetition: mini-competencias"
 
 #: ../README.md:20
 msgid "withAndWithoutReopeningCompetition: call-offs and mini-competitions"
 msgstr ""
+"withAndWithoutReopeningCompetition: cancelaciones y mini-competencias "
 
 #: ../README.md:22
 msgid "Legal context"
-msgstr ""
+msgstr "Contexto legal"
 
 #: ../README.md:24
 msgid ""
@@ -87,6 +110,11 @@ msgid ""
 "Union](http://standard.open-contracting.org/profiles/eu/master/en/) for the "
 "correspondences to Tenders Electronic Daily (TED)."
 msgstr ""
+"En la Unión Europea, los campos de esta extensión corresponden a [eForms "
+"BG-706 (Técnicas)] (https://github.com/eForms/eForms). Consulte [OCDS para "
+"la Unión Europea] (http://standard.open-"
+"contracting.org/profiles/eu/master/en/) para ver las correspondencias con "
+"Tenders Electronic Daily (TED)."
 
 #: ../README.md:26
 msgid "Examples"
@@ -94,15 +122,15 @@ msgstr "Ejemplos"
 
 #: ../README.md:28
 msgid "Framework agreement"
-msgstr ""
+msgstr "Acuerdo marco"
 
 #: ../README.md:60
 msgid "Dynamic purchasing system"
-msgstr ""
+msgstr "Sistema de compra dinámica"
 
 #: ../README.md:81
 msgid "Electronic auction"
-msgstr ""
+msgstr "Subasta electrónica"
 
 #: ../README.md:102
 msgid "Issues"
@@ -110,9 +138,9 @@ msgstr "Issues"
 
 #: ../README.md:104
 msgid ""
-"Report issues for this extension in the [ocds-extensions repository](https://"
-"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
-"name in the issue's title."
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
 msgstr ""
 "Reporte issues para esta extensión en el [repositorio de extensiones "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
@@ -124,27 +152,34 @@ msgstr "Registro de cambios"
 
 #: ../README.md:108
 msgid "2020-10-05"
-msgstr ""
+msgstr "2020-10-05"
 
 #: ../README.md:110
 msgid ""
-"Add `minimumParticipants`, `value`, `period` and `description` fields to the "
-"`FrameworkAgreement` object."
+"Add `minimumParticipants`, `value`, `period` and `description` fields to the"
+" `FrameworkAgreement` object."
 msgstr ""
+"Agregar los campos `minimumParticipants`, `value`, `period` y  `description`"
+" al objeto `FrameworkAgreement`."
 
 #: ../README.md:112
 msgid "2020-04-24"
-msgstr ""
+msgstr "2020-04-24"
 
 #: ../README.md:114
 msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
-msgstr ""
+msgstr "Agregar las propiedades `minProperties`, `minItems` y/o `minLength`."
 
 #: ../README.md:116
 msgid ""
-"This extension was originally discussed as part of the [OCDS for EU profile]"
-"(https://github.com/open-contracting-extensions/european-union/issues), in "
-"[pull requests](https://github.com/open-contracting-extensions/"
-"ocds_techniques_extension/pulls?q=is%3Apr+is%3Aclosed) and in <https://"
-"github.com/open-contracting/standard/issues/695>."
+"This extension was originally discussed as part of the [OCDS for EU "
+"profile](https://github.com/open-contracting-extensions/european-"
+"union/issues), in [pull requests](https://github.com/open-contracting-"
+"extensions/ocds_techniques_extension/pulls?q=is%3Apr+is%3Aclosed) and in "
+"<https://github.com/open-contracting/standard/issues/695>."
 msgstr ""
+"Esta extensión se discutió originalmente como parte del [OCDS para el perfil"
+" de la UE] (https://github.com/open-contracting-extensions/european-"
+"union/issues), en [pull requests] (https://github.com/open-contracting-"
+"extensions/ocds_techniques_extension/pulls?q=is%3Apr+is%3Aclosed) y en "
+"<https://github.com/open-contracting/standard/issues/695>."

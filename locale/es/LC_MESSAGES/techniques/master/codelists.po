@@ -2,20 +2,27 @@
 # Copyright (C) 2021 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
-#
+# 
+# Translators:
+# James McKinney, 2021
+# Maria Esther Cervantes <mcervantes@cds.com.py>, 2021
+# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-03-05 17:32-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2020-08-20 21:57+0000\n"
+"Last-Translator: Natalia Valdez <nataliavaldez@cds.com.py>, 2021\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: codelists/dynamicPurchasingSystemStatus.csv
 #: codelists/dynamicPurchasingSystemType.csv
@@ -43,7 +50,7 @@ msgstr "Pendiente"
 #. Description
 #: codelists/dynamicPurchasingSystemStatus.csv:1
 msgid "The DPS has not yet started."
-msgstr ""
+msgstr "El SDC aún no ha comenzado."
 
 #. Title
 #: codelists/dynamicPurchasingSystemStatus.csv:2
@@ -53,7 +60,7 @@ msgstr "Activo"
 #. Description
 #: codelists/dynamicPurchasingSystemStatus.csv:2
 msgid "The DPS has started."
-msgstr ""
+msgstr "El SDC ha comenzado."
 
 #. Title
 #: codelists/dynamicPurchasingSystemStatus.csv:3
@@ -63,37 +70,42 @@ msgstr "Cancelado"
 #. Description
 #: codelists/dynamicPurchasingSystemStatus.csv:3
 msgid "The DPS has been cancelled prior to starting."
-msgstr ""
+msgstr "El SDC ha sido cancelado antes de su inicio."
 
 #. Title
 #: codelists/dynamicPurchasingSystemStatus.csv:4
 msgid "Terminated"
-msgstr ""
+msgstr "Finalizado"
 
 #. Description
 #: codelists/dynamicPurchasingSystemStatus.csv:4
 msgid ""
-"The DPS had started, and has now come to a close. This might be due to "
-"its successful completion, or might be early termination due to some non-"
+"The DPS had started, and has now come to a close. This might be due to its "
+"successful completion, or might be early termination due to some non-"
 "completion."
 msgstr ""
+"El SDC había comenzado, y ahora ha llegado a su fin. Esto puede deberse a su"
+" finalización con éxito, o puede ser una terminación anticipada debido a "
+"algún incumplimiento."
 
 #. Title
 #: codelists/dynamicPurchasingSystemType.csv:1
 msgid "Open"
-msgstr ""
+msgstr "Abierto"
 
 #. Description
 #: codelists/dynamicPurchasingSystemType.csv:1
 msgid ""
-"The dynamic purchasing system can also be used by buyers not listed in "
-"the contracting process."
+"The dynamic purchasing system can also be used by buyers not listed in the "
+"contracting process."
 msgstr ""
+"El sistema dinámico de compra también puede ser utilizado por compradores "
+"que no figuran en el proceso de contratación."
 
 #. Title
 #: codelists/dynamicPurchasingSystemType.csv:2
 msgid "Closed"
-msgstr ""
+msgstr "Cerrado"
 
 #. Description
 #: codelists/dynamicPurchasingSystemType.csv:2
@@ -101,23 +113,27 @@ msgid ""
 "The dynamic purchasing system can only be used by buyers listed in the "
 "contracting process."
 msgstr ""
+"El sistema dinámico de compra solo puede ser utilizado por compradores que "
+"figuran en el proceso de contratación."
 
 #. Title
 #: codelists/frameworkAgreementMethod.csv:1
 msgid "With reopening of competition"
-msgstr ""
+msgstr "Con reapertura de competencia"
 
 #. Description
 #: codelists/frameworkAgreementMethod.csv:1
 msgid ""
-"Contracts are awarded by reopening the competition (e.g. mini-competition"
-" or mini-tender)."
+"Contracts are awarded by reopening the competition (e.g. mini-competition or"
+" mini-tender)."
 msgstr ""
+"Los contratos se adjudican mediante la reapertura del concurso (por ejemplo,"
+" minicompetición o minitienda)."
 
 #. Title
 #: codelists/frameworkAgreementMethod.csv:2
 msgid "Without reopening of competition"
-msgstr ""
+msgstr "Si reapertura de competencia"
 
 #. Description
 #: codelists/frameworkAgreementMethod.csv:2
@@ -125,13 +141,16 @@ msgid ""
 "Contracts are awarded without the reopening of competition (e.g. direct "
 "call-off or direct award)."
 msgstr ""
+"Los contratos se adjudican sin la reapertura del concurso (por ejemplo, "
+"llamada o adjudicación directa)."
 
 #. Title
 #: codelists/frameworkAgreementMethod.csv:3
 msgid "With and without reopening of competition"
-msgstr ""
+msgstr "Con y sin reapertura de competencia"
 
 #. Description
 #: codelists/frameworkAgreementMethod.csv:3
-msgid "Contracts are awarded both with and without the reopening of competition."
-msgstr ""
+msgid ""
+"Contracts are awarded both with and without the reopening of competition."
+msgstr "Los contratos son adjudicados con y sin reapertura de competencia."

@@ -1,20 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 
+# Copyright (C)
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
+# James McKinney, 2021
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 17:31-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-03-14 18:29+0000\n"
+"Last-Translator: James McKinney, 2021\n"
+"Language-Team: Italian (https://www.transifex.com/open-contracting-partnership-1/teams/112300/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../README.md:1
 msgid "Lots"
@@ -32,10 +37,11 @@ msgstr ""
 #: ../README.md:5
 msgid ""
 "The lots extension maintains the overall structure of an OCDS release, with "
-"items, documents and milestones nested immediately within `tender`, `awards` "
-"and `contracts` sections, but it introduces an array of Lots in the `tender` "
-"section, and the ability to cross-reference a specific `relatedLot` for each "
-"item, and an array of `relatedLots` for documents, milestones and awards."
+"items, documents and milestones nested immediately within `tender`, `awards`"
+" and `contracts` sections, but it introduces an array of Lots in the "
+"`tender` section, and the ability to cross-reference a specific `relatedLot`"
+" for each item, and an array of `relatedLots` for documents, milestones and "
+"awards."
 msgstr ""
 
 #: ../README.md:7
@@ -49,13 +55,13 @@ msgstr ""
 msgid ""
 "This means that systems which are not 'lot aware' can still understand the "
 "overall value of contracting taking place, key events, and relationships "
-"between buyers and suppliers. At the same time, 'lot aware' systems can make "
-"use of the cross-referenced information to present a lot-centric view on the "
-"information to users, or to analyze contracting lot by lot."
+"between buyers and suppliers. At the same time, 'lot aware' systems can make"
+" use of the cross-referenced information to present a lot-centric view on "
+"the information to users, or to analyze contracting lot by lot."
 msgstr ""
 "Ciò significa che i sistemi che 'non sono in grado di gestire i lotti' "
-"possono ancora comprendere il valore complessivo della contrattazione, degli "
-"eventi chiave e delle relazioni tra acquirenti e fornitori. Allo stesso "
+"possono ancora comprendere il valore complessivo della contrattazione, degli"
+" eventi chiave e delle relazioni tra acquirenti e fornitori. Allo stesso "
 "tempo, i sistemi 'che riescono ad elaborare i dati dei lotti' possono "
 "utilizzare le informazioni incrociate per presentare una visione molto "
 "approfondita sull'informazione di dettaglio dei singoli lotti delle gare o "
@@ -75,7 +81,8 @@ msgstr "elementi"
 
 #: ../README.md:17
 msgid "An array of `relatedLots` (plural) can be provided for each of:"
-msgstr "Un array di `relatedLots` (più lotti) può essere fornito per ognuno di:"
+msgstr ""
+"Un array di `relatedLots` (più lotti) può essere fornito per ognuno di:"
 
 #: ../README.md:19
 msgid "documents"
@@ -96,14 +103,16 @@ msgstr ""
 
 #: ../README.md:25
 msgid ""
-"bids submitted by tenderers (`Bid`), in the [bid extension](https://github."
-"com/open-contracting-extensions/ocds_bid_extension)"
+"bids submitted by tenderers (`Bid`), in the [bid "
+"extension](https://github.com/open-contracting-"
+"extensions/ocds_bid_extension)"
 msgstr ""
 
 #: ../README.md:26
 msgid ""
-"sources of finance (`Finance`), in the [finance extension](https://github."
-"com/open-contracting-extensions/ocds_finance_extension)"
+"sources of finance (`Finance`), in the [finance "
+"extension](https://github.com/open-contracting-"
+"extensions/ocds_finance_extension)"
 msgstr ""
 
 #: ../README.md:28
@@ -137,8 +146,8 @@ msgstr ""
 
 #: ../README.md:38
 msgid ""
-"If any lot's status is 'active', then `tender.status` should be 'active', to "
-"indicate that some lots are awaiting results."
+"If any lot's status is 'active', then `tender.status` should be 'active', to"
+" indicate that some lots are awaiting results."
 msgstr ""
 
 #: ../README.md:39
@@ -155,9 +164,9 @@ msgstr ""
 
 #: ../README.md:41
 msgid ""
-"Otherwise, if at least one lot's status is 'unsuccessful', then `tender."
-"status` should be 'unsuccessful', to indicate that the procedure was "
-"completed but unsuccessfully."
+"Otherwise, if at least one lot's status is 'unsuccessful', then "
+"`tender.status` should be 'unsuccessful', to indicate that the procedure was"
+" completed but unsuccessfully."
 msgstr ""
 
 #: ../README.md:42
@@ -201,7 +210,8 @@ msgid ""
 "lots."
 msgstr ""
 "Anche se fa parte della stessa gara, l'acquirente è disposto a concedere "
-"questi diversi articoli a diverse ditte e divide così l'offerta in tre lotti."
+"questi diversi articoli a diverse ditte e divide così l'offerta in tre "
+"lotti."
 
 #: ../README.md:171
 msgid "Issues"
@@ -209,9 +219,9 @@ msgstr "Problemi (issues)"
 
 #: ../README.md:173
 msgid ""
-"Report issues for this extension in the [ocds-extensions repository](https://"
-"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
-"name in the issue's title."
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
 msgstr ""
 "Segnala i problemi per questa estensione nel [repository ocds-"
 "extensions](https://github.com/open-contracting/ocds-extensions/issues), "

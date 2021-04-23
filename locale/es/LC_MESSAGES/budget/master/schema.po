@@ -2,20 +2,27 @@
 # Copyright (C) 2021 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
-#
+# 
+# Translators:
+# Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2019
+# James McKinney, 2021
+# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-03-05 17:31-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-03-14 18:32+0000\n"
+"Last-Translator: Natalia Valdez <nataliavaldez@cds.com.py>, 2021\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. /name/en
 #: extension.json:1
@@ -25,8 +32,8 @@ msgstr "Desglose del presupuesto"
 #. /description/en
 #: extension.json:1
 msgid ""
-"Adds a budget breakdown array to the budget object to break down a budget"
-" by source and period."
+"Adds a budget breakdown array to the budget object to break down a budget by"
+" source and period."
 msgstr ""
 "Agrega una lista de desglose de presupuesto al objeto de presupuesto para "
 "desglosar un presupuesto por fuente y período."
@@ -39,8 +46,8 @@ msgstr "Desglose detallado del presupuesto"
 #. /definitions/BudgetBreakdown/description
 #: release-schema.json:1
 msgid ""
-"This section allows a detailed budget breakdown to be expressed, covering"
-" multiple budget sources and multiple periods"
+"This section allows a detailed budget breakdown to be expressed, covering "
+"multiple budget sources and multiple periods"
 msgstr ""
 "Esta sección permite expresar un desglose detallado del presupuesto, "
 "cubriendo tanto  múltiples fuentes presupuestarias como períodos múltiples"
@@ -63,7 +70,8 @@ msgstr "Descripción"
 #. /definitions/BudgetBreakdown/properties/description/description
 #: release-schema.json:1
 msgid "A short free text description of this budget entry."
-msgstr "Una breve descripción de texto libre sobre esta entrada de presupuesto."
+msgstr ""
+"Una breve descripción de texto libre sobre esta entrada de presupuesto."
 
 #. /definitions/BudgetBreakdown/properties/amount/title
 #: release-schema.json:1
@@ -83,8 +91,8 @@ msgstr "Información vinculada de presupuesto"
 #. /definitions/BudgetBreakdown/properties/uri/description
 #: release-schema.json:1
 msgid ""
-"A URI pointing directly to a machine-readable information about this "
-"budget entry."
+"A URI pointing directly to a machine-readable information about this budget "
+"entry."
 msgstr ""
 "Un URI apuntando directamente a información legible por computadora acerca "
 "de esta entrada de presupuesto."
@@ -108,12 +116,18 @@ msgstr "Parte origen"
 #: release-schema.json:1
 msgid ""
 "An organization reference, linking to the entry in the `parties` section "
-"describing the organization providing the funds for this part of the "
-"budget. The party must have the 'funder' role. If the budget amount is "
-"positive, this indicates a flow of resources from the party to the "
-"contracting process. If the budget amount is negative, it indicates a "
-"payment from the contracting process to this party."
+"describing the organization providing the funds for this part of the budget."
+" The party must have the 'funder' role. If the budget amount is positive, "
+"this indicates a flow of resources from the party to the contracting "
+"process. If the budget amount is negative, it indicates a payment from the "
+"contracting process to this party."
 msgstr ""
+"Una referencia de la organización, vinculada a la entrada en la sección "
+"`parties` que describe la organización que proporciona los fondos para esta "
+"parte del presupuesto. La parte debe tener el rol de 'funder'. Si el monto "
+"del presupuesto es positivo, esto indica un flujo de recursos de la parte al"
+" proceso de contratación. Si el monto del presupuesto es negativo, indica un"
+" pago del proceso de contratación a esta parte."
 
 #. /definitions/Budget/properties/budgetBreakdown/title
 #: release-schema.json:1
@@ -122,7 +136,8 @@ msgstr "Desglose del presupuesto"
 
 #. /definitions/Budget/properties/budgetBreakdown/description
 #: release-schema.json:1
-msgid "A detailed breakdown of the budget by period and/or participating funders."
+msgid ""
+"A detailed breakdown of the budget by period and/or participating funders."
 msgstr ""
 "Un desglose detallado del presupuesto por periodo y/o financiadores "
 "participantes."

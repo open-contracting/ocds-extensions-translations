@@ -1,20 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 
+# Copyright (C)
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 17:31-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-03-14 18:31+0000\n"
+"Language-Team: French (https://www.transifex.com/open-contracting-partnership-1/teams/112300/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../README.md:1
 msgid "Shareholder and ownership details"
@@ -29,10 +30,10 @@ msgstr ""
 #: ../README.md:5
 msgid ""
 "For example, in Public Private Partnerships processes, companies are often "
-"required to disclose information on their ownership structures when bidding, "
-"and when the contract is awarded, information on the ownership of a Special "
-"Purpose Vehicle (SPV) operating the contract may need to be kept up to date "
-"during project implementation."
+"required to disclose information on their ownership structures when bidding,"
+" and when the contract is awarded, information on the ownership of a Special"
+" Purpose Vehicle (SPV) operating the contract may need to be kept up to date"
+" during project implementation."
 msgstr ""
 
 #: ../README.md:7

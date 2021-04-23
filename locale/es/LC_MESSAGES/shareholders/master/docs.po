@@ -1,20 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 
+# Copyright (C)
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
+# James McKinney, 2021
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 17:31-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-03-14 18:31+0000\n"
+"Last-Translator: James McKinney, 2021\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../README.md:1
 msgid "Shareholder and ownership details"
@@ -31,10 +36,10 @@ msgstr ""
 #: ../README.md:5
 msgid ""
 "For example, in Public Private Partnerships processes, companies are often "
-"required to disclose information on their ownership structures when bidding, "
-"and when the contract is awarded, information on the ownership of a Special "
-"Purpose Vehicle (SPV) operating the contract may need to be kept up to date "
-"during project implementation."
+"required to disclose information on their ownership structures when bidding,"
+" and when the contract is awarded, information on the ownership of a Special"
+" Purpose Vehicle (SPV) operating the contract may need to be kept up to date"
+" during project implementation."
 msgstr ""
 "Por ejemplo, en los procesos de Asociaciones Público-Privadas, a menudo se "
 "requiere que las compañías divulguen información sobre sus estructuras de "
@@ -67,10 +72,10 @@ msgid ""
 "beneficial ownership information drawing on the draft [Beneficial Ownership "
 "Data Standard](https://github.com/openownership/data-standard)."
 msgstr ""
-"En la actualidad, esto incluye espacio para la descripción en texto libre de "
-"las estructuras de propiedad y control, pero podría ampliarse con "
-"información estructurada sobre la propiedad efectiva basada en el borrador ["
-"Beneficial Ownership Data Standard](https://github.com/openownership/data-"
+"En la actualidad, esto incluye espacio para la descripción en texto libre de"
+" las estructuras de propiedad y control, pero podría ampliarse con "
+"información estructurada sobre la propiedad efectiva basada en el borrador "
+"[Beneficial Ownership Data Standard](https://github.com/openownership/data-"
 "standard)."
 
 #: ../README.md:15
@@ -83,9 +88,9 @@ msgstr "Issues"
 
 #: ../README.md:63
 msgid ""
-"Report issues for this extension in the [ocds-extensions repository](https://"
-"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
-"name in the issue's title."
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
 msgstr ""
 "Reporte issues para esta extensión en el [repositorio de extensiones "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
@@ -123,8 +128,8 @@ msgstr ""
 #: ../README.md:78
 msgid ""
 "Make `Shareholder.id` required to support revision tracking and [list "
-"merging](http://standard.open-contracting.org/latest/en/schema/merging/"
-"#lists)"
+"merging](http://standard.open-"
+"contracting.org/latest/en/schema/merging/#lists)"
 msgstr ""
 
 #: ../README.md:80

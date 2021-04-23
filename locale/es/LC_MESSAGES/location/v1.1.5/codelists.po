@@ -2,20 +2,26 @@
 # Copyright (C) 2021 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
-#
+# 
+# Translators:
+# James McKinney, 2020
+# Romina Fernandez <rfernandez@cds.com.py>, 2020
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-03-05 17:32-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2020-08-20 21:04+0000\n"
+"Last-Translator: Romina Fernandez <rfernandez@cds.com.py>, 2020\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: codelists/geometryType.csv codelists/locationGazetteers.csv
 msgid "Code"
@@ -41,8 +47,7 @@ msgstr "Punto"
 #. Description
 #: codelists/geometryType.csv:1
 msgid "For type 'Point', the 'coordinates' member is a single position."
-msgstr ""
-"Para el tipo \"Point\", el miembro 'coordinates' es una posición simple."
+msgstr "Para el tipo \"Point\", el miembro 'coordinates' es una posición simple."
 
 #. Title
 #: codelists/geometryType.csv:2
@@ -51,7 +56,8 @@ msgstr "MultiPoint"
 
 #. Description
 #: codelists/geometryType.csv:2
-msgid "For type 'MultiPoint', the 'coordinates' member is an array of positions."
+msgid ""
+"For type 'MultiPoint', the 'coordinates' member is an array of positions."
 msgstr ""
 "Para el tipo \"MultiPoint\", el miembro 'coordinates' es una lista de "
 "posiciones."
@@ -64,8 +70,8 @@ msgstr "LineString"
 #. Description
 #: codelists/geometryType.csv:3
 msgid ""
-"For type 'LineString', the 'coordinates' member is an array of two or "
-"more positions."
+"For type 'LineString', the 'coordinates' member is an array of two or more "
+"positions."
 msgstr ""
 "Para el tipo \"LineString\", el miembro 'coordinates' es una lista de dos o "
 "más posiciones."
@@ -92,8 +98,8 @@ msgstr "Polygon"
 #. Description
 #: codelists/geometryType.csv:5
 msgid ""
-"For type 'Polygon', the 'coordinates' member must be an array of linear "
-"ring coordinate arrays."
+"For type 'Polygon', the 'coordinates' member must be an array of linear ring"
+" coordinate arrays."
 msgstr ""
 "Para el tipo 'Polygon' el miembro 'coordinates' debe ser una lista de "
 "coordenadas del tipo 'LinearRing'"
@@ -128,10 +134,9 @@ msgstr "Nomenclatura de las Unidades Territoriales Estadísticas de la UE"
 #. Description
 #: codelists/locationGazetteers.csv:1
 msgid ""
-"The Nomenclature of Territorial Units for Statistics (NUTS) was "
-"established by Eurostat in order to provide a single uniform breakdown of"
-" territorial units for the production of regional statistics for the "
-"European Union."
+"The Nomenclature of Territorial Units for Statistics (NUTS) was established "
+"by Eurostat in order to provide a single uniform breakdown of territorial "
+"units for the production of regional statistics for the European Union."
 msgstr ""
 "Nomenclatura de las Unidades Territoriales Estadísticas (NUTS) fue "
 "establecida por Eurostat con el fin de proporcionar un único desglose "
@@ -156,14 +161,13 @@ msgstr "GeoNames"
 #. Description
 #: codelists/locationGazetteers.csv:3
 msgid ""
-"GeoNames provides numerical identifiers for many points of interest "
-"around the world, including administrative divisions, populated centres "
-"and other locations, embedded within a structured tree of geographic "
-"relations."
+"GeoNames provides numerical identifiers for many points of interest around "
+"the world, including administrative divisions, populated centres and other "
+"locations, embedded within a structured tree of geographic relations."
 msgstr ""
-"GeoNames proporciona identificadores numéricos para muchos puntos de interés "
-"en todo el mundo, incluyendo divisiones administrativas, centros poblados y "
-"otros lugares, incrustados dentro de un árbol estructurado de relaciones "
+"GeoNames proporciona identificadores numéricos para muchos puntos de interés"
+" en todo el mundo, incluyendo divisiones administrativas, centros poblados y"
+" otros lugares, incrustados dentro de un árbol estructurado de relaciones "
 "geográficas."
 
 #. Title
@@ -192,8 +196,8 @@ msgstr "Relación de OpenStreetMap"
 #: codelists/locationGazetteers.csv:5
 msgid ""
 "Relations are used to model logical (and usually local) or geographic "
-"relationships between objects. In practice, boundaries of geographic "
-"areas are available as Relations in OpenStreetMap."
+"relationships between objects. In practice, boundaries of geographic areas "
+"are available as Relations in OpenStreetMap."
 msgstr ""
 "Las relaciones se usan para modelar relaciones lógicas (y generalmente "
 "locales) o geográficas entre objetos. En la práctica, los límites de áreas "
@@ -207,9 +211,8 @@ msgstr "Vía de Open Street Map"
 #. Description
 #: codelists/locationGazetteers.csv:6
 msgid ""
-"An OpenStreetMap Way is an ordered list of OpenStreetMap nodes. It can be"
-" used to describe fragments of roads or local boundaries and bounding "
-"boxes."
+"An OpenStreetMap Way is an ordered list of OpenStreetMap nodes. It can be "
+"used to describe fragments of roads or local boundaries and bounding boxes."
 msgstr ""
 "Una Vía de Open Street Map es una lista ordenada de nodos Open Street Map. "
 "Puede ser usado para describir fragmentos de caminos o límites locales y "

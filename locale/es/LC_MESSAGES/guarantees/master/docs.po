@@ -1,20 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 
+# Copyright (C)
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
+# James McKinney, 2021
+# Cecilia Casco <ceciliacasco@cds.com.py>, 2021
+# Maria Esther Cervantes <mcervantes@cds.com.py>, 2021
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 17:31-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-11-06 16:40+0000\n"
+"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2021\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../README.md:1 ../README.md:0
 msgid "Guarantees"
@@ -26,9 +33,11 @@ msgstr "Descripción:"
 
 #: ../README.md:4
 msgid ""
-"Some procurement processes consider the specification of guarantees in order "
-"to ensure compliance with the terms of a contract."
+"Some procurement processes consider the specification of guarantees in order"
+" to ensure compliance with the terms of a contract."
 msgstr ""
+"Algunos procesos de adquisiciones consideran la especificación de garantías "
+"para asegurar el cumplimiento de los términos de un contrato."
 
 #: ../README.md:6
 msgid ""
@@ -36,6 +45,9 @@ msgid ""
 "extension based on the formats that are required for the Federal Treasury "
 "(Mexico)."
 msgstr ""
+"Existen muchos tipos de garantías, por lo que consideramos la creación de "
+"una nueva extensión en base a los formatos que se requieren para la "
+"Tesorería de la Federación (México)."
 
 #: ../README.md:8
 msgid "Proposal:"
@@ -43,19 +55,19 @@ msgstr "Propuesta:"
 
 #: ../README.md:10
 msgid "Codelist"
-msgstr ""
+msgstr "Lista de códigos"
 
 #: ../README.md:12
 msgid "Guarantee types:"
-msgstr ""
+msgstr "Tipos de garantías: "
 
 #: ../README.md:13 ../README.md:0
 msgid "Bail"
-msgstr ""
+msgstr "Fianza"
 
 #: ../README.md:14 ../README.md:0
 msgid "Deposit slip"
-msgstr ""
+msgstr "Comprobante de depósito"
 
 #: ../README.md:15 ../README.md:0
 msgid "Letter of credit"
@@ -63,7 +75,7 @@ msgstr "Carta de crédito"
 
 #: ../README.md:16 ../README.md:0
 msgid "Surety bond"
-msgstr ""
+msgstr "Fianza de garantía"
 
 #: ../README.md:17 ../README.md:0
 msgid "Check"
@@ -71,31 +83,31 @@ msgstr "Cheque"
 
 #: ../README.md:19
 msgid "Guaranteed obligations:"
-msgstr ""
+msgstr "Obligaciones garantizadas:"
 
 #: ../README.md:20 ../README.md:0
 msgid "Fulfillment"
-msgstr ""
+msgstr "Cumplimiento"
 
 #: ../README.md:21 ../README.md:0
 msgid "Prepaid"
-msgstr ""
+msgstr "Pagado por adelantado"
 
 #: ../README.md:22 ../README.md:0
 msgid "Latent defects"
-msgstr ""
+msgstr "Defectos ocultos"
 
 #: ../README.md:23 ../README.md:0
 msgid "Confidentiality"
-msgstr ""
+msgstr "Confidencialidad"
 
 #: ../README.md:24 ../README.md:0
 msgid "Quality"
-msgstr ""
+msgstr "Calidad"
 
 #: ../README.md:26
 msgid "Add an array named \"guarantees\" with the following fields:"
-msgstr ""
+msgstr "Agregar una matriz llamada \"garantías\" con los siguientes campos: "
 
 #: ../README.md:28
 msgid "Schema"
@@ -103,55 +115,55 @@ msgstr "Esquema"
 
 #: ../README.md:29
 msgid "Contract {object}"
-msgstr ""
+msgstr "Contrato {objeto}"
 
 #: ../README.md:30
 msgid "guarantees [array]"
-msgstr ""
+msgstr "garantías [matriz]"
 
 #: ../README.md:31
 msgid "Guarantee {object}"
-msgstr ""
+msgstr "Garantía {objeto}"
 
 #: ../README.md:32
 msgid "id (string, integer)"
-msgstr ""
+msgstr "id (string, integer)"
 
 #: ../README.md:33
 msgid "type (string, null) (codelist)"
-msgstr ""
+msgstr "tipo (string, null) (lista de códigos)"
 
 #: ../README.md:34
 msgid "date (Format: date-time) (string, null)"
-msgstr ""
+msgstr "fecha (Formato: fecha-hora) (string, null)"
 
 #: ../README.md:35
 msgid "obligations (string, null) (codelist)"
-msgstr ""
+msgstr "obligaciones (string, null) (lista de códigos)"
 
 #: ../README.md:36
 msgid "value {object}"
-msgstr ""
+msgstr "valor {objeto}"
 
 #: ../README.md:37
 msgid "$ref : #/definitions/Value"
-msgstr ""
+msgstr "$ref : #/definitions/Value"
 
 #: ../README.md:38
 msgid "guarantor  {object}"
-msgstr ""
+msgstr "garante {objeto}"
 
 #: ../README.md:39
 msgid "$ref : #/definitions/OrganizationReference"
-msgstr ""
+msgstr "$ref : #/definitions/OrganizationReference"
 
 #: ../README.md:40
 msgid "period {object}"
-msgstr ""
+msgstr "período {objeto}"
 
 #: ../README.md:41
 msgid "$ref : #/definitions/Period"
-msgstr ""
+msgstr "$ref : #/definiciones/Periodo"
 
 #: ../README.md:43
 msgid "Defining texts:"
@@ -159,23 +171,23 @@ msgstr "Textos definidos: "
 
 #: ../README.md:0
 msgid "**Code**"
-msgstr ""
+msgstr "**Código**"
 
 #: ../README.md:0
 msgid "**Title**"
-msgstr ""
+msgstr "**Título**"
 
 #: ../README.md:0
 msgid "**Description**"
-msgstr ""
+msgstr "**Descripción**"
 
 #: ../README.md:0
 msgid "guarantees"
-msgstr ""
+msgstr "garantías"
 
 #: ../README.md:0
 msgid "A list of the guarantees given for this contract."
-msgstr ""
+msgstr "Una lista de las garantías otorgadas para este contrato."
 
 #: ../README.md:0
 msgid "Guarantee"
@@ -186,67 +198,82 @@ msgid ""
 "Information of the guarantee used to ensure compliance with the terms of a "
 "contract."
 msgstr ""
+"Información de la garantía utilizada para asegurar el cumplimiento de los "
+"términos de un contrato."
 
 #: ../README.md:0
 msgid "id"
-msgstr ""
+msgstr "id"
 
 #: ../README.md:0
 msgid "Guarantee ID"
-msgstr ""
+msgstr "ID de garantía"
 
 #: ../README.md:0
 msgid "A local identifier for this guarantee, unique within this block."
 msgstr ""
+"Un identificador local para esta garantía, único dentro de este bloque. "
 
 #: ../README.md:0
 msgid "type"
-msgstr ""
+msgstr "tipo"
 
 #: ../README.md:0
 msgid "Guarantee type"
-msgstr ""
+msgstr "Tipo de garantía"
 
 #: ../README.md:0
 msgid ""
-"Specify the guarantee type for this contract using the [guaranteeType]"
-"(https://github.com/INAImexico/ocds_guarantees_extension/blob/master/"
-"codelists/guaranteeType.csv) codelist."
+"Specify the guarantee type for this contract using the "
+"[guaranteeType](https://github.com/INAImexico/ocds_guarantees_extension/blob/master/codelists/guaranteeType.csv)"
+" codelist."
 msgstr ""
+"Especifique el tipo de garantía para este contrato usando la lista de "
+"códigos [guaranteeType] "
+"(https://github.com/INAImexico/ocds_guarantees_extension/blob/master/codelists/guaranteeType.csv)"
+" "
 
 #: ../README.md:0
 msgid "bail"
-msgstr ""
+msgstr "fianza"
 
 #: ../README.md:0
 msgid ""
 "A bail bond is a written promise by which a person agrees with the creditor "
 "to pay for the debtor, if he does not."
 msgstr ""
+"Una fianza es una promesa escrita mediante la cual una persona acuerda con "
+"el acreedor pagar por el deudor, si él no lo hace."
 
 #: ../README.md:0
 msgid "depositSlip"
-msgstr ""
+msgstr "depositSlip"
 
 #: ../README.md:0
 msgid ""
 "The deposit slip is an instrument used to establish cash guarantees "
 "available to judicial or administrative authorities."
 msgstr ""
+"La boleta de depósito es un instrumento que se utiliza para establecer "
+"garantías en efectivo a disposición de las autoridades judiciales o "
+"administrativas."
 
 #: ../README.md:0
 msgid "letterOfCredit"
-msgstr ""
+msgstr "letterOfCredit"
 
 #: ../README.md:0
 msgid ""
 "Letters of credit are used to guarantee that a supplier will receive a "
 "specified amount of money within a specified time providing strict terms."
 msgstr ""
+"Las cartas de crédito se utilizan para garantizar que un proveedor recibirá "
+"una determinada cantidad de dinero dentro de un plazo determinado, "
+"proporcionando términos estrictos."
 
 #: ../README.md:0
 msgid "suretyBond"
-msgstr ""
+msgstr "suretyBond"
 
 #: ../README.md:0
 msgid ""
@@ -254,128 +281,146 @@ msgid ""
 "compensate the obligee for the damages suffered in the event that the "
 "principal fails to comply with the terms of the contract."
 msgstr ""
+"Una fianza es un instrumento a través del cual el fiador está obligado a "
+"compensar al obligante por los daños sufridos en caso de que el principal no"
+" cumpla con los términos del contrato."
 
 #: ../README.md:0
 msgid "check"
-msgstr ""
+msgstr "cheque"
 
 #: ../README.md:0
 msgid "A certified check as a form of guarantee."
-msgstr ""
+msgstr "Un cheque certificado como garantía."
 
 #: ../README.md:0
 msgid "date"
-msgstr ""
+msgstr "fecha"
 
 #: ../README.md:0
 msgid "Guarantee date"
-msgstr ""
+msgstr "fecha de garantía "
 
 #: ../README.md:0
 msgid ""
-"The date of the guarantee. This is the date on which the guarantee is issued."
+"The date of the guarantee. This is the date on which the guarantee is "
+"issued."
 msgstr ""
+"La fecha de la garantía. Esta es la fecha en la que se emite la garantía."
 
 #: ../README.md:0
 msgid "obligations"
-msgstr ""
+msgstr "obligaciones"
 
 #: ../README.md:0
 msgid "Guaranteed obligations"
-msgstr ""
+msgstr "Obligaciones garantizadas"
 
 #: ../README.md:0
 msgid ""
 "Specify the type of obligations that are guaranteed, using the "
-"[obligationType](https://github.com/INAImexico/ocds_guarantees_extension/"
-"blob/master/codelists/guaranteedObligations.csv) codelist."
+"[obligationType](https://github.com/INAImexico/ocds_guarantees_extension/blob/master/codelists/guaranteedObligations.csv)"
+" codelist."
 msgstr ""
+"Especifique el tipo de obligaciones que están garantizadas, utilizando la "
+"lista de códigos "
+"[obligationType](https://github.com/INAImexico/ocds_guarantees_extension/blob/master/codelists/guaranteedObligations.csv)"
 
 #: ../README.md:0
 msgid "fulfillment"
-msgstr ""
+msgstr "cumplimiento"
 
 #: ../README.md:0
 msgid ""
 "Guarantees fulfillment in time with the conditions stipulated in the "
 "contract."
 msgstr ""
+"Garantiza el cumplimiento en tiempo de las condiciones estipuladas en el "
+"contrato."
 
 #: ../README.md:0
 msgid "prepaid"
-msgstr ""
+msgstr "pagado por adelantado"
 
 #: ../README.md:0
 msgid ""
 "Guarantee by which the supplier requests a prepayment from the procuring "
 "entity."
 msgstr ""
+"Garantía por la cual el proveedor solicita un pre-pago a la entidad "
+"contratante."
 
 #: ../README.md:0
 msgid "latentDefects"
-msgstr ""
+msgstr "latentDefects"
 
 #: ../README.md:0
 msgid ""
 "Guarantee on the possible defects that a good may have that are not "
 "discoverable through general inspection at the time of delivery."
 msgstr ""
+"Garantía sobre los posibles defectos que pueda tener un bien que no sean "
+"detectables mediante inspección general en el momento de la entrega."
 
 #: ../README.md:0
 msgid "confidentiality"
-msgstr ""
+msgstr "confidencialidad"
 
 #: ../README.md:0
 msgid ""
 "Guarantee that commits the supplier to safeguard the confidential "
 "information that has been granted."
 msgstr ""
+"Garantía que compromete al proveedor a resguardar la información "
+"confidencial que le ha sido otorgada."
 
 #: ../README.md:0
 msgid "quality"
-msgstr ""
+msgstr "calidad"
 
 #: ../README.md:0
 msgid ""
 "Commitment from the supplier to deliver the goods and services in the "
 "quality specified in the contract."
 msgstr ""
+"Compromiso del proveedor de entregar los bienes y servicios en la calidad "
+"especificada en el contrato."
 
 #: ../README.md:0
 msgid "value"
-msgstr ""
+msgstr "valor"
 
 #: ../README.md:0
 msgid "Guarantee value"
-msgstr ""
+msgstr "Valor garantizado"
 
 #: ../README.md:0
 msgid "Total amount of the guarantee."
-msgstr ""
+msgstr "Importe total de la garantía."
 
 #: ../README.md:0
 msgid "guarantor"
-msgstr ""
+msgstr "garante"
 
 #: ../README.md:0
 msgid "Guarantor"
-msgstr ""
+msgstr "Garante"
 
 #: ../README.md:0
 msgid "Institution that issues the guarantee."
-msgstr ""
+msgstr "Institución que emite la garantía."
 
 #: ../README.md:0
 msgid "period"
-msgstr ""
+msgstr "periodo "
 
 #: ../README.md:0
 msgid "Guarantee period"
-msgstr ""
+msgstr "Período de garantía"
 
 #: ../README.md:0
 msgid "The period on which this quote is valid."
-msgstr ""
+msgstr "El período en el que esta cotización es válida."
 
 #: ../README.md:68
 msgid "Issues"
@@ -383,7 +428,10 @@ msgstr "Issues"
 
 #: ../README.md:70
 msgid ""
-"Report issues for this extension in the [standard repository](https://github."
-"com/open-contracting/standard/issues/651) of the Open Contracting "
-"Partnership."
+"Report issues for this extension in the [standard "
+"repository](https://github.com/open-contracting/standard/issues/651) of the "
+"Open Contracting Partnership."
 msgstr ""
+"Informar problemas de esta extensión en el [repositorio estándar] "
+"(https://github.com/open-contracting/standard/issues/651) de Open "
+"Contracting Partnership."

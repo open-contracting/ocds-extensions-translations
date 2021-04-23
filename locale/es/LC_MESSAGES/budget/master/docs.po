@@ -1,20 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 
+# Copyright (C)
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
+# James McKinney, 2019
+# Maria Esther Cervantes <mcervantes@cds.com.py>, 2019
+# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 17:31-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-03-14 18:32+0000\n"
+"Last-Translator: Natalia Valdez <nataliavaldez@cds.com.py>, 2021\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../README.md:1
 msgid "Budget Breakdown"
@@ -36,8 +43,8 @@ msgstr ""
 
 #: ../README.md:7
 msgid ""
-"OCDS core includes a single `budget.amount` field to capture the total value "
-"of the budget for the contracting process."
+"OCDS core includes a single `budget.amount` field to capture the total value"
+" of the budget for the contracting process."
 msgstr ""
 "La estructura principal OCDS incluye un solo campo `budget.amount` para "
 "capturar el monto total del presupuesto para el proceso de contratación."
@@ -48,8 +55,8 @@ msgstr "Proporcionar información presupuestaria más detallada"
 
 #: ../README.md:11
 msgid ""
-"Some OCDS implementations require more detailed information on budgets to be "
-"disclosed, for example multi-year budgets or budgets sourced from multiple "
+"Some OCDS implementations require more detailed information on budgets to be"
+" disclosed, for example multi-year budgets or budgets sourced from multiple "
 "different government departments. In the case of PPPs, budgets may be "
 "sourced from the private sector or from multi-lateral development banks."
 msgstr ""
@@ -77,8 +84,8 @@ msgstr ""
 "La divulgación de datos estructurados de presupuestos de fuentes múltiples "
 "permite a los usuarios entender cuánto de los fondos para un proyecto "
 "provienen del gobierno o de un departamento específico, mientras que los "
-"datos estructurados sobre presupuestos multi-anuales permiten a los usuarios "
-"entender el perfil de gasto esperado de un contrato."
+"datos estructurados sobre presupuestos multi-anuales permiten a los usuarios"
+" entender el perfil de gasto esperado de un contrato."
 
 #: ../README.md:17
 msgid "Guidance"
@@ -89,6 +96,9 @@ msgid ""
 "In the core `planning.budget` block, `budget.amount` should be used to "
 "capture the total value of the budget for the contracting process."
 msgstr ""
+"En el bloque principal de `planning.budget`, se debe utilizar` "
+"budget.amount` para capturar el valor total del presupuesto para el proceso "
+"de contratación."
 
 #: ../README.md:21
 msgid ""
@@ -101,8 +111,8 @@ msgid ""
 msgstr ""
 "Cuando se utiliza `budget.budgetBreakdown` para expresar un presupuesto de "
 "múltiples fuentes pero los detalles de la organización no se conocen para "
-"una o más partes del presupuesto, por ejemplo, en una APP donde el licitador "
-"del sector privado proporcionará parte del presupuesto , el campo "
+"una o más partes del presupuesto, por ejemplo, en una APP donde el licitador"
+" del sector privado proporcionará parte del presupuesto , el campo "
 "`sourceParty.name` debe usarse para proporcionar una explicación de texto "
 "libre de la fuente del presupuesto, por ejemplo \"Inversión del sector "
 "privado del licitador ganador\"."
@@ -137,9 +147,9 @@ msgstr "Issues"
 
 #: ../README.md:141
 msgid ""
-"Report issues for this extension in the [ocds-extensions repository](https://"
-"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
-"name in the issue's title."
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
 msgstr ""
 "Reporte issues para esta extensión en el [repositorio de extensiones "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
@@ -151,37 +161,42 @@ msgstr "Registro de cambios"
 
 #: ../README.md:145
 msgid "2020-04-24"
-msgstr ""
+msgstr "2020-04-24"
 
 #: ../README.md:147
 msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
-msgstr ""
+msgstr "Agregar las propiedades `minProperties`, `minItems` y/o `minLength`."
 
 #: ../README.md:149
 msgid "2019-03-20"
-msgstr ""
+msgstr "2019-03-20"
 
 #: ../README.md:151
 msgid ""
 "Set `\"uniqueItems\": true` on array fields, and add `\"minLength\": 1` on "
 "required string fields."
 msgstr ""
+"Establecer `\"uniqueItems \": true` en los campos de la matriz y agregar "
+"`\"minLength\": 1` en los campos de cadena obligatorios."
 
 #: ../README.md:153
 msgid "2019-01-30"
-msgstr ""
+msgstr "2019-01-30"
 
 #: ../README.md:155
 msgid "Remove obsolete `mergeStrategy` properties"
-msgstr ""
+msgstr "Remover la propiedad obsoleta `mergeStrategy`."
 
 #: ../README.md:157
 msgid "2018-05-08"
-msgstr ""
+msgstr "2018-05-08"
 
 #: ../README.md:159
 msgid ""
 "Make `BudgetBreakdown.id` required and non-nullable to support revision "
-"tracking and [list merging](http://standard.open-contracting.org/latest/en/"
-"schema/merging/#lists)"
+"tracking and [list merging](http://standard.open-"
+"contracting.org/latest/en/schema/merging/#lists)"
 msgstr ""
+"Hacer obligatorio y no nulo `BudgetBreakdown.id` para permitir el "
+"seguimiento de revisiones y [fusión de listas](http://standard.open-"
+"contracting.org/latest/es/schema/merging/#lists)"

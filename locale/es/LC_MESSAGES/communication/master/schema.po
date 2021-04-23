@@ -2,26 +2,31 @@
 # Copyright (C) 2021 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
-#
+# 
+# Translators:
+# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-03-05 17:32-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2020-08-20 21:52+0000\n"
+"Last-Translator: Natalia Valdez <nataliavaldez@cds.com.py>, 2021\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. /name/en
 #. /definitions/Tender/properties/communication/title
 #: extension.json:1 release-schema.json:1
 msgid "Communication"
-msgstr ""
+msgstr "Comunicación"
 
 #. /description/en
 #: extension.json:1
@@ -29,43 +34,50 @@ msgid ""
 "Adds a communication object to the tender to describe the modalities of "
 "communication about key events."
 msgstr ""
+"Agrega a la licitación un objeto comunicación para describir las modalidades"
+" de comunicación de los eventos claves."
 
 #. /definitions/Tender/properties/communication/description
 #: release-schema.json:1
 msgid "Modalities of communication about key events."
-msgstr ""
+msgstr "Modalidades de comunicación sobre eventos clave."
 
 #. /definitions/Tender/properties/communication/properties/atypicalToolUrl/title
 #: release-schema.json:1
 msgid "Atypical tool URL"
-msgstr ""
+msgstr "URL de herramienta atípica"
 
 #. /definitions/Tender/properties/communication/properties/atypicalToolUrl/description
 #: release-schema.json:1
 msgid ""
-"Electronic communication with the procuring entity requires the use of "
-"tools and devices that are not generally available. These tools are "
-"accessible via this URL."
+"Electronic communication with the procuring entity requires the use of tools"
+" and devices that are not generally available. These tools are accessible "
+"via this URL."
 msgstr ""
+"La comunicación electrónica con la entidad contratante requiere el uso de "
+"herramientas y dispositivos que generalmente no están disponibles. Estas "
+"herramientas son accesibles a través de esta URL."
 
 #. /definitions/Tender/properties/communication/properties/futureNoticeDate/title
 #: release-schema.json:1
 msgid "Future notice date"
-msgstr ""
+msgstr "Fecha de notificación futura"
 
 #. /definitions/Tender/properties/communication/properties/futureNoticeDate/description
 #: release-schema.json:1
 msgid "The estimated date of publication of the next sequential notice."
-msgstr ""
+msgstr "Fecha estimada de publicación del próximo aviso secuencial."
 
 #. /definitions/Tender/properties/communication/properties/documentAvailabilityPeriod/title
 #: release-schema.json:1
 msgid "Document availability period"
-msgstr ""
+msgstr "Periodo de diponibilidad del documento"
 
 #. /definitions/Tender/properties/communication/properties/documentAvailabilityPeriod/description
 #: release-schema.json:1
 msgid ""
-"The period during which documents can be accessed, or during which "
-"requests for access to documents can be submitted."
+"The period during which documents can be accessed, or during which requests "
+"for access to documents can be submitted."
 msgstr ""
+"El periodo durante el cual los documentos pueden ser accedidos o durante el "
+"cual se pueden presentar peticiones de acceso a los documentos."

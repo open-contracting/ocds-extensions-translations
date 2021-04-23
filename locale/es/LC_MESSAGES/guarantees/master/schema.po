@@ -2,20 +2,26 @@
 # Copyright (C) 2021 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
-#
+# 
+# Translators:
+# James McKinney, 2021
+# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-03-05 17:32-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-11-06 16:40+0000\n"
+"Last-Translator: Natalia Valdez <nataliavaldez@cds.com.py>, 2021\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. /name/en
 #. /definitions/Contract/properties/guarantees/title
@@ -26,14 +32,13 @@ msgstr "Garantías"
 #. /description/en
 #: extension.json:1
 msgid ""
-"Some procurement processes consider the specification of guarantees in "
-"order to ensure compliance with the terms of a contract.\n"
+"Some procurement processes consider the specification of guarantees in order to ensure compliance with the terms of a contract.\n"
 "\n"
-"There are many types of guarantees, so we consider the creation of a new "
-"extension based on the formats that are required for the Federal Treasury"
-" (Mexico). See discussion in https://github.com/open-"
-"contracting/standard/issues/651"
+"There are many types of guarantees, so we consider the creation of a new extension based on the formats that are required for the Federal Treasury (Mexico). See discussion in https://github.com/open-contracting/standard/issues/651"
 msgstr ""
+"Algunos procesos de contratación consideran la especificación de garantías para asegurar el cumplimiento de los términos de un contrato.\n"
+"\n"
+"Existen muchos tipos de garantías, por lo que consideramos a la creación de una nueva extensión basada en los formatos que se requieren para la Tesorería de la Federación (México). Ver discusión en https://github.com/open-contracting/standard/issues/651"
 
 #. /definitions/Guarantee/title
 #: release-schema.json:1
@@ -43,24 +48,27 @@ msgstr "Garantía"
 #. /definitions/Guarantee/description
 #: release-schema.json:1
 msgid ""
-"Information of the guarantee used to ensure compliance with the terms of "
-"a contract."
+"Information of the guarantee used to ensure compliance with the terms of a "
+"contract."
 msgstr ""
+"Información de la garantía utilizada para asegurar el cumplimiento de los "
+"términos de un contrato."
 
 #. /definitions/Guarantee/properties/id/title
 #: release-schema.json:1
 msgid "Guarantee ID"
-msgstr ""
+msgstr "ID de garantía"
 
 #. /definitions/Guarantee/properties/id/description
 #: release-schema.json:1
 msgid "A local identifier for this guarantee, unique within this block."
 msgstr ""
+"Un identificador local para esta garantía, único dentro de este bloque. "
 
 #. /definitions/Guarantee/properties/type/title
 #: release-schema.json:1
 msgid "Guarantee type"
-msgstr ""
+msgstr "Tipo de garantía"
 
 #. /definitions/Guarantee/properties/type/description
 #: release-schema.json:1
@@ -69,11 +77,14 @@ msgid ""
 "[guaranteeType](https://github.com/contratacionesabiertas/ocds_guarantees_extension/blob/master/codelists/guaranteeType.csv)"
 " codelist."
 msgstr ""
+"Especifique el tipo de garantía para este contrato usando la lista de "
+"códigos [guaranteeType] "
+"(https://github.com/contratacionesabiertas/ocds_guarantees_extension/blob/master/codelists/guaranteeType.csv)"
 
 #. /definitions/Guarantee/properties/date/title
 #: release-schema.json:1
 msgid "Guarantee date"
-msgstr ""
+msgstr "Fecha de garantía"
 
 #. /definitions/Guarantee/properties/date/description
 #: release-schema.json:1
@@ -81,11 +92,12 @@ msgid ""
 "The date of the guarantee. This is the date on which the guarantee is "
 "issued."
 msgstr ""
+"La fecha de la garantía. Esta es la fecha en la que se emite la garantía."
 
 #. /definitions/Guarantee/properties/obligations/title
 #: release-schema.json:1
 msgid "Guaranteed obligations"
-msgstr ""
+msgstr "Obligaciones garantizadas"
 
 #. /definitions/Guarantee/properties/obligations/description
 #: release-schema.json:1
@@ -94,38 +106,41 @@ msgid ""
 "[obligationType](https://github.com/contratacionesabiertas/ocds_guarantees_extension/blob/master/codelists/guaranteedObligations.csv)"
 " codelist."
 msgstr ""
+"Especifique el tipo de obligaciones que están garantizadas, utilizando la "
+"lista de códigos "
+"[obligationType](https://github.com/contratacionesabiertas/ocds_guarantees_extension/blob/master/codelists/guaranteedObligations.csv)."
 
 #. /definitions/Guarantee/properties/value/title
 #: release-schema.json:1
 msgid "Guarantee value"
-msgstr ""
+msgstr "Valor de la garantía"
 
 #. /definitions/Guarantee/properties/value/description
 #: release-schema.json:1
 msgid "Total amount of the guarantee."
-msgstr ""
+msgstr "Importe total de la garantía."
 
 #. /definitions/Guarantee/properties/guarantor/title
 #: release-schema.json:1
 msgid "Guarantor"
-msgstr ""
+msgstr "Garante"
 
 #. /definitions/Guarantee/properties/guarantor/description
 #: release-schema.json:1
 msgid "Institution that issues the guarantee."
-msgstr ""
+msgstr "Institución que emite la garantía."
 
 #. /definitions/Guarantee/properties/period/title
 #: release-schema.json:1
 msgid "Guarantee period"
-msgstr ""
+msgstr "Período de garantía"
 
 #. /definitions/Guarantee/properties/period/description
 #: release-schema.json:1
 msgid "The period on which this quote is valid."
-msgstr ""
+msgstr "El período en el que esta cotización es válida."
 
 #. /definitions/Contract/properties/guarantees/description
 #: release-schema.json:1
 msgid "A list of the guarantees given for this contract."
-msgstr ""
+msgstr "Una lista de las garantías otorgadas para este contrato."

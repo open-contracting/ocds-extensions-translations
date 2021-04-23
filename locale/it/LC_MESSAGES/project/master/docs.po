@@ -1,20 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 
+# Copyright (C)
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
+# James McKinney, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 17:31-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-03-14 18:32+0000\n"
+"Last-Translator: James McKinney, 2019\n"
+"Language-Team: Italian (https://www.transifex.com/open-contracting-partnership-1/teams/112300/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../README.md:1
 msgid "Project"
@@ -26,10 +31,11 @@ msgstr ""
 
 #: ../README.md:5
 msgid ""
-"In OCDS, project information is nested under the [`planning.budget`](https://"
-"standard.open-contracting.org/latest/en/schema/reference/#budget) object. "
-"However, in some cases, budget management systems and project management "
-"systems are separate, and it might be important to separately specify:"
+"In OCDS, project information is nested under the "
+"[`planning.budget`](https://standard.open-"
+"contracting.org/latest/en/schema/reference/#budget) object. However, in some"
+" cases, budget management systems and project management systems are "
+"separate, and it might be important to separately specify:"
 msgstr ""
 
 #: ../README.md:7
@@ -84,8 +90,8 @@ msgstr ""
 
 #: ../README.md:58
 msgid ""
-"Remove guidance related to the `planning.budget` object. See [#701](https://"
-"github.com/open-contracting/standard/issues/701)."
+"Remove guidance related to the `planning.budget` object. See "
+"[#701](https://github.com/open-contracting/standard/issues/701)."
 msgstr ""
 
 #: ../README.md:60
@@ -116,8 +122,8 @@ msgstr ""
 
 #: ../README.md:71
 msgid ""
-"Remove multilingual support for non-existent `Project.source` and `Project."
-"project` fields"
+"Remove multilingual support for non-existent `Project.source` and "
+"`Project.project` fields"
 msgstr ""
 
 #: ../README.md:72
@@ -134,9 +140,9 @@ msgstr "Problemi (issues)"
 
 #: ../README.md:77
 msgid ""
-"Report issues for this extension in the [ocds-extensions repository](https://"
-"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
-"name in the issue's title."
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
 msgstr ""
 "Segnala i problemi per questa estensione nel [repository ocds-"
 "extensions](https://github.com/open-contracting/ocds-extensions/issues), "

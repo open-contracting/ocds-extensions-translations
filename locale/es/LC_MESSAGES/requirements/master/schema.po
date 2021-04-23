@@ -2,20 +2,27 @@
 # Copyright (C) 2021 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
-#
+# 
+# Translators:
+# James McKinney, 2019
+# Maria Esther Cervantes <mcervantes@cds.com.py>, 2019
+# Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-03-05 17:32-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-03-14 18:29+0000\n"
+"Last-Translator: Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2019\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. /name/en
 #. /definitions/RequirementGroup/properties/requirements/title
@@ -26,9 +33,9 @@ msgstr "Requisitos"
 #. /description/en
 #: extension.json:1
 msgid ""
-"Adds a criteria section to the tender object and responses sections to "
-"bids, awards and contracts. Based on the EU's Core Criterion and Core "
-"Evidence Vocabulary (CCCEV)."
+"Adds a criteria section to the tender object and responses sections to bids,"
+" awards and contracts. Based on the EU's Core Criterion and Core Evidence "
+"Vocabulary (CCCEV)."
 msgstr ""
 "Agrega una sección de criterios a las secciones de objeto de licitación y "
 "respuestas a ofertas, adjudicaciones y contratos. Basado en el criterio "
@@ -42,11 +49,11 @@ msgstr "Criterio"
 #. /definitions/Criterion/description
 #: release-schema.json:1
 msgid ""
-"A criterion on which either bidders or items will be judged, evaluated or"
-" assessed."
+"A criterion on which either bidders or items will be judged, evaluated or "
+"assessed."
 msgstr ""
-"Un criterio sobre el cual se juzgarán, evaluarán o valorarán los licitadores "
-"o artículos."
+"Un criterio sobre el cual se juzgarán, evaluarán o valorarán los licitadores"
+" o artículos."
 
 #. /definitions/Criterion/properties/id/title
 #. /definitions/RequirementGroup/properties/id/title
@@ -89,11 +96,11 @@ msgstr "Descripción"
 #. /definitions/Criterion/properties/description/description
 #: release-schema.json:1
 msgid ""
-"A description of this criterion. Structured information should be "
-"provided in its other fields."
+"A description of this criterion. Structured information should be provided "
+"in its other fields."
 msgstr ""
-"Una descripción de este criterio. La información estructurada se debe de dar "
-"en los otros campos."
+"Una descripción de este criterio. La información estructurada se debe de dar"
+" en los otros campos."
 
 #. /definitions/Criterion/properties/source/title
 #: release-schema.json:1
@@ -128,9 +135,9 @@ msgstr "Artículo relacionado"
 #. /definitions/Criterion/properties/relatedItem/description
 #: release-schema.json:1
 msgid ""
-"Where relatesTo = \"item\" this field must be populated with the id of "
-"the item in this tender section which the criterion relates to. Where "
-"relatesTo <> \"item\" this field should be omitted."
+"Where relatesTo = \"item\" this field must be populated with the id of the "
+"item in this tender section which the criterion relates to. Where relatesTo "
+"<> \"item\" this field should be omitted."
 msgstr ""
 "Donde relatesTo = \"item\" este campo debe de ser llenado con el id del "
 "artículo en esta sección de la licitación con el que se relaciona el "
@@ -144,13 +151,14 @@ msgstr "Grupos de requisitos"
 #. /definitions/Criterion/properties/requirementGroups/description
 #: release-schema.json:1
 msgid ""
-"A list of requirement groups for this Criterion. A criterion is satisfied"
-" by one or more requirement groups being met. A requirement group is met "
-"when all requirements in the group are satisfied."
+"A list of requirement groups for this Criterion. A criterion is satisfied by"
+" one or more requirement groups being met. A requirement group is met when "
+"all requirements in the group are satisfied."
 msgstr ""
 "Una lista de grupos de requisitos para este Criterio. Un criterio se "
 "satisface cuando uno o más grupos de requisitos se cumplen. Un grupo de "
-"requisitos se cumple cuando todos los requerimientos del grupo se satisfacen."
+"requisitos se cumple cuando todos los requerimientos del grupo se "
+"satisfacen."
 
 #. /definitions/RequirementGroup/title
 #: release-schema.json:1
@@ -160,8 +168,8 @@ msgstr "Grupo de requisitos"
 #. /definitions/RequirementGroup/description
 #: release-schema.json:1
 msgid ""
-"A requirement group is a set of requirements that must be fulfilled "
-"together to validate a criterion."
+"A requirement group is a set of requirements that must be fulfilled together"
+" to validate a criterion."
 msgstr ""
 "Un grupo de requisitos es un conjunto de requisitos que deben cumplirse "
 "juntos para validar un criterio."
@@ -175,16 +183,16 @@ msgid ""
 "contracting.org/latest/en/schema/identifiers/) for further details."
 msgstr ""
 "El identificador para este grupo de requisitos. Debe ser único y no puede "
-"cambiar dentro del Proceso de Contratación Abierta del que forma parte ("
-"definido por un solo ocid). Consulte la [guía de "
-"identificadores](http://standard.open-contracting.org/latest/en/schema/"
-"identifiers/) para obtener más detalles."
+"cambiar dentro del Proceso de Contratación Abierta del que forma parte "
+"(definido por un solo ocid). Consulte la [guía de "
+"identificadores](http://standard.open-"
+"contracting.org/latest/en/schema/identifiers/) para obtener más detalles."
 
 #. /definitions/RequirementGroup/properties/description/description
 #: release-schema.json:1
 msgid ""
-"A description of this requirement group. Structured information should be"
-" provided in the requirements array."
+"A description of this requirement group. Structured information should be "
+"provided in the requirements array."
 msgstr ""
 "Una descripción de este grupo de requisitos. Se debe de proveer información "
 "estructurada en la  lista de requisitos."
@@ -192,8 +200,8 @@ msgstr ""
 #. /definitions/RequirementGroup/properties/requirements/description
 #: release-schema.json:1
 msgid ""
-"A list requirements which must all be satisfied for the requirement group"
-" to be met."
+"A list requirements which must all be satisfied for the requirement group to"
+" be met."
 msgstr ""
 "Una lista de requisitos que deben ser cumplidos para que el grupo de "
 "requisitos se cumpla."
@@ -206,15 +214,15 @@ msgstr "Requisito"
 #. /definitions/Requirement/description
 #: release-schema.json:1
 msgid ""
-"An atomic requirement. Requirements can specify the expected value that "
-"the response has to contain, or a range of threshold values within which "
-"the response has to fit in. The requirement may apply to a certain period"
-" of time."
+"An atomic requirement. Requirements can specify the expected value that the "
+"response has to contain, or a range of threshold values within which the "
+"response has to fit in. The requirement may apply to a certain period of "
+"time."
 msgstr ""
 "Un requisito atómico. Los requisitos pueden especificar el valor esperado "
 "que la respuesta debe contener, o un rango de valores tope en los que la "
-"respuesta debe de entrar. El requisito puede aplicar a un período específico "
-"de tiempo."
+"respuesta debe de entrar. El requisito puede aplicar a un período específico"
+" de tiempo."
 
 #. /definitions/Requirement/properties/id/title
 #: release-schema.json:1
@@ -229,9 +237,9 @@ msgid ""
 "ocid). See the [identifier guidance](http://standard.open-"
 "contracting.org/latest/en/schema/identifiers/) for further details."
 msgstr ""
-"El identificador de este requisito. Debe ser único y no puede cambiar dentro "
-"del Proceso de Contratación Abierta de que forma parte (definido por un solo "
-"ocid). Consulte la [guía de identificadores](http://standard.open-"
+"El identificador de este requisito. Debe ser único y no puede cambiar dentro"
+" del Proceso de Contratación Abierta de que forma parte (definido por un "
+"solo ocid). Consulte la [guía de identificadores](http://standard.open-"
 "contracting.org/latest/en/schema/identifiers/) para obtener más detalles."
 
 #. /definitions/Requirement/properties/title/title
@@ -283,7 +291,8 @@ msgstr "Valor esperado"
 
 #. /definitions/Requirement/properties/expectedValue/description
 #: release-schema.json:1
-msgid "Used to state the requirement when the response must be particular value."
+msgid ""
+"Used to state the requirement when the response must be particular value."
 msgstr ""
 "Usado para que se establezca el requisito cuando la respuesta debe ser un "
 "valor particular."
@@ -296,8 +305,8 @@ msgstr "Valor mínimo"
 #. /definitions/Requirement/properties/minValue/description
 #: release-schema.json:1
 msgid ""
-"Used to state the lower bound of the requirement when the response must "
-"be within a certain range."
+"Used to state the lower bound of the requirement when the response must be "
+"within a certain range."
 msgstr ""
 "Se usa para indicar el límite inferior del requisito cuando la respuesta "
 "debe estar dentro de un cierto rango."
@@ -310,8 +319,8 @@ msgstr "Valor máximo"
 #. /definitions/Requirement/properties/maxValue/description
 #: release-schema.json:1
 msgid ""
-"Used to state the upper bound of the requirement when the response must "
-"be within a certain range."
+"Used to state the upper bound of the requirement when the response must be "
+"within a certain range."
 msgstr ""
 "Se usa para indicar el límite superior del requisito cuando la respuesta "
 "debe estar dentro de un cierto rango."
@@ -325,11 +334,11 @@ msgstr "Periodo"
 #. /definitions/Requirement/properties/period/description
 #: release-schema.json:1
 msgid ""
-"Used to specify a particular period the requirement applies to, for "
-"example the bidder's turnover in a given year."
+"Used to specify a particular period the requirement applies to, for example "
+"the bidder's turnover in a given year."
 msgstr ""
-"Usado para especificar un período particular al que el requisito aplica, por "
-"ejemplo, el volumen de negocio del licitante en un año específico. "
+"Usado para especificar un período particular al que el requisito aplica, por"
+" ejemplo, el volumen de negocio del licitante en un año específico. "
 
 #. /definitions/RequirementResponse/title
 #: release-schema.json:1
@@ -339,25 +348,26 @@ msgstr "Respuesta de Requisito"
 #. /definitions/RequirementResponse/description
 #: release-schema.json:1
 msgid ""
-"An assertion that responds to a single requirement. A requirement "
-"response provides the value for the requirement and may provide the "
-"period to which it applies."
+"An assertion that responds to a single requirement. A requirement response "
+"provides the value for the requirement and may provide the period to which "
+"it applies."
 msgstr ""
-"Una declaración que responde a un sólo requisito. Una respuesta de requisito "
-"provee el valor del requisito y puede proveer el periodo al cual aplica."
+"Una declaración que responde a un sólo requisito. Una respuesta de requisito"
+" provee el valor del requisito y puede proveer el periodo al cual aplica."
 
 #. /definitions/RequirementResponse/properties/id/description
 #: release-schema.json:1
 msgid ""
-"The identifier for this requirement response. It must be unique and "
-"cannot change within the Open Contracting Process it is part of (defined "
-"by a single ocid). See the [identifier guidance](http://standard.open-"
+"The identifier for this requirement response. It must be unique and cannot "
+"change within the Open Contracting Process it is part of (defined by a "
+"single ocid). See the [identifier guidance](http://standard.open-"
 "contracting.org/latest/en/schema/identifiers/) for further details."
 msgstr ""
 "El identificador para este requisito de respuesta. Debe de ser único y no "
-"puede cambiar dentro del Proceso de Contratación Abierta del cual es parte ("
-"definido por un sólo ocid). Ver la [guía de identificadores](http://standard"
-".open-contracting.org/latest/en/schema/identifiers/) para mayores detalles."
+"puede cambiar dentro del Proceso de Contratación Abierta del cual es parte "
+"(definido por un sólo ocid). Ver la [guía de "
+"identificadores](http://standard.open-"
+"contracting.org/latest/en/schema/identifiers/) para mayores detalles."
 
 #. /definitions/RequirementResponse/properties/title/description
 #: release-schema.json:1
@@ -367,8 +377,8 @@ msgstr "Un título para la respuesta del requisito. "
 #. /definitions/RequirementResponse/properties/description/description
 #: release-schema.json:1
 msgid ""
-"A description of this requirement response. Structured information should"
-" be provided in its other fields."
+"A description of this requirement response. Structured information should be"
+" provided in its other fields."
 msgstr ""
 "Una descripción de este grupo de requisitos. Se debe de proveer información "
 "estructurada en la lista de requisitos."
@@ -399,7 +409,8 @@ msgstr "Requisito relacionado"
 
 #. /definitions/RequirementResponse/properties/requirement/description
 #: release-schema.json:1
-msgid "The id and title of the requirement which the response is applicable to."
+msgid ""
+"The id and title of the requirement which the response is applicable to."
 msgstr "El id y título que aplica a la respuesta de requisitos."
 
 #. /definitions/RequirementResponse/properties/relatedTenderer/title
@@ -410,9 +421,9 @@ msgstr "Licitador relacionado"
 #. /definitions/RequirementResponse/properties/relatedTenderer/description
 #: release-schema.json:1
 msgid ""
-"Where this requirement response relates to a tenderer and is provided by "
-"the buyer or procuring entity this field should be used to reference the "
-"entry in the parties section for the tenderer the response relates to."
+"Where this requirement response relates to a tenderer and is provided by the"
+" buyer or procuring entity this field should be used to reference the entry "
+"in the parties section for the tenderer the response relates to."
 msgstr ""
 "Donde esta respuesta de requisito se relaciona con un licitador y es "
 "provista por el comprador o la entidad compradora, este campo debe usarse "
@@ -454,11 +465,11 @@ msgstr "Respuestas de requisito"
 #. /definitions/Bid/properties/requirementResponses/description
 #: release-schema.json:1
 msgid ""
-"If the requirements extension is also in use, the detailed responses of "
-"this bid to the tender requirements can be specified here."
+"If the requirements extension is also in use, the detailed responses of this"
+" bid to the tender requirements can be specified here."
 msgstr ""
-"Si también se usa la extensión de requisitos, aquí se pueden especificar las "
-"respuestas detalladas de esta oferta a los requisitos de la licitación."
+"Si también se usa la extensión de requisitos, aquí se pueden especificar las"
+" respuestas detalladas de esta oferta a los requisitos de la licitación."
 
 #. /definitions/Tender/properties/criteria/title
 #: release-schema.json:1
@@ -471,14 +482,14 @@ msgid ""
 "A list of criteria on which either bidders or items will be judged, "
 "evaluated or assessed."
 msgstr ""
-"Una lista de criterios en la cual se evaluarán o valorarán los licitadores o "
-"los artículos. "
+"Una lista de criterios en la cual se evaluarán o valorarán los licitadores o"
+" los artículos. "
 
 #. /definitions/Award/properties/requirementResponses/description
 #: release-schema.json:1
 msgid ""
-"A list of the detailed responses of this award to the requirements of the"
-" tender."
+"A list of the detailed responses of this award to the requirements of the "
+"tender."
 msgstr ""
 "Una lista detallada de las respuestas a esta adjudicación a los requisitos "
 "de la licitación"
@@ -486,8 +497,8 @@ msgstr ""
 #. /definitions/Contract/properties/requirementResponses/description
 #: release-schema.json:1
 msgid ""
-"A list of the detailed responses of this contract to the requirements of "
-"the tender."
+"A list of the detailed responses of this contract to the requirements of the"
+" tender."
 msgstr ""
 "Una lista detallada de respuestas a este contrato con los requisitos de la "
 "licitación."
