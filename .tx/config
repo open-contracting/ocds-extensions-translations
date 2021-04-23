@@ -1141,24 +1141,6 @@ source_file = build/locale/essentialAssets/master/docs.pot
 source_lang = en
 type = PO
 
-[ocds-extensions.qualification--master--codelists]
-file_filter = locale/<lang>/LC_MESSAGES/qualification/master/codelists.po
-source_file = build/locale/qualification/master/codelists.pot
-source_lang = en
-type = PO
-
-[ocds-extensions.qualification--master--schema]
-file_filter = locale/<lang>/LC_MESSAGES/qualification/master/schema.po
-source_file = build/locale/qualification/master/schema.pot
-source_lang = en
-type = PO
-
-[ocds-extensions.qualification--master--docs]
-file_filter = locale/<lang>/LC_MESSAGES/qualification/master/docs.po
-source_file = build/locale/qualification/master/docs.pot
-source_lang = en
-type = PO
-
 [ocds-extensions.secondStageDescription--master--schema]
 file_filter = locale/<lang>/LC_MESSAGES/secondStageDescription/master/schema.po
 source_file = build/locale/secondStageDescription/master/schema.pot
