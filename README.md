@@ -45,7 +45,7 @@ Generate empty PO files:
 ```
 cd build/locale
 for extension in $extensions
-  for lang in es fr it
+  for lang in es
     for i in $extension/**.pot
       mkdir -p ../../locale/$lang/LC_MESSAGES/(dirname $i)
       msginit --no-translator --locale $lang -i $i -o ../../locale/$lang/LC_MESSAGES/(dirname $i)/(basename -s .pot $i).po
