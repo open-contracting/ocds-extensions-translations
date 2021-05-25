@@ -1267,3 +1267,15 @@ source_file = build/locale/beneficialOwners/master/schema.pot
 source_lang = en
 type = PO
 
+[ocds-extensions.competitive--master--docs]
+file_filter = locale/<lang>/LC_MESSAGES/competitive/master/docs.po
+source_file = build/locale/competitive/master/docs.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.competitive--master--schema]
+file_filter = locale/<lang>/LC_MESSAGES/competitive/master/schema.po
+source_file = build/locale/competitive/master/schema.pot
+source_lang = en
+type = PO
+
