@@ -1255,3 +1255,15 @@ source_file = build/locale/budget/master/docs.pot
 source_lang = en
 type = PO
 
+[ocds-extensions.beneficialOwners--master--docs]
+file_filter = locale/<lang>/LC_MESSAGES/beneficialOwners/master/docs.po
+source_file = build/locale/beneficialOwners/master/docs.pot
+source_lang = en
+type = PO
+
+[ocds-extensions.beneficialOwners--master--schema]
+file_filter = locale/<lang>/LC_MESSAGES/beneficialOwners/master/schema.po
+source_file = build/locale/beneficialOwners/master/schema.pot
+source_lang = en
+type = PO
+

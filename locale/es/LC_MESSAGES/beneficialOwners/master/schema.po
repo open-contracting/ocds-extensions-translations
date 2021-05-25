@@ -1,0 +1,94 @@
+# Translations template for PROJECT.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-05-25 11:33-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#. /name/en
+#. /definitions/Organization/properties/beneficialOwners/title
+#: extension.json:1 release-schema.json:1
+msgid "Beneficial Owners"
+msgstr ""
+
+#. /description/en
+#: extension.json:1
+msgid ""
+"Adds a beneficialOwners array to the organization object to indicate the "
+"beneficial owners of a organization."
+msgstr ""
+
+#. /definitions/Organization/properties/beneficialOwners/description
+#: release-schema.json:1
+msgid ""
+"The list of the individuals with a beneficial ownership in this "
+"organization."
+msgstr ""
+
+#. /definitions/Person/title
+#: release-schema.json:1
+msgid "Person"
+msgstr ""
+
+#. /definitions/Person/description
+#: release-schema.json:1
+msgid "A natural person."
+msgstr ""
+
+#. /definitions/Person/properties/id/title
+#: release-schema.json:1
+msgid "Person ID"
+msgstr ""
+
+#. /definitions/Person/properties/id/description
+#: release-schema.json:1
+msgid "A local ID for the person."
+msgstr ""
+
+#. /definitions/Person/properties/name/title
+#: release-schema.json:1
+msgid "Person name"
+msgstr ""
+
+#. /definitions/Person/properties/name/description
+#: release-schema.json:1
+msgid "The full name of the person."
+msgstr ""
+
+#. /definitions/Person/properties/identifier/title
+#: release-schema.json:1
+msgid "Person Identifier"
+msgstr ""
+
+#. /definitions/Person/properties/identifier/description
+#: release-schema.json:1
+msgid ""
+"The legal identifier for this person. Follow the guidance from the "
+"Beneficial Ownership Data Standard to set the identifier scheme with the "
+"pattern {JURISDICTION}-{TYPE} where JURISDICTION is an uppercase ISO "
+"3166-1 alpha-3 country code and TYPE is one of PASSPORT, TAXID or IDCARD"
+msgstr ""
+
+#. /definitions/Person/properties/nationality/title
+#: release-schema.json:1
+msgid "Person nationality"
+msgstr ""
+
+#. /definitions/Person/properties/nationality/description
+#: release-schema.json:1
+msgid ""
+"The ISO 2-Digit country code representing the nationality held by this "
+"individual."
+msgstr ""
