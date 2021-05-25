@@ -5,6 +5,9 @@
 # 
 # Translators:
 # James McKinney, 2021
+# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
+# Cecilia Casco <ceciliacasco@cds.com.py>, 2021
+# Maria Esther Cervantes <mcervantes@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 17:31-0500\n"
 "PO-Revision-Date: 2019-03-14 18:27+0000\n"
-"Last-Translator: James McKinney, 2021\n"
+"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -104,6 +107,13 @@ msgid ""
 "PPP cases, these additional dimensions may mirror those used in the "
 "estimated demand and other metrics sections."
 msgstr ""
+"Por ejemplo, si el peaje para un puente de carretera varía según (a) el tipo"
+" de vehículo y (b) la hora del día; una implementación de la extensión de "
+"tarifas puede crear nuevos campos para `dimensions.vehicleType` y "
+"`dimensions.timeOfDay`,  rellenando estos de acuerdo con las listas de "
+"códigos locales. En los casos de APP, estas dimensiones adicionales pueden "
+"reflejar las utilizadas en las secciones de demanda estimada y otras "
+"métricas."
 
 #: ../README.md:24
 msgid "Example"
@@ -116,7 +126,7 @@ msgid ""
 "dates could have a `period` block. Those which relate to a particular unit "
 "(e.g. tonnes) could have this indicated using a `unit` block."
 msgstr ""
-"El ejemplo siguiente muestra una tabla de tarifas muy sencilla, sin periodos"
+"El ejemplo siguiente muestra una tabla de tarifas muy sencilla, sin períodos"
 " ni unidades, pero con dos dimensiones. Las tarifas que se refieren a un "
 "determinado conjunto de fechas podrían tener un bloque `period`. Los que se "
 "refieren a una unidad particular (por ejemplo, toneladas) podrían tener esto"
@@ -194,7 +204,7 @@ msgstr "Registro de cambios"
 
 #: ../README.md:104
 msgid "2020-06-04"
-msgstr ""
+msgstr "2020-06-04"
 
 #: ../README.md:106
 msgid "Review normative and non-normative words"
@@ -202,33 +212,35 @@ msgstr "Revisar las palabras normativas y no-normativas"
 
 #: ../README.md:108
 msgid "2020-04-24"
-msgstr ""
+msgstr "2020-04-24"
 
 #: ../README.md:110
 msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
-msgstr ""
+msgstr "Agregar las propiedades `minProperties`, `minItems` y/o `minLength`."
 
 #: ../README.md:112
 msgid "2019-03-20"
-msgstr ""
+msgstr "2019-03-20"
 
 #: ../README.md:114
 msgid ""
 "Set `\"uniqueItems\": true` on array fields, and add `\"minLength\": 1` on "
 "required string fields."
 msgstr ""
+"Establecer `\"uniqueItems \": true` en los campos matriz y agregar "
+"`\"minLength\": 1` en los campos de cadena obligatorios."
 
 #: ../README.md:115
 msgid "Make `Tariff.unit` non-nullable, like `Item.unit`."
-msgstr ""
+msgstr "Hacer `Tariff.unit` no nulo, como `Item.unit`."
 
 #: ../README.md:116
 msgid "Make `Tariff.dimensions` non-nullable (undo earlier change)."
-msgstr ""
+msgstr "Hacer `Tariff.dimensions` no nulo (deshacer el cambio anterior)."
 
 #: ../README.md:118
 msgid "2018-05-08"
-msgstr ""
+msgstr "2018-05-08"
 
 #: ../README.md:120
 msgid ""
@@ -236,11 +248,14 @@ msgid ""
 "merging](http://standard.open-"
 "contracting.org/latest/en/schema/merging/#lists)"
 msgstr ""
+"Hacer que `Tariff.id` sea obligatorio para soportar el seguimiento de "
+"revisiones y [fusión de listas](https://standard.open-"
+"contracting.org/latest/es/schema/merging/#lists)"
 
 #: ../README.md:122
 msgid "2018-05-01"
-msgstr ""
+msgstr "2018-05-01"
 
 #: ../README.md:124
 msgid "Make `Tariff.dimensions` nullable."
-msgstr ""
+msgstr "Hacer que `Tariff.dimensions` pueda ser nulo."

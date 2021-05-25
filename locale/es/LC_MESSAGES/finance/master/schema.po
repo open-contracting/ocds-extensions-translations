@@ -6,6 +6,7 @@
 # Translators:
 # James McKinney, 2019
 # Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2019
+# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-03-05 17:32-0500\n"
 "PO-Revision-Date: 2019-03-14 18:30+0000\n"
-"Last-Translator: Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2019\n"
+"Last-Translator: Natalia Valdez <nataliavaldez@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,6 +37,8 @@ msgid ""
 "Adds fields to disclose the financing of the whole process and its "
 "individual contracts."
 msgstr ""
+"Agrega campos para revelar la financiación de todo el proceso y sus "
+"contratos individuales."
 
 #. /definitions/Contract/properties/finance/description
 #: release-schema.json:1
@@ -50,6 +53,8 @@ msgstr ""
 msgid ""
 "An array with details of each source of finance planned for this procedure."
 msgstr ""
+"Una matriz con los detalles de cada fuente de financiación prevista para "
+"este procedimiento."
 
 #. /definitions/Finance/title
 #: release-schema.json:1
@@ -126,7 +131,7 @@ msgstr "Tipo de financiamiento"
 #. /definitions/Finance/properties/financeType/description
 #: release-schema.json:1
 msgid "The type of finance arranged."
-msgstr ""
+msgstr "El tipo de financiación concertada."
 
 #. /definitions/Finance/properties/financeCategory/title
 #: release-schema.json:1
@@ -140,6 +145,9 @@ msgid ""
 " order of preference for investors to get their money back in cases of "
 "liquidation."
 msgstr ""
+"La naturaleza de la financiación. Esta información puede utilizarse a la "
+"hora de determinar el orden de preferencia de los inversores para recuperar "
+"su dinero en caso de liquidación."
 
 #. /definitions/Finance/properties/value/title
 #: release-schema.json:1
@@ -184,6 +192,10 @@ msgid ""
 "variable (e.g. LIBOR or LIBOR+1%), or can be omitted if margin specifies the"
 " entire interest rate."
 msgstr ""
+"La variable a la que se añade un importe de margen adicional para obtener el"
+" importe de los intereses. Puede especificarse como un número fijo, como una"
+" variable conocida (por ejemplo, LIBOR o LIBOR+1%), o puede omitirse si el "
+"margen especifica todo el tipo de interés."
 
 #. /definitions/Finance/properties/interestRate/properties/margin/title
 #: release-schema.json:1

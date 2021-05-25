@@ -5,6 +5,7 @@
 # 
 # Translators:
 # James McKinney, 2021
+# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 17:31-0500\n"
 "PO-Revision-Date: 2019-03-14 18:26+0000\n"
-"Last-Translator: James McKinney, 2021\n"
+"Last-Translator: Natalia Valdez <nataliavaldez@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,7 +24,7 @@ msgstr ""
 
 #: ../README.md:1
 msgid "Document details"
-msgstr ""
+msgstr "Detalles del documento"
 
 #: ../README.md:3
 msgid ""
@@ -31,39 +32,49 @@ msgid ""
 "contracting.org/latest/en/schema/reference/#document) are used to describe "
 "and link to documents. This extension adds fields to document objects to:"
 msgstr ""
+"Los [objetos document](https://standard.open-"
+"contracting.org/latest/es/schema/reference/#document) son usados para "
+"describir y enlazar a documentos. Esta extensión agrega campos a los objetos"
+" documento para:"
 
 #: ../README.md:5
 msgid ""
 "Indicate the page numbers at which relevant information can be found within "
 "a large document"
 msgstr ""
+"Indique los números de página en los que se puede encontrar información "
+"relevante dentro de un documento grande"
 
 #: ../README.md:6
 msgid "Describe any special arrangements needed to access the document"
 msgstr ""
+"Describe cualquier arreglo especial necesario para acceder al documento."
 
 #: ../README.md:7
 msgid ""
 "Name the author of the document (not to be confused with its publisher)"
 msgstr ""
+"Nombre del autor del documento (a no ser confundido con su publicador)"
 
 #: ../README.md:9
 msgid "Use cases include:"
-msgstr ""
+msgstr "Los casos de usos incluyen:"
 
 #: ../README.md:11
 msgid "Accessing the document and locating the information within it"
-msgstr ""
+msgstr "Acceder al documento y localizar la información en él"
 
 #: ../README.md:12
 msgid ""
 "Checking whether authors are involved in other ways in the contracting "
 "process, e.g. as bidders"
 msgstr ""
+"Comprobar si los autores participan de otras formas en el proceso de "
+"contratación, por ejemplo, como licitadores"
 
 #: ../README.md:13
 msgid "Measuring the accessibility of documents"
-msgstr ""
+msgstr "Medir la accesibilidad de los documentos"
 
 #: ../README.md:15
 msgid "Example"
@@ -89,28 +100,28 @@ msgstr "Registro de cambios"
 
 #: ../README.md:43
 msgid "2020-04-24"
-msgstr ""
+msgstr "2020-04-24"
 
 #: ../README.md:45
 msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
-msgstr ""
+msgstr "Agregar las propiedades `minProperties`, `minItems` y/o `minLength`."
 
 #: ../README.md:47
 msgid "2020-04-15"
-msgstr ""
+msgstr "2020-04-15"
 
 #: ../README.md:49
 msgid "Improve documentation"
-msgstr ""
+msgstr "Mejora en la documentación"
 
 #: ../README.md:50
 msgid "Use non-normative keywords where appropriate"
-msgstr ""
+msgstr "Uso de palabras clave no normativas donde es apropiado"
 
 #: ../README.md:52
 msgid "2019-01-30"
-msgstr ""
+msgstr "2019-01-30"
 
 #: ../README.md:54
 msgid "Remove obsolete `mergeStrategy` properties"
-msgstr ""
+msgstr "Elimina la propiedad obsoleta `mergeStrategy`"

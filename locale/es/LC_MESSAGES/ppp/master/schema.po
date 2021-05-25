@@ -6,6 +6,7 @@
 # Translators:
 # James McKinney, 2019
 # Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2019
+# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-03-05 17:32-0500\n"
 "PO-Revision-Date: 2019-03-14 18:28+0000\n"
-"Last-Translator: Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2019\n"
+"Last-Translator: Natalia Valdez <nataliavaldez@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -34,6 +35,9 @@ msgid ""
 "Makes changes required by the OCDS for PPPs profile. Evaluation indicators, "
 "finance summary and project details may be moved into new extensions."
 msgstr ""
+"Realiza los cambios requeridos por el perfil de OCDS para APPs. Los "
+"indicadores de evaluación, resumen financiero y detalles del proyecto "
+"podrían ser movidos a otra extensión."
 
 #. /definitions/Award/properties/evaluationIndicators/title
 #: release-schema.json:1

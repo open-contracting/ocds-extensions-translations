@@ -5,6 +5,9 @@
 # 
 # Translators:
 # James McKinney, 2021
+# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
+# Cecilia Casco <ceciliacasco@cds.com.py>, 2021
+# Maria Esther Cervantes <mcervantes@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 17:31-0500\n"
 "PO-Revision-Date: 2019-03-14 18:29+0000\n"
-"Last-Translator: James McKinney, 2021\n"
+"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -37,6 +40,11 @@ msgid ""
 "the award associated to the contract (`preferredBidders` in the PPP "
 "extension)."
 msgstr ""
+"En OCDS, los firmantes del contrato no se declaran explícitamente en la "
+"sección `contracts`. En su lugar, se asume implícitamente que los firmantes "
+"son el `buyer`  (la `publicAuthority` en la ampliación de la APP) y los "
+"`suppliers` en la adjudicación asociada al contrato (los `preferredBidders` "
+"en la ampliación de la APP)."
 
 #: ../README.md:7
 msgid ""
@@ -45,16 +53,22 @@ msgid ""
 "specified in `buyer` (`publicAuthority`) and `suppliers` "
 "(`preferredBidders`)."
 msgstr ""
+"En algunos tipos de procesos de contratación, pueden existir firmantes "
+"adicionales del contrato, o los firmantes del contrato pueden diferir de los"
+" especificados en `buyer` (`publicAuthority`) y `suppliers` "
+"(`preferredBidders`)."
 
 #: ../README.md:9
 msgid "Usage"
-msgstr ""
+msgstr "Uso"
 
 #: ../README.md:11
 msgid ""
 "This extension adds a `signatories` field to the `contracts` section. The "
 "`signatories` property is an array of `OrganizationReference`'s."
 msgstr ""
+"Esta extensión agrega un campo `signatories` a la sección `contracts`. La "
+"propiedad `signatories` es una lista de `OrganizationReference`."
 
 #: ../README.md:13
 msgid ""
@@ -63,6 +77,10 @@ msgid ""
 " the case, list all signatories to the contract, including the `buyer` and "
 "`suppliers`."
 msgstr ""
+"Utilice esta extensión sólo si los firmantes de un contrato difieren de los "
+"`suppliers` de su adjudicación y del `buyer` del proceso de contratación. En"
+" ese caso, liste todos los firmantes del contrato, incluidos el `buyer`  y "
+"los `suppliers`."
 
 #: ../README.md:15
 msgid "Example"
@@ -74,6 +92,9 @@ msgid ""
 "additional signatory to the contract beyond those defined in the `buyer` and"
 " `awards.suppliers` fields."
 msgstr ""
+"El siguiente fragmento de JSON modela un proceso de contratación en el que "
+"hay un firmante adicional del contrato además de los definidos en los campos"
+" `buyer` y `awards.suppliers`."
 
 #: ../README.md:59
 msgid "Usage notes"
@@ -115,8 +136,8 @@ msgstr "Registro de cambios"
 
 #: ../README.md:71
 msgid "2020-04-24"
-msgstr ""
+msgstr "2020-04-24"
 
 #: ../README.md:73
 msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
-msgstr ""
+msgstr "Agregar las propiedades `minProperties`, `minItems` y/o `minLength`."

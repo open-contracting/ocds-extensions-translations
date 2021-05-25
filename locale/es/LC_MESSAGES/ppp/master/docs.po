@@ -5,6 +5,8 @@
 # 
 # Translators:
 # James McKinney, 2021
+# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
+# Maria Esther Cervantes <mcervantes@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 17:31-0500\n"
 "PO-Revision-Date: 2019-03-14 18:28+0000\n"
-"Last-Translator: James McKinney, 2021\n"
+"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -50,6 +52,15 @@ msgid ""
 "Contracting Partnership](http://open-contracting.org), and [Open Data "
 "Services Co-operative](http://www.opendataservices.coop)."
 msgstr ""
+"Esta basado en el [Marco del Banco Mundial para la Divulgación de Proyectos "
+"de Asociación Público "
+"Privada](http://www.worldbank.org/en/topic/publicprivatepartnerships/brief"
+"/ppp-tools#T1) y fue desarrollado entre Mayo 2016 y Mayo 2017 a través de "
+"una asociación entre el equipo del [Banco Mundial Open "
+"Contracting](https://blogs.worldbank.org/category/tags/open-contracting), "
+"[PPP team](http://www.worldbank.org/en/topic/publicprivatepartnerships), "
+"[Open Contracting Partnership](http://open-contracting.org), y  [Open Data "
+"Services Co-operative](http://www.opendataservices.coop)."
 
 #: ../README.md:7
 msgid ""
@@ -69,7 +80,7 @@ msgid ""
 msgstr ""
 "La consolidación de la extensión OCDS para APPs puede ser declarada en OCDS "
 "package metadata](http://standard.open-"
-"contracting.org/latest/en/schema/release_package/) usando:"
+"contracting.org/latest/es/schema/release_package/) usando:"
 
 #: ../README.md:20
 msgid "About PPP extensions"
@@ -84,7 +95,7 @@ msgid ""
 msgstr ""
 "OCDS para APPS esta construida a partir de [un numero de diferentes "
 "extensiones modulares de OCDS](http://standard.open-"
-"contracting.org/profiles/ppp/latest/en/extensions/),, de los cuales la "
+"contracting.org/profiles/ppp/latest/es/extensions/),, de los cuales la "
 "mayoría puede ser usadas independientemente del perfil."
 
 #: ../README.md:24
@@ -94,6 +105,10 @@ msgid ""
 "building blocks that are specific to PPP disclosure against the World Bank "
 "Framework."
 msgstr ""
+"Este repositorio contiene una extensión adicional que forma parte del perfil"
+" de OCDS para APPs. Esta extensión presenta una serie de campos y bloques de"
+" construcción que son específicos de la divulgación de APP según el Marco "
+"del Banco Mundial."
 
 #: ../README.md:26
 msgid "PPP Specific extensions"
@@ -117,6 +132,8 @@ msgid ""
 "The `awards.evaluationIndicators` section includes properties to express the"
 " **value** and supporting **free-text details** for each indicator:"
 msgstr ""
+"La sección `awards.evaluationIndicators` incluye propiedades para expresar "
+"el **valor** y **detalles de texto libre** de apoyo para cada indicador:"
 
 #: ../README.md:34
 msgid "discountRate"
@@ -154,6 +171,8 @@ msgid ""
 "The `contracts.financeSummary` section includes properties to express the "
 "**value** and supporting **free-text details** for each indicator:"
 msgstr ""
+"La sección `contracts.financeSummary` incluye propiedades para expresar el "
+"**value** y soporta **detalles de texto libre** para cada indicador:"
 
 #: ../README.md:58
 msgid "debtEquityRatio"
@@ -191,65 +210,67 @@ msgstr "Registro de cambios"
 
 #: ../README.md:81
 msgid "2021-02-15"
-msgstr ""
+msgstr "2021-02-15"
 
 #: ../README.md:83
 msgid ""
 "Restore 'procuringEntity', 'tenderer' and 'funder' roles. Remove 'bidder' "
 "role."
 msgstr ""
+"Restaura los reoles 'procuringEntity', 'tenderer' y 'funder'. Elimina el rol"
+" 'bidder'."
 
 #: ../README.md:85
 msgid "2021-01-14"
-msgstr ""
+msgstr "2021-01-14"
 
 #: ../README.md:87
 msgid "Remove `+releaseTag.csv` codelist."
-msgstr ""
+msgstr "Elimina la lista de códigos `+releaseTag.csv`."
 
 #: ../README.md:89
 msgid "2021-01-11"
-msgstr ""
+msgstr "2021-01-11"
 
 #: ../README.md:91
 msgid "Remove `initiationType.csv` codelist."
-msgstr ""
+msgstr "Elimina la lista de códigos `initiationType.csv`."
 
 #: ../README.md:92
 msgid "Restore `buyer` and `awards.suppliers` fields."
-msgstr ""
+msgstr "Restaura los campos `buyer` y `awards.suppliers`."
 
 #: ../README.md:94
 msgid "2020-11-16"
-msgstr ""
+msgstr "2020-11-16"
 
 #: ../README.md:96
 msgid "Restore deprecated fields."
-msgstr ""
+msgstr "Restaura campos deprecados."
 
 #: ../README.md:97
 msgid "Restore `Budget.project` and `Budget.projectID` fields."
-msgstr ""
+msgstr "Restaura los campos `Budget.project` y `Budget.projectID`."
 
 #: ../README.md:99
 msgid "2020-06-04"
-msgstr ""
+msgstr "2020-06-04"
 
 #: ../README.md:101
 msgid "Review normative and non-normative words."
-msgstr ""
+msgstr "Revisar de las palabras normativas y no normativas."
 
 #: ../README.md:103
 msgid "2020-04-24"
-msgstr ""
+msgstr "2020-04-24"
 
 #: ../README.md:105
 msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
-msgstr ""
+msgstr "Agregar las propiedades `minProperties`, `minItems` y/o `minLength`."
 
 #: ../README.md:107
 msgid "2019-05-01"
-msgstr ""
+msgstr "2019-05-01"
 
 #: ../README.md:109
 msgid ""
@@ -257,11 +278,15 @@ msgid ""
 "`+partyRole.csv` (moved to [qualification](https://extensions.open-"
 "contracting.org/en/extensions/qualification/master/) extension)."
 msgstr ""
+"Elimina los códigos 'qualifiedBidder' y 'disqualifiedBidder'  de "
+"`+partyRole.csv` (se movieron a la extensión "
+"[calificación](https://extensions.open-"
+"contracting.org/es/extensions/qualification/master/))."
 
 #: ../README.md:111
 msgid "2019-03-20"
-msgstr ""
+msgstr "2019-03-20"
 
 #: ../README.md:113
 msgid "Set `\"uniqueItems\": true` on array fields."
-msgstr ""
+msgstr "Establece `\"uniqueItems\": true` en campos matriz."

@@ -5,6 +5,7 @@
 # 
 # Translators:
 # James McKinney, 2019
+# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 17:31-0500\n"
 "PO-Revision-Date: 2019-03-14 18:32+0000\n"
-"Last-Translator: James McKinney, 2019\n"
+"Last-Translator: Natalia Valdez <nataliavaldez@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,11 +24,11 @@ msgstr ""
 
 #: ../README.md:1
 msgid "Project"
-msgstr ""
+msgstr "Proyecto"
 
 #: ../README.md:3
 msgid "This extension adds a `project` object to the `planning` object."
-msgstr ""
+msgstr "Esta extensión agrega un objeto `project` al objeto `planning`."
 
 #: ../README.md:5
 msgid ""
@@ -37,27 +38,37 @@ msgid ""
 " cases, budget management systems and project management systems are "
 "separate, and it might be important to separately specify:"
 msgstr ""
+"En OCDS, la información del proyecto está anidada bajo el objeto "
+"[`planning.budget`](https://standard.open-"
+"contracting.org/latest/es/schema/reference/#budget). Sin embargo, en algunos"
+" casos, los sistemas de gestión presupuestaria y de gestión de proyecto "
+"están separados, y podría ser importante especificar por separado:"
 
 #: ../README.md:7
 msgid "The amount reserved in the budget for a specific contracting process"
 msgstr ""
+"La cantidad reservada en el presupuesto para un proceso de contratación "
+"específico"
 
 #: ../README.md:8
 msgid ""
 "The project the contract relates to, and the total value of that project"
 msgstr ""
+"El proyecto al que se refiere el contrato y el valor total de dicho proyecto"
 
 #: ../README.md:9
 msgid "Sector classifications"
-msgstr ""
+msgstr "Clasificaciones de sector"
 
 #: ../README.md:10
 msgid "Additional classifications"
-msgstr ""
+msgstr "Clasificaciones adicionales"
 
 #: ../README.md:11
 msgid "Project locations, with options for gazetteer or point locations"
 msgstr ""
+"Ubicaciones del proyecto, con opciones de diccionario geográfico o "
+"ubicaciones puntuales"
 
 #: ../README.md:13
 msgid ""
@@ -67,6 +78,11 @@ msgid ""
 "the individual contracts in the context of their contracting process and "
 "overall project values."
 msgstr ""
+"Esto es particularmente importante en casos de alianzas público-privadas y "
+"grandes proyectos de infraestructura, donde los usuarios pueden querer hacer"
+" un seguimiento de todos los procesos de contratación relacionados con el "
+"proyecto a gran escala y comprender los contratos individuales en el "
+"contexto de su proceso de contratación y el proyecto en general. valores."
 
 #: ../README.md:15
 msgid "Example"
@@ -78,21 +94,23 @@ msgstr "Registro de cambios"
 
 #: ../README.md:52
 msgid "2020-04-24"
-msgstr ""
+msgstr "2020-04-24"
 
 #: ../README.md:54
 msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
-msgstr ""
+msgstr "Agregar las propiedades `minProperties`, `minItems` y/o `minLength`."
 
 #: ../README.md:56
 msgid "2020-04-16"
-msgstr ""
+msgstr "2020-04-16"
 
 #: ../README.md:58
 msgid ""
 "Remove guidance related to the `planning.budget` object. See "
 "[#701](https://github.com/open-contracting/standard/issues/701)."
 msgstr ""
+"Eliminar guía relacionada al objeto `planning.budget`. Ver "
+"[#701](https://github.com/open-contracting/standard/issues/701). "
 
 #: ../README.md:60
 msgid "2018-05-03"
@@ -103,6 +121,8 @@ msgid ""
 "Add additional guidance on the use of OCDS fields in the context of this "
 "extension"
 msgstr ""
+"Agregar guía adicional sobre el uso de los campos de OCDS en el contexto de "
+"esta extensión"
 
 #: ../README.md:64
 msgid "2017-12-29"
@@ -110,7 +130,7 @@ msgstr "2017-12-29"
 
 #: ../README.md:66
 msgid "Remove the repetition of OCDS fields in this extension"
-msgstr ""
+msgstr "Eliminar la repetición de campos OCDS en esta extensión"
 
 #: ../README.md:68
 msgid "2017-07-08"
@@ -118,21 +138,23 @@ msgstr "2017-07-08"
 
 #: ../README.md:70
 msgid "Add multilingual support for `Project.title` fields"
-msgstr ""
+msgstr "Agregar soporte multilingüe para el campo `Project.title`"
 
 #: ../README.md:71
 msgid ""
 "Remove multilingual support for non-existent `Project.source` and "
 "`Project.project` fields"
 msgstr ""
+"Eliminar el soporte multilingüe para los campos inexistentes "
+"`Project.source` y `Project.project`"
 
 #: ../README.md:72
 msgid "Restore `Budget.project` and `Budget.projectID` fields"
-msgstr ""
+msgstr "Restaurar los campos `Budget.project` y `Budget.projectID`"
 
 #: ../README.md:73
 msgid "Remove obsolete `mergeStrategy` properties"
-msgstr ""
+msgstr "Eliminar la propiedad obsoleta `mergeStrategy`."
 
 #: ../README.md:75
 msgid "Issues"

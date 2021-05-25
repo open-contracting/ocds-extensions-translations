@@ -45,10 +45,10 @@ msgid ""
 "Union](http://standard.open-contracting.org/profiles/eu/master/en/) for the "
 "correspondences to Tenders Electronic Daily (TED)."
 msgstr ""
-"En la unión Europea, esta extensión de campo corresponde a[eForms BT-124 and"
-" BT-127](https://github.com/eForms/eForms). Ver [OCDS para la unión "
-"Europea](http://standard.open-contracting.org/profiles/eu/master/en/) para "
-"lo correspondiente a Tenders Electronic Daily (TED)."
+"En la unión Europea, los campos de esta extensión corresponden a[eForms "
+"BT-124 and BT-127](https://github.com/eForms/eForms). Ver [OCDS para la "
+"unión Europea](http://standard.open-contracting.org/profiles/eu/master/en/) "
+"para lo correspondiente a Tenders Electronic Daily (TED)."
 
 #: ../README.md:9
 msgid "Example"
@@ -86,8 +86,7 @@ msgstr "2020-04-24"
 
 #: ../README.md:38
 msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
-msgstr ""
-"Agregar las propiedades `minProperties`, `minItems` and/or `minLength`."
+msgstr "Agregar las propiedades `minProperties`, `minItems` y/o `minLength`."
 
 #: ../README.md:40
 msgid ""

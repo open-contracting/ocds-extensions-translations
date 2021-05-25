@@ -176,7 +176,7 @@ msgid ""
 "Set `\"uniqueItems\": true` on array fields, and add `\"minLength\": 1` on "
 "required string fields."
 msgstr ""
-"Establecer `\"uniqueItems \": true` en los campos de la matriz y agregar "
+"Establecer `\"uniqueItems \": true` en los campos matriz y agregar "
 "`\"minLength\": 1` en los campos de cadena obligatorios."
 
 #: ../README.md:153

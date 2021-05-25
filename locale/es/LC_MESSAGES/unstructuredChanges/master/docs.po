@@ -187,8 +187,7 @@ msgstr "2020-04-24"
 
 #: ../README.md:109
 msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
-msgstr ""
-"Agregar las propiedades `minProperties`, `minItems` and/or `minLength`."
+msgstr "Agregar las propiedades `minProperties`, `minItems` y/o `minLength`."
 
 #: ../README.md:111
 msgid ""

@@ -77,7 +77,7 @@ msgstr ""
 
 #: ../README.md:38
 msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
-msgstr ""
+msgstr "Agregar las propiedades `minProperties`, `minItems` y/o `minLength`."
 
 #: ../README.md:40
 msgid ""

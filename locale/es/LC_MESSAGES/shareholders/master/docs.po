@@ -5,6 +5,7 @@
 # 
 # Translators:
 # James McKinney, 2021
+# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 17:31-0500\n"
 "PO-Revision-Date: 2019-03-14 18:31+0000\n"
-"Last-Translator: James McKinney, 2021\n"
+"Last-Translator: Natalia Valdez <nataliavaldez@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -54,6 +55,10 @@ msgid ""
 "up information on corporate ownership networks involved in a contracting "
 "process."
 msgstr ""
+"Debido a que cada propietario mencionado en la matriz de accionistas también"
+" debería obtener una entrada en la matriz `parties`, es posible utilizar "
+"esta extensión para acumular información sobre las redes de propiedad "
+"corporativa involucradas en un proceso de contratación."
 
 #: ../README.md:9
 msgid "Beneficial ownership"
@@ -64,6 +69,8 @@ msgid ""
 "This extension also includes a \"stub\" entry for recording beneficial "
 "ownership information against a party."
 msgstr ""
+"Esta extensión también incluye una entrada \"stub\" para registrar "
+"información del beneficiario final contra una de las partes."
 
 #: ../README.md:13
 msgid ""
@@ -102,28 +109,29 @@ msgstr "Registro de cambios"
 
 #: ../README.md:67
 msgid "2020-04-24"
-msgstr ""
+msgstr "2020-04-24"
 
 #: ../README.md:69
 msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
-msgstr ""
+msgstr "Agregar las propiedades `minProperties`, `minItems` y/o `minLength`."
 
 #: ../README.md:71
 msgid "2019-03-20"
-msgstr ""
+msgstr "2019-03-20"
 
 #: ../README.md:73
 msgid "Add `\"minLength\": 1` on required string fields."
-msgstr ""
+msgstr "Agregar `\"minLength\": 1` en los campos de cadena obligatorios."
 
 #: ../README.md:74
 msgid ""
 "Make `Organization.beneficialOwnership` non-nullable (undo earlier change)."
 msgstr ""
+"Hacer `Organization.beneficialOwnership` no nulo (deshacer cambio anterior)."
 
 #: ../README.md:76
 msgid "2018-05-08"
-msgstr ""
+msgstr "2018-05-08"
 
 #: ../README.md:78
 msgid ""
@@ -131,11 +139,14 @@ msgid ""
 "merging](http://standard.open-"
 "contracting.org/latest/en/schema/merging/#lists)"
 msgstr ""
+"Hacer `Shareholder.id` obligatorio para soportar el seguimiento de "
+"revisiones y [fusión de listas](http://standard.open-"
+"contracting.org/latest/es/schema/merging/#lists)"
 
 #: ../README.md:80
 msgid "2018-01-29"
-msgstr ""
+msgstr "2018-01-29"
 
 #: ../README.md:82
 msgid "Make `Organization.beneficialOwnership` nullable."
-msgstr ""
+msgstr "Hacer que `Organization.beneficialOwnership` pueda ser nulo."

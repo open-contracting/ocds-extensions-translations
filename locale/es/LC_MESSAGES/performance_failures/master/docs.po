@@ -5,6 +5,8 @@
 # 
 # Translators:
 # James McKinney, 2019
+# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
+# Maria Esther Cervantes <mcervantes@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 17:31-0500\n"
 "PO-Revision-Date: 2019-03-14 18:30+0000\n"
-"Last-Translator: James McKinney, 2019\n"
+"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,7 +25,7 @@ msgstr ""
 
 #: ../README.md:1
 msgid "Performance Failures"
-msgstr ""
+msgstr "Fallos de desempeño"
 
 #: ../README.md:3
 msgid "Background"
@@ -148,29 +150,31 @@ msgstr "Registro de cambios"
 
 #: ../README.md:57
 msgid "2020-04-24"
-msgstr ""
+msgstr "2020-04-24"
 
 #: ../README.md:59
 msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
-msgstr ""
+msgstr "Agregar las propiedades `minProperties`, `minItems` y/o `minLength`."
 
 #: ../README.md:61
 msgid "2019-03-20"
-msgstr ""
+msgstr "2019-03-20"
 
 #: ../README.md:63
 msgid "Add `\"minLength\": 1` on required string fields."
-msgstr ""
+msgstr "Agregar `\"minLength\": 1` en los campos de cadena obligatorios."
 
 #: ../README.md:64
 msgid ""
 "Make `PerformanceFailure.period` non-nullable (undo earlier change), given "
 "that it refers to the `Period` object."
 msgstr ""
+"Hacer `PerformanceFailure.period` no nulo (deshacer el cambio anterior), "
+"dado que se refiere al objeto `Period`."
 
 #: ../README.md:66
 msgid "2018-05-08"
-msgstr ""
+msgstr "2018-05-08"
 
 #: ../README.md:68
 msgid ""
@@ -178,11 +182,14 @@ msgid ""
 " merging](http://standard.open-"
 "contracting.org/latest/en/schema/merging/#lists)"
 msgstr ""
+"Hacer `PerformanceFailure.id` obligatorio para soportar el seguimiento de "
+"revisiones y [fusión de listas](http://standard.open-"
+"contracting.org/latest/es/schema/merging/#lists)"
 
 #: ../README.md:70
 msgid "2018-01-29"
-msgstr ""
+msgstr "2018-01-29"
 
 #: ../README.md:72
 msgid "Make `PerformanceFailure.period` nullable."
-msgstr ""
+msgstr "Hacer que `PerformanceFailure.period` pueda ser nulo."

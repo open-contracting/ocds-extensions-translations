@@ -111,4 +111,4 @@ msgstr ""
 
 #: ../README.md:122
 msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
-msgstr ""
+msgstr "Agregar las propiedades `minProperties`, `minItems` y/o `minLength`."

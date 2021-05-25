@@ -6,6 +6,8 @@
 # Translators:
 # James McKinney, 2019
 # Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2019
+# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
+# Maria Esther Cervantes <mcervantes@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-03-05 17:32-0500\n"
 "PO-Revision-Date: 2019-03-14 18:28+0000\n"
-"Last-Translator: Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2019\n"
+"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -146,7 +148,7 @@ msgstr "Miembro de los consorcios"
 msgid ""
 "One of a group of companies that has joined together to bid for a project."
 msgstr ""
-"Uno de un grupo de empresas que se han unido para licitar un proyecto."
+"Uno de los grupos de empresas que se han unido para licitar un proyecto."
 
 #. Title
 #: codelists/+partyRole.csv:6
@@ -215,7 +217,7 @@ msgstr "Resumen requerido"
 #. Title
 #: codelists/documentType.csv:1
 msgid "Needs assessment"
-msgstr ""
+msgstr "Evaluación de las necesidades"
 
 #. Description
 #: codelists/documentType.csv:1
@@ -245,7 +247,7 @@ msgstr ""
 #. Title
 #: codelists/documentType.csv:3
 msgid "Technical specifications"
-msgstr ""
+msgstr "Especificaciones técnicas"
 
 #. Description
 #: codelists/documentType.csv:3
@@ -331,11 +333,14 @@ msgid ""
 "Documentation setting out key milestones and schedules. Structured versions "
 "of this information can be provided using the milestones block."
 msgstr ""
+"Documentación en la que se exponen los principales hitos y calendarios. Las "
+"versiones estructuradas de esta información pueden proporcionarse utilizando"
+" el bloque de hitos."
 
 #. Title
 #: codelists/documentType.csv:11
 msgid "Signed contract"
-msgstr ""
+msgstr "Contrato firmado"
 
 #. Description
 #: codelists/documentType.csv:11
@@ -344,6 +349,10 @@ msgid ""
 "(e.g. original PDF, Word or Open Document format files), and a separate "
 "document entry for scanned-signed pages where this is needed."
 msgstr ""
+"Una copia del contrato firmado. Considere la posibilidad de proporcionar "
+"tanto archivos legibles por máquina (por ejemplo, archivos originales en "
+"formato PDF, Word u Open Document), como una entrada de documento separada "
+"para las páginas firmadas escaneadas cuando sea necesario."
 
 #. Title
 #: codelists/documentType.csv:12
@@ -364,7 +373,7 @@ msgstr ""
 #. Title
 #: codelists/documentType.csv:13
 msgid "Environmental impact"
-msgstr ""
+msgstr "Impacto ambiental"
 
 #. Description
 #: codelists/documentType.csv:13
@@ -378,7 +387,7 @@ msgstr ""
 #. Title
 #: codelists/documentType.csv:14
 msgid "Final audit"
-msgstr ""
+msgstr "Auditoría final"
 
 #. Description
 #: codelists/documentType.csv:14
@@ -392,7 +401,7 @@ msgstr ""
 #. Title
 #: codelists/documentType.csv:15
 msgid "Tender notice"
-msgstr ""
+msgstr "Aviso de licitación"
 
 #. Description
 #: codelists/documentType.csv:15
@@ -401,11 +410,14 @@ msgid ""
 "downloadable document, to a web page, or to an official gazette in which the"
 " notice is contained."
 msgstr ""
+"El aviso formal que da los detalles de una licitación. Este puede ser un "
+"enlace a un documento descargable, a un sitio web o a una gaceta oficial en "
+"la cual se encuentra el aviso. "
 
 #. Title
 #: codelists/documentType.csv:16
 msgid "Evaluation committee details"
-msgstr ""
+msgstr "Detalles del comité de evaluación"
 
 #. Description
 #: codelists/documentType.csv:16
@@ -415,7 +427,7 @@ msgstr "Información sobre la constitución del comité de evaluación"
 #. Title
 #: codelists/documentType.csv:17
 msgid "Request for qualification"
-msgstr ""
+msgstr "Solicitud de calificación"
 
 #. Description
 #: codelists/documentType.csv:17
@@ -436,7 +448,7 @@ msgstr ""
 #. Title
 #: codelists/documentType.csv:18
 msgid "Evaluation criteria"
-msgstr ""
+msgstr "Criterios de evaluación"
 
 #. Description
 #: codelists/documentType.csv:18
@@ -458,7 +470,7 @@ msgstr ""
 #. Title
 #: codelists/documentType.csv:20
 msgid "Shortlisted firms"
-msgstr ""
+msgstr "Firmas preseleccionadas"
 
 #. Description
 #: codelists/documentType.csv:20
@@ -473,7 +485,7 @@ msgstr ""
 #. Title
 #: codelists/documentType.csv:21
 msgid "Negotiation parameters"
-msgstr ""
+msgstr "Parámetros de Negociación"
 
 #. Description
 #: codelists/documentType.csv:21
@@ -604,6 +616,11 @@ msgid ""
 "payment commitments whose occurrence, timing and magnitude depend on some "
 "uncertain future event, outside the control of the public authority."
 msgstr ""
+"Reportes que detallen los compromisos fiscales de la autoridad pública para "
+"el APP, por ejemplo, pagos que se deben de hacer si el APP procede, o "
+"compromisos de pago que debido a algún acontecimiento, la fecha y magnitud "
+"dependen de un evento futuro incierto, fuera del control de la autoridad "
+"pública"
 
 #. Title
 #: codelists/documentType.csv:30
@@ -621,6 +638,14 @@ msgid ""
 "periodicity of grant payments, and particular grant milestones, ought to be "
 "provided."
 msgstr ""
+"Información sobre las subvenciones concedidas para apoyar el proyecto. La "
+"información sobre las subvenciones debe detallar el valor total de la "
+"subvención, y/o el valor de la subvención como proporción del valor total "
+"del proyecto, así como proporcionar información sobre la naturaleza de la "
+"subvención. En el caso de las subvenciones de capital pagadas durante la "
+"construcción de un proyecto, o de las subvenciones de explotación pagadas "
+"durante el funcionamiento, deben facilitarse detalles sobre la periodicidad "
+"de los pagos de la subvención, así como los hitos concretos de la misma."
 
 #. Title
 #: codelists/documentType.csv:31
@@ -636,6 +661,12 @@ msgid ""
 "the total number of payments and their periodicity, as well as the "
 "methodology used for calculating payments and the indexation used."
 msgstr ""
+"Los pagos de servicios son los pagos realizados por la autoridad pública o "
+"el comprador al proveedor privado por los servicios de infraestructura "
+"(aplicable en algunos tipos de proyectos de Asociación Público-Privada). La "
+"documentación debe incluir el número total de pagos y su periodicidad, así "
+"como la metodología utilizada para calcular los pagos y la indexación "
+"utilizada."
 
 #. Title
 #: codelists/documentType.csv:32
@@ -657,7 +688,7 @@ msgstr ""
 #. Title
 #: codelists/documentType.csv:33
 msgid "Asset transfer"
-msgstr ""
+msgstr "Transferencia de activos"
 
 #. Description
 #: codelists/documentType.csv:33
@@ -671,7 +702,7 @@ msgstr ""
 #. Title
 #: codelists/documentType.csv:34
 msgid "Revenue share"
-msgstr ""
+msgstr "Participación de los ingresos"
 
 #. Description
 #: codelists/documentType.csv:34
@@ -711,6 +742,11 @@ msgid ""
 "calculate tariffs. This ought to make clear who sets the tariff and on what "
 "basis."
 msgstr ""
+"Para resumir el método de fijación de tarifas y enlazar con la documentación"
+" detallada de los métodos de fijación de tarifas. Esto podría incluir "
+"documentación escrita y hojas de cálculo con los modelos utilizados para "
+"calcular las tarifas. Esto debería dejar claro quién fija la tarifa y en qué"
+" se basa."
 
 #. Title
 #: codelists/documentType.csv:37
@@ -837,7 +873,7 @@ msgstr "Para informar sobre los ingresos previstos o reales"
 #. Title
 #: codelists/metricID.csv:3
 msgid "Internal rate of return"
-msgstr ""
+msgstr "Tasa interna de retorno"
 
 #. Description
 #: codelists/metricID.csv:3
@@ -856,7 +892,7 @@ msgstr "Aprobación del proyecto"
 #. Description
 #: codelists/milestoneCode.csv:1
 msgid "The dates of approvals from relevant authorities."
-msgstr ""
+msgstr "Las fechas de las aprobaciones de las autoridades pertinentes."
 
 #. Title
 #: codelists/milestoneCode.csv:2
@@ -936,6 +972,10 @@ msgid ""
 "during which enquiries can be made and responded to which is not provided in"
 " the tender/enquiryPeriod block. Sometimes known as clarification periods."
 msgstr ""
+"Para los procesos con múltiples periodos de consulta, la fecha de inicio de "
+"un periodo durante el cual se pueden realizar y responder consultas que no "
+"se proporciona en el bloque tender/enquiryPeriod. A veces se conocen como "
+"períodos de aclaración."
 
 #. Title
 #: codelists/milestoneCode.csv:8
@@ -949,6 +989,10 @@ msgid ""
 " which enquiries can be made and responded to which is not provided in the "
 "tender/enquiryPeriod block. Sometimes known as clarification periods."
 msgstr ""
+"En los procesos con múltiples periodos de consulta, la fecha de finalización"
+" de un periodo durante el cual se pueden realizar y responder consultas que "
+"no se proporciona en el bloque tender/enquiryPeriod. A veces se conocen como"
+" períodos de aclaración."
 
 #. Title
 #: codelists/milestoneCode.csv:9
