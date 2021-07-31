@@ -7,6 +7,7 @@
 # Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2019
 # James McKinney, 2021
 # Natalia Valdez <nataliavaldez@cds.com.py>, 2021
+# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -15,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 17:31-0500\n"
 "PO-Revision-Date: 2019-03-14 18:27+0000\n"
-"Last-Translator: Natalia Valdez <nataliavaldez@cds.com.py>, 2021\n"
+"Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,30 +34,44 @@ msgid ""
 "indicate the size or scale of an organization, in particular commercial "
 "enterprises or economic operators."
 msgstr ""
+"Esta extensión añade un campo `scale` al objeto`parties.details` para "
+"indicar el tamaño o la escala de una organización, en particular de empresas"
+" comerciales u operadores económicos."
 
 #: ../README.md:5
 msgid ""
 "This information can be used to calculate procurement statistics, like the "
 "share of contracts awarded to micro, small and medium-sized enterprises."
 msgstr ""
+"Esta información se puede utilizar para calcular estadísticas de "
+"contrataciones, como la proporción de contratos adjudicados a micro, "
+"pequeñas y medianas empresas."
 
 #: ../README.md:7
 msgid ""
 "The codes in the `partyScale.csv` codelist do not have precise definitions, "
 "and instead defer to local laws and regulations, for example:"
 msgstr ""
+"Los códigos de la lista de códigos `partyScale.csv` no tienen definiciones "
+"precisas y, en cambio, se rigen por las leyes y regulaciones locales, por "
+"ejemplo:"
 
 #: ../README.md:9
 msgid ""
 "[OECD: Small and Medium-Sized Enterprises (SMEs) "
 "definition](https://stats.oecd.org/glossary/detail.asp?ID=3123)"
 msgstr ""
+"[OECD: Pequeñas y medianas empresas definición "
+"(SMEs)](https://stats.oecd.org/glossary/detail.asp?ID=3123)"
 
 #: ../README.md:10
 msgid ""
 "[European Commission: What is an SME?](https://ec.europa.eu/growth/smes"
 "/business-friendly-environment/sme-definition_en)"
 msgstr ""
+"[Comisión Europea: ¿Qué son las pequeñas y medianas empresas "
+"(SME)?](https://ec.europa.eu/growth/smes/business-friendly-environment/sme-"
+"definition_en)"
 
 #: ../README.md:12
 msgid "Guidance"
@@ -68,6 +83,9 @@ msgid ""
 "two sizes, use the 'small' and 'medium' codes. Otherwise, use the 'sme' "
 "code."
 msgstr ""
+"Para las pequeñas y medianas empresas, si puede distinguir entre los dos "
+"tamaños, utilice los códigos 'small' y 'medium'.  De lo contrario, use el "
+"código 'sme'."
 
 #: ../README.md:16
 msgid ""
@@ -75,10 +93,13 @@ msgid ""
 "from micro enterprises, use the 'selfEmployed' code. Otherwise, use the "
 "'micro' code."
 msgstr ""
+"Para los trabajadores autónomos y los comerciantes individuales, si puede "
+"distinguirlos de las microempresas, utilice el código  'selfEmployed'. De lo"
+" contrario, use el código 'micro'."
 
 #: ../README.md:18
 msgid "For enterprises without employees, use the 'micro' code."
-msgstr ""
+msgstr "Para empresas sin empleados, use el código 'micro'."
 
 #: ../README.md:20
 msgid "Example"
@@ -90,15 +111,15 @@ msgstr "Registro de cambios"
 
 #: ../README.md:38
 msgid "2020-05-20"
-msgstr ""
+msgstr "2020-05-20"
 
 #: ../README.md:40
 msgid "Add 'selfEmployed' code to `partyScale.csv`"
-msgstr ""
+msgstr "Agregue el código 'selfEmployed' a `partyScale.csv`"
 
 #: ../README.md:42
 msgid "2020-04-24"
-msgstr ""
+msgstr "2020-04-24"
 
 #: ../README.md:44
 msgid "Add `minProperties`, `minItems` and/or `minLength` properties"
@@ -106,43 +127,44 @@ msgstr "Agregar las propiedades `minProperties`, `minItems` y/o `minLength`."
 
 #: ../README.md:46
 msgid "2020-03-11"
-msgstr ""
+msgstr "2020-03-11"
 
 #: ../README.md:48
 msgid "Clarify use of codes"
-msgstr ""
+msgstr "Aclarar el uso de los códigos"
 
 #: ../README.md:50
 msgid "2020-03-10"
-msgstr ""
+msgstr "2020-03-10"
 
 #: ../README.md:52
 msgid "Add 'small' and 'medium' codes to `partyScale.csv`"
-msgstr ""
+msgstr "Agregue códigos 'small' y 'medium'  a `partyScale.csv`"
 
 #: ../README.md:54
 msgid "2018-05-22"
-msgstr ""
+msgstr "2018-05-22"
 
 #: ../README.md:56
 msgid "Add description to 'large' code in `partyScale.csv`"
-msgstr ""
+msgstr "Agregue una descripción al código 'large' en `partyScale.csv`"
 
 #: ../README.md:58
 msgid "2018-05-21"
-msgstr ""
+msgstr "2018-05-21"
 
 #: ../README.md:60
 msgid "Remove '' code from `partyScale.csv`"
-msgstr ""
+msgstr "Eliminar el código '' de `partyScale.csv`"
 
 #: ../README.md:62
 msgid "2018-01-09"
-msgstr ""
+msgstr "2018-01-09"
 
 #: ../README.md:64
 msgid "Add partyScale.csv codelist for `Organization.details.scale`"
 msgstr ""
+"Agregue la lista de códigos partyScale.csv para `Organization.details.scale`"
 
 #: ../README.md:66
 msgid "Issues"

@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
 # 
+# Translators:
+# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-03-05 17:32-0500\n"
 "PO-Revision-Date: 2020-08-20 20:47+0000\n"
+"Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,24 +28,26 @@ msgstr ""
 #. /definitions/Lot/properties/recurrence/title
 #: extension.json:1 release-schema.json:1
 msgid "Recurrence"
-msgstr ""
+msgstr "Recurrencia"
 
 #. /description/en
 #: extension.json:1
 msgid ""
 "Adds fields for information on the recurrence of the contracting process."
 msgstr ""
+"Agregar campos de información acerca de la recurrencia del proceso de "
+"contratación."
 
 #. /definitions/Recurrence/description
 #. /definitions/Tender/properties/recurrence/description
 #: release-schema.json:1
 msgid "Information on the recurrence of the contracting process."
-msgstr ""
+msgstr "Información acerca de la recurrencia del proceso de contratación."
 
 #. /definitions/Recurrence/properties/dates/title
 #: release-schema.json:1
 msgid "Estimated dates"
-msgstr ""
+msgstr "Fechas estimadas"
 
 #. /definitions/Recurrence/properties/dates/description
 #: release-schema.json:1
@@ -49,30 +55,34 @@ msgid ""
 "An estimate of the timing of subsequent initiations of contracting processes"
 " (e.g. notices of intended procurement)."
 msgstr ""
+"Una estimación del calendario de iniciaciones posteriores de los procesos de"
+" contratación (por ejemplo, avisos de contratación prevista)."
 
 #. /definitions/Recurrence/properties/description/title
 #: release-schema.json:1
 msgid "Further information"
-msgstr ""
+msgstr "Para más información"
 
 #. /definitions/Recurrence/properties/description/description
 #: release-schema.json:1
 msgid "Any further information on the recurrence of the contracting process."
 msgstr ""
+"Cualquier otra información acerca de la recurrencia del proceso de "
+"contratación."
 
 #. /definitions/Tender/properties/hasRecurrence/title
 #. /definitions/Lot/properties/hasRecurrence/title
 #: release-schema.json:1
 msgid "Has recurrence"
-msgstr ""
+msgstr "Tiene recurrencia"
 
 #. /definitions/Tender/properties/hasRecurrence/description
 #. /definitions/Lot/properties/hasRecurrence/description
 #: release-schema.json:1
 msgid "Whether the contracting process is recurrent."
-msgstr ""
+msgstr "Si el proceso de contratación es recurrente."
 
 #. /definitions/Lot/properties/recurrence/description
 #: release-schema.json:1
 msgid "Information on the recurrence of the lot."
-msgstr ""
+msgstr "Información acerca de la recurrencia del lote."

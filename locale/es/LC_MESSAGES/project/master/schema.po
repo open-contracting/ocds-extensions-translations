@@ -124,7 +124,7 @@ msgstr "Información vinculada del proyecto"
 #. /definitions/Project/properties/uri/description
 #: release-schema.json:1
 msgid "A URI pointing to further information about this project."
-msgstr "Una URI que apunte a mayor información sobre este proyecto."
+msgstr "Un URI que apunte a mayor información sobre este proyecto."
 
 #. /definitions/Project/properties/sector/title
 #: release-schema.json:1

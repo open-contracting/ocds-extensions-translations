@@ -6,6 +6,7 @@
 # Translators:
 # James McKinney, 2021
 # Natalia Valdez <nataliavaldez@cds.com.py>, 2021
+# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 17:31-0500\n"
 "PO-Revision-Date: 2020-08-20 21:55+0000\n"
-"Last-Translator: Natalia Valdez <nataliavaldez@cds.com.py>, 2021\n"
+"Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +25,7 @@ msgstr ""
 
 #: ../README.md:1
 msgid "Second stage description"
-msgstr ""
+msgstr "Descripción de la segunda etapa"
 
 #: ../README.md:3
 msgid ""
@@ -32,6 +33,10 @@ msgid ""
 "second stage of a two-stage procedure. In particular, it adds two fields to "
 "describe the limits on the number of candidates to be invited."
 msgstr ""
+"Agregar un objeto de segunda etapa a los objetos de licitación y lote, para "
+"describir la segunda etapa de un procedimiento de dos etapas. En particular,"
+" agregar dos campos para describir los límites en el número de candidatos a "
+"ser invitados."
 
 #: ../README.md:5
 msgid "Guidance"
@@ -42,6 +47,8 @@ msgid ""
 "If there is an exact limit on the number of candidates, set "
 "`minimumCandidates` and `maximumCandidates` to the same number."
 msgstr ""
+"Si hay un límite exacto en el número de candidatos, establecer "
+"`minimumCandidates` y maximumCandidates` al mismo número."
 
 #: ../README.md:9
 msgid ""
@@ -49,10 +56,13 @@ msgid ""
 " describe how the selection criteria will be used to select candidates to be"
 " invited for the second stage."
 msgstr ""
+"Si se establece `maximumCandidates`, utilizar la extensión de criterios de "
+"selección (TBD) para describir cómo se utilizarán los criterios de selección"
+" para seleccionar candidatos que serán invitados a la segunda etapa."
 
 #: ../README.md:11
 msgid "Legal context"
-msgstr ""
+msgstr "Contexto legal"
 
 #: ../README.md:13
 msgid ""
@@ -61,6 +71,10 @@ msgid ""
 "European Union](http://standard.open-contracting.org/profiles/eu/master/en/)"
 " for the correspondences to Tenders Electronic Daily (TED)."
 msgstr ""
+"En la Unión Europea, los campos de esta extensión corresponden a [eForms "
+"BG-709 (Second Stage)](https://github.com/eForms/eForms). Ver [OCDS for the "
+"European Union](http://standard.open-contracting.org/profiles/eu/master/en/)"
+" para ver las correspondencias con Tenders Electronic Daily (TED)."
 
 #: ../README.md:15
 msgid "Example"
@@ -86,7 +100,7 @@ msgstr "Registro de cambios"
 
 #: ../README.md:42
 msgid "2020-04-24"
-msgstr ""
+msgstr "2020-04-24"
 
 #: ../README.md:44
 msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
@@ -100,3 +114,8 @@ msgid ""
 "extensions/ocds_secondStageDescription_extension/pulls?q=is%3Apr+is%3Aclosed)"
 " and in <https://github.com/open-contracting/standard/issues/695>."
 msgstr ""
+"Esta extensión se discutió originalmente como parte del [OCDS para el perfil"
+" de la UE] (https://github.com/open-contracting-extensions/european-"
+"union/issues), en [pull requests] (https://github.com/open-contracting-"
+"extensions/ocds_secondStageDescription_extension/pulls?q=is%3Apr+is%3Aclosed)"
+" y en <https://github.com/open-contracting/standard/issues/695>."

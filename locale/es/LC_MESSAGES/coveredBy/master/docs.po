@@ -6,6 +6,7 @@
 # Translators:
 # James McKinney, 2021
 # Natalia Valdez <nataliavaldez@cds.com.py>, 2021
+# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 17:31-0500\n"
 "PO-Revision-Date: 2020-08-20 21:41+0000\n"
-"Last-Translator: Natalia Valdez <nataliavaldez@cds.com.py>, 2021\n"
+"Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,13 +25,15 @@ msgstr ""
 
 #: ../README.md:1
 msgid "Covered By"
-msgstr ""
+msgstr "Cubierto por"
 
 #: ../README.md:3
 msgid ""
 "This extension adds a field to indicate the treaties that the contracting "
 "process is covered by."
 msgstr ""
+"Esta extensión agrega un campo para indicar los tratados que cubre el "
+"proceso de contratación."
 
 #: ../README.md:5
 msgid ""
@@ -38,6 +41,10 @@ msgid ""
 "member to indicate that a contracting process is covered by it. The "
 "`tender.coveredBy` field should be used to meet such requirements."
 msgstr ""
+"Un tratado, como el Agreement on Government Procurement (GPA), puede "
+"requerir que un miembro indique que un proceso de contratación está cubierto"
+" por el. El campo `tender.coveredBy` debería utilizarse para cumplir con "
+"dichos requisitos."
 
 #: ../README.md:7
 msgid ""
@@ -46,6 +53,10 @@ msgid ""
 "extension](https://github.com/open-contracting-"
 "extensions/ocds_legalBasis_extension) instead."
 msgstr ""
+"Para revelar las leyes o reglamentos que rigen el proceso de contratación y "
+"que otorgan autoridad legal a la entidad contratante, utilice la [extensión "
+"legalBasis](https://github.com/open-contracting-"
+"extensions/ocds_legalBasis_extension) en vez."
 
 #: ../README.md:9
 msgid "Guidance"
@@ -55,6 +66,8 @@ msgstr "Guía"
 msgid ""
 "If you need to refer to a treaty that is not in the `coveredBy` codelist:"
 msgstr ""
+"Si necesita hacer referencia a un tratado que no está en el lista de códigos"
+" `coveredBy`:"
 
 #: ../README.md:13
 msgid ""
@@ -63,6 +76,10 @@ msgid ""
 "code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) (e.g \"CA\" for "
 "Canada)."
 msgstr ""
+"Si el tratado tiene un alcance nacional o subnacional, elegir un código de "
+"país relevante [ISO 3166-1 alpha-2 country "
+"code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) (por ejemplo \"CA\" "
+"para Canadá)."
 
 #: ../README.md:14
 msgid ""
@@ -71,26 +88,36 @@ msgid ""
 "Territories](https://en.wikipedia.org/wiki/ISO_3166-2:CA#Current_codes), a "
 "province of Canada)."
 msgstr ""
+"Si el tratado tiene un alcance subnacional, elegir un código de región "
+"relevante [ISO 3166-2 region code] "
+"(https://en.wikipedia.org/wiki/ISO_3166-2) (por ejemplo \"NT\" para "
+"[Northern "
+"Territories](https://en.wikipedia.org/wiki/ISO_3166-2:CA#Current_codes), una"
+" provincia de Canadá)."
 
 #: ../README.md:15
 msgid ""
 "Concatenate the code(s) to the acronym of the treaty, separating each part "
 "with a dash (e.g \"CA-NT-BPI\")."
 msgstr ""
+"Concatenar el o los código(s) al acrónimo del tratado, separando cada parte "
+"con un guión (por ejemplo \"CA-NT-BPI\")."
 
 #: ../README.md:16
 msgid "Add this code to the `tender.coveredBy` array."
-msgstr ""
+msgstr "Agregar este código a la lista `tender.coveredBy`."
 
 #: ../README.md:17
 msgid ""
 "Document the new code (see [Extending open codelists](https://standard.open-"
 "contracting.org/latest/en/schema/codelists/))."
 msgstr ""
+"Documentar el nuevo código (ver [Extending open codelists](https://standard"
+".open-contracting.org/latest/en/schema/codelists/))."
 
 #: ../README.md:19
 msgid "Legal context"
-msgstr ""
+msgstr "Contexto legal"
 
 #: ../README.md:21
 msgid ""
@@ -99,6 +126,10 @@ msgid ""
 " (GPA) includes: \"each notice of intended procurement shall include … l. an"
 " indication that the procurement is covered by this Agreement.\""
 msgstr ""
+"El [Revised Agreement on Government "
+"Procurement](https://www.wto.org/english/docs_e/legal_e/rev-gpr-94_01_e.htm)"
+" (GPA) incluye: \"cada aviso de contratación prevista deberá incluir ... l. "
+"una indicación que la contratación está cubierta por este Acuerdo\"."
 
 #: ../README.md:23
 msgid ""
@@ -110,6 +141,13 @@ msgid ""
 "included in contract notices … 29. Indication whether the contract is "
 "covered by the GPA.\""
 msgstr ""
+"La Unión Europea es una "
+"[parte](https://www.wto.org/english/tratop_e/gproc_e/memobs_e.htm) al GPA, y"
+" como tal su [Directive 2014/24/EU](https://eur-lex.europa.eu/legal-"
+"content/EN/TXT/?uri=uriserv:OJ.L_.2014.094.01.0065.01.ENG) (Contratos "
+"públicos - que establecen reglas básicas claras) incluye: \"Parte C: "
+"Información que debe incluirse en los avisos de contrato ... 29. Indicación "
+"de si el contrato está cubierto por GPA\"."
 
 #: ../README.md:25
 msgid "Example"
@@ -120,6 +158,8 @@ msgid ""
 "The `tender.coveredBy` field is an array of strings, whose values are "
 "selected from the `coveredBy.csv` open codelist."
 msgstr ""
+"El campo  `tender.coveredBy` es una lista de cadenas, cuyos valores son "
+"seleccionados desde la lista de códigos abierta `coveredBy.csv`."
 
 #: ../README.md:39
 msgid "Issues"
@@ -141,16 +181,18 @@ msgstr "Registro de cambios"
 
 #: ../README.md:45
 msgid "2020-11-04"
-msgstr ""
+msgstr "2020-11-04"
 
 #: ../README.md:47
 msgid ""
 "Add guidance on the creation of new codes for the `coveredBy` codelist."
 msgstr ""
+"Agregar guía acerca de la creación de nuevos códigos para la lista de "
+"códigos `coveredBy`."
 
 #: ../README.md:49
 msgid "2020-04-24"
-msgstr ""
+msgstr "2020-04-24"
 
 #: ../README.md:51
 msgid "Add `minProperties`, `minItems` and/or `minLength` properties."

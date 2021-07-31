@@ -5,6 +5,7 @@
 # 
 # Translators:
 # James McKinney, 2021
+# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-03-05 17:32-0500\n"
 "PO-Revision-Date: 2020-08-20 21:38+0000\n"
-"Last-Translator: James McKinney, 2021\n"
+"Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,12 +29,12 @@ msgstr ""
 #. /definitions/Options/title
 #: extension.json:1 release-schema.json:1
 msgid "Options"
-msgstr ""
+msgstr "Opciones"
 
 #. /description/en
 #: extension.json:1
 msgid "Adds fields for information on options."
-msgstr ""
+msgstr "Agregar campos para obtener información sobre las opciones."
 
 #. /definitions/Tender/properties/options/description
 #. /definitions/Lot/properties/options/description
@@ -41,13 +42,13 @@ msgstr ""
 #. /definitions/Options/properties/description/description
 #: release-schema.json:1
 msgid "A description of the options."
-msgstr ""
+msgstr "Una descripción de las opciones."
 
 #. /definitions/Tender/properties/hasOptions/title
 #. /definitions/Lot/properties/hasOptions/title
 #: release-schema.json:1
 msgid "Options used"
-msgstr ""
+msgstr "Opciones utilizadas"
 
 #. /definitions/Tender/properties/hasOptions/description
 #: release-schema.json:1
@@ -55,6 +56,8 @@ msgid ""
 "Whether or not the buyer reserves the right to make additional purchases "
 "from the supplier, as long as the contract is valid."
 msgstr ""
+"Si el comprador se reserva o no el derecho de realizar compras adicionales "
+"del proveedor, siempre que el contrato sea válido."
 
 #. /definitions/Lot/properties/hasOptions/description
 #: release-schema.json:1
@@ -62,6 +65,8 @@ msgid ""
 "Whether the buyer reserves the right to make additional purchases from the "
 "supplier, as long as the contract is valid."
 msgstr ""
+"Si el comprador se reserva el derecho de realizar compras adicionales del "
+"proveedor, siempre que el contrato sea válido."
 
 #. /definitions/Options/properties/description/title
 #: release-schema.json:1
@@ -76,4 +81,4 @@ msgstr "Periodo"
 #. /definitions/Options/properties/period/description
 #: release-schema.json:1
 msgid "The period over which the options can be used."
-msgstr ""
+msgstr "El período durante el cual se pueden utilizar las opciones."

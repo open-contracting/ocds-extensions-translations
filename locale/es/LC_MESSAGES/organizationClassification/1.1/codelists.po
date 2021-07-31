@@ -5,6 +5,7 @@
 # 
 # Translators:
 # James McKinney, 2021
+# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-03-05 17:32-0500\n"
 "PO-Revision-Date: 2020-08-20 21:41+0000\n"
-"Last-Translator: James McKinney, 2021\n"
+"Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,7 +46,7 @@ msgstr "Categoría"
 #. Title
 #: codelists/+itemClassificationScheme.csv:1
 msgid "Classification of the Functions of Government"
-msgstr ""
+msgstr "Clasificación de las funciones del gobierno"
 
 #. Description
 #: codelists/+itemClassificationScheme.csv:1
@@ -54,11 +55,15 @@ msgid ""
 "the Organisation for Economic Co-operation and Development and published by "
 "the United Nations Statistical Division."
 msgstr ""
+"Un estándar que clasifica los propósitos de las actividades gubernamentales,"
+" desarrollada por la Organización para la Cooperación y el Desarrollo "
+"Económicos y publicada por la División de Estadística de las Naciones "
+"Unidas."
 
 #. Title
 #: codelists/+itemClassificationScheme.csv:2
 msgid "EC Type of contracting authority"
-msgstr ""
+msgstr "EC Tipo de autoridad de contratación"
 
 #. Description
 #: codelists/+itemClassificationScheme.csv:2
@@ -66,11 +71,13 @@ msgid ""
 "The types of contracting authority within the domain of public procurement "
 "according to legislation of the European Parliament."
 msgstr ""
+"Los tipos de autoridad de contratación dentro del ámbito de la contratación "
+"pública de acuerdo con la legislación del Parlamento Europeo."
 
 #. Title
 #: codelists/+itemClassificationScheme.csv:3
 msgid "EC Main activity of contracting entity"
-msgstr ""
+msgstr "EC Actividad principal de la entidad contratante"
 
 #. Description
 #: codelists/+itemClassificationScheme.csv:3
@@ -78,3 +85,5 @@ msgid ""
 "The main activities of contracting entities within the domain of public "
 "procurement according to legislation of the European Parliament."
 msgstr ""
+"Las principales actividades de las entidades contratantes en el ámbito de la"
+" contratación pública según la legislación del Parlamento Europeo."

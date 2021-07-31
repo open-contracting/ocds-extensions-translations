@@ -6,6 +6,7 @@
 # Translators:
 # James McKinney, 2021
 # Natalia Valdez <nataliavaldez@cds.com.py>, 2021
+# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 17:31-0500\n"
 "PO-Revision-Date: 2020-08-20 20:47+0000\n"
-"Last-Translator: Natalia Valdez <nataliavaldez@cds.com.py>, 2021\n"
+"Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,17 +25,19 @@ msgstr ""
 
 #: ../README.md:1
 msgid "Recurrence"
-msgstr ""
+msgstr "Recurrencia"
 
 #: ../README.md:3
 msgid ""
 "This extension adds fields for information on the recurrence of the "
 "contracting process."
 msgstr ""
+"Esta extensión agrega campos de información sobre la recurrencia del proceso"
+" de contratación."
 
 #: ../README.md:5
 msgid "Usage"
-msgstr ""
+msgstr "Uso"
 
 #: ../README.md:7
 msgid ""
@@ -45,6 +48,12 @@ msgid ""
 "framework agreement, or dynamic purchasing system; in these cases, these "
 "fields should not be used."
 msgstr ""
+"Estos campos deben utilizarse si, por ejemplo, es probable que se vuelva a "
+"lanzar o restablecer en un futuro próximo otro procedimiento de contratación"
+" o sistema de calificación para el mismo asunto del contrato. Tenga en "
+"cuenta que esto no significa adjudicar múltiples contratos dentro de un "
+"único sistema de calificación, acuerdo marco o sistema dinámico de compras; "
+"en estos casos, estos campos no deben utilizarse."
 
 #: ../README.md:9
 msgid ""
@@ -54,10 +63,15 @@ msgid ""
 "similar contracts in future years, which may make the investment more "
 "worthwhile.¹"
 msgstr ""
+"Esta información puede ser útil, por ejemplo, para las empresas que deciden "
+"invertir en la maquinaria necesaria para un contrato en particular. Con esta"
+" información, saben que probablemente habrá una oportunidad de ganar "
+"contratos similares en años futuros, lo que puede hacer que la inversión sea"
+" más valiosa."
 
 #: ../README.md:11
 msgid "Legal context"
-msgstr ""
+msgstr "Contexto Legal"
 
 #: ../README.md:13
 msgid ""
@@ -67,6 +81,11 @@ msgid ""
 "for recurring contracts, an estimate, if possible, of the timing of "
 "subsequent notices of intended procurement\"."
 msgstr ""
+"El [Revised Agreement on Government Procurement] "
+"(https://www.wto.org/english/docs_e/legal_e/rev-gpr-94_01_e.htm) (GPA) "
+"incluye: \"cada aviso de contratación prevista deberá incluir ... c. para "
+"los contratos recurrentes, una estimación, si es posible, del calendario de "
+"avisos posteriores de contratación prevista\"."
 
 #: ../README.md:15
 msgid ""
@@ -78,12 +97,22 @@ msgid ""
 "included in contract notices … 27. In the case of recurrent procurement, "
 "estimated timing for further notices to be published.\""
 msgstr ""
+"La Unión Europea es una "
+"[parte](https://www.wto.org/english/tratop_e/gproc_e/memobs_e.htm) al GPA, y"
+" como tal su [Directiva 2014/24/EU](https://eur-lex.europa.eu/legal-"
+"content/EN/TXT/?uri=uriserv:OJ.L_.2014.094.01.0065.01.ENG) (Contratos "
+"públicos - que establecen reglas básicas claras) incluye: \"Parte C: "
+"Información que se incluirá en los avisos de contrato ... 27. En el caso de "
+"adquisiciones periódicas, tiempo estimado para que se publiquen más "
+"avisos\"."
 
 #: ../README.md:17
 msgid ""
 "This extension's fields correspond to [eForms BT-94 (Recurrence) and BT-95 "
 "(Recurrence Description)](https://github.com/eForms/eForms)."
 msgstr ""
+"Los campos de esta extensión corresponden a [eForms BT-94 (Recurrencia) y "
+"BT-95 (Descripción de la Recurencia)](https://github.com/eForms/eForms)."
 
 #: ../README.md:19
 msgid "Example"
@@ -91,7 +120,7 @@ msgstr "Ejemplo"
 
 #: ../README.md:40
 msgid "Footnotes"
-msgstr ""
+msgstr "Notas al pie"
 
 #: ../README.md:42
 msgid ""
@@ -99,6 +128,9 @@ msgid ""
 "specifications](http://ec.europa.eu/growth/content/targeted-consultation-"
 "eforms-next-generation-public-procurement-standard-forms-0_en)."
 msgstr ""
+"¹ La guía de uso está adaptada de [eForms technical "
+"specifications](http://ec.europa.eu/growth/content/targeted-consultation-"
+"eforms-next-generation-public-procurement-standard-forms-0_en)."
 
 #: ../README.md:44
 msgid "Issues"
@@ -120,7 +152,7 @@ msgstr "Registro de cambios"
 
 #: ../README.md:50
 msgid "2020-04-24"
-msgstr ""
+msgstr "2020-04-24"
 
 #: ../README.md:52
 msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
@@ -132,3 +164,6 @@ msgid ""
 "repository](https://github.com/open-contracting-"
 "archive/trade/tree/master/draft_extensions/lot_RecurrentProcurement)"
 msgstr ""
+"El borrador original de la extensión se puede encontrar en el [repositorio "
+"archivado de perfiles comerciales](https://github.com/open-contracting-"
+"archive/trade/tree/master/draft_extensions/lot_RecurrentProcurement)"

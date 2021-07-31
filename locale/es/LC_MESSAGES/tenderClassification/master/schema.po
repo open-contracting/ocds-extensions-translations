@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
 # 
+# Translators:
+# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-03-05 17:32-0500\n"
 "PO-Revision-Date: 2020-08-20 20:50+0000\n"
+"Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,7 +26,7 @@ msgstr ""
 #. /definitions/Tender/properties/classification/title
 #: extension.json:1 release-schema.json:1
 msgid "Tender classification"
-msgstr ""
+msgstr "Clasificación de la licitación"
 
 #. /description/en
 #: extension.json:1
@@ -30,18 +34,20 @@ msgid ""
 "Adds an array of classification objects to the tender object, in order to "
 "categorize the procedure or call-off as a whole."
 msgstr ""
+"Agregar una serie de objetos de clasificación al objeto de licitación para "
+"categorizar el procedimiento o la solicitud de orden de compra como un todo."
 
 #. /definitions/Tender/properties/classification/description
 #: release-schema.json:1
 msgid "The primary classification of the contracting process."
-msgstr ""
+msgstr "La clasificación primaria del proceso de contratación."
 
 #. /definitions/Tender/properties/additionalClassifications/title
 #: release-schema.json:1
 msgid "Tender additional classifications"
-msgstr ""
+msgstr "Clasificaciones adicionales de licitaciones"
 
 #. /definitions/Tender/properties/additionalClassifications/description
 #: release-schema.json:1
 msgid "Additional classifications of the contracting process."
-msgstr ""
+msgstr "Clasificaciones adicionales del proceso de contratación."

@@ -6,6 +6,8 @@
 # Translators:
 # James McKinney, 2021
 # Natalia Valdez <nataliavaldez@cds.com.py>, 2021
+# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
+# Maria Esther Cervantes <mcervantes@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 17:31-0500\n"
 "PO-Revision-Date: 2020-08-20 20:48+0000\n"
-"Last-Translator: Natalia Valdez <nataliavaldez@cds.com.py>, 2021\n"
+"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,41 +26,49 @@ msgstr ""
 
 #: ../README.md:1
 msgid "Pagination"
-msgstr ""
+msgstr "Paginación"
 
 #: ../README.md:3
 msgid "Adds a links object to packages, to support pagination."
 msgstr ""
+"Agregar un objeto de enlaces a los paquetes para dar soporte a la "
+"paginación."
 
 #: ../README.md:5
 msgid "Links"
-msgstr ""
+msgstr "Enlaces"
 
 #: ../README.md:7
 msgid ""
 "The top-level `links` object in release packages and record packages has "
 "three fields:"
 msgstr ""
+"El objeto `links` de nivel superior en paquetes de entrega y paquetes de "
+"registro tiene tres campos:"
 
 #: ../README.md:9
 msgid "`next`: A URL to the next sequential package"
-msgstr ""
+msgstr "`next`: una URL al siguiente paquete secuencial"
 
 #: ../README.md:10
 msgid "`prev`: A URL to the previous sequential package"
-msgstr ""
+msgstr "`prev`: una URL al paquete secuencial anterior"
 
 #: ../README.md:12
 msgid ""
 "To construct the `next` and/or `prev` URLs, it is encouraged to use query "
 "string parameters like:"
 msgstr ""
+"Para construir las URLs `next` y / o` prev`, se recomienda utilizar "
+"parámetros de cadena de consulta como:"
 
 #: ../README.md:14
 msgid ""
 "`since=TIMESTAMP`, to return a page of results that are modified after the "
 "`since` timestamp, in chronological order"
 msgstr ""
+"`since=TIMESTAMP`, para devolver a una página de resultados que se modifican"
+" después de `since` timestamp, en orden cronológico"
 
 #: ../README.md:15
 msgid ""
@@ -67,18 +77,27 @@ msgid ""
 "retrieved from a [SQL database](https://www.postgresql.org/docs/current"
 "/queries-limit.html))"
 msgstr ""
+"`offset=NUMBER`, para devolver a una página de resultados que se colocan "
+"después del número `offset` en orden secuencial (por ejemplo, si los "
+"resultados se recuperan de un [SQL "
+"database](https://www.postgresql.org/docs/current/queries-limit.html))"
 
 #: ../README.md:17
 msgid ""
 "It is discouraged to use `page=NUMBER` with results ordered in reverse "
 "chronology, because:"
 msgstr ""
+"No se aconseja utilizar `page = NUMBER` con los resultados ordenados en "
+"cronología inversa, porque:"
 
 #: ../README.md:19
 msgid ""
 "A given page won't return the same results over time. `page=1` will return "
 "different results today, next week, and next year."
 msgstr ""
+"Una página determinada no devolverá los mismos resultados a lo largo del "
+"tiempo. `page = 1` devolverá resultados diferentes hoy, la semana que viene "
+"y el año que viene."
 
 #: ../README.md:20
 msgid ""
@@ -86,6 +105,10 @@ msgid ""
 "release is published to page 1 while users are paginating, then the result "
 "at the bottom of each page will be moved to the top of the following page."
 msgstr ""
+"Los usuarios pueden recibir resultados duplicados mientras paginan. Por "
+"ejemplo, si se publica una nueva versión en la página 1 mientras los "
+"usuarios están paginando, el resultado en la parte inferior de cada página "
+"se moverá a la parte superior de la página siguiente."
 
 #: ../README.md:21
 msgid ""
@@ -94,6 +117,10 @@ msgid ""
 "offset of their last request. With `page`, users need to determine which "
 "results are new or old."
 msgstr ""
+"Es más difícil para los usuarios sincronizar con la API. Con `since` o "
+"`offset`, los usuarios pueden recuperar nuevos resultados enviando timestamp"
+" o el last request. Con `page`, los usuarios deben determinar qué resultados"
+" son nuevos o antiguos."
 
 #: ../README.md:23
 msgid ""
@@ -108,6 +135,16 @@ msgid ""
 "Exchange](https://www.openactive.io/realtime-paged-data-exchange/#overall-"
 "approach)."
 msgstr ""
+"Referencia: [HTML link types](https://developer.mozilla.org/en-"
+"US/docs/Web/HTML/Link_types), [18F API Standards](https://github.com/18F"
+"/api-standards#pagination), [Government of Canada Standards on "
+"APIs](https://www.canada.ca/en/government/system/digital-government/modern-"
+"emerging-technologies/government-canada-standards-apis.html), [Government of"
+" Ontario API Guidelines](https://github.com/ongov/API-"
+"Guidelines/blob/develop/API-Guidelines.md#implement-pagination-and-data-"
+"segmentation), [OpenActive Realtime Paged Data "
+"Exchange](https://www.openactive.io/realtime-paged-data-exchange/#overall-"
+"approach)."
 
 #: ../README.md:25
 msgid "Example"
@@ -120,6 +157,10 @@ msgid ""
 " API with pagination. The `links.next` field provides the link to the next "
 "page."
 msgstr ""
+"Un publicador tiene una gran cantidad de entregas. En lugar de reunirlas en "
+"un paquete de entrega, las segmenta en varios paquetes de entrega, a través "
+"de una API con paginación. El campo `links.next` proporciona el enlace a la "
+"página siguiente."
 
 #: ../README.md:53
 msgid "Issues"
@@ -141,19 +182,19 @@ msgstr "Registro de cambios"
 
 #: ../README.md:59
 msgid "2020-11-05"
-msgstr ""
+msgstr "2020-11-05"
 
 #: ../README.md:61
 msgid "Remove `links.all`."
-msgstr ""
+msgstr "Remover `links.all`."
 
 #: ../README.md:62
 msgid "Remove `packageMetadata`."
-msgstr ""
+msgstr "Eliminar `packageMetadata`."
 
 #: ../README.md:64
 msgid "2020-04-24"
-msgstr ""
+msgstr "2020-04-24"
 
 #: ../README.md:66
 msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
@@ -161,12 +202,12 @@ msgstr "Agregar las propiedades `minProperties`, `minItems` y/o `minLength`."
 
 #: ../README.md:68
 msgid "2020-04-15"
-msgstr ""
+msgstr "2020-04-15"
 
 #: ../README.md:70
 msgid "Deprecate `links.all`."
-msgstr ""
+msgstr "Descontinuar `links.all`."
 
 #: ../README.md:71
 msgid "Deprecate `packageMetadata`."
-msgstr ""
+msgstr "Descontinuar `packageMetadata`."

@@ -5,6 +5,7 @@
 # 
 # Translators:
 # James McKinney, 2021
+# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 17:31-0500\n"
 "PO-Revision-Date: 2020-08-20 20:51+0000\n"
-"Last-Translator: James McKinney, 2021\n"
+"Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,7 +24,7 @@ msgstr ""
 
 #: ../README.md:1
 msgid "Tender Date Published"
-msgstr ""
+msgstr "Fecha de publicación de la licitación"
 
 #: ../README.md:3
 msgid ""
@@ -31,10 +32,13 @@ msgid ""
 "the tender was published. This field can be different from "
 "`tender/tenderPeriod/startDate` and `date` fields."
 msgstr ""
+"Esta extensión agrega un campo para indicar explícitamente la fecha y hora "
+"en que se publicó la licitación. Este campo puede ser diferente de los "
+"campos  `tender/tenderPeriod/startDate` y `date`."
 
 #: ../README.md:5
 msgid "Usage"
-msgstr ""
+msgstr "Uso"
 
 #: ../README.md:7
 msgid ""
@@ -42,11 +46,16 @@ msgid ""
 "for instance, to be able to compute some indicators that will say how many "
 "days a potential bidder has to prepare an offer."
 msgstr ""
+"Tener esta información de manera fácil de acceder puede tener muchos "
+"beneficios, por ejemplo, poder computar algunos indicadores que dirán "
+"cuántos días tiene un potencial oferente para preparar una oferta."
 
 #: ../README.md:9
 msgid ""
 "To satisfy such use cases, the `tender/datePublished` field should be used."
 msgstr ""
+"Para satisfacer tales casos de uso, se debe utilizar el campo "
+"`tender/datePublished`."
 
 #: ../README.md:11
 msgid "Example"
@@ -61,6 +70,8 @@ msgid ""
 "This extension was originally discussed in <https://github.com/open-"
 "contracting/standard/issues/892>."
 msgstr ""
+"Esta extensión se discutió originalmente en <https://github.com/open-"
+"contracting/standard/issues/892>."
 
 #: ../README.md:26
 msgid "Issues"

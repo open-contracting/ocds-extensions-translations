@@ -5,6 +5,7 @@
 # 
 # Translators:
 # James McKinney, 2021
+# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-03-05 17:32-0500\n"
 "PO-Revision-Date: 2020-08-20 20:51+0000\n"
-"Last-Translator: James McKinney, 2021\n"
+"Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,47 +41,48 @@ msgstr "Descripción"
 #. Title
 #: codelists/+documentType.csv:1
 msgid "Economic selection criteria"
-msgstr ""
+msgstr "Criterios de selección económica"
 
 #. Description
 #: codelists/+documentType.csv:1
 msgid "Documentation that describes the economic selection criteria."
-msgstr ""
+msgstr "Documentación que describe los criterios económicos de selección."
 
 #. Title
 #: codelists/+documentType.csv:2
 msgid "Technical selection criteria"
-msgstr ""
+msgstr "Criterios de selección técnica"
 
 #. Description
 #: codelists/+documentType.csv:2
 msgid "Documentation that describes the technical selection criteria."
-msgstr ""
+msgstr "Documentación que describe los criterios técnicos de selección."
 
 #. Title
 #: codelists/+milestoneType.csv:1
 msgid "Security clearance deadline"
-msgstr ""
+msgstr "Fecha límite de habilitación de seguridad"
 
 #. Description
 #: codelists/+milestoneType.csv:1
 msgid "The tenderers may obtain their security clearance until this date."
 msgstr ""
+"Los licitantes podrán obtener su habilitación de seguridad hasta esta fecha."
 
 #. Title
 #: codelists/+partyRole.csv:1
 msgid "Mediation body"
-msgstr ""
+msgstr "Organismo de mediación"
 
 #. Description
 #: codelists/+partyRole.csv:1
 msgid "The body responsible for mediation procedures."
-msgstr ""
+msgstr "El organismo responsable de los procedimientos de mediación."
 
 #. Title
 #: codelists/+partyRole.csv:2
 msgid "Central purchasing body"
-msgstr ""
+msgstr "Organismo central de compras"
 
 #. Description
 #: codelists/+partyRole.csv:2
@@ -88,21 +90,23 @@ msgid ""
 "The procuring entity providing centralized purchasing activities and, "
 "possibly, ancillary purchasing activities."
 msgstr ""
+"La entidad contratante que proporciona actividades de compra centralizadas "
+"y, posiblemente, actividades de compra auxiliares."
 
 #. Title
 #: codelists/+partyRole.csv:3
 msgid "Process contact point"
-msgstr ""
+msgstr "Punto de contacto de proceso"
 
 #. Description
 #: codelists/+partyRole.csv:3
 msgid "A contact point dedicated to this contracting process."
-msgstr ""
+msgstr "Un punto de contacto dedicado a este proceso de contratación."
 
 #. Title
 #: codelists/+partyRole.csv:4
 msgid "Review contact point"
-msgstr ""
+msgstr "Punto de contacto de revisión"
 
 #. Description
 #: codelists/+partyRole.csv:4
@@ -110,22 +114,26 @@ msgid ""
 "The service from which information about the review procedure can be "
 "obtained."
 msgstr ""
+"El servicio del cual se puede obtener información sobre el procedimiento de "
+"revisión."
 
 #. Title
 #: codelists/+partyRole.csv:5
 msgid "Selected participant"
-msgstr ""
+msgstr "Participante seleccionado"
 
 #. Description
 #: codelists/+partyRole.csv:5
 msgid ""
 "A party that has already been selected to participate in the design contest."
 msgstr ""
+"Una parte que ya ha sido seleccionada para participar en el concurso de "
+"proyecto."
 
 #. Title
 #: codelists/+partyRole.csv:6
 msgid "Information service"
-msgstr ""
+msgstr "Servicio de información"
 
 #. Description
 #: codelists/+partyRole.csv:6
@@ -133,3 +141,5 @@ msgid ""
 "An organization that can provide information regarding specific aspects of "
 "the contracting process."
 msgstr ""
+"Una organización que puede proporcionar información sobre aspectos "
+"específicos del proceso de contratación."

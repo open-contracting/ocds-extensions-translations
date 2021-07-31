@@ -6,6 +6,7 @@
 # Translators:
 # James McKinney, 2019
 # Maria Esther Cervantes <mcervantes@cds.com.py>, 2019
+# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-03-05 17:32-0500\n"
 "PO-Revision-Date: 2019-03-14 18:27+0000\n"
-"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2019\n"
+"Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -46,11 +47,13 @@ msgid ""
 "This a micro enterprise, according to the definitions used by the procuring "
 "entity or buyer."
 msgstr ""
+"Esta es una micro empresa de acuerdo a las definiciones utilizadas por la "
+"entidad procuradora o compradora."
 
 #. Title
 #: codelists/partyScale.csv:2
 msgid "Small or medium enterprise"
-msgstr ""
+msgstr "Pequeña o mediana empresa"
 
 #. Description
 #: codelists/partyScale.csv:2
@@ -58,11 +61,13 @@ msgid ""
 "This is a Small or Medium Enterprise (SME), according to the definitions "
 "used by the procuring entity or buyer."
 msgstr ""
+"Esta es una Pequeña o Mediana Empresa (SME) de acuerdo a las definiciones "
+"utilizadas por la entidad procuradora o compradora."
 
 #. Title
 #: codelists/partyScale.csv:3
 msgid "Small"
-msgstr ""
+msgstr "Pequeña"
 
 #. Description
 #: codelists/partyScale.csv:3
@@ -70,11 +75,13 @@ msgid ""
 "This is a small enterprise, according to the definitions used by the "
 "procuring entity or buyer."
 msgstr ""
+"Esta es una pequeña empresa de acuerdo a las definiciones utilizadas por la "
+"entidad procuradora o compradora."
 
 #. Title
 #: codelists/partyScale.csv:4
 msgid "Medium"
-msgstr ""
+msgstr "Mediana"
 
 #. Description
 #: codelists/partyScale.csv:4
@@ -82,6 +89,8 @@ msgid ""
 "This is a medium enterprise, according to the definitions used by the "
 "procuring entity or buyer."
 msgstr ""
+"Esta es una mediana empresa de acuerdo a las definiciones utilizadas por la "
+"entidad procuradora o compradora."
 
 #. Title
 #: codelists/partyScale.csv:5
@@ -94,13 +103,17 @@ msgid ""
 "This is a large enterprise, according to the definitions used by the "
 "procuring entity or buyer."
 msgstr ""
+"Esta es una gran empresa de acuerdo a las definiciones utilizadas por la "
+"entidad procuradora o compradora."
 
 #. Title
 #: codelists/partyScale.csv:6
 msgid "Self-employed individual"
-msgstr ""
+msgstr "Trabajador por cuenta propia"
 
 #. Description
 #: codelists/partyScale.csv:6
 msgid "This is a self-employed natural person, also known as a sole trader."
 msgstr ""
+"Se trata de una persona física autónoma, también conocida como comerciante "
+"individual."

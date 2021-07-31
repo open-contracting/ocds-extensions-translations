@@ -5,6 +5,7 @@
 # 
 # Translators:
 # James McKinney, 2021
+# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-03-05 17:32-0500\n"
 "PO-Revision-Date: 2020-08-20 21:52+0000\n"
-"Last-Translator: James McKinney, 2021\n"
+"Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,23 +28,25 @@ msgstr ""
 #. /definitions/DesignContest/title
 #: extension.json:1 release-schema.json:1
 msgid "Design contest"
-msgstr ""
+msgstr "Concurso de proyecto"
 
 #. /description/en
 #: extension.json:1
 msgid "Adds an object to the tender object to describe a design contest."
 msgstr ""
+"Agregar un objeto al objeto de la licitación para describir un concurso de "
+"proyecto."
 
 #. /definitions/Tender/properties/designContest/description
 #. /definitions/DesignContest/description
 #: release-schema.json:1
 msgid "Information about the organization of a design contest."
-msgstr ""
+msgstr "Información acerca de la organización de un concurso de proyecto."
 
 #. /definitions/DesignContest/properties/selectedParticipants/title
 #: release-schema.json:1
 msgid "Selected participants"
-msgstr ""
+msgstr "Participantes seleccionados"
 
 #. /definitions/DesignContest/properties/selectedParticipants/description
 #: release-schema.json:1
@@ -51,26 +54,29 @@ msgid ""
 "The parties that have already been selected to participate to the design "
 "contest."
 msgstr ""
+"Las partes que ya han sido seleccionadas para participar en el concurso de "
+"proyecto."
 
 #. /definitions/DesignContest/properties/hasPrizes/title
 #: release-schema.json:1
 msgid "Has prizes"
-msgstr ""
+msgstr "Tiene premios"
 
 #. /definitions/DesignContest/properties/hasPrizes/description
 #: release-schema.json:1
 msgid "Whether prizes will be awarded in the design contest."
-msgstr ""
+msgstr "Si se adjudicarán los premios en el concurso de proyecto."
 
 #. /definitions/DesignContest/properties/prizes/title
 #: release-schema.json:1
 msgid "Prizes"
-msgstr ""
+msgstr "Premio"
 
 #. /definitions/DesignContest/properties/prizes/description
 #: release-schema.json:1
 msgid "Information about the prizes awarded in the design contest."
 msgstr ""
+"Información acerca de los premios adjudicados en el concurso de proyecto."
 
 #. /definitions/DesignContest/properties/prizes/properties/description/title
 #: release-schema.json:1
@@ -80,23 +86,24 @@ msgstr "Descripción"
 #. /definitions/DesignContest/properties/prizes/properties/description/description
 #: release-schema.json:1
 msgid "The description of the prizes."
-msgstr ""
+msgstr "La descripción de los premios."
 
 #. /definitions/DesignContest/properties/rewardsDetails/title
 #: release-schema.json:1
 msgid "Rewards details"
-msgstr ""
+msgstr "Detalles de recompensas"
 
 #. /definitions/DesignContest/properties/rewardsDetails/description
 #: release-schema.json:1
 msgid ""
 "The details and conditions of the payments to be made to the participants."
 msgstr ""
+"Los detalles y condiciones de los pagos a realizar a los participantes."
 
 #. /definitions/DesignContest/properties/followUpContracts/title
 #: release-schema.json:1
 msgid "Follow-up contracts"
-msgstr ""
+msgstr "Contratos de seguimiento"
 
 #. /definitions/DesignContest/properties/followUpContracts/description
 #: release-schema.json:1
@@ -104,36 +111,38 @@ msgid ""
 "Whether any contracts following the design contest will be awarded to the "
 "winner or winners of the design contest."
 msgstr ""
+"Si los contratos posteriores al concurso de diseño se otorgarán al ganador o"
+" a los ganadores del concurso de diseño."
 
 #. /definitions/DesignContest/properties/bindingJuryDecision/title
 #: release-schema.json:1
 msgid "Binding jury decision"
-msgstr ""
+msgstr "Decisión vinculante del jurado"
 
 #. /definitions/DesignContest/properties/bindingJuryDecision/description
 #: release-schema.json:1
 msgid "Whether the jury’s decision is binding on the procuring entity."
-msgstr ""
+msgstr "Si la decisión del jurado es vinculante para la entidad adjudicadora."
 
 #. /definitions/DesignContest/properties/juryMembers/title
 #: release-schema.json:1
 msgid "Jury members"
-msgstr ""
+msgstr "Miembros del jurado"
 
 #. /definitions/DesignContest/properties/juryMembers/description
 #: release-schema.json:1
 msgid "The members of the jury."
-msgstr ""
+msgstr "Los miembros del jurado."
 
 #. /definitions/JuryMember/title
 #: release-schema.json:1
 msgid "Jury member"
-msgstr ""
+msgstr "Miembro del jurado"
 
 #. /definitions/JuryMember/description
 #: release-schema.json:1
 msgid "Member of the jury."
-msgstr ""
+msgstr "Miembro del jurado."
 
 #. /definitions/JuryMember/properties/name/title
 #: release-schema.json:1
@@ -143,4 +152,4 @@ msgstr "Nombre"
 #. /definitions/JuryMember/properties/name/description
 #: release-schema.json:1
 msgid "The name of the jury member."
-msgstr ""
+msgstr "El nombre del miembro del jurado."

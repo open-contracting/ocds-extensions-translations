@@ -5,6 +5,7 @@
 # 
 # Translators:
 # James McKinney, 2021
+# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-03-05 17:32-0500\n"
 "PO-Revision-Date: 2020-08-20 21:56+0000\n"
-"Last-Translator: James McKinney, 2021\n"
+"Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -37,38 +38,39 @@ msgstr "Descripción"
 #. Title
 #: codelists/appliesTo.csv:1
 msgid "Supplier"
-msgstr ""
+msgstr "Proveedores"
 
 #. Description
 #: codelists/appliesTo.csv:1
 msgid "The selection criterion applies to the suppliers."
-msgstr ""
+msgstr "El criterio de selección se aplica a los proveedores."
 
 #. Title
 #: codelists/appliesTo.csv:2
 msgid "Subcontractor"
-msgstr ""
+msgstr "Subcontratista"
 
 #. Description
 #: codelists/appliesTo.csv:2
 msgid "The selection criterion applies to the subcontractors."
-msgstr ""
+msgstr "El criterio de selección se aplica a los subcontratistas."
 
 #. Title
 #: codelists/selectionCriterionType.csv:1
 msgid "Economic"
-msgstr ""
+msgstr "Económico/a"
 
 #. Description
 #: codelists/selectionCriterionType.csv:1
 msgid ""
 "The criterion relates to the economic or financial standing of the tenderer."
 msgstr ""
+"El criterio se refiere a la situación económica o financiera del licitante."
 
 #. Title
 #: codelists/selectionCriterionType.csv:2
 msgid "Technical"
-msgstr ""
+msgstr "Técnica/o"
 
 #. Description
 #: codelists/selectionCriterionType.csv:2
@@ -76,11 +78,12 @@ msgid ""
 "The criterion relates to the technical or professional ability of the "
 "tenderer."
 msgstr ""
+"El criterio se refiere a la capacidad técnica o profesional del licitante."
 
 #. Title
 #: codelists/selectionCriterionType.csv:3
 msgid "Suitability"
-msgstr ""
+msgstr "Idoneidad"
 
 #. Description
 #: codelists/selectionCriterionType.csv:3
@@ -88,6 +91,9 @@ msgid ""
 "The criterion relates to the suitability of the tenderer (e.g. enrolment in "
 "trade register or membership of professional organization)."
 msgstr ""
+"El criterio se refiere a la idoneidad del licitante (por ejemplo, "
+"inscripción en el registro mercantil o pertenencia a una organización "
+"profesional)."
 
 #. Title
 #: codelists/selectionCriterionType.csv:4
@@ -97,4 +103,4 @@ msgstr "Otro"
 #. Description
 #: codelists/selectionCriterionType.csv:4
 msgid "The criterion relates to other aspects of the tenderer."
-msgstr ""
+msgstr "El criterio se refiere a otros aspectos del licitante."

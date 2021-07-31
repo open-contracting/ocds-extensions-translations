@@ -6,6 +6,7 @@
 # Translators:
 # James McKinney, 2021
 # Natalia Valdez <nataliavaldez@cds.com.py>, 2021
+# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 17:31-0500\n"
 "PO-Revision-Date: 2020-08-20 20:50+0000\n"
-"Last-Translator: Natalia Valdez <nataliavaldez@cds.com.py>, 2021\n"
+"Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,23 +25,27 @@ msgstr ""
 
 #: ../README.md:1
 msgid "Tender classification"
-msgstr ""
+msgstr "Clasificación de la licitación"
 
 #: ../README.md:3
 msgid ""
 "Adds an array of classification objects to the tender object, in order to "
 "categorize the procedure or call-off as a whole."
 msgstr ""
+"Agregar una lista de objetos de clasificación al objeto de licitación para "
+"categorizar el procedimiento o la solicitud de orden de compra como un todo."
 
 #: ../README.md:5
 msgid ""
 "The items to be procured are expected to have more specific classifications "
 "than the procedure as a whole."
 msgstr ""
+"Se espera que los ítems a ser adquiridos tengan clasificaciones más "
+"específicas que el procedimiento en su conjunto."
 
 #: ../README.md:7
 msgid "Legal context"
-msgstr ""
+msgstr "Contexto legal"
 
 #: ../README.md:9
 msgid ""
@@ -52,7 +57,7 @@ msgstr ""
 "En la Unión Europea, los campos de esta extensión corresponden a [eForms "
 "BG-261 (Clasificación)](https://github.com/eForms/eForms). Consulte [OCDS "
 "para la Unión Europea] (http://standard.open-"
-"contracting.org/profiles/eu/master/en/) para ver las correspondencias con "
+"contracting.org/profiles/eu/master/en/) para ver lo correspondiente a "
 "Tenders Electronic Daily (TED)."
 
 #: ../README.md:11
@@ -79,15 +84,17 @@ msgstr "Registro de cambios"
 
 #: ../README.md:43
 msgid "2021-01-19"
-msgstr ""
+msgstr "2021-01-19"
 
 #: ../README.md:45
 msgid "Add \"or call-off\" in the description of the extension."
 msgstr ""
+"Agregar \"o solicitud de orden de compra\" en la descripción de la "
+"extensión."
 
 #: ../README.md:47
 msgid "2020-04-24"
-msgstr ""
+msgstr "2020-04-24"
 
 #: ../README.md:49
 msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
@@ -100,3 +107,7 @@ msgid ""
 "union/issues) and in [pull requests](https://github.com/open-contracting-"
 "extensions/ocds_tenderClassification_extension/pulls?q=is%3Apr+is%3Aclosed)."
 msgstr ""
+"Esta extensión se discutió originalmente como parte del [OCDS para el perfil"
+" de la UE] (https://github.com/open-contracting-extensions/european-"
+"union/issues) y en [pull requests](https://github.com/open-contracting-"
+"extensions/ocds_tenderClassification_extension/pulls?q=is%3Apr+is%3Aclosed)."

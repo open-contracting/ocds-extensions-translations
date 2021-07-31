@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
 # 
+# Translators:
+# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-03-05 17:32-0500\n"
 "PO-Revision-Date: 2020-08-20 21:55+0000\n"
+"Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,7 +25,7 @@ msgstr ""
 #. /name/en
 #: extension.json:1
 msgid "Second stage description"
-msgstr ""
+msgstr "Descripción de la segunda etapa"
 
 #. /description/en
 #: extension.json:1
@@ -29,13 +33,15 @@ msgid ""
 "Adds a second stage object to the tender and lot objects, to describe the "
 "second stage of a two-stage procedure."
 msgstr ""
+"Agregar un objeto de segunda etapa a los objetos de licitación y lote, para "
+"describir la segunda etapa de un procedimiento de dos etapas."
 
 #. /definitions/Tender/properties/secondStage/title
 #. /definitions/Lot/properties/secondStage/title
 #. /definitions/SecondStage/title
 #: release-schema.json:1
 msgid "Second stage"
-msgstr ""
+msgstr "Segunda etapa"
 
 #. /definitions/Tender/properties/secondStage/description
 #. /definitions/Lot/properties/secondStage/description
@@ -46,11 +52,14 @@ msgid ""
 "restricted procedure, a competitive procedure with negotiation, a "
 "competitive dialogue or an innovation partnership)."
 msgstr ""
+"Información acerca de la segunda etapa de un procedimiento de dos etapas "
+"(por ejemplo, un procedimiento restringido, un procedimiento competitivo con"
+" negociación, un diálogo competitivo o una asociación de innovación)."
 
 #. /definitions/SecondStage/properties/minimumCandidates/title
 #: release-schema.json:1
 msgid "Minimum number of candidates"
-msgstr ""
+msgstr "Número mínimo de candidatos"
 
 #. /definitions/SecondStage/properties/minimumCandidates/description
 #: release-schema.json:1
@@ -59,11 +68,14 @@ msgid ""
 "procedure. If there is an exact limit on the number of candidates, set "
 "`minimumCandidates` and `maximumCandidates` to the same number."
 msgstr ""
+"El número mínimo de candidatos a invitar a la segunda etapa del "
+"procedimiento. Si hay un límite exacto en el número de candidatos, "
+"establecer `minimumCandidates` y `maximumCandidates` en el mismo número."
 
 #. /definitions/SecondStage/properties/maximumCandidates/title
 #: release-schema.json:1
 msgid "Maximum number of candidates"
-msgstr ""
+msgstr "Número máximo de candidatos"
 
 #. /definitions/SecondStage/properties/maximumCandidates/description
 #: release-schema.json:1
@@ -72,11 +84,14 @@ msgid ""
 "procedure. If there is an exact limit on the number of candidates, set "
 "`minimumCandidates` and `maximumCandidates` to the same number."
 msgstr ""
+"El número máximo de candidatos que se invitará a la segunda etapa del "
+"procedimiento. Si hay un límite exacto en el número de candidatos, "
+"establecer `minimumCandidates` y `maximumCandidates` en el mismo número."
 
 #. /definitions/SecondStage/properties/successiveReduction/title
 #: release-schema.json:1
 msgid "Successive reduction"
-msgstr ""
+msgstr "Reducción sucesiva"
 
 #. /definitions/SecondStage/properties/successiveReduction/description
 #: release-schema.json:1
@@ -84,11 +99,13 @@ msgid ""
 "The procedure will take place in successive stages. In each stage, some "
 "participants might be eliminated."
 msgstr ""
+"El procedimiento se llevará a cabo en etapas sucesivas. En cada etapa, "
+"algunos participantes pueden ser eliminados."
 
 #. /definitions/SecondStage/properties/noNegotiationNecessary/title
 #: release-schema.json:1
 msgid "No negotiation necessary"
-msgstr ""
+msgstr "No es necesaria la negociación"
 
 #. /definitions/SecondStage/properties/noNegotiationNecessary/description
 #: release-schema.json:1
@@ -96,11 +113,13 @@ msgid ""
 "The buyer or procuring entity reserves the right to award the contract on "
 "the basis of the initial bids without any further negotiations."
 msgstr ""
+"El comprador o la entidad contratante se reserva el derecho de adjudicar el "
+"contrato sobre la base de las ofertas iniciales sin más negociaciones."
 
 #. /definitions/SecondStage/properties/invitationDate/title
 #: release-schema.json:1
 msgid "Invitation date"
-msgstr ""
+msgstr "Fecha de la invitación"
 
 #. /definitions/SecondStage/properties/invitationDate/description
 #: release-schema.json:1
@@ -108,3 +127,5 @@ msgid ""
 "The estimated date of dispatch of the invitations to participate or to "
 "submit bids."
 msgstr ""
+"La fecha estimada de envío de las invitaciones para participar o presentar "
+"ofertas."

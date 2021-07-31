@@ -2,26 +2,31 @@
 # Copyright (C) 2021 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
-#
+# 
+# Translators:
+# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-05-25 11:33-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-05-25 15:35+0000\n"
+"Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. /name/en
 #. /definitions/Organization/properties/beneficialOwners/title
 #: extension.json:1 release-schema.json:1
 msgid "Beneficial Owners"
-msgstr ""
+msgstr "Beneficiarios finales"
 
 #. /description/en
 #: extension.json:1
@@ -29,6 +34,8 @@ msgid ""
 "Adds a beneficialOwners array to the organization object to indicate the "
 "beneficial owners of a organization."
 msgstr ""
+"Agregar una lista de beneficialOwners al objeto de la organización para "
+"indicar los beneficiarios finales de una organización."
 
 #. /definitions/Organization/properties/beneficialOwners/description
 #: release-schema.json:1
@@ -36,55 +43,60 @@ msgid ""
 "The list of the individuals with a beneficial ownership in this "
 "organization."
 msgstr ""
+"La lista de las personas con propiedad beneficiaria en esta organización."
 
 #. /definitions/Person/title
 #: release-schema.json:1
 msgid "Person"
-msgstr ""
+msgstr "Persona"
 
 #. /definitions/Person/description
 #: release-schema.json:1
 msgid "A natural person."
-msgstr ""
+msgstr "Una persona física."
 
 #. /definitions/Person/properties/id/title
 #: release-schema.json:1
 msgid "Person ID"
-msgstr ""
+msgstr "ID Persona"
 
 #. /definitions/Person/properties/id/description
 #: release-schema.json:1
 msgid "A local ID for the person."
-msgstr ""
+msgstr "Un ID local de la persona."
 
 #. /definitions/Person/properties/name/title
 #: release-schema.json:1
 msgid "Person name"
-msgstr ""
+msgstr "Nombre de la persona"
 
 #. /definitions/Person/properties/name/description
 #: release-schema.json:1
 msgid "The full name of the person."
-msgstr ""
+msgstr "El nombre completo de la persona."
 
 #. /definitions/Person/properties/identifier/title
 #: release-schema.json:1
 msgid "Person Identifier"
-msgstr ""
+msgstr "Identificador de persona"
 
 #. /definitions/Person/properties/identifier/description
 #: release-schema.json:1
 msgid ""
 "The legal identifier for this person. Follow the guidance from the "
 "Beneficial Ownership Data Standard to set the identifier scheme with the "
-"pattern {JURISDICTION}-{TYPE} where JURISDICTION is an uppercase ISO "
-"3166-1 alpha-3 country code and TYPE is one of PASSPORT, TAXID or IDCARD"
+"pattern {JURISDICTION}-{TYPE} where JURISDICTION is an uppercase ISO 3166-1 "
+"alpha-3 country code and TYPE is one of PASSPORT, TAXID or IDCARD"
 msgstr ""
+"El identificador legal de esta persona. Siga la guía del Beneficial "
+"Ownership Data Standard para establecer el esquema de identificadores con el"
+" patrón  {JURISDICTION}-{TYPE} donde JURISDICTION en letras mayúsculas ISO "
+"3166-1 alpha-3 country code y TYPE es uno de los PASSPORT, TAXID o IDCARD"
 
 #. /definitions/Person/properties/nationality/title
 #: release-schema.json:1
 msgid "Person nationality"
-msgstr ""
+msgstr "Nacionalidad de la persona"
 
 #. /definitions/Person/properties/nationality/description
 #: release-schema.json:1
@@ -92,3 +104,4 @@ msgid ""
 "The ISO 2-Digit country code representing the nationality held by this "
 "individual."
 msgstr ""
+"El código de país ISO 2-Digit representa la nacionalidad de esta persona."
