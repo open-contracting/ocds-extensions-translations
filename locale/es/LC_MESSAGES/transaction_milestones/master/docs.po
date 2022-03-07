@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# James McKinney, 2021
+# James McKinney, 2019
 # Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
 # 
 #, fuzzy
@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-05 17:31-0500\n"
+"POT-Creation-Date: 2021-07-31 13:34-0400\n"
 "PO-Revision-Date: 2019-03-14 18:29+0000\n"
 "Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
@@ -23,66 +23,28 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../README.md:1
-msgid "Transactions - relatedMilestone Extension"
-msgstr "Transacciones  - Extensión relatedMilestone"
+msgid "Transaction related milestones"
+msgstr "Hitos relacionados con transacción"
 
 #: ../README.md:3
-msgid "Background"
-msgstr "Antecedentes"
+msgid ""
+"This extension adds a `relatedImplementationMilestone` field to transaction "
+"objects, so that payments against a contract can be linked with an "
+"implementation milestone."
+msgstr ""
+"Esta extensión agrega un campo `relatedImplementationMilestone` a los "
+"objetos de la transacción, para que los pagos de un contrato puedan "
+"vincularse con un hito de implementación."
 
 #: ../README.md:5
-msgid ""
-"In core OCDS `transactions` are a property of the `implementation` object."
-msgstr ""
-"En OCDS  las `transactions` son propiedad del objeto `implementation`."
-
-#: ../README.md:7
-msgid ""
-"Some contracts link payments against a contract to specific milestones for "
-"the delivery of the contract."
-msgstr ""
-"Algunos contratos vinculan los pagos con un contrato a hitos específicos "
-"para la entrega del contrato."
-
-#: ../README.md:9
-msgid "Extension fields"
-msgstr "Campos de extensión"
-
-#: ../README.md:11
-msgid ""
-"This extension adds a `relatedImplementationMilestone` property to the "
-"`Transaction` object."
-msgstr ""
-"Esta extensión agrega una propiedad `relatedImplementationMilestone` al "
-"objeto `transaction`."
-
-#: ../README.md:13
-msgid ""
-"The `relatedImplementationMilestone` property is a `MilestoneReference` "
-"object."
-msgstr ""
-"La propiedad `relatedImplementationMilestone` es un objeto de "
-"`MilestoneReference`."
-
-#: ../README.md:15
-msgid ""
-"The `MilestoneReference` object is introduced by the [metrics "
-"extension](http://extensions.open-"
-"contracting.org/en/extensions/metrics/master/)."
-msgstr ""
-"El objeto `MilestoneReference` es introducido por [extensión de "
-"métricas](http://extensions.open-"
-"contracting.org/en/extensions/metrics/master/). "
-
-#: ../README.md:17
 msgid "Example"
 msgstr "Ejemplo"
 
-#: ../README.md:65
+#: ../README.md:53
 msgid "Issues"
 msgstr "Issues"
 
-#: ../README.md:67
+#: ../README.md:55
 msgid ""
 "Report issues for this extension in the [ocds-extensions "
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "

@@ -1,0 +1,84 @@
+# Translations template for PROJECT.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+# 
+# Translators:
+# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-07-31 13:35-0400\n"
+"PO-Revision-Date: 2021-07-31 17:44+0000\n"
+"Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. /name/en
+#: extension.json:1
+msgid "Item attributes"
+msgstr "Atributos del artículo"
+
+#. /description/en
+#: extension.json:1
+msgid "Adds a generic list of attributes to the item object"
+msgstr "Agrega una lista genérica de atributos al objeto artículo"
+
+#. /definitions/ItemAttribute/title
+#: release-schema.json:1
+msgid "Item attribute"
+msgstr "Atributo del artículo"
+
+#. /definitions/ItemAttribute/description
+#: release-schema.json:1
+msgid "An attribute for the item, including its name and value."
+msgstr "Un atributo para el artículo, incluyendo su nombre y valor."
+
+#. /definitions/ItemAttribute/properties/name/title
+#: release-schema.json:1
+msgid "Name"
+msgstr "Nombre"
+
+#. /definitions/ItemAttribute/properties/name/description
+#: release-schema.json:1
+msgid ""
+"The name of the attribute, such as 'brand', 'manufacturer', and similar."
+msgstr "El nombre del atributo, como 'brand', 'manufacturer', y similares."
+
+#. /definitions/ItemAttribute/properties/value/title
+#: release-schema.json:1
+msgid "Value"
+msgstr "Valor"
+
+#. /definitions/ItemAttribute/properties/value/description
+#: release-schema.json:1
+msgid "The value of the attribute."
+msgstr "El valor del atributo."
+
+#. /definitions/ItemAttribute/properties/id/title
+#: release-schema.json:1
+msgid "Id"
+msgstr "Id"
+
+#. /definitions/ItemAttribute/properties/id/description
+#: release-schema.json:1
+msgid "A local identifier for the attribute."
+msgstr "Un identificador local para el atributo."
+
+#. /definitions/Item/properties/attributes/title
+#: release-schema.json:1
+msgid "Attributes"
+msgstr "Atributos"
+
+#. /definitions/Item/properties/attributes/description
+#: release-schema.json:1
+msgid "The attributes of the item."
+msgstr "Los atributos del artículo."

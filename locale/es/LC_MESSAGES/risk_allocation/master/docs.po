@@ -4,18 +4,18 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Maria Esther Cervantes <mcervantes@cds.com.py>, 2019
 # James McKinney, 2021
 # Natalia Valdez <nataliavaldez@cds.com.py>, 2021
+# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-05 17:31-0500\n"
+"POT-Creation-Date: 2021-07-31 13:34-0400\n"
 "PO-Revision-Date: 2019-03-14 18:32+0000\n"
-"Last-Translator: Natalia Valdez <nataliavaldez@cds.com.py>, 2021\n"
+"Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,72 +40,34 @@ msgstr ""
 #: ../README.md:5
 msgid ""
 "The risk allocation extension is used to provide structured data on the risk"
-" allocations defined in a public private partnership's contract."
+" allocations defined in a public private partnership's contract, through a "
+"`contracts.riskAllocation` array."
 msgstr ""
-"La extensión de asignación de riesgos se usa para dar datos estructurados "
-"sobre la asignación de riesgos que se define en un contrato de una "
-"asociación público privada."
+"La extensión de asignación de riesgos se utiliza para proporcionar datos "
+"estructurados sobre las asignaciones de riesgo definidas en un contrato de "
+"asociación público-privada, a través de una lista de "
+"`contracts.riskAllocation`."
 
 #: ../README.md:7
-msgid "Overview"
-msgstr "Resumen"
+msgid ""
+"The `riskCategory.csv` codelist is based on the APMG PPP Certification "
+"Program. The codelist's Category column indicates the stage or aspect of the"
+" contracting process to which the risk category applies."
+msgstr ""
+"La lista de códigos `riskCategory.csv` se basa en el programa de "
+"certificación APMG PPP. La columna Category (Categoría) de la lista de "
+"códigos indica la fase o el aspecto del proceso de contratación al que se "
+"aplica la categoría de riesgo."
 
 #: ../README.md:9
-msgid ""
-"Risk allocations can be represented using an array of `Risk` objects in the "
-"`riskAllocation` field of the `contracts` section of an OCDS release."
-msgstr ""
-"Las asignaciones de riesgo pueden representarse mediante una matriz de "
-"objetos `Risk` en el campo `riskAllocation` de la sección `contracts` de un "
-"comunicado OCDS."
-
-#: ../README.md:11
-msgid ""
-"The risk category can be represented using the `Risk.category` field using "
-"values from the `riskCategory.csv` codelist based on the APMG PPP "
-"Certification Program. The codelist's Category column indicates the stage or"
-" aspect of the contracting process to which the risk category applies."
-msgstr ""
-"La categoría de riesgo puede representarse mediante el campo `Risk.category`"
-" utilizando los valores de la lista de códigos `riskCategory.csv` basada en "
-"el Programa de Certificación APMG PPP. La columna \"Categoría\" de la lista "
-"de códigos indica la fase o el aspecto del proceso de contratación al que se"
-" aplica la categoría de riesgo."
-
-#: ../README.md:13
-msgid ""
-"The party retaining each risk should be represented using the "
-"`Risk.allocation` field using values from the `riskAllocation.csv` codelist."
-msgstr ""
-"La parte que retiene cada riesgo debe representarse mediante el campo "
-"`Risk.allocation` utilizando los valores de la lista de códigos "
-"`riskAllocation.csv`."
-
-#: ../README.md:15
-msgid ""
-"The description of the risk should be provided as free text using the "
-"`Risk.description` field."
-msgstr ""
-"La descripción del riesgo debe proporcionarse como texto libre utilizando el"
-" campo `Risk.description`."
-
-#: ../README.md:17
-msgid ""
-"Additional free text information on the risk can be provided using the "
-"`Risk.notes` field."
-msgstr ""
-"Se puede proporcionar información adicional de texto libre sobre el riesgo "
-"utilizando el campo `Risk.notes`."
-
-#: ../README.md:19
 msgid "Example"
 msgstr "Ejemplo"
 
-#: ../README.md:54
+#: ../README.md:44
 msgid "Issues"
 msgstr "Issues"
 
-#: ../README.md:56
+#: ../README.md:46
 msgid ""
 "Report issues for this extension in the [ocds-extensions "
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "
@@ -115,39 +77,39 @@ msgstr ""
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
 "el nombre de la extensión en el título del issue."
 
-#: ../README.md:58
+#: ../README.md:48
 msgid "Changelog"
 msgstr "Registro de cambios"
 
-#: ../README.md:60
+#: ../README.md:50
 msgid "2020-06-04"
 msgstr "2020-06-04"
 
-#: ../README.md:62
+#: ../README.md:52
 msgid "Review normative and non-normative words."
 msgstr "Revisar de las palabras normativas y no normativas."
 
-#: ../README.md:64
+#: ../README.md:54
 msgid "2020-04-24"
 msgstr "2020-04-24"
 
-#: ../README.md:66
+#: ../README.md:56
 msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
 msgstr "Agregar las propiedades `minProperties`, `minItems` y/o `minLength`."
 
-#: ../README.md:68
+#: ../README.md:58
 msgid "2019-03-20"
 msgstr "2019-03-20"
 
-#: ../README.md:70
+#: ../README.md:60
 msgid "Add `\"minLength\": 1` on required string fields."
 msgstr "Agregar `\"minLength\": 1` en los campos de cadena obligatorios."
 
-#: ../README.md:72
+#: ../README.md:62
 msgid "2018-05-08"
 msgstr "2018-05-08"
 
-#: ../README.md:74
+#: ../README.md:64
 msgid ""
 "Make `Risk.id` required to support revision tracking and [list "
 "merging](http://standard.open-"

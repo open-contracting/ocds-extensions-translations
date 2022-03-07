@@ -5,22 +5,23 @@
 # 
 # Translators:
 # James McKinney, 2019
-# Maria Esther Cervantes <mcervantes@cds.com.py>, 2019
 # Natalia Valdez <nataliavaldez@cds.com.py>, 2021
+# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
+# Maria Esther Cervantes <mcervantes@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-03-05 17:32-0500\n"
+"POT-Creation-Date: 2021-07-31 13:35-0400\n"
 "PO-Revision-Date: 2019-03-14 18:30+0000\n"
-"Last-Translator: Natalia Valdez <nataliavaldez@cds.com.py>, 2021\n"
+"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.9.0\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -80,8 +81,8 @@ msgstr "Periodo de falla en el desempeño"
 
 #. /definitions/PerformanceFailure/properties/period/description
 #: release-schema.json:1
-msgid "The reporting period for these performance failures."
-msgstr "El período de reporte para estos incumplimentos."
+msgid "The reporting period for the performance failures."
+msgstr "El periodo de notificación de los fallos de rendimiento."
 
 #. /definitions/PerformanceFailure/properties/category/title
 #: release-schema.json:1
@@ -90,8 +91,8 @@ msgstr "Categoría de la falla en el desempeño"
 
 #. /definitions/PerformanceFailure/properties/category/description
 #: release-schema.json:1
-msgid "The category into which these performance failures fall."
-msgstr "La categoría en la cual las fallas en el desempeño caen."
+msgid "The category of the performance failures."
+msgstr "La categoría de los fallos de rendimiento."
 
 #. /definitions/PerformanceFailure/properties/events/title
 #: release-schema.json:1
@@ -100,9 +101,8 @@ msgstr "Número de eventos"
 
 #. /definitions/PerformanceFailure/properties/events/description
 #: release-schema.json:1
-msgid "The number of performance failures for the given period and category."
-msgstr ""
-"El número de fallas en el desempeño para determinado periodo y categoría."
+msgid "The number of performance failures for this period and category."
+msgstr "El número de fallos de rendimiento para este periodo y categoría."
 
 #. /definitions/PerformanceFailure/properties/penaltyContracted/title
 #: release-schema.json:1
@@ -112,12 +112,11 @@ msgstr "Penalización contractual"
 #. /definitions/PerformanceFailure/properties/penaltyContracted/description
 #: release-schema.json:1
 msgid ""
-"A free text description of the penalty or abatement provided for in the "
-"contract for this period, category and number of performance failures."
+"A description of the penalty or abatement provided for in the contract for "
+"this period, category and number of performance failures."
 msgstr ""
-"Una descripción en texto libre de la penalización o reducción contemplada en"
-" el contrato para este periodo, categoría y número de fallas en el "
-"desempeño."
+"Descripción de la penalización o reducción prevista en el contrato para este"
+" periodo, categoría y número de fallos de incumplimiento."
 
 #. /definitions/PerformanceFailure/properties/penaltyImposed/title
 #: release-schema.json:1
@@ -127,11 +126,11 @@ msgstr "Penalización impuesta"
 #. /definitions/PerformanceFailure/properties/penaltyImposed/description
 #: release-schema.json:1
 msgid ""
-"A free text description of the penalty or abatement imposed for this period,"
-" category and number of performance failures."
+"A description of the penalty or abatement imposed for this period, category "
+"and number of performance failures."
 msgstr ""
-"Una descripción en texto libre de la penalización o reducción impuesta para "
-"este periodo, categoría y número de fallas en el desempeño."
+"Una descripción de la penalización o reducción impuesta para este periodo, "
+"categoría y número de fallos de incumplimiento."
 
 #. /definitions/PerformanceFailure/properties/penaltyPaid/title
 #: release-schema.json:1
@@ -141,11 +140,11 @@ msgstr "Penalización pagada"
 #. /definitions/PerformanceFailure/properties/penaltyPaid/description
 #: release-schema.json:1
 msgid ""
-"A yes/no field indicating whether the penalty imposed for this period, "
-"category and number of performance failures has been paid."
+"Whether the penalty imposed for this period, category and number of "
+"performance failures has been paid."
 msgstr ""
-"Un campo sí/no que indica si se ha pagado la multa impuesta por este "
-"período, categoría y número de incumplimientos."
+"Si se ha pagado la penalización impuesta para este periodo, categoría y "
+"número de fallos de incumplimiento."
 
 #. /definitions/Implementation/properties/performanceFailures/title
 #: release-schema.json:1

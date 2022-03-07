@@ -7,15 +7,16 @@
 # James McKinney, 2021
 # Natalia Valdez <nataliavaldez@cds.com.py>, 2021
 # Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
+# Maria Esther Cervantes <mcervantes@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-05 17:31-0500\n"
+"POT-Creation-Date: 2021-07-31 13:34-0400\n"
 "PO-Revision-Date: 2020-08-20 21:52+0000\n"
-"Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
+"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -50,7 +51,7 @@ msgstr ""
 "En la Unión Europea, los campos de esta extensión corresponden a [eForms "
 "BG-705 (Otros Requerimientos)](https://github.com/eForms/eForms), aunque "
 "todavía no se han implementado todos los campos. Ver [OCDS para la Unión "
-"Europea](http://standard.open-contracting.org/profiles/eu/master/en/) para "
+"Europea](http://standard.open-contracting.org/profiles/eu/master/es/) para "
 "ver lo correspondiente a Tenders Electronic Daily (TED)."
 
 #: ../README.md:9

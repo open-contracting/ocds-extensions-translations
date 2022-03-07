@@ -4,19 +4,19 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2019
 # James McKinney, 2021
-# Maria Esther Cervantes <mcervantes@cds.com.py>, 2021
 # Natalia Valdez <nataliavaldez@cds.com.py>, 2021
+# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
+# Maria Esther Cervantes <mcervantes@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-05 17:31-0500\n"
+"POT-Creation-Date: 2021-07-31 13:34-0400\n"
 "PO-Revision-Date: 2019-03-14 18:30+0000\n"
-"Last-Translator: Natalia Valdez <nataliavaldez@cds.com.py>, 2021\n"
+"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,17 +25,17 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../README.md:1
-msgid "Contracts Completion"
-msgstr "Finalización de Contratos"
+msgid "Contracts completion"
+msgstr "Finalización de los contratos"
 
 #: ../README.md:3
 msgid ""
 "The Open Contracting Data Standard can be used to provide information on all"
 " stages of a contracting process, from planning through to implementation."
 msgstr ""
-"El Estándar de Contrataciones Abiertas se puede usar para dar información "
-"sobre todas las etapas del proceso de contrataciones, desde la planeación "
-"hasta la implementación."
+"El Estándar de Datos de Contrataciones Abiertas se puede usar para dar "
+"información sobre todas las etapas del proceso de contrataciones, desde la "
+"planeación hasta la implementación."
 
 #: ../README.md:5
 msgid ""
@@ -49,70 +49,16 @@ msgstr ""
 "justificación de las mismas."
 
 #: ../README.md:7
-msgid "Additional fields"
-msgstr "Campos Adicionales"
+msgid "Using existing OCDS fields within a contracts register"
+msgstr "Utilizar campos OCDS existentes dentro de un registro de contratos"
 
 #: ../README.md:9
-msgid "The fields introduced by this extension are:"
-msgstr "Los campos que se introducen con esta extensión son:"
-
-#: ../README.md:11
-msgid ""
-"**`implementation.endDate`** - The actual date when contract implementation "
-"ended. Where `implementation.endDate` varies from the anticipated "
-"`contracts.period.endDate` an explanation of the variance should be provided"
-" in `implementation.endDateDetails`."
-msgstr ""
-"**`implementation.endDate`** - La fecha real en la que finalizó la "
-"implementación del contrato. Cuando `implementation.endDate` difiera de la "
-"anticipada fecha `contracts.period.endDate`, se debe proporcionar una "
-"explicación de la variación en `implementation.endDateDetails`."
-
-#: ../README.md:13
-msgid ""
-"**`implementation.endDateDetails`** - Details related to the endDate. This "
-"may be a justification for the contract's completion date being different "
-"than in the original contract."
-msgstr ""
-"**`implementation.endDateDetails`** - Detalles relacionados con endDate. "
-"Esto puede ser una justificación para que la fecha de finalización del "
-"contrato sea diferente a la del contrato original."
-
-#: ../README.md:15
-msgid ""
-"**`implementation.finalValue`** - The actual total value of all payments for"
-" a completed contract. If `implementation.transactions` are used for this "
-"contract, this field should equal the sum of the `transactions.value.amount`"
-" fields. Where `finalValue.amount` varies from `contracts.value.amount` an "
-"explanation of the variance should be provided in `finalValueDetails`."
-msgstr ""
-"**`implementation.finalValue`** - El valor total real de todos los pagos de "
-"un contrato completado. Si se utilizan `implementation.transactions` para "
-"este contrato, este campo debe ser igual a la suma de los campos "
-"`transaction.value.amount`. Cuando `finalValue.amount` difiera de "
-"`contracts.value.amount`, se debe proporcionar una explicación de la "
-"variación en `finalValueDetails`."
-
-#: ../README.md:17
-msgid ""
-"**`implementation.finalValueDetails`** - Details related to the final value."
-" This may be a justification for the completed contract's value being "
-"different than in the original contract."
-msgstr ""
-"**`implementation.finalValueDetails`** - Detalles relacionados al valor "
-"final. Esto puede ser una justificación de que el valor del contrato "
-"completado sea diferente al del contrato original."
-
-#: ../README.md:19
-msgid "Using existing OCDS fields within a Contracts Register"
-msgstr "Utilizando campos de OCDS existentes en un Registro de Contratos"
-
-#: ../README.md:21
 msgid ""
 "OCDS contains many existing fields that can be used as part of a Contracts "
-"Register. These are documented [in the schema reference](http://standard"
-".open-contracting.org/latest/en/schema/reference/). This extension does not "
-"modify any of these fields. However, the following list is provided for "
+"Register. These are documented [in the schema "
+"reference](http://standard.open-"
+"contracting.org/latest/en/schema/reference/). This extension does not modify"
+" any of these fields. However, the following list is provided for "
 "convenience of those considering the design of a contracts register:"
 msgstr ""
 "El OCDS tiene muchos campos que pueden usarse como parte de un Registro de "
@@ -122,40 +68,40 @@ msgstr ""
 "siguiente lista se da para la conveniencia de las personas que están "
 "considerado el diseño de un registro de contratos. "
 
-#: ../README.md:23
+#: ../README.md:11
 msgid ""
 "**Supplier details**  should be recorded within the `awards` section, linked"
 " via `contracts.awardID` (even if you are only releasing information at the "
 "contract stage, you may provide information in the tender and award "
-"sections)"
+"sections)."
 msgstr ""
-"**Los detalles del proveedor** deben registrarse dentro de la sección "
+"**Los detalles del proveedor** deben registrarse dentro de la sección  "
 "`awards`, enlazada a través de` contract.awardID` (incluso si solo está "
 "publicando información en la etapa del contrato, puede proporcionar "
-"información en las secciones de licitación y adjudicación)"
+"información en las secciones de licitación y adjudicación)."
 
-#: ../README.md:24
-msgid "**Contract documents** can be linked to under `contracts.documents`"
+#: ../README.md:12
+msgid "**Contract documents** can be linked to under `contracts.documents`."
 msgstr ""
-"**Los documentos del contrato** se pueden vincular en `contracts.documents`"
+"**Documentos del contrato** se puede enlazar en `contracts.documents`."
 
-#: ../README.md:25
+#: ../README.md:13
 msgid ""
 "**Performance reports** can be provided under "
-"`contracts.implementation.documents`"
+"`contracts.implementation.documents`."
 msgstr ""
-"**Los informes de rendimiento** se pueden proporcionar en "
-"`contracts.implementation.documents`"
+"**Reportes de desempeño** se pueden proporcionar en "
+"`contracts.implementation.documents`."
 
-#: ../README.md:26
+#: ../README.md:14
 msgid ""
 "**Details of payments** can be provided under "
-"`contracts.implementation.transactions`"
+"`contracts.implementation.transactions`."
 msgstr ""
-"**Los detalles de los pagos** se pueden proporcionar en "
-"`contratos.implementación.transacciones`"
+"**Detalles de los pagos** se pueden proporcionar en "
+"`contracts.implementation.transactions`."
 
-#: ../README.md:27
+#: ../README.md:15
 msgid ""
 "**Progress details** can be provided using "
 "`contracts.implementation.milestones`."
@@ -163,23 +109,23 @@ msgstr ""
 "**Los detalles del progreso** se pueden proporcionar usando "
 "`contracts.implementation.milestones`."
 
-#: ../README.md:28
+#: ../README.md:16
 msgid ""
 "**Amendments** can be described using the `contracts.amendments` array, and "
 "with past values provided using the OCDS [releases model as described "
 "here](http://standard.open-"
-"contracting.org/latest/en/implementation/amendments/)"
+"contracting.org/latest/en/implementation/amendments/)."
 msgstr ""
-"**Las enmiendas** se pueden describir usando la matriz `contract.amendments`"
-" y con los valores pasados ​​proporcionados usando el [modelo de versiones "
-"OCDS como se describe aquí](http://standard.open-"
-"contracting.org/latest/es/implementation/amendments/)"
+"**Enmiendas** pueden describirse utilizando la lista `contracts.amendments`,"
+" y con los valores anteriores proporcionados mediante el OCDS [modelo de "
+"entregas como se describe aquí](http://standard.open-"
+"contracting.org/latest/en/implementation/amendments/)."
 
-#: ../README.md:30
+#: ../README.md:18
 msgid "Using milestones to show contract completion"
 msgstr "Utilizar hitos para mostrar la finalización de un contrato"
 
-#: ../README.md:32
+#: ../README.md:20
 msgid ""
 "Milestones may have a `status` of 'scheduled', 'met', 'notMet' or "
 "'partiallyMet'. By providing at least one milestone for a contract, and then"
@@ -193,47 +139,36 @@ msgstr ""
 "indicar que un contrato terminó con la entrega exitosa de todos los hitos y "
 "entregables."
 
-#: ../README.md:34
-msgid "JSON and CSV serializations"
-msgstr "Serializaciones JSON y CSV"
-
-#: ../README.md:36
-msgid ""
-"In some cases, it may be possible to design a simple contracts register "
-"using the [flat CSV serialization of OCDS](http://standard.open-"
-"contracting.org/latest/en/implementation/serialization/#csv)."
-msgstr ""
-"En algunos casos, puede ser posible diseñar un registro de contratos simple "
-"utilizando el  [flat CSV serialization de OCDS](http://standard.open-"
-"contracting.org/latest/en/implementation/serialization/#csv)."
-
-#: ../README.md:38
+#: ../README.md:22
 msgid "Example"
 msgstr "Ejemplo"
 
-#: ../README.md:40
+#: ../README.md:24
 msgid ""
-"The following extract illustrates these properties in use within the "
-"`contracts.implementation` block. Note the difference between the contract "
-"`period` and `value` (as agreed in the contract, or amended contract), and "
-"the implementation `finalValue` and `endDate`, along with the explanation "
-"provided of this variance."
+"Note the difference between the contract `period` and `value` (as agreed in "
+"the contract, or amended contract), and the implementation `finalValue` and "
+"`endDate`, along with the explanation provided of this variance."
 msgstr ""
-"El siguiente extracto ilustra estas propiedades en uso dentro del bloque "
-"`contracts.implementation`. Note la diferencia entre `period` y `value` del "
-"contrato (como en se acordó en el contrato o en la versión corregida del "
-"contrato), y `finalValue` y `endDate` de la implementación, junto con la "
-"explicación proveída de esta variación."
+"Observe la diferencia entre `period` y `value` del contrato (según lo "
+"acordado en el contrato, o en el contrato modificado o enmendado), y el "
+"`finalValue` y  `endDate`,  de la implementación, junto con la explicación "
+"de esta diferencia."
 
-#: ../README.md:72
-msgid "The example folder contains a full worked example with:"
-msgstr "La carpeta ejemplo contiene un ejemplo de trabajo completo: "
+#: ../README.md:56
+msgid ""
+"The [examples](https://github.com/open-contracting-"
+"extensions/ocds_contract_completion_extension/tree/master/examples) "
+"directory contains a full worked example with:"
+msgstr ""
+"El directorio de [ejemplos](https://github.com/open-contracting-"
+"extensions/ocds_contract_completion_extension/tree/master/examples) contiene"
+" un completo ejemplo práctico con:"
 
-#: ../README.md:74
+#: ../README.md:58
 msgid "A release that provides details of a contract;"
 msgstr "Un lanzamiento que da detalles sobre un contrato;"
 
-#: ../README.md:75
+#: ../README.md:59
 msgid ""
 "A release that includes an amendment to the contract to increase the total "
 "value, as well as initial payment transactions;"
@@ -241,7 +176,7 @@ msgstr ""
 "Un lanzamiento que incluye una enmienda al contrato para incrementar el "
 "valor total, así como el valor inicial de las transacciones;"
 
-#: ../README.md:76
+#: ../README.md:60
 msgid ""
 "A release that contains a confirmed end date, final value, and the "
 "explanation of variation in these."
@@ -249,32 +184,23 @@ msgstr ""
 "Un lanzamiento que contiene una fecha final confirmada, el valor final y la "
 "explicación de variación en ellas"
 
-#: ../README.md:78
-msgid ""
-"This is also supplied in record form, and with a simplified flat "
-"serialization. The record can be viewed with [OCDS Show](https://open-"
-"contracting.github.io/ocds-show/) to demonstrate how the OCDS releases and "
-"records model captures change over time."
-msgstr ""
-"Esto también se suministra en forma de registro y con una serialización "
-"plana simplificada. El registro se puede ver con [OCDS Show] (https://open-"
-"contracting.github.io/ocds-show/) para demostrar cómo el modelo de registros"
-" y entregas de OCDS capturan los cambios en el tiempo."
+#: ../README.md:62
+msgid "This is also provided as an OCDS record and as an Excel file."
+msgstr "Esto también se proporciona como registro OCDS y como archivo Excel."
 
-#: ../README.md:80
+#: ../README.md:64
 msgid ""
-"In the spreadsheet serialization it is possible to see three releases "
-"describing the three key moments from the same contracting process."
+"In the Excel file, it is possible to see three releases describing the three"
+" key moments from the same contracting process."
 msgstr ""
-"En la serialización de base de datos es posible ver tres tipos de "
-"lanzamientos que describen tres momentos clave en el mismo proceso de "
-"contratación"
+"En el archivo Excel, es posible ver tres entregas que describen los tres "
+"momentos clave del mismo proceso de contratación."
 
-#: ../README.md:82
+#: ../README.md:66
 msgid "Issues"
 msgstr "Issues"
 
-#: ../README.md:84
+#: ../README.md:68
 msgid ""
 "Report issues for this extension in the [ocds-extensions "
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "
@@ -284,27 +210,27 @@ msgstr ""
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
 "el nombre de la extensión en el título del issue."
 
-#: ../README.md:86
+#: ../README.md:70
 msgid "Changelog"
 msgstr "Registro de cambios"
 
-#: ../README.md:88
+#: ../README.md:72
 msgid "2020-06-04"
 msgstr "2020-06-04"
 
-#: ../README.md:90
+#: ../README.md:74
 msgid "Review normative and non-normative words"
 msgstr "Revisar las palabras normativas y no-normativas"
 
-#: ../README.md:92
+#: ../README.md:76
 msgid "2020-04-24"
 msgstr "2020-04-24"
 
-#: ../README.md:94
+#: ../README.md:78
 msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
 msgstr "Agregar las propiedades `minProperties`, `minItems` y/o `minLength`."
 
-#: ../README.md:96
+#: ../README.md:80
 msgid ""
 "This extension was originally discussed in <https://github.com/open-"
 "contracting/standard/issues/703>."

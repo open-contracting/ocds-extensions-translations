@@ -5,38 +5,38 @@
 # 
 # Translators:
 # James McKinney, 2019
-# Maria Esther Cervantes <mcervantes@cds.com.py>, 2019
+# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-03-05 17:32-0500\n"
+"POT-Creation-Date: 2021-07-31 13:35-0400\n"
 "PO-Revision-Date: 2019-03-14 18:29+0000\n"
-"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2019\n"
+"Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.9.0\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. /name/en
 #: extension.json:1
-msgid "Transactions - Related Milestones"
-msgstr "Transacciones - Hitos relacionados"
+msgid "Transaction related milestones"
+msgstr "Hitos relacionados con transacción"
 
 #. /description/en
 #: extension.json:1
 msgid ""
-"Adds a relatedImplementationMilestone property to the transactions object so"
-" that disbursements can be linked with their associated milestone."
+"Adds a relatedImplementationMilestone field to transaction objects, so that "
+"payments against a contract can be linked with an implementation milestone."
 msgstr ""
-"Agrega una propiedad relatedImplementationMilestone al objeto de "
-"transacciones para que los desembolsos se puedan vincular con su hito "
-"asociado."
+"Agregar un campo a relatedImplementationMilestone a los objetos de "
+"transacción, para que los pagos de un contrato puedan vincularse a un hito "
+"de implementación."
 
 #. /definitions/Transaction/properties/relatedImplementationMilestone/title
 #: release-schema.json:1

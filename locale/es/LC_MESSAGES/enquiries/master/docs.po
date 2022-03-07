@@ -8,15 +8,16 @@
 # James McKinney, 2021
 # Cecilia Casco <ceciliacasco@cds.com.py>, 2021
 # Maria Esther Cervantes <mcervantes@cds.com.py>, 2021
+# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-05 17:31-0500\n"
+"POT-Creation-Date: 2021-07-31 13:34-0400\n"
 "PO-Revision-Date: 2019-03-14 18:31+0000\n"
-"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2021\n"
+"Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -79,13 +80,12 @@ msgstr ""
 #: ../README.md:38
 msgid ""
 "When a system allows a discussion format, where each answer can be followed "
-"by a further clarification question, the `threadID` property can be used to "
+"by a further clarification question, the `threadID` field can be used to "
 "link together multiple entries in the `enquiries` array."
 msgstr ""
-"Cuando un sistema permite un formato de discusión, donde cada respuesta "
-"puede ser seguida por una pregunta de aclaración adicional, se puede usar la"
-" propiedad `threadID` para enlazar múltiples entradas en la matriz "
-"`enquiries`."
+"Cuando un sistema permite un formato de discusión, en el que cada respuesta "
+"puede ir seguida de otra pregunta de aclaración, el campo `threadID` puede "
+"utilizarse para enlazar varias entradas en la lista `enquiries`."
 
 #: ../README.md:40
 msgid "Usage guidance"
@@ -115,12 +115,11 @@ msgstr ""
 
 #: ../README.md:46
 msgid ""
-"The `relatedItem` and `relatedLot` properties are available for use when "
+"The `relatedItem` and `relatedLot` fields are available for use when "
 "questions can be asked in relation to a specific lot or item."
 msgstr ""
-"Las propiedades `relatedItem` y `relatedLot` están disponibles para su uso "
-"cuando se pueden hacer preguntas en relación con un lote o artículo "
-"específico."
+"Los campos `relatedItem` y `relatedLot` están disponibles para su uso cuando"
+" se pueden hacer preguntas en relación con un lote o artículo específico."
 
 #: ../README.md:48
 msgid "Where possible, the recommended approach is to:"

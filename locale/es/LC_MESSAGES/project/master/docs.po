@@ -6,15 +6,16 @@
 # Translators:
 # James McKinney, 2019
 # Natalia Valdez <nataliavaldez@cds.com.py>, 2021
+# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-05 17:31-0500\n"
+"POT-Creation-Date: 2021-07-31 13:34-0400\n"
 "PO-Revision-Date: 2019-03-14 18:32+0000\n"
-"Last-Translator: Natalia Valdez <nataliavaldez@cds.com.py>, 2021\n"
+"Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -85,26 +86,42 @@ msgstr ""
 "contexto de su proceso de contratación y el proyecto en general. valores."
 
 #: ../README.md:15
-msgid "Example"
-msgstr "Ejemplo"
+msgid "Examples"
+msgstr "Ejemplos"
 
-#: ../README.md:50
+#: ../README.md:17
+msgid "Infrastructure project"
+msgstr "Proyecto de infraestructura"
+
+#: ../README.md:47
+msgid "Public-Private Partnership project"
+msgstr "Proyecto de Asociación Público-Privada"
+
+#: ../README.md:82
 msgid "Changelog"
 msgstr "Registro de cambios"
 
-#: ../README.md:52
+#: ../README.md:84
+msgid "2021-04-15"
+msgstr "2021-04-15"
+
+#: ../README.md:86
+msgid "Add infrastructure project example"
+msgstr "Agregar un ejemplo de proyecto de infraestructura"
+
+#: ../README.md:88
 msgid "2020-04-24"
 msgstr "2020-04-24"
 
-#: ../README.md:54
+#: ../README.md:90
 msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
 msgstr "Agregar las propiedades `minProperties`, `minItems` y/o `minLength`."
 
-#: ../README.md:56
+#: ../README.md:92
 msgid "2020-04-16"
 msgstr "2020-04-16"
 
-#: ../README.md:58
+#: ../README.md:94
 msgid ""
 "Remove guidance related to the `planning.budget` object. See "
 "[#701](https://github.com/open-contracting/standard/issues/701)."
@@ -112,11 +129,11 @@ msgstr ""
 "Eliminar guía relacionada al objeto `planning.budget`. Ver "
 "[#701](https://github.com/open-contracting/standard/issues/701). "
 
-#: ../README.md:60
+#: ../README.md:96
 msgid "2018-05-03"
 msgstr "2018-05-03"
 
-#: ../README.md:62
+#: ../README.md:98
 msgid ""
 "Add additional guidance on the use of OCDS fields in the context of this "
 "extension"
@@ -124,23 +141,23 @@ msgstr ""
 "Agregar guía adicional sobre el uso de los campos de OCDS en el contexto de "
 "esta extensión"
 
-#: ../README.md:64
+#: ../README.md:100
 msgid "2017-12-29"
 msgstr "2017-12-29"
 
-#: ../README.md:66
+#: ../README.md:102
 msgid "Remove the repetition of OCDS fields in this extension"
 msgstr "Eliminar la repetición de campos OCDS en esta extensión"
 
-#: ../README.md:68
+#: ../README.md:104
 msgid "2017-07-08"
 msgstr "2017-07-08"
 
-#: ../README.md:70
+#: ../README.md:106
 msgid "Add multilingual support for `Project.title` fields"
 msgstr "Agregar soporte multilingüe para el campo `Project.title`"
 
-#: ../README.md:71
+#: ../README.md:107
 msgid ""
 "Remove multilingual support for non-existent `Project.source` and "
 "`Project.project` fields"
@@ -148,19 +165,19 @@ msgstr ""
 "Eliminar el soporte multilingüe para los campos inexistentes "
 "`Project.source` y `Project.project`"
 
-#: ../README.md:72
+#: ../README.md:108
 msgid "Restore `Budget.project` and `Budget.projectID` fields"
 msgstr "Restaurar los campos `Budget.project` y `Budget.projectID`"
 
-#: ../README.md:73
+#: ../README.md:109
 msgid "Remove obsolete `mergeStrategy` properties"
 msgstr "Eliminar la propiedad obsoleta `mergeStrategy`."
 
-#: ../README.md:75
+#: ../README.md:111
 msgid "Issues"
 msgstr "Issues"
 
-#: ../README.md:77
+#: ../README.md:113
 msgid ""
 "Report issues for this extension in the [ocds-extensions "
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "

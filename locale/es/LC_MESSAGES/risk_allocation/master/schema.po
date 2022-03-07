@@ -6,21 +6,21 @@
 # Translators:
 # James McKinney, 2019
 # Maria Esther Cervantes <mcervantes@cds.com.py>, 2019
-# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
+# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-03-05 17:32-0500\n"
+"POT-Creation-Date: 2021-07-31 13:35-0400\n"
 "PO-Revision-Date: 2019-03-14 18:32+0000\n"
-"Last-Translator: Natalia Valdez <nataliavaldez@cds.com.py>, 2021\n"
+"Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.9.0\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -71,8 +71,8 @@ msgstr "Categoría de riesgo"
 
 #. /definitions/Risk/properties/category/description
 #: release-schema.json:1
-msgid "The category of the risk."
-msgstr "La categoría del riesgo."
+msgid "The category of the risk, from the riskCategory codelist."
+msgstr "La categoría del riesgo, de la lista de códigos riskCategory."
 
 #. /definitions/Risk/properties/description/title
 #: release-schema.json:1
@@ -81,8 +81,8 @@ msgstr "Descripción de riesgo"
 
 #. /definitions/Risk/properties/description/description
 #: release-schema.json:1
-msgid "A description for this risk."
-msgstr "Una descripción para este riesgo."
+msgid "The description of the risk."
+msgstr "La descripción del riesgo."
 
 #. /definitions/Risk/properties/allocation/title
 #. /definitions/Contract/properties/riskAllocation/title
@@ -92,8 +92,8 @@ msgstr "Asignación de riesgos"
 
 #. /definitions/Risk/properties/allocation/description
 #: release-schema.json:1
-msgid "The party which retains the risk."
-msgstr "La parte que absorbe el riesgo."
+msgid "The party that retains the risk."
+msgstr "La parte que retiene el riesgo."
 
 #. /definitions/Risk/properties/notes/title
 #: release-schema.json:1
@@ -103,9 +103,9 @@ msgstr "Notas de Riesgo"
 #. /definitions/Risk/properties/notes/description
 #: release-schema.json:1
 msgid ""
-"Additional notes on the risk, for example the rationale for the allocation"
+"Additional notes on the risk, for example the rationale for the allocation."
 msgstr ""
-"Notas adicionales sobre el riesgo, por ejemplo la justificación para la "
+"Notas adicionales sobre el riesgo, por ejemplo la justificación de la "
 "asignación."
 
 #. /definitions/Contract/properties/riskAllocation/description

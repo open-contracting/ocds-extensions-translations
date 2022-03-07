@@ -4,18 +4,19 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# James McKinney, 2021
+# James McKinney, 2019
 # Natalia Valdez <nataliavaldez@cds.com.py>, 2021
 # Maria Esther Cervantes <mcervantes@cds.com.py>, 2021
+# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-05 17:31-0500\n"
+"POT-Creation-Date: 2021-07-31 13:34-0400\n"
 "PO-Revision-Date: 2019-03-14 18:30+0000\n"
-"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2021\n"
+"Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -80,14 +81,22 @@ msgstr ""
 "Mundial](http://pubdocs.worldbank.org/en/143671469558797229/FrameworkPPPDisclosure-071416.pdf#page=57)"
 
 #: ../README.md:15
-msgid "Example"
-msgstr "Ejemplo"
+msgid "Examples"
+msgstr "Ejemplos"
 
-#: ../README.md:71
+#: ../README.md:17
+msgid "Procurement process financing"
+msgstr "Financiamiento del proceso de contratación"
+
+#: ../README.md:49
+msgid "Public-private partnership contract financing"
+msgstr "Financiamiento de contratos de Asociación público-privada"
+
+#: ../README.md:105
 msgid "Issues"
 msgstr "Issues"
 
-#: ../README.md:73
+#: ../README.md:107
 msgid ""
 "Report issues for this extension in the [ocds-extensions "
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "
@@ -97,43 +106,43 @@ msgstr ""
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
 "el nombre de la extensión en el título del issue."
 
-#: ../README.md:75
+#: ../README.md:109
 msgid "Changelog"
 msgstr "Registro de cambios"
 
-#: ../README.md:77
+#: ../README.md:111
 msgid "2020-06-04"
 msgstr "2020-06-04"
 
-#: ../README.md:79
+#: ../README.md:113
 msgid "Review normative and non-normative words."
 msgstr "Revisar las palabras normativas y no normativas."
 
-#: ../README.md:81
+#: ../README.md:115
 msgid "2020-04-24"
 msgstr "2020-04-24"
 
-#: ../README.md:83
+#: ../README.md:117
 msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
 msgstr "Agregar las propiedades `minProperties`, `minItems` y/o `minLength`."
 
-#: ../README.md:85
+#: ../README.md:119
 msgid "2020-04-17"
 msgstr "2020-04-17"
 
-#: ../README.md:87
+#: ../README.md:121
 msgid "Add `planning.budget.finance` field."
 msgstr "Agregar el campo `planning.budget.finance`."
 
-#: ../README.md:88
+#: ../README.md:122
 msgid "Fix description of `financeCategory`."
 msgstr "Arreglar la descripción de `financeCategory`."
 
-#: ../README.md:90
+#: ../README.md:124
 msgid "2019-03-20"
 msgstr "2019-03-20"
 
-#: ../README.md:92
+#: ../README.md:126
 msgid ""
 "Set `\"uniqueItems\": true` on array fields, and add `\"minLength\": 1` on "
 "required string fields."
@@ -141,15 +150,15 @@ msgstr ""
 "Establecer `\"uniqueItems \": true` en los campos matriz y agregar "
 "`\"minLength\": 1` en los campos de cadena obligatorios."
 
-#: ../README.md:93
+#: ../README.md:127
 msgid "Make `interestRate` non-nullable (undo earlier change)."
 msgstr "Hacer `interestRate` no nulo (deshacer el cambio anterior)."
 
-#: ../README.md:95
+#: ../README.md:129
 msgid "2018-05-08"
 msgstr "2018-05-08"
 
-#: ../README.md:97
+#: ../README.md:131
 msgid ""
 "Make `Finance.id` required and non-nullable to support revision tracking and"
 " [list merging](http://standard.open-"
@@ -159,18 +168,18 @@ msgstr ""
 "revisiones y [list merging](http://standard.open-"
 "contracting.org/latest/es/schema/merging/#lists)"
 
-#: ../README.md:99
+#: ../README.md:133
 msgid "2018-05-01"
 msgstr "2018-05-01"
 
-#: ../README.md:101
+#: ../README.md:135
 msgid "Add title and description to `Finance.financingParty`."
 msgstr "Agregar título y descripción a `Finance.financingParty`."
 
-#: ../README.md:103
+#: ../README.md:137
 msgid "2018-01-29"
 msgstr "2018-01-29"
 
-#: ../README.md:105
+#: ../README.md:139
 msgid "Make `interestRate` nullable."
 msgstr "Se permite que `interestRate` sea nulo."

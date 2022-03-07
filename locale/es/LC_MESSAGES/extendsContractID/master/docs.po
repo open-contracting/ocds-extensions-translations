@@ -5,7 +5,6 @@
 # 
 # Translators:
 # Maria Esther Cervantes <mcervantes@cds.com.py>, 2019
-# Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2019
 # James McKinney, 2021
 # Natalia Valdez <nataliavaldez@cds.com.py>, 2021
 # Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
@@ -15,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-05 17:31-0500\n"
+"POT-Creation-Date: 2021-07-31 13:34-0400\n"
 "PO-Revision-Date: 2019-03-14 18:30+0000\n"
 "Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
@@ -49,36 +48,31 @@ msgstr ""
 
 #: ../README.md:7
 msgid ""
-"In these cases, the `extendsContractID` property can be used to identify "
-"that a given entry in the `contracts` array should be understood as related "
-"to a previous contract."
+"In these cases, the `extendsContractID` field can be used to identify that a"
+" given entry in the `contracts` array should be understood as related to a "
+"previous contract."
 msgstr ""
-"En algunos casos, la propiedad `extendsContractID` puede usarse para "
-"identificar una entrada particular en la lista de `contracts` que debe "
-"entenderse como relacionada a un contrato previo."
+"En estos casos, el campo `extendsContractID` puede utilizarse para "
+"identificar que una entrada determinada en la lista `contracts` debe "
+"entenderse como relacionada a un contrato anterior."
 
 #: ../README.md:9
-msgid "Notes"
-msgstr "Notas"
+msgid ""
+"Use this extension **only if** there is a substantive new contract signed as"
+" the extension of a previous contract. In most cases, an update to the value"
+" or duration of a contract should be modelled as an amendment within a "
+"single entry in the `contracts` array."
+msgstr ""
+"Utilice esta extensión **sólo si** hay un nuevo contrato sustantivo firmado "
+"como la extensión de un contrato anterior. En la mayoría de los casos, una "
+"actualización del valor o de la duración de un contrato debería modelarse "
+"como una enmienda dentro de una única entrada en la lista `contracts`."
 
 #: ../README.md:11
-msgid ""
-"Use this extension **only** in cases where there is a substantive **new "
-"contract** signed as the extension of a previous contract. In most cases, an"
-" update to the value or duration of a contract should be modelled as an "
-"amendment within a single entry in the contracts array."
-msgstr ""
-"Usar esta extensión **solo** en casos cuando hay un **nuevo contrato** "
-"substancial firmado como extensión de un contrato previo. En la mayoría de "
-"los casos, una actualización de un valor o la duración del contrato debe ser"
-" modelado como una enmienda dentro de una sola entrada en la lista de "
-"contratos."
-
-#: ../README.md:13
 msgid "Example"
 msgstr "Ejemplo"
 
-#: ../README.md:15
+#: ../README.md:13
 msgid ""
 "The extract below shows three contracts in the contracts array of an OCDS "
 "release."
@@ -86,7 +80,7 @@ msgstr ""
 "El extracto más abajo muestra tres contratos en la matriz de contratos en un"
 " release OCDS."
 
-#: ../README.md:17
+#: ../README.md:15
 msgid ""
 "The first two contracts were signed in 2011: one for one year for property "
 "rental, and the other for two years for services related to property rental."
@@ -95,43 +89,41 @@ msgstr ""
 " la propiedad, y otro por dos años de servicios relacionados con la "
 "propiedad rentada."
 
-#: ../README.md:19
+#: ../README.md:17
 msgid ""
 "The third contract was signed in 2012, and renews the property rental for "
 "another year. This is related back to the contract for the first year of "
-"rental with the `extendsContractID` property."
+"rental with the `extendsContractID` field."
 msgstr ""
-"El tercer contrato se firmo en 2012, y renueva la propiedad rentada por otro"
-" año. Esto se relaciona anteriormente con el contrato del primer año de "
-"renta con la propiedad `extendsContractID`."
+"El tercer contrato se firmó en 2012, y renueva el alquiler de la propiedad "
+"por un año más. Se relaciona de nuevo con el contrato del primer año de "
+"alquiler con el campo `extendsContractID`."
 
-#: ../README.md:110
+#: ../README.md:108
 msgid ""
 "The image below shows an example of how the information provided by the "
-"`extendsContractID` property is used in Paraguay, to display two contracts "
+"`extendsContractID` field is used in Paraguay, to display two contracts "
 "resulting from an award (the blue boxes), with one of those contracts then "
 "extended (the blue circle)."
 msgstr ""
-"La imagen debajo muestra un ejemplo de como se debe dar información con la "
-"propiedad  `extendsContractID` en Paraguay, mostrando dos contratos que "
-"resultan de una adjudicación (cajas azules), con uno de esos contratos "
-"extendidos (el círculo azul)."
+"La imagen siguiente muestra un ejemplo de cómo se utiliza la información "
+"proporcionada por el campo `extendsContractID` en Paraguay, para mostrar dos"
+" contratos resultantes de una adjudicación (las casillas azules), con uno de"
+" esos contratos prorrogado (el círculo azul)."
 
-#: ../README.md:112
+#: ../README.md:110
 msgid ""
 "![Paraguay "
-"Example](https://cloud.githubusercontent.com/assets/342624/9915392/aecb1e52"
-"-5cae-11e5-9824-a6eb616e568b.png)"
+"Example](https://cloud.githubusercontent.com/assets/342624/9915392/aecb1e52-5cae-11e5-9824-a6eb616e568b.png)"
 msgstr ""
 "![Paraguay "
-"Example](https://cloud.githubusercontent.com/assets/342624/9915392/aecb1e52"
-"-5cae-11e5-9824-a6eb616e568b.png)"
+"Example](https://cloud.githubusercontent.com/assets/342624/9915392/aecb1e52-5cae-11e5-9824-a6eb616e568b.png)"
 
-#: ../README.md:114
+#: ../README.md:112
 msgid "Issues"
 msgstr "Issues"
 
-#: ../README.md:116
+#: ../README.md:114
 msgid ""
 "Report issues for this extension in the [ocds-extensions "
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "
@@ -141,30 +133,30 @@ msgstr ""
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
 "el nombre de la extensión en el título del issue."
 
-#: ../README.md:118
+#: ../README.md:116
 msgid "Changelog"
 msgstr "Registro de cambios"
 
-#: ../README.md:120
+#: ../README.md:118
 msgid "2020-06-04"
 msgstr "2020-06-04"
 
-#: ../README.md:122
+#: ../README.md:120
 msgid "Review normative and non-normative words."
 msgstr "Revisar las palabras normativas y no normativas."
 
-#: ../README.md:124
+#: ../README.md:122
 msgid "2020-04-24"
 msgstr "2020-04-24"
 
-#: ../README.md:126
+#: ../README.md:124
 msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
 msgstr "Agregar las propiedades `minProperties`, `minItems` y/o `minLength`."
 
-#: ../README.md:128
+#: ../README.md:126
 msgid "2018-01-29"
 msgstr "2018-01-29"
 
-#: ../README.md:130
+#: ../README.md:128
 msgid "Make `Contract.extendsContractID` nullable."
 msgstr "Hacer que `Contract.extendsContractID` pueda ser nulo."

@@ -7,15 +7,16 @@
 # James McKinney, 2021
 # Natalia Valdez <nataliavaldez@cds.com.py>, 2021
 # Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
+# Maria Esther Cervantes <mcervantes@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-05 17:31-0500\n"
+"POT-Creation-Date: 2021-07-31 13:34-0400\n"
 "PO-Revision-Date: 2020-08-20 20:52+0000\n"
-"Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
+"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -49,7 +50,7 @@ msgstr ""
 "esquemas de clasificación son "
 "[LEX](https://en.wikipedia.org/wiki/Lex_(URN)), [CELEX](https://eur-"
 "lex.europa.eu/content/help/faq/intro.html#help8) y [ELI] "
-"(https://en.wikipedia.org/wiki/European_Legislation_Identifier)."
+"(https://es.wikipedia.org/wiki/Identificador_Europeo_de_Legislación)"
 
 #: ../README.md:7
 msgid ""
@@ -61,7 +62,7 @@ msgstr ""
 "Para identificar el procedimiento utilizado, ya sea por nombre formal o por "
 "citación legal, utilice el campo "
 "[`tender.procurementMethodDetails`](https://standard.open-"
-"contracting.org/latest/en/schema/reference/#release-"
+"contracting.org/latest/es/schema/reference/#release-"
 "schema.json,/definitions/Tender,procurementMethodDetails)."
 
 #: ../README.md:9
@@ -77,7 +78,7 @@ msgstr ""
 "Para indicar si el proceso de contratación está cubierto por un tratado, "
 "como el Agreement on Government Procurement (GPA), usar la extensión "
 "[coveredBy](https://extensions.open-"
-"contracting.org/en/extensions/coveredBy/). Para indicar si el proceso de "
+"contracting.org/es/extensions/coveredBy/). Para indicar si el proceso de "
 "contratación es acelerado, involucra acuerdos marco o tiene otras "
 "modalidades, [echar un vistazo a las extensiones](https://extensions.open-"
 "contracting.org/)."
@@ -95,7 +96,7 @@ msgid ""
 msgstr ""
 "Si la base legal es específica de un país, se recomienda anteponer el "
 "prefijo [ISO 3166-1 alpha-2 "
-"code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) al esquema de "
+"code](https://es.wikipedia.org/wiki/ISO_3166-1_alfa-2) al esquema de "
 "clasificación: por ejemplo, \"HN-ONCAE\" para la Oficina Normativa de "
 "Contratación y Adquisiciones del Estado (ONCAE) en Honduras."
 
@@ -120,7 +121,7 @@ msgstr ""
 "5 de la Directiva 2014/24/EU](https://eur-lex.europa.eu/legal-"
 "content/EN/TXT/?qid=1585836130257&uri=CELEX:32014L0024#d1e4669-65-1). Ver "
 "[OCDS para la Unión Europea](http://standard.open-"
-"contracting.org/profiles/eu/master/en/) para ver lo correspondiente a "
+"contracting.org/profiles/eu/master/es/) para ver lo correspondiente a "
 "Tenders Electronic Daily (TED)."
 
 #: ../README.md:19

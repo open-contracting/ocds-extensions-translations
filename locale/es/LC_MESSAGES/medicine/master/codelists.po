@@ -1,0 +1,1729 @@
+# Translations template for PROJECT.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+# 
+# Translators:
+# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
+# Maria Esther Cervantes <mcervantes@cds.com.py>, 2021
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-07-31 13:35-0400\n"
+"PO-Revision-Date: 2021-07-31 17:45+0000\n"
+"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2021\n"
+"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: codelists/administrationRoute.csv codelists/container.csv
+#: codelists/dosageForm.csv
+msgid "Code"
+msgstr "Código"
+
+#: codelists/administrationRoute.csv codelists/container.csv
+#: codelists/dosageForm.csv
+msgid "Title"
+msgstr "Título"
+
+#. Title
+#: codelists/administrationRoute.csv:1
+msgid "Injection, amniotic fluid"
+msgstr "Inyección, líquido amniótico"
+
+#. Title
+#: codelists/administrationRoute.csv:2
+msgid "Injection, biliary tract"
+msgstr "Inyección, tracto biliar"
+
+#. Title
+#: codelists/administrationRoute.csv:3
+msgid "Injection, for cholangiography"
+msgstr "Inyección, para colangiografía"
+
+#. Title
+#: codelists/administrationRoute.csv:4
+msgid "Topical application, soaked dressing"
+msgstr "Aplicación tópica, apósito empapado"
+
+#. Title
+#: codelists/administrationRoute.csv:5
+msgid "Electro-osmosis"
+msgstr "Electro-ósmosis"
+
+#. Title
+#: codelists/administrationRoute.csv:6
+msgid "Topical application, iontophoresis"
+msgstr "Aplicación tópica, iontoforesis"
+
+#. Title
+#: codelists/administrationRoute.csv:7
+msgid "Immersion (soak)"
+msgstr "Inmersión (remojo)"
+
+#. Title
+#: codelists/administrationRoute.csv:8
+msgid "Topical application, swab"
+msgstr "Aplicación tópica, hisopo"
+
+#. Title
+#: codelists/administrationRoute.csv:9
+msgid "Topical"
+msgstr "Tópico"
+
+#. Title
+#: codelists/administrationRoute.csv:10
+msgid "Topical application, buccal"
+msgstr "Aplicación tópica, bucal"
+
+#. Title
+#: codelists/administrationRoute.csv:11
+msgid "Instillation, cecostomy"
+msgstr "Instilación, cecostomía"
+
+#. Title
+#: codelists/administrationRoute.csv:12
+msgid "Topical application, cervical"
+msgstr "Aplicación tópica, cervical"
+
+#. Title
+#: codelists/administrationRoute.csv:13
+msgid "Injection, cervical"
+msgstr "Inyección, cervical"
+
+#. Title
+#: codelists/administrationRoute.csv:14
+msgid "Insertion, cervical (uterine)"
+msgstr "Inserción, cervical (uterina)"
+
+#. Title
+#: codelists/administrationRoute.csv:15
+msgid "Topical application, dental"
+msgstr "Aplicación tópica, dental"
+
+#. Title
+#: codelists/administrationRoute.csv:16
+msgid "Rinse, dental"
+msgstr "Enjuague, dental"
+
+#. Title
+#: codelists/administrationRoute.csv:17
+msgid "Chew, oral"
+msgstr "Masticar, oral"
+
+#. Title
+#: codelists/administrationRoute.csv:18
+msgid "Diffusion, extracorporeal"
+msgstr "Difusión, extracorpórea"
+
+#. Title
+#: codelists/administrationRoute.csv:19
+msgid "Diffusion, hemodialysis"
+msgstr "Difusión, hemodiálisis"
+
+#. Title
+#: codelists/administrationRoute.csv:20
+msgid "Diffusion, transdermal"
+msgstr "Difusión, transdérmica"
+
+#. Title
+#: codelists/administrationRoute.csv:21
+msgid "Dissolve, oral"
+msgstr "Disolución, vía oral"
+
+#. Title
+#: codelists/administrationRoute.csv:22
+msgid "Dissolve, sublingual"
+msgstr "Disolución, sublingual"
+
+#. Title
+#: codelists/administrationRoute.csv:23
+msgid "Douche, vaginal"
+msgstr "Ducha, vaginal"
+
+#. Title
+#: codelists/administrationRoute.csv:24
+msgid "Enema, rectal"
+msgstr "Enema, rectal"
+
+#. Title
+#: codelists/administrationRoute.csv:25
+msgid "Enema, rectal retention"
+msgstr "Enema, retención rectal"
+
+#. Title
+#: codelists/administrationRoute.csv:26
+msgid "Instillation, enteral feeding tube"
+msgstr "Instilación, sonda de alimentación enteral"
+
+#. Title
+#: codelists/administrationRoute.csv:27
+msgid "Instillation, enteral"
+msgstr "Instilación, enteral"
+
+#. Title
+#: codelists/administrationRoute.csv:28
+msgid "Infusion, epidural"
+msgstr "Infusión, epidural"
+
+#. Title
+#: codelists/administrationRoute.csv:29
+msgid "Injection, epidural"
+msgstr "Inyección, epidural"
+
+#. Title
+#: codelists/administrationRoute.csv:30
+msgid "Injection, epidural, push"
+msgstr "Inyección, epidural, empuje"
+
+#. Title
+#: codelists/administrationRoute.csv:31
+msgid "Injection, epidural, slow push"
+msgstr "Inyección, epidural, empuje lento"
+
+#. Title
+#: codelists/administrationRoute.csv:32
+msgid "Injection, extra-amniotic"
+msgstr "Inyección, extra-amniótica"
+
+#. Title
+#: codelists/administrationRoute.csv:33
+msgid "Injection, extracorporeal"
+msgstr "Inyección, extracorpórea"
+
+#. Title
+#: codelists/administrationRoute.csv:34
+msgid "Flush, intravenous catheter"
+msgstr "Lavado, catéter intravenoso"
+
+#. Title
+#: codelists/administrationRoute.csv:35
+msgid "Injection, gastric button"
+msgstr "Inyección, botón gástrico"
+
+#. Title
+#: codelists/administrationRoute.csv:36
+msgid "Instillation, gastrostomy tube"
+msgstr "Instilación, sonda de gastrostomía"
+
+#. Title
+#: codelists/administrationRoute.csv:37
+msgid "Instillation, nasogastric tube"
+msgstr "Instilación, sonda nasogástrica"
+
+#. Title
+#: codelists/administrationRoute.csv:38
+msgid "Instillation, orogastric tube"
+msgstr "Instilación, sonda orogástrica"
+
+#. Title
+#: codelists/administrationRoute.csv:39
+msgid "Irrigation, genitourinary"
+msgstr "Irrigación, genitourinario"
+
+#. Title
+#: codelists/administrationRoute.csv:40
+msgid "Topical application, gingival"
+msgstr "Aplicación tópica, gingival"
+
+#. Title
+#: codelists/administrationRoute.csv:41
+msgid "Injection, gingival"
+msgstr "Inyección, gingival"
+
+#. Title
+#: codelists/administrationRoute.csv:42
+msgid "Topical application, hair"
+msgstr "Aplicación tópica, cabello"
+
+#. Title
+#: codelists/administrationRoute.csv:43
+msgid "Shampoo"
+msgstr "Champú"
+
+#. Title
+#: codelists/administrationRoute.csv:44
+msgid "Implantation, intradermal"
+msgstr "Implantación, intradérmica"
+
+#. Title
+#: codelists/administrationRoute.csv:45
+msgid "Implantation, intravitreal"
+msgstr "Implantación, intravítrea"
+
+#. Title
+#: codelists/administrationRoute.csv:46
+msgid "Implantation, subcutaneous"
+msgstr "Implantación, subcutánea"
+
+#. Title
+#: codelists/administrationRoute.csv:47
+msgid "Infusion, intraarterial catheter"
+msgstr "Infusión, catéter intraarterial"
+
+#. Title
+#: codelists/administrationRoute.csv:48
+msgid "Infusion, intracardiac"
+msgstr "Infusión, intracardíaca"
+
+#. Title
+#: codelists/administrationRoute.csv:49
+msgid "Infusion, intracoronary"
+msgstr "Infusión, intracoronaria"
+
+#. Title
+#: codelists/administrationRoute.csv:50
+msgid "Infusion, intraosseous, continuous"
+msgstr "Infusión, intraósea, continua"
+
+#. Title
+#: codelists/administrationRoute.csv:51
+msgid "Infusion, intrathecal"
+msgstr "Infusión, intratecal"
+
+#. Title
+#: codelists/administrationRoute.csv:52
+msgid "Infusion, intravenous"
+msgstr "Infusión, intravenosa"
+
+#. Title
+#: codelists/administrationRoute.csv:53
+msgid "Infusion, intravascular"
+msgstr "Infusión, intravascular"
+
+#. Title
+#: codelists/administrationRoute.csv:54
+msgid "Infusion, subcutaneous"
+msgstr "Infusión, subcutánea"
+
+#. Title
+#: codelists/administrationRoute.csv:55
+msgid "Inhalation, respiratory"
+msgstr "Inhalación, respiratoria"
+
+#. Title
+#: codelists/administrationRoute.csv:56
+msgid "Inhalation, intermittent positive pressure breathing (ippb)"
+msgstr "Inhalación, respiración con presión positiva intermitente (ippb)"
+
+#. Title
+#: codelists/administrationRoute.csv:57
+msgid "Inhalation, nasal"
+msgstr "Inhalación, nasal"
+
+#. Title
+#: codelists/administrationRoute.csv:58
+msgid "Inhalation, nebulization"
+msgstr "Inhalación, nebulización"
+
+#. Title
+#: codelists/administrationRoute.csv:59
+msgid "Inhalation, tracheostomy"
+msgstr "Inhalación, traqueotomía"
+
+#. Title
+#: codelists/administrationRoute.csv:60
+msgid "Inhalation, ventilator"
+msgstr "Inhalación, respirador"
+
+#. Title
+#: codelists/administrationRoute.csv:61
+msgid "Inhalation, ventimask"
+msgstr "Inhalación, ventimascarilla"
+
+#. Title
+#: codelists/administrationRoute.csv:62
+msgid "Injection, urinary bladder"
+msgstr "Inyección, vejiga urinaria"
+
+#. Title
+#: codelists/administrationRoute.csv:63
+msgid "Injection, endosinusial"
+msgstr "Inyección, endosinusal"
+
+#. Title
+#: codelists/administrationRoute.csv:64
+msgid "Injection, hemodialysis port"
+msgstr "Inyección, puerto de hemodiálisis"
+
+#. Title
+#: codelists/administrationRoute.csv:65
+msgid "Injection, intra-abdominal"
+msgstr "Inyección, intra-abdominal"
+
+#. Title
+#: codelists/administrationRoute.csv:66
+msgid "Injection, intraarterial"
+msgstr "Inyección, intraarterial"
+
+#. Title
+#: codelists/administrationRoute.csv:67
+msgid "Injection, intraarticular"
+msgstr "Inyección, intraarticular"
+
+#. Title
+#: codelists/administrationRoute.csv:68
+msgid "Injection, intrabursal"
+msgstr "Inyección, intrabursal"
+
+#. Title
+#: codelists/administrationRoute.csv:69
+msgid "Injection, intracardiac"
+msgstr "Inyección, intracardíaca"
+
+#. Title
+#: codelists/administrationRoute.csv:70
+msgid "Injection, intracartilaginous"
+msgstr "Inyección, intracartilaginosa"
+
+#. Title
+#: codelists/administrationRoute.csv:71
+msgid "Injection, intracaudal"
+msgstr "Inyección, intracaudal"
+
+#. Title
+#: codelists/administrationRoute.csv:72
+msgid "Injection, intracavernous"
+msgstr "Inyección intracavernosa"
+
+#. Title
+#: codelists/administrationRoute.csv:73
+msgid "Injection, intracavitary"
+msgstr "Inyección, intracavitaria"
+
+#. Title
+#: codelists/administrationRoute.csv:74
+msgid "Injection, intracerebral"
+msgstr "Inyección, intracerebral"
+
+#. Title
+#: codelists/administrationRoute.csv:75
+msgid "Injection, intracisternal"
+msgstr "Inyección, intracisternal"
+
+#. Title
+#: codelists/administrationRoute.csv:76
+msgid "Injection, intracoronary"
+msgstr "Inyección, intracoronaria"
+
+#. Title
+#: codelists/administrationRoute.csv:77
+msgid "Injection, intracorpus cavernosum"
+msgstr "Inyección, intracorpus cavernosum"
+
+#. Title
+#: codelists/administrationRoute.csv:78
+msgid "Injection, intradermal"
+msgstr "Inyección, intradérmica"
+
+#. Title
+#: codelists/administrationRoute.csv:79
+msgid "Injection, intradiscal"
+msgstr "Inyección, intradiscal"
+
+#. Title
+#: codelists/administrationRoute.csv:80
+msgid "Injection, intraductal"
+msgstr "Inyección, intraductal"
+
+#. Title
+#: codelists/administrationRoute.csv:81
+msgid "Injection, intradural"
+msgstr "Inyección, intradural"
+
+#. Title
+#: codelists/administrationRoute.csv:82
+msgid "Injection, intraepidermal"
+msgstr "Inyección, intraepidérmica"
+
+#. Title
+#: codelists/administrationRoute.csv:83
+msgid "Injection, intraepithelial"
+msgstr "Inyección, intraepitelial"
+
+#. Title
+#: codelists/administrationRoute.csv:84
+msgid "Injection, intralesional"
+msgstr "Inyección, intralesional"
+
+#. Title
+#: codelists/administrationRoute.csv:85
+msgid "Injection, intraluminal"
+msgstr "Inyección, intraluminal"
+
+#. Title
+#: codelists/administrationRoute.csv:86
+msgid "Injection, intralymphatic"
+msgstr "Inyección, intralinfática"
+
+#. Title
+#: codelists/administrationRoute.csv:87
+msgid "Injection, intramuscular"
+msgstr "Inyección, intramuscular"
+
+#. Title
+#: codelists/administrationRoute.csv:88
+msgid "Injection, intramedullary"
+msgstr "Inyección, intramedular"
+
+#. Title
+#: codelists/administrationRoute.csv:89
+msgid "Injection, interameningeal"
+msgstr "Inyección, interameníngea"
+
+#. Title
+#: codelists/administrationRoute.csv:90
+msgid "Injection, interstitial"
+msgstr "Inyección, intersticial"
+
+#. Title
+#: codelists/administrationRoute.csv:91
+msgid "Injection, intraocular"
+msgstr "Inyección, intraocular"
+
+#. Title
+#: codelists/administrationRoute.csv:92
+msgid "Injection, intraosseous"
+msgstr "Inyección, intraósea"
+
+#. Title
+#: codelists/administrationRoute.csv:93
+msgid "Injection, intraovarian"
+msgstr "Inyección, intraovárica"
+
+#. Title
+#: codelists/administrationRoute.csv:94
+msgid "Injection, intrapericardial"
+msgstr "Inyección, intrapericárdica"
+
+#. Title
+#: codelists/administrationRoute.csv:95
+msgid "Injection, intraperitoneal"
+msgstr "Inyección, intraperitoneal"
+
+#. Title
+#: codelists/administrationRoute.csv:96
+msgid "Injection, intrapulmonary"
+msgstr "Inyección, intrapulmonar"
+
+#. Title
+#: codelists/administrationRoute.csv:97
+msgid "Injection, intrapleural"
+msgstr "Inyección, intrapleural"
+
+#. Title
+#: codelists/administrationRoute.csv:98
+msgid "Injection, intraprostatic"
+msgstr "Inyección, intraprostática"
+
+#. Title
+#: codelists/administrationRoute.csv:99
+msgid "Injection, insulin pump"
+msgstr "Inyección, bomba de insulina"
+
+#. Title
+#: codelists/administrationRoute.csv:100
+msgid "Injection, intraspinal"
+msgstr "Inyección, intraespinal"
+
+#. Title
+#: codelists/administrationRoute.csv:101
+msgid "Injection, intrasternal"
+msgstr "Inyección, intrasternal"
+
+#. Title
+#: codelists/administrationRoute.csv:102
+msgid "Injection, intrasynovial"
+msgstr "Inyección, intrasinovial"
+
+#. Title
+#: codelists/administrationRoute.csv:103
+msgid "Injection, intratendinous"
+msgstr "Inyección, intratendinosa"
+
+#. Title
+#: codelists/administrationRoute.csv:104
+msgid "Injection, intratesticular"
+msgstr "Inyección, intratesticular"
+
+#. Title
+#: codelists/administrationRoute.csv:105
+msgid "Injection, intrathoracic"
+msgstr "Inyección, intratorácica"
+
+#. Title
+#: codelists/administrationRoute.csv:106
+msgid "Injection, intrathecal"
+msgstr "Inyección, intratecal"
+
+#. Title
+#: codelists/administrationRoute.csv:107
+msgid "Injection, intratubular"
+msgstr "Inyección, intratubular"
+
+#. Title
+#: codelists/administrationRoute.csv:108
+msgid "Injection, intratumor"
+msgstr "Inyección, intratumoral"
+
+#. Title
+#: codelists/administrationRoute.csv:109
+msgid "Injection, intratympanic"
+msgstr "Inyección, intratimpánica"
+
+#. Title
+#: codelists/administrationRoute.csv:110
+msgid "Injection, intrauterine"
+msgstr "Inyección, intrauterina"
+
+#. Title
+#: codelists/administrationRoute.csv:111
+msgid "Injection, intracervical (uterus)"
+msgstr "Inyección, intracervical (útero)"
+
+#. Title
+#: codelists/administrationRoute.csv:112
+msgid "Injection, intraureteral, retrograde"
+msgstr "Inyección, intraureteral, retrógrada"
+
+#. Title
+#: codelists/administrationRoute.csv:113
+msgid "Injection, intravascular"
+msgstr "Inyección, intravascular"
+
+#. Title
+#: codelists/administrationRoute.csv:114
+msgid "Injection, intraventricular (heart)"
+msgstr "Inyección, intraventricular (corazón)"
+
+#. Title
+#: codelists/administrationRoute.csv:115
+msgid "Injection, intravesicle"
+msgstr "Inyección, intravesical"
+
+#. Title
+#: codelists/administrationRoute.csv:116
+msgid "Injection, intravenous"
+msgstr "Inyección, intravenosa"
+
+#. Title
+#: codelists/administrationRoute.csv:117
+msgid "Injection, intravitreal"
+msgstr "Inyección, intravítrea"
+
+#. Title
+#: codelists/administrationRoute.csv:118
+msgid "Injection, periarticular"
+msgstr "Inyección, periarticular"
+
+#. Title
+#: codelists/administrationRoute.csv:119
+msgid "Injection, parenteral"
+msgstr "Inyección, parenteral"
+
+#. Title
+#: codelists/administrationRoute.csv:120
+msgid "Injection, periodontal"
+msgstr "Inyección, periodontal"
+
+#. Title
+#: codelists/administrationRoute.csv:121
+msgid "Injection, peritoneal dialysis port"
+msgstr "Inyección, puerto de diálisis peritoneal"
+
+#. Title
+#: codelists/administrationRoute.csv:122
+msgid "Injection, peridural"
+msgstr "Inyección, peridural"
+
+#. Title
+#: codelists/administrationRoute.csv:123
+msgid "Injection, perineural"
+msgstr "Inyección, perineural"
+
+#. Title
+#: codelists/administrationRoute.csv:124
+msgid "Injection, paranasal sinuses"
+msgstr "Inyección, senos paranasales"
+
+#. Title
+#: codelists/administrationRoute.csv:125
+msgid "Injection, retrobulbar"
+msgstr "Inyección, retrobulbar"
+
+#. Title
+#: codelists/administrationRoute.csv:126
+msgid "Injection, subconjunctival"
+msgstr "Inyección, subconjuntival"
+
+#. Title
+#: codelists/administrationRoute.csv:127
+msgid "Injection, sublesional"
+msgstr "Inyección, sublesional"
+
+#. Title
+#: codelists/administrationRoute.csv:128
+msgid "Injection, soft tissue"
+msgstr "Inyección, tejidos blandos"
+
+#. Title
+#: codelists/administrationRoute.csv:129
+msgid "Injection, subcutaneous"
+msgstr "Inyección, subcutánea"
+
+#. Title
+#: codelists/administrationRoute.csv:130
+msgid "Injection, subarachnoid"
+msgstr "Inyección, subaracnoidea"
+
+#. Title
+#: codelists/administrationRoute.csv:131
+msgid "Injection, submucosal"
+msgstr "Inyección, submucosa"
+
+#. Title
+#: codelists/administrationRoute.csv:132
+msgid "Injection, transplacental"
+msgstr "Inyección, transplacentaria"
+
+#. Title
+#: codelists/administrationRoute.csv:133
+msgid "Injection, transtracheal"
+msgstr "Inyección, transtraqueal"
+
+#. Title
+#: codelists/administrationRoute.csv:134
+msgid "Injection, urethral"
+msgstr "Inyección, uretral"
+
+#. Title
+#: codelists/administrationRoute.csv:135
+msgid "Injection, ureteral"
+msgstr "Inyección, ureteral"
+
+#. Title
+#: codelists/administrationRoute.csv:136
+msgid "Insertion, intraocular, surgical"
+msgstr "Inserción, intraocular, quirúrgica"
+
+#. Title
+#: codelists/administrationRoute.csv:137
+msgid "Insertion, intrauterine"
+msgstr "Inserción, intrauterina"
+
+#. Title
+#: codelists/administrationRoute.csv:138
+msgid "Insertion, lacrimal puncta"
+msgstr "Inserción, puntos lagrimales"
+
+#. Title
+#: codelists/administrationRoute.csv:139
+msgid "Insertion, rectal"
+msgstr "Inserción, rectal"
+
+#. Title
+#: codelists/administrationRoute.csv:140
+msgid "Insertion, subcutaneous, surgical"
+msgstr "Inserción, subcutánea, quirúrgica"
+
+#. Title
+#: codelists/administrationRoute.csv:141
+msgid "Insertion, urethral"
+msgstr "Inserción, uretral"
+
+#. Title
+#: codelists/administrationRoute.csv:142
+msgid "Insertion, vaginal"
+msgstr "Inserción, vaginal"
+
+#. Title
+#: codelists/administrationRoute.csv:143
+msgid "Instillation, urinary catheter"
+msgstr "Instilación, catéter urinario"
+
+#. Title
+#: codelists/administrationRoute.csv:144
+msgid "Instillation, continuous ambulatory peritoneal dialysis port"
+msgstr "Instilación, puerto de diálisis peritoneal ambulatoria continua"
+
+#. Title
+#: codelists/administrationRoute.csv:145
+msgid "Instillation, chest tube"
+msgstr "Instilación, tubo torácico"
+
+#. Title
+#: codelists/administrationRoute.csv:146
+msgid "Instillation, endotracheal tube"
+msgstr "Instilación, tubo endotraqueal"
+
+#. Title
+#: codelists/administrationRoute.csv:147
+msgid "Instillation, gastro-jejunostomy tube"
+msgstr "Instilación, tubo de gastro-yeyunostomía"
+
+#. Title
+#: codelists/administrationRoute.csv:148
+msgid "Instillation, intrabronchial"
+msgstr "Instilación, intrabronquial"
+
+#. Title
+#: codelists/administrationRoute.csv:149
+msgid "Instillation, intraduodenal"
+msgstr "Instilación, intraduodenal"
+
+#. Title
+#: codelists/administrationRoute.csv:150
+msgid "Instillation, intraesophageal"
+msgstr "Instilación, intraesofágica"
+
+#. Title
+#: codelists/administrationRoute.csv:151
+msgid "Instillation, intragastric"
+msgstr "Instilación, intragástrica"
+
+#. Title
+#: codelists/administrationRoute.csv:152
+msgid "Instillation, intraileal"
+msgstr "Instilación, intraileal"
+
+#. Title
+#: codelists/administrationRoute.csv:153
+msgid "Instillation, intraocular"
+msgstr "Instilación, intraocular"
+
+#. Title
+#: codelists/administrationRoute.csv:154
+msgid "Instillation, intrasinal"
+msgstr "Instilación, intrasinal"
+
+#. Title
+#: codelists/administrationRoute.csv:155
+msgid "Instillation, intratracheal"
+msgstr "Instilación, intratraqueal"
+
+#. Title
+#: codelists/administrationRoute.csv:156
+msgid "Instillation, intrauterine"
+msgstr "Instilación, intrauterina"
+
+#. Title
+#: codelists/administrationRoute.csv:157
+msgid "Instillation, jejunostomy tube"
+msgstr "Instilación, tubo de yeyunostomía"
+
+#. Title
+#: codelists/administrationRoute.csv:158
+msgid "Instillation, laryngeal"
+msgstr "Instilación, laríngea"
+
+#. Title
+#: codelists/administrationRoute.csv:159
+msgid "Instillation, nasal"
+msgstr "Instilación, nasal"
+
+#. Title
+#: codelists/administrationRoute.csv:160
+msgid "Instillation, nasogastric"
+msgstr "Instilación, nasogástrica"
+
+#. Title
+#: codelists/administrationRoute.csv:161
+msgid "Instillation, nasotracheal tube"
+msgstr "Instilación, tubo nasotraqueal"
+
+#. Title
+#: codelists/administrationRoute.csv:162
+msgid "Instillation, orojejunum tube"
+msgstr "Instilación, tubo de oroyeyuno"
+
+#. Title
+#: codelists/administrationRoute.csv:163
+msgid "Instillation, otic"
+msgstr "Instilación, ótica"
+
+#. Title
+#: codelists/administrationRoute.csv:164
+msgid "Instillation, peritoneal dialysis port"
+msgstr "Instilación, puerto de diálisis peritoneal"
+
+#. Title
+#: codelists/administrationRoute.csv:165
+msgid "Instillation, paranasal sinuses"
+msgstr "Instilación, senos paranasales"
+
+#. Title
+#: codelists/administrationRoute.csv:166
+msgid "Instillation, rectal"
+msgstr "Instilación, rectal"
+
+#. Title
+#: codelists/administrationRoute.csv:167
+msgid "Instillation, sinus, unspecified"
+msgstr "Instilación, sinusal, no especificada"
+
+#. Title
+#: codelists/administrationRoute.csv:168
+msgid "Instillation, soft tissue"
+msgstr "Instilación, tejidos blandos"
+
+#. Title
+#: codelists/administrationRoute.csv:169
+msgid "Instillation, tracheostomy"
+msgstr "Instilación, traqueotomía"
+
+#. Title
+#: codelists/administrationRoute.csv:170
+msgid "Instillation, transtympanic"
+msgstr "Instilación, transtimpánica"
+
+#. Title
+#: codelists/administrationRoute.csv:171
+msgid "Instillation, urethral"
+msgstr "Instilación, uretral"
+
+#. Title
+#: codelists/administrationRoute.csv:172
+msgid "Topical application, intracorneal"
+msgstr "Aplicación tópica, intracorneal"
+
+#. Title
+#: codelists/administrationRoute.csv:173
+msgid "Topical application, intracoronal (dental)"
+msgstr "Aplicación tópica, intracoronal (dental)"
+
+#. Title
+#: codelists/administrationRoute.csv:174
+msgid "Mucosal absorption, intraduodenal"
+msgstr "Absorción mucosa, intraduodenal"
+
+#. Title
+#: codelists/administrationRoute.csv:175
+msgid "Topical application, intraesophageal"
+msgstr "Aplicación tópica, intraesofágica"
+
+#. Title
+#: codelists/administrationRoute.csv:176
+msgid "Irrigation, intragastric"
+msgstr "Irrigación, intragástrica"
+
+#. Title
+#: codelists/administrationRoute.csv:177
+msgid "Lavage, intragastric"
+msgstr "Lavado, intragástrico"
+
+#. Title
+#: codelists/administrationRoute.csv:178
+msgid "Topical application, intraileal"
+msgstr " Aplicación tópica, intraileal"
+
+#. Title
+#: codelists/administrationRoute.csv:179
+msgid "Irrigation, intralesional"
+msgstr "Irrigación, intralesional"
+
+#. Title
+#: codelists/administrationRoute.csv:180
+msgid "Topical application, intralesional"
+msgstr "Aplicación tópica, intralesional"
+
+#. Title
+#: codelists/administrationRoute.csv:181
+msgid "Topical application, intraluminal"
+msgstr "Aplicación tópica, intraluminal"
+
+#. Title
+#: codelists/administrationRoute.csv:182
+msgid "Irrigation, intraocular"
+msgstr "Irrigación, intraocular"
+
+#. Title
+#: codelists/administrationRoute.csv:183
+msgid "Topical application, intraocular"
+msgstr "Aplicación tópica, intraocular"
+
+#. Title
+#: codelists/administrationRoute.csv:184
+msgid "Mucosal absorption, intratracheal"
+msgstr "Absorción mucosa, intratraqueal"
+
+#. Title
+#: codelists/administrationRoute.csv:185
+msgid "Irrigation, urinary bladder"
+msgstr "Irrigación, vejiga urinaria"
+
+#. Title
+#: codelists/administrationRoute.csv:186
+msgid "Irrigation, rectal"
+msgstr "Irrigación, rectal"
+
+#. Title
+#: codelists/administrationRoute.csv:187
+msgid "Topical application, laryngeal"
+msgstr "Aplicación tópica, laríngea"
+
+#. Title
+#: codelists/administrationRoute.csv:188
+msgid "Translingual"
+msgstr "Translingual"
+
+#. Title
+#: codelists/administrationRoute.csv:189
+msgid "Mucosal absorption, submucosal"
+msgstr "Absorción mucosa, submucosa"
+
+#. Title
+#: codelists/administrationRoute.csv:190
+msgid "Topical application, mucous membrane"
+msgstr "Aplicación tópica, membrana mucosa"
+
+#. Title
+#: codelists/administrationRoute.csv:191
+msgid "Topical application, nail"
+msgstr "Aplicación tópica, uñas"
+
+#. Title
+#: codelists/administrationRoute.csv:192
+msgid "Topical application, nasal"
+msgstr "Aplicación tópica, nasal"
+
+#. Title
+#: codelists/administrationRoute.csv:193
+msgid "Nebulization, endotracheal tube"
+msgstr "Nebulización, tubo endotraqueal"
+
+#. Title
+#: codelists/administrationRoute.csv:194
+msgid "Topical application, ophthalmic"
+msgstr "Aplicación tópica, oftálmica"
+
+#. Title
+#: codelists/administrationRoute.csv:195
+msgid "Topical application, oral"
+msgstr "Aplicación tópica, oral"
+
+#. Title
+#: codelists/administrationRoute.csv:196
+msgid "Rinse, oral"
+msgstr "Enjuague, bucal"
+
+#. Title
+#: codelists/administrationRoute.csv:197
+msgid "Swallow, oral"
+msgstr "Tragar, oral"
+
+#. Title
+#: codelists/administrationRoute.csv:198
+msgid "Gargle"
+msgstr "Gárgaras"
+
+#. Title
+#: codelists/administrationRoute.csv:199
+msgid "Topical application, oromucosal"
+msgstr "Aplicación tópica, oromucosal"
+
+#. Title
+#: codelists/administrationRoute.csv:200
+msgid "Suck, oromucosal"
+msgstr "Succión, uso bucal"
+
+#. Title
+#: codelists/administrationRoute.csv:201
+msgid "Swish and spit out, oromucosal"
+msgstr "Enjuagar y escupir, uso bucal"
+
+#. Title
+#: codelists/administrationRoute.csv:202
+msgid "Swish and swallow, oromucosal"
+msgstr "Enjuagar e ingerir, uso bucal"
+
+#. Title
+#: codelists/administrationRoute.csv:203
+msgid "Topical application, oropharyngeal"
+msgstr "Aplicación tópica, orofaríngea"
+
+#. Title
+#: codelists/administrationRoute.csv:204
+msgid "Topical application, perianal"
+msgstr "Aplicación tópica, perianal"
+
+#. Title
+#: codelists/administrationRoute.csv:205
+msgid "Topical application, perineal"
+msgstr "Aplicación tópica, perineal"
+
+#. Title
+#: codelists/administrationRoute.csv:206
+msgid "Topical application, periodontal"
+msgstr "Aplicación tópica, periodontal"
+
+#. Title
+#: codelists/administrationRoute.csv:207
+msgid "Topical application, rectal"
+msgstr "Aplicación tópica, rectal"
+
+#. Title
+#: codelists/administrationRoute.csv:208
+msgid "Insufflation"
+msgstr "Insuflación"
+
+#. Title
+#: codelists/administrationRoute.csv:209
+msgid "Transdermal"
+msgstr "Transdermal"
+
+#. Title
+#: codelists/administrationRoute.csv:210
+msgid "Topical application, scalp"
+msgstr "Aplicación tópica, cuero cabelludo"
+
+#. Title
+#: codelists/administrationRoute.csv:211
+msgid "Occlusive dressing technique"
+msgstr "Técnica de vendaje oclusivo"
+
+#. Title
+#: codelists/administrationRoute.csv:212
+msgid "Topical application, skin"
+msgstr "Aplicación tópica, piel"
+
+#. Title
+#: codelists/administrationRoute.csv:213
+msgid "Subconjunctival"
+msgstr "Subconjuntival"
+
+#. Title
+#: codelists/administrationRoute.csv:214
+msgid "Suppository, urethral"
+msgstr "Supositorio, uretral"
+
+#. Title
+#: codelists/administrationRoute.csv:215
+msgid "Topical absorption, transtympanic"
+msgstr "Absorción tópica, transtímpica"
+
+#. Title
+#: codelists/administrationRoute.csv:216
+msgid "Topical application, transmucosal"
+msgstr "Aplicación tópica, transmucosa"
+
+#. Title
+#: codelists/administrationRoute.csv:217
+msgid "Topical application, vaginal"
+msgstr "Aplicación tópica, vaginal"
+
+#: codelists/container.csv codelists/dosageForm.csv
+msgid "Description"
+msgstr "Descripción"
+
+#. Title
+#: codelists/container.csv:1
+msgid "Ampule"
+msgstr "Ampolla"
+
+#. Description
+#: codelists/container.csv:1
+msgid ""
+"Container sealed by fusion and to be opened exclusively by breaking. The "
+"contents are intended for use on one occasion only."
+msgstr ""
+"Envase sellado por fusión y para ser abierto exclusivamente por rotura. El "
+"contenido está destinado a ser utilizado en una sola ocasión."
+
+#. Title
+#: codelists/container.csv:2
+msgid "Bag"
+msgstr "Bolsa"
+
+#. Description
+#: codelists/container.csv:2
+msgid ""
+"Container consisting of surfaces, whether or not with a flat bottom, made of"
+" flexible material, generally closed at the bottom and at the sides by "
+"sealing; at the top possibly to be closed by fusion of the material, "
+"depending on the intended use. Equipped with special attachments. Contains "
+"the final preparation in one compartment or the components necessary for its"
+" preparation in different compartments."
+msgstr ""
+"Recipiente o envase formado por superficies, con fondo plano o no, de "
+"material flexible, generalmente cerradas en el fondo y en los laterales "
+"mediante precinto; en la parte superior puede cerrarse por fusión del "
+"material, según el uso previsto. Equipado con aditamentos especiales. "
+"Contiene la preparación final en un compartimento o los componentes "
+"necesarios para su preparación en diferentes compartimentos."
+
+#. Title
+#: codelists/container.csv:3
+msgid "Blister Pack"
+msgstr "Envase Blíster"
+
+#. Description
+#: codelists/container.csv:3
+msgid ""
+"Container (usually multidose) consisting of two layers of which one is "
+"shaped to contain the individual doses. Strips are excluded."
+msgstr ""
+"Envase (generalmente multidosis) formado por dos capas, una de las cuales "
+"tiene forma para contener las dosis individuales. Se excluyen las tiras."
+
+#. Title
+#: codelists/container.csv:4
+msgid "Bottle"
+msgstr "Botella"
+
+#. Description
+#: codelists/container.csv:4
+msgid ""
+"Container with a more or less pronounced neck and usually a flat bottom."
+msgstr ""
+"Recipiente o envase con un cuello más o menos pronunciado y normalmente con "
+"un fondo plano."
+
+#. Title
+#: codelists/container.csv:5
+msgid "Box"
+msgstr "Caja"
+
+#. Description
+#: codelists/container.csv:5
+msgid ""
+"Primary container consisting of one or more parts made of a light material, "
+"can be closed."
+msgstr ""
+"Recipiente o envase primario compuesto por una o varias partes de un "
+"material ligero, que puede cerrarse."
+
+#. Title
+#: codelists/container.csv:6
+msgid "Can"
+msgstr "Lata"
+
+#. Title
+#: codelists/container.csv:7
+msgid "Cartridge"
+msgstr "Recambio"
+
+#. Description
+#: codelists/container.csv:7
+msgid ""
+"Filled container, usually cylindrical, containing a sterile, single-dose or "
+"multidose, parenteral preparation; it contains the final preparation in one "
+"compartment, or the components necessary for its preparation in different "
+"compartments. It may be supplied as an integral part of a pre-filled pen or "
+"be intended for use in a reusable device especially designed for that "
+"purpose, such as a pen."
+msgstr ""
+"Recipiente o envase lleno, generalmente cilíndrico, que contiene una "
+"preparación parenteral estéril, monodosis o multidosis; contiene la "
+"preparación final en un compartimento, o los componentes necesarios para su "
+"preparación en diferentes compartimentos. Puede suministrarse como parte "
+"integrante de una pluma precargada o estar destinado a ser utilizado en un "
+"dispositivo reutilizable especialmente diseñado para ese fin, como una pluma"
+" inyectora."
+
+#. Title
+#: codelists/container.csv:8 codelists/dosageForm.csv:24
+msgid "Disk"
+msgstr "Disco"
+
+#. Title
+#: codelists/container.csv:9
+msgid "Dosette"
+msgstr "Caja de dosis o clasificador de píldoras"
+
+#. Title
+#: codelists/container.csv:10
+msgid "Jar"
+msgstr "Tarro"
+
+#. Description
+#: codelists/container.csv:10
+msgid ""
+"Container, without a pronounced neck, with a wide opening at the top and a "
+"more-or-less flat bottom. It is suited for semi-solid and solid "
+"pharmaceutical forms (including those that are stored/supplied in a liquid "
+"medium, such as living tissue equivalents). It can be reclosed."
+msgstr ""
+"Recipiente, sin cuello pronunciado, con una amplia apertura en la parte "
+"superior y un fondo más o menos plano. Es adecuado para formas farmacéuticas"
+" semisólidas y sólidas (incluidas las que se almacenan/suministran en un "
+"medio líquido, como los equivalentes de tejidos vivos). Se puede volver a "
+"cerrar."
+
+#. Title
+#: codelists/container.csv:11
+msgid "Jug"
+msgstr "Jarra"
+
+#. Title
+#: codelists/container.csv:12
+msgid "Minim"
+msgstr "Mínimo"
+
+#. Title
+#: codelists/container.csv:13
+msgid "Nebule Amp"
+msgstr "Nebulizador"
+
+#. Title
+#: codelists/container.csv:14
+msgid "Ovule"
+msgstr "Óvulo"
+
+#. Title
+#: codelists/container.csv:15
+msgid "Pouch"
+msgstr "Bolsa de medicinas"
+
+#. Description
+#: codelists/container.csv:15
+msgid ""
+"Item of packaging intended for use as an intermediate or outer container, "
+"intended to contain one or more medicinal product(s); it is made of a "
+"flexible material and may be for single use or be re-usable, and may be "
+"fitted with a closure system. Bags and sachets are excluded."
+msgstr ""
+"Elemento de envase destinado a ser utilizado como contenedor intermedio o "
+"exterior, destinado a contener uno o más medicamentos; está hecho de un "
+"material flexible y puede ser de un solo uso o reutilizable, y puede estar "
+"provisto de un sistema de cierre. Se excluyen las bolsas y los sobres."
+
+#. Title
+#: codelists/container.csv:16
+msgid "Packet"
+msgstr "Paquete"
+
+#. Title
+#: codelists/container.csv:17
+msgid "Sashet"
+msgstr "Sashet"
+
+#. Description
+#: codelists/container.csv:17
+msgid ""
+"Container consisting of two surfaces made of flexible material to be closed "
+"only by sealing or folding over. The contents are intended for single use."
+msgstr ""
+"Envase formado por dos superficies de material flexible que se cierra "
+"únicamente mediante precinto o plegado. El contenido está destinado a un "
+"solo uso."
+
+#. Title
+#: codelists/container.csv:18
+msgid "Strip"
+msgstr "Envase tira"
+
+#. Description
+#: codelists/container.csv:18
+msgid ""
+"Multidose container consisting of two layers, usually provided with "
+"perforations, suited for containing single doses of solid or semi-solid "
+"preparations. Blisters are excluded."
+msgstr ""
+"Envase multidosis formado por dos capas, generalmente provisto de "
+"perforaciones, adecuado para contener dosis individuales de preparados "
+"sólidos o semisólidos. Se excluyen los blísteres."
+
+#. Title
+#: codelists/container.csv:19
+msgid "Tin"
+msgstr "Envase de hojalata"
+
+#. Title
+#: codelists/container.csv:20
+msgid "Tub"
+msgstr "Bañera"
+
+#. Title
+#: codelists/container.csv:21
+msgid "Tube"
+msgstr "Tubo"
+
+#. Description
+#: codelists/container.csv:21
+msgid ""
+"Container for semi-solid pharmaceutical forms, usually multidose, consisting"
+" of collapsible material intended to release the contents via a nozzle by "
+"squeezing the package."
+msgstr ""
+"Envase para formas farmacéuticas semisólidas, generalmente multidosis, "
+"compuesto por material plegable destinado a liberar el contenido a través de"
+" una boquilla al apretar el envase."
+
+#. Title
+#: codelists/container.csv:22
+msgid "Vial"
+msgstr "Frasco"
+
+#. Description
+#: codelists/container.csv:22
+msgid ""
+"Small container for parenteral medicinal products, with a stopper and "
+"overseal; the contents are removed after piercing the stopper. Single-dose "
+"and multidose uses are included."
+msgstr ""
+"Pequeño envase para medicamentos parenterales, con tapón y sobretapa; el "
+"contenido se extrae tras perforar el tapón. Se incluyen usos de monodosis y "
+"multidosis."
+
+#. Title
+#: codelists/dosageForm.csv:1
+msgid "Applicatorful"
+msgstr "Aplicador"
+
+#. Title
+#: codelists/dosageForm.csv:2
+msgid "Drops"
+msgstr "Gotas"
+
+#. Title
+#: codelists/dosageForm.csv:3
+msgid "Puff"
+msgstr "Inhalador"
+
+#. Title
+#: codelists/dosageForm.csv:4
+msgid "Scoops"
+msgstr "Cucharadas"
+
+#. Title
+#: codelists/dosageForm.csv:5
+msgid "Sprays"
+msgstr "Aerosoles"
+
+#. Title
+#: codelists/dosageForm.csv:6
+msgid "Gas for Inhalation"
+msgstr "Oxígeno Medicinal (Gas para inhalación)"
+
+#. Title
+#: codelists/dosageForm.csv:7
+msgid "Aerosol"
+msgstr "Aerosol"
+
+#. Title
+#: codelists/dosageForm.csv:8
+msgid "Foam"
+msgstr "Espuma"
+
+#. Title
+#: codelists/dosageForm.csv:9
+msgid "Inhalant"
+msgstr "Inhalante"
+
+#. Title
+#: codelists/dosageForm.csv:10
+msgid "Liquid Cleanser"
+msgstr "Limpiador líquido"
+
+#. Title
+#: codelists/dosageForm.csv:11
+msgid "Oil"
+msgstr "Aceite"
+
+#. Description
+#: codelists/dosageForm.csv:11
+msgid ""
+"An unctuous, combustible substance which is liquid, or easily liquefiable, "
+"on warming, and is soluble in ether but insoluble in water. Such substances,"
+" depending on their origin, are classified as animal, mineral, or vegetable "
+"oils."
+msgstr ""
+"Sustancia untuosa y combustible que es líquida, o fácilmente licuable, al "
+"calentarse, y es soluble en éter pero insoluble en agua. Estas sustancias, "
+"según su origen, se clasifican en aceites animales, minerales o vegetales."
+
+#. Title
+#: codelists/dosageForm.csv:12
+msgid "Solution"
+msgstr "Solución líquida"
+
+#. Description
+#: codelists/dosageForm.csv:12
+msgid ""
+"A liquid preparation that contains one or more chemical substances "
+"dissolved, i.e., molecularly dispersed, in a suitable solvent or mixture of "
+"mutually miscible solvents."
+msgstr ""
+"Preparación líquida que contiene una o más sustancias químicas disueltas, es"
+" decir, molecularmente dispersas, en un disolvente adecuado o en una mezcla "
+"de disolventes mutuamente miscibles."
+
+#. Title
+#: codelists/dosageForm.csv:13
+msgid "Cream"
+msgstr "Crema"
+
+#. Description
+#: codelists/dosageForm.csv:13
+msgid ""
+"A semisolid dosage form containing one or more drug substances dissolved or "
+"dispersed in a suitable base; more recently, the term has been restricted to"
+" products consisting of oil-in-water emulsions or aqueous microcrystalline "
+"dispersions of long chain fatty acids or alcohols that are water washable "
+"and more cosmetically and aesthetically acceptable."
+msgstr ""
+"Forma de dosificación semisólida que contiene una o más sustancias "
+"farmacológicas disueltas o dispersas en una base adecuada; más "
+"recientemente, el término se ha restringido a productos que consisten en "
+"emulsiones de aceite en agua o dispersiones acuosas microcristalinas de "
+"ácidos grasos de cadena larga o alcoholes que son lavables con agua y más "
+"aceptables cosmética y estéticamente."
+
+#. Title
+#: codelists/dosageForm.csv:14
+msgid "Lotion"
+msgstr "Loción"
+
+#. Description
+#: codelists/dosageForm.csv:14
+msgid ""
+"The term \"lotion\" has been used to categorize many topical suspensions, "
+"solutions and emulsions intended for application to the skin."
+msgstr ""
+"El término \"loción\" se ha utilizado para clasificar muchas suspensiones, "
+"soluciones y emulsiones tópicas destinadas a ser aplicadas en la piel."
+
+#. Title
+#: codelists/dosageForm.csv:15
+msgid "Ointment"
+msgstr " Ungüento"
+
+#. Description
+#: codelists/dosageForm.csv:15
+msgid ""
+"A semisolid preparation intended for external application to the skin or "
+"mucous membranes."
+msgstr ""
+"Preparado semisólido destinado a la aplicación externa sobre la piel o las "
+"mucosas."
+
+#. Title
+#: codelists/dosageForm.csv:16
+msgid "Gel"
+msgstr "Gel"
+
+#. Description
+#: codelists/dosageForm.csv:16
+msgid ""
+"A semisolid system consisting of either suspensions made up of small "
+"inorganic particles or large organic molecules interpenetrated by a liquid."
+msgstr ""
+"Sistema semisólido formado por suspensiones de pequeñas partículas "
+"inorgánicas o grandes moléculas orgánicas interpenetradas por un líquido."
+
+#. Title
+#: codelists/dosageForm.csv:17
+msgid "Paste"
+msgstr "Pasta"
+
+#. Description
+#: codelists/dosageForm.csv:17
+msgid ""
+"A semisolid dosage form that contains one or more drug substances intended "
+"for topical application."
+msgstr ""
+"Forma de dosificación farmacéutica semisólida que contiene una o más "
+"sustancias farmacológicas destinadas a la aplicación tópica."
+
+#. Title
+#: codelists/dosageForm.csv:18
+msgid "Suspension"
+msgstr "Suspensión"
+
+#. Title
+#: codelists/dosageForm.csv:19
+msgid "Bar"
+msgstr "Barra"
+
+#. Title
+#: codelists/dosageForm.csv:20
+msgid "Beads"
+msgstr "Perlas"
+
+#. Description
+#: codelists/dosageForm.csv:20
+msgid "A solid dosage form in the shape of a small ball."
+msgstr ""
+"Una forma de dosificación farmacéutica sólida en forma de una pequeña bola."
+
+#. Title
+#: codelists/dosageForm.csv:21
+msgid "Cake"
+msgstr "Pastel"
+
+#. Title
+#: codelists/dosageForm.csv:22
+msgid "Cement"
+msgstr "Cemento"
+
+#. Description
+#: codelists/dosageForm.csv:22
+msgid "A substance that serves to produce solid union between two surfaces."
+msgstr ""
+"Sustancia que sirve para producir una unión sólida entre dos superficies."
+
+#. Title
+#: codelists/dosageForm.csv:23
+msgid "Crystals"
+msgstr "Cristales"
+
+#. Description
+#: codelists/dosageForm.csv:23
+msgid ""
+"A naturally produced angular solid of definite form in which the ultimate "
+"units from which it is built up are systematically arranged; they are "
+"usually evenly spaced on a regular space lattice."
+msgstr ""
+"Sólido angular de forma definida, producido naturalmente, en el que las "
+"últimas unidades a partir de las cuales se construye están sistemáticamente "
+"dispuestas; suelen estar uniformemente espaciadas en un entramado espacial "
+"regular."
+
+#. Description
+#: codelists/dosageForm.csv:24
+msgid "A circular plate-like organ or structure."
+msgstr "Órgano o estructura circular en forma de placa."
+
+#. Title
+#: codelists/dosageForm.csv:25
+msgid "Flakes"
+msgstr "Copos/escamas"
+
+#. Title
+#: codelists/dosageForm.csv:26
+msgid "Granules"
+msgstr "Gránulos"
+
+#. Description
+#: codelists/dosageForm.csv:26
+msgid "A small particle or grain."
+msgstr "Una pequeña partícula o grano."
+
+#. Title
+#: codelists/dosageForm.csv:27
+msgid "ChewingGum"
+msgstr "Goma de Mascar"
+
+#. Description
+#: codelists/dosageForm.csv:27
+msgid ""
+"A sweetened and flavored insoluble plastic material of various shapes which "
+"when chewed, releases a drug substance into the oral cavity."
+msgstr ""
+"Material plástico insoluble, azucarado y aromatizado, de diversas formas, "
+"que al ser masticado libera una sustancia farmacológica en la cavidad bucal."
+
+#. Title
+#: codelists/dosageForm.csv:28
+msgid "Pad"
+msgstr "Apósito"
+
+#. Title
+#: codelists/dosageForm.csv:29
+msgid "Patch"
+msgstr "Parche"
+
+#. Description
+#: codelists/dosageForm.csv:29
+msgid ""
+"A drug delivery system that contains an adhesived backing and that permits "
+"its ingredients to diffuse from some portion of it (e.g., the backing "
+"itself, a reservoir, the adhesive, or some other component) into the body "
+"from the external site where it is applied."
+msgstr ""
+"Un sistema de administración de fármacos que contiene un soporte adhesivo y "
+"que permite que sus ingredientes se difundan desde alguna parte del mismo "
+"(por ejemplo, el propio soporte, un depósito, el adhesivo o algún otro "
+"componente) hacia el cuerpo desde el lugar externo donde se aplica."
+
+#. Title
+#: codelists/dosageForm.csv:30
+msgid "Pellet"
+msgstr "Pellet (Gránulo)"
+
+#. Description
+#: codelists/dosageForm.csv:30
+msgid ""
+"A small sterile solid mass consisting of a highly purified drug (with or "
+"without excipients) made by the formation of granules, or by compression and"
+" molding."
+msgstr ""
+"Pequeña masa sólida estéril que consiste en un fármaco altamente purificado "
+"(con o sin excipientes) fabricado por la formación de gránulos, o por "
+"compresión y moldeo."
+
+#. Title
+#: codelists/dosageForm.csv:31
+msgid "Pill"
+msgstr "Píldora"
+
+#. Description
+#: codelists/dosageForm.csv:31
+msgid ""
+"A small, round solid dosage form containing a medicinal agent intended for "
+"oral administration."
+msgstr ""
+"Forma de dosificación sólida, pequeña y redonda, que contiene un agente "
+"medicinal destinado a la administración oral."
+
+#. Title
+#: codelists/dosageForm.csv:32
+msgid "Powder"
+msgstr "Polvo"
+
+#. Description
+#: codelists/dosageForm.csv:32
+msgid ""
+"An intimate mixture of dry, finely divided drugs and/or chemicals that may "
+"be intended for internal or external use."
+msgstr ""
+"Mezcla íntima de fármacos y/o productos químicos secos y finamente divididos"
+" que pueden estar destinados a un uso interno o externo."
+
+#. Title
+#: codelists/dosageForm.csv:33
+msgid "Suppository"
+msgstr "Supositorio"
+
+#. Description
+#: codelists/dosageForm.csv:33
+msgid ""
+"A solid body of various weights and shapes, adapted for introduction into "
+"the rectal, vaginal, or urethral orifice of the human body; they usually "
+"melt, soften, or dissolve at body temperature."
+msgstr ""
+"Cuerpo sólido de diversos pesos y formas, adaptado para su introducción en "
+"el orificio rectal, vaginal o uretral del cuerpo humano; suelen fundirse, "
+"ablandarse o disolverse a la temperatura corporal."
+
+#. Title
+#: codelists/dosageForm.csv:34
+msgid "Swab"
+msgstr "Hisopo"
+
+#. Description
+#: codelists/dosageForm.csv:34
+msgid ""
+"A wad of absorbent material usually wound around one end of a small stick "
+"and used for applying medication or for removing material from an area."
+msgstr ""
+"Fajo de material absorbente que suele enrollarse en un extremo de un pequeño"
+" bastón y que se utiliza para aplicar la medicación o para retirar el "
+"material de una zona."
+
+#. Title
+#: codelists/dosageForm.csv:35
+msgid "Wafer"
+msgstr "Oblea"
+
+#. Description
+#: codelists/dosageForm.csv:35
+msgid "A thin slice of material containing a medicinal agent."
+msgstr "Una fina porción de material que contiene un agente medicinal."
