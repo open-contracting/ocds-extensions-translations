@@ -1,27 +1,28 @@
 # Translations template for PROJECT.
-# Copyright (C) 2021 ORGANIZATION
+# Copyright (C) 2022 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 # 
 # Translators:
 # Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2019
 # Romina Fernandez <rfernandez@cds.com.py>, 2020
 # James McKinney, 2021
 # Cecilia Casco <ceciliacasco@cds.com.py>, 2021
+# Maria Esther Cervantes <mcervantes@cds.com.py>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-07-31 13:35-0400\n"
+"POT-Creation-Date: 2022-03-07 18:41-0300\n"
 "PO-Revision-Date: 2019-03-14 18:27+0000\n"
-"Last-Translator: Cecilia Casco <ceciliacasco@cds.com.py>, 2021\n"
+"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2022\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Generated-By: Babel 2.9.1\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -67,6 +68,30 @@ msgstr ""
 "Cuando se usan los detalles de la oferta, una referencia cruzada a la "
 "entrada en la lista de ofertas a la que se refiere esta adjudicación. "
 "Proporcione el identificador de oferta aquí."
+
+#. /definitions/Award/properties/relatedBid/deprecated/description
+#: release-schema.json:1
+msgid ""
+"This field is deprecated in favor of `relatedBids`, to allow an award to "
+"combine multiple bids."
+msgstr ""
+"El campo se descontinúa a favor de  `relatedBids` para permitir a una "
+"adjudicación combinar múltiples ofertas."
+
+#. /definitions/Award/properties/relatedBids/title
+#: release-schema.json:1
+msgid "Related bids"
+msgstr "Ofertas relacionadas"
+
+#. /definitions/Award/properties/relatedBids/description
+#: release-schema.json:1
+msgid ""
+"Where bid details are used, a cross reference to the entries in the bids "
+"array to which this award relates. Provide the bid identifiers here."
+msgstr ""
+"Dónde se usan los detalles de la oferta, una referencia cruzada a las "
+"entradas del array de ofertas al cuál se relaciona esta adjudicación. Aquí "
+"se deben de poner los identificadores de ofertas. "
 
 #. /definitions/BidsStatistic/title
 #: release-schema.json:1
@@ -248,11 +273,11 @@ msgstr "Oferta"
 #. /definitions/Bid/description
 #: release-schema.json:1
 msgid ""
-"For representing a bid in response to the tender or qualification stage in "
-"this contracting process."
+"For representing a bid or quote in response to the tender or qualification "
+"stage in this contracting process."
 msgstr ""
-"Para representar una oferta en respuesta a la licitación o etapa de "
-"calificación en esta etapa de contratación."
+"Para representar una oferta o cotización como respuesta a la etapa de "
+"licitación o de calificación en este proceso de contratación."
 
 #. /definitions/Bid/properties/id/description
 #: release-schema.json:1
@@ -264,6 +289,20 @@ msgstr "Un identificador local para esta oferta"
 msgid "The date when this bid was received."
 msgstr "La fecha en que se recibió esta oferta."
 
+#. /definitions/Bid/properties/description/title
+#: release-schema.json:1
+msgid "Description"
+msgstr "Descripción"
+
+#. /definitions/Bid/properties/description/description
+#: release-schema.json:1
+msgid ""
+"A description of this bid. The description field may be used to describe the"
+" terms and conditions for the bid."
+msgstr ""
+"Una descripción de esta oferta. El campo descripción puede utilizarse para "
+"describir los términos y condiciones de la oferta."
+
 #. /definitions/Bid/properties/status/title
 #: release-schema.json:1
 msgid "Status"
@@ -273,6 +312,22 @@ msgstr "Estado"
 #: release-schema.json:1
 msgid "The status of the bid."
 msgstr "El estado de la oferta."
+
+#. /definitions/Bid/properties/items/title
+#: release-schema.json:1
+msgid "Items offered by the tenderer(s)"
+msgstr "Artículos ofrecidos por los licitador(es)"
+
+#. /definitions/Bid/properties/items/description
+#: release-schema.json:1
+msgid ""
+"The goods, works or services offered by the tenderer(s), broken into line "
+"items wherever possible. Items should not be duplicated, but the quantity "
+"specified instead."
+msgstr ""
+"Los bienes, trabajos o servicios ofrecidos por el licitador(es), dividos en "
+"líneas de artículos cuando sea posible. Los artículos no deben de "
+"duplicarse, se debe específicar la cantidad."
 
 #. /definitions/Bid/properties/tenderers/title
 #: release-schema.json:1
@@ -288,6 +343,16 @@ msgstr "La parte, o partes, responsable(s) por esta oferta."
 #: release-schema.json:1
 msgid "The total value of the bid."
 msgstr "El valor total de la oferta."
+
+#. /definitions/Bid/properties/validityPeriod/title
+#: release-schema.json:1
+msgid "Validity period"
+msgstr "Período de validez"
+
+#. /definitions/Bid/properties/validityPeriod/description
+#: release-schema.json:1
+msgid "The period for which this bid is valid."
+msgstr "El período en el cuál la oferta es válida."
 
 #. /definitions/Bid/properties/documents/title
 #: release-schema.json:1

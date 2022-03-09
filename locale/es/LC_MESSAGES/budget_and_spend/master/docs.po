@@ -8,16 +8,16 @@
 # James McKinney, 2021
 # Natalia Valdez <nataliavaldez@cds.com.py>, 2021
 # Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
-# Maria Esther Cervantes <mcervantes@cds.com.py>, 2021
+# Maria Esther Cervantes <mcervantes@cds.com.py>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-31 13:34-0400\n"
+"POT-Creation-Date: 2022-03-07 18:41-0300\n"
 "PO-Revision-Date: 2019-03-20 18:30+0000\n"
-"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2021\n"
+"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2022\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -288,6 +288,10 @@ msgstr ""
 "extensions/ocds_budget_and_spend_extension/master/images/budget-contract-"
 "spend.png)"
 
+#: ../README.md:43
+msgid "Budget, Contract and Spending relationships"
+msgstr "Relaciones de Presupuesto, Contrataciones y Gasto"
+
 #: ../README.md:45
 msgid ""
 "The image above presents a schematic representation of how budget, "
@@ -370,6 +374,10 @@ msgstr ""
 "(https://raw.githubusercontent.com/open-contracting-"
 "extensions/ocds_budget_and_spend_extension/master/images/transaction-"
 "contracting_process.png)"
+
+#: ../README.md:55
+msgid "Transaction and contracting process mapping"
+msgstr "Mapeo de transacciones y el proceso de contratación"
 
 #: ../README.md:57
 msgid ""

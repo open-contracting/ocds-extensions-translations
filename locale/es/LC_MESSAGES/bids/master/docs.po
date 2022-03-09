@@ -6,16 +6,16 @@
 # Translators:
 # James McKinney, 2021
 # Cecilia Casco <ceciliacasco@cds.com.py>, 2021
-# Maria Esther Cervantes <mcervantes@cds.com.py>, 2021
+# Maria Esther Cervantes <mcervantes@cds.com.py>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-31 13:34-0400\n"
+"POT-Creation-Date: 2022-03-07 18:41-0300\n"
 "PO-Revision-Date: 2019-03-14 18:27+0000\n"
-"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2021\n"
+"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2022\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -84,10 +84,16 @@ msgstr ""
 "régimen regulatorio local y los casos de uso locales."
 
 #: ../README.md:13
+msgid "This extension can also be used to publish data on quotes."
+msgstr ""
+"Esta extensión también se puede utilizar para publicar datos sobre "
+"cotizaciones."
+
+#: ../README.md:15
 msgid "Schema"
 msgstr "Esquema"
 
-#: ../README.md:15
+#: ../README.md:17
 msgid ""
 "The `bids.details` array is used to provide one or more `Bid` objects, each "
 "representing a unique bid received."
@@ -95,7 +101,7 @@ msgstr ""
 "La lista `bids/details` se utiliza para proporcionar uno o más objetos ` "
 "Bid`, cada uno de los cuales representa una única oferta recibida."
 
-#: ../README.md:17
+#: ../README.md:19
 msgid ""
 "The `bids.statistics` array is used to represent key statistical information"
 " about the number of bids and bidders. Each entry in the array is a "
@@ -105,19 +111,19 @@ msgstr ""
 "sobre el número de ofertas y licitadores. En cada entrada de la matriz hay "
 "un objeto `BidsStatistic` que contiene al menos:"
 
-#: ../README.md:19
+#: ../README.md:21
 msgid "An identifier"
 msgstr "Un identificador"
 
-#: ../README.md:20
+#: ../README.md:22
 msgid "A measure, from the `bidStatistics.csv` codelist"
 msgstr "Una medida, de la lista de códigos `bidStatistics.csv`"
 
-#: ../README.md:21
+#: ../README.md:23
 msgid "A value for that measure"
 msgstr "Un valor para esa medida"
 
-#: ../README.md:23
+#: ../README.md:25
 msgid ""
 "The `bidStatistics.csv` codelist is an **open** codelist. Publishers can add"
 " their own codes to this list. When doing so, publishers are encouraged to "
@@ -129,7 +135,7 @@ msgstr ""
 "hacerlo, se alienta a los publicadores a comprometerse con la comunidad de "
 "contrataciones abiertas para acordar las definiciones de cada código."
 
-#: ../README.md:25
+#: ../README.md:27
 msgid ""
 "For example, publishers may wish to add statistics on minority or women-"
 "owned businesses, or bids that meet certain environmental standards and "
@@ -139,7 +145,7 @@ msgstr ""
 "negocios pertenecientes a minorías o mujeres, u ofertas que cumplan ciertos "
 "estándares y metas ambientales."
 
-#: ../README.md:27
+#: ../README.md:29
 msgid ""
 "The codelist's Category column indicates whether the statistic applies to "
 "bids or bidders or whether it is specified or required by a particular "
@@ -149,19 +155,65 @@ msgstr ""
 "a las ofertas u ofertantes o si esta especificado o requerido por una "
 "categoría particular del contexto regulatorio (ej. UE)"
 
-#: ../README.md:29
+#: ../README.md:31
+msgid "Guidance"
+msgstr "Guía "
+
+#: ../README.md:33
+msgid "Correcting a bid's value"
+msgstr "Corregir el valor de una oferta"
+
+#: ../README.md:35
+msgid ""
+"Buyers and procuring entities – and, in some jurisdictions, bidders – can "
+"correct a bid's value after the bid is submitted: for example, to correct an"
+" arithmetical error or a misplaced decimal mark."
+msgstr ""
+"Los compradores y entidades contratantes – y en algunas jurisdicciones, los "
+"oferentes – puden corregir el valor de una oferta después de que se envía la"
+" oferta: por ejemplo, para corregir un error aritmético o un punto decimal "
+"erróneo "
+
+#: ../README.md:37
+msgid ""
+"In OCDS, the bid's value is disclosed via the `bids.details.value` field. If"
+" a bid's value is corrected, the value of the `bids.details.value` field is "
+"overwritten. As such, the originally submitted value is only available via "
+"the contracting process' [change history](https://standard.open-"
+"contracting.org/latest/en/primer/releases_and_records/)."
+msgstr ""
+"En el OCDS, el valor de la oferta se publica con el campo "
+"`bids.details.value` . Si el valor de la oferta se corrige, el valor del "
+"campo `bids.details.value` queda sobreescrito. Si esto pasa, el valor "
+"original solo está disponible a través del proceso de contratación ' [change"
+" history](https://standard.open-"
+"contracting.org/latest/en/primer/releases_and_records/)."
+
+#: ../README.md:39
+msgid ""
+"As a publisher, to make both the original and corrected values available to "
+"users, publish at least two releases for the contracting process: one "
+"release containing the bid's originally submitted value and another "
+"containing its corrected value."
+msgstr ""
+"Como publicador, para hacer que tanto los valores originales como los "
+"valores corregidos esten disponibles para los usuarios, publique al menos "
+"dos entregas para el proceso de contratación: una entrega con el valor "
+"original de la oferta y otra con el valor corregido."
+
+#: ../README.md:41
 msgid "Example"
 msgstr "Ejemplo"
 
-#: ../README.md:31
+#: ../README.md:43
 msgid "Below is an example of a bids extension:"
 msgstr "A continuación se muestra un ejemplo de una extensión de ofertas:"
 
-#: ../README.md:129
+#: ../README.md:132
 msgid "Issues"
 msgstr "Issues"
 
-#: ../README.md:131
+#: ../README.md:134
 msgid ""
 "Report issues for this extension in the [ocds-extensions "
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "
@@ -171,27 +223,49 @@ msgstr ""
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
 "el nombre de la extensión en el título del issue."
 
-#: ../README.md:133
+#: ../README.md:136
 msgid "Changelog"
 msgstr "Registro de cambios"
 
-#: ../README.md:135
+#: ../README.md:138
 msgid "Unreleased"
 msgstr "No entregado"
 
-#: ../README.md:137
+#: ../README.md:140
+msgid "Add `Award.relatedBids` field, and deprecate `Award.relatedBid` field"
+msgstr ""
+"Añadir el campo `Award.relatedBids` y descontinuar el campo "
+"`Award.relatedBid` "
+
+#: ../README.md:141
 msgid "Add `BidsStatistic.valueGross` field"
 msgstr "Agregar el campo `BidsStatistic.valueGross`"
 
-#: ../README.md:139
+#: ../README.md:142
+msgid "Add `Bid.items` field"
+msgstr "Añadir el campo `Bid.items`"
+
+#: ../README.md:143
+msgid "Add `Bid.validityPeriod` field"
+msgstr "Añadir el campo `Bid.validityPeriod`"
+
+#: ../README.md:144
+msgid "Add `Bid.description` field"
+msgstr "Añadir el campo  `Bid.description`"
+
+#: ../README.md:145
+msgid "Add guidance on correcting bid values"
+msgstr "Añadir guía sobre como corregir los valores de una oferta"
+
+#: ../README.md:147
 msgid "v1.1.5"
 msgstr "v1.1.5"
 
-#: ../README.md:141
+#: ../README.md:149
 msgid "Add `BidsStatistic.currency` field"
 msgstr "Añada el campo `BidsStatistic.currency`"
 
-#: ../README.md:142
+#: ../README.md:150
 msgid ""
 "Add 'lowestValidBidValue' and 'highestValidBidValue' codes to "
 "`bidStatistics.csv`"
@@ -199,20 +273,20 @@ msgstr ""
 "Añada los códigos 'lowestValidBidValue' y 'highestValidBidValue' a "
 "`bidStatistics.csv`"
 
-#: ../README.md:143
+#: ../README.md:151
 msgid "Remove type information from field descriptions"
 msgstr ""
 "Quitar la información sobre el tipo de las descripciones de los campos"
 
-#: ../README.md:144
+#: ../README.md:152
 msgid "Review normative and non-normative words"
 msgstr "Revisar las palabras normativas y no-normativas"
 
-#: ../README.md:146
+#: ../README.md:154
 msgid "v1.1.4"
 msgstr "v1.1.4"
 
-#: ../README.md:148
+#: ../README.md:156
 msgid ""
 "Fix the title and description of the 'foreignBidsFromEU' code to refer to "
 "the European Economic Area (EEA). Previously, its title referred to the "
@@ -223,16 +297,16 @@ msgstr ""
 "refería al Mercado Único Europeo, pero su descripción enlistaba los miembros"
 " del AEE."
 
-#: ../README.md:149
+#: ../README.md:157
 msgid "Add a 'foreignBidsFromNonEU' code to `bidStatistics.csv`"
 msgstr "Añade el código `foreignBidsFromNonEU a `bidStatistics.csv`"
 
-#: ../README.md:150
+#: ../README.md:158
 msgid "Remove invalid `required` property on array field `Bids.details`"
 msgstr ""
 "Quitar propiedad invalida `required` en la matriz del campo `Bids.details`"
 
-#: ../README.md:151
+#: ../README.md:159
 msgid ""
 "Fix the merge behavior of `Bids.statistics` and `Bid.tenderers` to use "
 "identifier merge strategy"
@@ -240,19 +314,19 @@ msgstr ""
 "Arreglar el comportamiento de unión de  `Bids.statistics` a  `Bid.tenderers`"
 " para identificar la estrategia de unión de los identificadores"
 
-#: ../README.md:152
+#: ../README.md:160
 msgid "Remove Sphinx directives from readme"
 msgstr "Quita las directrices Sphinx del readme"
 
-#: ../README.md:153
+#: ../README.md:161
 msgid "Update extension.json for Extension Explorer"
 msgstr "Añadir extension.json para el Extension Explorer"
 
-#: ../README.md:155
+#: ../README.md:163
 msgid "v1.1.3"
 msgstr "v1.1.3"
 
-#: ../README.md:157
+#: ../README.md:165
 msgid ""
 "Disallow required fields `BidsStatistic.id`, `BidsStatistic.measure`, "
 "`BidsStatistic.value` from being null"
@@ -260,35 +334,35 @@ msgstr ""
 "No permitir que los campos requeridos `BidsStatistic.id`,` "
 "BidsStatistic.measure`, `BidsStatistic.value` sean null"
 
-#: ../README.md:158
+#: ../README.md:166
 msgid "Disallow `Bids.statistics` from having null in its array of objects"
 msgstr "No permitir que `Bids.statistics` tenga null en su lista de objetos"
 
-#: ../README.md:159
+#: ../README.md:167
 msgid "Allow `Bids.statistics` to be null"
 msgstr "Permitir que `Bids.statistics` sea null"
 
-#: ../README.md:160
+#: ../README.md:168
 msgid "Add enum to `Bid.status`"
 msgstr "Agregar enum a `Bid.status`"
 
-#: ../README.md:161
+#: ../README.md:169
 msgid "Move `BidsStatistic.requirementResponses` to requirements extension"
 msgstr ""
 "Mover `BidsStatistic.requirementResponses` a la extensión de requisitos"
 
-#: ../README.md:162
+#: ../README.md:170
 msgid "Add descriptions to bidStatus.csv"
 msgstr "Agregar descripciones a bidStatus.csv"
 
-#: ../README.md:163
+#: ../README.md:171
 msgid "List codelists in extension.json"
 msgstr "Enlista listas de códigos en extension.json"
 
-#: ../README.md:164
+#: ../README.md:172
 msgid "Add example to documentation"
 msgstr "Agregar un ejemplo a la documentación"
 
-#: ../README.md:165
+#: ../README.md:173
 msgid "Add tests and tidy code"
 msgstr "Agregar pruebas y ordenar el código"

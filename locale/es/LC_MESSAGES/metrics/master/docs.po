@@ -6,15 +6,16 @@
 # Translators:
 # James McKinney, 2021
 # Natalia Valdez <nataliavaldez@cds.com.py>, 2021
+# Maria Esther Cervantes <mcervantes@cds.com.py>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-31 13:34-0400\n"
+"POT-Creation-Date: 2022-03-07 18:41-0300\n"
 "PO-Revision-Date: 2019-03-14 18:26+0000\n"
-"Last-Translator: Natalia Valdez <nataliavaldez@cds.com.py>, 2021\n"
+"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2022\n"
 "Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -85,12 +86,12 @@ msgstr ""
 #: ../README.md:14
 msgid ""
 "Where the metrics extension is used to model targets for a contracting "
-"process, the `description` field can be used to start whether the target is "
-"a minimum or recommended target."
+"process, the `description` field can be used to indicate whether the target "
+"is a minimum or recommended target."
 msgstr ""
-"Cuando la extensión de métricas se utiliza para modelar objetivos para un "
-"proceso de contratación, el campo `description` puede utilizarse para "
-"iniciar si el objetivo es un objetivo mínimo o recomendado."
+"Dónde se usa la extensión métricas para modelar objetivos para un proceso de"
+" contratación, el campo `description` puede usarse para indicar si el "
+"objetivo es un mínimo o un objetivo recomendando. "
 
 #: ../README.md:16
 msgid "Example"
