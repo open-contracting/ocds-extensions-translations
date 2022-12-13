@@ -83,7 +83,7 @@ Push the new source files:
 
 ```
 for i in (egrep (echo $extensions | tr ' ' '|') .tx/config | grep ] | tr -d '[]')
-  tx push -s -r $i
+  tx push -s $i
 end
 ```
 
@@ -128,7 +128,7 @@ Push the new source files:
 
 ```
 for i in (grep $new_version_underscored .tx/config | tr -d '[]')
-  tx push -s -r $i
+  tx push -s $i
 end
 ```
 
@@ -136,7 +136,7 @@ Push the pre-populated translation files:
 
 ```
 for i in (grep $new_version_underscored .tx/config | tr -d '[]')
-  tx push -t -r $i -f --no-interactive
+  tx push -f -t $i
 end
 ```
 
