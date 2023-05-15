@@ -76,7 +76,7 @@ Note: If this step had previously been skipped, you can remove the `$extensions`
 Update the `.tx/config` file:
 
 ```
-sphinx-intl update-txconfig-resources --transifex-project-name ocds-extensions --pot-dir build/locale --locale-dir locale
+sphinx-intl update-txconfig-resources --transifex-organization-name open-contracting-partnership-1 --transifex-project-name ocds-extensions --pot-dir build/locale --locale-dir locale
 ```
 
 Push the new source files:
@@ -121,7 +121,7 @@ end
 Update the `.tx/config` file:
 
 ```
-sphinx-intl update-txconfig-resources --transifex-project-name ocds-extensions --pot-dir build/locale --locale-dir locale 
+sphinx-intl update-txconfig-resources --transifex-organization-name open-contracting-partnership-1 --transifex-project-name ocds-extensions --pot-dir build/locale --locale-dir locale 
 ```
 
 Push the new source files:
