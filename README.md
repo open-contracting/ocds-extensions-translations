@@ -2,6 +2,18 @@
 
 To update this repository, see [these instructions on translating extensions](https://ocdsextensionregistry.readthedocs.io/en/latest/translation.html).
 
+To limit use of Transifex, use the `--no-frozen` option when generating POT files.
+
+The following extensions are currently excluded from Transifex, because the source strings have not changed since 2020:
+
+- contract_suppliers
+- documentation_details
+- milestone_documents
+- process_title
+- releasePublisher
+- releaseSource
+- tender_datePublished
+
 ## Commands
 
 ### Setup

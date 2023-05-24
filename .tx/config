@@ -73,42 +73,6 @@ source_file  = build/locale/bids/master/schema.pot
 type         = PO
 minimum_perc = 0
 
-[o:open-contracting-partnership-1:p:ocds-extensions:r:bids--v1_1_4--codelists]
-file_filter  = locale/<lang>/LC_MESSAGES/bids/v1.1.4/codelists.po
-source_file  = build/locale/bids/v1.1.4/codelists.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:bids--v1_1_4--docs]
-file_filter  = locale/<lang>/LC_MESSAGES/bids/v1.1.4/docs.po
-source_file  = build/locale/bids/v1.1.4/docs.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:bids--v1_1_4--schema]
-file_filter  = locale/<lang>/LC_MESSAGES/bids/v1.1.4/schema.po
-source_file  = build/locale/bids/v1.1.4/schema.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:bids--v1_1_5--codelists]
-file_filter  = locale/<lang>/LC_MESSAGES/bids/v1.1.5/codelists.po
-source_file  = build/locale/bids/v1.1.5/codelists.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:bids--v1_1_5--docs]
-file_filter  = locale/<lang>/LC_MESSAGES/bids/v1.1.5/docs.po
-source_file  = build/locale/bids/v1.1.5/docs.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:bids--v1_1_5--schema]
-file_filter  = locale/<lang>/LC_MESSAGES/bids/v1.1.5/schema.po
-source_file  = build/locale/bids/v1.1.5/schema.pot
-type         = PO
-minimum_perc = 0
-
 [o:open-contracting-partnership-1:p:ocds-extensions:r:budget--master--docs]
 file_filter  = locale/<lang>/LC_MESSAGES/budget/master/docs.po
 source_file  = build/locale/budget/master/docs.pot
@@ -148,18 +112,6 @@ minimum_perc = 0
 [o:open-contracting-partnership-1:p:ocds-extensions:r:charges--master--schema]
 file_filter  = locale/<lang>/LC_MESSAGES/charges/master/schema.po
 source_file  = build/locale/charges/master/schema.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:charges--v1_1--docs]
-file_filter  = locale/<lang>/LC_MESSAGES/charges/v1.1/docs.po
-source_file  = build/locale/charges/v1.1/docs.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:charges--v1_1--schema]
-file_filter  = locale/<lang>/LC_MESSAGES/charges/v1.1/schema.po
-source_file  = build/locale/charges/v1.1/schema.pot
 type         = PO
 minimum_perc = 0
 
@@ -229,18 +181,6 @@ source_file  = build/locale/contract_completion/master/schema.pot
 type         = PO
 minimum_perc = 0
 
-[o:open-contracting-partnership-1:p:ocds-extensions:r:contract_suppliers--master--docs]
-file_filter  = locale/<lang>/LC_MESSAGES/contract_suppliers/master/docs.po
-source_file  = build/locale/contract_suppliers/master/docs.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:contract_suppliers--master--schema]
-file_filter  = locale/<lang>/LC_MESSAGES/contract_suppliers/master/schema.po
-source_file  = build/locale/contract_suppliers/master/schema.pot
-type         = PO
-minimum_perc = 0
-
 [o:open-contracting-partnership-1:p:ocds-extensions:r:countryCode--master--codelists]
 file_filter  = locale/<lang>/LC_MESSAGES/countryCode/master/codelists.po
 source_file  = build/locale/countryCode/master/codelists.pot
@@ -289,18 +229,6 @@ source_file  = build/locale/designContest/master/schema.pot
 type         = PO
 minimum_perc = 0
 
-[o:open-contracting-partnership-1:p:ocds-extensions:r:documentation_details--master--docs]
-file_filter  = locale/<lang>/LC_MESSAGES/documentation_details/master/docs.po
-source_file  = build/locale/documentation_details/master/docs.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:documentation_details--master--schema]
-file_filter  = locale/<lang>/LC_MESSAGES/documentation_details/master/schema.po
-source_file  = build/locale/documentation_details/master/schema.pot
-type         = PO
-minimum_perc = 0
-
 [o:open-contracting-partnership-1:p:ocds-extensions:r:enquiries--master--docs]
 file_filter  = locale/<lang>/LC_MESSAGES/enquiries/master/docs.po
 source_file  = build/locale/enquiries/master/docs.pot
@@ -310,42 +238,6 @@ minimum_perc = 0
 [o:open-contracting-partnership-1:p:ocds-extensions:r:enquiries--master--schema]
 file_filter  = locale/<lang>/LC_MESSAGES/enquiries/master/schema.po
 source_file  = build/locale/enquiries/master/schema.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:enquiries--v1_1_4--codelists]
-file_filter  = locale/<lang>/LC_MESSAGES/enquiries/v1.1.4/codelists.po
-source_file  = build/locale/enquiries/v1.1.4/codelists.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:enquiries--v1_1_4--docs]
-file_filter  = locale/<lang>/LC_MESSAGES/enquiries/v1.1.4/docs.po
-source_file  = build/locale/enquiries/v1.1.4/docs.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:enquiries--v1_1_4--schema]
-file_filter  = locale/<lang>/LC_MESSAGES/enquiries/v1.1.4/schema.po
-source_file  = build/locale/enquiries/v1.1.4/schema.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:enquiries--v1_1_5--codelists]
-file_filter  = locale/<lang>/LC_MESSAGES/enquiries/v1.1.5/codelists.po
-source_file  = build/locale/enquiries/v1.1.5/codelists.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:enquiries--v1_1_5--docs]
-file_filter  = locale/<lang>/LC_MESSAGES/enquiries/v1.1.5/docs.po
-source_file  = build/locale/enquiries/v1.1.5/docs.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:enquiries--v1_1_5--schema]
-file_filter  = locale/<lang>/LC_MESSAGES/enquiries/v1.1.5/schema.po
-source_file  = build/locale/enquiries/v1.1.5/schema.pot
 type         = PO
 minimum_perc = 0
 
@@ -493,42 +385,6 @@ source_file  = build/locale/location/master/schema.pot
 type         = PO
 minimum_perc = 0
 
-[o:open-contracting-partnership-1:p:ocds-extensions:r:location--v1_1_4--codelists]
-file_filter  = locale/<lang>/LC_MESSAGES/location/v1.1.4/codelists.po
-source_file  = build/locale/location/v1.1.4/codelists.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:location--v1_1_4--docs]
-file_filter  = locale/<lang>/LC_MESSAGES/location/v1.1.4/docs.po
-source_file  = build/locale/location/v1.1.4/docs.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:location--v1_1_4--schema]
-file_filter  = locale/<lang>/LC_MESSAGES/location/v1.1.4/schema.po
-source_file  = build/locale/location/v1.1.4/schema.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:location--v1_1_5--codelists]
-file_filter  = locale/<lang>/LC_MESSAGES/location/v1.1.5/codelists.po
-source_file  = build/locale/location/v1.1.5/codelists.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:location--v1_1_5--docs]
-file_filter  = locale/<lang>/LC_MESSAGES/location/v1.1.5/docs.po
-source_file  = build/locale/location/v1.1.5/docs.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:location--v1_1_5--schema]
-file_filter  = locale/<lang>/LC_MESSAGES/location/v1.1.5/schema.po
-source_file  = build/locale/location/v1.1.5/schema.pot
-type         = PO
-minimum_perc = 0
-
 [o:open-contracting-partnership-1:p:ocds-extensions:r:lots--master--docs]
 file_filter  = locale/<lang>/LC_MESSAGES/lots/master/docs.po
 source_file  = build/locale/lots/master/docs.pot
@@ -538,30 +394,6 @@ minimum_perc = 0
 [o:open-contracting-partnership-1:p:ocds-extensions:r:lots--master--schema]
 file_filter  = locale/<lang>/LC_MESSAGES/lots/master/schema.po
 source_file  = build/locale/lots/master/schema.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:lots--v1_1_4--docs]
-file_filter  = locale/<lang>/LC_MESSAGES/lots/v1.1.4/docs.po
-source_file  = build/locale/lots/v1.1.4/docs.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:lots--v1_1_4--schema]
-file_filter  = locale/<lang>/LC_MESSAGES/lots/v1.1.4/schema.po
-source_file  = build/locale/lots/v1.1.4/schema.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:lots--v1_1_5--docs]
-file_filter  = locale/<lang>/LC_MESSAGES/lots/v1.1.5/docs.po
-source_file  = build/locale/lots/v1.1.5/docs.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:lots--v1_1_5--schema]
-file_filter  = locale/<lang>/LC_MESSAGES/lots/v1.1.5/schema.po
-source_file  = build/locale/lots/v1.1.5/schema.pot
 type         = PO
 minimum_perc = 0
 
@@ -592,90 +424,6 @@ minimum_perc = 0
 [o:open-contracting-partnership-1:p:ocds-extensions:r:metrics--1_1--schema]
 file_filter  = locale/<lang>/LC_MESSAGES/metrics/1.1/schema.po
 source_file  = build/locale/metrics/1.1/schema.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:metrics--v1_1--docs]
-file_filter  = locale/<lang>/LC_MESSAGES/metrics/v1.1/docs.po
-source_file  = build/locale/metrics/v1.1/docs.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:metrics--v1_1--schema]
-file_filter  = locale/<lang>/LC_MESSAGES/metrics/v1.1/schema.po
-source_file  = build/locale/metrics/v1.1/schema.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:milestone_documents--master--docs]
-file_filter  = locale/<lang>/LC_MESSAGES/milestone_documents/master/docs.po
-source_file  = build/locale/milestone_documents/master/docs.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:milestone_documents--master--schema]
-file_filter  = locale/<lang>/LC_MESSAGES/milestone_documents/master/schema.po
-source_file  = build/locale/milestone_documents/master/schema.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:milestone_documents--v1_1--docs]
-file_filter  = locale/<lang>/LC_MESSAGES/milestone_documents/v1.1/docs.po
-source_file  = build/locale/milestone_documents/v1.1/docs.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:milestone_documents--v1_1--schema]
-file_filter  = locale/<lang>/LC_MESSAGES/milestone_documents/v1.1/schema.po
-source_file  = build/locale/milestone_documents/v1.1/schema.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:milestone_documents--v1_1_1--docs]
-file_filter  = locale/<lang>/LC_MESSAGES/milestone_documents/v1.1.1/docs.po
-source_file  = build/locale/milestone_documents/v1.1.1/docs.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:milestone_documents--v1_1_1--schema]
-file_filter  = locale/<lang>/LC_MESSAGES/milestone_documents/v1.1.1/schema.po
-source_file  = build/locale/milestone_documents/v1.1.1/schema.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:milestone_documents--v1_1_3--docs]
-file_filter  = locale/<lang>/LC_MESSAGES/milestone_documents/v1.1.3/docs.po
-source_file  = build/locale/milestone_documents/v1.1.3/docs.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:milestone_documents--v1_1_3--schema]
-file_filter  = locale/<lang>/LC_MESSAGES/milestone_documents/v1.1.3/schema.po
-source_file  = build/locale/milestone_documents/v1.1.3/schema.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:milestone_documents--v1_1_4--docs]
-file_filter  = locale/<lang>/LC_MESSAGES/milestone_documents/v1.1.4/docs.po
-source_file  = build/locale/milestone_documents/v1.1.4/docs.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:milestone_documents--v1_1_4--schema]
-file_filter  = locale/<lang>/LC_MESSAGES/milestone_documents/v1.1.4/schema.po
-source_file  = build/locale/milestone_documents/v1.1.4/schema.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:milestone_documents--v1_1_5--docs]
-file_filter  = locale/<lang>/LC_MESSAGES/milestone_documents/v1.1.5/docs.po
-source_file  = build/locale/milestone_documents/v1.1.5/docs.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:milestone_documents--v1_1_5--schema]
-file_filter  = locale/<lang>/LC_MESSAGES/milestone_documents/v1.1.5/schema.po
-source_file  = build/locale/milestone_documents/v1.1.5/schema.pot
 type         = PO
 minimum_perc = 0
 
@@ -757,96 +505,6 @@ source_file  = build/locale/participation_fee/master/schema.pot
 type         = PO
 minimum_perc = 0
 
-[o:open-contracting-partnership-1:p:ocds-extensions:r:participation_fee--v1_1--codelists]
-file_filter  = locale/<lang>/LC_MESSAGES/participation_fee/v1.1/codelists.po
-source_file  = build/locale/participation_fee/v1.1/codelists.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:participation_fee--v1_1--docs]
-file_filter  = locale/<lang>/LC_MESSAGES/participation_fee/v1.1/docs.po
-source_file  = build/locale/participation_fee/v1.1/docs.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:participation_fee--v1_1--schema]
-file_filter  = locale/<lang>/LC_MESSAGES/participation_fee/v1.1/schema.po
-source_file  = build/locale/participation_fee/v1.1/schema.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:participation_fee--v1_1_1--codelists]
-file_filter  = locale/<lang>/LC_MESSAGES/participation_fee/v1.1.1/codelists.po
-source_file  = build/locale/participation_fee/v1.1.1/codelists.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:participation_fee--v1_1_1--docs]
-file_filter  = locale/<lang>/LC_MESSAGES/participation_fee/v1.1.1/docs.po
-source_file  = build/locale/participation_fee/v1.1.1/docs.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:participation_fee--v1_1_1--schema]
-file_filter  = locale/<lang>/LC_MESSAGES/participation_fee/v1.1.1/schema.po
-source_file  = build/locale/participation_fee/v1.1.1/schema.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:participation_fee--v1_1_3--codelists]
-file_filter  = locale/<lang>/LC_MESSAGES/participation_fee/v1.1.3/codelists.po
-source_file  = build/locale/participation_fee/v1.1.3/codelists.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:participation_fee--v1_1_3--docs]
-file_filter  = locale/<lang>/LC_MESSAGES/participation_fee/v1.1.3/docs.po
-source_file  = build/locale/participation_fee/v1.1.3/docs.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:participation_fee--v1_1_3--schema]
-file_filter  = locale/<lang>/LC_MESSAGES/participation_fee/v1.1.3/schema.po
-source_file  = build/locale/participation_fee/v1.1.3/schema.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:participation_fee--v1_1_4--codelists]
-file_filter  = locale/<lang>/LC_MESSAGES/participation_fee/v1.1.4/codelists.po
-source_file  = build/locale/participation_fee/v1.1.4/codelists.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:participation_fee--v1_1_4--docs]
-file_filter  = locale/<lang>/LC_MESSAGES/participation_fee/v1.1.4/docs.po
-source_file  = build/locale/participation_fee/v1.1.4/docs.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:participation_fee--v1_1_4--schema]
-file_filter  = locale/<lang>/LC_MESSAGES/participation_fee/v1.1.4/schema.po
-source_file  = build/locale/participation_fee/v1.1.4/schema.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:participation_fee--v1_1_5--codelists]
-file_filter  = locale/<lang>/LC_MESSAGES/participation_fee/v1.1.5/codelists.po
-source_file  = build/locale/participation_fee/v1.1.5/codelists.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:participation_fee--v1_1_5--docs]
-file_filter  = locale/<lang>/LC_MESSAGES/participation_fee/v1.1.5/docs.po
-source_file  = build/locale/participation_fee/v1.1.5/docs.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:participation_fee--v1_1_5--schema]
-file_filter  = locale/<lang>/LC_MESSAGES/participation_fee/v1.1.5/schema.po
-source_file  = build/locale/participation_fee/v1.1.5/schema.pot
-type         = PO
-minimum_perc = 0
-
 [o:open-contracting-partnership-1:p:ocds-extensions:r:partyScale--master--codelists]
 file_filter  = locale/<lang>/LC_MESSAGES/partyScale/master/codelists.po
 source_file  = build/locale/partyScale/master/codelists.pot
@@ -907,54 +565,6 @@ source_file  = build/locale/procedure/master/schema.pot
 type         = PO
 minimum_perc = 0
 
-[o:open-contracting-partnership-1:p:ocds-extensions:r:process_title--master--docs]
-file_filter  = locale/<lang>/LC_MESSAGES/process_title/master/docs.po
-source_file  = build/locale/process_title/master/docs.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:process_title--master--schema]
-file_filter  = locale/<lang>/LC_MESSAGES/process_title/master/schema.po
-source_file  = build/locale/process_title/master/schema.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:process_title--v1_1_3--docs]
-file_filter  = locale/<lang>/LC_MESSAGES/process_title/v1.1.3/docs.po
-source_file  = build/locale/process_title/v1.1.3/docs.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:process_title--v1_1_3--schema]
-file_filter  = locale/<lang>/LC_MESSAGES/process_title/v1.1.3/schema.po
-source_file  = build/locale/process_title/v1.1.3/schema.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:process_title--v1_1_4--docs]
-file_filter  = locale/<lang>/LC_MESSAGES/process_title/v1.1.4/docs.po
-source_file  = build/locale/process_title/v1.1.4/docs.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:process_title--v1_1_4--schema]
-file_filter  = locale/<lang>/LC_MESSAGES/process_title/v1.1.4/schema.po
-source_file  = build/locale/process_title/v1.1.4/schema.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:process_title--v1_1_5--docs]
-file_filter  = locale/<lang>/LC_MESSAGES/process_title/v1.1.5/docs.po
-source_file  = build/locale/process_title/v1.1.5/docs.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:process_title--v1_1_5--schema]
-file_filter  = locale/<lang>/LC_MESSAGES/process_title/v1.1.5/schema.po
-source_file  = build/locale/process_title/v1.1.5/schema.pot
-type         = PO
-minimum_perc = 0
-
 [o:open-contracting-partnership-1:p:ocds-extensions:r:procurementMethodRationaleClassifications--master--codelists]
 file_filter  = locale/<lang>/LC_MESSAGES/procurementMethodRationaleClassifications/master/codelists.po
 source_file  = build/locale/procurementMethodRationaleClassifications/master/codelists.pot
@@ -994,30 +604,6 @@ minimum_perc = 0
 [o:open-contracting-partnership-1:p:ocds-extensions:r:recurrence--master--schema]
 file_filter  = locale/<lang>/LC_MESSAGES/recurrence/master/schema.po
 source_file  = build/locale/recurrence/master/schema.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:releasePublisher--master--docs]
-file_filter  = locale/<lang>/LC_MESSAGES/releasePublisher/master/docs.po
-source_file  = build/locale/releasePublisher/master/docs.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:releasePublisher--master--schema]
-file_filter  = locale/<lang>/LC_MESSAGES/releasePublisher/master/schema.po
-source_file  = build/locale/releasePublisher/master/schema.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:releaseSource--master--docs]
-file_filter  = locale/<lang>/LC_MESSAGES/releaseSource/master/docs.po
-source_file  = build/locale/releaseSource/master/docs.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:releaseSource--master--schema]
-file_filter  = locale/<lang>/LC_MESSAGES/releaseSource/master/schema.po
-source_file  = build/locale/releaseSource/master/schema.pot
 type         = PO
 minimum_perc = 0
 
@@ -1069,24 +655,6 @@ source_file  = build/locale/risk_allocation/master/schema.pot
 type         = PO
 minimum_perc = 0
 
-[o:open-contracting-partnership-1:p:ocds-extensions:r:risk_allocation--v1_1--codelists]
-file_filter  = locale/<lang>/LC_MESSAGES/risk_allocation/v1.1/codelists.po
-source_file  = build/locale/risk_allocation/v1.1/codelists.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:risk_allocation--v1_1--docs]
-file_filter  = locale/<lang>/LC_MESSAGES/risk_allocation/v1.1/docs.po
-source_file  = build/locale/risk_allocation/v1.1/docs.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:risk_allocation--v1_1--schema]
-file_filter  = locale/<lang>/LC_MESSAGES/risk_allocation/v1.1/schema.po
-source_file  = build/locale/risk_allocation/v1.1/schema.pot
-type         = PO
-minimum_perc = 0
-
 [o:open-contracting-partnership-1:p:ocds-extensions:r:secondStageDescription--master--docs]
 file_filter  = locale/<lang>/LC_MESSAGES/secondStageDescription/master/docs.po
 source_file  = build/locale/secondStageDescription/master/docs.pot
@@ -1132,24 +700,6 @@ minimum_perc = 0
 [o:open-contracting-partnership-1:p:ocds-extensions:r:shareholders--master--schema]
 file_filter  = locale/<lang>/LC_MESSAGES/shareholders/master/schema.po
 source_file  = build/locale/shareholders/master/schema.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:shareholders--v1_1--codelists]
-file_filter  = locale/<lang>/LC_MESSAGES/shareholders/v1.1/codelists.po
-source_file  = build/locale/shareholders/v1.1/codelists.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:shareholders--v1_1--docs]
-file_filter  = locale/<lang>/LC_MESSAGES/shareholders/v1.1/docs.po
-source_file  = build/locale/shareholders/v1.1/docs.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:shareholders--v1_1--schema]
-file_filter  = locale/<lang>/LC_MESSAGES/shareholders/v1.1/schema.po
-source_file  = build/locale/shareholders/v1.1/schema.pot
 type         = PO
 minimum_perc = 0
 
@@ -1296,18 +846,6 @@ source_file  = build/locale/tenderClassification/master/schema.pot
 type         = PO
 minimum_perc = 0
 
-[o:open-contracting-partnership-1:p:ocds-extensions:r:tender_datePublished--master--docs]
-file_filter  = locale/<lang>/LC_MESSAGES/tender_datePublished/master/docs.po
-source_file  = build/locale/tender_datePublished/master/docs.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:tender_datePublished--master--schema]
-file_filter  = locale/<lang>/LC_MESSAGES/tender_datePublished/master/schema.po
-source_file  = build/locale/tender_datePublished/master/schema.pot
-type         = PO
-minimum_perc = 0
-
 [o:open-contracting-partnership-1:p:ocds-extensions:r:transaction_milestones--master--docs]
 file_filter  = locale/<lang>/LC_MESSAGES/transaction_milestones/master/docs.po
 source_file  = build/locale/transaction_milestones/master/docs.pot
@@ -1317,18 +855,6 @@ minimum_perc = 0
 [o:open-contracting-partnership-1:p:ocds-extensions:r:transaction_milestones--master--schema]
 file_filter  = locale/<lang>/LC_MESSAGES/transaction_milestones/master/schema.po
 source_file  = build/locale/transaction_milestones/master/schema.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:transaction_milestones--v1_1--docs]
-file_filter  = locale/<lang>/LC_MESSAGES/transaction_milestones/v1.1/docs.po
-source_file  = build/locale/transaction_milestones/v1.1/docs.pot
-type         = PO
-minimum_perc = 0
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:transaction_milestones--v1_1--schema]
-file_filter  = locale/<lang>/LC_MESSAGES/transaction_milestones/v1.1/schema.po
-source_file  = build/locale/transaction_milestones/v1.1/schema.pot
 type         = PO
 minimum_perc = 0
 
