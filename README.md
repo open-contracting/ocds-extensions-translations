@@ -14,6 +14,8 @@ The following extensions are currently excluded from Transifex, because the sour
 - releaseSource
 - tender_datePublished
 
+However, they can be re-added if simpler, as they use only 2,000 words.
+
 ## Commands
 
 ### Setup
