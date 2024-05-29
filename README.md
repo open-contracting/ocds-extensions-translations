@@ -4,16 +4,31 @@ To update this repository, see [these instructions on translating extensions](ht
 
 To limit use of Transifex, use the `--no-frozen` option when generating POT files.
 
-Transifex might exclude extensions whose source strings haven't changed in many years. To find stale extensions:
+## Setup
+
+Install requirements:
 
 ```
 pip install -r requirements.txt
+```
+
+Bring local repositories up-to-date:
+
+```
+./manage.py pull path/to/directory/of/extensions
+```
+
+## Tasks
+
+### Find stale extensions
+
+Transifex might exclude extensions whose source strings haven't changed in many years. To find stale extensions:
+
+```
 ./manage.py stale path/to/directory/of/extensions 3
 ```
 
-## Commands
-
-### Setup
+### Setup Translate Toolkit
 
 To pre-populate PO files:
 
@@ -149,7 +164,7 @@ for i in (grep $new_version_underscored .tx/config | tr -d '[]')
 end
 ```
 
-## Compare different versions of PO/POT files
+### Compare different versions of PO/POT files
 
 Change the two paths below, and change `.po` to `.pot` if appropriate:
 
