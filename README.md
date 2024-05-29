@@ -4,7 +4,7 @@ To update this repository, see [these instructions on translating extensions](ht
 
 To limit use of Transifex, use the `--no-frozen` option when generating POT files.
 
-Extensions might be excluded from Transifex if the source strings hadn't changed in many years. To find stale extensions:
+Transifex might exclude extensions whose source strings haven't changed in many years. To find stale extensions:
 
 ```
 pip install -r requirements.txt
