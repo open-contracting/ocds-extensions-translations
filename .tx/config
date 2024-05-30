@@ -1117,33 +1117,6 @@ resource_name          = options--master--schema
 replace_edited_strings = false
 keep_translations      = false
 
-[o:open-contracting-partnership-1:p:ocds-extensions:r:organizationClassification--1_1--codelists]
-file_filter            = locale/<lang>/LC_MESSAGES/organizationClassification/1.1/codelists.po
-source_file            = build/locale/organizationClassification/1.1/codelists.pot
-type                   = PO
-minimum_perc           = 0
-resource_name          = organizationClassification--1_1--codelists
-replace_edited_strings = false
-keep_translations      = false
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:organizationClassification--1_1--docs]
-file_filter            = locale/<lang>/LC_MESSAGES/organizationClassification/1.1/docs.po
-source_file            = build/locale/organizationClassification/1.1/docs.pot
-type                   = PO
-minimum_perc           = 0
-resource_name          = organizationClassification--1_1--docs
-replace_edited_strings = false
-keep_translations      = false
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:organizationClassification--1_1--schema]
-file_filter            = locale/<lang>/LC_MESSAGES/organizationClassification/1.1/schema.po
-source_file            = build/locale/organizationClassification/1.1/schema.pot
-type                   = PO
-minimum_perc           = 0
-resource_name          = organizationClassification--1_1--schema
-replace_edited_strings = false
-keep_translations      = false
-
 [o:open-contracting-partnership-1:p:ocds-extensions:r:organizationClassification--master--codelists]
 file_filter            = locale/<lang>/LC_MESSAGES/organizationClassification/master/codelists.po
 source_file            = build/locale/organizationClassification/master/codelists.pot
