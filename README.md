@@ -22,14 +22,29 @@ eval (brew --prefix translate-toolkit)/libexec/bin/python -m pip install python-
 
 ## Tasks
 
-### Add new extensions and remove yanked extensions
+### Push strings to translate to Transifex
+
+```bash
+./manage.py update open-contracting-partnership-1 ocds-extensions
+```
+
+### Add new extensions to, and remove yanked extensions from, Transifex
 
 
 ```bash
 ./manage.py add-and-remove open-contracting-partnership-1 ocds-extensions
 ```
 
+### Pull translations from Transifex
+
+```bash
+tx pull -f -a
+sphinx-intl build -d locale
+```
+
 ### Add new versions of core extensions
+
+*This section has not yet been added to manage.py.*
 
 Set environment variables as appropriate (using the fish shell):
 
@@ -99,6 +114,24 @@ You can exclude from Transifex any extensions whose source strings haven't chang
     ```bash
     ./manage.py stale path/to/directory/of/extensions 3
     ```
+
+You can now delete these extensions from Transifex, if the account is near its limits.
+
+### Pretranslate all PO files
+
+Once you have a compendium:
+
+```fish
+cd locale
+for lang in (ls)
+  cd $lang/LC_MESSAGES
+  for i in **.po
+    pretranslate --nofuzzymatching -t ../../../$lang.po ../../../build/locale/{$i}t $i
+  end
+  cd ../..
+end
+cd ..
+```
 
 ### Compare different versions of PO/POT files
 

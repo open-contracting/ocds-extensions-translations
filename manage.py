@@ -203,6 +203,35 @@ def pull(directory):
 @cli.command()
 @click.argument("transifex-organization")
 @click.argument("transifex-project")
+def update(transifex_organization, transifex_project):
+    """
+    Push strings to translate to Transifex, for live versions of registered extensions.
+    """
+    cwd = Path()
+    txconfig = cwd / ".tx" / "config"
+    pot_dir = cwd / "build" / "locale"
+    locale_dir = cwd / "locale"
+
+    # Same as https://ocdsextensionregistry.readthedocs.io/en/latest/translation.html
+
+    run_generate_pot_files(["--no-frozen", pot_dir])
+
+    create_txconfig(txconfig, transifex_organization, transifex_project, pot_dir, locale_dir)
+
+    config = configparser.ConfigParser()
+    config.read(txconfig)
+    resources = [
+        f"{transifex_project}.{config[section]['resource_name']}"
+        for section in config.sections()
+        if "resource_name" in config[section] and "--v1" not in config[section]["resource_name"]
+    ]
+
+    run(["tx", "push", "-s", "--use-git-timestamps", *resources])
+
+
+@cli.command()
+@click.argument("transifex-organization")
+@click.argument("transifex-project")
 def add_and_remove(transifex_organization, transifex_project):
     """
     Add new extensions from the extension registry and remove yanked extensions.
