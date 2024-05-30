@@ -257,6 +257,7 @@ def update(transifex_organization, transifex_project):
     # Same as https://ocdsextensionregistry.readthedocs.io/en/latest/translation.html
     run_generate_pot_files(["--no-frozen", POT_DIR])
 
+    click.secho("Pushing source (POT) files...", fg="blue")
     run_tx_push(transifex_organization, transifex_project, "-f", "-s")
 
 
@@ -272,12 +273,15 @@ def pretranslate(transifex_organization, transifex_project):
     messages = CWD / "locale" / "es" / "LC_MESSAGES"
     compendium = CWD / "es.po"
 
-    run(["tx", "pull", "-w", "20", "-f", "-a"])
+    click.secho("Pulling all files...", fg="blue")
+    run(["tx", "pull", "-w", "20", "-f", "-a", "--silent"])
 
     create_compendium(compendium, messages)
 
+    click.secho("Running pretranslate...", fg="blue")
     run_pretranslate(POT_DIR, compendium, messages)
 
+    click.secho("Pushing translation (PO) files...", fg="blue")
     run_tx_push(transifex_organization, transifex_project, "-f", "-t")
 
 
