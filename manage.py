@@ -103,6 +103,27 @@ def create_compendium(path, messages):
     run(["msgcat", "--use-first", "-o", path, *sorted(messages.glob("**/*.po"), reverse=True)])
 
 
+def run_pretranslate(pot_dir, compendium, messages):
+    """
+    Pretranslate the PO files corresponding to the POT files in the provided directory.
+
+    Initialize a PO file if it doesn't exist.
+    """
+    for pot in pot_dir.glob("**/*.pot"):
+        po_dir = messages / pot.parent.relative_to(pot_dir)
+        po = po_dir / f"{pot.stem}.po"
+
+        # Create the directory for the PO file.
+        po_dir.mkdir(parents=True, exist_ok=True)
+
+        # Initialize the PO file.
+        if not po.exists():
+            run(["msginit", "--no-translator", "--locale", "es", "-i", pot, "-o", po])
+
+        # Pre-populate the PO file.
+        run(["pretranslate", "--progress=none", "--nofuzzymatching", "-t", compendium, pot, po])
+
+
 def transifex_resources(transifex_project):
     """
     Return all names of Transifex resources as a set.
@@ -274,18 +295,7 @@ def add_and_remove(transifex_organization, transifex_project):
         # NOTE: Future languages can reuse these POT files.
         run_generate_pot_files([POT_DIR, extension])
 
-        # NOTE: This logic can be useful for any PO file, if not already pre-translated.
-        for pot in (POT_DIR / extension).glob("**/*.pot"):
-            # Create the directory for the PO file.
-            po_dir = messages / pot.parent.relative_to(POT_DIR)
-            po_dir.mkdir(parents=True, exist_ok=True)
-
-            # Initialize the PO file.
-            po = po_dir / f"{pot.stem}.po"
-            run(["msginit", "--no-translator", "--locale", "es", "-i", pot, "-o", po])
-
-            # Pre-populate the PO file.
-            run(["pretranslate", "--progress=none", "--nofuzzymatching", "-t", compendium, pot, po])
+        run_pretranslate(POT_DIR / extension, compendium, messages)
 
     # Regenerate .tx/config file to remove any broken references.
     new_resources = create_txconfig(transifex_organization, transifex_project)
