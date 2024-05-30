@@ -2,26 +2,20 @@
 # Copyright (C) 2024 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-# 
-# Translators:
-# James McKinney, 2019
-# Maria Esther Cervantes <mcervantes@cds.com.py>, 2019
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-05-30 00:40-0400\n"
-"PO-Revision-Date: 2019-03-14 18:27+0000\n"
-"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2019\n"
-"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.15.0\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. /name/en
 #. /definitions/Implementation/properties/tariffs/title
@@ -33,8 +27,8 @@ msgstr "Tarifas"
 #. /description/en
 #: extension.json:1
 msgid ""
-"Adds fields to the contract and implementation objects to capture details of"
-" the tariffs, tolls and user fees set out in the contract and in use "
+"Adds fields to the contract and implementation objects to capture details"
+" of the tariffs, tolls and user fees set out in the contract and in use "
 "throughout the life of the project."
 msgstr ""
 "Agrega campos al contrato y objetos de implementación para capturar los "
@@ -58,12 +52,12 @@ msgstr ""
 #: release-schema.json:1
 msgid ""
 "The tariffs as set out in the contract schedules. Also known as tolls or "
-"user charges. Updates to tariffs over the operation of the contract can be "
-"provided in the implementation section."
+"user charges. Updates to tariffs over the operation of the contract can "
+"be provided in the implementation section."
 msgstr ""
 "Las tarifas establecidas en los cronogramas del contrato. También se conoce "
-"como impuestos o cargos de usuario. Las actualizaciones de las tarifas sobre"
-" la operación del contrato pueden ser proporcionadas en la sección de "
+"como impuestos o cargos de usuario. Las actualizaciones de las tarifas sobre "
+"la operación del contrato pueden ser proporcionadas en la sección de "
 "implementación."
 
 #. /definitions/Tariff/title
@@ -74,8 +68,9 @@ msgstr "Tarifa"
 #. /definitions/Tariff/description
 #: release-schema.json:1
 msgid ""
-"An item in a tariff table, setting out a breakdown of the user or government"
-" fees payable in relation to each unit of a particular good or services."
+"An item in a tariff table, setting out a breakdown of the user or "
+"government fees payable in relation to each unit of a particular good or "
+"services."
 msgstr ""
 "Un artículo en una tabla de tarifas que establece un desglose del usuario o "
 "tasas gubernamentales que se pagan con relación a cada unidad de un bien o "
@@ -84,7 +79,7 @@ msgstr ""
 #. /definitions/Tariff/properties/id/title
 #: release-schema.json:1
 msgid "Identifier"
-msgstr ""
+msgstr "Identificador"
 
 #. /definitions/Tariff/properties/id/description
 #: release-schema.json:1
@@ -99,7 +94,7 @@ msgstr ""
 #. /definitions/Tariff/properties/title/title
 #: release-schema.json:1
 msgid "Title"
-msgstr ""
+msgstr "Título"
 
 #. /definitions/Tariff/properties/title/description
 #: release-schema.json:1
@@ -114,8 +109,8 @@ msgstr "Pagado por"
 #. /definitions/Tariff/properties/paidBy/description
 #: release-schema.json:1
 msgid ""
-"Is this a user charge (paid by businesses or citizens using the facilities "
-"provided by the contract), or a charge paid by the government?"
+"Is this a user charge (paid by businesses or citizens using the "
+"facilities provided by the contract), or a charge paid by the government?"
 msgstr ""
 "¿Se trata de un cargo de usuario (pagado por empresas o ciudadanos que "
 "utilizan las facilidades proporcionadas por el contrato), o un cargo pagado "
@@ -124,7 +119,7 @@ msgstr ""
 #. /definitions/Tariff/properties/period/title
 #: release-schema.json:1
 msgid "Period"
-msgstr ""
+msgstr "Periodo"
 
 #. /definitions/Tariff/properties/period/description
 #: release-schema.json:1
@@ -134,7 +129,7 @@ msgstr "El período al que se aplica esta tarifa."
 #. /definitions/Tariff/properties/value/title
 #: release-schema.json:1
 msgid "Value"
-msgstr ""
+msgstr "Valor"
 
 #. /definitions/Tariff/properties/value/description
 #: release-schema.json:1
@@ -144,7 +139,7 @@ msgstr "El precio por unidad de esta tarifa."
 #. /definitions/Tariff/properties/unit/title
 #: release-schema.json:1
 msgid "Unit"
-msgstr ""
+msgstr "Unidad"
 
 #. /definitions/Tariff/properties/unit/description
 #: release-schema.json:1
@@ -171,8 +166,8 @@ msgstr "Esquema"
 msgid ""
 "The list from which units of measure identifiers are taken. It is "
 "recommended to use the scheme 'UNCEFACT' and codes from the UN/CEFACT "
-"Recommendation 20 list of \"Codes for Units of Measure Used in International"
-" Trade\"."
+"Recommendation 20 list of \"Codes for Units of Measure Used in "
+"International Trade\"."
 msgstr ""
 
 #. /definitions/Tariff/properties/unit/properties/id/title
@@ -184,9 +179,9 @@ msgstr "ID"
 #: release-schema.json:1
 msgid ""
 "The identifier from the codelist referenced in the schema property. For "
-"example, with UNCEFACT, this is the value of the 'Common Code' column. From "
-"this identifier, applications can look-up the human readable name or symbol "
-"for this unit of measure."
+"example, with UNCEFACT, this is the value of the 'Common Code' column. "
+"From this identifier, applications can look-up the human readable name or"
+" symbol for this unit of measure."
 msgstr ""
 "El identificador de la lista de códigos se hace referencia en la propiedad "
 "de esquema. Por ejemplo, con UNCEFACT, este es el valor de la columna "
@@ -201,8 +196,8 @@ msgstr "URI"
 #. /definitions/Tariff/properties/unit/properties/uri/description
 #: release-schema.json:1
 msgid ""
-"If the scheme used provide a machine-readable URI for this unit of measure, "
-"this can be given."
+"If the scheme used provide a machine-readable URI for this unit of "
+"measure, this can be given."
 msgstr ""
 "Si el esquema utilizado provee una URI legible por computadora para esta "
 "unidad de medición, ésta puede proporcionarse."
@@ -210,13 +205,13 @@ msgstr ""
 #. /definitions/Tariff/properties/dimensions/title
 #: release-schema.json:1
 msgid "Dimensions"
-msgstr ""
+msgstr "Dimensiones"
 
 #. /definitions/Tariff/properties/dimensions/description
 #: release-schema.json:1
 msgid ""
-"Used to capture the different breakdowns in tariff charges. Any number of "
-"dimensions can be recorded within this object. Dimensions names should "
+"Used to capture the different breakdowns in tariff charges. Any number of"
+" dimensions can be recorded within this object. Dimensions names should "
 "follow the camelCase conventions of OCDS."
 msgstr ""
 "Utilizado para capturar los diferentes desgloses en los cargos de  la "
@@ -227,12 +222,13 @@ msgstr ""
 #. /definitions/Tariff/properties/notes/title
 #: release-schema.json:1
 msgid "Notes"
-msgstr ""
+msgstr "Notas"
 
 #. /definitions/Tariff/properties/notes/description
 #: release-schema.json:1
 msgid ""
-"Any notes on this tariff line item. This may include clarifying information."
+"Any notes on this tariff line item. This may include clarifying "
+"information."
 msgstr ""
-"Cualquier nota sobre esta partida de tarifas. Esto puede incluir información"
-" para aclaración."
+"Cualquier nota sobre esta partida de tarifas. Esto puede incluir información "
+"para aclaración."

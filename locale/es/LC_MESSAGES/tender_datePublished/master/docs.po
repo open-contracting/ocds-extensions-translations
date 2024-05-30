@@ -1,25 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C)
+# Copyright (C) 
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# James McKinney, 2024
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python\n"
+"Project-Id-Version: Python \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-30 00:39-0400\n"
-"PO-Revision-Date: 2024-05-30 04:37+0000\n"
-"Last-Translator: James McKinney, 2024\n"
-"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../README.md:1
 msgid "Tender Date Published"
@@ -28,8 +23,8 @@ msgstr "Fecha de publicación de la licitación"
 #: ../README.md:3
 msgid ""
 "This extension adds a field to explicitly indicate the date and time when "
-"the tender was published. This field can be different from "
-"`tender/tenderPeriod/startDate` and `date` fields."
+"the tender was published. This field can be different from `tender/"
+"tenderPeriod/startDate` and `date` fields."
 msgstr ""
 "Esta extensión agrega un campo para indicar explícitamente la fecha y hora "
 "en que se publicó la licitación. Este campo puede ser diferente de los "
@@ -53,8 +48,8 @@ msgstr ""
 msgid ""
 "To satisfy such use cases, the `tender/datePublished` field should be used."
 msgstr ""
-"Para satisfacer tales casos de uso, se debe utilizar el campo "
-"`tender/datePublished`."
+"Para satisfacer tales casos de uso, se debe utilizar el campo `tender/"
+"datePublished`."
 
 #: ../README.md:11
 msgid "Example"
@@ -69,8 +64,8 @@ msgid ""
 "This extension was originally discussed in <https://github.com/open-"
 "contracting/standard/issues/892>."
 msgstr ""
-"Esta extensión se discutió originalmente en <https://github.com/open-"
-"contracting/standard/issues/892>."
+"Esta extensión se discutió originalmente en <https://github.com/"
+"open-contracting/standard/issues/892>."
 
 #: ../README.md:26
 msgid "Issues"
@@ -78,9 +73,9 @@ msgstr "Issues"
 
 #: ../README.md:28
 msgid ""
-"Report issues for this extension in the [ocds-extensions "
-"repository](https://github.com/open-contracting/ocds-extensions/issues), "
-"putting the extension's name in the issue's title."
+"Report issues for this extension in the [ocds-extensions repository](https://"
+"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
+"name in the issue's title."
 msgstr ""
 "Reporte issues para esta extensión en el [repositorio de extensiones "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "

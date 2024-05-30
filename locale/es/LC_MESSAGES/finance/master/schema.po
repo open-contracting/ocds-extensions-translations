@@ -2,26 +2,20 @@
 # Copyright (C) 2024 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-# 
-# Translators:
-# James McKinney, 2019
-# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-05-30 00:40-0400\n"
-"PO-Revision-Date: 2019-03-14 18:30+0000\n"
-"Last-Translator: Natalia Valdez <nataliavaldez@cds.com.py>, 2021\n"
-"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.15.0\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. /name/en
 #. /definitions/Contract/properties/finance/title
@@ -46,8 +40,7 @@ msgstr ""
 
 #. /definitions/Budget/properties/finance/description
 #: release-schema.json:1
-msgid ""
-"Information about financing arrangements for a future contracting process."
+msgid "Information about financing arrangements for a future contracting process."
 msgstr ""
 
 #. /definitions/Finance/title
@@ -88,10 +81,10 @@ msgstr "Descripción"
 #. /definitions/Finance/properties/description/description
 #: release-schema.json:1
 msgid ""
-"A short description of this financing arrangement. This may include details "
-"of service fees, commitment fees, lender rights, step in arrangements, "
-"exchange rate guarantees, and for syndicated loans, details of syndication "
-"and any members of the syndicate."
+"A short description of this financing arrangement. This may include "
+"details of service fees, commitment fees, lender rights, step in "
+"arrangements, exchange rate guarantees, and for syndicated loans, details"
+" of syndication and any members of the syndicate."
 msgstr ""
 
 #. /definitions/Finance/properties/value/title
@@ -122,8 +115,8 @@ msgstr ""
 #. /definitions/Finance/properties/financingPartyType/description
 #: release-schema.json:1
 msgid ""
-"The type of the financing organization, from the closed financingPartyType "
-"codelist."
+"The type of the financing organization, from the closed "
+"financingPartyType codelist."
 msgstr ""
 
 #. /definitions/Finance/properties/source/title
@@ -134,8 +127,8 @@ msgstr ""
 #. /definitions/Finance/properties/source/description
 #: release-schema.json:1
 msgid ""
-"The source of funds for this financing arrangement. For example, the Green "
-"Climate Fund."
+"The source of funds for this financing arrangement. For example, the "
+"Green Climate Fund."
 msgstr ""
 
 #. /definitions/Finance/properties/assetClass/title
@@ -153,7 +146,7 @@ msgstr ""
 #. /definitions/Finance/properties/type/title
 #: release-schema.json:1
 msgid "Type"
-msgstr ""
+msgstr "Tipo"
 
 #. /definitions/Finance/properties/type/description
 #: release-schema.json:1
@@ -170,8 +163,8 @@ msgstr ""
 #. /definitions/Finance/properties/repaymentPriority/description
 #: release-schema.json:1
 msgid ""
-"The order in which the debt in this financing arrangement will be repaid in "
-"case of default, from the closed debtRepaymentPriority codelist."
+"The order in which the debt in this financing arrangement will be repaid "
+"in case of default, from the closed debtRepaymentPriority codelist."
 msgstr ""
 
 #. /definitions/Finance/properties/concessional/title
@@ -182,9 +175,9 @@ msgstr ""
 #. /definitions/Finance/properties/concessional/description
 #: release-schema.json:1
 msgid ""
-"Whether this financing arrangement is provided below market rate in order to"
-" accelerate climate or development objectives. Also called soft financing "
-"and subsidized funding."
+"Whether this financing arrangement is provided below market rate in order"
+" to accelerate climate or development objectives. Also called soft "
+"financing and subsidized funding."
 msgstr ""
 
 #. /definitions/Finance/properties/resultsBased/title
@@ -206,8 +199,7 @@ msgstr "Periodo de financiamiento"
 
 #. /definitions/Finance/properties/period/description
 #: release-schema.json:1
-msgid ""
-"The period covered by this financing arrangement. Also called maturity."
+msgid "The period covered by this financing arrangement. Also called maturity."
 msgstr ""
 
 #. /definitions/Finance/properties/paymentPeriod/title
@@ -218,8 +210,8 @@ msgstr ""
 #. /definitions/Finance/properties/paymentPeriod/description
 #: release-schema.json:1
 msgid ""
-"The period over which the borrower in this financing arrangement is obliged "
-"to make payments."
+"The period over which the borrower in this financing arrangement is "
+"obliged to make payments."
 msgstr ""
 
 #. /definitions/Finance/properties/paymentFrequency/title
@@ -230,8 +222,8 @@ msgstr ""
 #. /definitions/Finance/properties/paymentFrequency/description
 #: release-schema.json:1
 msgid ""
-"The average payment frequency (in days) of this financing arrangement. For "
-"example, 365 for yearly, 30.4 for monthly, or 1 for daily."
+"The average payment frequency (in days) of this financing arrangement. "
+"For example, 365 for yearly, 30.4 for monthly, or 1 for daily."
 msgstr ""
 
 #. /definitions/Finance/properties/interestRate/title
@@ -254,8 +246,8 @@ msgstr "Base"
 msgid ""
 "The variable to which an additional margin amount is added to get the "
 "interest amount. This can be specified as a fixed number, as a known "
-"variable (e.g. LIBOR or LIBOR+1%), or can be omitted if margin specifies the"
-" entire interest rate."
+"variable (e.g. LIBOR or LIBOR+1%), or can be omitted if margin specifies "
+"the entire interest rate."
 msgstr ""
 
 #. /definitions/Finance/properties/interestRate/properties/margin/title
@@ -266,8 +258,8 @@ msgstr "Margen"
 #. /definitions/Finance/properties/interestRate/properties/margin/description
 #: release-schema.json:1
 msgid ""
-"The variable added to the base to give the interest amount, expressed as a "
-"decimal (for example, 0.1) and not as a percentage (for example, 10)."
+"The variable added to the base to give the interest amount, expressed as "
+"a decimal (for example, 0.1) and not as a percentage (for example, 10)."
 msgstr ""
 
 #. /definitions/Finance/properties/interestRate/properties/fixed/title
@@ -278,11 +270,11 @@ msgstr "Tipo de interés fijo"
 #. /definitions/Finance/properties/interestRate/properties/fixed/description
 #: release-schema.json:1
 msgid ""
-"A boolean field. If this interest rate of fixed, set to true. Otherwise, set"
-" to false."
+"A boolean field. If this interest rate of fixed, set to true. Otherwise, "
+"set to false."
 msgstr ""
-"Un campo booleano. Si este tipo de interés es fijo, se establece en true. De"
-" lo contrario, se establece en false."
+"Un campo booleano. Si este tipo de interés es fijo, se establece en true. De "
+"lo contrario, se establece en false."
 
 #. /definitions/Finance/properties/interestRate/properties/notes/title
 #: release-schema.json:1
@@ -302,8 +294,8 @@ msgstr "Garantías del tipo de cambio"
 #. /definitions/Finance/properties/exchangeRateGuarantee/description
 #: release-schema.json:1
 msgid ""
-"Whether there is an associated exchange rate guarantee with this source of "
-"finance."
+"Whether there is an associated exchange rate guarantee with this source "
+"of finance."
 msgstr ""
 
 #. /definitions/Finance/properties/stepInRights/title
@@ -321,10 +313,9 @@ msgstr ""
 #. /definitions/Finance/properties/relatedLots/title
 #: release-schema.json:1
 msgid "Related lot(s)"
-msgstr ""
+msgstr "Lotes relacionados"
 
 #. /definitions/Finance/properties/relatedLots/description
 #: release-schema.json:1
-msgid ""
-"The identifiers of the lots to which this financing arrangement relates."
+msgid "The identifiers of the lots to which this financing arrangement relates."
 msgstr ""

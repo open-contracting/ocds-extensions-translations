@@ -1,27 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C)
+# Copyright (C) 
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# Maria Esther Cervantes <mcervantes@cds.com.py>, 2019
-# Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2019
-# James McKinney, 2021
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python\n"
+"Project-Id-Version: Python \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-07 18:41-0300\n"
-"PO-Revision-Date: 2019-03-14 18:27+0000\n"
-"Last-Translator: James McKinney, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"POT-Creation-Date: 2023-05-15 16:00-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../README.md:1
 msgid "Bid statistics and details"
@@ -37,8 +30,7 @@ msgstr ""
 
 #: ../README.md:5
 msgid ""
-"Market analysis for understanding the competitiveness of a given "
-"marketplace;"
+"Market analysis for understanding the competitiveness of a given marketplace;"
 msgstr ""
 "Análisis de mercado para comprender la competitividad de un mercado "
 "determinado;"
@@ -66,16 +58,16 @@ msgstr ""
 "Los regímenes regulatorios varían en la medida en que permiten que la "
 "información sobre licitaciones se publique de forma proactiva y en qué "
 "momento del proceso de adquisición. En algunos sistemas y procesos, se "
-"publicará una lista de licitadores invitados al comienzo de la licitación, y"
-" todos los detalles y documentos sobre las ofertas recibidas podrán ser "
+"publicará una lista de licitadores invitados al comienzo de la licitación, y "
+"todos los detalles y documentos sobre las ofertas recibidas podrán ser "
 "revelados cuando se complete la evaluación. En otros sistemas, sólo pueden "
 "hacerse públicas las estadísticas resumidas sobre el número de ofertas "
 "recibidas."
 
 #: ../README.md:11
 msgid ""
-"The OCDS bid extension introduces a new, flexible, top-level section to each"
-" contracting process to capture bidding information. Implementers will need "
+"The OCDS bid extension introduces a new, flexible, top-level section to each "
+"contracting process to capture bidding information. Implementers will need "
 "to assess which fields are applicable to their local regulatory regime, and "
 "to local use-cases."
 msgstr ""
@@ -93,13 +85,13 @@ msgid ""
 "The `bids/details` array is used to provide one or more `Bid` objects, each "
 "representing a unique bid received."
 msgstr ""
-"La lista `bids/details` se utiliza para proporcionar uno o más objetos ` "
-"Bid`, cada uno de los cuales representa una única oferta recibida."
+"La lista `bids/details` se utiliza para proporcionar uno o más objetos ` Bid`"
+", cada uno de los cuales representa una única oferta recibida."
 
 #: ../README.md:17
 msgid ""
-"The `bids/statistics` array is used to represent key statistical information"
-" about the number of bids and bidders. Each entry in the array is a "
+"The `bids/statistics` array is used to represent key statistical information "
+"about the number of bids and bidders. Each entry in the array is a "
 "`BidsStatistic` object containing at least:"
 msgstr ""
 "La lista `bids/statistics` se usa para representar información estadísitca "
@@ -120,13 +112,13 @@ msgstr "Un valor para esa medida"
 
 #: ../README.md:23
 msgid ""
-"The `bidStatistics.csv` codelist is an **open** codelist. Publishers can add"
-" their own codes to this list. When doing so, publishers are encouraged to "
-"engage with the open contracting community to agree upon definitions of each"
-" code."
+"The `bidStatistics.csv` codelist is an **open** codelist. Publishers can add "
+"their own codes to this list. When doing so, publishers are encouraged to "
+"engage with the open contracting community to agree upon definitions of each "
+"code."
 msgstr ""
-"La lista de códigos `bidStatistics.csv` es una lista de códigos **abierta**."
-" Los publicadores pueden agregar sus propios códigos a esta lista. Al "
+"La lista de códigos `bidStatistics.csv` es una lista de códigos **abierta**. "
+"Los publicadores pueden agregar sus propios códigos a esta lista. Al "
 "hacerlo, se alienta a los publicadores a comprometerse con la comunidad de "
 "contrataciones abiertas para acordar las definiciones de cada código."
 
@@ -164,9 +156,9 @@ msgstr "Issues"
 
 #: ../README.md:111
 msgid ""
-"Report issues for this extension in the [ocds-extensions "
-"repository](https://github.com/open-contracting/ocds-extensions/issues), "
-"putting the extension's name in the issue's title."
+"Report issues for this extension in the [ocds-extensions repository](https://"
+"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
+"name in the issue's title."
 msgstr ""
 "Reporte issues para esta extensión en el [repositorio de extensiones "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
@@ -188,8 +180,8 @@ msgid ""
 msgstr ""
 "Se corrige el título y la descripción del código 'foreignBidsFromEU' para "
 "referirse al Área Económica Europea (AEE). Anteriormente, el título se "
-"refería al Mercado Único Europeo, pero su descripción enlistaba los miembros"
-" del AEE."
+"refería al Mercado Único Europeo, pero su descripción enlistaba los miembros "
+"del AEE."
 
 #: ../README.md:118
 msgid "Add a 'foreignBidsFromNonEU' code to `bidStatistics.csv`"
@@ -205,9 +197,8 @@ msgid ""
 "Fix the merge behavior of `Bids.statistics` and `Bid.tenderers` to use "
 "identifier merge strategy"
 msgstr ""
-"Arreglar el comportamiento de unión de  `Bids.statistics` a  "
-"`Bid.tenderers`  para identificar la estrategia de unión de los "
-"identificadores"
+"Arreglar el comportamiento de unión de  `Bids.statistics` a  `Bid.tenderers` "
+"para identificar la estrategia de unión de los identificadores"
 
 #: ../README.md:121
 msgid "Remove Sphinx directives from readme"
@@ -226,8 +217,8 @@ msgid ""
 "Disallow required fields `BidsStatistic.id`, `BidsStatistic.measure`, "
 "`BidsStatistic.value` from being null"
 msgstr ""
-"No permitir que los campos requeridos `BidsStatistic.id`,` "
-"BidsStatistic.measure`, `BidsStatistic.value` sean null"
+"No permitir que los campos requeridos `BidsStatistic.id`,` BidsStatistic."
+"measure`, `BidsStatistic.value` sean null"
 
 #: ../README.md:127
 msgid "Disallow `Bids.statistics` from having null in its array of objects"
@@ -243,8 +234,7 @@ msgstr "Agregar enum a `BidsStatistic.status`"
 
 #: ../README.md:130
 msgid "Move `BidsStatistic.requirementResponses` to requirements extension"
-msgstr ""
-"Mover `BidsStatistic.requirementResponses` a la extensión de requisitos"
+msgstr "Mover `BidsStatistic.requirementResponses` a la extensión de requisitos"
 
 #: ../README.md:131
 msgid "Add descriptions to bidStatus.csv"

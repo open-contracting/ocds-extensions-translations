@@ -1,27 +1,21 @@
 # Translations template for PROJECT.
-# Copyright (C) 2022 ORGANIZATION
+# Copyright (C) 2023 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
-# 
-# Translators:
-# James McKinney, 2020
-# Romina Fernandez <rfernandez@cds.com.py>, 2020
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-07 18:41-0300\n"
-"PO-Revision-Date: 2020-08-20 21:03+0000\n"
-"Last-Translator: Romina Fernandez <rfernandez@cds.com.py>, 2020\n"
-"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"POT-Creation-Date: 2023-05-15 16:00-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
-"Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. /name/en
 #: extension.json:1
@@ -31,8 +25,8 @@ msgstr "Título y descripción del nivel del proceso"
 #. /description/en
 #: extension.json:1
 msgid ""
-"For providing overall process titles and descriptions, often to give a free-"
-"text summary of the contracting process as a whole."
+"For providing overall process titles and descriptions, often to give a "
+"free-text summary of the contracting process as a whole."
 msgstr ""
 "Para proporcionar títulos y descripciones del proceso en general , a menudo "
 "para dar un resumen de texto libre del proceso de contratación como un todo."
@@ -55,9 +49,9 @@ msgstr "Descripción"
 #. /properties/description/description
 #: release-schema.json:1
 msgid ""
-"An overall description of this contracting process or release. This does not"
-" replace a detailed breakdown of the objects of the contracting process in "
-"the planning, tender, award or contracts section."
+"An overall description of this contracting process or release. This does "
+"not replace a detailed breakdown of the objects of the contracting "
+"process in the planning, tender, award or contracts section."
 msgstr ""
 "Una descripción general de este proceso de contratación o entrega. Este no "
 "reemplaza a una descripción detallada de los objetos del proceso de "

@@ -1,27 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C)
+# Copyright (C) 
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# James McKinney, 2021
-# Cecilia Casco <ceciliacasco@cds.com.py>, 2021
-# Maria Esther Cervantes <mcervantes@cds.com.py>, 2022
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python\n"
+"Project-Id-Version: Python \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-30 00:39-0400\n"
-"PO-Revision-Date: 2019-03-14 18:27+0000\n"
-"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2022\n"
-"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../README.md:1 ../README.md:15
 msgid "Bids and expressions of interest"
@@ -41,7 +34,7 @@ msgstr ""
 
 #: ../README.md:7
 msgid "Value for money analysis"
-msgstr ""
+msgstr "Análisis de valor por dinero"
 
 #: ../README.md:9
 msgid ""
@@ -52,10 +45,10 @@ msgstr ""
 
 #: ../README.md:11
 msgid ""
-"Depending on the procedure, a bid can be an estimate, offer, proposal, quote"
-" or quotation. Regulatory regimes vary on the extent to which they allow "
-"information about bids to be proactively published, and at what point in the"
-" procurement process. In some systems and processes, a list of invited "
+"Depending on the procedure, a bid can be an estimate, offer, proposal, quote "
+"or quotation. Regulatory regimes vary on the extent to which they allow "
+"information about bids to be proactively published, and at what point in the "
+"procurement process. In some systems and processes, a list of invited "
 "bidders is published in a tender notice, and full details on the bids "
 "received are published in an award notice. In other systems, only summary "
 "statistics, like the number of bids received, is published."
@@ -78,8 +71,8 @@ msgstr ""
 #: ../README.md:21
 msgid ""
 "The `bids.statistics` array contains statistical information about the "
-"number of bidders, bids and expressions of interest. Each entry in the array"
-" is a `Statistic` object containing at least:"
+"number of bidders, bids and expressions of interest. Each entry in the array "
+"is a `Statistic` object containing at least:"
 msgstr ""
 
 #: ../README.md:23
@@ -97,8 +90,8 @@ msgstr "Un valor para esa medida"
 #: ../README.md:27
 msgid ""
 "The `statistic.csv` codelist is an **open** codelist. Publishers can add "
-"their own codes for additional statistics to this codelist: for example, for"
-" the number of bids from minority or women-owned businesses. Publishers are "
+"their own codes for additional statistics to this codelist: for example, for "
+"the number of bids from minority or women-owned businesses. Publishers are "
 "encouraged to engage with the OCDS community to agree upon the definitions "
 "of new codes."
 msgstr ""
@@ -112,7 +105,7 @@ msgstr ""
 
 #: ../README.md:31
 msgid "Guidance"
-msgstr "Guía "
+msgstr "Guía"
 
 #: ../README.md:33 ../README.md:265
 msgid "Correct a bid's value"
@@ -121,28 +114,28 @@ msgstr ""
 #: ../README.md:35
 msgid ""
 "Buyers and procuring entities – and, in some jurisdictions, bidders – can "
-"correct a bid's value after the bid is submitted: for example, to correct an"
-" arithmetical error or a misplaced decimal mark."
+"correct a bid's value after the bid is submitted: for example, to correct an "
+"arithmetical error or a misplaced decimal mark."
 msgstr ""
 "Los compradores y entidades contratantes – y en algunas jurisdicciones, los "
-"oferentes – puden corregir el valor de una oferta después de que se envía la"
-" oferta: por ejemplo, para corregir un error aritmético o un punto decimal "
+"oferentes – puden corregir el valor de una oferta después de que se envía la "
+"oferta: por ejemplo, para corregir un error aritmético o un punto decimal "
 "erróneo "
 
 #: ../README.md:37
 msgid ""
-"In OCDS, the bid's value is disclosed via the `bids.details.value` field. If"
-" a bid's value is corrected, the value of the `bids.details.value` field is "
+"In OCDS, the bid's value is disclosed via the `bids.details.value` field. If "
+"a bid's value is corrected, the value of the `bids.details.value` field is "
 "overwritten. As such, the originally submitted value is only available via "
-"the contracting process' [change history](https://standard.open-"
-"contracting.org/latest/en/primer/releases_and_records/)."
+"the contracting process' [change history](https://standard.open-contracting."
+"org/latest/en/primer/releases_and_records/)."
 msgstr ""
-"En el OCDS, el valor de la oferta se publica con el campo "
-"`bids.details.value` . Si el valor de la oferta se corrige, el valor del "
-"campo `bids.details.value` queda sobreescrito. Si esto pasa, el valor "
-"original solo está disponible a través del proceso de contratación ' [change"
-" history](https://standard.open-"
-"contracting.org/latest/en/primer/releases_and_records/)."
+"En el OCDS, el valor de la oferta se publica con el campo `bids.details."
+"value` . Si el valor de la oferta se corrige, el valor del campo `bids."
+"details.value` queda sobreescrito. Si esto pasa, el valor original solo está "
+"disponible a través del proceso de contratación ' [change "
+"history](https://standard.open-contracting.org/latest/en/primer/"
+"releases_and_records/)."
 
 #: ../README.md:39
 msgid ""
@@ -179,8 +172,8 @@ msgstr ""
 #: ../README.md:47
 msgid ""
 "If the bid cannot be divided (for example, the data source describes only "
-"the total value of the bid, and not the individual value for each lot within"
-" the bid), create one `Bid` object, and add all lots' identifiers to the "
+"the total value of the bid, and not the individual value for each lot within "
+"the bid), create one `Bid` object, and add all lots' identifiers to the "
 "object's `relatedLots`."
 msgstr ""
 
@@ -197,7 +190,7 @@ msgstr ""
 
 #: ../README.md:53
 msgid "Examples"
-msgstr ""
+msgstr "Ejemplos"
 
 #: ../README.md:55
 msgid "Post-award statistics and bid submissions:"
@@ -213,9 +206,9 @@ msgstr "Issues"
 
 #: ../README.md:230
 msgid ""
-"Report issues for this extension in the [ocds-extensions "
-"repository](https://github.com/open-contracting/ocds-extensions/issues), "
-"putting the extension's name in the issue's title."
+"Report issues for this extension in the [ocds-extensions repository](https://"
+"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
+"name in the issue's title."
 msgstr ""
 "Reporte issues para esta extensión en el [repositorio de extensiones "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
@@ -335,8 +328,8 @@ msgstr ""
 
 #: ../README.md:262
 msgid ""
-"Rename the `BidStatistic` definition to `Statistic`, and remove bid-specific"
-" language from its fields' descriptions"
+"Rename the `BidStatistic` definition to `Statistic`, and remove bid-specific "
+"language from its fields' descriptions"
 msgstr ""
 
 #: ../README.md:263
@@ -357,16 +350,15 @@ msgstr "Añada el campo `BidsStatistic.currency`"
 
 #: ../README.md:272
 msgid ""
-"Add 'lowestValidBidValue' and 'highestValidBidValue' codes to "
-"`bidStatistics.csv`"
+"Add 'lowestValidBidValue' and 'highestValidBidValue' codes to `bidStatistics."
+"csv`"
 msgstr ""
 "Añada los códigos 'lowestValidBidValue' y 'highestValidBidValue' a "
 "`bidStatistics.csv`"
 
 #: ../README.md:273
 msgid "Remove type information from field descriptions"
-msgstr ""
-"Quitar la información sobre el tipo de las descripciones de los campos"
+msgstr "Quitar la información sobre el tipo de las descripciones de los campos"
 
 #: ../README.md:274
 msgid "Review normative and non-normative words"
@@ -384,8 +376,8 @@ msgid ""
 msgstr ""
 "Se corrige el título y la descripción del código 'foreignBidsFromEU' para "
 "referirse al Área Económica Europea (AEE). Anteriormente, el título se "
-"refería al Mercado Único Europeo, pero su descripción enlistaba los miembros"
-" del AEE."
+"refería al Mercado Único Europeo, pero su descripción enlistaba los miembros "
+"del AEE."
 
 #: ../README.md:279
 msgid "Add a 'foreignBidsFromNonEU' code to `bidStatistics.csv`"
@@ -418,8 +410,8 @@ msgid ""
 "Disallow required fields `BidsStatistic.id`, `BidsStatistic.measure`, "
 "`BidsStatistic.value` from being null"
 msgstr ""
-"No permitir que los campos requeridos `BidsStatistic.id`,` "
-"BidsStatistic.measure`, `BidsStatistic.value` sean null"
+"No permitir que los campos requeridos `BidsStatistic.id`,` BidsStatistic."
+"measure`, `BidsStatistic.value` sean null"
 
 #: ../README.md:288
 msgid "Disallow `bids.statistics` from having null in its array of objects"
@@ -435,8 +427,7 @@ msgstr "Agregar enum a `Bid.status`"
 
 #: ../README.md:291
 msgid "Move `BidsStatistic.requirementResponses` to requirements extension"
-msgstr ""
-"Mover `BidsStatistic.requirementResponses` a la extensión de requisitos"
+msgstr "Mover `BidsStatistic.requirementResponses` a la extensión de requisitos"
 
 #: ../README.md:292
 msgid "Add descriptions to bidStatus.csv"

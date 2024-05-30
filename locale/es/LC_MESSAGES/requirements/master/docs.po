@@ -1,28 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C)
+# Copyright (C) 
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# Maria Esther Cervantes <mcervantes@cds.com.py>, 2019
-# James McKinney, 2021
-# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
-# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python\n"
+"Project-Id-Version: Python \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-30 00:39-0400\n"
-"PO-Revision-Date: 2019-03-14 18:29+0000\n"
-"Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
-"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../README.md:1
 msgid "Requirements"
@@ -38,16 +30,16 @@ msgstr ""
 msgid ""
 "CCCEV is designed to support the exchange of information between buyers or "
 "procuring entities that define criteria and tenderers that respond to these "
-"criteria by means of evidences. Criteria can relate to bids, tenderers, lots"
-" or items."
+"criteria by means of evidences. Criteria can relate to bids, tenderers, lots "
+"or items."
 msgstr ""
 
 #: ../README.md:7
 msgid ""
 "If your data does not closely follow the [Core Criterion and Core Evidence "
 "Vocabulary (CCCEV)](https://semiceu.github.io/CCCEV/), consider the "
-"[Selection criteria](https://extensions.open-"
-"contracting.org/en/extensions/selectionCriteria/master/) extension."
+"[Selection criteria](https://extensions.open-contracting.org/en/extensions/"
+"selectionCriteria/master/) extension."
 msgstr ""
 
 #: ../README.md:9
@@ -72,8 +64,8 @@ msgid ""
 "requirements are satisfied."
 msgstr ""
 "**Grupo de requisitos** Un grupo de requisitos es una serie de uno o más "
-"requisitos individuales. Un grupo de requisito se satisface cuando todos sus"
-" requerimientos están satisfechos."
+"requisitos individuales. Un grupo de requisito se satisface cuando todos sus "
+"requerimientos están satisfechos."
 
 #: ../README.md:19
 msgid ""
@@ -88,14 +80,14 @@ msgid ""
 "**Requirement Response** A requirements response is an assertion that "
 "responds to a specific requirement."
 msgstr ""
-"**Respuesta de requisito** Una respuesta de requisitos es una afirmación que"
-" responde a un requisito específico."
+"**Respuesta de requisito** Una respuesta de requisitos es una afirmación que "
+"responde a un requisito específico."
 
 #: ../README.md:25
 msgid ""
 "Therefore the CCCEV model can be used to express both **AND** conditions, "
-"where a group of requirements must be met to satisfy a criterion, and **OR**"
-" conditions, where there are alternative requirements that can satisfy a "
+"where a group of requirements must be met to satisfy a criterion, and **OR** "
+"conditions, where there are alternative requirements that can satisfy a "
 "criterion."
 msgstr ""
 "Por lo tanto, el modelo CCCEV puede usarse para expresar las condiciones "
@@ -134,9 +126,9 @@ msgstr "Issues"
 
 #: ../README.md:168
 msgid ""
-"Report issues for this extension in the [ocds-extensions "
-"repository](https://github.com/open-contracting/ocds-extensions/issues), "
-"putting the extension's name in the issue's title."
+"Report issues for this extension in the [ocds-extensions repository](https://"
+"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
+"name in the issue's title."
 msgstr ""
 "Reporte issues para esta extensión en el [repositorio de extensiones "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
@@ -172,8 +164,8 @@ msgstr ""
 
 #: ../README.md:179
 msgid ""
-"Replace `Criterion.relatesTo` codelist field with "
-"`Criterion.relatesToTenderer` boolean field."
+"Replace `Criterion.relatesTo` codelist field with `Criterion."
+"relatesToTenderer` boolean field."
 msgstr ""
 
 #: ../README.md:180
@@ -202,7 +194,7 @@ msgstr "2020-06-04"
 
 #: ../README.md:190
 msgid "Review normative and non-normative words."
-msgstr "Revisar palabras normativas y no normativas."
+msgstr "Revisar las palabras normativas y no normativas."
 
 #: ../README.md:192
 msgid "2020-04-24"
@@ -217,8 +209,8 @@ msgid ""
 "This extension was originally discussed in <https://github.com/open-"
 "contracting/standard/issues/223>."
 msgstr ""
-"Esta extensión se discutió originalmente en <https://github.com/open-"
-"contracting/standard/issues/223>."
+"Esta extensión se discutió originalmente en <https://github.com/"
+"open-contracting/standard/issues/223>."
 
 #: ../README.md:198
 msgid "2019-03-20"
@@ -229,8 +221,8 @@ msgid ""
 "Set `\"uniqueItems\": true` on array fields, and add `\"minLength\": 1` on "
 "required string fields."
 msgstr ""
-"Establecer `\"uniqueItems \": true` en los campos matriz y agregar "
-"`\"minLength\": 1` en los campos de cadena obligatorios."
+"Establecer `\"uniqueItems \": true` en los campos matriz y agregar `"
+"\"minLength\": 1` en los campos de cadena obligatorios."
 
 #: ../README.md:202
 msgid "2018-12-18"

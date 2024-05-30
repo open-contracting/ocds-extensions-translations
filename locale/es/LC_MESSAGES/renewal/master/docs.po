@@ -1,27 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C)
+# Copyright (C) 
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# James McKinney, 2021
-# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
-# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python\n"
+"Project-Id-Version: Python \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-30 00:39-0400\n"
-"PO-Revision-Date: 2020-08-20 20:49+0000\n"
-"Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
-"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../README.md:1
 msgid "Renewal"
@@ -38,11 +31,10 @@ msgstr "Contexto legal"
 #: ../README.md:7
 msgid ""
 "In the European Union, this extension's fields correspond to [eForms BT-57 "
-"(Renewal "
-"Description)](https://docs.ted.europa.eu/eforms/latest/reference/business-"
-"terms/). For correspondences to Tenders Electronic Daily (TED), see [OCDS "
-"for the European Union](https://standard.open-"
-"contracting.org/profiles/eu/latest/en/)."
+"(Renewal Description)](https://docs.ted.europa.eu/eforms/latest/reference/"
+"business-terms/). For correspondences to Tenders Electronic Daily (TED), see "
+"[OCDS for the European Union](https://standard.open-contracting.org/profiles/"
+"eu/latest/en/)."
 msgstr ""
 
 #: ../README.md:9
@@ -54,8 +46,8 @@ msgid ""
 "If the number of times a contract can be renewed is an exact number and not "
 "a range, set `minimumRenewals` and `maximumRenewals` to the same number."
 msgstr ""
-"Si el número de veces que se puede renovar un contrato es un número exacto y"
-" no un rango, establecer `minimumRenewals` y `maximumRenewals` al mismo "
+"Si el número de veces que se puede renovar un contrato es un número exacto y "
+"no un rango, establecer `minimumRenewals` y `maximumRenewals` al mismo "
 "número."
 
 #: ../README.md:13
@@ -68,9 +60,9 @@ msgstr "Issues"
 
 #: ../README.md:87
 msgid ""
-"Report issues for this extension in the [ocds-extensions "
-"repository](https://github.com/open-contracting/ocds-extensions/issues), "
-"putting the extension's name in the issue's title."
+"Report issues for this extension in the [ocds-extensions repository](https://"
+"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
+"name in the issue's title."
 msgstr ""
 "Reporte issues para esta extensión en el [repositorio de extensiones "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
@@ -146,16 +138,15 @@ msgstr "Agregar las propiedades `minProperties`, `minItems` y/o `minLength`."
 
 #: ../README.md:117
 msgid ""
-"This extension was originally discussed as part of the [OCDS for EU "
-"profile](https://github.com/open-contracting-extensions/european-"
-"union/issues) in [issue 22](https://github.com/open-contracting-"
-"extensions/european-union/issues/22) and in [pull "
-"requests](https://github.com/open-contracting-"
+"This extension was originally discussed as part of the [OCDS for EU profile]"
+"(https://github.com/open-contracting-extensions/european-union/issues) in "
+"[issue 22](https://github.com/open-contracting-extensions/european-union/"
+"issues/22) and in [pull requests](https://github.com/open-contracting-"
 "extensions/ocds_renewal_extension/pulls?q=is%3Apr+is%3Aclosed)."
 msgstr ""
-"Esta extensión se discutió originalmente como parte del [OCDS para el perfil"
-" de la UE] (https://github.com/open-contracting-extensions/european-"
-"union/issues) en [issue 22](https://github.com/open-contracting-"
-"extensions/european-union/issues/22) y en [pull "
-"requests](https://github.com/open-contracting-"
-"extensions/ocds_renewal_extension/pulls?q=is%3Apr+is%3Aclosed)."
+"Esta extensión se discutió originalmente como parte del [OCDS para el perfil "
+"de la UE] (https://github.com/open-contracting-extensions/european-union/"
+"issues) en [issue 22](https://github.com/open-contracting-extensions/"
+"european-union/issues/22) y en [pull requests](https://github.com/"
+"open-contracting-extensions/ocds_renewal_extension/"
+"pulls?q=is%3Apr+is%3Aclosed)."

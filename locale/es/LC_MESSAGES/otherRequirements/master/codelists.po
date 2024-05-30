@@ -2,26 +2,20 @@
 # Copyright (C) 2024 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-# 
-# Translators:
-# James McKinney, 2021
-# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-05-30 00:40-0400\n"
-"PO-Revision-Date: 2020-08-20 21:52+0000\n"
-"Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
-"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.15.0\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: codelists/reservedParticipation.csv
 msgid "Code"
@@ -43,8 +37,9 @@ msgstr "Taller protegido"
 #. Description
 #: codelists/reservedParticipation.csv:1
 msgid ""
-"Participation is reserved to sheltered workshops and suppliers aiming at the"
-" social and professional integration of disabled or disadvantaged persons."
+"Participation is reserved to sheltered workshops and suppliers aiming at "
+"the social and professional integration of disabled or disadvantaged "
+"persons."
 msgstr ""
 "La participación está reservada a talleres protegidos y proveedores que "
 "tengan como objetivo la integración social y profesional de personas "
@@ -58,8 +53,8 @@ msgstr "Organización con misión de servicio público"
 #. Description
 #: codelists/reservedParticipation.csv:2
 msgid ""
-"Participation is reserved to organizations pursuing a public service mission"
-" and fulfilling other legislative conditions."
+"Participation is reserved to organizations pursuing a public service "
+"mission and fulfilling other legislative conditions."
 msgstr ""
 "La participación está reservada a organizaciones que persigan una misión de "
 "servicio público y cumplan con otras condiciones legislativas."

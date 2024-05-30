@@ -1,27 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C)
+# Copyright (C) 
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# James McKinney, 2021
-# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
-# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python\n"
+"Project-Id-Version: Python \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-30 00:39-0400\n"
-"PO-Revision-Date: 2019-03-14 18:27+0000\n"
-"Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
-"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../README.md:1
 msgid "Organization scale"
@@ -34,8 +27,8 @@ msgid ""
 "enterprises or economic operators."
 msgstr ""
 "Esta extensión añade un campo `scale` al objeto`parties.details` para "
-"indicar el tamaño o la escala de una organización, en particular de empresas"
-" comerciales u operadores económicos."
+"indicar el tamaño o la escala de una organización, en particular de empresas "
+"comerciales u operadores económicos."
 
 #: ../README.md:5
 msgid ""
@@ -57,17 +50,16 @@ msgstr ""
 
 #: ../README.md:9
 msgid ""
-"[OECD: Small and Medium-Sized Enterprises (SMEs) "
-"definition](https://stats.oecd.org/glossary/detail.asp?ID=3123)"
+"[OECD: Small and Medium-Sized Enterprises (SMEs) definition](https://stats."
+"oecd.org/glossary/detail.asp?ID=3123)"
 msgstr ""
-"[OECD: Pequeñas y medianas empresas definición "
-"(SMEs)](https://stats.oecd.org/glossary/detail.asp?ID=3123)"
+"[OECD: Pequeñas y medianas empresas definición (SMEs)](https://stats.oecd."
+"org/glossary/detail.asp?ID=3123)"
 
 #: ../README.md:10
 msgid ""
-"[European Commission: What is an "
-"SME?](https://ec.europa.eu/growth/smes/business-friendly-environment/sme-"
-"definition_en)"
+"[European Commission: What is an SME?](https://ec.europa.eu/growth/smes/"
+"business-friendly-environment/sme-definition_en)"
 msgstr ""
 "[Comisión Europea: ¿Qué son las pequeñas y medianas empresas "
 "(SME)?](https://ec.europa.eu/growth/smes/business-friendly-environment/sme-"
@@ -80,8 +72,7 @@ msgstr "Guía"
 #: ../README.md:14
 msgid ""
 "For small and medium-sized enterprises, if you can distinguish between the "
-"two sizes, use the 'small' and 'medium' codes. Otherwise, use the 'sme' "
-"code."
+"two sizes, use the 'small' and 'medium' codes. Otherwise, use the 'sme' code."
 msgstr ""
 "Para las pequeñas y medianas empresas, si puede distinguir entre los dos "
 "tamaños, utilice los códigos 'small' y 'medium'.  De lo contrario, use el "
@@ -94,8 +85,8 @@ msgid ""
 "'micro' code."
 msgstr ""
 "Para los trabajadores autónomos y los comerciantes individuales, si puede "
-"distinguirlos de las microempresas, utilice el código  'selfEmployed'. De lo"
-" contrario, use el código 'micro'."
+"distinguirlos de las microempresas, utilice el código  'selfEmployed'. De lo "
+"contrario, use el código 'micro'."
 
 #: ../README.md:18
 msgid "For enterprises without employees, use the 'micro' code."
@@ -172,9 +163,9 @@ msgstr "Issues"
 
 #: ../README.md:68
 msgid ""
-"Report issues for this extension in the [ocds-extensions "
-"repository](https://github.com/open-contracting/ocds-extensions/issues), "
-"putting the extension's name in the issue's title."
+"Report issues for this extension in the [ocds-extensions repository](https://"
+"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
+"name in the issue's title."
 msgstr ""
 "Reporte issues para esta extensión en el [repositorio de extensiones "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "

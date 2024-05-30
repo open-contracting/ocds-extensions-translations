@@ -2,25 +2,20 @@
 # Copyright (C) 2024 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-# 
-# Translators:
-# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-05-30 00:39-0400\n"
-"PO-Revision-Date: 2021-05-25 15:35+0000\n"
-"Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
-"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.15.0\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. /name/en
 #. /definitions/Organization/properties/beneficialOwners/title
@@ -68,7 +63,7 @@ msgstr "Una persona física."
 #. /definitions/Person/properties/id/title
 #: release-schema.json:1
 msgid "ID"
-msgstr "ID "
+msgstr "ID"
 
 #. /definitions/Person/properties/id/description
 #: release-schema.json:1
@@ -93,10 +88,10 @@ msgstr "Identificador"
 #. /definitions/Person/properties/identifier/description
 #: release-schema.json:1
 msgid ""
-"An official identifier for the person. The scheme should follow the pattern "
-"{JURISDICTION}-{TYPE}, where JURISDICTION is a three-letter, uppercase ISO "
-"3166-1 alpha-3 country code, and TYPE is one of \"PASSPORT\", \"TAXID\" or "
-"\"IDCARD\"."
+"An official identifier for the person. The scheme should follow the "
+"pattern {JURISDICTION}-{TYPE}, where JURISDICTION is a three-letter, "
+"uppercase ISO 3166-1 alpha-3 country code, and TYPE is one of "
+"\"PASSPORT\", \"TAXID\" or \"IDCARD\"."
 msgstr ""
 "Un identificador oficial de la persona. El esquema debe seguir el patrón "
 "{JURISDICCIÓN}-{TIPO}, donde JURISDICCIÓN es un código de país ISO 3166-1 "
@@ -116,7 +111,7 @@ msgstr ""
 #. /definitions/Person/properties/address/title
 #: release-schema.json:1
 msgid "Address"
-msgstr ""
+msgstr "Dirección"
 
 #. /definitions/Person/properties/address/description
 #: release-schema.json:1
@@ -141,8 +136,8 @@ msgstr ""
 #. /definitions/Person/properties/faxNumber/description
 #: release-schema.json:1
 msgid ""
-"The fax number of the person. This must include the international dialing "
-"code."
+"The fax number of the person. This must include the international dialing"
+" code."
 msgstr ""
 
 #. /definitions/Person/properties/telephone/title

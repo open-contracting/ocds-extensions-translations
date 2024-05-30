@@ -1,27 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C)
+# Copyright (C) 
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# James McKinney, 2021
-# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
-# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python\n"
+"Project-Id-Version: Python \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-30 00:39-0400\n"
-"PO-Revision-Date: 2020-08-20 20:47+0000\n"
-"Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
-"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../README.md:1
 msgid "Recurrence"
@@ -32,8 +25,8 @@ msgid ""
 "This extension adds fields for information on the recurrence of the "
 "contracting process."
 msgstr ""
-"Esta extensión agrega campos de información sobre la recurrencia del proceso"
-" de contratación."
+"Esta extensión agrega campos de información sobre la recurrencia del proceso "
+"de contratación."
 
 #: ../README.md:5
 msgid ""
@@ -51,47 +44,45 @@ msgstr ""
 
 #: ../README.md:9
 msgid "Legal context"
-msgstr "Contexto Legal"
+msgstr "Contexto legal"
 
 #: ../README.md:11
 msgid ""
-"The [Revised Agreement on Government "
-"Procurement](https://www.wto.org/english/docs_e/legal_e/rev-gpr-94_01_e.htm)"
-" (GPA) includes: \"each notice of intended procurement shall include … c. "
-"for recurring contracts, an estimate, if possible, of the timing of "
-"subsequent notices of intended procurement\"."
+"The [Revised Agreement on Government Procurement](https://www.wto.org/"
+"english/docs_e/legal_e/rev-gpr-94_01_e.htm) (GPA) includes: \"each notice of "
+"intended procurement shall include … c. for recurring contracts, an "
+"estimate, if possible, of the timing of subsequent notices of intended "
+"procurement\"."
 msgstr ""
-"El [Revised Agreement on Government Procurement] "
-"(https://www.wto.org/english/docs_e/legal_e/rev-gpr-94_01_e.htm) (GPA) "
-"incluye: \"cada aviso de contratación prevista deberá incluir ... c. para "
-"los contratos recurrentes, una estimación, si es posible, del calendario de "
-"avisos posteriores de contratación prevista\"."
+"El [Revised Agreement on Government Procurement] (https://www.wto.org/"
+"english/docs_e/legal_e/rev-gpr-94_01_e.htm) (GPA) incluye: \"cada aviso de "
+"contratación prevista deberá incluir ... c. para los contratos recurrentes, "
+"una estimación, si es posible, del calendario de avisos posteriores de "
+"contratación prevista\"."
 
 #: ../README.md:13
 msgid ""
-"The European Union is a "
-"[party](https://www.wto.org/english/tratop_e/gproc_e/memobs_e.htm) to the "
-"GPA, and as such its [Directive 2014/24/EU](https://eur-lex.europa.eu/legal-"
-"content/EN/TXT/?uri=uriserv:OJ.L_.2014.094.01.0065.01.ENG) (Public contracts"
-" — setting out clear ground rules) includes: \"Part C: Information to be "
-"included in contract notices … 27. In the case of recurrent procurement, "
-"estimated timing for further notices to be published.\""
+"The European Union is a [party](https://www.wto.org/english/tratop_e/gproc_e/"
+"memobs_e.htm) to the GPA, and as such its [Directive 2014/24/EU](https://eur-"
+"lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.094.01.0065.01."
+"ENG) (Public contracts — setting out clear ground rules) includes: \"Part C: "
+"Information to be included in contract notices … 27. In the case of "
+"recurrent procurement, estimated timing for further notices to be published."
+"\""
 msgstr ""
-"La Unión Europea es una "
-"[parte](https://www.wto.org/english/tratop_e/gproc_e/memobs_e.htm) al GPA, y"
-" como tal su [Directiva 2014/24/EU](https://eur-lex.europa.eu/legal-"
-"content/EN/TXT/?uri=uriserv:OJ.L_.2014.094.01.0065.01.ENG) (Contratos "
-"públicos - que establecen reglas básicas claras) incluye: \"Parte C: "
-"Información que se incluirá en los avisos de contrato ... 27. En el caso de "
-"adquisiciones periódicas, tiempo estimado para que se publiquen más "
+"La Unión Europea es una [parte](https://www.wto.org/english/tratop_e/gproc_e/"
+"memobs_e.htm) al GPA, y como tal su [Directiva 2014/24/EU](https://eur-lex."
+"europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.094.01.0065.01.ENG) ("
+"Contratos públicos - que establecen reglas básicas claras) incluye: \"Parte "
+"C: Información que se incluirá en los avisos de contrato ... 27. En el caso "
+"de adquisiciones periódicas, tiempo estimado para que se publiquen más "
 "avisos\"."
 
 #: ../README.md:15
 msgid ""
 "This extension's fields correspond to [eForms BT-94 (Recurrence) and BT-95 "
-"(Recurrence "
-"Description)](https://docs.ted.europa.eu/eforms/latest/reference/business-"
-"terms/)."
+"(Recurrence Description)](https://docs.ted.europa.eu/eforms/latest/reference/"
+"business-terms/)."
 msgstr ""
 
 #: ../README.md:17
@@ -104,9 +95,9 @@ msgstr "Issues"
 
 #: ../README.md:40
 msgid ""
-"Report issues for this extension in the [ocds-extensions "
-"repository](https://github.com/open-contracting/ocds-extensions/issues), "
-"putting the extension's name in the issue's title."
+"Report issues for this extension in the [ocds-extensions repository](https://"
+"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
+"name in the issue's title."
 msgstr ""
 "Reporte issues para esta extensión en el [repositorio de extensiones "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
@@ -127,9 +118,10 @@ msgstr "Agregar las propiedades `minProperties`, `minItems` y/o `minLength`."
 #: ../README.md:48
 msgid ""
 "The original draft extension can be found in the [archived trade profile "
-"repository](https://github.com/open-contracting-"
-"archive/trade/tree/master/draft_extensions/lot_RecurrentProcurement)"
+"repository](https://github.com/open-contracting-archive/trade/tree/master/"
+"draft_extensions/lot_RecurrentProcurement)"
 msgstr ""
 "El borrador original de la extensión se puede encontrar en el [repositorio "
-"archivado de perfiles comerciales](https://github.com/open-contracting-"
-"archive/trade/tree/master/draft_extensions/lot_RecurrentProcurement)"
+"archivado de perfiles comerciales](https://github.com/"
+"open-contracting-archive/trade/tree/master/draft_extensions/"
+"lot_RecurrentProcurement)"

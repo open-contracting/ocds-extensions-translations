@@ -2,26 +2,20 @@
 # Copyright (C) 2024 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-# 
-# Translators:
-# James McKinney, 2019
-# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-05-30 00:40-0400\n"
-"PO-Revision-Date: 2019-03-14 18:29+0000\n"
-"Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
-"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.15.0\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. /name/en
 #: extension.json:1
@@ -31,8 +25,9 @@ msgstr "Hitos relacionados con transacción"
 #. /description/en
 #: extension.json:1
 msgid ""
-"Adds a relatedImplementationMilestone field to transaction objects, so that "
-"payments against a contract can be linked with an implementation milestone."
+"Adds a relatedImplementationMilestone field to transaction objects, so "
+"that payments against a contract can be linked with an implementation "
+"milestone."
 msgstr ""
 "Agregar un campo a relatedImplementationMilestone a los objetos de "
 "transacción, para que los pagos de un contrato puedan vincularse a un hito "
@@ -46,8 +41,8 @@ msgstr "Hito de implementación relacionado"
 #. /definitions/Transaction/properties/relatedImplementationMilestone/description
 #: release-schema.json:1
 msgid ""
-"A link to the milestone in the implementation section of OCDS to which this "
-"transaction relates."
+"A link to the milestone in the implementation section of OCDS to which "
+"this transaction relates."
 msgstr ""
 "Un enlace al hito en la sección de implementación de OCDS a la que se "
 "refiere esta transacción."

@@ -2,25 +2,20 @@
 # Copyright (C) 2024 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-# 
-# Translators:
-# James McKinney, 2019
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-05-30 00:40-0400\n"
-"PO-Revision-Date: 2019-03-14 18:30+0000\n"
-"Last-Translator: James McKinney, 2019\n"
-"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.15.0\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: codelists/assetClass.csv codelists/debtRepaymentPriority.csv
 #: codelists/financingArrangementType.csv codelists/financingPartyType.csv
@@ -44,8 +39,7 @@ msgstr ""
 
 #. Description
 #: codelists/assetClass.csv:1
-msgid ""
-"A contract that obliges a borrower to repay a lender by a maturity date."
+msgid "A contract that obliges a borrower to repay a lender by a maturity date."
 msgstr ""
 
 #. Title
@@ -86,8 +80,8 @@ msgstr ""
 #. Description
 #: codelists/financingArrangementType.csv:1
 msgid ""
-"A debt instrument provided by an issuer, such as a government or company. A "
-"bond typically obliges the issuer to pay interest (coupons) to the "
+"A debt instrument provided by an issuer, such as a government or company."
+" A bond typically obliges the issuer to pay interest (coupons) to the "
 "bondholder over a specified period and to repay the principal (amount "
 "borrowed) at the maturity date."
 msgstr ""
@@ -102,8 +96,8 @@ msgstr ""
 msgid ""
 "A debt instrument provided by a lender, such as a commercial bank, multi-"
 "lateral financial institution, or development agency. A loan typically "
-"obliges the borrower to pay the principal (amount borrowed) and interest to "
-"the lender over a specified period."
+"obliges the borrower to pay the principal (amount borrowed) and interest "
+"to the lender over a specified period."
 msgstr ""
 
 #. Title
@@ -138,8 +132,8 @@ msgstr ""
 #. Description
 #: codelists/financingArrangementType.csv:5
 msgid ""
-"An equity instrument representing ownership rights in a company that is not "
-"listed in a stock exchange."
+"An equity instrument representing ownership rights in a company that is "
+"not listed in a stock exchange."
 msgstr ""
 
 #. Title
@@ -159,8 +153,7 @@ msgstr "Garantía"
 
 #. Description
 #: codelists/financingArrangementType.csv:7
-msgid ""
-"A promise by one party to assume the debt of another in case of default."
+msgid "A promise by one party to assume the debt of another in case of default."
 msgstr ""
 
 #: codelists/financingPartyType.csv
@@ -177,9 +170,9 @@ msgstr "Institucional"
 msgid ""
 "This finance was provided by institutional investors: organizations that "
 "pool money to purchase securities, real property, and other investment "
-"assets or originate loans. Institutional investors include banks, insurance "
-"companies, pensions, hedge funds, REITs, investment advisors, endowments, "
-"and mutual funds."
+"assets or originate loans. Institutional investors include banks, "
+"insurance companies, pensions, hedge funds, REITs, investment advisors, "
+"endowments, and mutual funds."
 msgstr ""
 
 #. Title
@@ -205,8 +198,8 @@ msgstr "Bilateral"
 #: codelists/financingPartyType.csv:3
 msgid ""
 "This finance was provided by a bilateral institution: an agency of one "
-"specific government, usually a development agency or export-credit agency "
-"with a mandate to support domestic businesses in pursuing investments "
+"specific government, usually a development agency or export-credit agency"
+" with a mandate to support domestic businesses in pursuing investments "
 "abroad."
 msgstr ""
 "Este financiamiento fue proporcionado por una institución bilateral: una "
@@ -222,8 +215,8 @@ msgstr "Multilateral"
 #. Description
 #: codelists/financingPartyType.csv:4
 msgid ""
-"This finance was provided by a multilateral institution: a body created by a"
-" group of countries to provides financing and professional support, "
+"This finance was provided by a multilateral institution: a body created "
+"by a group of countries to provides financing and professional support, "
 "primarily for the purpose of development."
 msgstr ""
 "Este financiamiento fue proporcionado por una institución multilateral: un "
@@ -237,8 +230,7 @@ msgstr ""
 
 #. Description
 #: codelists/financingPartyType.csv:5
-msgid ""
-"This finance was provided through a line of credit provided by a vendor."
+msgid "This finance was provided through a line of credit provided by a vendor."
 msgstr ""
 
 #. Title

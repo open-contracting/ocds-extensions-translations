@@ -1,26 +1,21 @@
 # Translations template for PROJECT.
-# Copyright (C) 2022 ORGANIZATION
+# Copyright (C) 2023 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
-# 
-# Translators:
-# James McKinney, 2019
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-07 18:41-0300\n"
-"PO-Revision-Date: 2019-03-14 18:28+0000\n"
-"Last-Translator: James McKinney, 2019\n"
-"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"POT-Creation-Date: 2023-05-15 16:00-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
-"Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. /name
 #. /definitions/Implementation/properties/charges/title
@@ -32,8 +27,8 @@ msgstr "Cargos"
 #: extension.json:1
 msgid ""
 "The charges extension is used to record details of the **total** charges "
-"that are estimated or applied to users or government during the operation of"
-" a Public Private Partnership contract."
+"that are estimated or applied to users or government during the operation"
+" of a Public Private Partnership contract."
 msgstr ""
 "La extensión de cargos se utiliza para registrar detalles de los **cargos "
 "totales** estimados o aplicados a los usuarios o al gobierno durante la "
@@ -42,8 +37,8 @@ msgstr ""
 #. /definitions/Implementation/properties/charges/description
 #: release-schema.json:1
 msgid ""
-"Information on the revenue to be raised through charges, as set out in the "
-"contract or as subsequently revised during the life of the project."
+"Information on the revenue to be raised through charges, as set out in "
+"the contract or as subsequently revised during the life of the project."
 msgstr ""
 "Información sobre los ingresos que se recaudarán a través de cobros, según "
 "lo estipulado en el contrato o revisado posteriormente durante la vida del "
@@ -58,12 +53,12 @@ msgstr "Cargo"
 #: release-schema.json:1
 msgid ""
 "A charge to be incurred by users or government over the course of the "
-"contract. Charge information can be broken down by period. Information on "
-"the unit prices upon which total values are based can be provided in the "
-"tariffs section."
+"contract. Charge information can be broken down by period. Information on"
+" the unit prices upon which total values are based can be provided in the"
+" tariffs section."
 msgstr ""
-"Un cargo a ser incurrido por los usuarios o el gobierno durante el curso del"
-" contrato. La información del cargo se puede desglosar por período. La "
+"Un cargo a ser incurrido por los usuarios o el gobierno durante el curso del "
+"contrato. La información del cargo se puede desglosar por período. La "
 "información sobre los precios unitarios en los que se basan los valores "
 "totales puede proporcionarse en la sección de tarifas."
 
@@ -100,8 +95,8 @@ msgstr "Pagado por"
 #. /definitions/Charge/properties/paidBy/description
 #: release-schema.json:1
 msgid ""
-"Is this a user charge (paid by businesses or citizens using the facilities "
-"provided by the contract), or a charge paid by the government?"
+"Is this a user charge (paid by businesses or citizens using the "
+"facilities provided by the contract), or a charge paid by the government?"
 msgstr ""
 "¿Se trata de un cargo de usuario (pagado por empresas o ciudadanos que "
 "utilizan las facilidades proporcionadas por el contrato), o un cargo pagado "
@@ -125,8 +120,8 @@ msgstr "Valor estimado"
 #. /definitions/Charge/properties/estimatedValue/description
 #: release-schema.json:1
 msgid ""
-"What is the estimated total value to be raised from this charge during this "
-"period."
+"What is the estimated total value to be raised from this charge during "
+"this period."
 msgstr ""
 "Cuál es el valor total estimado que se levantará de este cargo durante este "
 "período."

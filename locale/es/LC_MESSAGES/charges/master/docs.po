@@ -1,27 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C)
+# Copyright (C) 
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# James McKinney, 2021
-# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
-# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python\n"
+"Project-Id-Version: Python \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-30 00:39-0400\n"
-"PO-Revision-Date: 2019-03-14 18:28+0000\n"
-"Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
-"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../README.md:1
 msgid "Charges"
@@ -30,8 +23,8 @@ msgstr "Cargos"
 #: ../README.md:3
 msgid ""
 "The charges extension is used to record details of the **total** charges "
-"that are estimated or applied to users or government during the operation of"
-" a Public Private Partnership contract."
+"that are estimated or applied to users or government during the operation of "
+"a Public Private Partnership contract."
 msgstr ""
 "La extensión de cargos se utiliza para registrar detalles de los **cargos "
 "totales** estimados o aplicados a los usuarios o al gobierno durante la "
@@ -47,11 +40,11 @@ msgstr ""
 
 #: ../README.md:7
 msgid ""
-"The charges extension introduces a `charges` array to the "
-"`contracts.implementation` object."
+"The charges extension introduces a `charges` array to the `contracts."
+"implementation` object."
 msgstr ""
-"La extensión de cargos introduce una lista `charges` al objeto "
-"`contracts.implementation`."
+"La extensión de cargos introduce una lista `charges` al objeto `contracts."
+"implementation`."
 
 #: ../README.md:9
 msgid "Example"
@@ -63,9 +56,9 @@ msgstr "Issues"
 
 #: ../README.md:56
 msgid ""
-"Report issues for this extension in the [ocds-extensions "
-"repository](https://github.com/open-contracting/ocds-extensions/issues), "
-"putting the extension's name in the issue's title."
+"Report issues for this extension in the [ocds-extensions repository](https://"
+"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
+"name in the issue's title."
 msgstr ""
 "Reporte issues para esta extensión en el [repositorio de extensiones "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
@@ -92,8 +85,8 @@ msgid ""
 "Set `\"uniqueItems\": true` on array fields, and add `\"minLength\": 1` on "
 "required string fields."
 msgstr ""
-"Establecer `\"uniqueItems \": true` en los campos matriz y agregar "
-"`\"minLength\": 1` en los campos de cadena obligatorios."
+"Establecer `\"uniqueItems \": true` en los campos matriz y agregar `"
+"\"minLength\": 1` en los campos de cadena obligatorios."
 
 #: ../README.md:68
 msgid "2018-05-08"
@@ -101,7 +94,7 @@ msgstr "2018-05-08"
 
 #: ../README.md:70
 msgid ""
-"Make `Charge.id` required to support revision tracking and [list "
-"merging](https://standard.open-"
-"contracting.org/latest/en/schema/merging/#array-values)"
+"Make `Charge.id` required to support revision tracking and [list merging]"
+"(https://standard.open-contracting.org/latest/en/schema/merging/#array-"
+"values)"
 msgstr ""

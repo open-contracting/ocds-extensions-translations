@@ -1,25 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C)
+# Copyright (C) 
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# James McKinney, 2024
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python\n"
+"Project-Id-Version: Python \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-30 00:39-0400\n"
-"PO-Revision-Date: 2024-05-30 04:36+0000\n"
-"Last-Translator: James McKinney, 2024\n"
-"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../README.md:1
 msgid "Organization classification"
@@ -49,10 +44,10 @@ msgstr ""
 
 #: ../README.md:50
 msgid ""
-"For a longer example, see the [organization "
-"classifications](https://standard.open-"
-"contracting.org/latest/en/guidance/map/organization_classifications/#example-2-2-disclosing-"
-"data-using-a-local-scheme) guidance in the OCDS documentation."
+"For a longer example, see the [organization classifications](https://"
+"standard.open-contracting.org/latest/en/guidance/map/"
+"organization_classifications/#example-2-2-disclosing-data-using-a-local-"
+"scheme) guidance in the OCDS documentation."
 msgstr ""
 
 #: ../README.md:52
@@ -61,9 +56,9 @@ msgstr "Issues"
 
 #: ../README.md:54
 msgid ""
-"Report issues for this extension in the [ocds-extensions "
-"repository](https://github.com/open-contracting/ocds-extensions/issues), "
-"putting the extension's name in the issue's title."
+"Report issues for this extension in the [ocds-extensions repository](https://"
+"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
+"name in the issue's title."
 msgstr ""
 "Reporte issues para esta extensión en el [repositorio de extensiones "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
@@ -102,14 +97,14 @@ msgstr "Agregar las propiedades `minProperties`, `minItems` y/o `minLength`."
 
 #: ../README.md:70
 msgid ""
-"This extension was originally discussed as part of the [OCDS for EU "
-"profile](https://github.com/open-contracting-extensions/european-"
-"union/issues), in [pull requests](https://github.com/open-contracting-"
-"extensions/ocds_organizationClassification_extension/pulls?q=is%3Apr+is%3Aclosed)"
-" and in <https://github.com/open-contracting/standard/issues/711>."
+"This extension was originally discussed as part of the [OCDS for EU profile]"
+"(https://github.com/open-contracting-extensions/european-union/issues), in "
+"[pull requests](https://github.com/open-contracting-extensions/"
+"ocds_organizationClassification_extension/pulls?q=is%3Apr+is%3Aclosed) and "
+"in <https://github.com/open-contracting/standard/issues/711>."
 msgstr ""
-"Esta extensión se discutió originalmente como parte del [OCDS para el perfil"
-" de la UE] (https://github.com/open-contracting-extensions/european-"
-"union/issues), en [pull requests](https://github.com/open-contracting-"
-"extensions/ocds_organizationClassification_extension/pulls?q=is%3Apr+is%3Aclosed)"
-" y en <https://github.com/open-contracting/standard/issues/711>."
+"Esta extensión se discutió originalmente como parte del [OCDS para el perfil "
+"de la UE] (https://github.com/open-contracting-extensions/european-union/"
+"issues), en [pull requests](https://github.com/open-contracting-extensions/"
+"ocds_organizationClassification_extension/pulls?q=is%3Apr+is%3Aclosed) y en "
+"<https://github.com/open-contracting/standard/issues/711>."
