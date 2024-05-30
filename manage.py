@@ -124,6 +124,18 @@ def run_pretranslate(pot_dir, compendium, messages):
         run(["pretranslate", "--progress=none", "--nofuzzymatching", "-t", compendium, pot, po])
 
 
+def run_tx_push(transifex_organization, transifex_project, *args):
+    """
+    Push source strings to Transifex, for live versions of existing extensions.
+    """
+    create_txconfig(transifex_organization, transifex_project)
+
+    # Treat "v1..." versions as frozen versions.
+    resources = [resource for resource in transifex_resources() if "--v1" not in resource]
+
+    run(["tx", "push", "-f", "-s", *args, *resources])
+
+
 def transifex_resources(transifex_project):
     """
     Return all names of Transifex resources as a set.
@@ -245,12 +257,7 @@ def update(transifex_organization, transifex_project):
     # Same as https://ocdsextensionregistry.readthedocs.io/en/latest/translation.html
     run_generate_pot_files(["--no-frozen", POT_DIR])
 
-    create_txconfig(transifex_organization, transifex_project)
-
-    # Treat "v1..." versions as frozen versions.
-    resources = [resource for resource in transifex_resources() if "--v1" not in resource]
-
-    run(["tx", "push", "-f", "-s", *resources])
+    run_tx_push(transifex_organization, transifex_project)
 
 
 @cli.command()
