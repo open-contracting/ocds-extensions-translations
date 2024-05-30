@@ -22,14 +22,13 @@ eval (brew --prefix translate-toolkit)/libexec/bin/python -m pip install python-
 
 ## Tasks
 
-### Push strings to translate to Transifex
+### Push source strings to Transifex
 
 ```bash
 ./manage.py update open-contracting-partnership-1 ocds-extensions
 ```
 
 ### Add new extensions to, and remove yanked extensions from, Transifex
-
 
 ```bash
 ./manage.py add-and-remove open-contracting-partnership-1 ocds-extensions

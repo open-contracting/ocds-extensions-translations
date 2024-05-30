@@ -205,7 +205,7 @@ def pull(directory):
 @click.argument("transifex-project")
 def update(transifex_organization, transifex_project):
     """
-    Push strings to translate to Transifex, for live versions of registered extensions.
+    Push source strings to Transifex, for live versions of registered extensions.
     """
     cwd = Path()
     txconfig = cwd / ".tx" / "config"
@@ -218,15 +218,10 @@ def update(transifex_organization, transifex_project):
 
     create_txconfig(txconfig, transifex_organization, transifex_project, pot_dir, locale_dir)
 
-    config = configparser.ConfigParser()
-    config.read(txconfig)
-    resources = [
-        f"{transifex_project}.{config[section]['resource_name']}"
-        for section in config.sections()
-        if "resource_name" in config[section] and "--v1" not in config[section]["resource_name"]
-    ]
+    # Treat "v1..." versions as frozen versions.
+    resources = [resource for resource in transifex_resources() if "--v1" not in resource]
 
-    run(["tx", "push", "-s", "--use-git-timestamps", *resources])
+    run(["tx", "push", "-f", "-s", *resources])
 
 
 @cli.command()
@@ -293,7 +288,7 @@ def add_and_remove(transifex_organization, transifex_project):
     # Push the POT (source) and PO (translation) files.
     if new_resources:  # If no resources are provided, tx pushes all resources.
         click.secho("Pushing new resources...", fg="blue")
-        run(["tx", "push", "-s", "-t", "-l", "es", "--use-git-timestamps", *new_resources])
+        run(["tx", "push", "-f", "-s", "-t", "-a", *new_resources])
 
 
 @cli.command()
