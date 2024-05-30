@@ -1,10 +1,22 @@
 #!/usr/bin/env python
-import pathlib
+"""
+See also https://ocdsextensionregistry.readthedocs.io/en/latest/translation.html
+"""
+
+import argparse
+import configparser
+import csv
+import io
+import shutil
+import subprocess
 from contextlib import contextmanager
 from datetime import UTC, datetime, timedelta
+from pathlib import Path
 
 import click
 import git
+import requests
+from ocdsextensionregistry.commands import generate_pot_files
 
 KNOWN_BRANCHES = {"1.1", "1.2", "master"}
 TRANSLATABLE_BRANCHES = {"1.1", "master"}
@@ -12,14 +24,31 @@ TRANSLATABLE_BRANCHES = {"1.1", "master"}
 TRANSLATABLE_PATHS = ["extension.json", "release-schema.json", "codelists/"]
 
 
-def extensions(directory):
+def local_extensions(directory):
+    """
+    Yield each local repository as a tuple of a pathlib.Path and git.Repo.
+    """
     for child in directory.iterdir():
         if child.is_dir() and (child / "extension.json").is_file():
             yield child, git.Repo(child)
 
 
+def registered_extensions():
+    """
+    Return all identifiers of registered extensions as a set.
+    """
+    response = requests.get("https://github.com/open-contracting/extension_registry/raw/main/extensions.csv")
+    response.raise_for_status()
+    return {row["Id"] for row in csv.DictReader(io.StringIO(response.text))}
+
+
 def translatable_branches(repo):
-    path = pathlib.Path(repo.working_dir).name
+    """
+    Yield each branch that is translatable, as a git.Reference.
+
+    Warn about unrecognized branches and detached HEADs.
+    """
+    path = Path(repo.working_dir).name
 
     for ref in repo.references:
         if ref.path.startswith(("refs/tags/", "refs/remotes/")):
@@ -39,8 +68,37 @@ def translatable_branches(repo):
         yield ref
 
 
+def transifex_resources(txconfig):
+    """
+    Return a tuple of the Transifex configuration text and all resource names.
+    """
+    content = txconfig.read_text()
+    config = configparser.ConfigParser()
+    config.read(txconfig)
+    return content, {
+        config.get(section, "resource_name") for section in config.sections() if "resource_name" in config[section]
+    }
+
+
+def run(args, **kwargs):
+    """
+    Echo and run a command.
+    """
+    line_length = 200
+    command = " ".join(map(str, args))
+    if len(command) > line_length:
+        command = f"{command[:line_length]}..."
+    click.echo(command)
+    subprocess.run(args, check=True, **kwargs)
+
+
 @contextmanager
 def checkout(repo, ref):
+    """
+    Run code against a branch, temporarily switching to the branch if needed.
+
+    Warn with standard error if git errors.
+    """
     try:
         old = repo.head.reference
         if ref != old:
@@ -59,12 +117,12 @@ def cli():
 
 
 @cli.command()
-@click.argument("directory", type=click.Path(exists=True, file_okay=False, path_type=pathlib.Path))
+@click.argument("directory", type=click.Path(exists=True, file_okay=False, path_type=Path))
 def pull(directory):
     """
     Pull translatable branches and fetch any tags.
     """
-    for child, repo in extensions(directory):
+    for child, repo in local_extensions(directory):
         origin = repo.remote("origin")
         origin.fetch()
 
@@ -78,7 +136,110 @@ def pull(directory):
 
 
 @cli.command()
-@click.argument("directory", type=click.Path(exists=True, file_okay=False, path_type=pathlib.Path))
+@click.argument("transifex-organization")
+@click.argument("transifex-project")
+def add_and_remove(transifex_organization, transifex_project):
+    """
+    Add new extensions from the extension registry and remove yanked extensions.
+    """
+    cwd = Path()
+    repo = git.Repo()
+    txconfig = cwd / ".tx" / "config"
+    pot_dir = cwd / "build" / "locale"
+    locale_dir = cwd / "locale"
+    messages = cwd / "locale" / "es" / "LC_MESSAGES"
+    compendium = cwd / "es.po"
+
+    registered = registered_extensions()
+    extracted = {d.name for d in pot_dir.iterdir() if d.is_dir()}
+    translated = {d.name for d in messages.iterdir() if d.is_dir()}
+
+    # Delete the POT and PO files for unregistered extensions.
+    for extension in extracted - registered:
+        click.secho(f"- {extension}", fg="red")
+
+        path = pot_dir / extension
+        click.echo(f"rm -rf {path}")
+        shutil.rmtree(path)
+
+    for extension in translated - registered:
+        click.secho(f"- {extension}", fg="red")
+
+        path = messages / extension
+        click.echo(f"git rm -r {path}")
+        repo.index.remove(path, working_tree=True, r=True)
+
+    # Prepare a compendium from the existing extensions.
+    click.secho("Creating compendium...", fg="blue")
+    run(["msgcat", "--use-first", "-o", compendium, *sorted(messages.glob("**/*.po"), reverse=True)])
+
+    # Create the POT and PO files for new extensions.
+    for extension in registered - (extracted & translated):
+        click.secho(f"+ {extension}", fg="green")
+
+        # NOTE: Future languages can reuse these POT files.
+        parser = argparse.ArgumentParser(description="OCDS Extension Registry CLI")
+        subparsers = parser.add_subparsers(required=True)
+        command = generate_pot_files.Command(subparsers)
+        args = parser.parse_args(["generate-pot-files", str(pot_dir), extension])
+        command.args = args
+        click.echo(f"ocdsextensionregistry generate-pot-files {pot_dir} {extension}")
+        command.handle()
+
+        # NOTE: This logic can be useful for any PO file, if not already pre-translated.
+        for pot in (pot_dir / extension).glob("**/*.pot"):
+            # Create the directory for the PO file.
+            po_dir = messages / pot.parent.relative_to(pot_dir)
+            po_dir.mkdir(parents=True, exist_ok=True)
+
+            # Initialize the PO file.
+            po = po_dir / f"{pot.stem}.po"
+            run(["msginit", "--no-translator", "--locale", "es", "-i", pot, "-o", po])
+
+            # Pre-populate the PO file.
+            run(["pretranslate", "--progress=none", "--nofuzzymatching", "-t", compendium, pot, po])
+
+    # Regenerate .tx/config file to remove any broken references.
+    click.secho("Regenerating .tx/config...", fg="blue")
+
+    before_text, before_resources = transifex_resources(txconfig)
+
+    txconfig.unlink()
+    run(["sphinx-intl", "create-txconfig"])
+    run(
+        [
+            "sphinx-intl",
+            "update-txconfig-resources",
+            "--transifex-organization-name",
+            transifex_organization,
+            "--transifex-project-name",
+            transifex_project,
+            "--pot-dir",
+            pot_dir,
+            "--locale-dir",
+            locale_dir,
+        ]
+    )
+
+    after_text, after_resources = transifex_resources(txconfig)
+
+    click.secho("Deleting old resources...", fg="blue")
+
+    # tx can't delete a resource without its configuration.
+    txconfig.write_text(before_text)
+    for resource in before_resources - after_resources:
+        run(["tx", "delete", "--skip", f"{transifex_project}.{resource}"])
+    txconfig.write_text(after_text)
+
+    # Push the POT (source) and PO (translation) files.
+    resources = [f"{transifex_project}.{resource}" for resource in after_resources - before_resources]
+    if resources:  # If no resources are provided, tx pushes all resources.
+        click.secho("Pushing new resources...", fg="blue")
+        run(["tx", "push", "-s", "-t", "-l", "es", "--use-git-timestamps", *resources])
+
+
+@cli.command()
+@click.argument("directory", type=click.Path(exists=True, file_okay=False, path_type=Path))
 @click.argument("years", type=int)
 def stale(directory, years):
     """
@@ -86,7 +247,10 @@ def stale(directory, years):
     """
     delta = timedelta(days=365 * years)
 
-    for child, repo in extensions(directory):
+    # GitHub API allows listing commits for only one path at a time.
+    # https://docs.github.com/en/rest/commits/commits?apiVersion=2022-11-28#list-commits
+
+    for child, repo in local_extensions(directory):
         for ref in translatable_branches(repo):
             with checkout(repo, ref):
                 commit = next(repo.iter_commits(paths=TRANSLATABLE_PATHS, max_count=1))

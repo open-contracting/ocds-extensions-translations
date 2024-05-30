@@ -1,0 +1,84 @@
+# Translations template for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-05-29 23:48-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#. /name/en
+#. /definitions/Tender/properties/exclusionGrounds/title
+#. /definitions/ExclusionGrounds/title
+#: extension.json:1 release-schema.json:1
+msgid "Exclusion grounds"
+msgstr ""
+
+#. /description/en
+#: extension.json:1
+msgid ""
+"Adds an object to describe the criteria to exclude tenderers from "
+"participating in a contracting process."
+msgstr ""
+
+#. /definitions/Tender/properties/exclusionGrounds/description
+#. /definitions/ExclusionGrounds/description
+#: release-schema.json:1
+msgid ""
+"Information about the criteria regarding the situation of a tenderer that"
+" can lead to its exclusion from the contracting process. For example: "
+"criminal convictions, bankruptcy, presence on a blacklist or failure to "
+"pay taxes."
+msgstr ""
+
+#. /definitions/ExclusionGrounds/properties/criteria/title
+#: release-schema.json:1
+msgid "Exclusion criteria"
+msgstr ""
+
+#. /definitions/ExclusionGrounds/properties/criteria/description
+#: release-schema.json:1
+msgid "The exclusion criteria."
+msgstr ""
+
+#. /definitions/ExclusionCriterion/title
+#: release-schema.json:1
+msgid "Exclusion criterion"
+msgstr ""
+
+#. /definitions/ExclusionCriterion/description
+#: release-schema.json:1
+msgid ""
+"A criterion regarding the situation of a tenderer that can lead to its "
+"exclusion from the contracting process."
+msgstr ""
+
+#. /definitions/ExclusionCriterion/properties/type/title
+#: release-schema.json:1
+msgid "Type"
+msgstr "Tipo"
+
+#. /definitions/ExclusionCriterion/properties/type/description
+#: release-schema.json:1
+msgid "The type of the criterion."
+msgstr "El tipo de criterio."
+
+#. /definitions/ExclusionCriterion/properties/description/title
+#: release-schema.json:1
+msgid "Description"
+msgstr "Descripción"
+
+#. /definitions/ExclusionCriterion/properties/description/description
+#: release-schema.json:1
+msgid "The description of the criterion."
+msgstr "La descripción del criterio."

@@ -1,3 +1,6 @@
 click
 gitpython
+ocdsextensionregistry[cli]
+requests
 ruff
+sphinx-intl

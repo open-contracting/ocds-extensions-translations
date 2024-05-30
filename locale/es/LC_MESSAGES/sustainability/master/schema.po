@@ -1,0 +1,107 @@
+# Translations template for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-05-29 23:48-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#. /name/en
+#. /definitions/Sustainability/title
+#. /definitions/Tender/properties/sustainability/title
+#. /definitions/Lot/properties/sustainability/title
+#: extension.json:1 release-schema.json:1
+msgid "Sustainability"
+msgstr ""
+
+#. /description/en
+#: extension.json:1
+msgid ""
+"Adds fields to the tender and lot objects, to provide information related"
+" to Sustainable Public Procurement."
+msgstr ""
+
+#. /definitions/Sustainability/description
+#: release-schema.json:1
+msgid ""
+"Information about how the contracting process or lot incorporates "
+"Sustainable Public Procurement."
+msgstr ""
+
+#. /definitions/Sustainability/properties/description/title
+#: release-schema.json:1
+msgid "Description"
+msgstr "Descripción"
+
+#. /definitions/Sustainability/properties/description/description
+#: release-schema.json:1
+msgid ""
+"A description of how the contracting process or lot incorporates "
+"Sustainable Public Procurement."
+msgstr ""
+
+#. /definitions/Sustainability/properties/goal/title
+#: release-schema.json:1
+msgid "Goal"
+msgstr ""
+
+#. /definitions/Sustainability/properties/goal/description
+#: release-schema.json:1
+msgid ""
+"The sustainability goal pursued, from the sustainabilityGoal codelist. "
+"New sub-codes may be used outside those in the codelist, following the "
+"format [existing-code].[sub-code]."
+msgstr ""
+
+#. /definitions/Sustainability/properties/strategies/title
+#: release-schema.json:1
+msgid "Strategies"
+msgstr ""
+
+#. /definitions/Sustainability/properties/strategies/description
+#: release-schema.json:1
+msgid ""
+"The strategies used to pursue the sustainability goal(s), from the "
+"sustainabilityStrategy codelist."
+msgstr ""
+
+#. /definitions/Tender/properties/hasSustainability/title
+#. /definitions/Lot/properties/hasSustainability/title
+#: release-schema.json:1
+msgid "Has sustainability"
+msgstr ""
+
+#. /definitions/Tender/properties/hasSustainability/description
+#: release-schema.json:1
+msgid ""
+"Whether the contracting process incorporates Sustainable Public "
+"Procurement."
+msgstr ""
+
+#. /definitions/Tender/properties/sustainability/description
+#: release-schema.json:1
+msgid ""
+"Information about how the contracting process incorporates Sustainable "
+"Public Procurement."
+msgstr ""
+
+#. /definitions/Lot/properties/hasSustainability/description
+#: release-schema.json:1
+msgid "Whether the lot incorporates Sustainable Public Procurement."
+msgstr ""
+
+#. /definitions/Lot/properties/sustainability/description
+#: release-schema.json:1
+msgid "Information about how the lot incorporates Sustainable Public Procurement."
+msgstr ""

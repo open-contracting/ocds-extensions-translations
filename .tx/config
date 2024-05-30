@@ -19,6 +19,33 @@ resource_name          = additionalContactPoint--master--schema
 replace_edited_strings = false
 keep_translations      = false
 
+[o:open-contracting-partnership-1:p:ocds-extensions:r:amendment_rationale_classifications--master--codelists]
+file_filter            = locale/<lang>/LC_MESSAGES/amendment_rationale_classifications/master/codelists.po
+source_file            = build/locale/amendment_rationale_classifications/master/codelists.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = amendment_rationale_classifications--master--codelists
+replace_edited_strings = false
+keep_translations      = false
+
+[o:open-contracting-partnership-1:p:ocds-extensions:r:amendment_rationale_classifications--master--docs]
+file_filter            = locale/<lang>/LC_MESSAGES/amendment_rationale_classifications/master/docs.po
+source_file            = build/locale/amendment_rationale_classifications/master/docs.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = amendment_rationale_classifications--master--docs
+replace_edited_strings = false
+keep_translations      = false
+
+[o:open-contracting-partnership-1:p:ocds-extensions:r:amendment_rationale_classifications--master--schema]
+file_filter            = locale/<lang>/LC_MESSAGES/amendment_rationale_classifications/master/schema.po
+source_file            = build/locale/amendment_rationale_classifications/master/schema.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = amendment_rationale_classifications--master--schema
+replace_edited_strings = false
+keep_translations      = false
+
 [o:open-contracting-partnership-1:p:ocds-extensions:r:awardCriteria--master--codelists]
 file_filter            = locale/<lang>/LC_MESSAGES/awardCriteria/master/codelists.po
 source_file            = build/locale/awardCriteria/master/codelists.pot
@@ -259,22 +286,6 @@ source_file            = build/locale/communication/master/schema.pot
 type                   = PO
 minimum_perc           = 0
 resource_name          = communication--master--schema
-replace_edited_strings = false
-keep_translations      = false
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:competitive--master--docs]
-file_filter            = locale/<lang>/LC_MESSAGES/competitive/master/docs.po
-source_file            = build/locale/competitive/master/docs.pot
-type                   = PO
-minimum_perc           = 0
-replace_edited_strings = false
-keep_translations      = false
-
-[o:open-contracting-partnership-1:p:ocds-extensions:r:competitive--master--schema]
-file_filter            = locale/<lang>/LC_MESSAGES/competitive/master/schema.po
-source_file            = build/locale/competitive/master/schema.pot
-type                   = PO
-minimum_perc           = 0
 replace_edited_strings = false
 keep_translations      = false
 
@@ -590,6 +601,24 @@ source_file            = build/locale/eu/1.1/schema.pot
 type                   = PO
 minimum_perc           = 0
 resource_name          = eu--1_1--schema
+replace_edited_strings = false
+keep_translations      = false
+
+[o:open-contracting-partnership-1:p:ocds-extensions:r:exclusionGrounds--master--docs]
+file_filter            = locale/<lang>/LC_MESSAGES/exclusionGrounds/master/docs.po
+source_file            = build/locale/exclusionGrounds/master/docs.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = exclusionGrounds--master--docs
+replace_edited_strings = false
+keep_translations      = false
+
+[o:open-contracting-partnership-1:p:ocds-extensions:r:exclusionGrounds--master--schema]
+file_filter            = locale/<lang>/LC_MESSAGES/exclusionGrounds/master/schema.po
+source_file            = build/locale/exclusionGrounds/master/schema.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = exclusionGrounds--master--schema
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1772,21 +1801,30 @@ resource_name          = signatories--master--schema
 replace_edited_strings = false
 keep_translations      = false
 
-[o:open-contracting-partnership-1:p:ocds-extensions:r:simpleIdentifier--master--docs]
-file_filter            = locale/<lang>/LC_MESSAGES/simpleIdentifier/master/docs.po
-source_file            = build/locale/simpleIdentifier/master/docs.pot
+[o:open-contracting-partnership-1:p:ocds-extensions:r:statistics--master--codelists]
+file_filter            = locale/<lang>/LC_MESSAGES/statistics/master/codelists.po
+source_file            = build/locale/statistics/master/codelists.pot
 type                   = PO
 minimum_perc           = 0
-resource_name          = simpleIdentifier--master--docs
+resource_name          = statistics--master--codelists
 replace_edited_strings = false
 keep_translations      = false
 
-[o:open-contracting-partnership-1:p:ocds-extensions:r:simpleIdentifier--master--schema]
-file_filter            = locale/<lang>/LC_MESSAGES/simpleIdentifier/master/schema.po
-source_file            = build/locale/simpleIdentifier/master/schema.pot
+[o:open-contracting-partnership-1:p:ocds-extensions:r:statistics--master--docs]
+file_filter            = locale/<lang>/LC_MESSAGES/statistics/master/docs.po
+source_file            = build/locale/statistics/master/docs.pot
 type                   = PO
 minimum_perc           = 0
-resource_name          = simpleIdentifier--master--schema
+resource_name          = statistics--master--docs
+replace_edited_strings = false
+keep_translations      = false
+
+[o:open-contracting-partnership-1:p:ocds-extensions:r:statistics--master--schema]
+file_filter            = locale/<lang>/LC_MESSAGES/statistics/master/schema.po
+source_file            = build/locale/statistics/master/schema.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = statistics--master--schema
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1850,6 +1888,24 @@ source_file            = build/locale/submissionTerms/master/schema.pot
 type                   = PO
 minimum_perc           = 0
 resource_name          = submissionTerms--master--schema
+replace_edited_strings = false
+keep_translations      = false
+
+[o:open-contracting-partnership-1:p:ocds-extensions:r:suitability--master--docs]
+file_filter            = locale/<lang>/LC_MESSAGES/suitability/master/docs.po
+source_file            = build/locale/suitability/master/docs.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = suitability--master--docs
+replace_edited_strings = false
+keep_translations      = false
+
+[o:open-contracting-partnership-1:p:ocds-extensions:r:suitability--master--schema]
+file_filter            = locale/<lang>/LC_MESSAGES/suitability/master/schema.po
+source_file            = build/locale/suitability/master/schema.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = suitability--master--schema
 replace_edited_strings = false
 keep_translations      = false
 
@@ -2030,6 +2086,33 @@ source_file            = build/locale/unstructuredChanges/master/schema.pot
 type                   = PO
 minimum_perc           = 0
 resource_name          = unstructuredChanges--master--schema
+replace_edited_strings = false
+keep_translations      = false
+
+[o:open-contracting-partnership-1:p:ocds-extensions:r:withheldInformation--master--codelists]
+file_filter            = locale/<lang>/LC_MESSAGES/withheldInformation/master/codelists.po
+source_file            = build/locale/withheldInformation/master/codelists.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = withheldInformation--master--codelists
+replace_edited_strings = false
+keep_translations      = false
+
+[o:open-contracting-partnership-1:p:ocds-extensions:r:withheldInformation--master--docs]
+file_filter            = locale/<lang>/LC_MESSAGES/withheldInformation/master/docs.po
+source_file            = build/locale/withheldInformation/master/docs.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = withheldInformation--master--docs
+replace_edited_strings = false
+keep_translations      = false
+
+[o:open-contracting-partnership-1:p:ocds-extensions:r:withheldInformation--master--schema]
+file_filter            = locale/<lang>/LC_MESSAGES/withheldInformation/master/schema.po
+source_file            = build/locale/withheldInformation/master/schema.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = withheldInformation--master--schema
 replace_edited_strings = false
 keep_translations      = false
 

@@ -1,0 +1,299 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-29 23:48-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../README.md:1
+msgid "Sustainability extension"
+msgstr ""
+
+#: ../README.md:3
+msgid ""
+"Adds fields to the tender and lot objects, to provide information related to "
+"Sustainable Public Procurement (SPP)."
+msgstr ""
+
+#: ../README.md:5
+msgid "Motivation"
+msgstr ""
+
+#: ../README.md:7
+msgid ""
+"To calculate SPP indicators, a user or an application needs to be able to "
+"perform the following tasks, using OCDS data:"
+msgstr ""
+
+#: ../README.md:9
+msgid "Select the contracting processes or individual lots that relate to SPP."
+msgstr ""
+
+#: ../README.md:10
+msgid ""
+"Select the contracting processes or individual lots that relate to a "
+"specific sustainability goal."
+msgstr ""
+
+#: ../README.md:11
+msgid ""
+"Determine which strategies are being used to promote a sustainability goal, "
+"within a contracting process or lot."
+msgstr ""
+
+#: ../README.md:12
+msgid ""
+"Determine whether a procured item or a supplier has characteristics related "
+"to sustainability."
+msgstr ""
+
+#: ../README.md:14
+msgid ""
+"This extension add the fields needed for the above tasks as structured data."
+msgstr ""
+
+#: ../README.md:16
+msgid "Guidance"
+msgstr "Guía"
+
+#: ../README.md:18
+msgid ""
+"If you know a contracting process or lot is SPP-related, set "
+"`hasSustainability` to `true`."
+msgstr ""
+
+#: ../README.md:20
+msgid ""
+"If you know the sustainability goals pursued through the contracting process "
+"or lot, then, for each goal, add an entry in its `sustainability` array, "
+"from the `sustainabilityGoal.csv` codelist.  This codelist contains codes "
+"for broad goals (like 'environmental') and narrower goals (like "
+"'environmental.wasteReduction'). It is an [open codelist](https://standard."
+"open-contracting.org/latest/en/schema/codelists/), such that you can add new "
+"codes if no existing code is appropriate."
+msgstr ""
+
+#: ../README.md:22
+msgid ""
+"If you know the strategies used to pursue the sustainability goal(s), then, "
+"for each goal, add an entry in the `strategies` array, from the "
+"`sustainabilityStrategy.csv` codelist."
+msgstr ""
+
+#: ../README.md:24
+msgid "Examples"
+msgstr "Ejemplos"
+
+#: ../README.md:26
+msgid "`hasSustainability` only"
+msgstr ""
+
+#: ../README.md:28
+msgid ""
+"Public Health Wales adopts SPP in a contracting process to design office "
+"space and supply furniture."
+msgstr ""
+
+#: ../README.md:40
+msgid ""
+"If the contracting process is divided into lots, and it is known which "
+"lot(s) relate to SPP, set the lot's `hasSustainability` field:"
+msgstr ""
+
+#: ../README.md:55
+msgid "The sustainability goal is known"
+msgstr ""
+
+#: ../README.md:57
+msgid ""
+"Public Health Wales intends to reduce waste and CO2 emissions as part of a "
+"contracting process to design office space and supply furniture."
+msgstr ""
+
+#: ../README.md:74
+msgid ""
+"If only the broad goal is known, create a single entry using the broad code:"
+msgstr ""
+
+#: ../README.md:88
+msgid ""
+"If the `sustainabilityGoal.csv` codelist contains no appropriate code, "
+"create your own code. To create a narrower code, add a period to an existing "
+"code, followed by a camelCase word:"
+msgstr ""
+
+#: ../README.md:102
+msgid "If there is a description of the sustainability goal:"
+msgstr ""
+
+#: ../README.md:116
+msgid "The strategies are known"
+msgstr ""
+
+#: ../README.md:118
+msgid ""
+"Public Health Wales sets SPP-related technical specifications as part of a "
+"contracting process to design office space and supply furniture."
+msgstr ""
+
+#: ../README.md:141
+msgid ""
+"If the goal is unknown or is sustainability in general, omit `goal` and set "
+"`strategies` only:"
+msgstr ""
+
+#: ../README.md:157
+msgid "Background"
+msgstr "Antecedentes"
+
+#: ../README.md:159
+msgid ""
+"This extension uses the [UNEP definition](https://wedocs.unep.org/bitstream/"
+"handle/20.500.11822/37045/SPPWSG.pdf) of SPP:"
+msgstr ""
+
+#: ../README.md:161
+msgid ""
+"A process whereby public sector organizations meet their needs for goods, "
+"services, works and utilities in a way that achieves value for money on a "
+"whole life basis in terms of generating benefits not only to the "
+"organization, but also to society and the economy, whilst minimizing, and if "
+"possible, avoiding, damage to the environment."
+msgstr ""
+
+#: ../README.md:163
+msgid ""
+"The `sustainabilityGoal.csv` codelist is based on the goals defined in the "
+"[OpenSPP toolkit](https://openspp.super.site/what-is-spp-and-open-spp) and "
+"the [EU's strategic procurement codelist](https://op.europa.eu/en/web/eu-"
+"vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/"
+"resource/authority/strategic-procurement)."
+msgstr ""
+
+#: ../README.md:165
+msgid ""
+"The `sustainabilityStrategy.csv` codelist is based on the strategies "
+"described in the [OpenSPP toolkit](https://openspp.super.site/implement/set-"
+"sustainable-criteria) and the [EU's strategic procurement codelist](https://"
+"op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://"
+"publications.europa.eu/resource/authority/strategic-procurement)."
+msgstr ""
+
+#: ../README.md:167
+msgid "Issues"
+msgstr "Issues"
+
+#: ../README.md:169
+msgid ""
+"Report issues for this extension in the [ocds-extensions repository](https://"
+"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
+"name in the issue's title."
+msgstr ""
+"Reporte issues para esta extensión en el [repositorio de extensiones "
+"ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
+"el nombre de la extensión en el título del issue."
+
+#: ../README.md:171
+msgid ""
+"This extension was originally discussed in <https://github.com/open-"
+"contracting/standard/issues/1543>."
+msgstr ""
+
+#: ../README.md:173
+msgid "Changelog"
+msgstr "Registro de cambios"
+
+#: ../README.md:175
+msgid "2023-04-12"
+msgstr ""
+
+#: ../README.md:177
+msgid "Add `Sustainability.description` field."
+msgstr ""
+
+#: ../README.md:178
+msgid "Add codes to `sustainabilityGoal.csv`:"
+msgstr ""
+
+#: ../README.md:179
+msgid "'economic.innovativePurchase'"
+msgstr ""
+
+#: ../README.md:180
+msgid "'economic.processInnovationPromotion'"
+msgstr ""
+
+#: ../README.md:181
+msgid "'economic.productInnovationPromotion'"
+msgstr ""
+
+#: ../README.md:182
+msgid "'economic.researchDevelopmentActivities'"
+msgstr ""
+
+#: ../README.md:183
+msgid "'environmental.biodiversityProtectionRestoration'"
+msgstr ""
+
+#: ../README.md:184 ../README.md:185
+msgid "'environmental.circularEconomy'"
+msgstr ""
+
+#: ../README.md:186
+msgid "'environmental.climateChangeMitigation'"
+msgstr ""
+
+#: ../README.md:187
+msgid "'environmental.pollutionPrevention'"
+msgstr ""
+
+#: ../README.md:188
+msgid "'environmental.waterResourcesProtection'"
+msgstr ""
+
+#: ../README.md:189
+msgid "'social.accessibility'"
+msgstr ""
+
+#: ../README.md:190
+msgid "'social.disadvantagedEmploymentOpportunities'"
+msgstr ""
+
+#: ../README.md:191
+msgid "'social.ethnicEquality'"
+msgstr ""
+
+#: ../README.md:192
+msgid "'social.genderEquality'"
+msgstr ""
+
+#: ../README.md:193
+msgid "'social.humanRightsInSupplyChains'"
+msgstr ""
+
+#: ../README.md:194
+msgid "Add codes to `sustainabilityStrategy.csv`:"
+msgstr ""
+
+#: ../README.md:195
+msgid "'euGPPCriteria'"
+msgstr ""
+
+#: ../README.md:196
+msgid "'nationalGPPCriteria'"
+msgstr ""
+
+#: ../README.md:197
+msgid "'otherGPPCriteria'"
+msgstr ""

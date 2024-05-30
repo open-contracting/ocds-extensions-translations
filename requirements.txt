@@ -4,13 +4,116 @@
 #
 #    pip-compile
 #
+alabaster==0.7.16
+    # via sphinx
+attrs==23.2.0
+    # via
+    #   cattrs
+    #   requests-cache
+babel==2.15.0
+    # via
+    #   ocdsextensionregistry
+    #   sphinx
+    #   sphinx-intl
+cattrs==23.2.3
+    # via requests-cache
+certifi==2024.2.2
+    # via requests
+charset-normalizer==3.3.2
+    # via requests
 click==8.1.7
-    # via -r requirements.in
+    # via
+    #   -r requirements.in
+    #   sphinx-intl
+docutils==0.21.2
+    # via
+    #   myst-parser
+    #   sphinx
 gitdb==4.0.11
     # via gitpython
 gitpython==3.1.43
     # via -r requirements.in
+idna==3.7
+    # via requests
+imagesize==1.4.1
+    # via sphinx
+jinja2==3.1.4
+    # via
+    #   myst-parser
+    #   sphinx
+json-merge-patch==0.2
+    # via ocdsextensionregistry
+jsonref==1.1.0
+    # via ocdsextensionregistry
+markdown-it-py==3.0.0
+    # via
+    #   mdformat
+    #   mdit-py-plugins
+    #   myst-parser
+    #   ocds-babel
+markupsafe==2.1.5
+    # via jinja2
+mdformat==0.7.17
+    # via ocds-babel
+mdit-py-plugins==0.4.1
+    # via myst-parser
+mdurl==0.1.2
+    # via markdown-it-py
+myst-parser==3.0.1
+    # via ocdsextensionregistry
+ocds-babel[markdown]==0.3.5
+    # via ocdsextensionregistry
+ocdsextensionregistry[cli]==0.3.8
+    # via -r requirements.in
+packaging==24.0
+    # via sphinx
+platformdirs==4.2.2
+    # via requests-cache
+pygments==2.18.0
+    # via sphinx
+pyyaml==6.0.1
+    # via myst-parser
+requests==2.32.3
+    # via
+    #   -r requirements.in
+    #   ocdsextensionregistry
+    #   requests-cache
+    #   sphinx
+requests-cache==1.2.0
+    # via ocdsextensionregistry
 ruff==0.4.6
     # via -r requirements.in
+six==1.16.0
+    # via url-normalize
 smmap==5.0.1
     # via gitdb
+snowballstemmer==2.2.0
+    # via sphinx
+sphinx==7.3.7
+    # via
+    #   myst-parser
+    #   ocdsextensionregistry
+    #   sphinx-intl
+sphinx-intl==2.2.0
+    # via -r requirements.in
+sphinxcontrib-applehelp==1.0.8
+    # via sphinx
+sphinxcontrib-devhelp==1.0.6
+    # via sphinx
+sphinxcontrib-htmlhelp==2.0.5
+    # via sphinx
+sphinxcontrib-jsmath==1.0.1
+    # via sphinx
+sphinxcontrib-qthelp==1.0.7
+    # via sphinx
+sphinxcontrib-serializinghtml==1.1.10
+    # via sphinx
+url-normalize==1.4.3
+    # via requests-cache
+urllib3==2.2.1
+    # via
+    #   requests
+    #   requests-cache
+
+# The following packages are considered to be unsafe in a requirements file:
+# setuptools

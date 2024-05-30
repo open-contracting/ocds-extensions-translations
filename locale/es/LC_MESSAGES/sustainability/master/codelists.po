@@ -1,0 +1,457 @@
+# Translations template for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-05-29 23:48-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: codelists/sustainabilityGoal.csv codelists/sustainabilityStrategy.csv
+msgid "Code"
+msgstr "Código"
+
+#: codelists/sustainabilityGoal.csv codelists/sustainabilityStrategy.csv
+msgid "Title"
+msgstr "Título"
+
+#: codelists/sustainabilityGoal.csv codelists/sustainabilityStrategy.csv
+msgid "Description"
+msgstr "Descripción"
+
+#. Title
+#: codelists/sustainabilityGoal.csv:1
+msgid "Economic"
+msgstr "Económico/a"
+
+#. Description
+#: codelists/sustainabilityGoal.csv:1
+msgid "The goal is economic, such as formal employment and the local economy."
+msgstr ""
+
+#. Title
+#: codelists/sustainabilityGoal.csv:2
+msgid "Formal employment promotion"
+msgstr ""
+
+#. Description
+#: codelists/sustainabilityGoal.csv:2
+msgid "The goal is to promote formal employment."
+msgstr ""
+
+#. Title
+#: codelists/sustainabilityGoal.csv:3
+msgid "Innovative purchase"
+msgstr ""
+
+#. Description
+#: codelists/sustainabilityGoal.csv:3
+msgid "The goal is to procure innovative goods, services or works."
+msgstr ""
+
+#. Title
+#: codelists/sustainabilityGoal.csv:4
+msgid "Local economy promotion"
+msgstr ""
+
+#. Description
+#: codelists/sustainabilityGoal.csv:4
+msgid "The goal is to promote the local economy."
+msgstr ""
+
+#. Title
+#: codelists/sustainabilityGoal.csv:5
+msgid "Market innovation promotion"
+msgstr ""
+
+#. Description
+#: codelists/sustainabilityGoal.csv:5
+msgid "The goal is to promote market innovation."
+msgstr ""
+
+#. Title
+#: codelists/sustainabilityGoal.csv:6
+msgid "Process innovation promotion"
+msgstr ""
+
+#. Description
+#: codelists/sustainabilityGoal.csv:6
+msgid ""
+"The goal is to procure goods, services or works that entail process "
+"innovation."
+msgstr ""
+
+#. Title
+#: codelists/sustainabilityGoal.csv:7
+msgid "Product innovation promotion"
+msgstr ""
+
+#. Description
+#: codelists/sustainabilityGoal.csv:7
+msgid ""
+"The goal is to procure goods, services or works that entail product "
+"innovation."
+msgstr ""
+
+#. Title
+#: codelists/sustainabilityGoal.csv:8
+msgid "Research and development activities"
+msgstr ""
+
+#. Description
+#: codelists/sustainabilityGoal.csv:8
+msgid ""
+"The goal is to procure goods, services or works that involve research and"
+" development activities."
+msgstr ""
+
+#. Title
+#: codelists/sustainabilityGoal.csv:9
+msgid "Environmental"
+msgstr ""
+
+#. Description
+#: codelists/sustainabilityGoal.csv:9
+msgid ""
+"The goal is to minimize and, if possible, avoid environmental damage: for"
+" example, reducing CO2 emissions and waste or promoting resource reuse "
+"and energy efficiency."
+msgstr ""
+
+#. Title
+#: codelists/sustainabilityGoal.csv:10
+msgid "Biodiversity protection and restoration"
+msgstr ""
+
+#. Description
+#: codelists/sustainabilityGoal.csv:10
+msgid "The goal is to protect and restore biodiversity and ecosystems."
+msgstr ""
+
+#. Title
+#: codelists/sustainabilityGoal.csv:11
+msgid "Carbon emissions reduction"
+msgstr ""
+
+#. Description
+#: codelists/sustainabilityGoal.csv:11
+msgid "The goal is to reduce carbon dioxide (CO2) emissions."
+msgstr ""
+
+#. Title
+#: codelists/sustainabilityGoal.csv:12
+msgid "Circular economy"
+msgstr ""
+
+#. Description
+#: codelists/sustainabilityGoal.csv:12
+msgid "The goal is to promote the transition to a circular economy."
+msgstr ""
+
+#. Title
+#: codelists/sustainabilityGoal.csv:13
+msgid "Climate change adaptation"
+msgstr ""
+
+#. Description
+#: codelists/sustainabilityGoal.csv:13
+msgid "The goal is to promote climate change adaptation."
+msgstr ""
+
+#. Title
+#: codelists/sustainabilityGoal.csv:14
+msgid "Climate change mitigation"
+msgstr ""
+
+#. Description
+#: codelists/sustainabilityGoal.csv:14
+msgid "The goal is to promote climate change mitigation."
+msgstr ""
+
+#. Title
+#: codelists/sustainabilityGoal.csv:15
+msgid "Energy efficiency"
+msgstr ""
+
+#. Description
+#: codelists/sustainabilityGoal.csv:15
+msgid "The goal is to promote energy efficiency."
+msgstr ""
+
+#. Title
+#: codelists/sustainabilityGoal.csv:16
+msgid "Pollution prevention"
+msgstr ""
+
+#. Description
+#: codelists/sustainabilityGoal.csv:16
+msgid "The goal is to prevent pollution."
+msgstr ""
+
+#. Title
+#: codelists/sustainabilityGoal.csv:17
+msgid "Recycling"
+msgstr ""
+
+#. Description
+#: codelists/sustainabilityGoal.csv:17
+msgid "The goal is to promote recycling."
+msgstr ""
+
+#. Title
+#: codelists/sustainabilityGoal.csv:18
+msgid "Resource reuse"
+msgstr ""
+
+#. Description
+#: codelists/sustainabilityGoal.csv:18
+msgid "The goal is to maximize the reuse of resources."
+msgstr ""
+
+#. Title
+#: codelists/sustainabilityGoal.csv:19
+msgid "Water resources protection"
+msgstr ""
+
+#. Description
+#: codelists/sustainabilityGoal.csv:19
+msgid ""
+"The goal is to promote the sustainable use and protection of water and "
+"marine resources."
+msgstr ""
+
+#. Title
+#: codelists/sustainabilityGoal.csv:20
+msgid "Waste reduction"
+msgstr ""
+
+#. Description
+#: codelists/sustainabilityGoal.csv:20
+msgid "The goal is to reduce waste."
+msgstr ""
+
+#. Title
+#: codelists/sustainabilityGoal.csv:21
+msgid "Social"
+msgstr ""
+
+#. Description
+#: codelists/sustainabilityGoal.csv:21
+msgid ""
+"The goal is to generate benefits to society: for example, promoting labor"
+" rights, diversity and equal opportunity, and occupational health and "
+"safety."
+msgstr ""
+
+#. Title
+#: codelists/sustainabilityGoal.csv:22
+msgid "Accessibility"
+msgstr ""
+
+#. Description
+#: codelists/sustainabilityGoal.csv:22
+msgid ""
+"The goal is to promote accessibility for disabled and not disabled "
+"persons."
+msgstr ""
+
+#. Title
+#: codelists/sustainabilityGoal.csv:23
+msgid "Disadvantaged employment opportunities"
+msgstr ""
+
+#. Description
+#: codelists/sustainabilityGoal.csv:23
+msgid ""
+"The goal is to promote employment opportunities for the long-term "
+"unemployed, disadvantaged and/or for persons with disabilities."
+msgstr ""
+
+#. Title
+#: codelists/sustainabilityGoal.csv:24
+msgid "Ethnic equality"
+msgstr ""
+
+#. Description
+#: codelists/sustainabilityGoal.csv:24
+msgid "The goal is to promote ethnic equality."
+msgstr ""
+
+#. Title
+#: codelists/sustainabilityGoal.csv:25
+msgid "Gender equality"
+msgstr ""
+
+#. Description
+#: codelists/sustainabilityGoal.csv:25
+msgid "The goal is to promote gender equality."
+msgstr ""
+
+#. Title
+#: codelists/sustainabilityGoal.csv:26
+msgid "Human rights in supply chains"
+msgstr ""
+
+#. Description
+#: codelists/sustainabilityGoal.csv:26
+msgid "The goal is to promote human rights due diligence in global supply chains."
+msgstr ""
+
+#. Title
+#: codelists/sustainabilityGoal.csv:27
+msgid "Labor rights promotion"
+msgstr ""
+
+#. Description
+#: codelists/sustainabilityGoal.csv:27
+msgid "The goal is to promote labor rights."
+msgstr ""
+
+#. Title
+#: codelists/sustainabilityGoal.csv:28
+msgid "SME inclusion"
+msgstr ""
+
+#. Description
+#: codelists/sustainabilityGoal.csv:28
+msgid ""
+"The goal is to promote the participation of small and medium-sized "
+"enterprises (SMEs)."
+msgstr ""
+
+#. Title
+#: codelists/sustainabilityGoal.csv:29
+msgid "Women inclusion"
+msgstr ""
+
+#. Description
+#: codelists/sustainabilityGoal.csv:29
+msgid "The goal is to promote the participation of women-owned suppliers."
+msgstr ""
+
+#. Title
+#: codelists/sustainabilityStrategy.csv:1
+msgid "Award criteria"
+msgstr "Criterio de adjudicación"
+
+#. Description
+#: codelists/sustainabilityStrategy.csv:1
+msgid ""
+"Award criteria are used to pursue sustainability goals: for example, "
+"allocating points relative to the percentage of recycled materials."
+msgstr ""
+
+#. Title
+#: codelists/sustainabilityStrategy.csv:2
+msgid "Contract performance conditions"
+msgstr ""
+
+#. Description
+#: codelists/sustainabilityStrategy.csv:2
+msgid ""
+"Contract performance conditions are used to pursue sustainability goals: "
+"for example, requiring the supplier to monitor carbon emissions during "
+"the contract's implementation."
+msgstr ""
+
+#. Title
+#: codelists/sustainabilityStrategy.csv:3
+msgid "Margin of preference"
+msgstr ""
+
+#. Description
+#: codelists/sustainabilityStrategy.csv:3
+msgid ""
+"Margins of preference are used to pursue sustainability goals: for "
+"example, accepting the bid of a local supplier that is within a margin of"
+" the lowest bid."
+msgstr ""
+
+#. Title
+#: codelists/sustainabilityStrategy.csv:4
+msgid "Reserved participation"
+msgstr "Participación reservada"
+
+#. Description
+#: codelists/sustainabilityStrategy.csv:4
+msgid ""
+"Reserved participation is used to pursue sustainability goals: for "
+"example, allowing only SMEs to participate in the contracting process."
+msgstr ""
+
+#. Title
+#: codelists/sustainabilityStrategy.csv:5
+msgid "Selection criteria"
+msgstr "Criterios de selección"
+
+#. Description
+#: codelists/sustainabilityStrategy.csv:5
+msgid ""
+"Selection criteria are used to fulfill sustainability goals: for example,"
+" requiring a bidder to have a sustainability certificate."
+msgstr ""
+
+#. Title
+#: codelists/sustainabilityStrategy.csv:6
+msgid "Technical specifications"
+msgstr "Especificaciones técnicas"
+
+#. Description
+#: codelists/sustainabilityStrategy.csv:6
+msgid ""
+"Items' technical specifications are used to pursue sustainability goals: "
+"for example, requiring a product to have an energy efficiency "
+"certificate."
+msgstr ""
+
+#. Title
+#: codelists/sustainabilityStrategy.csv:7
+msgid "EU GPP criteria"
+msgstr ""
+
+#. Description
+#: codelists/sustainabilityStrategy.csv:7
+msgid ""
+"Green public procurement criteria established at the European Union-level"
+" are used to pursue sustainability goals. Criteria can include selection "
+"criteria, technical specifications, award criteria and contract "
+"performance clauses."
+msgstr ""
+
+#. Title
+#: codelists/sustainabilityStrategy.csv:8
+msgid "National GPP criteria"
+msgstr ""
+
+#. Description
+#: codelists/sustainabilityStrategy.csv:8
+msgid ""
+"Green public procurement criteria established at the national level are "
+"used to pursue sustainability goals. Criteria can include selection "
+"criteria, technical specifications, award criteria and contract "
+"performance clauses."
+msgstr ""
+
+#. Title
+#: codelists/sustainabilityStrategy.csv:9
+msgid "Other GPP criteria"
+msgstr ""
+
+#. Description
+#: codelists/sustainabilityStrategy.csv:9
+msgid ""
+"Green public procurement criteria established at a level other than the "
+"European Union or national levels are used to pursue sustainability "
+"goals. Criteria can include selection criteria, technical specifications,"
+" award criteria and contract performance clauses."
+msgstr ""
