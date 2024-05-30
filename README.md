@@ -16,8 +16,8 @@ brew install gettext translate-toolkit
 
 Install `python-Levenshtein` to silence warning from `translate-toolkit` (`WARNING:root:Python-Levenshtein not found. Continuing with built-in (slower) fuzzy matching.`):
 
-```fish
-eval (brew --prefix translate-toolkit)/libexec/bin/python -m pip install python-Levenshtein
+```bash
+eval $(brew --prefix translate-toolkit)/libexec/bin/python -m pip install python-Levenshtein
 ```
 
 ## Tasks
@@ -43,7 +43,7 @@ sphinx-intl build -d locale
 
 ### Add new versions of core extensions
 
-*This section has not yet been added to manage.py.*
+*Note: This section has not yet been added to `manage.py`. These commands are in fish.*
 
 Set environment variables as appropriate (using the fish shell):
 
@@ -100,9 +100,9 @@ end
 
 You can exclude from Transifex any extensions whose source strings haven't changed in many years.
 
-1. [Download all registered extensions](https://github.com/open-contracting/standard-maintenance-scripts#standard-development-tasks)
+1. [Download registered extensions](https://github.com/open-contracting/standard-maintenance-scripts#standard-development-tasks)
 
-1. Update existing local repositories:
+1. Update local repositories:
 
     ```bash
     ./manage.py pull path/to/directory/of/extensions
@@ -116,19 +116,21 @@ You can exclude from Transifex any extensions whose source strings haven't chang
 
 You can now delete these extensions from Transifex, if the account is near its limits.
 
+*Note: At present, `manage.py update` will re-add these extensions to Transifex.*
+
 ### Pretranslate all PO files
 
 Once you have a compendium:
 
-```fish
+```bash
 cd locale
-for lang in (ls)
+for lang in (ls); do
   cd $lang/LC_MESSAGES
-  for i in **.po
+  for i in **.po; do
     pretranslate --nofuzzymatching -t ../../../$lang.po ../../../build/locale/{$i}t $i
-  end
+  done
   cd ../..
-end
+done
 cd ..
 ```
 
@@ -136,9 +138,9 @@ cd ..
 
 Change the two paths below, and change `.po` to `.pot` if appropriate:
 
-```fish
+```bash
 cd path/to/locale/es
-for i in **.po
+for i in **.po; do
   msgcmp $i relative/path/to/another/locale/es/$i
-end
+done
 ```

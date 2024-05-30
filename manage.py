@@ -230,6 +230,8 @@ def update(transifex_organization, transifex_project):
 def add_and_remove(transifex_organization, transifex_project):
     """
     Add new extensions from the extension registry and remove yanked extensions.
+
+    Pretranslate, and push source and translated strings to Transifex.
     """
     repo = git.Repo()
     cwd = Path()
