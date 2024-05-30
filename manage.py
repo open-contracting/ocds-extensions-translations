@@ -126,14 +126,14 @@ def run_pretranslate(pot_dir, compendium, messages):
 
 def run_tx_push(transifex_organization, transifex_project, *args):
     """
-    Push source strings to Transifex, for live versions of existing extensions.
+    Push to Transifex, for live versions of existing extensions.
     """
     create_txconfig(transifex_organization, transifex_project)
 
     # Treat "v1..." versions as frozen versions.
     resources = [resource for resource in transifex_resources() if "--v1" not in resource]
 
-    run(["tx", "push", "-f", "-s", *args, *resources])
+    run(["tx", "push", "-w", "20", *args, *resources])
 
 
 def transifex_resources(transifex_project):
@@ -257,7 +257,28 @@ def update(transifex_organization, transifex_project):
     # Same as https://ocdsextensionregistry.readthedocs.io/en/latest/translation.html
     run_generate_pot_files(["--no-frozen", POT_DIR])
 
-    run_tx_push(transifex_organization, transifex_project)
+    run_tx_push(transifex_organization, transifex_project, "-f", "-s")
+
+
+@cli.command()
+@click.argument("transifex-organization")
+@click.argument("transifex-project")
+def pretranslate(transifex_organization, transifex_project):
+    """
+    Pretranslate and push translated strings to Transifex, for live versions of registered extensions.
+
+    Pull translated strings from Transifex before pretranslation.
+    """
+    messages = CWD / "locale" / "es" / "LC_MESSAGES"
+    compendium = CWD / "es.po"
+
+    run(["tx", "pull", "-w", "20", "-f", "-a"])
+
+    create_compendium(compendium, messages)
+
+    run_pretranslate(POT_DIR, compendium, messages)
+
+    run_tx_push(transifex_organization, transifex_project, "-f", "-t")
 
 
 @cli.command()
@@ -310,7 +331,7 @@ def add_and_remove(transifex_organization, transifex_project):
     # Push the POT (source) and PO (translation) files.
     if new_resources:  # If no resources are provided, tx pushes all resources.
         click.secho("Pushing new resources...", fg="blue")
-        run(["tx", "push", "-f", "-s", "-t", "-a", *new_resources])
+        run(["tx", "push", "-w", "20", "-f", "-s", "-t", "-a", *new_resources])
 
 
 @cli.command()

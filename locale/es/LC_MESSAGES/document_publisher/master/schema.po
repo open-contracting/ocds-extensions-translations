@@ -1,0 +1,38 @@
+# Translations template for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-05-30 00:39-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#. /name/en
+#: extension.json:1
+msgid "Document publisher"
+msgstr ""
+
+#. /description/en
+#: extension.json:1
+msgid "Adds a publisher field to the document object."
+msgstr ""
+
+#. /definitions/Document/properties/publisher/title
+#: release-schema.json:1
+msgid "Publisher"
+msgstr "Publicador"
+
+#. /definitions/Document/properties/publisher/description
+#: release-schema.json:1
+msgid "The organization responsible for making the document available."
+msgstr ""

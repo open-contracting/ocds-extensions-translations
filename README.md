@@ -28,6 +28,25 @@ eval $(brew --prefix translate-toolkit)/libexec/bin/python -m pip install python
 ./manage.py update open-contracting-partnership-1 ocds-extensions
 ```
 
+### Pretranslate and push translated strings to Transifex
+
+**WARNING:**
+
+-  Translated strings are first pulled from Transifex, before pretranslation. Therefore, changes made to PO files outside Transifex are lost.
+-  If different resources translate the same string in different ways, the translated strings will change to that of the last alphabetically sorted extension.
+
+1. Push source strings to Transifex:
+
+    ```bash
+    ./manage.py update open-contracting-partnership-1 ocds-extensions
+    ```
+
+1. Pretranslate and push translated strings to Transifex:
+
+    ```bash
+    ./manage.py pretranslate open-contracting-partnership-1 ocds-extensions
+    ```
+
 ### Add new extensions to, and remove yanked extensions from, Transifex
 
 ```bash
@@ -117,22 +136,6 @@ You can exclude from Transifex any extensions whose source strings haven't chang
 You can now delete these extensions from Transifex, if the account is near its limits.
 
 *Note: At present, `manage.py update` will re-add these extensions to Transifex.*
-
-### Pretranslate all PO files
-
-Once you have a compendium:
-
-```bash
-cd locale
-for lang in (ls); do
-  cd $lang/LC_MESSAGES
-  for i in **.po; do
-    pretranslate --nofuzzymatching -t ../../../$lang.po ../../../build/locale/{$i}t $i
-  done
-  cd ../..
-done
-cd ..
-```
 
 ### Compare different versions of PO/POT files
 

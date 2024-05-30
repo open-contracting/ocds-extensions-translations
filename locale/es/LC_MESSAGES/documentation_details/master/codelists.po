@@ -1,0 +1,948 @@
+# Translations template for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-05-30 00:39-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: codelists/language.csv
+msgid "Code"
+msgstr "Código"
+
+#: codelists/language.csv
+msgid "Title"
+msgstr "Título"
+
+#. Title
+#: codelists/language.csv:1
+msgid "Afar"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:2
+msgid "Abkhazian"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:3
+msgid "Avestan"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:4
+msgid "Afrikaans"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:5
+msgid "Akan"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:6
+msgid "Amharic"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:7
+msgid "Aragonese"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:8
+msgid "Arabic"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:9
+msgid "Assamese"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:10
+msgid "Avaric"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:11
+msgid "Aymara"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:12
+msgid "Azerbaijani"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:13
+msgid "Bashkir"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:14
+msgid "Belarusian"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:15
+msgid "Bulgarian"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:16
+msgid "Bihari languages"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:17
+msgid "Bislama"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:18
+msgid "Bambara"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:19
+msgid "Bengali"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:20
+msgid "Tibetan"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:21
+msgid "Breton"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:22
+msgid "Bosnian"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:23
+msgid "Catalan, Valencian"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:24
+msgid "Chechen"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:25
+msgid "Chamorro"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:26
+msgid "Corsican"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:27
+msgid "Cree"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:28
+msgid "Czech"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:29
+msgid ""
+"Church Slavic, Old Slavonic, Church Slavonic, Old Bulgarian, Old Church "
+"Slavonic"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:30
+msgid "Chuvash"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:31
+msgid "Welsh"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:32
+msgid "Danish"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:33
+msgid "German"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:34
+msgid "Divehi, Dhivehi, Maldivian"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:35
+msgid "Dzongkha"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:36
+msgid "Ewe"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:37
+msgid "Modern Greek"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:38
+msgid "English"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:39
+msgid "Esperanto"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:40
+msgid "Spanish, Castilian"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:41
+msgid "Estonian"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:42
+msgid "Basque"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:43
+msgid "Persian"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:44
+msgid "Fulah"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:45
+msgid "Finnish"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:46
+msgid "Fijian"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:47
+msgid "Faroese"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:48
+msgid "French"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:49
+msgid "Western Frisian"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:50
+msgid "Irish"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:51
+msgid "Gaelic, Scottish Gaelic"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:52
+msgid "Galician"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:53
+msgid "Guarani"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:54
+msgid "Gujarati"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:55
+msgid "Manx"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:56
+msgid "Hausa"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:57
+msgid "Hebrew"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:58
+msgid "Hindi"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:59
+msgid "Hiri Motu"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:60
+msgid "Croatian"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:61
+msgid "Haitian, Haitian Creole"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:62
+msgid "Hungarian"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:63
+msgid "Armenian"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:64
+msgid "Herero"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:65
+msgid "Interlingua"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:66
+msgid "Indonesian"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:67
+msgid "Interlingue, Occidental"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:68
+msgid "Igbo"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:69
+msgid "Sichuan Yi, Nuosu"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:70
+msgid "Inupiaq"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:71
+msgid "Ido"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:72
+msgid "Icelandic"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:73
+msgid "Italian"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:74
+msgid "Inuktitut"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:75
+msgid "Japanese"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:76
+msgid "Javanese"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:77
+msgid "Georgian"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:78
+msgid "Kongo"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:79
+msgid "Kikuyu, Gikuyu"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:80
+msgid "Kuanyama, Kwanyama"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:81
+msgid "Kazakh"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:82
+msgid "Kalaallisut, Greenlandic"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:83
+msgid "Central Khmer"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:84
+msgid "Kannada"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:85
+msgid "Korean"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:86
+msgid "Kanuri"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:87
+msgid "Kashmiri"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:88
+msgid "Kurdish"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:89
+msgid "Komi"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:90
+msgid "Cornish"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:91
+msgid "Kirghiz, Kyrgyz"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:92
+msgid "Latin"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:93
+msgid "Luxembourgish, Letzeburgesch"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:94
+msgid "Ganda"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:95
+msgid "Limburgan, Limburger, Limburgish"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:96
+msgid "Lingala"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:97
+msgid "Lao"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:98
+msgid "Lithuanian"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:99
+msgid "Luba-Katanga"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:100
+msgid "Latvian"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:101
+msgid "Malagasy"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:102
+msgid "Marshallese"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:103
+msgid "Maori"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:104
+msgid "Macedonian"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:105
+msgid "Malayalam"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:106
+msgid "Mongolian"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:107
+msgid "Marathi"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:108
+msgid "Malay"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:109
+msgid "Maltese"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:110
+msgid "Burmese"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:111
+msgid "Nauru"
+msgstr "Nauru"
+
+#. Title
+#: codelists/language.csv:112
+msgid "Norwegian Bokmål"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:113
+msgid "North Ndebele"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:114
+msgid "Nepali"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:115
+msgid "Ndonga"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:116
+msgid "Dutch, Flemish"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:117
+msgid "Norwegian Nynorsk"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:118
+msgid "Norwegian"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:119
+msgid "South Ndebele"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:120
+msgid "Navajo, Navaho"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:121
+msgid "Chichewa, Chewa, Nyanja"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:122
+msgid "Occitan"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:123
+msgid "Ojibwa"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:124
+msgid "Oromo"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:125
+msgid "Oriya"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:126
+msgid "Ossetian, Ossetic"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:127
+msgid "Panjabi, Punjabi"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:128
+msgid "Pali"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:129
+msgid "Polish"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:130
+msgid "Pushto, Pashto"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:131
+msgid "Portuguese"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:132
+msgid "Quechua"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:133
+msgid "Romansh"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:134
+msgid "Rundi"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:135
+msgid "Romanian, Moldavian, Moldovan"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:136
+msgid "Russian"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:137
+msgid "Kinyarwanda"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:138
+msgid "Sanskrit"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:139
+msgid "Sardinian"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:140
+msgid "Sindhi"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:141
+msgid "Northern Sami"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:142
+msgid "Sango"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:143
+msgid "Sinhala, Sinhalese"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:144
+msgid "Slovak"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:145
+msgid "Slovenian"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:146
+msgid "Samoan"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:147
+msgid "Shona"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:148
+msgid "Somali"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:149
+msgid "Albanian"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:150
+msgid "Serbian"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:151
+msgid "Swati"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:152
+msgid "Southern Sotho"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:153
+msgid "Sundanese"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:154
+msgid "Swedish"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:155
+msgid "Swahili"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:156
+msgid "Tamil"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:157
+msgid "Telugu"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:158
+msgid "Tajik"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:159
+msgid "Thai"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:160
+msgid "Tigrinya"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:161
+msgid "Turkmen"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:162
+msgid "Tagalog"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:163
+msgid "Tswana"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:164
+msgid "Tonga"
+msgstr "Tonga"
+
+#. Title
+#: codelists/language.csv:165
+msgid "Turkish"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:166
+msgid "Tsonga"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:167
+msgid "Tatar"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:168
+msgid "Twi"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:169
+msgid "Tahitian"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:170
+msgid "Uighur, Uyghur"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:171
+msgid "Ukrainian"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:172
+msgid "Urdu"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:173
+msgid "Uzbek"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:174
+msgid "Venda"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:175
+msgid "Vietnamese"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:176
+msgid "Volapük"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:177
+msgid "Walloon"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:178
+msgid "Wolof"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:179
+msgid "Xhosa"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:180
+msgid "Yiddish"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:181
+msgid "Yoruba"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:182
+msgid "Zhuang, Chuang"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:183
+msgid "Chinese"
+msgstr ""
+
+#. Title
+#: codelists/language.csv:184
+msgid "Zulu"
+msgstr ""

@@ -458,6 +458,10 @@ msgid ""
 "operate a government asset, and that is usually created under the form of"
 " a Special Purpose Vehicle (SPV)."
 msgstr ""
+"La contraparte de la autoridad contratante en el contrato de APP. Una "
+"organización privada a la que se le ha otorgado el contrato para construir y "
+"operar un activo gubernamental, y que generalmente se crea bajo la forma de "
+"una \"entidad con fines especiales\" (SPV por sus siglas en inglés)."
 
 #. Title
 #: codelists/+partyRole.csv:2
