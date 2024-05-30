@@ -14,6 +14,8 @@ import git
 import requests
 from ocdsextensionregistry.commands import generate_pot_files
 
+CWD = Path()
+TXCONFIG = CWD / ".tx" / "config"
 KNOWN_BRANCHES = {"1.1", "1.2", "master"}
 TRANSLATABLE_BRANCHES = {"1.1", "master"}
 # Like `ocdsextensionregistry generate-pot-files`.
@@ -89,12 +91,20 @@ def run_generate_pot_files(args):
     command.handle()
 
 
-def transifex_resources(txconfig, transifex_project):
+def create_compendium(path, messages):
+    """
+    Prepare a compendium from the existing extensions.
+    """
+    click.secho("Creating compendium...", fg="blue")
+    run(["msgcat", "--use-first", "-o", path, *sorted(messages.glob("**/*.po"), reverse=True)])
+
+
+def transifex_resources(transifex_project):
     """
     Return all names of Transifex resources as a set.
     """
     config = configparser.ConfigParser()
-    config.read(txconfig)
+    config.read(TXCONFIG)
     return {
         f"{transifex_project}.{config[section]['resource_name']}"
         for section in config.sections()
@@ -102,17 +112,17 @@ def transifex_resources(txconfig, transifex_project):
     }
 
 
-def create_txconfig(txconfig, transifex_organization, transifex_project, pot_dir, locale_dir):
+def create_txconfig(transifex_organization, transifex_project, pot_dir, locale_dir):
     """
     Re-create the .tx/config file, delete any old resources and return any new resources.
     """
     click.secho("Regenerating .tx/config...", fg="blue")
 
-    text = txconfig.read_text()
+    text = TXCONFIG.read_text()
 
-    before_resources = transifex_resources(txconfig, transifex_project)
+    before_resources = transifex_resources(transifex_project)
 
-    txconfig.unlink()
+    TXCONFIG.unlink()
     run(["sphinx-intl", "create-txconfig"])
     run(
         [
@@ -129,32 +139,32 @@ def create_txconfig(txconfig, transifex_organization, transifex_project, pot_dir
         ]
     )
 
-    after_resources = transifex_resources(txconfig, transifex_project)
+    after_resources = transifex_resources(transifex_project)
 
     old_resources = before_resources - after_resources
     if old_resources:
         click.secho("Deleting old resources...", fg="blue")
 
         # tx can't operate on unconfigured resources.
-        with config(txconfig, text):
+        with config(TXCONFIG, text):
             run(["tx", "delete", "--skip", *old_resources])
 
     return after_resources - before_resources
 
 
 @contextmanager
-def config(txconfig, replacement):
+def config(replacement):
     """
     Run code using different content for the .tx/config file.
     """
-    text = txconfig.read_text()
+    text = TXCONFIG.read_text()
 
     try:
-        txconfig.write_text(replacement)
+        TXCONFIG.write_text(replacement)
 
         yield
     finally:
-        txconfig.write_text(text)
+        TXCONFIG.write_text(text)
 
 
 @contextmanager
@@ -207,16 +217,14 @@ def update(transifex_organization, transifex_project):
     """
     Push source strings to Transifex, for live versions of registered extensions.
     """
-    cwd = Path()
-    txconfig = cwd / ".tx" / "config"
-    pot_dir = cwd / "build" / "locale"
-    locale_dir = cwd / "locale"
+    pot_dir = CWD / "build" / "locale"
+    locale_dir = CWD / "locale"
 
     # Same as https://ocdsextensionregistry.readthedocs.io/en/latest/translation.html
 
     run_generate_pot_files(["--no-frozen", pot_dir])
 
-    create_txconfig(txconfig, transifex_organization, transifex_project, pot_dir, locale_dir)
+    create_txconfig(transifex_organization, transifex_project, pot_dir, locale_dir)
 
     # Treat "v1..." versions as frozen versions.
     resources = [resource for resource in transifex_resources() if "--v1" not in resource]
@@ -234,12 +242,10 @@ def add_and_remove(transifex_organization, transifex_project):
     Pretranslate, and push source and translated strings to Transifex.
     """
     repo = git.Repo()
-    cwd = Path()
-    txconfig = cwd / ".tx" / "config"
-    pot_dir = cwd / "build" / "locale"
-    locale_dir = cwd / "locale"
-    messages = cwd / "locale" / "es" / "LC_MESSAGES"
-    compendium = cwd / "es.po"
+    pot_dir = CWD / "build" / "locale"
+    locale_dir = CWD / "locale"
+    messages = CWD / "locale" / "es" / "LC_MESSAGES"
+    compendium = CWD / "es.po"
 
     registered = registered_extensions()
     extracted = {d.name for d in pot_dir.iterdir() if d.is_dir()}
@@ -261,8 +267,7 @@ def add_and_remove(transifex_organization, transifex_project):
         repo.index.remove(path, working_tree=True, r=True)
 
     # Prepare a compendium from the existing extensions.
-    click.secho("Creating compendium...", fg="blue")
-    run(["msgcat", "--use-first", "-o", compendium, *sorted(messages.glob("**/*.po"), reverse=True)])
+    create_compendium(compendium, messages)
 
     # Create the POT and PO files for new extensions.
     for extension in registered - (extracted & translated):
@@ -285,7 +290,7 @@ def add_and_remove(transifex_organization, transifex_project):
             run(["pretranslate", "--progress=none", "--nofuzzymatching", "-t", compendium, pot, po])
 
     # Regenerate .tx/config file to remove any broken references.
-    new_resources = create_txconfig(txconfig, transifex_organization, transifex_project, pot_dir, locale_dir)
+    new_resources = create_txconfig(transifex_organization, transifex_project, pot_dir, locale_dir)
 
     # Push the POT (source) and PO (translation) files.
     if new_resources:  # If no resources are provided, tx pushes all resources.
