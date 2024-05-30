@@ -14,12 +14,16 @@ import git
 import requests
 from ocdsextensionregistry.commands import generate_pot_files
 
-CWD = Path()
-TXCONFIG = CWD / ".tx" / "config"
 KNOWN_BRANCHES = {"1.1", "1.2", "master"}
+# Add major versions once released.
 TRANSLATABLE_BRANCHES = {"1.1", "master"}
 # Like `ocdsextensionregistry generate-pot-files`.
 TRANSLATABLE_PATHS = ["extension.json", "release-schema.json", "codelists/"]
+
+CWD = Path()
+TXCONFIG = CWD / ".tx" / "config"
+POT_DIR = CWD / "build" / "locale"
+LOCALE_DIR = CWD / "locale"
 
 
 def local_extensions(directory):
@@ -112,7 +116,7 @@ def transifex_resources(transifex_project):
     }
 
 
-def create_txconfig(transifex_organization, transifex_project, pot_dir, locale_dir):
+def create_txconfig(transifex_organization, transifex_project):
     """
     Re-create the .tx/config file, delete any old resources and return any new resources.
     """
@@ -133,9 +137,9 @@ def create_txconfig(transifex_organization, transifex_project, pot_dir, locale_d
             "--transifex-project-name",
             transifex_project,
             "--pot-dir",
-            pot_dir,
+            POT_DIR,
             "--locale-dir",
-            locale_dir,
+            LOCALE_DIR,
         ]
     )
 
@@ -217,14 +221,10 @@ def update(transifex_organization, transifex_project):
     """
     Push source strings to Transifex, for live versions of registered extensions.
     """
-    pot_dir = CWD / "build" / "locale"
-    locale_dir = CWD / "locale"
-
     # Same as https://ocdsextensionregistry.readthedocs.io/en/latest/translation.html
+    run_generate_pot_files(["--no-frozen", POT_DIR])
 
-    run_generate_pot_files(["--no-frozen", pot_dir])
-
-    create_txconfig(transifex_organization, transifex_project, pot_dir, locale_dir)
+    create_txconfig(transifex_organization, transifex_project)
 
     # Treat "v1..." versions as frozen versions.
     resources = [resource for resource in transifex_resources() if "--v1" not in resource]
@@ -242,20 +242,18 @@ def add_and_remove(transifex_organization, transifex_project):
     Pretranslate, and push source and translated strings to Transifex.
     """
     repo = git.Repo()
-    pot_dir = CWD / "build" / "locale"
-    locale_dir = CWD / "locale"
     messages = CWD / "locale" / "es" / "LC_MESSAGES"
     compendium = CWD / "es.po"
 
     registered = registered_extensions()
-    extracted = {d.name for d in pot_dir.iterdir() if d.is_dir()}
+    extracted = {d.name for d in POT_DIR.iterdir() if d.is_dir()}
     translated = {d.name for d in messages.iterdir() if d.is_dir()}
 
     # Delete the POT and PO files for unregistered extensions.
     for extension in extracted - registered:
         click.secho(f"- {extension}", fg="red")
 
-        path = pot_dir / extension
+        path = POT_DIR / extension
         click.echo(f"rm -rf {path}")
         shutil.rmtree(path)
 
@@ -274,12 +272,12 @@ def add_and_remove(transifex_organization, transifex_project):
         click.secho(f"+ {extension}", fg="green")
 
         # NOTE: Future languages can reuse these POT files.
-        run_generate_pot_files([pot_dir, extension])
+        run_generate_pot_files([POT_DIR, extension])
 
         # NOTE: This logic can be useful for any PO file, if not already pre-translated.
-        for pot in (pot_dir / extension).glob("**/*.pot"):
+        for pot in (POT_DIR / extension).glob("**/*.pot"):
             # Create the directory for the PO file.
-            po_dir = messages / pot.parent.relative_to(pot_dir)
+            po_dir = messages / pot.parent.relative_to(POT_DIR)
             po_dir.mkdir(parents=True, exist_ok=True)
 
             # Initialize the PO file.
@@ -290,7 +288,7 @@ def add_and_remove(transifex_organization, transifex_project):
             run(["pretranslate", "--progress=none", "--nofuzzymatching", "-t", compendium, pot, po])
 
     # Regenerate .tx/config file to remove any broken references.
-    new_resources = create_txconfig(transifex_organization, transifex_project, pot_dir, locale_dir)
+    new_resources = create_txconfig(transifex_organization, transifex_project)
 
     # Push the POT (source) and PO (translation) files.
     if new_resources:  # If no resources are provided, tx pushes all resources.
