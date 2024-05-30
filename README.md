@@ -8,7 +8,7 @@ Install requirements:
 pip install -r requirements.txt
 ```
 
-Install `gettext` and `translate-toolkit` for the `manage.py add-and-remove` command:
+Install `gettext` and `translate-toolkit` for the `manage.py add-and-remove` command. With Homebrew:
 
 ```bash
 brew install gettext translate-toolkit
@@ -105,7 +105,7 @@ You can exclude from Transifex any extensions whose source strings haven't chang
 1. Update local repositories:
 
     ```bash
-    ./manage.py pull path/to/directory/of/extensions
+    ./manage.py git-pull path/to/directory/of/extensions
     ```
 
 1. Find stale extensions:

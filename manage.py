@@ -197,9 +197,9 @@ def cli():
 
 @cli.command()
 @click.argument("directory", type=click.Path(exists=True, file_okay=False, path_type=Path))
-def pull(directory):
+def git_pull(directory):
     """
-    Pull translatable branches and fetch any tags.
+    Pull translatable branches and fetch any tags to local repositories.
     """
     for child, repo in local_extensions(directory):
         origin = repo.remote("origin")
@@ -241,9 +241,9 @@ def add_and_remove(transifex_organization, transifex_project):
 
     Pretranslate, and push source and translated strings to Transifex.
     """
-    repo = git.Repo()
     messages = CWD / "locale" / "es" / "LC_MESSAGES"
     compendium = CWD / "es.po"
+    repo = git.Repo()
 
     registered = registered_extensions()
     extracted = {d.name for d in POT_DIR.iterdir() if d.is_dir()}
