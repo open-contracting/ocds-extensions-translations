@@ -1,12 +1,11 @@
 # Translations template for PROJECT.
-# Copyright (C) 2022 ORGANIZATION
+# Copyright (C) 2024 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 # 
 # Translators:
 # Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2019
 # James McKinney, 2021
-# Cecilia Casco <ceciliacasco@cds.com.py>, 2021
 # Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
 # 
 #, fuzzy
@@ -14,16 +13,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-07 18:41-0300\n"
+"POT-Creation-Date: 2024-05-30 00:40-0400\n"
 "PO-Revision-Date: 2019-03-14 18:26+0000\n"
 "Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.15.0\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. /name/en
 #. /definitions/Implementation/properties/metrics/title
@@ -50,10 +49,8 @@ msgstr "Pronósticos"
 
 #. /definitions/Planning/properties/forecasts/description
 #: release-schema.json:1
-msgid "Any forecasts metrics for this results of this contracting process."
+msgid "Any forecasts metrics for a future contracting process."
 msgstr ""
-"Cualquier métrica de pronóstico para los resultados de este proceso de "
-"contratación."
 
 #. /definitions/Tender/properties/targets/title
 #: release-schema.json:1
@@ -62,10 +59,8 @@ msgstr "Objetivos"
 
 #. /definitions/Tender/properties/targets/description
 #: release-schema.json:1
-msgid "Any target metrics for this results of this contracting process."
+msgid "Any target metrics for this contracting process."
 msgstr ""
-"Cualquier métrica del objetivo para el resultado de este proceso de "
-"contratación."
 
 #. /definitions/Award/properties/agreedMetrics/title
 #. /definitions/Contract/properties/agreedMetrics/title
@@ -256,14 +251,11 @@ msgstr "Esquema"
 #. /definitions/Observation/properties/unit/properties/scheme/description
 #: release-schema.json:1
 msgid ""
-"The list from which units of measure identifiers are taken. Use of the "
-"scheme 'UNCEFACT' for the UN/CEFACT Recommendation 20 list of \"Codes for "
-"Units of Measure Used in International Trade\" is recommended."
+"The list from which units of measure identifiers are taken. It is "
+"recommended to use the scheme 'UNCEFACT' and codes from the UN/CEFACT "
+"Recommendation 20 list of \"Codes for Units of Measure Used in International"
+" Trade\"."
 msgstr ""
-"La lista de la que se toman los identificadores de las unidades de medida. "
-"Se recomienda el uso del esquema 'UNCEFACT' para la lista Recomendación 20 "
-"de CEFACT/ONU de \"Códigos de unidades de medida utilizados en el comercio "
-"internacional\"."
 
 #. /definitions/Observation/properties/unit/properties/id/title
 #: release-schema.json:1

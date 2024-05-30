@@ -7,26 +7,25 @@
 # James McKinney, 2021
 # Natalia Valdez <nataliavaldez@cds.com.py>, 2021
 # Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
-# Maria Esther Cervantes <mcervantes@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-07 18:41-0300\n"
+"POT-Creation-Date: 2024-05-30 00:39-0400\n"
 "PO-Revision-Date: 2020-08-20 21:57+0000\n"
-"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../README.md:1
-msgid "Selection Criteria"
-msgstr "Criterios de Selección"
+msgid "Selection criteria"
+msgstr ""
 
 #: ../README.md:3
 msgid ""
@@ -37,31 +36,82 @@ msgstr ""
 "candidatos a participar en un proceso de contratación."
 
 #: ../README.md:5
-msgid "Legal context"
-msgstr "Contexto legal"
+msgid ""
+"This extension must be used with the [Award criteria "
+"breakdown](https://extensions.open-"
+"contracting.org/en/extensions/awardCriteria/master/) extension."
+msgstr ""
 
 #: ../README.md:7
 msgid ""
-"In the European Union, this extension's fields correspond to [eForms BG-702 "
-"(Selection Criteria)](https://github.com/eForms/eForms). See [OCDS for the "
-"European Union](http://standard.open-contracting.org/profiles/eu/master/en/)"
-" for the correspondences to Tenders Electronic Daily (TED)."
+"If your data closely follows the [Core Criterion and Core Evidence "
+"Vocabulary (CCCEV)](https://semiceu.github.io/CCCEV/), consider the "
+"[Requirements](https://extensions.open-"
+"contracting.org/en/extensions/requirements/master/) extension."
 msgstr ""
-"En la Unión Europea, los campos de esta extensión corresponden a [eForms "
-"BG-702 (Criterios de Selección)](https://github.com/eForms/eForms). Ver "
-"[OCDS para la Unión Europea](http://standard.open-"
-"contracting.org/profiles/eu/master/es/) para ver lo correspondiente a "
-"Tenders Electronic Daily (TED)."
 
 #: ../README.md:9
+msgid "Guidance"
+msgstr ""
+
+#: ../README.md:11
+msgid ""
+"If you are using the [Lots extension](https://extensions.open-"
+"contracting.org/en/extensions/lots/master/), [follow its "
+"guidance](https://extensions.open-"
+"contracting.org/en/extensions/lots/master/#guidance) on whether to use "
+"`tender.lots` fields or `tender` fields."
+msgstr ""
+
+#: ../README.md:13
+msgid "Legal context"
+msgstr "Contexto legal"
+
+#: ../README.md:15
+msgid ""
+"In the European Union, this extension's fields correspond to [eForms BG-702 "
+"(Selection Criteria) and BG-72 (Selection Criteria Second Stage Invite "
+"Number)](https://docs.ted.europa.eu/eforms/latest/reference/business-"
+"terms/). For correspondences to eForms fields, see [OCDS for "
+"eForms](https://standard.open-contracting.org/profiles/eforms/latest/en/). "
+"For correspondences to Tenders Electronic Daily (TED), see [OCDS for the "
+"European Union](https://standard.open-"
+"contracting.org/profiles/eu/latest/en/)."
+msgstr ""
+
+#: ../README.md:17
 msgid "Examples"
 msgstr "Ejemplos"
 
-#: ../README.md:39
+#: ../README.md:19
+msgid "Tender"
+msgstr ""
+
+#: ../README.md:21
+msgid ""
+"Potential suppliers and subcontractors must demonstrate a minimum of 10 "
+"years experience on similar projects."
+msgstr ""
+
+#: ../README.md:43
+msgid "Lot"
+msgstr ""
+
+#: ../README.md:45
+msgid ""
+"A tender with a single lot where the selection criterion only applies for "
+"selecting candidates to be invited to the second stage of the procedure. The"
+" candidates will be selected only if the rate of their turnover over the "
+"value of the contract is at least 2. The procuring entity will use annual "
+"accounts from the previous two financial years to verify the candidates' "
+"turnover."
+msgstr ""
+
+#: ../README.md:75
 msgid "Issues"
 msgstr "Issues"
 
-#: ../README.md:41
+#: ../README.md:77
 msgid ""
 "Report issues for this extension in the [ocds-extensions "
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "
@@ -71,27 +121,47 @@ msgstr ""
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
 "el nombre de la extensión en el título del issue."
 
-#: ../README.md:43
+#: ../README.md:79
 msgid "Changelog"
 msgstr "Registro de cambios"
 
-#: ../README.md:45
+#: ../README.md:81
+msgid "2024-01-25"
+msgstr ""
+
+#: ../README.md:83
+msgid "Add `verificationMethod` field to the `SelectionCriterion` object."
+msgstr ""
+
+#: ../README.md:85
+msgid "2023-04-05"
+msgstr ""
+
+#: ../README.md:87
+msgid ""
+"Add `forReduction` and `numbers` fields to the `SelectionCriterion` object. "
+"The `numbers` field reuses the `CriterionNumber` definition from the [Award "
+"criteria breakdown](https://extensions.open-"
+"contracting.org/en/extensions/awardCriteria/master/) extension."
+msgstr ""
+
+#: ../README.md:89
 msgid "2020-07-13"
 msgstr "2020-07-13"
 
-#: ../README.md:47
-msgid "Add the `appliesTo` field"
-msgstr "Agregar el campo `appliesTo`"
+#: ../README.md:91
+msgid "Add `appliesTo` field."
+msgstr ""
 
-#: ../README.md:49
+#: ../README.md:93
 msgid "2020-04-24"
 msgstr "2020-04-24"
 
-#: ../README.md:51
+#: ../README.md:95
 msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
 msgstr "Agregar las propiedades `minProperties`, `minItems` y/o `minLength`."
 
-#: ../README.md:53
+#: ../README.md:97
 msgid ""
 "This extension was originally discussed as part of the [OCDS for EU "
 "profile](https://github.com/open-contracting-extensions/european-"

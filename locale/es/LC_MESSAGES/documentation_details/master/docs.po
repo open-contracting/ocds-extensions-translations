@@ -4,23 +4,22 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# James McKinney, 2021
-# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
+# James McKinney, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-07 18:41-0300\n"
-"PO-Revision-Date: 2019-03-14 18:26+0000\n"
-"Last-Translator: Natalia Valdez <nataliavaldez@cds.com.py>, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"POT-Creation-Date: 2024-05-30 00:39-0400\n"
+"PO-Revision-Date: 2024-05-30 03:24+0000\n"
+"Last-Translator: James McKinney, 2024\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../README.md:1
 msgid "Document details"
@@ -56,15 +55,21 @@ msgid ""
 msgstr ""
 "Nombre del autor del documento (a no ser confundido con su publicador)"
 
-#: ../README.md:9
+#: ../README.md:8
+msgid ""
+"Indicate the languages in which unofficial translations of the document are "
+"available"
+msgstr ""
+
+#: ../README.md:10
 msgid "Use cases include:"
 msgstr "Los casos de usos incluyen:"
 
-#: ../README.md:11
+#: ../README.md:12
 msgid "Accessing the document and locating the information within it"
 msgstr "Acceder al documento y localizar la información en él"
 
-#: ../README.md:12
+#: ../README.md:13
 msgid ""
 "Checking whether authors are involved in other ways in the contracting "
 "process, e.g. as bidders"
@@ -72,19 +77,19 @@ msgstr ""
 "Comprobar si los autores participan de otras formas en el proceso de "
 "contratación, por ejemplo, como licitadores"
 
-#: ../README.md:13
+#: ../README.md:14
 msgid "Measuring the accessibility of documents"
 msgstr "Medir la accesibilidad de los documentos"
 
-#: ../README.md:15
+#: ../README.md:16
 msgid "Example"
 msgstr "Ejemplo"
 
-#: ../README.md:37
+#: ../README.md:43
 msgid "Issues"
 msgstr "Issues"
 
-#: ../README.md:39
+#: ../README.md:45
 msgid ""
 "Report issues for this extension in the [ocds-extensions "
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "
@@ -94,34 +99,52 @@ msgstr ""
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
 "el nombre de la extensión en el título del issue."
 
-#: ../README.md:41
+#: ../README.md:47
 msgid "Changelog"
 msgstr "Registro de cambios"
 
-#: ../README.md:43
+#: ../README.md:49
+msgid "2023-08-04"
+msgstr ""
+
+#: ../README.md:51
+msgid ""
+"Change unofficialTranslation field to `unofficialTranslations` array of "
+"languages."
+msgstr ""
+
+#: ../README.md:53
+msgid "2023-04-05"
+msgstr ""
+
+#: ../README.md:55
+msgid "Add `accessDetailsURL` and unofficialTranslation fields."
+msgstr ""
+
+#: ../README.md:57
 msgid "2020-04-24"
 msgstr "2020-04-24"
 
-#: ../README.md:45
+#: ../README.md:59
 msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
 msgstr "Agregar las propiedades `minProperties`, `minItems` y/o `minLength`."
 
-#: ../README.md:47
+#: ../README.md:61
 msgid "2020-04-15"
 msgstr "2020-04-15"
 
-#: ../README.md:49
+#: ../README.md:63
 msgid "Improve documentation"
 msgstr "Mejora en la documentación"
 
-#: ../README.md:50
+#: ../README.md:64
 msgid "Use non-normative keywords where appropriate"
 msgstr "Uso de palabras clave no normativas donde es apropiado"
 
-#: ../README.md:52
+#: ../README.md:66
 msgid "2019-01-30"
 msgstr "2019-01-30"
 
-#: ../README.md:54
+#: ../README.md:68
 msgid "Remove obsolete `mergeStrategy` properties"
 msgstr "Elimina la propiedad obsoleta `mergeStrategy`"

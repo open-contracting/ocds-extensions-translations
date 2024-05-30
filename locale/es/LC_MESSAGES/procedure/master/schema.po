@@ -1,7 +1,7 @@
 # Translations template for PROJECT.
-# Copyright (C) 2022 ORGANIZATION
+# Copyright (C) 2024 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 # 
 # Translators:
 # Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
@@ -11,16 +11,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-07 18:41-0300\n"
+"POT-Creation-Date: 2024-05-30 00:40-0400\n"
 "PO-Revision-Date: 2020-08-20 21:49+0000\n"
 "Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.15.0\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. /name/en
 #. /definitions/Tender/properties/procedure/title
@@ -50,11 +50,9 @@ msgstr "Procedimiento acelerado utilizado"
 #. /definitions/Procedure/properties/isAccelerated/description
 #: release-schema.json:1
 msgid ""
-"Whether the time limit for receipt of bids or requests to participate can be"
+"Whether the time limit for receipt of bids or expressions of interest can be"
 " reduced due to a state of urgency."
 msgstr ""
-"Si el límite de tiempo para la recepción de ofertas o solicitudes de "
-"participación puede reducirse debido a un estado de urgencia."
 
 #. /definitions/Procedure/properties/acceleratedRationale/title
 #: release-schema.json:1

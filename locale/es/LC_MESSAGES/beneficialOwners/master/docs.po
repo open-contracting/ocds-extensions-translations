@@ -11,15 +11,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-07 18:41-0300\n"
+"POT-Creation-Date: 2024-05-30 00:39-0400\n"
 "PO-Revision-Date: 2021-05-25 15:35+0000\n"
 "Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../README.md:1
 msgid "Beneficial owners"
@@ -39,24 +39,18 @@ msgid ""
 "processes, then this extension is appropriate: for example, if tenderers are"
 " obligated to disclose their beneficial owners within their bid submission. "
 "Similarly, to use this extension, the **laws in your jurisdiction must "
-"permit the publication of personal identifiers**.  You can find the complete"
-" guidance on publishing personal identifiers in the [Beneficial Ownership "
-"Data Standard "
-"documentation](http://standard.openownership.org/en/0.2.0/schema/guidance/identifiers.html#shared-"
+"permit the publication of personal identifiers**."
+msgstr ""
+
+#: ../README.md:7
+msgid ""
+"You can find the complete guidance on publishing personal identifiers in the"
+" [Beneficial Ownership Data Standard "
+"documentation](https://standard.openownership.org/en/0.3.0/schema/guidance/identifiers.html#shared-"
 "identifiers)"
 msgstr ""
-"Si la información sobre beneficiarios finales (BO) se recoge a través de "
-"procesos de contratación, entonces esta extensión es apropiada: por ejemplo,"
-" si los licitantes están obligados a revelar sus beneficiarios finales "
-"dentro de su presentación de ofertas. Asimismo, para utilizar esta "
-"extensión, las **leyes de su jurisdicción deben permitir la publicación de "
-"identificadores personales**. Puede encontrar las guías completas sobre la "
-"publicación de identificadores personales en la [Documentación del Estándar "
-"de Datos sobre Beneficiarios "
-"Finales](http://standard.openownership.org/en/0.2.0/schema/guidance/identifiers.html#shared-"
-"identifiers)"
 
-#: ../README.md:8
+#: ../README.md:9
 msgid ""
 "On the other hand, if BO information is collected in a central register via "
 "other means, then it is recommended to publish that information as a "
@@ -78,15 +72,34 @@ msgstr ""
 "Datos sobre Beneficiarios "
 "Finales](https://standard.openownership.org/en/latest/)."
 
-#: ../README.md:10
+#: ../README.md:11
 msgid "Example"
 msgstr "Ejemplo"
 
-#: ../README.md:34
+#: ../README.md:13
+msgid "With nationality"
+msgstr ""
+
+#: ../README.md:15
+msgid "The beneficial owner's nationality is disclosed."
+msgstr ""
+
+#: ../README.md:51
+msgid "Without nationality"
+msgstr ""
+
+#: ../README.md:53
+msgid ""
+"The beneficial owner's nationality is not disclosed because the organization"
+" is listed on a regulated market (e.g. a stock exchange) that ensures "
+"adequate transparency in line with anti-money laundering legislation."
+msgstr ""
+
+#: ../README.md:89
 msgid "Issues"
 msgstr "Issues"
 
-#: ../README.md:36
+#: ../README.md:91
 msgid ""
 "Report issues for this extension in the [ocds-extensions "
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "
@@ -95,3 +108,51 @@ msgstr ""
 "Reportar issues para esta extensión en el [repositorio de extensiones "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
 "el nombre de la extensión en el título del issue."
+
+#: ../README.md:93
+msgid "Changelog"
+msgstr ""
+
+#: ../README.md:95
+msgid "2023-08-04"
+msgstr ""
+
+#: ../README.md:97
+msgid "Convert nationality field to `nationalities` array."
+msgstr ""
+
+#: ../README.md:99
+msgid "2023-06-07"
+msgstr ""
+
+#: ../README.md:101
+msgid "Add `country.csv` codelist for nationality field."
+msgstr ""
+
+#: ../README.md:103
+msgid "2023-02-27"
+msgstr ""
+
+#: ../README.md:105
+msgid "Add fields:"
+msgstr ""
+
+#: ../README.md:106
+msgid "`Person.address`"
+msgstr ""
+
+#: ../README.md:107
+msgid "`Person.email`"
+msgstr ""
+
+#: ../README.md:108
+msgid "`Person.faxNumber`"
+msgstr ""
+
+#: ../README.md:109
+msgid "`Person.telephone`"
+msgstr ""
+
+#: ../README.md:110
+msgid "`Organization.details.listedOnRegulatedMarket`"
+msgstr ""

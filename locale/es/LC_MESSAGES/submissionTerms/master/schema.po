@@ -1,7 +1,7 @@
 # Translations template for PROJECT.
-# Copyright (C) 2022 ORGANIZATION
+# Copyright (C) 2024 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 # 
 # Translators:
 # Maria Esther Cervantes <mcervantes@cds.com.py>, 2021
@@ -12,16 +12,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-07 18:42-0300\n"
+"POT-Creation-Date: 2024-05-30 00:40-0400\n"
 "PO-Revision-Date: 2020-08-20 21:40+0000\n"
 "Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.15.0\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. /name/en
 #. /definitions/Tender/properties/submissionTerms/title
@@ -45,29 +45,23 @@ msgstr ""
 #: release-schema.json:1
 msgid ""
 "Information about the submission terms to describe how, when and where the "
-"tenderers need to submit their bids for the procedure."
+"tenderers need to submit their bids or expressions of interest for the "
+"procedure."
 msgstr ""
-"Información sobre los términos de presentación de la oferta para describir "
-"cómo, cuándo y dónde los oferentes deben presentar sus ofertas para el "
-"procedimiento."
 
 #. /definitions/Lot/properties/submissionTerms/description
 #: release-schema.json:1
 msgid ""
 "Information about the submission terms to describe how, when and where the "
-"tenderers need to submit their bids for the lot."
+"tenderers need to submit their bids or expressions of interest for the lot."
 msgstr ""
-"Información sobre los términos de presentación de la oferta para describir "
-"cómo, cuándo y dónde los oferentes deben presentar sus ofertas para el lote."
 
 #. /definitions/SubmissionTerms/description
 #: release-schema.json:1
 msgid ""
 "Information about the submission terms to describe how, when and where the "
-"tenderers need to submit their bids."
+"tenderers need to submit their bids or expressions of interest."
 msgstr ""
-"Información sobre los términos de presentación de la oferta para describir "
-"cómo, cuándo y dónde los oferentes deben presentar sus ofertas."
 
 #. /definitions/SubmissionTerms/properties/electronicSubmissionPolicy/title
 #: release-schema.json:1
@@ -77,11 +71,9 @@ msgstr "Política de presentación de oferta electrónica"
 #. /definitions/SubmissionTerms/properties/electronicSubmissionPolicy/description
 #: release-schema.json:1
 msgid ""
-"Whether tenderers are required, allowed or not allowed to submit bids "
-"electronically."
+"Whether tenderers are required, allowed or not allowed to submit bids or "
+"expressions of interest electronically."
 msgstr ""
-"Si los oferentes están obligados, autorizados o no autorizados a presentar "
-"ofertas por vía electrónica."
 
 #. /definitions/SubmissionTerms/properties/variantPolicy/title
 #: release-schema.json:1
@@ -99,19 +91,20 @@ msgstr ""
 "que satisfagan las necesidades del comprador de forma diferente a la "
 "propuesta en los documentos de contratación."
 
-#. /definitions/SubmissionTerms/properties/electronicCataloguePolicy/title
+#. /definitions/SubmissionTerms/properties/electronicCatalogPolicy/title
 #: release-schema.json:1
-msgid "Electronic catalogue policy"
-msgstr "Política de catálogo electrónico"
+msgid "Electronic catalog policy"
+msgstr ""
 
-#. /definitions/SubmissionTerms/properties/electronicCataloguePolicy/description
+#. /definitions/SubmissionTerms/properties/electronicCatalogPolicy/description
 #: release-schema.json:1
 msgid ""
 "Whether tenderers are required, allowed or not allowed to submit bids as "
-"electronic catalogues."
+"electronic catalogs. An electronic catalog is an electronic format "
+"(typically prescribed by the buyer) that participants in the contracting "
+"process need to follow when exchanging information about technical "
+"specifications, evaluation criteria, bids, lots, etc."
 msgstr ""
-"Si los oferentes están obligados, autorizados o no autorizados a presentar "
-"ofertas como catálogos electrónicos."
 
 #. /definitions/SubmissionTerms/properties/languages/title
 #: release-schema.json:1
@@ -121,7 +114,7 @@ msgstr "Idioma de Presentación de la Oferta"
 #. /definitions/SubmissionTerms/properties/languages/description
 #: release-schema.json:1
 msgid ""
-"One or more languages in which bids or requests to participate can be "
+"One or more languages in which bids or expressions of interest can be "
 "submitted, using either two-letter "
 "[ISO639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes), or "
 "extended [BCP47 language "
@@ -130,14 +123,6 @@ msgid ""
 "[ISO639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) is "
 "recommended."
 msgstr ""
-"Uno o más lenguajes en los que se pueden presentar ofertas o solicitudes de "
-"participación, utilizando dos letras  "
-"[ISO639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes), o la "
-"extendida [etiquetas de lenguaje "
-"BCP47](http://www.w3.org/International/articles/language-tags/).  El uso de "
-"códigos de dos letras "
-"[ISO639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) es el "
-"recomendado."
 
 #. /definitions/SubmissionTerms/properties/bidValidityPeriod/title
 #: release-schema.json:1
@@ -163,3 +148,67 @@ msgstr "Depósitos y garantías"
 msgid ""
 "Information about the deposits or guarantees required from the tenderers."
 msgstr "Información sobre los depósitos o garantías exigidas a los oferentes."
+
+#. /definitions/SubmissionTerms/properties/advancedElectronicSignatureRequired/title
+#: release-schema.json:1
+msgid "Advanced electronic signature required"
+msgstr ""
+
+#. /definitions/SubmissionTerms/properties/advancedElectronicSignatureRequired/description
+#: release-schema.json:1
+msgid ""
+"Whether an advanced or qualified electronic signature or seal is needed."
+msgstr ""
+
+#. /definitions/SubmissionTerms/properties/multipleBidsAllowed/title
+#: release-schema.json:1
+msgid "Multiple bids allowed"
+msgstr ""
+
+#. /definitions/SubmissionTerms/properties/multipleBidsAllowed/description
+#: release-schema.json:1
+msgid "Whether tenderers can submit more than one bid."
+msgstr ""
+
+#. /definitions/SubmissionTerms/properties/subcontractingClauses/title
+#: release-schema.json:1
+msgid "Subcontracting clauses"
+msgstr ""
+
+#. /definitions/SubmissionTerms/properties/subcontractingClauses/description
+#: release-schema.json:1
+msgid ""
+"The information about subcontracting that needs to be provided in the bid."
+msgstr ""
+
+#. /definitions/SubmissionTerms/properties/nonElectronicSubmission/title
+#: release-schema.json:1
+msgid "Non-electronic submission"
+msgstr ""
+
+#. /definitions/SubmissionTerms/properties/nonElectronicSubmission/description
+#: release-schema.json:1
+msgid "Information about non-electronic submission requirements."
+msgstr ""
+
+#. /definitions/SubmissionTerms/properties/nonElectronicSubmission/properties/rationale/title
+#: release-schema.json:1
+msgid "Rationale"
+msgstr ""
+
+#. /definitions/SubmissionTerms/properties/nonElectronicSubmission/properties/rationale/description
+#: release-schema.json:1
+msgid "The rationale for electronic submission not being allowed."
+msgstr ""
+
+#. /definitions/SubmissionTerms/properties/nonElectronicSubmission/properties/address/title
+#: release-schema.json:1
+msgid "Address"
+msgstr ""
+
+#. /definitions/SubmissionTerms/properties/nonElectronicSubmission/properties/address/description
+#: release-schema.json:1
+msgid ""
+"The address to which non-electronic bids or expressions of interest should "
+"be submitted."
+msgstr ""

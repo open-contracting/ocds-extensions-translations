@@ -6,7 +6,6 @@
 # Translators:
 # James McKinney, 2019
 # Natalia Valdez <nataliavaldez@cds.com.py>, 2021
-# Maria Esther Cervantes <mcervantes@cds.com.py>, 2021
 # Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
 # 
 #, fuzzy
@@ -14,19 +13,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-07 18:41-0300\n"
+"POT-Creation-Date: 2024-05-30 00:39-0400\n"
 "PO-Revision-Date: 2019-03-14 18:30+0000\n"
 "Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../README.md:1
-msgid "Finance extension"
-msgstr "Extensión de financiamiento"
+msgid "Finance"
+msgstr ""
 
 #: ../README.md:3
 msgid ""
@@ -55,48 +54,30 @@ msgstr "Contexto legal"
 #: ../README.md:9
 msgid ""
 "In the European Union, this extension's fields correspond to [eForms BG-611 "
-"(Contract EU funds) and BG-61 (EU funds)](https://github.com/eForms/eForms)."
-" See [OCDS for the European Union](http://standard.open-"
-"contracting.org/profiles/eu/master/en/) for the correspondences to Tenders "
-"Electronic Daily (TED)."
+"(Contract EU funds) and BG-61 (EU "
+"funds)](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/)."
+" For correspondences to Tenders Electronic Daily (TED), see [OCDS for the "
+"European Union](https://standard.open-"
+"contracting.org/profiles/eu/latest/en/)."
 msgstr ""
-"En la Union Europea, los campos de esta extensión corresponden [eForms "
-"BG-611 (Contract EU funds) y BG-61 (EU "
-"funds)](https://github.com/eForms/eForms). Vea [OCDS para la Union "
-"Europea](http://standard.open-contracting.org/profiles/eu/master/en/) para "
-"lo correspondiente a Tenders Electronic Daily (TED)."
 
 #: ../README.md:11
-msgid "Codelists"
-msgstr "Listas de códigos"
-
-#: ../README.md:13
-msgid ""
-"The `financeType.csv` codelist is based on the list on [Page 57 of the World"
-" Bank PPP Disclosure "
-"Framework](http://pubdocs.worldbank.org/en/143671469558797229/FrameworkPPPDisclosure-071416.pdf#page=57)"
-msgstr ""
-"La lista de códigos `financeType.csv` se basa en la lista de [Página 57 del "
-"Marco de divulgación de APP del Banco "
-"Mundial](http://pubdocs.worldbank.org/en/143671469558797229/FrameworkPPPDisclosure-071416.pdf#page=57)"
-
-#: ../README.md:15
 msgid "Examples"
 msgstr "Ejemplos"
 
-#: ../README.md:17
+#: ../README.md:13
 msgid "Procurement process financing"
 msgstr "Financiamiento del proceso de contratación"
 
-#: ../README.md:49
+#: ../README.md:42
 msgid "Public-private partnership contract financing"
 msgstr "Financiamiento de contratos de Asociación público-privada"
 
-#: ../README.md:105
+#: ../README.md:104
 msgid "Issues"
 msgstr "Issues"
 
-#: ../README.md:107
+#: ../README.md:106
 msgid ""
 "Report issues for this extension in the [ocds-extensions "
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "
@@ -106,43 +87,165 @@ msgstr ""
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
 "el nombre de la extensión en el título del issue."
 
-#: ../README.md:109
+#: ../README.md:108
 msgid "Changelog"
 msgstr "Registro de cambios"
 
-#: ../README.md:111
+#: ../README.md:110
+msgid "2023-11-22"
+msgstr ""
+
+#: ../README.md:112
+msgid "Reorder fields in logical order."
+msgstr ""
+
+#: ../README.md:114
+msgid "2023-11-13"
+msgstr ""
+
+#: ../README.md:116
+msgid "Replace fields, to clarify semantics:"
+msgstr ""
+
+#: ../README.md:117
+msgid ""
+"Replace `Finance.financeType` (`financeType.csv`) with "
+"`Finance.financingPartyType` (`financingPartyType.csv`) and `Finance.type` "
+"(`financingArrangementType.csv`). Notably:"
+msgstr ""
+
+#: ../README.md:118
+msgid ""
+"'publicBondIssue' is replaced by 'debt' in `assetClass.csv` and 'bond' in "
+"`financingArrangementType.csv`"
+msgstr ""
+
+#: ../README.md:119
+msgid "'supplierCredit' is replaced by 'vendor' in `financingPartyType.csv`"
+msgstr ""
+
+#: ../README.md:120
+msgid ""
+"Replace `Finance.financeCategory` (`financeCategory.csv`) with "
+"`Finance.assetClass` (`assetClass.csv`), `Finance.type` "
+"(`financingArrangementType.csv`) and `Finance.repaymentPriority` "
+"(`debtRepaymentPriority.csv`). Notably:"
+msgstr ""
+
+#: ../README.md:121
+msgid "'equity' is replaced by 'equity' in `assetClass.csv`"
+msgstr ""
+
+#: ../README.md:122
+msgid ""
+"'seniorDebt' is replaced by 'debt' in `assetClass.csv` and 'senior' in "
+"`debtRepaymentPriority.csv`"
+msgstr ""
+
+#: ../README.md:123
+msgid ""
+"'mezzanineDebt' is replaced by 'debt' and 'equity' in `assetClass.csv` and "
+"'subordinated' in `debtRepaymentPriority.csv`"
+msgstr ""
+
+#: ../README.md:124
+msgid "'grant' is replaced by 'grant' in `financingArrangementType.csv`"
+msgstr ""
+
+#: ../README.md:125
+msgid ""
+"'guarantee' is replaced by 'guarantee' in `financingArrangementType.csv`"
+msgstr ""
+
+#: ../README.md:126
+msgid "Replace `Finance.repaymentFrequency` with `Finance.paymentFrequency`."
+msgstr ""
+
+#: ../README.md:127
+msgid "Add fields:"
+msgstr ""
+
+#: ../README.md:128
+msgid "`Finance.concessional`"
+msgstr ""
+
+#: ../README.md:129
+msgid "`Finance.paymentPeriod`"
+msgstr ""
+
+#: ../README.md:130
+msgid "`Finance.resultsBased`"
+msgstr ""
+
+#: ../README.md:131
+msgid "`Finance.source`"
+msgstr ""
+
+#: ../README.md:132
+msgid "Update descriptions, for clarity:"
+msgstr ""
+
+#: ../README.md:133
+msgid "`Budget.finance`"
+msgstr ""
+
+#: ../README.md:134
+msgid "`Contract.finance`"
+msgstr ""
+
+#: ../README.md:135
+msgid "`Finance`"
+msgstr ""
+
+#: ../README.md:136
+msgid "`Finance.description`"
+msgstr ""
+
+#: ../README.md:137
+msgid "`Finance.period`"
+msgstr ""
+
+#: ../README.md:139
+msgid "2022-05-17"
+msgstr ""
+
+#: ../README.md:141
+msgid "Move `Finance.relatedLots` from the Lots extension"
+msgstr ""
+
+#: ../README.md:143
 msgid "2020-06-04"
 msgstr "2020-06-04"
 
-#: ../README.md:113
+#: ../README.md:145
 msgid "Review normative and non-normative words."
 msgstr "Revisar las palabras normativas y no normativas."
 
-#: ../README.md:115
+#: ../README.md:147
 msgid "2020-04-24"
 msgstr "2020-04-24"
 
-#: ../README.md:117
+#: ../README.md:149
 msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
 msgstr "Agregar las propiedades `minProperties`, `minItems` y/o `minLength`."
 
-#: ../README.md:119
+#: ../README.md:151
 msgid "2020-04-17"
 msgstr "2020-04-17"
 
-#: ../README.md:121
+#: ../README.md:153
 msgid "Add `planning.budget.finance` field."
 msgstr "Agregar el campo `planning.budget.finance`."
 
-#: ../README.md:122
-msgid "Fix description of `financeCategory`."
-msgstr "Arreglar la descripción de `financeCategory`."
+#: ../README.md:154
+msgid "Fix description of `Finance.financeCategory`."
+msgstr ""
 
-#: ../README.md:124
+#: ../README.md:156
 msgid "2019-03-20"
 msgstr "2019-03-20"
 
-#: ../README.md:126
+#: ../README.md:158
 msgid ""
 "Set `\"uniqueItems\": true` on array fields, and add `\"minLength\": 1` on "
 "required string fields."
@@ -150,36 +253,33 @@ msgstr ""
 "Establecer `\"uniqueItems \": true` en los campos matriz y agregar "
 "`\"minLength\": 1` en los campos de cadena obligatorios."
 
-#: ../README.md:127
+#: ../README.md:159
 msgid "Make `interestRate` non-nullable (undo earlier change)."
 msgstr "Hacer `interestRate` no nulo (deshacer el cambio anterior)."
 
-#: ../README.md:129
+#: ../README.md:161
 msgid "2018-05-08"
 msgstr "2018-05-08"
 
-#: ../README.md:131
+#: ../README.md:163
 msgid ""
 "Make `Finance.id` required and non-nullable to support revision tracking and"
-" [list merging](http://standard.open-"
-"contracting.org/latest/en/schema/merging/#lists)"
+" [list merging](https://standard.open-"
+"contracting.org/latest/en/schema/merging/#array-values)"
 msgstr ""
-"Hacer `Finance.id` requerido y no nulo para soportar el seguimiento de "
-"revisiones y [list merging](http://standard.open-"
-"contracting.org/latest/es/schema/merging/#lists)"
 
-#: ../README.md:133
+#: ../README.md:165
 msgid "2018-05-01"
 msgstr "2018-05-01"
 
-#: ../README.md:135
+#: ../README.md:167
 msgid "Add title and description to `Finance.financingParty`."
 msgstr "Agregar título y descripción a `Finance.financingParty`."
 
-#: ../README.md:137
+#: ../README.md:169
 msgid "2018-01-29"
 msgstr "2018-01-29"
 
-#: ../README.md:139
+#: ../README.md:171
 msgid "Make `interestRate` nullable."
 msgstr "Se permite que `interestRate` sea nulo."

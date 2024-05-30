@@ -14,15 +14,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-07 18:41-0300\n"
+"POT-Creation-Date: 2024-05-30 00:39-0400\n"
 "PO-Revision-Date: 2020-08-20 21:38+0000\n"
 "Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../README.md:1
 msgid "Options"
@@ -37,10 +37,6 @@ msgstr ""
 "información sobre las mismas."
 
 #: ../README.md:5
-msgid "Usage"
-msgstr "El uso"
-
-#: ../README.md:7
 msgid ""
 "A buyer may have a right – but not an obligation – to additional purchases "
 "from a supplier while the contract is valid."
@@ -48,35 +44,19 @@ msgstr ""
 "Un comprador puede tener el derecho, pero no la obligación, de realizar "
 "compras adicionales a un proveedor mientras el contrato sea válido."
 
-#: ../README.md:9
-msgid ""
-"The `tender.hasOptions` field can be set to `true`, and the "
-"`tender.options.description` field can describe the options for additional "
-"purchases. `hasOptions` and `options` can also be set on `Lot` objects in "
-"the `tender.lots` array."
-msgstr ""
-"El campo `tender.hasOptions` se puede establecer en` true`, y el campo "
-"`tender.options.description` puede describir las opciones para compras "
-"adicionales. `hasOptions` y` options` también se pueden configurar en "
-"objetos `Lot` en la lista ` tender.lots`."
-
-#: ../README.md:11
+#: ../README.md:7
 msgid ""
 "For example, a contract may concern a thousand uniforms, and the buyer may "
-"have the option to request an additional hundred uniforms. This may be "
-"useful if, when initiating the contracting process, the buyer doesn't yet "
-"know whether a planned increase in staff will take place.¹"
+"have the option to request an additional hundred uniforms. This might occur "
+"if the buyer doesn't yet know whether a planned increase in staff will take "
+"place."
 msgstr ""
-"Por ejemplo, un contrato puede referirse a mil uniformes y el comprador "
-"puede tener la opción de solicitar cien uniformes adicionales. Esto puede "
-"ser útil si, al iniciar el proceso de contratación, el comprador aún no sabe"
-" si se llevará a cabo un aumento planificado de personal."
 
-#: ../README.md:13
+#: ../README.md:9
 msgid "Legal context"
 msgstr "Contexto legal"
 
-#: ../README.md:15
+#: ../README.md:11
 msgid ""
 "The [Revised Agreement on Government "
 "Procurement](https://www.wto.org/english/docs_e/legal_e/rev-gpr-94_01_e.htm)"
@@ -88,7 +68,7 @@ msgstr ""
 "incluye: \"cada aviso de contratación prevista deberá incluir ... d. una "
 "descripción de las opciones\"."
 
-#: ../README.md:17
+#: ../README.md:13
 msgid ""
 "The European Union is a "
 "[party](https://www.wto.org/english/tratop_e/gproc_e/memobs_e.htm) to the "
@@ -107,29 +87,15 @@ msgstr ""
 "Información que se incluirá en los avisos de contrato ... 7. ... Donde "
 "corresponda, descripción de las opciones\"."
 
-#: ../README.md:19
+#: ../README.md:15
 msgid "Example"
 msgstr "Ejemplo"
 
-#: ../README.md:35
-msgid "Footnotes"
-msgstr "Notas al pie"
-
-#: ../README.md:37
-msgid ""
-"¹ Usage guidance is adapted from [eForms technical "
-"specifications](http://ec.europa.eu/growth/content/targeted-consultation-"
-"eforms-next-generation-public-procurement-standard-forms-0_en)."
-msgstr ""
-"¹ La guía de uso está adaptada de [especificaciones técnicas de formularios "
-"electrónicos] (http://ec.europa.eu/growth/content/targeted-consultation-"
-"eforms-next-generation-public-procurement-standard-forms-0_en)."
-
-#: ../README.md:39
+#: ../README.md:31
 msgid "Issues"
 msgstr "Issues"
 
-#: ../README.md:41
+#: ../README.md:33
 msgid ""
 "Report issues for this extension in the [ocds-extensions "
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "
@@ -139,27 +105,55 @@ msgstr ""
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
 "el nombre de la extensión en el título del issue."
 
-#: ../README.md:43
+#: ../README.md:35
 msgid "Changelog"
 msgstr "Registro de cambios"
 
-#: ../README.md:45
+#: ../README.md:37
+msgid "2024-05-02"
+msgstr ""
+
+#: ../README.md:39
+msgid "Add fields:"
+msgstr ""
+
+#: ../README.md:40
+msgid "`Award.hasOptions`"
+msgstr ""
+
+#: ../README.md:41
+msgid "`Award.options`"
+msgstr ""
+
+#: ../README.md:42
+msgid "`Contract.hasOptions`"
+msgstr ""
+
+#: ../README.md:43
+msgid "`Contract.options`"
+msgstr ""
+
+#: ../README.md:44
+msgid "Clarify the description of `Tender.hasOptions` and `Lot.hasOptions`."
+msgstr ""
+
+#: ../README.md:46
 msgid "2020-10-06"
 msgstr "2020-10-06"
 
-#: ../README.md:47
-msgid "Add the `period` field to the `Options` object."
-msgstr "Agrega el campo `period` al objeto `Options`."
+#: ../README.md:48
+msgid "Add `Options.period` field."
+msgstr ""
 
-#: ../README.md:49
+#: ../README.md:50
 msgid "2020-04-24"
 msgstr "2020-04-24"
 
-#: ../README.md:51
+#: ../README.md:52
 msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
 msgstr "Agregar las propiedades `minProperties`, `minItems` y/o `minLength`."
 
-#: ../README.md:53
+#: ../README.md:54
 msgid ""
 "This extension was originally discussed as part of the [OCDS for EU "
 "profile](https://github.com/open-contracting-extensions/european-"

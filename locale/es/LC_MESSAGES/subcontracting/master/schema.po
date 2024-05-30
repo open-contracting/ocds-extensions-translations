@@ -1,7 +1,7 @@
 # Translations template for PROJECT.
-# Copyright (C) 2022 ORGANIZATION
+# Copyright (C) 2024 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 # 
 # Translators:
 # James McKinney, 2021
@@ -12,19 +12,20 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-07 18:42-0300\n"
+"POT-Creation-Date: 2024-05-30 00:40-0400\n"
 "PO-Revision-Date: 2020-08-20 21:51+0000\n"
 "Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.15.0\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. /name/en
 #. /definitions/Award/properties/subcontracting/title
+#. /definitions/Bid/properties/subcontracting/title
 #. /definitions/Subcontracting/title
 #: extension.json:1 release-schema.json:1
 msgid "Subcontracting"
@@ -33,24 +34,26 @@ msgstr "Subcontratación"
 #. /description/en
 #: extension.json:1
 msgid ""
-"Adds an object for information about the parts of the contract that the "
-"supplier will subcontract to third parties."
+"Adds objects for information about the terms governing subcontracting and "
+"the parts of the contract that tenderers and suppliers will subcontract to "
+"third parties."
 msgstr ""
-"Agregar un objeto de información sobre las partes del contrato que el "
-"proveedor subcontratará a terceros."
 
 #. /definitions/Tender/properties/subcontractingTerms/title
+#. /definitions/Lot/properties/subcontractingTerms/title
 #. /definitions/SubcontractingTerms/title
 #: release-schema.json:1
 msgid "Subcontracting terms"
 msgstr "Términos de subcontratación "
 
 #. /definitions/Tender/properties/subcontractingTerms/description
+#. /definitions/Lot/properties/subcontractingTerms/description
 #: release-schema.json:1
 msgid "Information about the terms governing subcontracting."
 msgstr "Información sobre los términos que rigen la subcontratación."
 
 #. /definitions/Award/properties/hasSubcontracting/title
+#. /definitions/Bid/properties/hasSubcontracting/title
 #: release-schema.json:1
 msgid "Subcontracting involved"
 msgstr "Subcontratación involucrada"
@@ -61,7 +64,6 @@ msgid "Whether a part of the contract will be subcontracted."
 msgstr "Si se subcontratará una parte del contrato."
 
 #. /definitions/Award/properties/subcontracting/description
-#. /definitions/Subcontracting/description
 #: release-schema.json:1
 msgid ""
 "Information about the parts of the contract that the supplier will "
@@ -69,6 +71,19 @@ msgid ""
 msgstr ""
 "Información sobre las partes del contrato que el proveedor subcontratará a "
 "terceros."
+
+#. /definitions/Bid/properties/hasSubcontracting/description
+#: release-schema.json:1
+msgid "Whether a part of the contract will be subcontracted to third parties."
+msgstr ""
+
+#. /definitions/Bid/properties/subcontracting/description
+#. /definitions/Subcontracting/description
+#: release-schema.json:1
+msgid ""
+"Information about the parts of the contract that will be subcontracted to "
+"third parties."
+msgstr ""
 
 #. /definitions/SubcontractingTerms/description
 #: release-schema.json:1
@@ -86,14 +101,46 @@ msgstr "Descripción"
 msgid "A description of the terms governing subcontracting."
 msgstr "Una descripción de los términos que rigen la subcontratación."
 
+#. /definitions/SubcontractingTerms/properties/competitiveMaximumPercentage/title
+#. /definitions/Subcontracting/properties/competitiveMaximumPercentage/title
+#: release-schema.json:1
+msgid "Maximum percentage of contract value for competitive subcontracting"
+msgstr ""
+"Porcentaje máximo del valor del contrato para una subcontratación "
+"competitiva"
+
+#. /definitions/SubcontractingTerms/properties/competitiveMaximumPercentage/description
+#. /definitions/Subcontracting/properties/competitiveMaximumPercentage/description
+#: release-schema.json:1
+msgid ""
+"The maximum percentage of the contract value that the buyer or procuring "
+"entity allows the supplier to subcontract to third parties through a "
+"competitive procedure, expressed as a decimal proportion between 0 and 1."
+msgstr ""
+
+#. /definitions/SubcontractingTerms/properties/competitiveMinimumPercentage/title
+#. /definitions/Subcontracting/properties/competitiveMinimumPercentage/title
+#: release-schema.json:1
+msgid "Minimum percentage of contract value for competitive subcontracting"
+msgstr ""
+"Porcentaje mínimo del valor del contrato para una subcontratación "
+"competitiva"
+
+#. /definitions/SubcontractingTerms/properties/competitiveMinimumPercentage/description
+#. /definitions/Subcontracting/properties/competitiveMinimumPercentage/description
+#: release-schema.json:1
+msgid ""
+"The minimum percentage of the contract value that the buyer or procuring "
+"entity requires the supplier to subcontract to third parties through a "
+"competitive procedure, expressed as a decimal proportion between 0 and 1."
+msgstr ""
+
 #. /definitions/Subcontracting/properties/description/description
 #: release-schema.json:1
 msgid ""
-"The description of the part of the contract that the supplier will "
-"subcontract to third parties."
+"The description of the part of the contract that will be subcontracted to "
+"third parties."
 msgstr ""
-"La descripción de la parte del contrato que el proveedor subcontratará a "
-"terceros."
 
 #. /definitions/Subcontracting/properties/maximumPercentage/title
 #: release-schema.json:1
@@ -103,8 +150,9 @@ msgstr "Porcentaje máximo del valor del contrato"
 #. /definitions/Subcontracting/properties/maximumPercentage/description
 #: release-schema.json:1
 msgid ""
-"The maximum percentage of the contract value that will be subcontracted."
-msgstr "El porcentaje máximo del valor del contrato que se subcontratará."
+"The maximum percentage of the contract value that will be subcontracted, "
+"expressed as a decimal proportion between 0 and 1."
+msgstr ""
 
 #. /definitions/Subcontracting/properties/minimumPercentage/title
 #: release-schema.json:1
@@ -114,44 +162,9 @@ msgstr "Porcentaje mínimo del valor del contrato"
 #. /definitions/Subcontracting/properties/minimumPercentage/description
 #: release-schema.json:1
 msgid ""
-"The minimum percentage of the contract value that will be subcontracted."
-msgstr "El porcentaje mínimo del valor del contrato que se subcontratará."
-
-#. /definitions/Subcontracting/properties/competitiveMaximumPercentage/title
-#: release-schema.json:1
-msgid "Maximum percentage of contract value for competitive subcontracting"
+"The minimum percentage of the contract value that will be subcontracted, "
+"expressed as a decimal proportion between 0 and 1."
 msgstr ""
-"Porcentaje máximo del valor del contrato para una subcontratación "
-"competitiva"
-
-#. /definitions/Subcontracting/properties/competitiveMaximumPercentage/description
-#: release-schema.json:1
-msgid ""
-"The maximum percentage of the contract value that the procuring entity "
-"requires the supplier to subcontract to third parties through a competitive "
-"procedure."
-msgstr ""
-"El porcentaje máximo del valor del contrato que la entidad contratante "
-"requiere que el proveedor subcontrate a terceros mediante un procedimiento "
-"competitivo."
-
-#. /definitions/Subcontracting/properties/competitiveMinimumPercentage/title
-#: release-schema.json:1
-msgid "Minimum percentage of contract value for competitive subcontracting"
-msgstr ""
-"Porcentaje mínimo del valor del contrato para una subcontratación "
-"competitiva"
-
-#. /definitions/Subcontracting/properties/competitiveMinimumPercentage/description
-#: release-schema.json:1
-msgid ""
-"The minimum percentage of the contract value that the procuring entity "
-"requires the supplier to subcontract to third parties through a competitive "
-"procedure."
-msgstr ""
-"El porcentaje mínimo del valor del contrato que la entidad contratante "
-"requiere que el proveedor subcontrate a terceros mediante un procedimiento "
-"competitivo."
 
 #. /definitions/Subcontracting/properties/value/title
 #: release-schema.json:1
@@ -161,11 +174,9 @@ msgstr "Valor subcontratado"
 #. /definitions/Subcontracting/properties/value/description
 #: release-schema.json:1
 msgid ""
-"The estimated value of the part of the contract that the supplier will "
-"subcontract to third parties."
+"The estimated value of the part of the contract that will be subcontracted "
+"to third parties."
 msgstr ""
-"El valor estimado de la parte del contrato que el proveedor subcontratará a "
-"terceros."
 
 #. /definitions/Subcontracting/properties/competitive/title
 #: release-schema.json:1
@@ -180,3 +191,60 @@ msgid ""
 msgstr ""
 "Si el proveedor subcontratará parte del contrato a terceros mediante un "
 "procedimiento competitivo."
+
+#. /definitions/Subcontracting/properties/subcontracts/title
+#: release-schema.json:1
+msgid "Subcontracts"
+msgstr ""
+
+#. /definitions/Subcontracting/properties/subcontracts/description
+#: release-schema.json:1
+msgid "Information about the subcontracts that will be established."
+msgstr ""
+
+#. /definitions/Subcontract/title
+#: release-schema.json:1
+msgid "Subcontract"
+msgstr ""
+
+#. /definitions/Subcontract/description
+#: release-schema.json:1
+msgid ""
+"A relationship that suppliers establish with a third party to perform part "
+"of the contract on their behalf."
+msgstr ""
+
+#. /definitions/Subcontract/properties/id/title
+#: release-schema.json:1
+msgid "Identifier"
+msgstr ""
+
+#. /definitions/Subcontract/properties/id/description
+#: release-schema.json:1
+msgid "The locally unique identifier for the subcontract."
+msgstr ""
+
+#. /definitions/Subcontract/properties/subcontractor/title
+#: release-schema.json:1
+msgid "Subcontractor"
+msgstr ""
+
+#. /definitions/Subcontract/properties/subcontractor/description
+#: release-schema.json:1
+msgid ""
+"The organization that performs part of the contract on behalf of the "
+"suppliers."
+msgstr ""
+
+#. /definitions/Subcontract/properties/mainContractors/title
+#: release-schema.json:1
+msgid "Main contractors"
+msgstr ""
+
+#. /definitions/Subcontract/properties/mainContractors/description
+#: release-schema.json:1
+msgid ""
+"The organizations to which the subcontractor will be subcontracted, if they "
+"are a subset of the tenderers submitting the bid or the suppliers receiving "
+"the award."
+msgstr ""

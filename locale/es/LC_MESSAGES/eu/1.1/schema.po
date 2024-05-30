@@ -1,7 +1,7 @@
 # Translations template for PROJECT.
-# Copyright (C) 2022 ORGANIZATION
+# Copyright (C) 2024 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 # 
 # Translators:
 # James McKinney, 2021
@@ -13,16 +13,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-07 18:41-0300\n"
+"POT-Creation-Date: 2024-05-30 00:40-0400\n"
 "PO-Revision-Date: 2020-08-20 20:51+0000\n"
 "Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.15.0\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. /name/en
 #: extension.json:1
@@ -36,6 +36,7 @@ msgstr ""
 "Implementa campos y código que son específicos de la legislación europea."
 
 #. /definitions/Tender/properties/reviewDetails/title
+#. /definitions/Lot/properties/reviewDetails/title
 #: release-schema.json:1
 msgid "Review details"
 msgstr "Detalles de la revisión"
@@ -91,6 +92,18 @@ msgstr "URL del perfil del comprador"
 msgid "The Web address of the buyer profile."
 msgstr "Dirección web del perfil del comprador."
 
+#. /definitions/Organization/properties/eDeliveryGateway/title
+#: release-schema.json:1
+msgid "eDelivery gateway"
+msgstr ""
+
+#. /definitions/Organization/properties/eDeliveryGateway/description
+#: release-schema.json:1
+msgid ""
+"The organization's URL for the exchange of data and documents with "
+"eDelivery."
+msgstr ""
+
 #. /definitions/Award/properties/valueCalculationMethod/description
 #: release-schema.json:1
 msgid ""
@@ -133,6 +146,16 @@ msgstr "Dirección de entrega"
 #: release-schema.json:1
 msgid "The addresse(s) to which the supplier delivers the item."
 msgstr "La(s) dirección(es) a la(s) cual(es) el proveedor entrega el ítem."
+
+#. /definitions/Period/properties/description/title
+#: release-schema.json:1
+msgid "Description"
+msgstr ""
+
+#. /definitions/Period/properties/description/description
+#: release-schema.json:1
+msgid "The description of the period."
+msgstr ""
 
 #. /definitions/LegislativeReference/title
 #: release-schema.json:1
@@ -178,22 +201,6 @@ msgstr ""
 "Una organización que puede proporcionar información sobre la referencia "
 "legislativa."
 
-#. /definitions/Lot/properties/minimumValue/title
-#: release-schema.json:1
-msgid "Minimum value"
-msgstr "Valor mínimo"
-
-#. /definitions/Lot/properties/minimumValue/description
-#: release-schema.json:1
-msgid ""
-"The minimum estimated value of the lot. A negative value indicates that the "
-"contracting process may involve payments from the supplier to the buyer "
-"(commonly used in concession contracts)."
-msgstr ""
-"El valor mínimo estimado del lote. Un valor negativo indica que el proceso "
-"de contratación puede implicar pagos del proveedor al comprador (comúnmente "
-"utilizado en los contratos de concesión)."
-
 #. /definitions/Lot/properties/awardPeriod/title
 #: release-schema.json:1
 msgid "Award period"
@@ -211,3 +218,34 @@ msgstr ""
 "lote. La fecha de finalización debe ser la fecha en la que se debe finalizar"
 " la decisión de adjudicación. La fecha de inicio se puede utilizar para "
 "indicar el inicio de un período de evaluación."
+
+#. /definitions/Lot/properties/hasAccessibilityCriteria/title
+#: release-schema.json:1
+msgid "Has accessibility criteria"
+msgstr ""
+
+#. /definitions/Lot/properties/hasAccessibilityCriteria/description
+#: release-schema.json:1
+msgid ""
+"Whether the technical specifications for the lot include accessibility "
+"criteria for people with disabilities."
+msgstr ""
+
+#. /definitions/Lot/properties/noAccessibilityCriteriaRationale/title
+#: release-schema.json:1
+msgid "No accessibility criteria rationale"
+msgstr ""
+
+#. /definitions/Lot/properties/noAccessibilityCriteriaRationale/description
+#: release-schema.json:1
+msgid ""
+"The rationale for not including accessibility criteria when the object of "
+"the lot is intended for use by natural persons."
+msgstr ""
+
+#. /definitions/Lot/properties/reviewDetails/description
+#: release-schema.json:1
+msgid ""
+"Precise information concerning the time limits for the review procedures for"
+" the lot or contact information from which it can be obtained."
+msgstr ""

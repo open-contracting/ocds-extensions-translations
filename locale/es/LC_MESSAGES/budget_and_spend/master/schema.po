@@ -1,27 +1,26 @@
 # Translations template for PROJECT.
-# Copyright (C) 2022 ORGANIZATION
+# Copyright (C) 2024 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 # 
 # Translators:
 # Maria Esther Cervantes <mcervantes@cds.com.py>, 2019
-# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-07 18:41-0300\n"
+"POT-Creation-Date: 2024-05-30 00:39-0400\n"
 "PO-Revision-Date: 2019-03-20 18:30+0000\n"
-"Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2019\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.15.0\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. /name/en
 #: extension.json:1
@@ -239,8 +238,8 @@ msgid ""
 "contain budget and spend data, using the same classifications and measures "
 "as the OCDS file, and thereby allowing comparison between 'contract level' "
 "budget allocations and spend, and allocations and spending at the level of a"
-" particular budget line. When used, the fiscalBreakdownFieldMapping field "
-"must contain a dereferenceable URI pointing to a [Fiscal Data Package "
+" particular budget line. When used, this field must contain a "
+"dereferenceable URI pointing to a [Fiscal Data Package "
 "(FDP)](https://frictionlessdata.io/specs/fiscal-data-package/) "
 "datapackage.json file (version 1.0 or above), or a file that, when "
 "decompressed, contains a datapackage.json file. The URI should include a "
@@ -253,26 +252,3 @@ msgid ""
 "`classification` or `measure` fields in the OCDS data, and at minimum "
 "providing labels for these."
 msgstr ""
-"El OCDS se remite al Paquete de Datos Fiscales para proporcionar "
-"definiciones detalladas de las clasificaciones y medidas presupuestarias, "
-"incluyendo la provisión de etiquetas para cada bien y la descripción de la "
-"relación entre cada clasificación o medida y los conceptos fiscales "
-"establecidos. Un paquete de datos fiscales también puede contener datos "
-"sobre el presupuesto y los gastos, utilizando las mismas clasificaciones y "
-"medidas que el archivo OCDS, y permitiendo así la comparación entre las "
-"asignaciones presupuestarias y los gastos a 'contract level', y las "
-"asignaciones y los gastos a nivel de una línea presupuestaria concreta. "
-"Cuando se utiliza, el campo fiscalBreakdownFieldMapping debe contener un URI"
-" desreferenciable que apunte a un archivo [Fiscal Data Package "
-"(FDP)](https://frictionlessdata.io/specs/fiscal-data-package/) "
-"datapackage.json (versión 1.0 o superior), o un archivo que, al "
-"descomprimirse, contenga un archivo datapackage.json. La URI debe incluir un"
-" identificador de fragmento con el valor `name` de un recurso concreto "
-"dentro de ese archivo para identificar el archivo de datos de presupuesto o "
-"de gasto concreto con el que pueden compararse las asignaciones "
-"presupuestarias y las medidas de gasto a nivel de contrato, y las "
-"definiciones de columna concretas que deben utilizarse. El recurso "
-"referenciado debe contener propiedades `field` o `extraField` con su "
-"propiedad `name` que coincida con cada uno de los campos de `classification`"
-" o `measure` del desglose del presupuesto/progreso financiero en los datos "
-"de la OCDS, y como mínimo proporcionar etiquetas para estos."

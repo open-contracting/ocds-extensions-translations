@@ -7,22 +7,21 @@
 # James McKinney, 2021
 # Natalia Valdez <nataliavaldez@cds.com.py>, 2021
 # Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
-# Maria Esther Cervantes <mcervantes@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-07 18:41-0300\n"
+"POT-Creation-Date: 2024-05-30 00:39-0400\n"
 "PO-Revision-Date: 2020-08-20 21:51+0000\n"
-"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../README.md:1
 msgid "Subcontracting"
@@ -30,17 +29,25 @@ msgstr "Subcontratación"
 
 #: ../README.md:3
 msgid ""
-"Adds an object for information about the parts of the contract that the "
-"supplier will subcontract to third parties."
+"Adds objects for information about the terms governing subcontracting and "
+"the parts of the contract that tenderers and suppliers will subcontract to "
+"third parties."
 msgstr ""
-"Agregar un objeto de información sobre las partes del contrato que el "
-"proveedor subcontratará a terceros."
 
 #: ../README.md:5
 msgid "Guidance"
 msgstr "Guía"
 
 #: ../README.md:7
+msgid ""
+"If you are using the [Lots extension](https://extensions.open-"
+"contracting.org/en/extensions/lots/master/), [follow its "
+"guidance](https://extensions.open-"
+"contracting.org/en/extensions/lots/master/#usage) on whether to use "
+"`tender.lots` fields or `tender` fields."
+msgstr ""
+
+#: ../README.md:9
 msgid ""
 "If the percentage of the contract value that is subcontracted is an exact "
 "number and not a range, set `minimumPercentage` and `maximumPercentage` to "
@@ -50,38 +57,69 @@ msgstr ""
 "exacto y no un rango, establecer `minimumPercentage` y `maximumPercentage` "
 "al mismo número."
 
-#: ../README.md:9
+#: ../README.md:11
 msgid "Legal context"
 msgstr "Contexto legal"
 
-#: ../README.md:11
-msgid ""
-"In the European Union, this extension's fields correspond to [eForms BG-709 "
-"(Second Stage), BT-65, BT-64, BT-729](https://github.com/eForms/eForms) and "
-"[article 21 of directive 2009/81/EC](https://eur-lex.europa.eu/legal-"
-"content/EN/TXT/HTML/?uri=CELEX:32009L0081&from=EN#d1e2623-76-1). See [OCDS "
-"for the European Union](http://standard.open-"
-"contracting.org/profiles/eu/master/en/) for the correspondences to Tenders "
-"Electronic Daily (TED)."
-msgstr ""
-"En la Unión Europea, los campos de esta extensión corresponden a [eForms "
-"BG-709 (Segunda Etapa), BT-65, BT-64, "
-"BT-729](https://github.com/eForms/eForms) y [artículo 21 de la directiva "
-"2009/81/EC](https://eur-lex.europa.eu/legal-"
-"content/EN/TXT/HTML/?uri=CELEX:32009L0081&from=EN#d1e2623-76-1). Ver [OCDS "
-"para la Unión Europea](http://standard.open-"
-"contracting.org/profiles/eu/master/es/) para ver lo correspondiente a "
-"Tenders Electronic Daily (TED)."
-
 #: ../README.md:13
+msgid ""
+"In the European Union, this extension's fields correspond to [article 21 of "
+"directive 2009/81/EC](https://eur-lex.europa.eu/legal-"
+"content/EN/TXT/HTML/?uri=CELEX:32009L0081&from=EN#d1e2623-76-1) and the "
+"[eForms business "
+"terms](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/) "
+"in BG-180 (Subcontracting) and BG-711 (Contract Terms)."
+msgstr ""
+
+#: ../README.md:15
+msgid ""
+"For correspondences to eForms fields, see [OCDS for "
+"eForms](https://standard.open-contracting.org/profiles/eforms/latest/en/). "
+"For correspondences to Tenders Electronic Daily (TED), see [OCDS for the "
+"European Union](https://standard.open-"
+"contracting.org/profiles/eu/latest/en/)."
+msgstr ""
+
+#: ../README.md:17
+msgid ""
+"TED XML schema R2.0.9 models the minimum and maximum percentages of the "
+"contract value that the contractor needs to subcontract as part of each "
+"award for *F15: Voluntary ex ante transparency notice*. eForms XML models "
+"these as part of each lot. As such, different fields ought to be used when "
+"implementing each profile."
+msgstr ""
+
+#: ../README.md:19
 msgid "Examples"
 msgstr "Ejemplos"
 
-#: ../README.md:76
+#: ../README.md:21
+msgid "Tender and awards"
+msgstr ""
+
+#: ../README.md:23
+msgid ""
+"Information about the terms governing subcontracting is disclosed at the "
+"tender and award stages, and information about the parts of the contract "
+"that the supplier will subcontract is disclosed at the award stage."
+msgstr ""
+
+#: ../README.md:53
+msgid "Lots and bids"
+msgstr ""
+
+#: ../README.md:55
+msgid ""
+"Information about the terms governing subcontracting is disclosed per lot at"
+" the tender stage, and information about the parts of the contract that the "
+"tenderer will subcontract is disclosed at the bid stage."
+msgstr ""
+
+#: ../README.md:120
 msgid "Issues"
 msgstr "Issues"
 
-#: ../README.md:78
+#: ../README.md:122
 msgid ""
 "Report issues for this extension in the [ocds-extensions "
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "
@@ -91,15 +129,97 @@ msgstr ""
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
 "el nombre de la extensión en el título del issue."
 
-#: ../README.md:80
+#: ../README.md:124
 msgid "Changelog"
 msgstr "Registro de cambios"
 
-#: ../README.md:82
+#: ../README.md:126
+msgid "2023-12-04"
+msgstr ""
+
+#: ../README.md:128
+msgid "Update field descriptions:"
+msgstr ""
+
+#: ../README.md:129 ../README.md:141
+msgid "`SubcontractingTerms.competitiveMaximumPercentage`"
+msgstr ""
+
+#: ../README.md:130 ../README.md:142
+msgid "`SubcontractingTerms.competitiveMinimumPercentage`"
+msgstr ""
+
+#: ../README.md:131
+msgid "`Subcontracting.competitiveMaximumPercentage`"
+msgstr ""
+
+#: ../README.md:132
+msgid "`Subcontracting.competitiveMinimumPercentage`"
+msgstr ""
+
+#: ../README.md:133
+msgid "`Subcontracting.maximumPercentage`"
+msgstr ""
+
+#: ../README.md:134
+msgid "`Subcontracting.minimumPercentage`"
+msgstr ""
+
+#: ../README.md:136
+msgid "2023-05-22"
+msgstr ""
+
+#: ../README.md:138
+msgid "Add fields for eForms:"
+msgstr ""
+
+#: ../README.md:139
+msgid "`Bid.hasSubcontracting`"
+msgstr ""
+
+#: ../README.md:140
+msgid "`Bid.subcontracting`"
+msgstr ""
+
+#: ../README.md:143
+msgid "`Subcontracting.subcontracts`"
+msgstr ""
+
+#: ../README.md:144
+msgid ""
+"Update field descriptions to allow the `Subcontracting` object to be used in"
+" the context of bids:"
+msgstr ""
+
+#: ../README.md:145
+msgid "`Subcontracting`"
+msgstr ""
+
+#: ../README.md:146
+msgid "`Subcontracting.description`"
+msgstr ""
+
+#: ../README.md:147
+msgid "`Subcontracting.value`"
+msgstr ""
+
+#: ../README.md:148
+msgid "Add 'subcontractor' to party role codelist."
+msgstr ""
+
+#: ../README.md:150
+msgid "2022-07-18"
+msgstr ""
+
+#: ../README.md:152
+msgid "Add `Lot.subcontractingTerms` field."
+msgstr ""
+
+#: ../README.md:154
 msgid "2020-10-07"
 msgstr "2020-10-07"
 
-#: ../README.md:84
+#: ../README.md:156
 msgid ""
 "Rename the `subcontracting` field in the `Tender` object to "
 "`subcontractingTerms`."
@@ -107,15 +227,15 @@ msgstr ""
 "Renombrar el nombre del campo `subcontracting` en `Tender` al objeto de "
 "`subcontractingTerms`."
 
-#: ../README.md:86
+#: ../README.md:158
 msgid "2020-04-24"
 msgstr "2020-04-24"
 
-#: ../README.md:88
+#: ../README.md:160
 msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
 msgstr "Agregar las propiedades `minProperties`, `minItems` y/o `minLength`."
 
-#: ../README.md:90
+#: ../README.md:162
 msgid ""
 "This extension was originally discussed as part of the [OCDS for EU "
 "profile](https://github.com/open-contracting-extensions/european-"

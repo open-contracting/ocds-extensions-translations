@@ -1,28 +1,27 @@
 # Translations template for PROJECT.
-# Copyright (C) 2022 ORGANIZATION
+# Copyright (C) 2024 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 # 
 # Translators:
 # James McKinney, 2019
 # Maria Esther Cervantes <mcervantes@cds.com.py>, 2019
-# Cecilia Casco <ceciliacasco@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-07 18:42-0300\n"
+"POT-Creation-Date: 2024-05-30 00:40-0400\n"
 "PO-Revision-Date: 2019-03-14 18:27+0000\n"
-"Last-Translator: Cecilia Casco <ceciliacasco@cds.com.py>, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2019\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.15.0\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. /name/en
 #. /definitions/Implementation/properties/tariffs/title
@@ -84,8 +83,8 @@ msgstr ""
 
 #. /definitions/Tariff/properties/id/title
 #: release-schema.json:1
-msgid "Tariff identifier"
-msgstr "Identificador de tarifa"
+msgid "Identifier"
+msgstr ""
 
 #. /definitions/Tariff/properties/id/description
 #: release-schema.json:1
@@ -99,8 +98,8 @@ msgstr ""
 
 #. /definitions/Tariff/properties/title/title
 #: release-schema.json:1
-msgid "Tariff title"
-msgstr "Título de la tarifa"
+msgid "Title"
+msgstr ""
 
 #. /definitions/Tariff/properties/title/description
 #: release-schema.json:1
@@ -124,8 +123,8 @@ msgstr ""
 
 #. /definitions/Tariff/properties/period/title
 #: release-schema.json:1
-msgid "Tariff period"
-msgstr "Periodo de la tarifa"
+msgid "Period"
+msgstr ""
 
 #. /definitions/Tariff/properties/period/description
 #: release-schema.json:1
@@ -134,8 +133,8 @@ msgstr "El período al que se aplica esta tarifa."
 
 #. /definitions/Tariff/properties/value/title
 #: release-schema.json:1
-msgid "Tariff value"
-msgstr "Valor de la tarifa"
+msgid "Value"
+msgstr ""
 
 #. /definitions/Tariff/properties/value/description
 #: release-schema.json:1
@@ -144,8 +143,8 @@ msgstr "El precio por unidad de esta tarifa."
 
 #. /definitions/Tariff/properties/unit/title
 #: release-schema.json:1
-msgid "Tariff unit"
-msgstr "Unidad de las tarifas"
+msgid "Unit"
+msgstr ""
 
 #. /definitions/Tariff/properties/unit/description
 #: release-schema.json:1
@@ -170,14 +169,11 @@ msgstr "Esquema"
 #. /definitions/Tariff/properties/unit/properties/scheme/description
 #: release-schema.json:1
 msgid ""
-"The list from which units of measure identifiers are taken. Use of the "
-"scheme 'UNCEFACT' for the UN/CEFACT Recommendation 20 list of \"Codes for "
-"Units of Measure Used in International Trade\" is recommended."
+"The list from which units of measure identifiers are taken. It is "
+"recommended to use the scheme 'UNCEFACT' and codes from the UN/CEFACT "
+"Recommendation 20 list of \"Codes for Units of Measure Used in International"
+" Trade\"."
 msgstr ""
-"La lista de la que se toman los identificadores de las unidades de medida. "
-"Se recomienda el uso del esquema 'UNCEFACT' para la lista de la "
-"Recomendación 20 de las UN/CEFACT de \"Códigos de unidades de medida "
-"utilizados en el comercio internacional\"."
 
 #. /definitions/Tariff/properties/unit/properties/id/title
 #: release-schema.json:1
@@ -213,8 +209,8 @@ msgstr ""
 
 #. /definitions/Tariff/properties/dimensions/title
 #: release-schema.json:1
-msgid "Tariff dimensions"
-msgstr "Dimensiones de la tarifa"
+msgid "Dimensions"
+msgstr ""
 
 #. /definitions/Tariff/properties/dimensions/description
 #: release-schema.json:1
@@ -230,8 +226,8 @@ msgstr ""
 
 #. /definitions/Tariff/properties/notes/title
 #: release-schema.json:1
-msgid "Tariff notes"
-msgstr "Notas sobre las tarifas"
+msgid "Notes"
+msgstr ""
 
 #. /definitions/Tariff/properties/notes/description
 #: release-schema.json:1

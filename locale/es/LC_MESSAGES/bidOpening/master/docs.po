@@ -13,15 +13,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-07 18:41-0300\n"
+"POT-Creation-Date: 2024-05-30 00:39-0400\n"
 "PO-Revision-Date: 2020-08-20 21:49+0000\n"
 "Last-Translator: Natalia Valdez <nataliavaldez@cds.com.py>, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../README.md:1
 msgid "Bid opening"
@@ -30,37 +30,59 @@ msgstr "Apertura de ofertas"
 #: ../README.md:3
 msgid ""
 "Adds an object to describe the date, time, place and other details of the "
-"bid opening."
+"public bid opening."
 msgstr ""
-"Agregar un objeto para describir la fecha, hora, lugar y otros detalles de "
-"la apertura de ofertas."
 
 #: ../README.md:5
+msgid ""
+"This extension must be used with the [Location](https://extensions.open-"
+"contracting.org/en/extensions/location/master/) extension."
+msgstr ""
+
+#: ../README.md:7
+msgid "Guidance"
+msgstr ""
+
+#: ../README.md:9
+msgid ""
+"If you are using the [Lots extension](https://extensions.open-"
+"contracting.org/en/extensions/lots/master/), [follow its "
+"guidance](https://extensions.open-"
+"contracting.org/en/extensions/lots/master/#guidance) on whether to use "
+"`tender.lots` fields or `tender` fields."
+msgstr ""
+
+#: ../README.md:11
 msgid "Legal context"
 msgstr "Contexto legal"
 
-#: ../README.md:7
+#: ../README.md:13
 msgid ""
-"In the European Union, this extension's fields correspond to [eForms BT-132,"
-" BT-133, BT-134](https://github.com/eForms/eForms). See [OCDS for the "
-"European Union](http://standard.open-contracting.org/profiles/eu/master/en/)"
-" for the correspondences to Tenders Electronic Daily (TED)."
+"In the European Union, this extension's fields correspond to [eForms BT-132 "
+"(Public Opening Date), BT-133 (Public Opening Place), BT-134 (Public Opening"
+" Description)](https://docs.ted.europa.eu/eforms/latest/reference/business-"
+"terms/). For correspondences to Tenders Electronic Daily (TED), see [OCDS "
+"for the European Union](https://standard.open-"
+"contracting.org/profiles/eu/latest/en/)."
 msgstr ""
-"En la unión Europea, los campos de esta extensión corresponden a [eForms "
-"BT-132, BT-133, BT-134] (https://github.com/eForms/eForms). Ver [OCDS para "
-"la unión Europea](http://standard.open-"
-"contracting.org/profiles/eu/master/en/) para lo correspondiente a las "
-"Licitaciones Electrónicas Diarias (LED)."
 
-#: ../README.md:9
+#: ../README.md:15
 msgid "Example"
 msgstr "Ejemplo"
 
-#: ../README.md:46
+#: ../README.md:17
+msgid "Tender"
+msgstr ""
+
+#: ../README.md:54
+msgid "Lots"
+msgstr ""
+
+#: ../README.md:96
 msgid "Issues"
 msgstr "Issues"
 
-#: ../README.md:48
+#: ../README.md:98
 msgid ""
 "Report issues for this extension in the [ocds-extensions "
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "
@@ -70,19 +92,35 @@ msgstr ""
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
 "el nombre de la extensión en el título del issue."
 
-#: ../README.md:50
+#: ../README.md:100
 msgid "Changelog"
 msgstr "Registro de cambios"
 
-#: ../README.md:52
+#: ../README.md:102
+msgid "2023-06-07"
+msgstr ""
+
+#: ../README.md:104
+msgid "Clarify that the extension is for bid openings that are public events."
+msgstr ""
+
+#: ../README.md:106
+msgid "2023-02-13"
+msgstr ""
+
+#: ../README.md:108
+msgid "Add `Lot.bidOpening` field."
+msgstr ""
+
+#: ../README.md:110
 msgid "2020-04-24"
 msgstr "2020-04-24"
 
-#: ../README.md:54
+#: ../README.md:112
 msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
 msgstr "Agregar las propiedades `minProperties`, `minItems` y/o `minLength`."
 
-#: ../README.md:56
+#: ../README.md:114
 msgid ""
 "This extension was originally discussed as part of the [OCDS for EU "
 "profile](https://github.com/open-contracting-extensions/european-"

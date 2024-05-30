@@ -14,15 +14,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-07 18:41-0300\n"
+"POT-Creation-Date: 2024-05-30 00:39-0400\n"
 "PO-Revision-Date: 2019-03-14 18:32+0000\n"
 "Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../README.md:1
 msgid "Budget Breakdown"
@@ -32,12 +32,8 @@ msgstr "Desglose del presupuesto"
 msgid ""
 "OCDS' `planning.budget` object can be used to describe the budget from which"
 " funds are drawn. It includes a single `budget.amount` field to capture the "
-"total value of the budget for the contracting process."
+"total value of the budget for a future contracting process."
 msgstr ""
-"El objeto `planning.budget` del OCDS puede utilizarse para describir el "
-"presupuesto del que se extraen los fondos. Incluye un único campo "
-"`budget.amount` para capturar el valor total del presupuesto para el proceso"
-" de contratación."
 
 #: ../README.md:5
 msgid ""
@@ -71,11 +67,8 @@ msgstr "Guía"
 #: ../README.md:11
 msgid ""
 "In the core `planning.budget` block, `budget.amount` should be used to "
-"capture the total value of the budget for the contracting process."
+"capture the total value of the budget for a future contracting process."
 msgstr ""
-"En el bloque principal de `planning.budget`, se debe utilizar` "
-"budget.amount` para capturar el valor total del presupuesto para el proceso "
-"de contratación."
 
 #: ../README.md:13
 msgid ""
@@ -103,20 +96,16 @@ msgid "Multi-source budgets"
 msgstr "Presupuestos de múltiples fuentes"
 
 #: ../README.md:19
-msgid "The following JSON snippet models a single year multi-source budget:"
+msgid "A single-year, multi-source budget:"
 msgstr ""
-"El siguiente fragmento JSON modela un presupuesto multi-fuente de un solo "
-"año:"
 
 #: ../README.md:76
 msgid "Multi-year budgets"
 msgstr "Presupuestos multi-anuales"
 
 #: ../README.md:78
-msgid "The following JSON snippet models a multi-year single source budget:"
+msgid "A multi-year, single-source budget:"
 msgstr ""
-"El siguiente fragmento JSON modela un presupuesto multi-anual de fuente "
-"única:"
 
 #: ../README.md:119
 msgid "Issues"
@@ -137,18 +126,28 @@ msgid "Changelog"
 msgstr "Registro de cambios"
 
 #: ../README.md:125
+msgid "2023-06-07"
+msgstr ""
+
+#: ../README.md:127
+msgid ""
+"Add 'sourceParty' code to the `+partyRole.csv` codelist, because the "
+"'funder' code is deprecated in OCDS 1.2."
+msgstr ""
+
+#: ../README.md:129
 msgid "2020-04-24"
 msgstr "2020-04-24"
 
-#: ../README.md:127
+#: ../README.md:131
 msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
 msgstr "Agregar las propiedades `minProperties`, `minItems` y/o `minLength`."
 
-#: ../README.md:129
+#: ../README.md:133
 msgid "2019-03-20"
 msgstr "2019-03-20"
 
-#: ../README.md:131
+#: ../README.md:135
 msgid ""
 "Set `\"uniqueItems\": true` on array fields, and add `\"minLength\": 1` on "
 "required string fields."
@@ -156,24 +155,21 @@ msgstr ""
 "Establecer `\"uniqueItems \": true` en los campos matriz y agregar "
 "`\"minLength\": 1` en los campos de cadena obligatorios."
 
-#: ../README.md:133
+#: ../README.md:137
 msgid "2019-01-30"
 msgstr "2019-01-30"
 
-#: ../README.md:135
+#: ../README.md:139
 msgid "Remove obsolete `mergeStrategy` properties"
 msgstr "Remover la propiedad obsoleta `mergeStrategy`."
 
-#: ../README.md:137
+#: ../README.md:141
 msgid "2018-05-08"
 msgstr "2018-05-08"
 
-#: ../README.md:139
+#: ../README.md:143
 msgid ""
 "Make `BudgetBreakdown.id` required and non-nullable to support revision "
-"tracking and [list merging](http://standard.open-"
-"contracting.org/latest/en/schema/merging/#lists)"
+"tracking and [list merging](https://standard.open-"
+"contracting.org/latest/en/schema/merging/#array-values)"
 msgstr ""
-"Hacer obligatorio y no nulo `BudgetBreakdown.id` para permitir el "
-"seguimiento de revisiones y [fusión de listas](http://standard.open-"
-"contracting.org/latest/es/schema/merging/#lists)"

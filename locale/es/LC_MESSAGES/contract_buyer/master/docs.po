@@ -5,61 +5,97 @@
 # 
 # Translators:
 # James McKinney, 2019
-# Maria Esther Cervantes <mcervantes@cds.com.py>, 2019
-# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-07 18:41-0300\n"
+"POT-Creation-Date: 2024-05-30 00:39-0400\n"
 "PO-Revision-Date: 2019-03-14 18:29+0000\n"
-"Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"Last-Translator: James McKinney, 2019\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../README.md:1
-msgid "Contract level buyer information"
-msgstr "Información del comprador a nivel de contrato"
+msgid "Buyer per award or contract"
+msgstr ""
 
 #: ../README.md:3
 msgid ""
-"The core OCDS schema provides space for a single `buyer` to be described for"
-" each contracting process. The buyer is defined as the organizations whose "
-"funds are directly used for the purchase of the goods, works or services "
-"described in the contract."
+"Adds buyer fields to the award and contract objects to indicate the buyer(s)"
+" for an individual award or contract, if different from the buyer(s) "
+"involved in the contracting process as a whole."
 msgstr ""
-"El esquema OCDS central da un espacio para un solo `buyer` que puede "
-"describirse en cada proceso de contrataciones. El comprador se define como "
-"una organización cuyos fondos se usan directamente para la compra de bienes,"
-" servicios o trabajos descritos en el contrato."
 
 #: ../README.md:5
 msgid ""
-"However, some forms of contracting process, such as framework agreements, "
-"may result in multiple contracts, with each contract signed by a different "
-"buyer. This extension adds a `contracts.buyer` object to support this "
-"scenario."
+"OCDS indicates the (lead) buyer in a contracting process with the `buyer` "
+"field. If a contracting process involves multiple buyers, each buyer can be "
+"added to the `parties` array with a 'buyer' role."
 msgstr ""
-"Sin embargo, algunas formas del proceso de contratación, como los acuerdos "
-"marco, pueden dar lugar a múltiples contratos, con cada uno de ellos firmado"
-" por un comprador diferente. Esta extensión añade un objeto "
-"`contracts.buyer` para dar soporte a este escenario."
 
 #: ../README.md:7
+msgid ""
+"However, in some cases, for a given award, a subset of the buyers decide on "
+"the supplier and sign the contract. **Only use this extension in such "
+"cases.**"
+msgstr ""
+
+#: ../README.md:9
+msgid "Legal context"
+msgstr ""
+
+#: ../README.md:11
+msgid ""
+"In the European Union, this extension's fields correspond to [eForms "
+"OPT-300-Contract-"
+"Signatory](https://docs.ted.europa.eu/eforms/latest/reference/business-"
+"terms/). For correspondences to eForms fields, see [OCDS for "
+"eForms](https://standard.open-contracting.org/profiles/eforms/latest/en/)."
+msgstr ""
+
+#: ../README.md:13
 msgid "Example"
 msgstr "Ejemplo"
 
-#: ../README.md:32
+#: ../README.md:15
+msgid "Contracts"
+msgstr ""
+
+#: ../README.md:17
+msgid "Two contracts are issued with a different buyer for each."
+msgstr ""
+
+#: ../README.md:42
+msgid "Awards"
+msgstr ""
+
+#: ../README.md:44
+msgid "One award is issued with two buyers."
+msgstr ""
+
+#: ../README.md:66
+msgid "Changelog"
+msgstr ""
+
+#: ../README.md:68
+msgid "2023-04-12"
+msgstr ""
+
+#: ../README.md:70
+msgid "Add `awards.buyers` field."
+msgstr ""
+
+#: ../README.md:72
 msgid "Issues"
 msgstr "Issues"
 
-#: ../README.md:34
+#: ../README.md:74
 msgid ""
 "Report issues for this extension in the [ocds-extensions "
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "

@@ -12,15 +12,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-07 18:41-0300\n"
+"POT-Creation-Date: 2024-05-30 00:39-0400\n"
 "PO-Revision-Date: 2020-08-20 21:56+0000\n"
 "Last-Translator: Natalia Valdez <nataliavaldez@cds.com.py>, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../README.md:1
 msgid "Award criteria breakdown"
@@ -28,11 +28,9 @@ msgstr "Desglose de los criterios de adjudicación"
 
 #: ../README.md:3
 msgid ""
-"Adds an award criteria array to the lot object, to break down award criteria"
-" by price, cost and quality."
+"Adds an award criteria array to the `Lot` and `LotGroup` objects, to break "
+"down award criteria by price, cost and quality."
 msgstr ""
-"Agrega una matriz de criterios de adjudicación al objeto lote, para "
-"desglosar los criterios de adjudicación por precio, costo y calidad."
 
 #: ../README.md:5
 msgid "Legal context"
@@ -41,15 +39,14 @@ msgstr "Contexto legal"
 #: ../README.md:7
 msgid ""
 "In the European Union, this extension's fields correspond to [eForms BG-707 "
-"(Award Criteria)](https://github.com/eForms/eForms). See [OCDS for the "
-"European Union](http://standard.open-contracting.org/profiles/eu/master/en/)"
-" for the correspondences to Tenders Electronic Daily (TED)."
+"(Award "
+"Criteria)](https://docs.ted.europa.eu/eforms/latest/reference/business-"
+"terms/).For correspondences to eForms fields, see [OCDS for "
+"eForms](https://standard.open-contracting.org/profiles/eforms/latest/en/). "
+"For correspondences to Tenders Electronic Daily (TED), see [OCDS for the "
+"European Union](https://standard.open-"
+"contracting.org/profiles/eu/latest/en/)."
 msgstr ""
-"En la Unión Europea, los campos de esta extensión corresponden a [eForms "
-"BG-707 (Award Criteria)] (https://github.com/eForms/eForms). Consulte [OCDS "
-"para la Unión Europea] (http://standard.open-"
-"contracting.org/profiles/eu/master/en/) para ver las correspondencias con "
-"Tenders Electronic Daily (TED)."
 
 #: ../README.md:9
 msgid ""
@@ -66,30 +63,40 @@ msgid "Examples"
 msgstr "Ejemplos"
 
 #: ../README.md:13
+msgid "Lots"
+msgstr ""
+
+#: ../README.md:15
 msgid "Weight"
 msgstr "Peso"
 
-#: ../README.md:15
-msgid "These award criteria are 50% service quality and 50% price."
+#: ../README.md:17
+msgid "The award criteria for the lot are 50% service quality and 50% price."
 msgstr ""
-"Estos criterios de adjudicación son 50% calidad de servicio y 50% precio."
 
-#: ../README.md:53
+#: ../README.md:55
 msgid "Fixed"
 msgstr "Fijado"
 
-#: ../README.md:55
+#: ../README.md:57
 msgid ""
-"The price is fixed at $100,000, such that tenderers compete on quality only."
+"The price of the lot is fixed at $100,000, such that tenderers compete on "
+"quality only."
 msgstr ""
-"El precio es fijado a $100,000, de manera que los licitadores compitan "
-"únicamente en calidad."
 
-#: ../README.md:97
+#: ../README.md:99
+msgid "Lot group"
+msgstr ""
+
+#: ../README.md:101
+msgid "The award criteria for the lot group is 100% price."
+msgstr ""
+
+#: ../README.md:129
 msgid "Issues"
 msgstr "Issues"
 
-#: ../README.md:99
+#: ../README.md:131
 msgid ""
 "Report issues for this extension in the [ocds-extensions "
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "
@@ -99,19 +106,42 @@ msgstr ""
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
 "el nombre de la extensión en el título del issue."
 
-#: ../README.md:101
+#: ../README.md:133
 msgid "Changelog"
 msgstr "Registro de cambios"
 
-#: ../README.md:103
+#: ../README.md:135
+msgid "2022-04-25"
+msgstr ""
+
+#: ../README.md:137
+msgid ""
+"Add expressions of interest to `criterionThreshold.csv` code descriptions."
+msgstr ""
+
+#: ../README.md:138
+msgid ""
+"Generalize AwardCriterionNumber to `CriterionNumber` for reuse in other "
+"extensions."
+msgstr ""
+
+#: ../README.md:140
+msgid "2022-02-27"
+msgstr ""
+
+#: ../README.md:142
+msgid "Add `LotGroup.awardCriteria` field."
+msgstr ""
+
+#: ../README.md:144
 msgid "2020-04-24"
 msgstr "2020-04-24"
 
-#: ../README.md:105
+#: ../README.md:146
 msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
 msgstr "Agregar las propiedades `minProperties`, `minItems` y/o `minLength`."
 
-#: ../README.md:107
+#: ../README.md:148
 msgid ""
 "This model was discussed in <https://github.com/eForms/eForms/issues/119>, "
 "<https://github.com/eprocurementontology/eprocurementontology/issues/157> "

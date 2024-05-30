@@ -1,29 +1,29 @@
 # Translations template for PROJECT.
-# Copyright (C) 2022 ORGANIZATION
+# Copyright (C) 2024 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 # 
 # Translators:
 # James McKinney, 2019
 # Natalia Valdez <nataliavaldez@cds.com.py>, 2021
-# Maria Esther Cervantes <mcervantes@cds.com.py>, 2021
 # Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
+# Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-07 18:41-0300\n"
+"POT-Creation-Date: 2024-05-30 00:40-0400\n"
 "PO-Revision-Date: 2019-03-14 18:28+0000\n"
-"Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"Last-Translator: Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2024\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.15.0\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: codelists/+documentType.csv
 msgid "Section"
@@ -463,14 +463,14 @@ msgstr "Parte privada"
 #: codelists/+partyRole.csv:1
 msgid ""
 "The counter party of the procuring authority in the PPP contract. A private "
-"entity which has been granted the contract to construct and operate a "
-"government asset, and which is usually created under the form of a Special "
-"Purpose Vehicle or SPV."
+"organization that has been granted the contract to construct and operate a "
+"government asset, and that is usually created under the form of a Special "
+"Purpose Vehicle (SPV)."
 msgstr ""
-"La contraparte de la autoridad contratante en el contrato APP. Una entidad "
-"privada a la que se le ha concedido el contrato para construir y operar un "
-"activo gubernamental y que normalmente se crea bajo la forma de un Vehículo "
-"de Propósito Especial o SPV. "
+"La contraparte de la autoridad contratante en el contrato de APP. Una "
+"organización privada a la que se le ha otorgado el contrato para construir y"
+" operar un activo gubernamental, y que generalmente se crea bajo la forma de"
+" una \"entidad con fines especiales\" (SPV por sus siglas en inglés)."
 
 #. Title
 #: codelists/+partyRole.csv:2
@@ -516,70 +516,6 @@ msgstr ""
 "El Programa de Certificación PPP de APMG define a los inversores de capital "
 "como \"Inversores que financian una parte de los gastos de capital del "
 "proyecto (Capex), típicamente como capital social o deuda subordinada\""
-
-#. Title
-#: codelists/+partyRole.csv:5
-msgid "Consortia member"
-msgstr "Miembro de los consorcios"
-
-#. Description
-#: codelists/+partyRole.csv:5
-msgid ""
-"One of a group of companies that has joined together to bid for a project."
-msgstr ""
-"Uno de los grupos de empresas que se han unido para licitar un proyecto."
-
-#. Title
-#: codelists/+partyRole.csv:6
-msgid "Grantor"
-msgstr "Concedente"
-
-#. Description
-#: codelists/+partyRole.csv:6
-msgid "The party which grants a concession, a license or some other right."
-msgstr "La parte que otorga una concesión, una licencia u otro derecho."
-
-#. Title
-#: codelists/+partyRole.csv:7
-msgid "Social witness"
-msgstr "Testigo social"
-
-#. Description
-#: codelists/+partyRole.csv:7
-msgid ""
-"A social witness participates as an external observer in a public "
-"procurements process. They have a formal role as an observer."
-msgstr ""
-"Un testigo social participa como observador externo en un proceso de "
-"adquisiciones públicas. Tienen un papel formal como observador."
-
-#. Title
-#: codelists/+partyRole.csv:8
-msgid "Other witness"
-msgstr "Otro testigo"
-
-#. Description
-#: codelists/+partyRole.csv:8
-msgid ""
-"A witness attends one or more stages of the procurement process to observe "
-"proceedings."
-msgstr ""
-"Un testigo asiste a una o más etapas del proceso de adquisición para "
-"observar los procedimientos."
-
-#. Title
-#: codelists/+partyRole.csv:9
-msgid "Notary"
-msgstr "Notario"
-
-#. Description
-#: codelists/+partyRole.csv:9
-msgid ""
-"A person authorized to perform certain legal formalities, especially to "
-"certify documents and proceedings."
-msgstr ""
-"Una persona autorizada para realizar ciertas formalidades legales, "
-"especialmente para certificar documentos y procedimientos."
 
 #. Title
 #: codelists/metricID.csv:1

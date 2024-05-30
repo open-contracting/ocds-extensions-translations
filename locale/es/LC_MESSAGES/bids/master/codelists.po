@@ -1,7 +1,7 @@
 # Translations template for PROJECT.
-# Copyright (C) 2022 ORGANIZATION
+# Copyright (C) 2024 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 # 
 # Translators:
 # James McKinney, 2021
@@ -12,50 +12,1359 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-07 18:41-0300\n"
+"POT-Creation-Date: 2024-05-30 00:39-0400\n"
 "PO-Revision-Date: 2019-03-14 18:27+0000\n"
 "Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.15.0\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: codelists/bidStatistics.csv
-msgid "Category"
-msgstr "Categoría"
-
-#: codelists/bidStatistics.csv codelists/bidStatus.csv
+#: codelists/bidStatus.csv codelists/country.csv codelists/statistic.csv
+#: codelists/submissionType.csv
 msgid "Code"
 msgstr "Código"
 
-#: codelists/bidStatistics.csv codelists/bidStatus.csv
+#: codelists/bidStatus.csv codelists/country.csv codelists/statistic.csv
+#: codelists/submissionType.csv
 msgid "Title"
 msgstr "Título"
 
-#: codelists/bidStatistics.csv codelists/bidStatus.csv
+#: codelists/bidStatus.csv codelists/statistic.csv
+#: codelists/submissionType.csv
 msgid "Description"
 msgstr "Descripción"
 
 #. Title
-#: codelists/bidStatistics.csv:1
-msgid "Requests to participate"
-msgstr "Solicitudes de participación"
+#: codelists/bidStatus.csv:1
+msgid "Invited"
+msgstr "Invitado"
 
 #. Description
-#: codelists/bidStatistics.csv:1
-msgid "The total number of unique requests to participate received"
-msgstr "El número total de solicitudes únicas de participación recibidas"
+#: codelists/bidStatus.csv:1
+msgid "A bid or expression of interest has been invited from the tenderer(s)."
+msgstr ""
 
 #. Title
-#: codelists/bidStatistics.csv:2
+#: codelists/bidStatus.csv:2
+msgid "Pending"
+msgstr "Pendiente"
+
+#. Description
+#: codelists/bidStatus.csv:2
+msgid ""
+"A bid or expression of interest has been submitted but not yet evaluated."
+msgstr ""
+
+#. Title
+#: codelists/bidStatus.csv:3
+msgid "Valid"
+msgstr "Válida"
+
+#. Description
+#: codelists/bidStatus.csv:3
+msgid ""
+"The submitted bid or expression of interest met the qualification criteria."
+msgstr ""
+
+#. Title
+#: codelists/bidStatus.csv:4
+msgid "Disqualified"
+msgstr "Descalificada"
+
+#. Description
+#: codelists/bidStatus.csv:4
+msgid ""
+"The submitted bid or expression of interest did not meet the qualification "
+"criteria."
+msgstr ""
+
+#. Title
+#: codelists/bidStatus.csv:5
+msgid "Withdrawn"
+msgstr "Retirada"
+
+#. Description
+#: codelists/bidStatus.csv:5
+msgid ""
+"The submitted bid or expression of interest was withdrawn by the "
+"tenderer(s)."
+msgstr ""
+
+#. Title
+#: codelists/country.csv:1
+msgid "Andorra"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:2
+msgid "United Arab Emirates"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:3
+msgid "Afghanistan"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:4
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:5
+msgid "Anguilla"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:6
+msgid "Albania"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:7
+msgid "Armenia"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:8
+msgid "Angola"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:9
+msgid "Antarctica"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:10
+msgid "Argentina"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:11
+msgid "American Samoa"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:12
+msgid "Austria"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:13
+msgid "Australia"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:14
+msgid "Aruba"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:15
+msgid "Åland Islands"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:16
+msgid "Azerbaijan"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:17
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:18
+msgid "Barbados"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:19
+msgid "Bangladesh"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:20
+msgid "Belgium"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:21
+msgid "Burkina Faso"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:22
+msgid "Bulgaria"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:23
+msgid "Bahrain"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:24
+msgid "Burundi"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:25
+msgid "Benin"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:26
+msgid "Saint Barthélemy"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:27
+msgid "Bermuda"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:28
+msgid "Brunei Darussalam"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:29
+msgid "Bolivia (Plurinational State of)"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:30
+msgid "Bonaire, Sint Eustatius and Saba"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:31
+msgid "Brazil"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:32
+msgid "Bahamas"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:33
+msgid "Bhutan"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:34
+msgid "Bouvet Island"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:35
+msgid "Botswana"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:36
+msgid "Belarus"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:37
+msgid "Belize"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:38
+msgid "Canada"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:39
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:40
+msgid "Congo (the Democratic Republic of the)"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:41
+msgid "Central African Republic"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:42
+msgid "Congo"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:43
+msgid "Switzerland"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:44
+msgid "Côte d'Ivoire"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:45
+msgid "Cook Islands"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:46
+msgid "Chile"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:47
+msgid "Cameroon"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:48
+msgid "China"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:49
+msgid "Colombia"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:50
+msgid "Costa Rica"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:51
+msgid "Cuba"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:52
+msgid "Cabo Verde"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:53
+msgid "Curaçao"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:54
+msgid "Christmas Island"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:55
+msgid "Cyprus"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:56
+msgid "Czechia"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:57
+msgid "Germany"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:58
+msgid "Djibouti"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:59
+msgid "Denmark"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:60
+msgid "Dominica"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:61
+msgid "Dominican Republic"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:62
+msgid "Algeria"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:63
+msgid "Ecuador"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:64
+msgid "Estonia"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:65
+msgid "Egypt"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:66
+msgid "Western Sahara"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:67
+msgid "Eritrea"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:68
+msgid "Spain"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:69
+msgid "Ethiopia"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:70
+msgid "Finland"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:71
+msgid "Fiji"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:72
+msgid "Falkland Islands [Malvinas]"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:73
+msgid "Micronesia (Federated States of)"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:74
+msgid "Faroe Islands"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:75
+msgid "France"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:76
+msgid "Gabon"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:77
+msgid "United Kingdom of Great Britain and Northern Ireland"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:78
+msgid "Grenada"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:79
+msgid "Georgia"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:80
+msgid "French Guiana"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:81
+msgid "Guernsey"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:82
+msgid "Ghana"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:83
+msgid "Gibraltar"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:84
+msgid "Greenland"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:85
+msgid "Gambia"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:86
+msgid "Guinea"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:87
+msgid "Guadeloupe"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:88
+msgid "Equatorial Guinea"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:89
+msgid "Greece"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:90
+msgid "South Georgia and the South Sandwich Islands"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:91
+msgid "Guatemala"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:92
+msgid "Guam"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:93
+msgid "Guinea-Bissau"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:94
+msgid "Guyana"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:95
+msgid "Hong Kong"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:96
+msgid "Heard Island and McDonald Islands"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:97
+msgid "Honduras"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:98
+msgid "Croatia"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:99
+msgid "Haiti"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:100
+msgid "Hungary"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:101
+msgid "Indonesia"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:102
+msgid "Ireland"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:103
+msgid "Israel"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:104
+msgid "Isle of Man"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:105
+msgid "India"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:106
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:107
+msgid "Iraq"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:108
+msgid "Iran (Islamic Republic of)"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:109
+msgid "Iceland"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:110
+msgid "Italy"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:111
+msgid "Jersey"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:112
+msgid "Jamaica"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:113
+msgid "Jordan"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:114
+msgid "Japan"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:115
+msgid "Kenya"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:116
+msgid "Kyrgyzstan"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:117
+msgid "Cambodia"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:118
+msgid "Kiribati"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:119
+msgid "Comoros"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:120
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:121
+msgid "Korea (the Democratic People's Republic of)"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:122
+msgid "Korea (the Republic of)"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:123
+msgid "Kuwait"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:124
+msgid "Cayman Islands"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:125
+msgid "Kazakhstan"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:126
+msgid "Lao People's Democratic Republic"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:127
+msgid "Lebanon"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:128
+msgid "Saint Lucia"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:129
+msgid "Liechtenstein"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:130
+msgid "Sri Lanka"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:131
+msgid "Liberia"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:132
+msgid "Lesotho"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:133
+msgid "Lithuania"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:134
+msgid "Luxembourg"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:135
+msgid "Latvia"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:136
+msgid "Libya"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:137
+msgid "Morocco"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:138
+msgid "Monaco"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:139
+msgid "Moldova (the Republic of)"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:140
+msgid "Montenegro"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:141
+msgid "Saint Martin (French part)"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:142
+msgid "Madagascar"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:143
+msgid "Marshall Islands"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:144
+msgid "North Macedonia"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:145
+msgid "Mali"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:146
+msgid "Myanmar"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:147
+msgid "Mongolia"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:148
+msgid "Macao"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:149
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:150
+msgid "Martinique"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:151
+msgid "Mauritania"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:152
+msgid "Montserrat"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:153
+msgid "Malta"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:154
+msgid "Mauritius"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:155
+msgid "Maldives"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:156
+msgid "Malawi"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:157
+msgid "Mexico"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:158
+msgid "Malaysia"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:159
+msgid "Mozambique"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:160
+msgid "Namibia"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:161
+msgid "New Caledonia"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:162
+msgid "Niger"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:163
+msgid "Norfolk Island"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:164
+msgid "Nigeria"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:165
+msgid "Nicaragua"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:166
+msgid "Netherlands"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:167
+msgid "Norway"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:168
+msgid "Nepal"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:169
+msgid "Nauru"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:170
+msgid "Niue"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:171
+msgid "New Zealand"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:172
+msgid "Oman"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:173
+msgid "Panama"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:174
+msgid "Peru"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:175
+msgid "French Polynesia"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:176
+msgid "Papua New Guinea"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:177
+msgid "Philippines"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:178
+msgid "Pakistan"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:179
+msgid "Poland"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:180
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:181
+msgid "Pitcairn"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:182
+msgid "Puerto Rico"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:183
+msgid "Palestine, State of"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:184
+msgid "Portugal"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:185
+msgid "Palau"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:186
+msgid "Paraguay"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:187
+msgid "Qatar"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:188
+msgid "Réunion"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:189
+msgid "Romania"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:190
+msgid "Serbia"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:191
+msgid "Russian Federation"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:192
+msgid "Rwanda"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:193
+msgid "Saudi Arabia"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:194
+msgid "Solomon Islands"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:195
+msgid "Seychelles"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:196
+msgid "Sudan"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:197
+msgid "Sweden"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:198
+msgid "Singapore"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:199
+msgid "Saint Helena, Ascension and Tristan da Cunha"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:200
+msgid "Slovenia"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:201
+msgid "Svalbard and Jan Mayen"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:202
+msgid "Slovakia"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:203
+msgid "Sierra Leone"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:204
+msgid "San Marino"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:205
+msgid "Senegal"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:206
+msgid "Somalia"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:207
+msgid "Suriname"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:208
+msgid "South Sudan"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:209
+msgid "Sao Tome and Principe"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:210
+msgid "El Salvador"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:211
+msgid "Sint Maarten (Dutch part)"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:212
+msgid "Syrian Arab Republic"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:213
+msgid "Eswatini"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:214
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:215
+msgid "Chad"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:216
+msgid "French Southern Territories"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:217
+msgid "Togo"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:218
+msgid "Thailand"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:219
+msgid "Tajikistan"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:220
+msgid "Tokelau"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:221
+msgid "Timor-Leste"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:222
+msgid "Turkmenistan"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:223
+msgid "Tunisia"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:224
+msgid "Tonga"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:225
+msgid "Turkey"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:226
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:227
+msgid "Tuvalu"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:228
+msgid "Taiwan (Province of China)"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:229
+msgid "Tanzania, the United Republic of"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:230
+msgid "Ukraine"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:231
+msgid "Uganda"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:232
+msgid "United States Minor Outlying Islands"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:233
+msgid "United States of America"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:234
+msgid "Uruguay"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:235
+msgid "Uzbekistan"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:236
+msgid "Holy See"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:237
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:238
+msgid "Venezuela (Bolivarian Republic of)"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:239
+msgid "Virgin Islands (British)"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:240
+msgid "Virgin Islands (U.S.)"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:241
+msgid "Viet Nam"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:242
+msgid "Vanuatu"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:243
+msgid "Wallis and Futuna"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:244
+msgid "Samoa"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:245
+msgid "Kosovo"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:246
+msgid "Yemen"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:247
+msgid "Mayotte"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:248
+msgid "South Africa"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:249
+msgid "Zambia"
+msgstr ""
+
+#. Title
+#: codelists/country.csv:250
+msgid "Zimbabwe"
+msgstr ""
+
+#: codelists/statistic.csv
+msgid "Category"
+msgstr "Categoría"
+
+#. Title
+#: codelists/statistic.csv:1
+msgid "Expressions of interest"
+msgstr ""
+
+#. Description
+#: codelists/statistic.csv:1
+msgid "The total number of unique expressions of interest received."
+msgstr ""
+
+#. Title
+#: codelists/statistic.csv:2
 msgid "Bids"
 msgstr "Ofertas"
 
 #. Description
-#: codelists/bidStatistics.csv:2
+#: codelists/statistic.csv:2
 msgid ""
 "The total number of unique bids received (prior to any being discounted for "
 "not meeting essential criteria)."
@@ -64,12 +1373,12 @@ msgstr ""
 "no cumplir los criterios esenciales)."
 
 #. Title
-#: codelists/bidStatistics.csv:3
+#: codelists/statistic.csv:3
 msgid "Valid bids"
 msgstr "Ofertas válidas"
 
 #. Description
-#: codelists/bidStatistics.csv:3
+#: codelists/statistic.csv:3
 msgid ""
 "The total number of unique bids received that were considered valid against "
 "relevant criteria (either of the bidder, or the bid submission itself). All "
@@ -81,32 +1390,48 @@ msgstr ""
 "etapa de evaluación de la oferta."
 
 #. Title
-#: codelists/bidStatistics.csv:4
+#: codelists/statistic.csv:4
+msgid "Disqualified bids"
+msgstr ""
+
+#. Description
+#: codelists/statistic.csv:4
+msgid ""
+"The number of bids that were found inadmissible. A bid is found inadmissible"
+" where it has been verified that it has been submitted by a tenderer who has"
+" been excluded or who did not meet the selection criteria, or when it is not"
+" in conformity with the technical specifications, or is irregular (e.g. it "
+"was received late, having an abnormally low price or cost), unacceptable or "
+"unsuitable."
+msgstr ""
+
+#. Title
+#: codelists/statistic.csv:5
 msgid "Lowest valid bid value"
 msgstr "Valor más bajo de la oferta"
 
 #. Description
-#: codelists/bidStatistics.csv:4
+#: codelists/statistic.csv:5
 msgid "The value of the lowest valid bid."
 msgstr "El valor de la oferta válida más baja"
 
 #. Title
-#: codelists/bidStatistics.csv:5
+#: codelists/statistic.csv:6
 msgid "Highest valid bid value"
 msgstr "Valor más alto de la oferta"
 
 #. Description
-#: codelists/bidStatistics.csv:5
+#: codelists/statistic.csv:6
 msgid "The value of the highest valid bid."
 msgstr "El valor de la oferta válida más alta."
 
 #. Title
-#: codelists/bidStatistics.csv:6
+#: codelists/statistic.csv:7
 msgid "Bidders"
 msgstr "Licitantes"
 
 #. Description
-#: codelists/bidStatistics.csv:6
+#: codelists/statistic.csv:7
 msgid ""
 "The total number of unique organizations or consortia submitting bids  "
 "(prior to any being discounted for not meeting essential criteria)."
@@ -115,12 +1440,12 @@ msgstr ""
 "(antes de que se descarten por no cumplir los criterios esenciales)."
 
 #. Title
-#: codelists/bidStatistics.csv:7
+#: codelists/statistic.csv:8
 msgid "Qualified bidders"
 msgstr "Licitantes calificados"
 
 #. Description
-#: codelists/bidStatistics.csv:7
+#: codelists/statistic.csv:8
 msgid ""
 "The total number of unique organizations or consortia passing the "
 "qualification stage of the evaluation process."
@@ -129,12 +1454,12 @@ msgstr ""
 "calificación del proceso de evaluación."
 
 #. Title
-#: codelists/bidStatistics.csv:8
+#: codelists/statistic.csv:9
 msgid "Disqualified bidders"
 msgstr "Licitantes descalificados"
 
 #. Description
-#: codelists/bidStatistics.csv:8
+#: codelists/statistic.csv:9
 msgid ""
 "The total number of unique organizations or consortia that did not pass the "
 "qualification stage of the evaluation process."
@@ -143,32 +1468,62 @@ msgstr ""
 "etapa de calificación del proceso de evaluación."
 
 #. Title
-#: codelists/bidStatistics.csv:9
+#: codelists/statistic.csv:10
 msgid "Electronic bids"
 msgstr "Ofertas electrónicas"
 
 #. Description
-#: codelists/bidStatistics.csv:9
+#: codelists/statistic.csv:10
 msgid "The number of bids received by electronic means."
 msgstr "El número de ofertas recibidas por medios electrónicos."
 
 #. Title
-#: codelists/bidStatistics.csv:10
+#: codelists/statistic.csv:11
+msgid "Bids from micro companies"
+msgstr ""
+
+#. Description
+#: codelists/statistic.csv:11
+msgid "The number of bids received from micro enterprises."
+msgstr ""
+
+#. Title
+#: codelists/statistic.csv:12
 msgid "Bids from SMEs"
 msgstr "Ofertas de PYMES"
 
 #. Description
-#: codelists/bidStatistics.csv:10
-msgid "The number of bids received from small and medium-sized enterprises."
-msgstr "El número de ofertas recibidas de pequeñas o medianas empresas."
+#: codelists/statistic.csv:12
+msgid "The number of bids received from small and medium enterprises."
+msgstr ""
 
 #. Title
-#: codelists/bidStatistics.csv:11
+#: codelists/statistic.csv:13
+msgid "Bids from small companies"
+msgstr ""
+
+#. Description
+#: codelists/statistic.csv:13
+msgid "The number of bids received from small enterprises."
+msgstr ""
+
+#. Title
+#: codelists/statistic.csv:14
+msgid "Bids from medium companies"
+msgstr ""
+
+#. Description
+#: codelists/statistic.csv:14
+msgid "The number of bids received from medium enterprises."
+msgstr ""
+
+#. Title
+#: codelists/statistic.csv:15
 msgid "Bids from foreign firms"
 msgstr "Ofertas de empresas extranjeras"
 
 #. Description
-#: codelists/bidStatistics.csv:11
+#: codelists/statistic.csv:15
 msgid ""
 "The number of bids received from bidders from outside the country where the "
 "tender is issued."
@@ -177,12 +1532,12 @@ msgstr ""
 "emite la oferta."
 
 #. Title
-#: codelists/bidStatistics.csv:12
+#: codelists/statistic.csv:16
 msgid "Bids from firms in other European Economic Area countries"
 msgstr "Ofertas de empresas en otros países del Área Económica Europea"
 
 #. Description
-#: codelists/bidStatistics.csv:12
+#: codelists/statistic.csv:16
 msgid ""
 "The number of bids received from tenderers from other European Economic Area"
 " countries."
@@ -191,14 +1546,14 @@ msgstr ""
 "Económica Europea."
 
 #. Title
-#: codelists/bidStatistics.csv:13
+#: codelists/statistic.csv:17
 msgid "Bids from firms in non-European Economic Area countries"
 msgstr ""
 "Ofertas de empresas en otros países que no pertenecen al Área Económica "
 "Europea"
 
 #. Description
-#: codelists/bidStatistics.csv:13
+#: codelists/statistic.csv:17
 msgid ""
 "The number of bids received from tenderers from non-European Economic Area "
 "countries."
@@ -207,12 +1562,12 @@ msgstr ""
 " al Área Económica Europea."
 
 #. Title
-#: codelists/bidStatistics.csv:14
+#: codelists/statistic.csv:18
 msgid "Tenders excluded because they were abnormally low"
 msgstr "Ofertas excluidas porque eran anormalmente bajas"
 
 #. Description
-#: codelists/bidStatistics.csv:14
+#: codelists/statistic.csv:18
 msgid ""
 "The number of tenders excluded because they were abnormally low. Note that "
 "in some EU datasets this might have been converted from a boolean, such that"
@@ -226,59 +1581,27 @@ msgstr ""
 " según corresponda."
 
 #. Title
-#: codelists/bidStatus.csv:1
-msgid "Invited"
-msgstr "Invitado"
-
-#. Description
-#: codelists/bidStatus.csv:1
-msgid "A bid has been invited from the listed tenderer(s)."
-msgstr "Se ha invitado una oferta de los licitadores listados."
-
-#. Title
-#: codelists/bidStatus.csv:2
-msgid "Pending"
-msgstr "Pendiente"
-
-#. Description
-#: codelists/bidStatus.csv:2
-msgid "A bid has been submitted but not yet evaluated."
-msgstr "Se ha enviado una oferta pero aún no se ha evaluado."
-
-#. Title
-#: codelists/bidStatus.csv:3
-msgid "Valid"
-msgstr "Válida"
-
-#. Description
-#: codelists/bidStatus.csv:3
-msgid ""
-"The submitted bid met the qualification requirements in order to be "
-"evaluated."
+#: codelists/submissionType.csv:1
+msgid "Expression of interest"
 msgstr ""
-"La oferta presentada cumplió con los requisitos de calificación para ser "
-"evaluada."
-
-#. Title
-#: codelists/bidStatus.csv:4
-msgid "Disqualified"
-msgstr "Descalificada"
 
 #. Description
-#: codelists/bidStatus.csv:4
+#: codelists/submissionType.csv:1
 msgid ""
-"The submitted bid did not meet the qualification requirements in order to be"
-" evaluated."
+"A submission made by a potential supplier describing its qualifications, for"
+" the purpose of being invited to submit a bid. This submission is also "
+"called a request to participate."
 msgstr ""
-"La oferta presentada no cumplió con los requisitos de calificación para ser "
-"evaluada."
 
 #. Title
-#: codelists/bidStatus.csv:5
-msgid "Withdrawn"
-msgstr "Retirada"
+#: codelists/submissionType.csv:2
+msgid "Bid"
+msgstr ""
 
 #. Description
-#: codelists/bidStatus.csv:5
-msgid "The submitted bid was withdrawn by the tenderer(s)."
-msgstr "La oferta presentada fue retirada por el(los) licitador(es)."
+#: codelists/submissionType.csv:2
+msgid ""
+"A submission made by a potential supplier describing its offer, for the "
+"purpose of being awarded a contract. Depending on the procedure, a bid can "
+"be an estimate, offer, proposal, quote or quotation."
+msgstr ""

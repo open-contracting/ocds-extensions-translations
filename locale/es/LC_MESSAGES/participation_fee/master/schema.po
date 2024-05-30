@@ -1,10 +1,9 @@
 # Translations template for PROJECT.
-# Copyright (C) 2022 ORGANIZATION
+# Copyright (C) 2024 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 # 
 # Translators:
-# Maria Esther Cervantes <mcervantes@cds.com.py>, 2019
 # Romina Fernandez <rfernandez@cds.com.py>, 2020
 # James McKinney, 2021
 # 
@@ -13,16 +12,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-07 18:41-0300\n"
+"POT-Creation-Date: 2024-05-30 00:40-0400\n"
 "PO-Revision-Date: 2019-03-14 18:26+0000\n"
 "Last-Translator: James McKinney, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.15.0\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. /name/en
 #: extension.json:1
@@ -64,14 +63,8 @@ msgstr "ID de tarifa"
 
 #. /definitions/ParticipationFee/properties/id/description
 #: release-schema.json:1
-msgid ""
-"A local identifier for this fee, unique within this block. This field is "
-"used to keep track of multiple revisions of a fee through the compilation "
-"from release to record mechanism."
+msgid "The locally unique identifier for the fee."
 msgstr ""
-"Un identificador local de esta tarifa, única en este bloque. Este campo se "
-"usa para hacer un seguimiento de múltiples revisiones de la tarifa a través "
-"de la compilación de los mecanismos de release y record"
 
 #. /definitions/ParticipationFee/properties/type/title
 #: release-schema.json:1
@@ -80,8 +73,8 @@ msgstr "Tipo de cuota/cargo"
 
 #. /definitions/ParticipationFee/properties/type/description
 #: release-schema.json:1
-msgid "The type of this fee."
-msgstr "El tipo de esta tarifa."
+msgid "The type of the fee."
+msgstr ""
 
 #. /definitions/ParticipationFee/properties/value/title
 #: release-schema.json:1
@@ -90,8 +83,19 @@ msgstr "Valor"
 
 #. /definitions/ParticipationFee/properties/value/description
 #: release-schema.json:1
-msgid "The monetary value of this fee."
-msgstr "El valor monetario de esta tarifa"
+msgid "The monetary value of the fee."
+msgstr ""
+
+#. /definitions/ParticipationFee/properties/relativeValue/title
+#. /definitions/RelativeValue/title
+#: release-schema.json:1
+msgid "Relative value"
+msgstr ""
+
+#. /definitions/ParticipationFee/properties/relativeValue/description
+#: release-schema.json:1
+msgid "The value of the fee, as a proportion of a monetary value."
+msgstr ""
 
 #. /definitions/ParticipationFee/properties/description/title
 #: release-schema.json:1
@@ -101,24 +105,40 @@ msgstr "Descripción"
 #. /definitions/ParticipationFee/properties/description/description
 #: release-schema.json:1
 msgid ""
-"Additional information about this fee, for example: the specific cases in "
+"Additional information about the fee, for example: the specific cases in "
 "which the fee is applicable (e.g. hard copies of documents only), the way in"
 " which the fee is levied, or the exact nature of the fee."
 msgstr ""
-"Información adicional sobre esta tarifa, por ejemplo: casos específicos en "
-"los que la tarifa es aplicable (ej. sólo para copias físicas de documentos),"
-" la manera en la cual la tarifa es cobrada o la naturaleza exacta de la "
-"tarifa."
 
 #. /definitions/ParticipationFee/properties/methodOfPayment/title
 #: release-schema.json:1
-msgid "Method(s) of payment"
-msgstr "Métodos de pago"
+msgid "Payment methods"
+msgstr ""
 
 #. /definitions/ParticipationFee/properties/methodOfPayment/description
 #: release-schema.json:1
-msgid "The accepted ways in which fees can be paid."
-msgstr "Las vías aceptadas para el pago de las tarifas."
+msgid "The accepted ways to pay the fee."
+msgstr ""
+
+#. /definitions/ParticipationFee/properties/paymentAddress/title
+#: release-schema.json:1
+msgid "Payment address"
+msgstr ""
+
+#. /definitions/ParticipationFee/properties/paymentAddress/description
+#: release-schema.json:1
+msgid "The physical address to which to submit non-electronic payments."
+msgstr ""
+
+#. /definitions/ParticipationFee/properties/payee/title
+#: release-schema.json:1
+msgid "Payee"
+msgstr ""
+
+#. /definitions/ParticipationFee/properties/payee/description
+#: release-schema.json:1
+msgid "The organization that receives the fee."
+msgstr ""
 
 #. /definitions/Tender/properties/participationFees/title
 #: release-schema.json:1
@@ -136,3 +156,31 @@ msgstr ""
 "proceso de licitaciones. Las tarifas pueden aplicar para acceder los "
 "documentos de oferta, para enviar las ofertas o puede haber una cuota que "
 "debe ser pagada por el ofertante ganador."
+
+#. /definitions/RelativeValue/description
+#: release-schema.json:1
+msgid ""
+"The value of the participation fee, as a proportion of a monetary value."
+msgstr ""
+
+#. /definitions/RelativeValue/properties/proportion/title
+#: release-schema.json:1
+msgid "Proportion"
+msgstr ""
+
+#. /definitions/RelativeValue/properties/proportion/description
+#: release-schema.json:1
+msgid ""
+"The proportion of the monetary value, expressed as a decimal between 0 and "
+"1."
+msgstr ""
+
+#. /definitions/RelativeValue/properties/monetaryValue/title
+#: release-schema.json:1
+msgid "Monetary value"
+msgstr ""
+
+#. /definitions/RelativeValue/properties/monetaryValue/description
+#: release-schema.json:1
+msgid "The name of the monetary value."
+msgstr ""

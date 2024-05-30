@@ -1,7 +1,7 @@
 # Translations template for PROJECT.
-# Copyright (C) 2022 ORGANIZATION
+# Copyright (C) 2024 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 # 
 # Translators:
 # Maria Esther Cervantes <mcervantes@cds.com.py>, 2019
@@ -12,26 +12,29 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-07 18:41-0300\n"
+"POT-Creation-Date: 2024-05-30 00:40-0400\n"
 "PO-Revision-Date: 2019-03-14 18:26+0000\n"
 "Last-Translator: James McKinney, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.15.0\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: codelists/methodOfPayment.csv codelists/participationFeeType.csv
+#: codelists/methodOfPayment.csv codelists/monetaryValue.csv
+#: codelists/participationFeeType.csv
 msgid "Code"
 msgstr "Código"
 
-#: codelists/methodOfPayment.csv codelists/participationFeeType.csv
+#: codelists/methodOfPayment.csv codelists/monetaryValue.csv
+#: codelists/participationFeeType.csv
 msgid "Title"
 msgstr "Título"
 
-#: codelists/methodOfPayment.csv codelists/participationFeeType.csv
+#: codelists/methodOfPayment.csv codelists/monetaryValue.csv
+#: codelists/participationFeeType.csv
 msgid "Description"
 msgstr "Descripción"
 
@@ -102,6 +105,30 @@ msgid ""
 msgstr ""
 "El pago se hace por transferencia bancaria, también conocida como "
 "transferencia de crédito."
+
+#. Title
+#: codelists/monetaryValue.csv:1
+msgid "Tender"
+msgstr ""
+
+#. Description
+#: codelists/monetaryValue.csv:1
+msgid ""
+"The estimated value of the procurement, as estimated when publishing the "
+"tender information."
+msgstr ""
+
+#. Title
+#: codelists/monetaryValue.csv:2
+msgid "Award"
+msgstr ""
+
+#. Description
+#: codelists/monetaryValue.csv:2
+msgid ""
+"The value of the award. Typically, this is the value of the bid being "
+"awarded."
+msgstr ""
 
 #. Title
 #: codelists/participationFeeType.csv:1

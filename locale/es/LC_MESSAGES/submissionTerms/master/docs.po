@@ -13,15 +13,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-07 18:41-0300\n"
+"POT-Creation-Date: 2024-05-30 00:39-0400\n"
 "PO-Revision-Date: 2020-08-20 21:40+0000\n"
 "Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../README.md:1
 msgid "Submission terms"
@@ -37,37 +37,30 @@ msgstr ""
 "deberán presentar sus ofertas."
 
 #: ../README.md:5
-msgid "Guidance"
-msgstr "Guía"
-
-#: ../README.md:7
 msgid "Legal context"
 msgstr "Contexto legal"
 
-#: ../README.md:9
+#: ../README.md:7
 msgid ""
 "In the European Union, this extension's fields correspond to [eForms BG-102 "
-"(Submission Terms)](https://github.com/eForms/eForms), although not all the "
-"fields have been implemented yet. See [OCDS for the European "
-"Union](http://standard.open-contracting.org/profiles/eu/master/en/) for the "
-"correspondences to Tenders Electronic Daily (TED)."
+"(Submission "
+"Terms)](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/)."
+" For correspondences to eForms fields, see [OCDS for "
+"eForms](https://standard.open-contracting.org/profiles/eforms/latest/en/). "
+"For correspondences to Tenders Electronic Daily (TED), see [OCDS for the "
+"European Union](https://standard.open-"
+"contracting.org/profiles/eu/latest/en/)."
 msgstr ""
-"En la Unión Europea, los campos de esta extensión corresponden a [eForms "
-"BG-102(Términos de Presentación de la "
-"Oferta)](https://github.com/eForms/eForms), aunque todavía no se han "
-"implementado todos los campos. Ver [OCDS para la Unión "
-"Europea](http://standard.open-contracting.org/profiles/eu/master/en/) para "
-"ver lo correspondiente a Tenders Electronic Daily (TED)."
 
-#: ../README.md:11
+#: ../README.md:9
 msgid "Example"
 msgstr "Ejemplo"
 
-#: ../README.md:35
+#: ../README.md:48
 msgid "Issues"
 msgstr "Issues"
 
-#: ../README.md:37
+#: ../README.md:50
 msgid ""
 "Report issues for this extension in the [ocds-extensions "
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "
@@ -77,19 +70,71 @@ msgstr ""
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
 "el nombre de la extensión en el título del issue."
 
-#: ../README.md:39
+#: ../README.md:52
 msgid "Changelog"
 msgstr "Registro de cambios"
 
-#: ../README.md:41
+#: ../README.md:54
+msgid "2024-01-19"
+msgstr ""
+
+#: ../README.md:56
+msgid "Rename `electronicCataloguePolicy` to `electronicCatalogPolicy`."
+msgstr ""
+
+#: ../README.md:58
+msgid "2023-10-20"
+msgstr ""
+
+#: ../README.md:60
+msgid "Add `SubmissionTerms.nonElectronicSubmission` field."
+msgstr ""
+
+#: ../README.md:61
+msgid "Remove `SubmissionTerms.nonElectronicSubmissionRationale` field."
+msgstr ""
+
+#: ../README.md:63
+msgid "2023-06-07"
+msgstr ""
+
+#: ../README.md:65
+msgid "Define \"electronic catalog\" for the `electronicCatalogPolicy` field."
+msgstr ""
+
+#: ../README.md:67
+msgid "2023-05-22"
+msgstr ""
+
+#: ../README.md:69
+msgid "Add fields for eForms:"
+msgstr ""
+
+#: ../README.md:70
+msgid "`SubmissionTerms.advancedElectronicSignatureRequired`"
+msgstr ""
+
+#: ../README.md:71
+msgid "`SubmissionTerms.multipleBidsAllowed`"
+msgstr ""
+
+#: ../README.md:72
+msgid "`SubmissionTerms.nonElectronicSubmissionRationale`"
+msgstr ""
+
+#: ../README.md:73
+msgid "`SubmissionTerms.subcontractingClauses`"
+msgstr ""
+
+#: ../README.md:75
 msgid "2020-09-29"
 msgstr "2020-09-29"
 
-#: ../README.md:43
-msgid "Rename `requiresGuarantees` to `depositsGuarantees`"
-msgstr "Renombrar `requiresGuarantees` a `depositsGuarantees`"
+#: ../README.md:77
+msgid "Rename `requiresGuarantees` to `depositsGuarantees`."
+msgstr ""
 
-#: ../README.md:44
+#: ../README.md:78
 msgid ""
 "Change the `type` of `depositsGuarantees` from a boolean to a string, to "
 "match the type of the corresponding XML element in TED XML Schema 2.09."
@@ -98,15 +143,15 @@ msgstr ""
 "que coincida con el tipo del elemento XML correspondiente a TED XML Schema "
 "2.09."
 
-#: ../README.md:46
+#: ../README.md:80
 msgid "2020-04-24"
 msgstr "2020-04-24"
 
-#: ../README.md:48
+#: ../README.md:82
 msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
 msgstr "Agregar las propiedades `minProperties`, `minItems` y/o `minLength`."
 
-#: ../README.md:50
+#: ../README.md:84
 msgid ""
 "This extension was originally discussed as part of the [OCDS for EU "
 "profile](https://github.com/open-contracting-extensions/european-"

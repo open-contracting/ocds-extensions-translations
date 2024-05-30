@@ -1,28 +1,27 @@
 # Translations template for PROJECT.
-# Copyright (C) 2022 ORGANIZATION
+# Copyright (C) 2024 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 # 
 # Translators:
 # James McKinney, 2019
 # Maria Esther Cervantes <mcervantes@cds.com.py>, 2019
-# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-07 18:41-0300\n"
+"POT-Creation-Date: 2024-05-30 00:39-0400\n"
 "PO-Revision-Date: 2019-03-14 18:30+0000\n"
-"Last-Translator: Natalia Valdez <nataliavaldez@cds.com.py>, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2019\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.15.0\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. /name/en
 #: extension.json:1
@@ -48,13 +47,9 @@ msgstr "Fecha de fin"
 msgid ""
 "The actual date when contract implementation ended. Where "
 "`implementation/endDate` varies from the anticipated "
-"`contract/period/endDate` an explanation of the variance should be provided "
-"in `implementation/endDateDetails`."
+"`contracts/period/endDate` an explanation of the variance should be provided"
+" in `implementation/endDateDetails`."
 msgstr ""
-"La fecha real en la que finalizó la implementación del contrato. Cuando "
-"`deployment/endDate` difiera del `contract/period/endDate` anticipado, se "
-"debe proporcionar una explicación de la variación en "
-"`deployment/endDateDetails`."
 
 #. /definitions/Implementation/properties/endDateDetails/title
 #: release-schema.json:1
@@ -81,19 +76,14 @@ msgid ""
 "The actual total value of all payments for a completed contract. If "
 "`implementation/transactions` are used for this contract, this field should "
 "equal the sum of the `transaction/value/amount` fields. Where "
-"`finalValue/amount` varies from `contract/value/amount` an explanation of "
+"`finalValue/amount` varies from `contracts/value/amount` an explanation of "
 "the variance should be provided in `finalValueDetails`."
 msgstr ""
-"Valor total real de todos los pagos para un contrato completado. Si se "
-"utiliza `implementation/transactions` para este contrato, este campo debe "
-"ser igual a la suma de los campos `transaction/value/amount`. Cuando "
-"`finalValue/amount` difiera de `contract/value/amount` se debe dar una "
-"explicación de la variación en `finalValueDetails`."
 
 #. /definitions/Implementation/properties/finalValueDetails/title
 #: release-schema.json:1
-msgid "Final  value details"
-msgstr "Detalles del valor final"
+msgid "Final value details"
+msgstr ""
 
 #. /definitions/Implementation/properties/finalValueDetails/description
 #: release-schema.json:1

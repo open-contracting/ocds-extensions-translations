@@ -1,32 +1,31 @@
 # Translations template for PROJECT.
-# Copyright (C) 2022 ORGANIZATION
+# Copyright (C) 2024 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 # 
 # Translators:
 # Romina Fernandez <rfernandez@cds.com.py>, 2020
 # James McKinney, 2021
-# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
-# Maria Esther Cervantes <mcervantes@cds.com.py>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-07 18:41-0300\n"
+"POT-Creation-Date: 2024-05-30 00:40-0400\n"
 "PO-Revision-Date: 2019-03-14 18:28+0000\n"
-"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"Last-Translator: James McKinney, 2021\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.15.0\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. /name/en
-#: extension.json:1
+#. /definitions/Location/title
+#: extension.json:1 release-schema.json:1
 msgid "Location"
 msgstr "Ubicación"
 
@@ -39,8 +38,38 @@ msgstr ""
 "Permite indicar el punto de entrega o el sitio de las obras para una línea "
 "de pedido determinada en los objetos de licitación, adjudicación y contrato."
 
+#. /definitions/Tender/properties/deliveryLocations/title
+#. /definitions/Item/properties/deliveryLocations/title
+#: release-schema.json:1
+msgid "Delivery Locations"
+msgstr ""
+
+#. /definitions/Tender/properties/deliveryLocations/description
+#: release-schema.json:1
+msgid "The locations where activity related to this tender will take place."
+msgstr ""
+
+#. /definitions/Tender/properties/deliveryAddresses/title
+#. /definitions/Item/properties/deliveryAddresses/title
+#: release-schema.json:1
+msgid "Delivery Addresses"
+msgstr ""
+
+#. /definitions/Tender/properties/deliveryAddresses/description
+#: release-schema.json:1
+msgid ""
+"The addresses to which, or where, goods or services related to this tender "
+"will be delivered."
+msgstr ""
+
+#. /definitions/Item/properties/deliveryLocations/description
+#: release-schema.json:1
+msgid ""
+"The locations where activity related to this tender, contract or license "
+"will be delivered."
+msgstr ""
+
 #. /definitions/Item/properties/deliveryLocation/title
-#. /definitions/Location/title
 #: release-schema.json:1
 msgid "Delivery Location"
 msgstr "Ubicación de Entrega"
@@ -53,6 +82,20 @@ msgid ""
 msgstr ""
 "La ubicación donde la actividad relacionada con esta licitación, contrato o "
 "licencia será entregada o se llevará a cabo. "
+
+#. /definitions/Item/properties/deliveryLocation/deprecated/description
+#: release-schema.json:1
+msgid ""
+"This field is deprecated in favour of `.deliveryLocations` to support items "
+"with multiple delivery locations."
+msgstr ""
+
+#. /definitions/Item/properties/deliveryAddresses/description
+#: release-schema.json:1
+msgid ""
+"The addresses to which, or where, goods or services related to this tender, "
+"contract or license will be delivered."
+msgstr ""
 
 #. /definitions/Item/properties/deliveryAddress/title
 #: release-schema.json:1
@@ -68,19 +111,20 @@ msgstr ""
 "La dirección en la que bienes y servicios relacionados con esta licitación, "
 "contrato o licencia serán entregados."
 
-#. /definitions/Location/description
+#. /definitions/Item/properties/deliveryAddress/deprecated/description
 #: release-schema.json:1
 msgid ""
-"The location where activity related to this tender, contract or license will"
-" be delivered, or will take place. A location can be described by either a "
-"geometry (point location, line or polygon), or a gazetteer entry, or both."
+"This field is deprecated in favour of `.deliveryAddresses` to support items "
+"with multiple delivery locations."
 msgstr ""
-"El lugar donde la actividad relacionada con esta licitación, contrato o "
-"licencia será entregada, o tendrá lugar. Una ubicación puede ser descrita "
-"por una geometría (ubicación de punto, línea o polígono), o una entrada de "
-"un diccionario geográfico, o ambas."
+
+#. /definitions/Location/description
+#: release-schema.json:1
+msgid "A physical or virtual location."
+msgstr ""
 
 #. /definitions/Location/properties/description/title
+#. /definitions/Address/properties/description/title
 #: release-schema.json:1
 msgid "Description"
 msgstr "Descripción"
@@ -104,22 +148,14 @@ msgstr "Geometría"
 #. /definitions/Location/properties/geometry/description
 #: release-schema.json:1
 msgid ""
-"We follow the [GeoJSON standard](https://geojson.org/) to express basic "
-"location information, using longitude, latitude, and optional elevation "
-"values in the [WGS84](https://en.wikipedia.org/wiki/World_Geodetic_System) "
-"(EPSG:4326) projection. A point location can be identified by geocoding a "
-"delivery address. For concession licenses, or other contracts covering a "
-"polygon location which is not contained in a known gazetteer, polygon and "
-"multi-polygon can be used."
+"We follow the [GeoJSON standard](https://www.rfc-editor.org/rfc/rfc7946) to "
+"express basic location information, using longitude, latitude, and optional "
+"elevation values in the "
+"[WGS84](https://en.wikipedia.org/wiki/World_Geodetic_System) (EPSG:4326) "
+"projection. A point location can be identified by geocoding an address. For "
+"concession licenses, or other scenarios covering a polygon location that is "
+"not contained in a known gazetteer, polygon and multi-polygon can be used."
 msgstr ""
-"Seguimos el [estándar GeoJSON](https://geojson.org/) para expresar la "
-"información básica de ubicación, utilizando los valores de longitud, latitud"
-" y opcionalmente elevación en la proyección "
-"[WGS84](https://es.wikipedia.org/wiki/World_Geodetic_System) (EPSG:4326). Un"
-" punto de ubicación se puede identificar mediante la geocodificación de una "
-"dirección de entrega. Para las licencias de concesión, u otros contratos que"
-" cubren una ubicación de polígono que no está contenida en un diccionario "
-"geográfico conocido, se pueden utilizar polígonos y multi-polígonos."
 
 #. /definitions/Location/properties/geometry/properties/type/title
 #: release-schema.json:1
@@ -129,17 +165,12 @@ msgstr "Tipo"
 #. /definitions/Location/properties/geometry/properties/type/description
 #: release-schema.json:1
 msgid ""
-"The type of [GeoJSON Geometry Objects](https://geojson.org/geojson-"
-"spec.html#geometry-objects) being provided. To provide longitude, latitude, "
-"and optional elevation, use 'Point', and enter an array of [longitude, "
-"latitude] or [longitude, latitude, elevation] as the value of the "
-"coordinates field: e.g. [-122.085, 37.42]."
+"The type of [GeoJSON Geometry Objects](https://www.rfc-"
+"editor.org/rfc/rfc7946#section-3.1) being provided. To provide longitude, "
+"latitude, and optional elevation, use 'Point', and enter an array of "
+"[longitude, latitude] or [longitude, latitude, elevation] as the value of "
+"the coordinates field: e.g. [-122.085, 37.42]."
 msgstr ""
-"El tipo de [Objetos Geométricos de GeoJSON](https://geojson.org/geojson-"
-"spec.html#geometry-objects) que se proporcionan. Para proporcionar longitud,"
-" latitud y elevación opcional, utilice 'Point', e introduzca una lista de "
-"[longitud, latitud] o [longitud, latitud, elevación] como valor del campo de"
-" coordenadas: por ejemplo, [-122,085, 37,42]."
 
 #. /definitions/Location/properties/geometry/properties/coordinates/title
 #: release-schema.json:1
@@ -212,10 +243,12 @@ msgstr "URI"
 #. /definitions/Location/properties/uri/description
 #: release-schema.json:1
 msgid ""
-"A URI to a further description of the activity location. This might be a "
-"human-readable document with information on the location, or a machine-"
-"readable description of the location."
+"A URI to a further description of the location. This might be a human-"
+"readable document with information on the location, or a machine-readable "
+"description of the location."
 msgstr ""
-"Un URI a una descripción más detallada de la ubicación de la actividad. Esto"
-" puede ser un documento legible por el usuario con información sobre la "
-"ubicación o una descripción legible por computadora de la ubicación."
+
+#. /definitions/Address/properties/description/description
+#: release-schema.json:1
+msgid "The description of the address."
+msgstr ""

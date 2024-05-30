@@ -1,7 +1,7 @@
 # Translations template for PROJECT.
-# Copyright (C) 2022 ORGANIZATION
+# Copyright (C) 2024 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 # 
 # Translators:
 # Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
@@ -11,16 +11,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-07 18:41-0300\n"
+"POT-Creation-Date: 2024-05-30 00:39-0400\n"
 "PO-Revision-Date: 2021-05-25 15:35+0000\n"
 "Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.15.0\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. /name/en
 #. /definitions/Organization/properties/beneficialOwners/title
@@ -41,6 +41,19 @@ msgstr ""
 #: release-schema.json:1
 msgid "The beneficial owners of the organization."
 msgstr "Los beneficiarios finales de la organización."
+
+#. /definitions/Organization/properties/details/properties/listedOnRegulatedMarket/title
+#: release-schema.json:1
+msgid "Listed on regulated market"
+msgstr ""
+
+#. /definitions/Organization/properties/details/properties/listedOnRegulatedMarket/description
+#: release-schema.json:1
+msgid ""
+"Whether the organization is listed on a regulated market (e.g. a stock "
+"exchange) that ensures adequate transparency in line with anti-money "
+"laundering legislation."
+msgstr ""
 
 #. /definitions/Person/title
 #: release-schema.json:1
@@ -90,16 +103,56 @@ msgstr ""
 "alfa-3 de tres letras, y TIPO es uno de los siguientes: \"PASAPORTE\", "
 "\"TAXID\" o \"IDCARD\"."
 
-#. /definitions/Person/properties/nationality/title
+#. /definitions/Person/properties/nationalities/title
 #: release-schema.json:1
-msgid "Nationality"
-msgstr "Nacionalidad"
+msgid "Nationalities"
+msgstr ""
 
-#. /definitions/Person/properties/nationality/description
+#. /definitions/Person/properties/nationalities/description
+#: release-schema.json:1
+msgid "The nationalities of the person, from the closed country codelist."
+msgstr ""
+
+#. /definitions/Person/properties/address/title
+#: release-schema.json:1
+msgid "Address"
+msgstr ""
+
+#. /definitions/Person/properties/address/description
+#: release-schema.json:1
+msgid "The address of the person."
+msgstr ""
+
+#. /definitions/Person/properties/email/title
+#: release-schema.json:1
+msgid "Email"
+msgstr ""
+
+#. /definitions/Person/properties/email/description
+#: release-schema.json:1
+msgid "The e-mail address of the person."
+msgstr ""
+
+#. /definitions/Person/properties/faxNumber/title
+#: release-schema.json:1
+msgid "Fax number"
+msgstr ""
+
+#. /definitions/Person/properties/faxNumber/description
 #: release-schema.json:1
 msgid ""
-"The nationality of the person, as a two-letter, uppercase ISO 3166-1 alpha-2"
-" country code."
+"The fax number of the person. This must include the international dialing "
+"code."
 msgstr ""
-"La nacionalidad de la persona, en forma de código de país ISO 3166-1 alfa-2 "
-"de dos letras."
+
+#. /definitions/Person/properties/telephone/title
+#: release-schema.json:1
+msgid "Telephone"
+msgstr ""
+
+#. /definitions/Person/properties/telephone/description
+#: release-schema.json:1
+msgid ""
+"The telephone number of the person. This must include the international "
+"dialing code."
+msgstr ""

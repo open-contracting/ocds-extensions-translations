@@ -1,7 +1,7 @@
 # Translations template for PROJECT.
-# Copyright (C) 2022 ORGANIZATION
+# Copyright (C) 2024 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 # 
 # Translators:
 # Romina Fernandez <rfernandez@cds.com.py>, 2020
@@ -14,16 +14,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-07 18:41-0300\n"
+"POT-Creation-Date: 2024-05-30 00:40-0400\n"
 "PO-Revision-Date: 2019-03-14 18:29+0000\n"
 "Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.15.0\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. /name/en
 #. /definitions/Tender/properties/lots/title
@@ -76,11 +76,8 @@ msgstr "Detalles del lote"
 #. /definitions/Tender/properties/lotDetails/description
 #: release-schema.json:1
 msgid ""
-"If this tender is divided into lots, details can be provided here of any "
-"criteria that apply to bidding on these lots."
+"Details of any criteria that apply to bidding on the lots in this tender."
 msgstr ""
-"Si esta licitación está dividida en lotes, aquí pueden darse detalles de los"
-" criterios que aplican para hacer una oferta en estos lotes."
 
 #. /definitions/Tender/properties/lotDetails/properties/maximumLotsBidPerSupplier/title
 #. /definitions/Tender/properties/lotDetails/properties/maximumLotsAwardedPerSupplier/title
@@ -139,8 +136,8 @@ msgstr ""
 #. /definitions/Document/properties/relatedLots/title
 #. /definitions/Milestone/properties/relatedLots/title
 #. /definitions/Award/properties/relatedLots/title
-#. /definitions/Bid/properties/relatedLots/title
-#. /definitions/Finance/properties/relatedLots/title
+#. /definitions/Amendment/properties/relatedLots/title
+#. /definitions/RelatedProcess/properties/relatedLots/title
 #. /definitions/LotGroup/properties/relatedLots/title
 #: release-schema.json:1
 msgid "Related lot(s)"
@@ -148,12 +145,8 @@ msgstr "Lote(s) relacionado(s)"
 
 #. /definitions/Document/properties/relatedLots/description
 #: release-schema.json:1
-msgid ""
-"If this document relates to a particular lot, provide the identifier(s) of "
-"the related lot(s) here."
+msgid "The identifiers of the lots to which this document relates."
 msgstr ""
-"Si este documento se refiere a un lote en particular, proporcione el (los) "
-"identificador(es) del(los) lote(s) relacionado(s) aquí."
 
 #. /definitions/Item/properties/relatedLot/title
 #: release-schema.json:1
@@ -162,48 +155,30 @@ msgstr "Lote relacionado"
 
 #. /definitions/Item/properties/relatedLot/description
 #: release-schema.json:1
-msgid ""
-"If this item belongs to a lot, provide the identifier of the related lot "
-"here."
+msgid "The identifier of the lot to which this item relates."
 msgstr ""
-"Si este artículo pertenece a un lote, provea el identificador del lote "
-"relacionado aquí."
 
 #. /definitions/Milestone/properties/relatedLots/description
 #: release-schema.json:1
-msgid ""
-"If this milestone relates to a particular lot, provide the identifier(s) of "
-"the related lot(s) here."
+msgid "The identifiers of the lots to which this milestone relates."
 msgstr ""
-"Si este documento se refiere a un lote en particular, proporcione el (los) "
-"identificador(es) del(los) lote(s) relacionado(s) aquí."
 
 #. /definitions/Award/properties/relatedLots/description
 #: release-schema.json:1
-msgid ""
-"If this award relates to one or more specific lots, provide the "
-"identifier(s) of the related lot(s) here."
+msgid "The identifiers of the lots to which this award relates."
 msgstr ""
-"Si esta adjudicación se relaciona con uno o más lotes específicos, "
-"proporcione el (los) identificador(es) del(los) lote(s) relacionado(s) aquí."
 
-#. /definitions/Bid/properties/relatedLots/description
+#. /definitions/Amendment/properties/relatedLots/description
+#: release-schema.json:1
+msgid "The identifiers of the lots to which this amendment relates."
+msgstr ""
+
+#. /definitions/RelatedProcess/properties/relatedLots/description
 #: release-schema.json:1
 msgid ""
-"If this bid relates to one or more specific lots, provide the identifier(s) "
-"of the related lot(s) here."
+"The identifiers of the lots in the related process to which this process "
+"relates."
 msgstr ""
-"Si esta oferta se relaciona con uno o más lotes específicos, proporcione el "
-"(los) identificador(es) del(los) lote(s) relacionado(s) aquí."
-
-#. /definitions/Finance/properties/relatedLots/description
-#: release-schema.json:1
-msgid ""
-"If this source of finance relates to one or more specific lots, provide the "
-"identifier(s) of the related lot(s) here."
-msgstr ""
-"Si esta fuente de financiamiento se relaciona con uno o más lotes "
-"específicos, provea el/los identificador(es) de los lotes relacionados aquí."
 
 #. /definitions/Lot/description
 #: release-schema.json:1
@@ -229,7 +204,22 @@ msgstr ""
 "utiliza en las referencias relatedLots en el nivel de artículo, documento y "
 "adjudicación."
 
+#. /definitions/Lot/properties/identifiers/title
+#. /definitions/LotGroup/properties/identifiers/title
+#: release-schema.json:1
+msgid "Identifiers"
+msgstr ""
+
+#. /definitions/Lot/properties/identifiers/description
+#: release-schema.json:1
+msgid ""
+"Identifiers for this lot. This field can be used to provide internal "
+"identifiers for the lot, such as identifiers from a buyer's document "
+"management system or procurement system."
+msgstr ""
+
 #. /definitions/Lot/properties/title/title
+#. /definitions/LotGroup/properties/title/title
 #: release-schema.json:1
 msgid "Title"
 msgstr "Título"
@@ -240,6 +230,7 @@ msgid "A title for this lot."
 msgstr "Un título para este lote."
 
 #. /definitions/Lot/properties/description/title
+#. /definitions/LotGroup/properties/description/title
 #: release-schema.json:1
 msgid "Description"
 msgstr "Descripción"
@@ -269,6 +260,31 @@ msgstr "Valor del lote"
 msgid "The maximum estimated value of this lot."
 msgstr "El valor máximo estimado de este lote."
 
+#. /definitions/Lot/properties/minValue/title
+#: release-schema.json:1
+msgid "Minimum value"
+msgstr ""
+
+#. /definitions/Lot/properties/minValue/description
+#: release-schema.json:1
+msgid ""
+"The estimated minimum value of the lot. A negative value indicates that the "
+"contracting process may involve payments from the supplier to the buyer "
+"(commonly used in concession contracts)."
+msgstr ""
+
+#. /definitions/Lot/properties/tenderPeriod/title
+#: release-schema.json:1
+msgid "Tender period"
+msgstr ""
+
+#. /definitions/Lot/properties/tenderPeriod/description
+#: release-schema.json:1
+msgid ""
+"The period when this lot is open for submissions. The end date is the "
+"closing date for bid submissions."
+msgstr ""
+
 #. /definitions/Lot/properties/contractPeriod/title
 #: release-schema.json:1
 msgid "Contract period"
@@ -284,6 +300,101 @@ msgstr ""
 "activo. Si el lote no especifica fechas explícitas, se puede usar el campo "
 "`duration`."
 
+#. /definitions/Lot/properties/buyer/title
+#: release-schema.json:1
+msgid "Buyer"
+msgstr ""
+
+#. /definitions/Lot/properties/buyer/description
+#: release-schema.json:1
+msgid ""
+"The organization aiming to conclude a contract with a supplier or to use the"
+" goods, works or services in this lot. This may be different from the "
+"procuring entity who may be specified in the tender data."
+msgstr ""
+
+#. /definitions/Lot/properties/additionalClassifications/title
+#: release-schema.json:1
+msgid "Additional classifications"
+msgstr ""
+
+#. /definitions/Lot/properties/additionalClassifications/description
+#: release-schema.json:1
+msgid "Additional classifications for this lot."
+msgstr ""
+
+#. /definitions/Lot/properties/mainProcurementCategory/title
+#: release-schema.json:1
+msgid "Main procurement category"
+msgstr ""
+
+#. /definitions/Lot/properties/mainProcurementCategory/description
+#: release-schema.json:1
+msgid ""
+"The primary category describing the main object of this lot, using the "
+"closed procurementCategory codelist."
+msgstr ""
+
+#. /definitions/Lot/properties/additionalProcurementCategories/title
+#: release-schema.json:1
+msgid "Additional procurement categories"
+msgstr ""
+
+#. /definitions/Lot/properties/additionalProcurementCategories/description
+#: release-schema.json:1
+msgid ""
+"Any additional categories describing the objects of this lot, using the open"
+" extendedProcurementCategory codelist."
+msgstr ""
+
+#. /definitions/Lot/properties/enquiryPeriod/title
+#: release-schema.json:1
+msgid "Enquiry period"
+msgstr ""
+
+#. /definitions/Lot/properties/enquiryPeriod/description
+#: release-schema.json:1
+msgid ""
+"The period during which potential bidders may submit questions and requests "
+"for clarification about this lot to the buyer or the procuring entity."
+msgstr ""
+
+#. /definitions/Lot/properties/milestones/title
+#: release-schema.json:1
+msgid "Milestones"
+msgstr ""
+
+#. /definitions/Lot/properties/milestones/description
+#: release-schema.json:1
+msgid "Milestones associated with this lot."
+msgstr ""
+
+#. /definitions/Lot/properties/submissionMethodDetails/title
+#: release-schema.json:1
+msgid "Submission method details"
+msgstr ""
+
+#. /definitions/Lot/properties/submissionMethodDetails/description
+#: release-schema.json:1
+msgid ""
+"Information about the methods by which bids are submitted for this lot. This"
+" can include the address, e-mail address or online service to which bids are"
+" submitted, and any special requirements to be followed for submissions. "
+"More structured information can be provided using the submission terms "
+"extension."
+msgstr ""
+
+#. /definitions/Lot/properties/submissionTerms/title
+#: release-schema.json:1
+msgid "Submission terms"
+msgstr ""
+
+#. /definitions/Lot/properties/submissionTerms/description
+#: release-schema.json:1
+msgid ""
+"Information about how, when and where tenderers need to submit their bids."
+msgstr ""
+
 #. /definitions/LotGroup/title
 #: release-schema.json:1
 msgid "Lot group"
@@ -298,6 +409,24 @@ msgstr "Identificador del grupo de lote"
 #: release-schema.json:1
 msgid "A local identifier for this group of lots."
 msgstr "Un identificador local para este grupo de lotes."
+
+#. /definitions/LotGroup/properties/identifiers/description
+#: release-schema.json:1
+msgid ""
+"Identifiers for this lot group. This field can be used to provide internal "
+"identifiers for the lot group, such as identifiers from a buyer's document "
+"management system or procurement system."
+msgstr ""
+
+#. /definitions/LotGroup/properties/title/description
+#: release-schema.json:1
+msgid "A title for this lot group."
+msgstr ""
+
+#. /definitions/LotGroup/properties/description/description
+#: release-schema.json:1
+msgid "A description of this lot group."
+msgstr ""
 
 #. /definitions/LotGroup/properties/relatedLots/description
 #: release-schema.json:1
@@ -335,3 +464,33 @@ msgid ""
 msgstr ""
 "El valor máximo estimado de los lotes de este grupo. Este puede ser inferior"
 " a la suma total de los valores de los lotes."
+
+#. /definitions/SimpleIdentifier/title
+#: release-schema.json:1
+msgid "Simple identifier"
+msgstr ""
+
+#. /definitions/SimpleIdentifier/description
+#: release-schema.json:1
+msgid "An unambiguous reference to a resource within a given context."
+msgstr ""
+
+#. /definitions/SimpleIdentifier/properties/scheme/title
+#: release-schema.json:1
+msgid "Scheme"
+msgstr ""
+
+#. /definitions/SimpleIdentifier/properties/scheme/description
+#: release-schema.json:1
+msgid "The list, register or system from which the identifier is taken."
+msgstr ""
+
+#. /definitions/SimpleIdentifier/properties/id/title
+#: release-schema.json:1
+msgid "ID"
+msgstr ""
+
+#. /definitions/SimpleIdentifier/properties/id/description
+#: release-schema.json:1
+msgid "The identifier taken from the scheme."
+msgstr ""

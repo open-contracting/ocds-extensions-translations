@@ -1,7 +1,7 @@
 # Translations template for PROJECT.
-# Copyright (C) 2022 ORGANIZATION
+# Copyright (C) 2024 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 # 
 # Translators:
 # Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
@@ -11,16 +11,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-07 18:41-0300\n"
+"POT-Creation-Date: 2024-05-30 00:40-0400\n"
 "PO-Revision-Date: 2021-07-31 17:45+0000\n"
 "Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.15.0\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. /name/en
 #: extension.json:1
@@ -77,14 +77,14 @@ msgstr ""
 "La vía por la que se puede administrar el medicamento, a partir de la lista "
 "de códigos administrationRoute."
 
-#. /definitions/Item/properties/container/title
-#. /definitions/Container/title
+#. /definitions/Item/properties/immediateContainer/title
+#. /definitions/ImmediateContainer/title
 #: release-schema.json:1
-msgid "Container"
-msgstr "Envase"
+msgid "Immediate container"
+msgstr ""
 
-#. /definitions/Item/properties/container/description
-#. /definitions/Container/description
+#. /definitions/Item/properties/immediateContainer/description
+#. /definitions/ImmediateContainer/description
 #: release-schema.json:1
 msgid ""
 "The immediate container for the medicine. Also known as: presentation, "
@@ -107,7 +107,7 @@ msgstr ""
 "biológica."
 
 #. /definitions/ActiveIngredient/properties/name/title
-#. /definitions/Container/properties/name/title
+#. /definitions/ImmediateContainer/properties/name/title
 #: release-schema.json:1
 msgid "Name"
 msgstr "Nombre"
@@ -115,14 +115,10 @@ msgstr "Nombre"
 #. /definitions/ActiveIngredient/properties/name/description
 #: release-schema.json:1
 msgid ""
-"The name of the active ingredient. It is recommended to use the Latin name "
-"from the International Nonproprietary Names (INN). Also known as: generic "
-"name, drug, substance name, active substance."
+"The name of the active ingredient. It is recommended to use the lowercase "
+"Latin name from the International Nonproprietary Names (INN). Also known as:"
+" generic name, drug, substance name, active substance."
 msgstr ""
-"El nombre del principio activo. Se recomienda utilizar el nombre latino de "
-"la Denominación Común Internacional o DCI por sus siglas, (también INN del "
-"inglés International Nonproprietary Names). También se conoce como: nombre "
-"genérico, medicamento, nombre de la sustancia, principio activo."
 
 #. /definitions/ActiveIngredient/properties/strength/title
 #: release-schema.json:1
@@ -138,18 +134,18 @@ msgstr ""
 "La fuerza del ingrediente o principio activo. También se conoce como: "
 "concentración, potencia."
 
-#. /definitions/Container/properties/name/description
+#. /definitions/ImmediateContainer/properties/name/description
 #: release-schema.json:1
-msgid "The common name of the container, from the container codelist."
+msgid ""
+"The common name of the container, from the immediate container codelist."
 msgstr ""
-"El nombre común del envase de la lista de códigos del container codelist."
 
-#. /definitions/Container/properties/capacity/title
+#. /definitions/ImmediateContainer/properties/capacity/title
 #: release-schema.json:1
 msgid "Capacity"
 msgstr "Capacidad"
 
-#. /definitions/Container/properties/capacity/description
+#. /definitions/ImmediateContainer/properties/capacity/description
 #: release-schema.json:1
 msgid "The storage capacity of the container."
 msgstr "La capacidad de almacenamiento del recipiente o envase."
@@ -210,14 +206,9 @@ msgstr "Esquema"
 msgid ""
 "The codelist from which the identifier for the unit of measurement is taken,"
 " using the open [unitClassificationScheme](https://standard.open-"
-"contracting.org/{{version}}/{{lang}}/schema/codelists/#unit-classification-"
-"scheme) codelist. 'UNCEFACT' is recommended."
+"contracting.org/latest/en/schema/codelists/#unit-classification-scheme) "
+"codelist. 'UNCEFACT' is recommended."
 msgstr ""
-"La lista de códigos de la que se toma el identificador de la unidad de "
-"medida, utilizando la lista de códigos abierta "
-"[unitClassificationScheme](https://standard.open-"
-"contracting.org/{{version}}/{{lang}}/schema/codelists/#unit-classification-"
-"scheme). Se recomienda utilizar 'UNCEFACT'."
 
 #. /definitions/SimpleUnit/properties/id/title
 #: release-schema.json:1
@@ -230,12 +221,6 @@ msgid ""
 "The identifier for the unit of measurement, taken from the codelist "
 "referenced by the `scheme` field. Refer to the "
 "[unitClassificationScheme](https://standard.open-"
-"contracting.org/{{version}}/{{lang}}/schema/codelists/#unit-classification-"
-"scheme) codelist for details of how to find identifiers within schemes."
+"contracting.org/latest/en/schema/codelists/#unit-classification-scheme) "
+"codelist for details of how to find identifiers within schemes."
 msgstr ""
-"El identificador de la unidad de medida, tomado de la lista de códigos a la "
-"que hace referencia el campo `scheme`. Consulte la lista de códigos "
-"[unitClassificationScheme](https://standard.open-"
-"contracting.org/{{version}}/{{lang}}/schema/codelists/#unit-classification-"
-"scheme) para obtener detalles sobre cómo encontrar identificadores dentro de"
-" los esquemas."

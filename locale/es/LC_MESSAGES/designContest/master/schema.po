@@ -1,7 +1,7 @@
 # Translations template for PROJECT.
-# Copyright (C) 2022 ORGANIZATION
+# Copyright (C) 2024 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 # 
 # Translators:
 # James McKinney, 2021
@@ -12,19 +12,20 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-07 18:41-0300\n"
+"POT-Creation-Date: 2024-05-30 00:39-0400\n"
 "PO-Revision-Date: 2020-08-20 21:52+0000\n"
 "Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.15.0\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. /name/en
 #. /definitions/Tender/properties/designContest/title
+#. /definitions/Lot/properties/designContest/title
 #. /definitions/DesignContest/title
 #: extension.json:1 release-schema.json:1
 msgid "Design contest"
@@ -38,6 +39,7 @@ msgstr ""
 "proyecto."
 
 #. /definitions/Tender/properties/designContest/description
+#. /definitions/Lot/properties/designContest/description
 #. /definitions/DesignContest/description
 #: release-schema.json:1
 msgid "Information about the organization of a design contest."
@@ -51,11 +53,9 @@ msgstr "Participantes seleccionados"
 #. /definitions/DesignContest/properties/selectedParticipants/description
 #: release-schema.json:1
 msgid ""
-"The parties that have already been selected to participate to the design "
-"contest."
+"The organizations that have already been selected to participate in the "
+"design contest."
 msgstr ""
-"Las partes que ya han sido seleccionadas para participar en el concurso de "
-"proyecto."
 
 #. /definitions/DesignContest/properties/hasPrizes/title
 #: release-schema.json:1
@@ -68,6 +68,7 @@ msgid "Whether prizes will be awarded in the design contest."
 msgstr "Si se adjudicarán los premios en el concurso de proyecto."
 
 #. /definitions/DesignContest/properties/prizes/title
+#. /definitions/Prizes/title
 #: release-schema.json:1
 msgid "Prizes"
 msgstr "Premio"
@@ -77,16 +78,6 @@ msgstr "Premio"
 msgid "Information about the prizes awarded in the design contest."
 msgstr ""
 "Información acerca de los premios adjudicados en el concurso de proyecto."
-
-#. /definitions/DesignContest/properties/prizes/properties/description/title
-#: release-schema.json:1
-msgid "Description"
-msgstr "Descripción"
-
-#. /definitions/DesignContest/properties/prizes/properties/description/description
-#: release-schema.json:1
-msgid "The description of the prizes."
-msgstr "La descripción de los premios."
 
 #. /definitions/DesignContest/properties/rewardsDetails/title
 #: release-schema.json:1
@@ -153,3 +144,64 @@ msgstr "Nombre"
 #: release-schema.json:1
 msgid "The name of the jury member."
 msgstr "El nombre del miembro del jurado."
+
+#. /definitions/Prizes/description
+#: release-schema.json:1
+msgid "Information about the prizes awarded in a design contest."
+msgstr ""
+
+#. /definitions/Prizes/properties/description/title
+#. /definitions/Prize/properties/description/title
+#: release-schema.json:1
+msgid "Description"
+msgstr "Descripción"
+
+#. /definitions/Prizes/properties/description/description
+#: release-schema.json:1
+msgid "The description of the prizes."
+msgstr "La descripción de los premios."
+
+#. /definitions/Prizes/properties/details/title
+#: release-schema.json:1
+msgid "Details"
+msgstr ""
+
+#. /definitions/Prizes/properties/details/description
+#: release-schema.json:1
+msgid "Information about the individual prizes."
+msgstr ""
+
+#. /definitions/Prize/title
+#: release-schema.json:1
+msgid "Prize"
+msgstr ""
+
+#. /definitions/Prize/description
+#: release-schema.json:1
+msgid "Information about an individual prize awarded in a design contest."
+msgstr ""
+
+#. /definitions/Prize/properties/id/title
+#: release-schema.json:1
+msgid "Identifier"
+msgstr ""
+
+#. /definitions/Prize/properties/id/description
+#: release-schema.json:1
+msgid "The locally unique identifier for the prize."
+msgstr ""
+
+#. /definitions/Prize/properties/description/description
+#: release-schema.json:1
+msgid "The description of the prize."
+msgstr ""
+
+#. /definitions/Prize/properties/value/title
+#: release-schema.json:1
+msgid "Value"
+msgstr ""
+
+#. /definitions/Prize/properties/value/description
+#: release-schema.json:1
+msgid "The value of the prize."
+msgstr ""

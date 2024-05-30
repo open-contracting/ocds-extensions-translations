@@ -11,15 +11,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-07 18:41-0300\n"
+"POT-Creation-Date: 2024-05-30 00:39-0400\n"
 "PO-Revision-Date: 2021-07-31 17:45+0000\n"
 "Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../README.md:1
 msgid "Medicine extension"
@@ -189,19 +189,17 @@ msgstr ""
 "recommendations) incluye unidades como mg/l, g/l y kg/l, pero no mg/ml. Así,"
 " \"100 MG/ML\" se expresa como 100 g/l a continuación."
 
-#: ../README.md:31 ../README.md:86
+#: ../README.md:31 ../README.md:87
 msgid ""
 "Based on this information, we can add the `dosageForm`, "
-"`administrationRoute`, `container` and `activeIngredients`."
+"`administrationRoute`, `immediateContainer` and `activeIngredients`."
 msgstr ""
-"A partir de esta información, podemos agregar el `dosageForm`, "
-"`administrationRoute`, `container` y `activeIngredients`."
 
-#: ../README.md:74
+#: ../README.md:75
 msgid "More than one active ingredient"
 msgstr "Más de un principio activo"
 
-#: ../README.md:76
+#: ../README.md:77
 msgid ""
 "In this example, we demonstrate how to use this extension to describe a "
 "[drug procurement "
@@ -217,7 +215,7 @@ msgstr ""
 "[datos originales del "
 "OCDS](https://contrataciones.gov.py/datos/api/v3/doc/ocds/record/ocds-03ad3f-391507).)"
 
-#: ../README.md:78
+#: ../README.md:79
 msgid ""
 "In the \"Suministros requeridos - especificaciones técnicas\" tab, item 1 of"
 " lot 8 (\"LOTE N° 8 - ANESTESICOS LOCALES - 2\") is described as:"
@@ -264,7 +262,7 @@ msgstr "AMPOLLA"
 msgid "ampollas como minimo de 5 ml."
 msgstr "ampollas como mínimo de 5 ml."
 
-#: ../README.md:84
+#: ../README.md:85
 msgid ""
 "For the name of the active ingredient, Annex 2 of the [INN Stem Book "
 "2018](https://www.who.int/teams/health-product-and-policy-"
@@ -276,11 +274,11 @@ msgstr ""
 "standards/inn/stembook), describe cómo nombrar las sales ácidas: en este "
 "caso, \"bupivacainum hydrochloridum\"."
 
-#: ../README.md:135
+#: ../README.md:136
 msgid "Related standards"
 msgstr "Estándares relacionados"
 
-#: ../README.md:137
+#: ../README.md:138
 msgid ""
 "The fields, definitions and codelists used in this extension are based on "
 "the following standards that are commonly used in the data on public "
@@ -290,21 +288,16 @@ msgstr ""
 "extensión se basan en las siguientes normas que se utilizan habitualmente en"
 " los datos sobre compras de medicamentos públicos."
 
-#: ../README.md:139
+#: ../README.md:140
 msgid ""
 "Most of the fields are based on the [Drug](https://schema.org/Drug) "
 "definition by the [Schema.org Community "
 "Group](https://www.w3.org/community/schemaorg/) and the [Medication "
 "Resource](https://www.hl7.org/fhir/medication.html) from [Fast Healthcare "
-"Interoperability Resources (FHIR)](http://hl7.org/fhir/) standard."
+"Interoperability Resources (FHIR)](https://hl7.org/fhir/) standard."
 msgstr ""
-"La mayoría de los campos se basan en la definición "
-"[Medicamentos](https://schema.org/Drug) del [Schema.org Community "
-"Group](https://www.w3.org/community/schemaorg/) y en el [Recursos para la "
-"Medicación](https://www.hl7.org/fhir/medication.html) del estándar [Fast "
-"Healthcare Interoperability Resources (FHIR)](http://hl7.org/fhir/)."
 
-#: ../README.md:140
+#: ../README.md:141
 msgid ""
 "The `administrationRoute` codelist contains the top-level concepts in HL7's "
 "[Route of "
@@ -316,7 +309,7 @@ msgstr ""
 "Administración](https://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration/),"
 " excluyendo cualquier término sinónimo."
 
-#: ../README.md:141
+#: ../README.md:142
 msgid ""
 "The `dosageForm` codelist contains the top-level concepts in HL7's "
 "[Orderable Drug "
@@ -328,10 +321,10 @@ msgstr ""
 "medicamentos](https://terminology.hl7.org/CodeSystem/v3-orderableDrugForm/),"
 " excluyendo las formas específicas de aerosoles."
 
-#: ../README.md:142
+#: ../README.md:143
 msgid ""
-"The `container` codelist is a copy of the codes and titles from FHIR's "
-"[Medication Knowledge Package "
+"The `immediateContainer` codelist is a copy of the codes and titles from "
+"FHIR's [Medication Knowledge Package "
 "Type](https://terminology.hl7.org/CodeSystem/medicationknowledge-package-"
 "type/) codelist. Given that the terms are undefined in FHIR, the "
 "descriptions are copied from corresponding terms from the [EDQM Standard "
@@ -341,40 +334,25 @@ msgid ""
 "not a static list and content can change over time; the descriptions were "
 "retrieved on July 21, 2021."
 msgstr ""
-"La lista de códigos `container` es una copia de los códigos y títulos de la "
-"lista de códigos [Medication Knowledge Package "
-"Type](https://terminology.hl7.org/CodeSystem/medicationknowledge-package-"
-"type/) de FHIR. Dado que los términos no están definidos en FHIR, las "
-"descripciones se han copiado de los términos correspondientes de la base de "
-"datos [EDQM Términos estándar](https://standardterms.edqm.eu), reproducidos "
-"con el permiso de la Dirección Europea de Calidad del Medicamento y "
-"Asistencia Sanitaria del Consejo de Europa (EDQM). La base de datos EDQM "
-"Términos estándar no es una lista estática y su contenido puede cambiar con "
-"el tiempo; las descripciones se recuperaron el 21 de julio de 2021."
 
-#: ../README.md:144
+#: ../README.md:145
 msgid "Background"
 msgstr "Antecedentes"
 
-#: ../README.md:146
+#: ../README.md:147
 msgid ""
 "This extension is based on research with 4 data users and 6 data publishers "
-"including public entities, journalists, medicine price analysts, and "
+"including public organizations, journalists, medicine price analysts, and "
 "software developers for medicine purchase systems from 9 countries in Latin "
 "America, Europe, and Africa. The extension includes the most used fields "
 "from the different countries."
 msgstr ""
-"Esta extensión se basa en una investigación con 4 usuarios de datos y 6 "
-"publicadores de datos, incluyendo entidades públicas, periodistas, analistas"
-" de precios de medicamentos y desarrolladores de software para sistemas de "
-"compra de medicamentos de 9 países de América Latina, Europa y África. La "
-"extensión incluye los campos más utilizados de los diferentes países."
 
-#: ../README.md:148
+#: ../README.md:149
 msgid "Issues"
 msgstr "Issues"
 
-#: ../README.md:150
+#: ../README.md:151
 msgid ""
 "Report issues for this extension in the [ocds-extensions "
 "repository](https://github.com/open-contracting/ocds-extensions/issues), "
@@ -383,3 +361,17 @@ msgstr ""
 "Reporte issues para esta extensión en el [repositorio de ocds-"
 "extensiones](https://github.com/open-contracting/ocds-extensions/issues), "
 "poniendo el nombre de la extensión en el título del issue."
+
+#: ../README.md:153
+msgid "Changelog"
+msgstr ""
+
+#: ../README.md:155
+msgid "2023-12-04"
+msgstr ""
+
+#: ../README.md:157
+msgid ""
+"Rename `container` to `immediateContainer` and `container.csv` to "
+"`immediateContainer.csv`"
+msgstr ""

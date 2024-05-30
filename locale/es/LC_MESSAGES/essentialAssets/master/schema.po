@@ -1,7 +1,7 @@
 # Translations template for PROJECT.
-# Copyright (C) 2022 ORGANIZATION
+# Copyright (C) 2024 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 # 
 # Translators:
 # James McKinney, 2021
@@ -12,19 +12,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-07 18:41-0300\n"
+"POT-Creation-Date: 2024-05-30 00:39-0400\n"
 "PO-Revision-Date: 2020-08-20 20:52+0000\n"
 "Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.15.0\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. /name/en
-#. /definitions/EssentialAssets/title
+#. /definitions/Lot/properties/essentialAssets/title
 #: extension.json:1 release-schema.json:1
 msgid "Essential assets"
 msgstr "Activos esenciales"
@@ -44,7 +44,7 @@ msgid "Essentials assets"
 msgstr "Activos esenciales"
 
 #. /definitions/Tender/properties/essentialAssets/description
-#. /definitions/EssentialAssets/description
+#. /definitions/Lot/properties/essentialAssets/description
 #: release-schema.json:1
 msgid ""
 "Information about the assets used for the provision of public services."
@@ -53,11 +53,13 @@ msgstr ""
 "públicos."
 
 #. /definitions/Tender/properties/hasEssentialAssets/title
+#. /definitions/Lot/properties/hasEssentialAssets/title
 #: release-schema.json:1
 msgid "Has essential assets"
 msgstr "Tiene activos esenciales"
 
 #. /definitions/Tender/properties/hasEssentialAssets/description
+#. /definitions/Lot/properties/hasEssentialAssets/description
 #: release-schema.json:1
 msgid ""
 "Whether there is information about the assets used for the provision of "
@@ -66,40 +68,46 @@ msgstr ""
 "Si existe información sobre los activos utilizados para la prestación de "
 "servicios públicos."
 
-#. /definitions/EssentialAssets/properties/description/title
+#. /definitions/EssentialAsset/title
+#: release-schema.json:1
+msgid "Essential asset"
+msgstr ""
+
+#. /definitions/EssentialAsset/description
+#: release-schema.json:1
+msgid "Information about the asset used for the provision of public services."
+msgstr ""
+
+#. /definitions/EssentialAsset/properties/description/title
 #: release-schema.json:1
 msgid "Description"
 msgstr "Descripción"
 
-#. /definitions/EssentialAssets/properties/description/description
+#. /definitions/EssentialAsset/properties/description/description
 #: release-schema.json:1
-msgid "Description of the essential assets."
-msgstr "Descripción de los activos esenciales."
+msgid "Description of the essential asset."
+msgstr ""
 
-#. /definitions/EssentialAssets/properties/significance/title
+#. /definitions/EssentialAsset/properties/significance/title
 #: release-schema.json:1
 msgid "Significance"
 msgstr "Significado"
 
-#. /definitions/EssentialAssets/properties/significance/description
+#. /definitions/EssentialAsset/properties/significance/description
 #: release-schema.json:1
 msgid ""
-"Share of the essential assets provided in relation to the overall assets "
-"needed for the provision of the public services."
+"Estimated percentage share of the essential asset provided in relation to "
+"the overall asset needed for the provision of the public services."
 msgstr ""
-"Proporción de los activos esenciales proporcionados en relación con los "
-"activos generales necesarios para la prestación de los servicios públicos"
 
-#. /definitions/EssentialAssets/properties/predominance/title
+#. /definitions/EssentialAsset/properties/predominance/title
 #: release-schema.json:1
 msgid "Predominance"
 msgstr "Predominancia"
 
-#. /definitions/EssentialAssets/properties/predominance/description
+#. /definitions/EssentialAsset/properties/predominance/description
 #: release-schema.json:1
 msgid ""
-"Estimated share of assets provided compared to assets used for activities "
-"other than the public services."
+"Estimated percentage share of asset provided compared to asset used for "
+"activities other than the public services."
 msgstr ""
-"Proporción estimada de activos proporcionados en comparación con activos "
-"utilizados para las actividades de los servicios públicos."
