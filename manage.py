@@ -1,8 +1,4 @@
 #!/usr/bin/env python
-"""
-See also https://ocdsextensionregistry.readthedocs.io/en/latest/translation.html
-"""
-
 import argparse
 import configparser
 import csv
@@ -68,18 +64,6 @@ def translatable_branches(repo):
         yield ref
 
 
-def transifex_resources(txconfig):
-    """
-    Return a tuple of the Transifex configuration text and all resource names.
-    """
-    content = txconfig.read_text()
-    config = configparser.ConfigParser()
-    config.read(txconfig)
-    return content, {
-        config.get(section, "resource_name") for section in config.sections() if "resource_name" in config[section]
-    }
-
-
 def run(args, **kwargs):
     """
     Echo and run a command.
@@ -90,6 +74,87 @@ def run(args, **kwargs):
         command = f"{command[:line_length]}..."
     click.echo(command)
     subprocess.run(args, check=True, **kwargs)
+
+
+def run_generate_pot_files(args):
+    """
+    Run ocdsextensionregistry generate-pot-files.
+    """
+    parser = argparse.ArgumentParser()
+    subparsers = parser.add_subparsers(required=True)
+    command = generate_pot_files.Command(subparsers)
+    args = ["generate-pot-files", *map(str, args)]
+    command.args = parser.parse_args(args)
+    click.echo(f"ocdsextensionregistry {' '.join(args)}")
+    command.handle()
+
+
+def transifex_resources(txconfig, transifex_project):
+    """
+    Return all names of Transifex resources as a set.
+    """
+    config = configparser.ConfigParser()
+    config.read(txconfig)
+    return {
+        f"{transifex_project}.{config[section]['resource_name']}"
+        for section in config.sections()
+        if "resource_name" in config[section]
+    }
+
+
+def create_txconfig(txconfig, transifex_organization, transifex_project, pot_dir, locale_dir):
+    """
+    Re-create the .tx/config file, delete any old resources and return any new resources.
+    """
+    click.secho("Regenerating .tx/config...", fg="blue")
+
+    text = txconfig.read_text()
+
+    before_resources = transifex_resources(txconfig, transifex_project)
+
+    txconfig.unlink()
+    run(["sphinx-intl", "create-txconfig"])
+    run(
+        [
+            "sphinx-intl",
+            "update-txconfig-resources",
+            "--transifex-organization-name",
+            transifex_organization,
+            "--transifex-project-name",
+            transifex_project,
+            "--pot-dir",
+            pot_dir,
+            "--locale-dir",
+            locale_dir,
+        ]
+    )
+
+    after_resources = transifex_resources(txconfig, transifex_project)
+
+    old_resources = before_resources - after_resources
+    if old_resources:
+        click.secho("Deleting old resources...", fg="blue")
+
+        # tx can't operate on unconfigured resources.
+        with config(txconfig, text):
+            run(["tx", "delete", "--skip", *old_resources])
+
+    return after_resources - before_resources
+
+
+@contextmanager
+def config(txconfig, replacement):
+    """
+    Run code using different content for the .tx/config file.
+    """
+    text = txconfig.read_text()
+
+    try:
+        txconfig.write_text(replacement)
+
+        yield
+    finally:
+        txconfig.write_text(text)
 
 
 @contextmanager
@@ -142,8 +207,8 @@ def add_and_remove(transifex_organization, transifex_project):
     """
     Add new extensions from the extension registry and remove yanked extensions.
     """
-    cwd = Path()
     repo = git.Repo()
+    cwd = Path()
     txconfig = cwd / ".tx" / "config"
     pot_dir = cwd / "build" / "locale"
     locale_dir = cwd / "locale"
@@ -178,13 +243,7 @@ def add_and_remove(transifex_organization, transifex_project):
         click.secho(f"+ {extension}", fg="green")
 
         # NOTE: Future languages can reuse these POT files.
-        parser = argparse.ArgumentParser(description="OCDS Extension Registry CLI")
-        subparsers = parser.add_subparsers(required=True)
-        command = generate_pot_files.Command(subparsers)
-        args = parser.parse_args(["generate-pot-files", str(pot_dir), extension])
-        command.args = args
-        click.echo(f"ocdsextensionregistry generate-pot-files {pot_dir} {extension}")
-        command.handle()
+        run_generate_pot_files([pot_dir, extension])
 
         # NOTE: This logic can be useful for any PO file, if not already pre-translated.
         for pot in (pot_dir / extension).glob("**/*.pot"):
@@ -200,42 +259,12 @@ def add_and_remove(transifex_organization, transifex_project):
             run(["pretranslate", "--progress=none", "--nofuzzymatching", "-t", compendium, pot, po])
 
     # Regenerate .tx/config file to remove any broken references.
-    click.secho("Regenerating .tx/config...", fg="blue")
-
-    before_text, before_resources = transifex_resources(txconfig)
-
-    txconfig.unlink()
-    run(["sphinx-intl", "create-txconfig"])
-    run(
-        [
-            "sphinx-intl",
-            "update-txconfig-resources",
-            "--transifex-organization-name",
-            transifex_organization,
-            "--transifex-project-name",
-            transifex_project,
-            "--pot-dir",
-            pot_dir,
-            "--locale-dir",
-            locale_dir,
-        ]
-    )
-
-    after_text, after_resources = transifex_resources(txconfig)
-
-    click.secho("Deleting old resources...", fg="blue")
-
-    # tx can't delete a resource without its configuration.
-    txconfig.write_text(before_text)
-    for resource in before_resources - after_resources:
-        run(["tx", "delete", "--skip", f"{transifex_project}.{resource}"])
-    txconfig.write_text(after_text)
+    new_resources = create_txconfig(txconfig, transifex_organization, transifex_project, pot_dir, locale_dir)
 
     # Push the POT (source) and PO (translation) files.
-    resources = [f"{transifex_project}.{resource}" for resource in after_resources - before_resources]
-    if resources:  # If no resources are provided, tx pushes all resources.
+    if new_resources:  # If no resources are provided, tx pushes all resources.
         click.secho("Pushing new resources...", fg="blue")
-        run(["tx", "push", "-s", "-t", "-l", "es", "--use-git-timestamps", *resources])
+        run(["tx", "push", "-s", "-t", "-l", "es", "--use-git-timestamps", *new_resources])
 
 
 @cli.command()
