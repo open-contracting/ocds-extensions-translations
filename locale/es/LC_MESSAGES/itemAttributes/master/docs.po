@@ -1,20 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 
+# Copyright (C)
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
+# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
+# James McKinney, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-30 00:39-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-07-31 17:44+0000\n"
+"Last-Translator: James McKinney, 2024\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../README.md:1
 msgid "Item attributes"
@@ -24,8 +30,8 @@ msgstr "Atributos del artículo"
 msgid ""
 "Adds an `attributes` array to the item object to list any  extra attribute "
 "that an item may have, at the tender, award or  contract stage. The "
-"attributes can be features like the item's model, brand, manufacturer, among "
-"others, including its value and an  unique identifier for that attribute"
+"attributes can be features like the item's model, brand, manufacturer, among"
+" others, including its value and an  unique identifier for that attribute"
 msgstr ""
 "Agrega una lista de `attributes` al objeto artículo para enumerar cualquier "
 "atributo adicional que pueda tener un artículo, en la fase de licitación, "
@@ -43,9 +49,9 @@ msgstr "Issues"
 
 #: ../README.md:33
 msgid ""
-"Report issues for this extension in the [ocds-extensions repository](https://"
-"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
-"name in the issue's title."
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
 msgstr ""
 "Reporte issues para esta extensión en el [repositorio de extensiones "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
@@ -56,5 +62,5 @@ msgid ""
 "This extension was originally discussed in <https://github.com/open-"
 "contracting/standard/issues/751>"
 msgstr ""
-"Esta extensión se discutió originalmente en <https://github.com/"
-"open-contracting/standard/issues/751>"
+"Esta extensión se discutió originalmente en <https://github.com/open-"
+"contracting/standard/issues/751>"

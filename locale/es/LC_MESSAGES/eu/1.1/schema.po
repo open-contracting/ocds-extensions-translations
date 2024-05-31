@@ -2,20 +2,27 @@
 # Copyright (C) 2024 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
+# 
+# Translators:
+# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
+# Maria Esther Cervantes <mcervantes@cds.com.py>, 2021
+# James McKinney, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-05-30 00:40-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2020-08-20 20:51+0000\n"
+"Last-Translator: James McKinney, 2024\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.15.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. /name/en
 #: extension.json:1
@@ -37,8 +44,8 @@ msgstr "Detalles de la revisión"
 #. /definitions/Tender/properties/reviewDetails/description
 #: release-schema.json:1
 msgid ""
-"Precise information concerning the time limits for the review procedures "
-"or contact information from which it can be obtained."
+"Precise information concerning the time limits for the review procedures or "
+"contact information from which it can be obtained."
 msgstr ""
 "Información precisa sobre los plazos para los procedimientos de revisión o "
 "información de contacto de la que se puede obtener."
@@ -124,8 +131,8 @@ msgstr "Kilómetros de servicios de transporte público de pasajeros"
 #. /definitions/Contract/properties/publicPassengerTransportServicesKilometers/description
 #: release-schema.json:1
 msgid ""
-"The number of kilometers of public passenger transport services provided "
-"by a public service contract."
+"The number of kilometers of public passenger transport services provided by "
+"a public service contract."
 msgstr ""
 "El número de kilómetros de servicios de transporte público de pasajeros "
 "prestados por un contrato de servicio público."
@@ -202,14 +209,14 @@ msgstr "Periodo de adjudicación"
 #. /definitions/Lot/properties/awardPeriod/description
 #: release-schema.json:1
 msgid ""
-"The period for decision making regarding the contract award for the lot. "
-"The end date should be the date on which an award decision is due to be "
-"finalized. The start date may be used to indicate the start of an "
-"evaluation period."
+"The period for decision making regarding the contract award for the lot. The"
+" end date should be the date on which an award decision is due to be "
+"finalized. The start date may be used to indicate the start of an evaluation"
+" period."
 msgstr ""
 "El plazo para la toma de decisiones sobre la adjudicación del contrato del "
-"lote. La fecha de finalización debe ser la fecha en la que se debe finalizar "
-"la decisión de adjudicación. La fecha de inicio se puede utilizar para "
+"lote. La fecha de finalización debe ser la fecha en la que se debe finalizar"
+" la decisión de adjudicación. La fecha de inicio se puede utilizar para "
 "indicar el inicio de un período de evaluación."
 
 #. /definitions/Lot/properties/hasAccessibilityCriteria/title
@@ -232,13 +239,13 @@ msgstr ""
 #. /definitions/Lot/properties/noAccessibilityCriteriaRationale/description
 #: release-schema.json:1
 msgid ""
-"The rationale for not including accessibility criteria when the object of"
-" the lot is intended for use by natural persons."
+"The rationale for not including accessibility criteria when the object of "
+"the lot is intended for use by natural persons."
 msgstr ""
 
 #. /definitions/Lot/properties/reviewDetails/description
 #: release-schema.json:1
 msgid ""
-"Precise information concerning the time limits for the review procedures "
-"for the lot or contact information from which it can be obtained."
+"Precise information concerning the time limits for the review procedures for"
+" the lot or contact information from which it can be obtained."
 msgstr ""

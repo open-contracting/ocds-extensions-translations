@@ -2,20 +2,27 @@
 # Copyright (C) 2024 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
+# 
+# Translators:
+# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
+# James McKinney, 2024
+# Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-05-30 00:40-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-03-14 18:28+0000\n"
+"Last-Translator: Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2024\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.15.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. /name/en
 #: extension.json:1
@@ -25,9 +32,8 @@ msgstr "Extensión OCDS para APPs"
 #. /description/en
 #: extension.json:1
 msgid ""
-"Makes changes required by the OCDS for PPPs profile. Evaluation "
-"indicators, finance summary and project details may be moved into new "
-"extensions."
+"Makes changes required by the OCDS for PPPs profile. Evaluation indicators, "
+"finance summary and project details may be moved into new extensions."
 msgstr ""
 "Realiza los cambios requeridos por el perfil de OCDS para APPs. Los "
 "indicadores de evaluación, resumen financiero y detalles del proyecto "
@@ -77,6 +83,9 @@ msgid ""
 "expressed as a decimal (for example, 0.1) and not as a percentage (for "
 "example, 10)."
 msgstr ""
+"La prima de riesgo utilizada por el gobierno al evaluar la opción de APP, "
+"expresada como decimal (por ejemplo, 0,1) y no como porcentaje (por ejemplo,"
+" 10)."
 
 #. /definitions/EvaluationIndicators/properties/riskPremiumDetails/title
 #: release-schema.json:1
@@ -85,8 +94,11 @@ msgstr "Detalles de la prima de riesgo"
 
 #. /definitions/EvaluationIndicators/properties/riskPremiumDetails/description
 #: release-schema.json:1
-msgid "Additional details on the risk premium used: for example, the rationale."
+msgid ""
+"Additional details on the risk premium used: for example, the rationale."
 msgstr ""
+"Detalles adicionales sobre la prima de riesgo utilizada: por ejemplo, la "
+"justificación."
 
 #. /definitions/EvaluationIndicators/properties/discountRate/title
 #: release-schema.json:1
@@ -100,6 +112,9 @@ msgid ""
 "expressed as a decimal (for example, 0.1) and not as a percentage (for "
 "example, 10)."
 msgstr ""
+"La tasa de descuento utilizada por el gobierno al evaluar la opción de APP, "
+"expresada como decimal (por ejemplo, 0,1) y no como porcentaje (por ejemplo,"
+" 10)."
 
 #. /definitions/EvaluationIndicators/properties/discountRateDetails/title
 #: release-schema.json:1
@@ -109,7 +124,7 @@ msgstr "Detalles de la tasa de descuento"
 #. /definitions/EvaluationIndicators/properties/discountRateDetails/description
 #: release-schema.json:1
 msgid "Additional details on the discount rate used."
-msgstr ""
+msgstr "Detalles adicionales sobre la tasa de descuento utilizada."
 
 #. /definitions/EvaluationIndicators/properties/netPresentValue/title
 #: release-schema.json:1
@@ -119,9 +134,11 @@ msgstr "Valor presente neto"
 #. /definitions/EvaluationIndicators/properties/netPresentValue/description
 #: release-schema.json:1
 msgid ""
-"The discounted value of an investment's cash inflows minus the discounted"
-" value of its cash outflows."
+"The discounted value of an investment's cash inflows minus the discounted "
+"value of its cash outflows."
 msgstr ""
+"El valor rebajado de las entradas de efectivo de una inversión menos el "
+"valor rebajado de sus salidas de efectivo."
 
 #. /definitions/EvaluationIndicators/properties/netPresentValueDetails/title
 #: release-schema.json:1
@@ -131,29 +148,31 @@ msgstr "Detalles del valor actual neto"
 #. /definitions/EvaluationIndicators/properties/netPresentValueDetails/description
 #: release-schema.json:1
 msgid "Additional details on the calculation of the net present value."
-msgstr ""
+msgstr "Detalles adicionales sobre el cálculo del valor actual neto."
 
 #. /definitions/FinanceSummary/properties/debtEquityRatio/title
 #: release-schema.json:1
 msgid "Debt-equity ratio"
-msgstr ""
+msgstr "Ratio de capital de la deuda"
 
 #. /definitions/FinanceSummary/properties/debtEquityRatio/description
 #: release-schema.json:1
 msgid ""
-"The debt-equity ratio of the project, expressed as a decimal (for "
-"example, 0.1). Also called gearing or leverage."
+"The debt-equity ratio of the project, expressed as a decimal (for example, "
+"0.1). Also called gearing or leverage."
 msgstr ""
+"El ratio deuda-capital del proyecto, expresado como decimal (por ejemplo, "
+"0,1). También llamado engranaje o apalancamiento."
 
 #. /definitions/FinanceSummary/properties/debtEquityRatioDetails/title
 #: release-schema.json:1
 msgid "Debt-equity ratio details"
-msgstr ""
+msgstr "Detalles del ratio deuda-capital"
 
 #. /definitions/FinanceSummary/properties/debtEquityRatioDetails/description
 #: release-schema.json:1
 msgid "Additional details on the calculation of the debt equity ratio."
-msgstr ""
+msgstr "Detalles adicionales sobre el cálculo del ratio de endeudamiento."
 
 #. /definitions/FinanceSummary/properties/shareCapital/title
 #: release-schema.json:1
@@ -163,9 +182,9 @@ msgstr "Capital accionario"
 #. /definitions/FinanceSummary/properties/shareCapital/description
 #: release-schema.json:1
 msgid ""
-"The value of the capital in the project that comes from the issue of "
-"shares."
+"The value of the capital in the project that comes from the issue of shares."
 msgstr ""
+"El valor del capital del proyecto que proviene de la emisión de acciones."
 
 #. /definitions/FinanceSummary/properties/shareCapitalDetails/title
 #: release-schema.json:1
@@ -175,7 +194,7 @@ msgstr "Detalles del capital social"
 #. /definitions/FinanceSummary/properties/shareCapitalDetails/description
 #: release-schema.json:1
 msgid "Additional details on the calculation of the share capital."
-msgstr ""
+msgstr "Detalles adicionales sobre el cálculo del capital social."
 
 #. /definitions/FinanceSummary/properties/subsidyRatio/title
 #: release-schema.json:1
@@ -188,6 +207,8 @@ msgid ""
 "The subsidy's proportion of the project value, expressed as a decimal "
 "between 0 and 1."
 msgstr ""
+"La proporción de la subvención sobre el valor del proyecto, expresada como "
+"un decimal entre 0 y 1."
 
 #. /definitions/FinanceSummary/properties/subsidyRatioDetails/title
 #: release-schema.json:1
@@ -197,7 +218,7 @@ msgstr "Detalles de la relación de subvención"
 #. /definitions/FinanceSummary/properties/subsidyRatioDetails/description
 #: release-schema.json:1
 msgid "Additional details on the calculation of the subsidy ratio."
-msgstr ""
+msgstr "Detalles adicionales sobre el cálculo del ratio de subvención."
 
 #. /definitions/FinanceSummary/properties/projectIRR/title
 #: release-schema.json:1
@@ -210,13 +231,15 @@ msgid ""
 "The internal rate of return of the project, expressed as a decimal (for "
 "example, 0.1) and not as a percentage (for example, 10)."
 msgstr ""
+"La tasa interna de retorno del proyecto, expresada como decimal (por "
+"ejemplo, 0,1) y no como porcentaje (por ejemplo, 10)."
 
 #. /definitions/FinanceSummary/properties/projectIRRDetails/title
 #: release-schema.json:1
 msgid "Internal rate of return details"
-msgstr ""
+msgstr "Detalles de la tasa interna de retorno"
 
 #. /definitions/FinanceSummary/properties/projectIRRDetails/description
 #: release-schema.json:1
 msgid "Additional details on the calculation of the project IRR."
-msgstr ""
+msgstr "Detalles adicionales sobre el cálculo de la TIR del proyecto."

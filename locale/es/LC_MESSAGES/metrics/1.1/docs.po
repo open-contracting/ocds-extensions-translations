@@ -1,20 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 
+# Copyright (C)
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
+# James McKinney, 2021
+# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
+# Maria Esther Cervantes <mcervantes@cds.com.py>, 2022
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-30 00:39-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-03-14 18:26+0000\n"
+"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2022\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../README.md:1
 msgid "Metrics Extension"
@@ -30,13 +37,15 @@ msgstr ""
 
 #: ../README.md:5
 msgid ""
-"Metrics are structured like an [OLAP data cube](https://en.wikipedia.org/"
-"wiki/OLAP_cube) with each instance of `Metric` representing a single "
-"**observation**, categorized by a number of **dimensions**."
+"Metrics are structured like an [OLAP data "
+"cube](https://en.wikipedia.org/wiki/OLAP_cube) with each instance of "
+"`Metric` representing a single **observation**, categorized by a number of "
+"**dimensions**."
 msgstr ""
-"Las métricas están estructuradas como un [cubo de datos OLAP](https://en."
-"wikipedia.org/wiki/OLAP_cube) con cada instancia de `Metric` representando "
-"una sola **observación**, categorizada por un número de **dimensiones**."
+"Las métricas están estructuradas como un [cubo de datos "
+"OLAP](https://en.wikipedia.org/wiki/OLAP_cube) con cada instancia de "
+"`Metric` representando una sola **observación**, categorizada por un número "
+"de **dimensiones**."
 
 #: ../README.md:7
 msgid "The metrics extension can be used at:"
@@ -53,8 +62,8 @@ msgid ""
 "The `tender` stage for targets for the contracting process (e.g. target "
 "availability levels or KPIs)"
 msgstr ""
-"La etapa `tender` para objetivos del proceso de contrataciones (por ejemplo: "
-"niveles de disponibilidad objetivo o indicadores clave de rendimiento)"
+"La etapa `tender` para objetivos del proceso de contrataciones (por ejemplo:"
+" niveles de disponibilidad objetivo o indicadores clave de rendimiento)"
 
 #: ../README.md:11
 msgid ""
@@ -76,8 +85,8 @@ msgid ""
 "process, the `description` field can be used to indicate whether the target "
 "is a minimum or recommended target."
 msgstr ""
-"Dónde se usa la extensión métricas para modelar objetivos para un proceso de "
-"contratación, el campo `description` puede usarse para indicar si el "
+"Dónde se usa la extensión métricas para modelar objetivos para un proceso de"
+" contratación, el campo `description` puede usarse para indicar si el "
 "objetivo es un mínimo o un objetivo recomendando. "
 
 #: ../README.md:16
@@ -94,8 +103,8 @@ msgstr "Progreso físico"
 
 #: ../README.md:61
 msgid ""
-"The physical progress of a highway's construction, by percent completion and "
-"kilometres constructed:"
+"The physical progress of a highway's construction, by percent completion and"
+" kilometres constructed:"
 msgstr ""
 
 #: ../README.md:118
@@ -104,9 +113,9 @@ msgstr "Issues"
 
 #: ../README.md:120
 msgid ""
-"Report issues for this extension in the [ocds-extensions repository](https://"
-"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
-"name in the issue's title."
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
 msgstr ""
 "Reporte issues para esta extensión en el [repositorio de extensiones "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
@@ -133,8 +142,8 @@ msgid ""
 "Set `\"uniqueItems\": true` on array fields, and add `\"minLength\": 1` on "
 "required string fields."
 msgstr ""
-"Establecer `\"uniqueItems \": true` en los campos matriz y agregar `"
-"\"minLength\": 1` en los campos de cadena obligatorios."
+"Establecer `\"uniqueItems \": true` en los campos matriz y agregar "
+"`\"minLength\": 1` en los campos de cadena obligatorios."
 
 #: ../README.md:131
 msgid "Make `Observation.unit` non-nullable, like `Item.unit`."
@@ -151,8 +160,8 @@ msgstr "2018-05-08"
 #: ../README.md:136
 msgid ""
 "Make `Metric.id` and `Observation.id` required to support revision tracking "
-"and [list merging](https://standard.open-contracting.org/latest/en/schema/"
-"merging/#array-values)"
+"and [list merging](https://standard.open-"
+"contracting.org/latest/en/schema/merging/#array-values)"
 msgstr ""
 
 #: ../README.md:138

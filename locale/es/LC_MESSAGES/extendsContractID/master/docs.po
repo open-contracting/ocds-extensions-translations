@@ -1,20 +1,28 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 
+# Copyright (C)
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
+# James McKinney, 2021
+# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
+# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
+# Maria Esther Cervantes <mcervantes@cds.com.py>, 2022
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-30 00:39-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-03-14 18:30+0000\n"
+"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2022\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../README.md:1
 msgid "extendsContractID"
@@ -26,8 +34,8 @@ msgid ""
 "of a contract, or to make other substantial alterations, requires a new "
 "contract to be signed."
 msgstr ""
-"Bajo algunas reglas y procesos de compras públicas, para extender el valor o "
-"duración del contrato, o para hacer grandes cambios, se requiere firmar un "
+"Bajo algunas reglas y procesos de compras públicas, para extender el valor o"
+" duración del contrato, o para hacer grandes cambios, se requiere firmar un "
 "nuevo contrato. "
 
 #: ../README.md:5
@@ -40,8 +48,8 @@ msgstr ""
 
 #: ../README.md:7
 msgid ""
-"In these cases, the `extendsContractID` field can be used to identify that a "
-"given entry in the `contracts` array should be understood as related to a "
+"In these cases, the `extendsContractID` field can be used to identify that a"
+" given entry in the `contracts` array should be understood as related to a "
 "previous contract."
 msgstr ""
 "En estos casos, el campo `extendsContractID` puede utilizarse para "
@@ -50,10 +58,10 @@ msgstr ""
 
 #: ../README.md:9
 msgid ""
-"Use this extension **only if** there is a substantive new contract signed as "
-"the extension of a previous contract. In most cases, an update to the value "
-"or duration of a contract should be modelled as an amendment within a single "
-"entry in the `contracts` array."
+"Use this extension **only if** there is a substantive new contract signed as"
+" the extension of a previous contract. In most cases, an update to the value"
+" or duration of a contract should be modelled as an amendment within a "
+"single entry in the `contracts` array."
 msgstr ""
 "Utilice esta extensión **sólo si** hay un nuevo contrato sustantivo firmado "
 "como la extensión de un contrato anterior. En la mayoría de los casos, una "
@@ -69,17 +77,17 @@ msgid ""
 "The extract below shows three contracts in the contracts array of an OCDS "
 "release."
 msgstr ""
-"El extracto más abajo muestra tres contratos en la matriz de contratos en un "
-"release OCDS."
+"El extracto más abajo muestra tres contratos en la matriz de contratos en un"
+" release OCDS."
 
 #: ../README.md:15
 msgid ""
 "The first two contracts were signed in 2011: one for one year for property "
 "rental, and the other for two years for services related to property rental."
 msgstr ""
-"Los primeros dos contratos se firmaron en 2011: uno por cada año de renta de "
-"la propiedad, y otro por dos años de servicios relacionados con la propiedad "
-"rentada."
+"Los primeros dos contratos se firmaron en 2011: uno por cada año de renta de"
+" la propiedad, y otro por dos años de servicios relacionados con la "
+"propiedad rentada."
 
 #: ../README.md:17
 msgid ""
@@ -99,17 +107,17 @@ msgid ""
 "extended (the blue circle)."
 msgstr ""
 "La imagen siguiente muestra un ejemplo de cómo se utiliza la información "
-"proporcionada por el campo `extendsContractID` en Paraguay, para mostrar dos "
-"contratos resultantes de una adjudicación (las casillas azules), con uno de "
-"esos contratos prorrogado (el círculo azul)."
+"proporcionada por el campo `extendsContractID` en Paraguay, para mostrar dos"
+" contratos resultantes de una adjudicación (las casillas azules), con uno de"
+" esos contratos prorrogado (el círculo azul)."
 
 #: ../README.md:110
 msgid ""
-"![Paraguay Example](https://cloud.githubusercontent.com/"
-"assets/342624/9915392/aecb1e52-5cae-11e5-9824-a6eb616e568b.png)"
+"![Paraguay "
+"Example](https://cloud.githubusercontent.com/assets/342624/9915392/aecb1e52-5cae-11e5-9824-a6eb616e568b.png)"
 msgstr ""
-"![Paraguay Example](https://cloud.githubusercontent.com/assets/342624/"
-"9915392/aecb1e52-5cae-11e5-9824-a6eb616e568b.png)"
+"![Paraguay "
+"Example](https://cloud.githubusercontent.com/assets/342624/9915392/aecb1e52-5cae-11e5-9824-a6eb616e568b.png)"
 
 #: ../README.md:110
 msgid "Paraguay Example"
@@ -121,9 +129,9 @@ msgstr "Issues"
 
 #: ../README.md:114
 msgid ""
-"Report issues for this extension in the [ocds-extensions repository](https://"
-"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
-"name in the issue's title."
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
 msgstr ""
 "Reporte issues para esta extensión en el [repositorio de extensiones "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "

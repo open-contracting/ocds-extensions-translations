@@ -1,20 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 
+# Copyright (C)
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
+# James McKinney, 2021
+# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-30 00:39-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2020-08-20 21:47+0000\n"
+"Last-Translator: Natalia Valdez <nataliavaldez@cds.com.py>, 2021\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../README.md:1
 msgid "Unstructured changes"
@@ -32,8 +38,8 @@ msgstr "Guía"
 msgid ""
 "In many procurement regimes, it is common to amend a procurement notice by "
 "describing the changes in words, rather than by re-publishing the full "
-"notice. This is because the process is designed for humans: it is easier for "
-"a human to read a description of changes, than to calculate the difference "
+"notice. This is because the process is designed for humans: it is easier for"
+" a human to read a description of changes, than to calculate the difference "
 "between two full notices."
 msgstr ""
 "En muchos regímenes de contratación, es habitual modificar un anuncio de "
@@ -72,8 +78,8 @@ msgstr "una etiqueta incorrecta o imprecisa en el aviso anterior"
 
 #: ../README.md:14
 msgid ""
-"The data type of the new value can be inconsistent with the data type of the "
-"field."
+"The data type of the new value can be inconsistent with the data type of the"
+" field."
 msgstr ""
 "El tipo de datos del nuevo valor puede ser inconsistente con el tipo de "
 "datos del campo."
@@ -83,13 +89,14 @@ msgid ""
 "OCDS is designed to be read by machines. Ideally, the source system from "
 "which OCDS data is exported contains the values of each field before and "
 "after a change. In that case, you should simply follow [the releases and "
-"records model](https://standard.open-contracting.org/latest/en/schema/"
-"reference/#release-handling)."
+"records model](https://standard.open-"
+"contracting.org/latest/en/schema/reference/#release-handling)."
 msgstr ""
 "El OCDS está diseñado para ser leído por máquinas. Lo ideal es que el "
 "sistema fuente desde el que se exportan los datos de OCDS contenga los "
 "valores de cada campo antes y después de un cambio. En ese caso, debería "
-"seguir simplemente [el modelo de entregas y registros](https://standard.open-"
+"seguir simplemente [el modelo de entregas y "
+"registros](https://standard.open-"
 "contracting.org/latest/es/schema/reference/#release-handling)."
 
 #: ../README.md:18
@@ -100,9 +107,9 @@ msgid ""
 "structure prevents much data analysis."
 msgstr ""
 "Esta extensión está pensada para ser utilizada sólo en los casos en que un "
-"sistema de origen no rastrea los valores de los campos, sino que rastrea una "
-"descripción de los cambios, como en la UE (véase *Contexto legal* más abajo)"
-". Nota: La falta de estructura impide muchos análisis de datos."
+"sistema de origen no rastrea los valores de los campos, sino que rastrea una"
+" descripción de los cambios, como en la UE (véase *Contexto legal* más "
+"abajo). Nota: La falta de estructura impide muchos análisis de datos."
 
 #: ../README.md:20
 msgid "Legal context"
@@ -110,20 +117,20 @@ msgstr "Contexto legal"
 
 #: ../README.md:22
 msgid ""
-"This extension was developed primarily to enable the mapping of the European "
-"Union's standard forms for public procurement to OCDS (specifically Form 14 "
-"Corrigendum), but it might be useful in non-EU contexts."
+"This extension was developed primarily to enable the mapping of the European"
+" Union's standard forms for public procurement to OCDS (specifically Form 14"
+" Corrigendum), but it might be useful in non-EU contexts."
 msgstr ""
 "Esta extensión se desarrolló principalmente para permitir la asignación de "
 "los formularios estándar de la Unión Europea para la contratación pública a "
-"OCDS (específicamente el Formulario 14 Corrigendum), pero podría ser útil en "
-"contextos no comunitarios."
+"OCDS (específicamente el Formulario 14 Corrigendum), pero podría ser útil en"
+" contextos no comunitarios."
 
 #: ../README.md:24
 msgid ""
-"See [OCDS for the European Union](https://standard.open-contracting.org/"
-"profiles/eu/latest/en/forms/F14/) for guidance on how to use it with TED F14 "
-"data."
+"See [OCDS for the European Union](https://standard.open-"
+"contracting.org/profiles/eu/latest/en/forms/F14/) for guidance on how to use"
+" it with TED F14 data."
 msgstr ""
 
 #: ../README.md:26
@@ -136,9 +143,9 @@ msgstr "Issues"
 
 #: ../README.md:91
 msgid ""
-"Report issues for this extension in the [ocds-extensions repository](https://"
-"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
-"name in the issue's title."
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
 msgstr ""
 "Reporte issues para esta extensión en el [repositorio de extensiones "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
@@ -182,13 +189,12 @@ msgstr "Agregar las propiedades `minProperties`, `minItems` y/o `minLength`."
 
 #: ../README.md:111
 msgid ""
-"This extension was originally discussed as part of the [OCDS for EU profile]"
-"(https://github.com/open-contracting-extensions/european-union/issues/63) "
-"and in [pull requests](https://github.com/open-contracting-extensions/"
-"ocds_unstructuredChanges_extension/pulls?q=is%3Apr+is%3Aclosed)."
+"This extension was originally discussed as part of the [OCDS for EU "
+"profile](https://github.com/open-contracting-extensions/european-"
+"union/issues/63) and in [pull requests](https://github.com/open-contracting-"
+"extensions/ocds_unstructuredChanges_extension/pulls?q=is%3Apr+is%3Aclosed)."
 msgstr ""
-"Esta extensión se discutió originalmente como parte del [OCDS para el perfil "
-"de la UE] (https://github.com/open-contracting-extensions/european-union/"
-"issues/63), en [pull resquests](https://github.com/"
-"open-contracting-extensions/ocds_unstructuredChanges_extension/"
-"pulls?q=is%3Apr+is%3Aclosed)."
+"Esta extensión se discutió originalmente como parte del [OCDS para el perfil"
+" de la UE] (https://github.com/open-contracting-extensions/european-"
+"union/issues/63), en [pull resquests](https://github.com/open-contracting-"
+"extensions/ocds_unstructuredChanges_extension/pulls?q=is%3Apr+is%3Aclosed)."

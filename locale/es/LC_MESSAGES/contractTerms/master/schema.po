@@ -2,20 +2,26 @@
 # Copyright (C) 2024 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
+# 
+# Translators:
+# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
+# James McKinney, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-05-30 00:39-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2020-08-20 21:46+0000\n"
+"Last-Translator: James McKinney, 2024\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.15.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. /name/en
 #. /definitions/Tender/properties/contractTerms/title
@@ -28,8 +34,8 @@ msgstr "Términos del contrato"
 #. /description/en
 #: extension.json:1
 msgid ""
-"Adds a contract terms object to the tender and lot objects, to describe "
-"the terms governing the future contract."
+"Adds a contract terms object to the tender and lot objects, to describe the "
+"terms governing the future contract."
 msgstr ""
 "Agrega un objeto términos del contrato a los objetos de la licitación y del "
 "lote, para describir los términos que rigen al futuro contrato."
@@ -45,7 +51,8 @@ msgstr ""
 
 #. /definitions/Lot/properties/contractTerms/description
 #: release-schema.json:1
-msgid "Information about the terms governing the future contracts for the lot."
+msgid ""
+"Information about the terms governing the future contracts for the lot."
 msgstr ""
 "Información sobre los términos que rigen los contratos futuros del lote."
 
@@ -81,7 +88,8 @@ msgstr "Política de facturación electrónica"
 
 #. /definitions/ContractTerms/properties/electronicInvoicingPolicy/description
 #: release-schema.json:1
-msgid "Whether the buyer will require, allow or not allow electronic invoices."
+msgid ""
+"Whether the buyer will require, allow or not allow electronic invoices."
 msgstr ""
 "Si el comprador requerirá, permitirá o no permitirá las facturas "
 "electrónicas."
@@ -109,8 +117,8 @@ msgstr "Rendimiento de los términos"
 #: release-schema.json:1
 msgid ""
 "The main information about the performance of the contract (e.g. "
-"intermediary deliverables, compensation for damages, intellectual "
-"property rights)."
+"intermediary deliverables, compensation for damages, intellectual property "
+"rights)."
 msgstr ""
 "La información principal sobre la ejecución del contrato (por ejemplo, "
 "entregables intermediarios, compensación por daños, derechos de propiedad "
@@ -157,8 +165,8 @@ msgid ""
 "particular area, to the exclusion of any other such operator."
 msgstr ""
 "Un derecho que permite a un operador de servicio público operar ciertos "
-"servicios públicos de transporte de pasajeros en una ruta o red particular o "
-"en un área particular, con exclusión de cualquier otro operador."
+"servicios públicos de transporte de pasajeros en una ruta o red particular o"
+" en un área particular, con exclusión de cualquier otro operador."
 
 #. /definitions/ContractTerms/properties/exclusiveRights/title
 #: release-schema.json:1
@@ -194,8 +202,7 @@ msgstr "Otros términos"
 #. /definitions/ContractTerms/properties/otherTerms/description
 #: release-schema.json:1
 msgid ""
-"Other contract terms that do not fit the semantics of any other OCDS "
-"field."
+"Other contract terms that do not fit the semantics of any other OCDS field."
 msgstr ""
 "Otros términos del contrato que no se ajustan a la semántica de ningún otro "
 "campo OCDS."
@@ -220,9 +227,9 @@ msgstr "Estándares sociales"
 #. /definitions/ContractTerms/properties/socialStandards/description
 #: release-schema.json:1
 msgid ""
-"The required social standards, for example: detail of the contractual "
-"rights of the staff concerned, and conditions under which employees are "
-"considered to be linked to the services."
+"The required social standards, for example: detail of the contractual rights"
+" of the staff concerned, and conditions under which employees are considered"
+" to be linked to the services."
 msgstr ""
 "Los estándares sociales requeridos, por ejemplo: detalle de los derechos "
 "contractuales del personal afectado y condiciones en las que se considera "

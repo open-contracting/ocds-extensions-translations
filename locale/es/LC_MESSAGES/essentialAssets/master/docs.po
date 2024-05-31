@@ -1,20 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 
+# Copyright (C)
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
+# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
+# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
+# James McKinney, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-30 00:39-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2020-08-20 20:52+0000\n"
+"Last-Translator: James McKinney, 2024\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../README.md:1
 msgid "Essential assets"
@@ -22,8 +29,8 @@ msgstr "Activos esenciales"
 
 #: ../README.md:3
 msgid ""
-"Adds an object to the tender and lot objects to describe the assets used for "
-"the provision of public services."
+"Adds an object to the tender and lot objects to describe the assets used for"
+" the provision of public services."
 msgstr ""
 
 #: ../README.md:5
@@ -32,9 +39,10 @@ msgstr "Guía"
 
 #: ../README.md:7
 msgid ""
-"If you are using the [Lots extension](https://extensions.open-contracting."
-"org/en/extensions/lots/master/), [follow its guidance](https://extensions."
-"open-contracting.org/en/extensions/lots/master/#guidance) on whether to use "
+"If you are using the [Lots extension](https://extensions.open-"
+"contracting.org/en/extensions/lots/master/), [follow its "
+"guidance](https://extensions.open-"
+"contracting.org/en/extensions/lots/master/#guidance) on whether to use "
 "`tender.lots` fields or `tender` fields."
 msgstr ""
 
@@ -45,15 +53,16 @@ msgstr "Contexto legal"
 #: ../README.md:11
 msgid ""
 "In the European Union, this extension's fields correspond to [Article 4, "
-"clause 4 of Regulation 1370/2007](https://eur-lex.europa.eu/legal-content/EN/"
-"TXT/?uri=CELEX%3A32007R1370) and [eForms OPP-020-Contract (Assets related "
-"contract extension indicator), OPP-021-Contract (Used asset), OPP-022-"
-"Contract (Significance (%)), and OPP-023-Contract (Predominance (%))]"
-"(https://docs.ted.europa.eu/eforms/latest/reference/business-terms/).For "
-"correspondences to eForms fields, see [OCDS for eForms](https://standard."
-"open-contracting.org/profiles/eforms/latest/en/). For correspondences to "
-"Tenders Electronic Daily (TED), see [OCDS for the European Union](https://"
-"standard.open-contracting.org/profiles/eu/latest/en/)."
+"clause 4 of Regulation 1370/2007](https://eur-lex.europa.eu/legal-"
+"content/EN/TXT/?uri=CELEX%3A32007R1370) and [eForms OPP-020-Contract (Assets"
+" related contract extension indicator), OPP-021-Contract (Used asset), "
+"OPP-022-Contract (Significance (%)), and OPP-023-Contract (Predominance "
+"(%))](https://docs.ted.europa.eu/eforms/latest/reference/business-"
+"terms/).For correspondences to eForms fields, see [OCDS for "
+"eForms](https://standard.open-contracting.org/profiles/eforms/latest/en/). "
+"For correspondences to Tenders Electronic Daily (TED), see [OCDS for the "
+"European Union](https://standard.open-"
+"contracting.org/profiles/eu/latest/en/)."
 msgstr ""
 
 #: ../README.md:13
@@ -74,9 +83,9 @@ msgstr "Issues"
 
 #: ../README.md:54
 msgid ""
-"Report issues for this extension in the [ocds-extensions repository](https://"
-"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
-"name in the issue's title."
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
 msgstr ""
 "Reporte issues para esta extensión en el [repositorio de extensiones "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
@@ -113,12 +122,12 @@ msgstr "Agregar las propiedades `minProperties`, `minItems` y/o `minLength`."
 #: ../README.md:70
 msgid ""
 "This extension was originally discussed as part of the OCDS for EU profile "
-"in [issue #60](https://github.com/open-contracting-extensions/european-union/"
-"issues/60) and in [pull requests](https://github.com/open-contracting-"
+"in [issue #60](https://github.com/open-contracting-extensions/european-"
+"union/issues/60) and in [pull requests](https://github.com/open-contracting-"
 "extensions/ocds_essentialAssets_extension/pulls?q=is%3Apr+is%3Aclosed)."
 msgstr ""
 "Esta extensión se discutió originalmente como parte del OCDS para el perfil "
-"de la UE en [issue #60](https://github.com/open-contracting-extensions/"
-"european-union/issues/60) y en [pull requests](https://github.com/"
-"open-contracting-extensions/ocds_essentialAssets_extension/"
-"pulls?q=is%3Apr+is%3Aclosed)."
+"de la UE en [issue #60](https://github.com/open-contracting-"
+"extensions/european-union/issues/60) y en [pull "
+"requests](https://github.com/open-contracting-"
+"extensions/ocds_essentialAssets_extension/pulls?q=is%3Apr+is%3Aclosed)."

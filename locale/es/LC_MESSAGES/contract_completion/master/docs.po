@@ -1,20 +1,28 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 
+# Copyright (C)
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
+# James McKinney, 2021
+# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
+# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
+# Maria Esther Cervantes <mcervantes@cds.com.py>, 2021
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-30 00:39-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-03-14 18:30+0000\n"
+"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2021\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../README.md:1
 msgid "Contracts completion"
@@ -22,8 +30,8 @@ msgstr "Finalización de los contratos"
 
 #: ../README.md:3
 msgid ""
-"The Open Contracting Data Standard can be used to provide information on all "
-"stages of a contracting process, from planning through to implementation."
+"The Open Contracting Data Standard can be used to provide information on all"
+" stages of a contracting process, from planning through to implementation."
 msgstr ""
 "El Estándar de Datos de Contrataciones Abiertas se puede usar para dar "
 "información sobre todas las etapas del proceso de contrataciones, desde la "
@@ -47,16 +55,17 @@ msgstr "Utilizar campos OCDS existentes dentro de un registro de contratos"
 #: ../README.md:9
 msgid ""
 "OCDS contains many existing fields that can be used as part of a Contracts "
-"Register. These are documented in the [schema reference](https://standard."
-"open-contracting.org/latest/en/schema/reference/). This extension does not "
-"modify any of these fields. However, the following list is provided for "
+"Register. These are documented in the [schema "
+"reference](https://standard.open-"
+"contracting.org/latest/en/schema/reference/). This extension does not modify"
+" any of these fields. However, the following list is provided for "
 "convenience of those considering the design of a contracts register:"
 msgstr ""
 
 #: ../README.md:11
 msgid ""
-"**Supplier details**  should be recorded within the `awards` section, linked "
-"via `contracts.awardID` (even if you are only releasing information at the "
+"**Supplier details**  should be recorded within the `awards` section, linked"
+" via `contracts.awardID` (even if you are only releasing information at the "
 "contract stage, you may provide information in the tender and award "
 "sections)."
 msgstr ""
@@ -67,37 +76,39 @@ msgstr ""
 
 #: ../README.md:12
 msgid "**Contract documents** can be linked to under `contracts.documents`."
-msgstr "**Documentos del contrato** se puede enlazar en `contracts.documents`."
+msgstr ""
+"**Documentos del contrato** se puede enlazar en `contracts.documents`."
 
 #: ../README.md:13
 msgid ""
-"**Performance reports** can be provided under `contracts.implementation."
-"documents`."
+"**Performance reports** can be provided under "
+"`contracts.implementation.documents`."
 msgstr ""
-"**Reportes de desempeño** se pueden proporcionar en `contracts.implementation"
-".documents`."
+"**Reportes de desempeño** se pueden proporcionar en "
+"`contracts.implementation.documents`."
 
 #: ../README.md:14
 msgid ""
-"**Details of payments** can be provided under `contracts.implementation."
-"transactions`."
+"**Details of payments** can be provided under "
+"`contracts.implementation.transactions`."
 msgstr ""
-"**Detalles de los pagos** se pueden proporcionar en `contracts.implementation"
-".transactions`."
+"**Detalles de los pagos** se pueden proporcionar en "
+"`contracts.implementation.transactions`."
 
 #: ../README.md:15
 msgid ""
-"**Progress details** can be provided using `contracts.implementation."
-"milestones`."
+"**Progress details** can be provided using "
+"`contracts.implementation.milestones`."
 msgstr ""
-"**Los detalles del progreso** se pueden proporcionar usando `contracts."
-"implementation.milestones`."
+"**Los detalles del progreso** se pueden proporcionar usando "
+"`contracts.implementation.milestones`."
 
 #: ../README.md:16
 msgid ""
 "**Amendments** can be described using the `contracts.amendments` array, and "
-"with past values provided using the OCDS releases model [as described here]"
-"(https://standard.open-contracting.org/latest/en/implementation/amendments/)."
+"with past values provided using the OCDS releases model [as described "
+"here](https://standard.open-"
+"contracting.org/latest/en/implementation/amendments/)."
 msgstr ""
 
 #: ../README.md:18
@@ -107,14 +118,14 @@ msgstr "Utilizar hitos para mostrar la finalización de un contrato"
 #: ../README.md:20
 msgid ""
 "Milestones may have a `status` of 'scheduled', 'met', 'notMet' or "
-"'partiallyMet'. By providing at least one milestone for a contract, and then "
-"ensuring `milestones.status` is updated when `implementation.endDate` you "
+"'partiallyMet'. By providing at least one milestone for a contract, and then"
+" ensuring `milestones.status` is updated when `implementation.endDate` you "
 "can indicate whether a contract ended with successful delivery of all "
 "milestones and deliverables."
 msgstr ""
 "Los hitos pueden tener un `status` de 'scheduled', 'met', 'notMet' o "
-"'partiallyMet'. Al dar al menos un hito por contrato, y asegurar que `"
-"milestone/status` se actualice cuando `implementation/endDate` se puede "
+"'partiallyMet'. Al dar al menos un hito por contrato, y asegurar que "
+"`milestone/status` se actualice cuando `implementation/endDate` se puede "
 "indicar que un contrato terminó con la entrega exitosa de todos los hitos y "
 "entregables."
 
@@ -135,13 +146,13 @@ msgstr ""
 
 #: ../README.md:56
 msgid ""
-"The [examples](https://github.com/open-contracting-extensions/"
-"ocds_contract_completion_extension/tree/master/examples) directory contains "
-"a full worked example with:"
+"The [examples](https://github.com/open-contracting-"
+"extensions/ocds_contract_completion_extension/tree/master/examples) "
+"directory contains a full worked example with:"
 msgstr ""
-"El directorio de [ejemplos](https://github.com/open-contracting-extensions/"
-"ocds_contract_completion_extension/tree/master/examples) contiene un "
-"completo ejemplo práctico con:"
+"El directorio de [ejemplos](https://github.com/open-contracting-"
+"extensions/ocds_contract_completion_extension/tree/master/examples) contiene"
+" un completo ejemplo práctico con:"
 
 #: ../README.md:58
 msgid "A release that provides details of a contract;"
@@ -169,8 +180,8 @@ msgstr "Esto también se proporciona como registro OCDS y como archivo Excel."
 
 #: ../README.md:64
 msgid ""
-"In the Excel file, it is possible to see three releases describing the three "
-"key moments from the same contracting process."
+"In the Excel file, it is possible to see three releases describing the three"
+" key moments from the same contracting process."
 msgstr ""
 "En el archivo Excel, es posible ver tres entregas que describen los tres "
 "momentos clave del mismo proceso de contratación."
@@ -181,9 +192,9 @@ msgstr "Issues"
 
 #: ../README.md:68
 msgid ""
-"Report issues for this extension in the [ocds-extensions repository](https://"
-"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
-"name in the issue's title."
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
 msgstr ""
 "Reporte issues para esta extensión en el [repositorio de extensiones "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
@@ -214,5 +225,5 @@ msgid ""
 "This extension was originally discussed in <https://github.com/open-"
 "contracting/standard/issues/703>."
 msgstr ""
-"Esta extensión se discutió originalmente en  <https://github.com/"
-"open-contracting/standard/issues/703>."
+"Esta extensión se discutió originalmente en  <https://github.com/open-"
+"contracting/standard/issues/703>."

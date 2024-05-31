@@ -2,20 +2,25 @@
 # Copyright (C) 2024 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
+# 
+# Translators:
+# James McKinney, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-05-30 00:40-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2024-05-30 03:39+0000\n"
+"Last-Translator: James McKinney, 2024\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.15.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. /name/en
 #. /definitions/Tender/properties/suitability/title
@@ -36,8 +41,8 @@ msgstr ""
 #. /definitions/Tender/properties/suitability/description
 #: release-schema.json:1
 msgid ""
-"Information about the suitability of the contracting process to different"
-" types of tenderers."
+"Information about the suitability of the contracting process to different "
+"types of tenderers."
 msgstr ""
 
 #. /definitions/Lot/properties/suitability/description
@@ -57,8 +62,8 @@ msgstr ""
 #. /definitions/Suitability/description
 #: release-schema.json:1
 msgid ""
-"Information about the suitability of a contracting process, lot or lot "
-"group to different types of tenderers."
+"Information about the suitability of a contracting process, lot or lot group"
+" to different types of tenderers."
 msgstr ""
 
 #. /definitions/Suitability/properties/sme/title
@@ -69,6 +74,6 @@ msgstr ""
 #. /definitions/Suitability/properties/sme/description
 #: release-schema.json:1
 msgid ""
-"Whether the contracting process, lot or lot group is suitable to small "
-"and medium enterprises."
+"Whether the contracting process, lot or lot group is suitable to small and "
+"medium enterprises."
 msgstr ""

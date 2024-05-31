@@ -1,20 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 
+# Copyright (C)
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
+# James McKinney, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-30 00:39-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-05-15 22:31+0000\n"
+"Last-Translator: James McKinney, 2024\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../README.md:1
 msgid "Sustainability extension"
@@ -22,8 +27,8 @@ msgstr ""
 
 #: ../README.md:3
 msgid ""
-"Adds fields to the tender and lot objects, to provide information related to "
-"Sustainable Public Procurement (SPP)."
+"Adds fields to the tender and lot objects, to provide information related to"
+" Sustainable Public Procurement (SPP)."
 msgstr ""
 
 #: ../README.md:5
@@ -37,7 +42,8 @@ msgid ""
 msgstr ""
 
 #: ../README.md:9
-msgid "Select the contracting processes or individual lots that relate to SPP."
+msgid ""
+"Select the contracting processes or individual lots that relate to SPP."
 msgstr ""
 
 #: ../README.md:10
@@ -75,12 +81,13 @@ msgstr ""
 
 #: ../README.md:20
 msgid ""
-"If you know the sustainability goals pursued through the contracting process "
-"or lot, then, for each goal, add an entry in its `sustainability` array, "
+"If you know the sustainability goals pursued through the contracting process"
+" or lot, then, for each goal, add an entry in its `sustainability` array, "
 "from the `sustainabilityGoal.csv` codelist.  This codelist contains codes "
 "for broad goals (like 'environmental') and narrower goals (like "
-"'environmental.wasteReduction'). It is an [open codelist](https://standard."
-"open-contracting.org/latest/en/schema/codelists/), such that you can add new "
+"'environmental.wasteReduction'). It is an [open "
+"codelist](https://standard.open-"
+"contracting.org/latest/en/schema/codelists/), such that you can add new "
 "codes if no existing code is appropriate."
 msgstr ""
 
@@ -129,8 +136,8 @@ msgstr ""
 #: ../README.md:88
 msgid ""
 "If the `sustainabilityGoal.csv` codelist contains no appropriate code, "
-"create your own code. To create a narrower code, add a period to an existing "
-"code, followed by a camelCase word:"
+"create your own code. To create a narrower code, add a period to an existing"
+" code, followed by a camelCase word:"
 msgstr ""
 
 #: ../README.md:102
@@ -159,8 +166,9 @@ msgstr "Antecedentes"
 
 #: ../README.md:159
 msgid ""
-"This extension uses the [UNEP definition](https://wedocs.unep.org/bitstream/"
-"handle/20.500.11822/37045/SPPWSG.pdf) of SPP:"
+"This extension uses the [UNEP "
+"definition](https://wedocs.unep.org/bitstream/handle/20.500.11822/37045/SPPWSG.pdf)"
+" of SPP:"
 msgstr ""
 
 #: ../README.md:161
@@ -168,8 +176,8 @@ msgid ""
 "A process whereby public sector organizations meet their needs for goods, "
 "services, works and utilities in a way that achieves value for money on a "
 "whole life basis in terms of generating benefits not only to the "
-"organization, but also to society and the economy, whilst minimizing, and if "
-"possible, avoiding, damage to the environment."
+"organization, but also to society and the economy, whilst minimizing, and if"
+" possible, avoiding, damage to the environment."
 msgstr ""
 
 #: ../README.md:163
@@ -177,17 +185,19 @@ msgid ""
 "The `sustainabilityGoal.csv` codelist is based on the goals defined in the "
 "[OpenSPP toolkit](https://openspp.super.site/what-is-spp-and-open-spp) and "
 "the [EU's strategic procurement codelist](https://op.europa.eu/en/web/eu-"
-"vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/"
-"resource/authority/strategic-procurement)."
+"vocabularies/concept-"
+"scheme/-/resource?uri=http://publications.europa.eu/resource/authority/strategic-"
+"procurement)."
 msgstr ""
 
 #: ../README.md:165
 msgid ""
 "The `sustainabilityStrategy.csv` codelist is based on the strategies "
 "described in the [OpenSPP toolkit](https://openspp.super.site/implement/set-"
-"sustainable-criteria) and the [EU's strategic procurement codelist](https://"
-"op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://"
-"publications.europa.eu/resource/authority/strategic-procurement)."
+"sustainable-criteria) and the [EU's strategic procurement "
+"codelist](https://op.europa.eu/en/web/eu-vocabularies/concept-"
+"scheme/-/resource?uri=http://publications.europa.eu/resource/authority/strategic-"
+"procurement)."
 msgstr ""
 
 #: ../README.md:167
@@ -196,9 +206,9 @@ msgstr "Issues"
 
 #: ../README.md:169
 msgid ""
-"Report issues for this extension in the [ocds-extensions repository](https://"
-"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
-"name in the issue's title."
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
 msgstr ""
 "Reporte issues para esta extensión en el [repositorio de extensiones "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "

@@ -2,20 +2,26 @@
 # Copyright (C) 2024 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
+# 
+# Translators:
+# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
+# James McKinney, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-05-30 00:40-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2020-08-20 21:51+0000\n"
+"Last-Translator: James McKinney, 2024\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.15.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. /name/en
 #. /definitions/Award/properties/subcontracting/title
@@ -28,9 +34,9 @@ msgstr "Subcontratación"
 #. /description/en
 #: extension.json:1
 msgid ""
-"Adds objects for information about the terms governing subcontracting and"
-" the parts of the contract that tenderers and suppliers will subcontract "
-"to third parties."
+"Adds objects for information about the terms governing subcontracting and "
+"the parts of the contract that tenderers and suppliers will subcontract to "
+"third parties."
 msgstr ""
 
 #. /definitions/Tender/properties/subcontractingTerms/title
@@ -75,8 +81,8 @@ msgstr ""
 #. /definitions/Subcontracting/description
 #: release-schema.json:1
 msgid ""
-"Information about the parts of the contract that will be subcontracted to"
-" third parties."
+"Information about the parts of the contract that will be subcontracted to "
+"third parties."
 msgstr ""
 
 #. /definitions/SubcontractingTerms/description
@@ -100,7 +106,8 @@ msgstr "Una descripción de los términos que rigen la subcontratación."
 #: release-schema.json:1
 msgid "Maximum percentage of contract value for competitive subcontracting"
 msgstr ""
-"Porcentaje máximo del valor del contrato para una subcontratación competitiva"
+"Porcentaje máximo del valor del contrato para una subcontratación "
+"competitiva"
 
 #. /definitions/SubcontractingTerms/properties/competitiveMaximumPercentage/description
 #. /definitions/Subcontracting/properties/competitiveMaximumPercentage/description
@@ -116,7 +123,8 @@ msgstr ""
 #: release-schema.json:1
 msgid "Minimum percentage of contract value for competitive subcontracting"
 msgstr ""
-"Porcentaje mínimo del valor del contrato para una subcontratación competitiva"
+"Porcentaje mínimo del valor del contrato para una subcontratación "
+"competitiva"
 
 #. /definitions/SubcontractingTerms/properties/competitiveMinimumPercentage/description
 #. /definitions/Subcontracting/properties/competitiveMinimumPercentage/description
@@ -130,8 +138,8 @@ msgstr ""
 #. /definitions/Subcontracting/properties/description/description
 #: release-schema.json:1
 msgid ""
-"The description of the part of the contract that will be subcontracted to"
-" third parties."
+"The description of the part of the contract that will be subcontracted to "
+"third parties."
 msgstr ""
 
 #. /definitions/Subcontracting/properties/maximumPercentage/title
@@ -166,8 +174,8 @@ msgstr "Valor subcontratado"
 #. /definitions/Subcontracting/properties/value/description
 #: release-schema.json:1
 msgid ""
-"The estimated value of the part of the contract that will be "
-"subcontracted to third parties."
+"The estimated value of the part of the contract that will be subcontracted "
+"to third parties."
 msgstr ""
 
 #. /definitions/Subcontracting/properties/competitive/title
@@ -178,8 +186,8 @@ msgstr "Subcontratación competitiva"
 #. /definitions/Subcontracting/properties/competitive/description
 #: release-schema.json:1
 msgid ""
-"Whether the supplier will subcontract part of the contract to third "
-"parties through a competitive procedure."
+"Whether the supplier will subcontract part of the contract to third parties "
+"through a competitive procedure."
 msgstr ""
 "Si el proveedor subcontratará parte del contrato a terceros mediante un "
 "procedimiento competitivo."
@@ -202,8 +210,8 @@ msgstr ""
 #. /definitions/Subcontract/description
 #: release-schema.json:1
 msgid ""
-"A relationship that suppliers establish with a third party to perform "
-"part of the contract on their behalf."
+"A relationship that suppliers establish with a third party to perform part "
+"of the contract on their behalf."
 msgstr ""
 
 #. /definitions/Subcontract/properties/id/title
@@ -236,7 +244,7 @@ msgstr ""
 #. /definitions/Subcontract/properties/mainContractors/description
 #: release-schema.json:1
 msgid ""
-"The organizations to which the subcontractor will be subcontracted, if "
-"they are a subset of the tenderers submitting the bid or the suppliers "
-"receiving the award."
+"The organizations to which the subcontractor will be subcontracted, if they "
+"are a subset of the tenderers submitting the bid or the suppliers receiving "
+"the award."
 msgstr ""

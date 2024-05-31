@@ -2,1275 +2,1276 @@
 # Copyright (C) 2024 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-05-30 00:39-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2024-05-30 04:36+0000\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.15.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: codelists/country.csv
 msgid "Code"
-msgstr "Código"
+msgstr ""
 
 #: codelists/country.csv
 msgid "Title"
-msgstr "Título"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:1
 msgid "Andorra"
-msgstr "Andorra"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:2
 msgid "United Arab Emirates"
-msgstr "Emiratos Árabes Unidos"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:3
 msgid "Afghanistan"
-msgstr "Afganistán"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:4
 msgid "Antigua and Barbuda"
-msgstr "Antigua y Barbuda"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:5
 msgid "Anguilla"
-msgstr "Anguilla"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:6
 msgid "Albania"
-msgstr "Albania"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:7
 msgid "Armenia"
-msgstr "Armenia"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:8
 msgid "Angola"
-msgstr "Angola"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:9
 msgid "Antarctica"
-msgstr "Antártida"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:10
 msgid "Argentina"
-msgstr "Argentina"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:11
 msgid "American Samoa"
-msgstr "Samoa Americana"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:12
 msgid "Austria"
-msgstr "Austria"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:13
 msgid "Australia"
-msgstr "Australia"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:14
 msgid "Aruba"
-msgstr "Aruba"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:15
 msgid "Åland Islands"
-msgstr "Islas Åland"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:16
 msgid "Azerbaijan"
-msgstr "Azerbaiyán"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:17
 msgid "Bosnia and Herzegovina"
-msgstr "Bosnia-Herzegovina"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:18
 msgid "Barbados"
-msgstr "Barbados"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:19
 msgid "Bangladesh"
-msgstr "Bangladesh"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:20
 msgid "Belgium"
-msgstr "Bélgica"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:21
 msgid "Burkina Faso"
-msgstr "Burkina Faso"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:22
 msgid "Bulgaria"
-msgstr "Bulgaria"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:23
 msgid "Bahrain"
-msgstr "Bahrein"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:24
 msgid "Burundi"
-msgstr "Burundi"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:25
 msgid "Benin"
-msgstr "Benín"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:26
 msgid "Saint Barthélemy"
-msgstr "San Bartolomé"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:27
 msgid "Bermuda"
-msgstr "Bermuda"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:28
 msgid "Brunei Darussalam"
-msgstr "Brunei Darussalam"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:29
 msgid "Bolivia (Plurinational State of)"
-msgstr "Bolivia (Estado Plurinacional de)"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:30
 msgid "Bonaire, Sint Eustatius and Saba"
-msgstr "Bonaire, San Eustaquio y Saba"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:31
 msgid "Brazil"
-msgstr "Brasil"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:32
 msgid "Bahamas"
-msgstr "Bahamas"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:33
 msgid "Bhutan"
-msgstr "Bután"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:34
 msgid "Bouvet Island"
-msgstr "Isla Bouvet"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:35
 msgid "Botswana"
-msgstr "Botsuana"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:36
 msgid "Belarus"
-msgstr "Bielorrusia"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:37
 msgid "Belize"
-msgstr "Belice"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:38
 msgid "Canada"
-msgstr "Canadá"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:39
 msgid "Cocos (Keeling) Islands"
-msgstr "Islas Cocos"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:40
 msgid "Congo (the Democratic Republic of the)"
-msgstr "Congo (República Democrática del)"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:41
 msgid "Central African Republic"
-msgstr "República Centroafricana"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:42
 msgid "Congo"
-msgstr "Congo"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:43
 msgid "Switzerland"
-msgstr "Suiza"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:44
 msgid "Côte d'Ivoire"
-msgstr "Costa de Marfil"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:45
 msgid "Cook Islands"
-msgstr "Islas Cook"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:46
 msgid "Chile"
-msgstr "Chile"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:47
 msgid "Cameroon"
-msgstr "Camerún"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:48
 msgid "China"
-msgstr "China"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:49
 msgid "Colombia"
-msgstr "Colombia"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:50
 msgid "Costa Rica"
-msgstr "Costa Rica"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:51
 msgid "Cuba"
-msgstr "Cuba"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:52
 msgid "Cabo Verde"
-msgstr "Cabo Verde"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:53
 msgid "Curaçao"
-msgstr "Curaçao"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:54
 msgid "Christmas Island"
-msgstr "Isla de Navidad"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:55
 msgid "Cyprus"
-msgstr "Chipre"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:56
 msgid "Czechia"
-msgstr "Chequia"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:57
 msgid "Germany"
-msgstr "Alemania"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:58
 msgid "Djibouti"
-msgstr "Yibuti"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:59
 msgid "Denmark"
-msgstr "Dinamarca"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:60
 msgid "Dominica"
-msgstr "Dominica"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:61
 msgid "Dominican Republic"
-msgstr "República Dominicana"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:62
 msgid "Algeria"
-msgstr "Argelia"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:63
 msgid "Ecuador"
-msgstr "Ecuador"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:64
 msgid "Estonia"
-msgstr "Estonia"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:65
 msgid "Egypt"
-msgstr "Egipto"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:66
 msgid "Western Sahara"
-msgstr "Sáhara Occidental"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:67
 msgid "Eritrea"
-msgstr "Eritrea"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:68
 msgid "Spain"
-msgstr "España"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:69
 msgid "Ethiopia"
-msgstr "Etiopía"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:70
 msgid "Finland"
-msgstr "Finlandia"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:71
 msgid "Fiji"
-msgstr "Fiji"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:72
 msgid "Falkland Islands [Malvinas]"
-msgstr "Islas Malvinas [Falkland]"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:73
 msgid "Micronesia (Federated States of)"
-msgstr "Micronesia (Estados Federados de)"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:74
 msgid "Faroe Islands"
-msgstr "Islas Feroe"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:75
 msgid "France"
-msgstr "Francia"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:76
 msgid "Gabon"
-msgstr "Gabón"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:77
 msgid "United Kingdom of Great Britain and Northern Ireland"
-msgstr "Reino Unido de Gran Bretaña y el Norte de Irlanda"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:78
 msgid "Grenada"
-msgstr "Granada"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:79
 msgid "Georgia"
-msgstr "Georgia"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:80
 msgid "French Guiana"
-msgstr "Guayana Francesa"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:81
 msgid "Guernsey"
-msgstr "Guernsey"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:82
 msgid "Ghana"
-msgstr "Ghana"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:83
 msgid "Gibraltar"
-msgstr "Gibraltar"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:84
 msgid "Greenland"
-msgstr "Groenlandia"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:85
 msgid "Gambia"
-msgstr "Gambia"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:86
 msgid "Guinea"
-msgstr "Guinea Ecuatorial"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:87
 msgid "Guadeloupe"
-msgstr "Guadalupe"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:88
 msgid "Equatorial Guinea"
-msgstr "Guinea Ecuatorial"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:89
 msgid "Greece"
-msgstr "Grecia"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:90
 msgid "South Georgia and the South Sandwich Islands"
-msgstr "Islas Georgias del Sur y Sándwich del Sur"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:91
 msgid "Guatemala"
-msgstr "Guatemala"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:92
 msgid "Guam"
-msgstr "Guam"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:93
 msgid "Guinea-Bissau"
-msgstr "Guinea Bissau"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:94
 msgid "Guyana"
-msgstr "Guyana"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:95
 msgid "Hong Kong"
-msgstr "Hong Kong"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:96
 msgid "Heard Island and McDonald Islands"
-msgstr "Islas Heard y McDonald"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:97
 msgid "Honduras"
-msgstr "Honduras"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:98
 msgid "Croatia"
-msgstr "Croacia"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:99
 msgid "Haiti"
-msgstr "Haiti"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:100
 msgid "Hungary"
-msgstr "Hungría"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:101
 msgid "Indonesia"
-msgstr "Indonesia"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:102
 msgid "Ireland"
-msgstr "Irlanda"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:103
 msgid "Israel"
-msgstr "Israel"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:104
 msgid "Isle of Man"
-msgstr "Isla de Man"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:105
 msgid "India"
-msgstr "India"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:106
 msgid "British Indian Ocean Territory"
-msgstr "Territorio Británico del Océano Índico"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:107
 msgid "Iraq"
-msgstr "Iraq"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:108
 msgid "Iran (Islamic Republic of)"
-msgstr "Irán (República Islámica de)"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:109
 msgid "Iceland"
-msgstr "Islandia"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:110
 msgid "Italy"
-msgstr "Italia"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:111
 msgid "Jersey"
-msgstr "Jersey"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:112
 msgid "Jamaica"
-msgstr "Jamaica"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:113
 msgid "Jordan"
-msgstr "Jordania"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:114
 msgid "Japan"
-msgstr "Japón"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:115
 msgid "Kenya"
-msgstr "Kenia"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:116
 msgid "Kyrgyzstan"
-msgstr "Kirguistán"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:117
 msgid "Cambodia"
-msgstr "Camboya"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:118
 msgid "Kiribati"
-msgstr "Kiribati"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:119
 msgid "Comoros"
-msgstr "Comores"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:120
 msgid "Saint Kitts and Nevis"
-msgstr "San Cristobal y Nevis"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:121
 msgid "Korea (the Democratic People's Republic of)"
-msgstr "Corea (República Popular Democrática de)"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:122
 msgid "Korea (the Republic of)"
-msgstr "Corea (República de)"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:123
 msgid "Kuwait"
-msgstr "Kuwait"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:124
 msgid "Cayman Islands"
-msgstr "Islas Caimán"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:125
 msgid "Kazakhstan"
-msgstr "Kazajstán"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:126
 msgid "Lao People's Democratic Republic"
-msgstr "República Democrática Popular Lao​"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:127
 msgid "Lebanon"
-msgstr "Líbano"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:128
 msgid "Saint Lucia"
-msgstr "Santa Lucía"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:129
 msgid "Liechtenstein"
-msgstr "Liechtenstein"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:130
 msgid "Sri Lanka"
-msgstr "Sri Lanka"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:131
 msgid "Liberia"
-msgstr "Liberia"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:132
 msgid "Lesotho"
-msgstr "Lesotho"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:133
 msgid "Lithuania"
-msgstr "Lituania"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:134
 msgid "Luxembourg"
-msgstr "Luxemburgo"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:135
 msgid "Latvia"
-msgstr "Letonia"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:136
 msgid "Libya"
-msgstr "Libia"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:137
 msgid "Morocco"
-msgstr "Marruecos"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:138
 msgid "Monaco"
-msgstr "Mónaco"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:139
 msgid "Moldova (the Republic of)"
-msgstr "Moldavia (República de)"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:140
 msgid "Montenegro"
-msgstr "Montenegro"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:141
 msgid "Saint Martin (French part)"
-msgstr "San Martin (Parte francesa)"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:142
 msgid "Madagascar"
-msgstr "Madagascar"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:143
 msgid "Marshall Islands"
-msgstr "Islas Marshall"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:144
 msgid "North Macedonia"
-msgstr "Macedonia Norte"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:145
 msgid "Mali"
-msgstr "Malí"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:146
 msgid "Myanmar"
-msgstr "Myanmar"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:147
 msgid "Mongolia"
-msgstr "Mongolia"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:148
 msgid "Macao"
-msgstr "Macao"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:149
 msgid "Northern Mariana Islands"
-msgstr "Islas Marianas del Norte"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:150
 msgid "Martinique"
-msgstr "Martinica"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:151
 msgid "Mauritania"
-msgstr "Mauritania"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:152
 msgid "Montserrat"
-msgstr "Montserrat"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:153
 msgid "Malta"
-msgstr "Malta"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:154
 msgid "Mauritius"
-msgstr "Mauricio"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:155
 msgid "Maldives"
-msgstr "Maldivas"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:156
 msgid "Malawi"
-msgstr "Malawi"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:157
 msgid "Mexico"
-msgstr "México"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:158
 msgid "Malaysia"
-msgstr "Malasia"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:159
 msgid "Mozambique"
-msgstr "Mozambique"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:160
 msgid "Namibia"
-msgstr "Namibia"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:161
 msgid "New Caledonia"
-msgstr "Nueva Caledonia"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:162
 msgid "Niger"
-msgstr "Niger"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:163
 msgid "Norfolk Island"
-msgstr "Isla Norfolk"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:164
 msgid "Nigeria"
-msgstr "Nigeria"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:165
 msgid "Nicaragua"
-msgstr "Nicaragua"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:166
 msgid "Netherlands"
-msgstr "Países Bajos"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:167
 msgid "Norway"
-msgstr "Noruega"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:168
 msgid "Nepal"
-msgstr "Nepal"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:169
 msgid "Nauru"
-msgstr "Nauru"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:170
 msgid "Niue"
-msgstr "Niue"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:171
 msgid "New Zealand"
-msgstr "Nueva Zelanda"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:172
 msgid "Oman"
-msgstr "Omán"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:173
 msgid "Panama"
-msgstr "Panamá"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:174
 msgid "Peru"
-msgstr "Perú"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:175
 msgid "French Polynesia"
-msgstr "Polinesia Francesa"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:176
 msgid "Papua New Guinea"
-msgstr "Papúa-Nueva Guinea"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:177
 msgid "Philippines"
-msgstr "Filipinas"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:178
 msgid "Pakistan"
-msgstr "Pakistán"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:179
 msgid "Poland"
-msgstr "Polonia"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:180
 msgid "Saint Pierre and Miquelon"
-msgstr "San Pedro y Miquelón"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:181
 msgid "Pitcairn"
-msgstr "Isla Pitcairn"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:182
 msgid "Puerto Rico"
-msgstr "Puerto Rico"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:183
 msgid "Palestine, State of"
-msgstr "Palestina, Estado de"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:184
 msgid "Portugal"
-msgstr "Portugal"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:185
 msgid "Palau"
-msgstr "Palau"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:186
 msgid "Paraguay"
-msgstr "Paraguay"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:187
 msgid "Qatar"
-msgstr "Qatar"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:188
 msgid "Réunion"
-msgstr "Reunión"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:189
 msgid "Romania"
-msgstr "Rumanía"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:190
 msgid "Serbia"
-msgstr "Serbia"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:191
 msgid "Russian Federation"
-msgstr "Federación Rusa"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:192
 msgid "Rwanda"
-msgstr "Ruanda"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:193
 msgid "Saudi Arabia"
-msgstr "Arabia Saudita"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:194
 msgid "Solomon Islands"
-msgstr "Islas Salomón"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:195
 msgid "Seychelles"
-msgstr "Seychelles"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:196
 msgid "Sudan"
-msgstr "Sudán"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:197
 msgid "Sweden"
-msgstr "Suecia"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:198
 msgid "Singapore"
-msgstr "Singapur"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:199
 msgid "Saint Helena, Ascension and Tristan da Cunha"
-msgstr "Santa Elena, Ascensión y Tristán de Acuña"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:200
 msgid "Slovenia"
-msgstr "Eslovenia"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:201
 msgid "Svalbard and Jan Mayen"
-msgstr "Svalbard y Jan Mayen"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:202
 msgid "Slovakia"
-msgstr "Eslovaquia"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:203
 msgid "Sierra Leone"
-msgstr "Sierra Leona"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:204
 msgid "San Marino"
-msgstr "San Marino"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:205
 msgid "Senegal"
-msgstr "Senegal"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:206
 msgid "Somalia"
-msgstr "Somalia"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:207
 msgid "Suriname"
-msgstr "Surinam"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:208
 msgid "South Sudan"
-msgstr "Sudán del Sur"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:209
 msgid "Sao Tome and Principe"
-msgstr "Santo Tomé y Príncipe"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:210
 msgid "El Salvador"
-msgstr "El Salvador"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:211
 msgid "Sint Maarten (Dutch part)"
-msgstr "San Martín (Países Bajos)"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:212
 msgid "Syrian Arab Republic"
-msgstr "Siria"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:213
 msgid "Eswatini"
-msgstr "Suazilandia"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:214
 msgid "Turks and Caicos Islands"
-msgstr "Islas Turcas y Caicos"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:215
 msgid "Chad"
-msgstr "Chad"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:216
 msgid "French Southern Territories"
-msgstr "Tierras Australes y Antárticas Francesas"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:217
 msgid "Togo"
-msgstr "Togo"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:218
 msgid "Thailand"
-msgstr "Tailandia"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:219
 msgid "Tajikistan"
-msgstr "Tadjikistan"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:220
 msgid "Tokelau"
-msgstr "Tokelau"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:221
 msgid "Timor-Leste"
-msgstr "Timor Oriental"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:222
 msgid "Turkmenistan"
-msgstr "Turkmenistan"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:223
 msgid "Tunisia"
-msgstr "Túnez"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:224
 msgid "Tonga"
-msgstr "Tonga"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:225
 msgid "Turkey"
-msgstr "Turquía"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:226
 msgid "Trinidad and Tobago"
-msgstr "Trinidad y Tobago"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:227
 msgid "Tuvalu"
-msgstr "Tuvalu"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:228
 msgid "Taiwan (Province of China)"
-msgstr "Taiwán (Provincia de China)"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:229
 msgid "Tanzania, the United Republic of"
-msgstr "Tanzania, la República Unida de"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:230
 msgid "Ukraine"
-msgstr "Ucrania"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:231
 msgid "Uganda"
-msgstr "Uganda"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:232
 msgid "United States Minor Outlying Islands"
-msgstr "Islas Ultramarinas Menores de los Estados Unidos"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:233
 msgid "United States of America"
-msgstr "Estados Unidos de América"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:234
 msgid "Uruguay"
-msgstr "Uruguay"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:235
 msgid "Uzbekistan"
-msgstr "Uzbekistán"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:236
 msgid "Holy See"
-msgstr "Ciudad del Vaticano"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:237
 msgid "Saint Vincent and the Grenadines"
-msgstr "San Vincente y Granadinas"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:238
 msgid "Venezuela (Bolivarian Republic of)"
-msgstr "Venezuela (República Bolivariana de)"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:239
 msgid "Virgin Islands (British)"
-msgstr "Islas Vírgenes (Británicas)"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:240
 msgid "Virgin Islands (U.S.)"
-msgstr "Islas Vírgenes (Estados Unidos)"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:241
 msgid "Viet Nam"
-msgstr "Vietnam"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:242
 msgid "Vanuatu"
-msgstr "República de Vanuatu"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:243
 msgid "Wallis and Futuna"
-msgstr "Wallis y Futuna"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:244
 msgid "Samoa"
-msgstr "Samoa"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:245
 msgid "Kosovo"
-msgstr "Kosovo"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:246
 msgid "Yemen"
-msgstr "Yemen"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:247
 msgid "Mayotte"
-msgstr "Mayotte"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:248
 msgid "South Africa"
-msgstr "Sudáfrica"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:249
 msgid "Zambia"
-msgstr "Zambia"
+msgstr ""
 
 #. Title
 #: codelists/country.csv:250
 msgid "Zimbabwe"
-msgstr "Zimbabwe"
+msgstr ""

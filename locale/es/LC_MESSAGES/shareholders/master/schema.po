@@ -2,20 +2,26 @@
 # Copyright (C) 2024 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
+# 
+# Translators:
+# James McKinney, 2024
+# Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-05-30 00:40-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-03-14 18:31+0000\n"
+"Last-Translator: Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2024\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.15.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. /name/en
 #: extension.json:1
@@ -25,11 +31,11 @@ msgstr "Accionistas"
 #. /description/en
 #: extension.json:1
 msgid ""
-"Adds company ownership fields to the organization object used in the "
-"parties array."
+"Adds company ownership fields to the organization object used in the parties"
+" array."
 msgstr ""
-"Agrega campos de propiedad de la empresa al objeto de organización utilizado "
-"en la lista de partes."
+"Agrega campos de propiedad de la empresa al objeto de organización utilizado"
+" en la lista de partes."
 
 #. /definitions/Shareholder/title
 #. /definitions/Shareholder/properties/shareholding/title
@@ -40,7 +46,7 @@ msgstr "Participación"
 #. /definitions/Shareholder/description
 #: release-schema.json:1
 msgid "A shareholding in an organization."
-msgstr ""
+msgstr "Una participación accionaria en una organización."
 
 #. /definitions/Shareholder/properties/id/title
 #: release-schema.json:1
@@ -51,6 +57,8 @@ msgstr "ID"
 #: release-schema.json:1
 msgid "A local identifier for this shareholding, unique within this array."
 msgstr ""
+"Un identificador local para esta participación accionaria, único dentro de "
+"esta lista."
 
 #. /definitions/Shareholder/properties/shareholder/title
 #: release-schema.json:1
@@ -60,7 +68,7 @@ msgstr "Accionista"
 #. /definitions/Shareholder/properties/shareholder/description
 #: release-schema.json:1
 msgid "The organization holding the share."
-msgstr ""
+msgstr "La organización titular de la acción."
 
 #. /definitions/Shareholder/properties/shareholding/description
 #: release-schema.json:1
@@ -68,29 +76,35 @@ msgid ""
 "The proportion of the organization's shares held by the shareholder, "
 "expressed as a decimal between 0 and 1."
 msgstr ""
+"La proporción de las acciones de la organización en poder del accionista, "
+"expresada como un decimal entre 0 y 1."
 
 #. /definitions/Shareholder/properties/votingRights/title
 #: release-schema.json:1
 msgid "Voting rights"
-msgstr ""
+msgstr "Derecho al voto"
 
 #. /definitions/Shareholder/properties/votingRights/description
 #: release-schema.json:1
 msgid "The type of voting rights associated with the shareholder's shares."
 msgstr ""
+"El tipo de derechos de voto asociados con las acciones del accionista."
 
 #. /definitions/Shareholder/properties/votingRightsDetails/title
 #: release-schema.json:1
 msgid "Voting rights details"
-msgstr ""
+msgstr "Detalles de los derechos de voto"
 
 #. /definitions/Shareholder/properties/votingRightsDetails/description
 #: release-schema.json:1
 msgid ""
 "Detailed information about the voting rights associated with the "
-"shareholder's shares: for example, when the shareholder voting rights are"
-" restricted, additional or enhanced."
+"shareholder's shares: for example, when the shareholder voting rights are "
+"restricted, additional or enhanced."
 msgstr ""
+"Información detallada sobre los derechos de voto asociados a las acciones "
+"del accionista: por ejemplo, cuando los derechos de voto de los accionistas "
+"son restringidos, adicionales o mejorados."
 
 #. /definitions/Shareholder/properties/notes/title
 #: release-schema.json:1
@@ -100,21 +114,29 @@ msgstr "Notas"
 #. /definitions/Shareholder/properties/notes/description
 #: release-schema.json:1
 msgid ""
-"Additional notes on the shareholding or shareholder: for example, details"
-" on any caps on equity transfer, or lock-in arrangements, applicable to "
-"the shareholder."
+"Additional notes on the shareholding or shareholder: for example, details on"
+" any caps on equity transfer, or lock-in arrangements, applicable to the "
+"shareholder."
 msgstr ""
+"Notas adicionales sobre la participación o el accionista: por ejemplo, "
+"detalles sobre cualquier límite a la transferencia de capital o acuerdos de "
+"bloqueo aplicables al accionista."
 
 #. /definitions/Organization/properties/shareholders/title
 #: release-schema.json:1
 msgid "Shareholdings"
-msgstr ""
+msgstr "Participaciones accionarias"
 
 #. /definitions/Organization/properties/shareholders/description
 #: release-schema.json:1
 msgid ""
 "Shareholdings in the organization: used to provide company ownership "
-"information for firms, primarily in the case of large and complex "
-"contracts, like public private partnerships, that require disclosure of "
-"this information by bidders or suppliers."
+"information for firms, primarily in the case of large and complex contracts,"
+" like public private partnerships, that require disclosure of this "
+"information by bidders or suppliers."
 msgstr ""
+"Participaciones accionarias en la organización: se utiliza para proporcionar"
+" información sobre la propiedad de las empresas, principalmente en el caso "
+"de contratos grandes y complejos, como asociaciones público-privadas, que "
+"requieren la divulgación de esta información por parte de los oferentes o "
+"proveedores."

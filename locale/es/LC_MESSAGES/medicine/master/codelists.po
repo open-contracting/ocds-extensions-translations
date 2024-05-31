@@ -2,20 +2,26 @@
 # Copyright (C) 2024 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
+# 
+# Translators:
+# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
+# Maria Esther Cervantes <mcervantes@cds.com.py>, 2021
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-05-30 00:40-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-07-31 17:45+0000\n"
+"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2021\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.15.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: codelists/administrationRoute.csv codelists/dosageForm.csv
 #: codelists/immediateContainer.csv
@@ -1174,10 +1180,10 @@ msgstr "Aceite"
 #. Description
 #: codelists/dosageForm.csv:11
 msgid ""
-"An unctuous, combustible substance which is liquid, or easily "
-"liquefiable, on warming, and is soluble in ether but insoluble in water. "
-"Such substances, depending on their origin, are classified as animal, "
-"mineral, or vegetable oils."
+"An unctuous, combustible substance which is liquid, or easily liquefiable, "
+"on warming, and is soluble in ether but insoluble in water. Such substances,"
+" depending on their origin, are classified as animal, mineral, or vegetable "
+"oils."
 msgstr ""
 "Sustancia untuosa y combustible que es líquida, o fácilmente licuable, al "
 "calentarse, y es soluble en éter pero insoluble en agua. Estas sustancias, "
@@ -1192,11 +1198,11 @@ msgstr "Solución líquida"
 #: codelists/dosageForm.csv:12
 msgid ""
 "A liquid preparation that contains one or more chemical substances "
-"dissolved, i.e., molecularly dispersed, in a suitable solvent or mixture "
-"of mutually miscible solvents."
+"dissolved, i.e., molecularly dispersed, in a suitable solvent or mixture of "
+"mutually miscible solvents."
 msgstr ""
-"Preparación líquida que contiene una o más sustancias químicas disueltas, es "
-"decir, molecularmente dispersas, en un disolvente adecuado o en una mezcla "
+"Preparación líquida que contiene una o más sustancias químicas disueltas, es"
+" decir, molecularmente dispersas, en un disolvente adecuado o en una mezcla "
 "de disolventes mutuamente miscibles."
 
 #. Title
@@ -1207,11 +1213,11 @@ msgstr "Crema"
 #. Description
 #: codelists/dosageForm.csv:13
 msgid ""
-"A semisolid dosage form containing one or more drug substances dissolved "
-"or dispersed in a suitable base; more recently, the term has been "
-"restricted to products consisting of oil-in-water emulsions or aqueous "
-"microcrystalline dispersions of long chain fatty acids or alcohols that "
-"are water washable and more cosmetically and aesthetically acceptable."
+"A semisolid dosage form containing one or more drug substances dissolved or "
+"dispersed in a suitable base; more recently, the term has been restricted to"
+" products consisting of oil-in-water emulsions or aqueous microcrystalline "
+"dispersions of long chain fatty acids or alcohols that are water washable "
+"and more cosmetically and aesthetically acceptable."
 msgstr ""
 "Forma de dosificación semisólida que contiene una o más sustancias "
 "farmacológicas disueltas o dispersas en una base adecuada; más "
@@ -1228,8 +1234,8 @@ msgstr "Loción"
 #. Description
 #: codelists/dosageForm.csv:14
 msgid ""
-"The term \"lotion\" has been used to categorize many topical suspensions,"
-" solutions and emulsions intended for application to the skin."
+"The term \"lotion\" has been used to categorize many topical suspensions, "
+"solutions and emulsions intended for application to the skin."
 msgstr ""
 "El término \"loción\" se ha utilizado para clasificar muchas suspensiones, "
 "soluciones y emulsiones tópicas destinadas a ser aplicadas en la piel."
@@ -1257,8 +1263,7 @@ msgstr "Gel"
 #: codelists/dosageForm.csv:16
 msgid ""
 "A semisolid system consisting of either suspensions made up of small "
-"inorganic particles or large organic molecules interpenetrated by a "
-"liquid."
+"inorganic particles or large organic molecules interpenetrated by a liquid."
 msgstr ""
 "Sistema semisólido formado por suspensiones de pequeñas partículas "
 "inorgánicas o grandes moléculas orgánicas interpenetradas por un líquido."
@@ -1271,8 +1276,8 @@ msgstr "Pasta"
 #. Description
 #: codelists/dosageForm.csv:17
 msgid ""
-"A semisolid dosage form that contains one or more drug substances "
-"intended for topical application."
+"A semisolid dosage form that contains one or more drug substances intended "
+"for topical application."
 msgstr ""
 "Forma de dosificación farmacéutica semisólida que contiene una o más "
 "sustancias farmacológicas destinadas a la aplicación tópica."
@@ -1322,8 +1327,8 @@ msgstr "Cristales"
 #. Description
 #: codelists/dosageForm.csv:23
 msgid ""
-"A naturally produced angular solid of definite form in which the ultimate"
-" units from which it is built up are systematically arranged; they are "
+"A naturally produced angular solid of definite form in which the ultimate "
+"units from which it is built up are systematically arranged; they are "
 "usually evenly spaced on a regular space lattice."
 msgstr ""
 "Sólido angular de forma definida, producido naturalmente, en el que las "
@@ -1364,8 +1369,8 @@ msgstr "Goma de Mascar"
 #. Description
 #: codelists/dosageForm.csv:27
 msgid ""
-"A sweetened and flavored insoluble plastic material of various shapes "
-"which when chewed, releases a drug substance into the oral cavity."
+"A sweetened and flavored insoluble plastic material of various shapes which "
+"when chewed, releases a drug substance into the oral cavity."
 msgstr ""
 "Material plástico insoluble, azucarado y aromatizado, de diversas formas, "
 "que al ser masticado libera una sustancia farmacológica en la cavidad bucal."
@@ -1383,14 +1388,14 @@ msgstr "Parche"
 #. Description
 #: codelists/dosageForm.csv:29
 msgid ""
-"A drug delivery system that contains an adhesived backing and that "
-"permits its ingredients to diffuse from some portion of it (e.g., the "
-"backing itself, a reservoir, the adhesive, or some other component) into "
-"the body from the external site where it is applied."
+"A drug delivery system that contains an adhesived backing and that permits "
+"its ingredients to diffuse from some portion of it (e.g., the backing "
+"itself, a reservoir, the adhesive, or some other component) into the body "
+"from the external site where it is applied."
 msgstr ""
 "Un sistema de administración de fármacos que contiene un soporte adhesivo y "
-"que permite que sus ingredientes se difundan desde alguna parte del mismo ("
-"por ejemplo, el propio soporte, un depósito, el adhesivo o algún otro "
+"que permite que sus ingredientes se difundan desde alguna parte del mismo "
+"(por ejemplo, el propio soporte, un depósito, el adhesivo o algún otro "
 "componente) hacia el cuerpo desde el lugar externo donde se aplica."
 
 #. Title
@@ -1402,11 +1407,11 @@ msgstr "Pellet (Gránulo)"
 #: codelists/dosageForm.csv:30
 msgid ""
 "A small sterile solid mass consisting of a highly purified drug (with or "
-"without excipients) made by the formation of granules, or by compression "
-"and molding."
+"without excipients) made by the formation of granules, or by compression and"
+" molding."
 msgstr ""
-"Pequeña masa sólida estéril que consiste en un fármaco altamente purificado ("
-"con o sin excipientes) fabricado por la formación de gránulos, o por "
+"Pequeña masa sólida estéril que consiste en un fármaco altamente purificado "
+"(con o sin excipientes) fabricado por la formación de gránulos, o por "
 "compresión y moldeo."
 
 #. Title
@@ -1417,8 +1422,8 @@ msgstr "Píldora"
 #. Description
 #: codelists/dosageForm.csv:31
 msgid ""
-"A small, round solid dosage form containing a medicinal agent intended "
-"for oral administration."
+"A small, round solid dosage form containing a medicinal agent intended for "
+"oral administration."
 msgstr ""
 "Forma de dosificación sólida, pequeña y redonda, que contiene un agente "
 "medicinal destinado a la administración oral."
@@ -1431,11 +1436,11 @@ msgstr "Polvo"
 #. Description
 #: codelists/dosageForm.csv:32
 msgid ""
-"An intimate mixture of dry, finely divided drugs and/or chemicals that "
-"may be intended for internal or external use."
+"An intimate mixture of dry, finely divided drugs and/or chemicals that may "
+"be intended for internal or external use."
 msgstr ""
-"Mezcla íntima de fármacos y/o productos químicos secos y finamente divididos "
-"que pueden estar destinados a un uso interno o externo."
+"Mezcla íntima de fármacos y/o productos químicos secos y finamente divididos"
+" que pueden estar destinados a un uso interno o externo."
 
 #. Title
 #: codelists/dosageForm.csv:33
@@ -1445,9 +1450,9 @@ msgstr "Supositorio"
 #. Description
 #: codelists/dosageForm.csv:33
 msgid ""
-"A solid body of various weights and shapes, adapted for introduction into"
-" the rectal, vaginal, or urethral orifice of the human body; they usually"
-" melt, soften, or dissolve at body temperature."
+"A solid body of various weights and shapes, adapted for introduction into "
+"the rectal, vaginal, or urethral orifice of the human body; they usually "
+"melt, soften, or dissolve at body temperature."
 msgstr ""
 "Cuerpo sólido de diversos pesos y formas, adaptado para su introducción en "
 "el orificio rectal, vaginal o uretral del cuerpo humano; suelen fundirse, "
@@ -1461,11 +1466,11 @@ msgstr "Hisopo"
 #. Description
 #: codelists/dosageForm.csv:34
 msgid ""
-"A wad of absorbent material usually wound around one end of a small stick"
-" and used for applying medication or for removing material from an area."
+"A wad of absorbent material usually wound around one end of a small stick "
+"and used for applying medication or for removing material from an area."
 msgstr ""
-"Fajo de material absorbente que suele enrollarse en un extremo de un pequeño "
-"bastón y que se utiliza para aplicar la medicación o para retirar el "
+"Fajo de material absorbente que suele enrollarse en un extremo de un pequeño"
+" bastón y que se utiliza para aplicar la medicación o para retirar el "
 "material de una zona."
 
 #. Title
@@ -1500,12 +1505,12 @@ msgstr "Bolsa"
 #. Description
 #: codelists/immediateContainer.csv:2
 msgid ""
-"Container consisting of surfaces, whether or not with a flat bottom, made"
-" of flexible material, generally closed at the bottom and at the sides by"
-" sealing; at the top possibly to be closed by fusion of the material, "
-"depending on the intended use. Equipped with special attachments. "
-"Contains the final preparation in one compartment or the components "
-"necessary for its preparation in different compartments."
+"Container consisting of surfaces, whether or not with a flat bottom, made of"
+" flexible material, generally closed at the bottom and at the sides by "
+"sealing; at the top possibly to be closed by fusion of the material, "
+"depending on the intended use. Equipped with special attachments. Contains "
+"the final preparation in one compartment or the components necessary for its"
+" preparation in different compartments."
 msgstr ""
 "Recipiente o envase formado por superficies, con fondo plano o no, de "
 "material flexible, generalmente cerradas en el fondo y en los laterales "
@@ -1535,7 +1540,8 @@ msgstr "Botella"
 
 #. Description
 #: codelists/immediateContainer.csv:4
-msgid "Container with a more or less pronounced neck and usually a flat bottom."
+msgid ""
+"Container with a more or less pronounced neck and usually a flat bottom."
 msgstr ""
 "Recipiente o envase con un cuello más o menos pronunciado y normalmente con "
 "un fondo plano."
@@ -1548,8 +1554,8 @@ msgstr "Caja"
 #. Description
 #: codelists/immediateContainer.csv:5
 msgid ""
-"Primary container consisting of one or more parts made of a light "
-"material, can be closed."
+"Primary container consisting of one or more parts made of a light material, "
+"can be closed."
 msgstr ""
 "Recipiente o envase primario compuesto por una o varias partes de un "
 "material ligero, que puede cerrarse."
@@ -1567,20 +1573,20 @@ msgstr "Recambio"
 #. Description
 #: codelists/immediateContainer.csv:7
 msgid ""
-"Filled container, usually cylindrical, containing a sterile, single-dose "
-"or multidose, parenteral preparation; it contains the final preparation "
-"in one compartment, or the components necessary for its preparation in "
-"different compartments. It may be supplied as an integral part of a pre-"
-"filled pen or be intended for use in a reusable device especially "
-"designed for that purpose, such as a pen."
+"Filled container, usually cylindrical, containing a sterile, single-dose or "
+"multidose, parenteral preparation; it contains the final preparation in one "
+"compartment, or the components necessary for its preparation in different "
+"compartments. It may be supplied as an integral part of a pre-filled pen or "
+"be intended for use in a reusable device especially designed for that "
+"purpose, such as a pen."
 msgstr ""
 "Recipiente o envase lleno, generalmente cilíndrico, que contiene una "
 "preparación parenteral estéril, monodosis o multidosis; contiene la "
 "preparación final en un compartimento, o los componentes necesarios para su "
 "preparación en diferentes compartimentos. Puede suministrarse como parte "
 "integrante de una pluma precargada o estar destinado a ser utilizado en un "
-"dispositivo reutilizable especialmente diseñado para ese fin, como una pluma "
-"inyectora."
+"dispositivo reutilizable especialmente diseñado para ese fin, como una pluma"
+" inyectora."
 
 #. Title
 #: codelists/immediateContainer.csv:9
@@ -1595,14 +1601,14 @@ msgstr "Tarro"
 #. Description
 #: codelists/immediateContainer.csv:10
 msgid ""
-"Container, without a pronounced neck, with a wide opening at the top and "
-"a more-or-less flat bottom. It is suited for semi-solid and solid "
-"pharmaceutical forms (including those that are stored/supplied in a "
-"liquid medium, such as living tissue equivalents). It can be reclosed."
+"Container, without a pronounced neck, with a wide opening at the top and a "
+"more-or-less flat bottom. It is suited for semi-solid and solid "
+"pharmaceutical forms (including those that are stored/supplied in a liquid "
+"medium, such as living tissue equivalents). It can be reclosed."
 msgstr ""
 "Recipiente, sin cuello pronunciado, con una amplia apertura en la parte "
-"superior y un fondo más o menos plano. Es adecuado para formas farmacéuticas "
-"semisólidas y sólidas (incluidas las que se almacenan/suministran en un "
+"superior y un fondo más o menos plano. Es adecuado para formas farmacéuticas"
+" semisólidas y sólidas (incluidas las que se almacenan/suministran en un "
 "medio líquido, como los equivalentes de tejidos vivos). Se puede volver a "
 "cerrar."
 
@@ -1634,8 +1640,8 @@ msgstr "Bolsa de medicinas"
 #. Description
 #: codelists/immediateContainer.csv:15
 msgid ""
-"Item of packaging intended for use as an intermediate or outer container,"
-" intended to contain one or more medicinal product(s); it is made of a "
+"Item of packaging intended for use as an intermediate or outer container, "
+"intended to contain one or more medicinal product(s); it is made of a "
 "flexible material and may be for single use or be re-usable, and may be "
 "fitted with a closure system. Bags and sachets are excluded."
 msgstr ""
@@ -1657,9 +1663,8 @@ msgstr "Sashet"
 #. Description
 #: codelists/immediateContainer.csv:17
 msgid ""
-"Container consisting of two surfaces made of flexible material to be "
-"closed only by sealing or folding over. The contents are intended for "
-"single use."
+"Container consisting of two surfaces made of flexible material to be closed "
+"only by sealing or folding over. The contents are intended for single use."
 msgstr ""
 "Envase formado por dos superficies de material flexible que se cierra "
 "únicamente mediante precinto o plegado. El contenido está destinado a un "
@@ -1699,13 +1704,13 @@ msgstr "Tubo"
 #. Description
 #: codelists/immediateContainer.csv:21
 msgid ""
-"Container for semi-solid pharmaceutical forms, usually multidose, "
-"consisting of collapsible material intended to release the contents via a"
-" nozzle by squeezing the package."
+"Container for semi-solid pharmaceutical forms, usually multidose, consisting"
+" of collapsible material intended to release the contents via a nozzle by "
+"squeezing the package."
 msgstr ""
 "Envase para formas farmacéuticas semisólidas, generalmente multidosis, "
-"compuesto por material plegable destinado a liberar el contenido a través de "
-"una boquilla al apretar el envase."
+"compuesto por material plegable destinado a liberar el contenido a través de"
+" una boquilla al apretar el envase."
 
 #. Title
 #: codelists/immediateContainer.csv:22
@@ -1716,8 +1721,8 @@ msgstr "Frasco"
 #: codelists/immediateContainer.csv:22
 msgid ""
 "Small container for parenteral medicinal products, with a stopper and "
-"overseal; the contents are removed after piercing the stopper. Single-"
-"dose and multidose uses are included."
+"overseal; the contents are removed after piercing the stopper. Single-dose "
+"and multidose uses are included."
 msgstr ""
 "Pequeño envase para medicamentos parenterales, con tapón y sobretapa; el "
 "contenido se extrae tras perforar el tapón. Se incluyen usos de monodosis y "

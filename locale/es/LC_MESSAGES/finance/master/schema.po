@@ -2,20 +2,27 @@
 # Copyright (C) 2024 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
+# 
+# Translators:
+# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
+# James McKinney, 2024
+# Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-05-30 00:40-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-03-14 18:30+0000\n"
+"Last-Translator: Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2024\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.15.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. /name/en
 #. /definitions/Contract/properties/finance/title
@@ -36,22 +43,25 @@ msgstr ""
 #. /definitions/Contract/properties/finance/description
 #: release-schema.json:1
 msgid "Information about financing arrangements for this contract."
-msgstr ""
+msgstr "Información sobre las modalidades de financiación de este contrato."
 
 #. /definitions/Budget/properties/finance/description
 #: release-schema.json:1
-msgid "Information about financing arrangements for a future contracting process."
+msgid ""
+"Information about financing arrangements for a future contracting process."
 msgstr ""
+"Información sobre modalidades de financiación para un futuro proceso de "
+"contratación."
 
 #. /definitions/Finance/title
 #: release-schema.json:1
 msgid "Financing arrangement"
-msgstr ""
+msgstr "Acuerdo de financiación"
 
 #. /definitions/Finance/description
 #: release-schema.json:1
 msgid "An arrangement between two parties for raising money."
-msgstr ""
+msgstr "Un acuerdo entre dos partes para recaudar dinero."
 
 #. /definitions/Finance/properties/id/title
 #: release-schema.json:1
@@ -81,11 +91,16 @@ msgstr "Descripción"
 #. /definitions/Finance/properties/description/description
 #: release-schema.json:1
 msgid ""
-"A short description of this financing arrangement. This may include "
-"details of service fees, commitment fees, lender rights, step in "
-"arrangements, exchange rate guarantees, and for syndicated loans, details"
-" of syndication and any members of the syndicate."
+"A short description of this financing arrangement. This may include details "
+"of service fees, commitment fees, lender rights, step in arrangements, "
+"exchange rate guarantees, and for syndicated loans, details of syndication "
+"and any members of the syndicate."
 msgstr ""
+"Una breve descripción de este acuerdo de financiación. Esto puede incluir "
+"detalles de tarifas de servicio, tarifas de compromiso, derechos de "
+"prestamista, acuerdos de intervención, garantías de tipo de cambio y, para "
+"préstamos sindicados, detalles de la sindicación y cualquier miembro del "
+"sindicato."
 
 #. /definitions/Finance/properties/value/title
 #: release-schema.json:1
@@ -100,41 +115,45 @@ msgstr "El valor total de este financiamiento."
 #. /definitions/Finance/properties/financingParty/title
 #: release-schema.json:1
 msgid "Financing organization"
-msgstr ""
+msgstr "Organización financiera"
 
 #. /definitions/Finance/properties/financingParty/description
 #: release-schema.json:1
 msgid "The organization providing this financing arrangement."
-msgstr ""
+msgstr "La organización que proporciona este acuerdo de financiación."
 
 #. /definitions/Finance/properties/financingPartyType/title
 #: release-schema.json:1
 msgid "Financing organization type"
-msgstr ""
+msgstr "Tipo de organización financiera"
 
 #. /definitions/Finance/properties/financingPartyType/description
 #: release-schema.json:1
 msgid ""
-"The type of the financing organization, from the closed "
-"financingPartyType codelist."
+"The type of the financing organization, from the closed financingPartyType "
+"codelist."
 msgstr ""
+"El tipo de organización financiera, de la lista de códigos cerrada "
+"financePartyType."
 
 #. /definitions/Finance/properties/source/title
 #: release-schema.json:1
 msgid "Funding source"
-msgstr ""
+msgstr "Fuente de financiamiento"
 
 #. /definitions/Finance/properties/source/description
 #: release-schema.json:1
 msgid ""
-"The source of funds for this financing arrangement. For example, the "
-"Green Climate Fund."
+"The source of funds for this financing arrangement. For example, the Green "
+"Climate Fund."
 msgstr ""
+"La fuente de fondos para este acuerdo de financiación. Por ejemplo, el Fondo"
+" Verde para el Clima."
 
 #. /definitions/Finance/properties/assetClass/title
 #: release-schema.json:1
 msgid "Asset class"
-msgstr ""
+msgstr "Clase de activos"
 
 #. /definitions/Finance/properties/assetClass/description
 #: release-schema.json:1
@@ -142,6 +161,8 @@ msgid ""
 "The asset classes used in this financing arrangement, from the closed "
 "assetClass codelist."
 msgstr ""
+"Las clases de activos utilizadas en este acuerdo de financiación, de la "
+"lista de códigos cerrada de activeClass."
 
 #. /definitions/Finance/properties/type/title
 #: release-schema.json:1
@@ -154,36 +175,44 @@ msgid ""
 "The type of this financing arrangement, from the closed "
 "financingArrangementType codelist."
 msgstr ""
+"El tipo de este acuerdo de financiación, de la lista de códigos de tipo de "
+"acuerdo de financiación cerrado."
 
 #. /definitions/Finance/properties/repaymentPriority/title
 #: release-schema.json:1
 msgid "Repayment priority"
-msgstr ""
+msgstr "Prioridad de pago"
 
 #. /definitions/Finance/properties/repaymentPriority/description
 #: release-schema.json:1
 msgid ""
-"The order in which the debt in this financing arrangement will be repaid "
-"in case of default, from the closed debtRepaymentPriority codelist."
+"The order in which the debt in this financing arrangement will be repaid in "
+"case of default, from the closed debtRepaymentPriority codelist."
 msgstr ""
+"El orden en el que se reembolsará la deuda en este acuerdo de financiación "
+"en caso de incumplimiento, de la lista de códigos cerrada "
+"debtRepaymentPriority."
 
 #. /definitions/Finance/properties/concessional/title
 #: release-schema.json:1
 msgid "Concessional"
-msgstr ""
+msgstr "Concesional"
 
 #. /definitions/Finance/properties/concessional/description
 #: release-schema.json:1
 msgid ""
-"Whether this financing arrangement is provided below market rate in order"
-" to accelerate climate or development objectives. Also called soft "
-"financing and subsidized funding."
+"Whether this financing arrangement is provided below market rate in order to"
+" accelerate climate or development objectives. Also called soft financing "
+"and subsidized funding."
 msgstr ""
+"Si este acuerdo de financiación se proporciona por debajo de la tasa de "
+"mercado para acelerar los objetivos climáticos o de desarrollo. También "
+"llamado financiamiento blando y financiamiento subsidiado."
 
 #. /definitions/Finance/properties/resultsBased/title
 #: release-schema.json:1
 msgid "Results based"
-msgstr ""
+msgstr "Basado en resultados"
 
 #. /definitions/Finance/properties/resultsBased/description
 #: release-schema.json:1
@@ -191,6 +220,8 @@ msgid ""
 "Whether payments under this financing arrangement are contingent on the "
 "achievement of pre-defined results."
 msgstr ""
+"Si los pagos conforme a este acuerdo de financiación están supeditados al "
+"logro de resultados predefinidos."
 
 #. /definitions/Finance/properties/period/title
 #: release-schema.json:1
@@ -199,32 +230,39 @@ msgstr "Periodo de financiamiento"
 
 #. /definitions/Finance/properties/period/description
 #: release-schema.json:1
-msgid "The period covered by this financing arrangement. Also called maturity."
+msgid ""
+"The period covered by this financing arrangement. Also called maturity."
 msgstr ""
+"El período cubierto por este acuerdo de financiación. También llamada "
+"madurez."
 
 #. /definitions/Finance/properties/paymentPeriod/title
 #: release-schema.json:1
 msgid "Payment period"
-msgstr ""
+msgstr "Periodo de pago"
 
 #. /definitions/Finance/properties/paymentPeriod/description
 #: release-schema.json:1
 msgid ""
-"The period over which the borrower in this financing arrangement is "
-"obliged to make payments."
+"The period over which the borrower in this financing arrangement is obliged "
+"to make payments."
 msgstr ""
+"El período durante el cual el prestatario en este acuerdo de financiación "
+"está obligado a realizar pagos."
 
 #. /definitions/Finance/properties/paymentFrequency/title
 #: release-schema.json:1
 msgid "Payment frequency (days)"
-msgstr ""
+msgstr "Frecuencia de pago (días)"
 
 #. /definitions/Finance/properties/paymentFrequency/description
 #: release-schema.json:1
 msgid ""
-"The average payment frequency (in days) of this financing arrangement. "
-"For example, 365 for yearly, 30.4 for monthly, or 1 for daily."
+"The average payment frequency (in days) of this financing arrangement. For "
+"example, 365 for yearly, 30.4 for monthly, or 1 for daily."
 msgstr ""
+"La frecuencia de pago promedio (en días) de este acuerdo de financiamiento. "
+"Por ejemplo, 365 por año, 30,4 por mes o 1 por día."
 
 #. /definitions/Finance/properties/interestRate/title
 #: release-schema.json:1
@@ -246,9 +284,13 @@ msgstr "Base"
 msgid ""
 "The variable to which an additional margin amount is added to get the "
 "interest amount. This can be specified as a fixed number, as a known "
-"variable (e.g. LIBOR or LIBOR+1%), or can be omitted if margin specifies "
-"the entire interest rate."
+"variable (e.g. LIBOR or LIBOR+1%), or can be omitted if margin specifies the"
+" entire interest rate."
 msgstr ""
+"La variable a la que se le suma un monto de margen adicional para obtener el"
+" monto del interés. Esto se puede especificar como un número fijo, como una "
+"variable conocida (por ejemplo, LIBOR o LIBOR+1%), o se puede omitir si el "
+"margen especifica la tasa de interés completa."
 
 #. /definitions/Finance/properties/interestRate/properties/margin/title
 #: release-schema.json:1
@@ -258,9 +300,11 @@ msgstr "Margen"
 #. /definitions/Finance/properties/interestRate/properties/margin/description
 #: release-schema.json:1
 msgid ""
-"The variable added to the base to give the interest amount, expressed as "
-"a decimal (for example, 0.1) and not as a percentage (for example, 10)."
+"The variable added to the base to give the interest amount, expressed as a "
+"decimal (for example, 0.1) and not as a percentage (for example, 10)."
 msgstr ""
+"La variable agregada a la base para dar el monto del interés, expresada como"
+" decimal (por ejemplo, 0,1) y no como porcentaje (por ejemplo, 10)."
 
 #. /definitions/Finance/properties/interestRate/properties/fixed/title
 #: release-schema.json:1
@@ -270,11 +314,11 @@ msgstr "Tipo de interés fijo"
 #. /definitions/Finance/properties/interestRate/properties/fixed/description
 #: release-schema.json:1
 msgid ""
-"A boolean field. If this interest rate of fixed, set to true. Otherwise, "
-"set to false."
+"A boolean field. If this interest rate of fixed, set to true. Otherwise, set"
+" to false."
 msgstr ""
-"Un campo booleano. Si este tipo de interés es fijo, se establece en true. De "
-"lo contrario, se establece en false."
+"Un campo booleano. Si este tipo de interés es fijo, se establece en true. De"
+" lo contrario, se establece en false."
 
 #. /definitions/Finance/properties/interestRate/properties/notes/title
 #: release-schema.json:1
@@ -294,9 +338,11 @@ msgstr "Garantías del tipo de cambio"
 #. /definitions/Finance/properties/exchangeRateGuarantee/description
 #: release-schema.json:1
 msgid ""
-"Whether there is an associated exchange rate guarantee with this source "
-"of finance."
+"Whether there is an associated exchange rate guarantee with this source of "
+"finance."
 msgstr ""
+"Si existe una garantía de tipo de cambio asociada a esta fuente de "
+"financiación."
 
 #. /definitions/Finance/properties/stepInRights/title
 #: release-schema.json:1
@@ -309,6 +355,8 @@ msgid ""
 "Whether provision of this finance confers any step in rights to the "
 "financing organization."
 msgstr ""
+"Si la provisión de esta financiación confiere derechos de paso a la "
+"organización financiera."
 
 #. /definitions/Finance/properties/relatedLots/title
 #: release-schema.json:1
@@ -317,5 +365,8 @@ msgstr "Lotes relacionados"
 
 #. /definitions/Finance/properties/relatedLots/description
 #: release-schema.json:1
-msgid "The identifiers of the lots to which this financing arrangement relates."
+msgid ""
+"The identifiers of the lots to which this financing arrangement relates."
 msgstr ""
+"Los identificadores de los lotes a los que se refiere este acuerdo de "
+"financiación."

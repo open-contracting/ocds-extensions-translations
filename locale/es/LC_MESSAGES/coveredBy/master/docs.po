@@ -1,20 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 
+# Copyright (C)
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
+# James McKinney, 2021
+# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
+# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-30 00:39-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2020-08-20 21:41+0000\n"
+"Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../README.md:1
 msgid "Covered By"
@@ -29,9 +36,9 @@ msgstr ""
 #: ../README.md:5
 msgid ""
 "For example, the Agreement on Government Procurement (GPA) is a treaty that "
-"requires members to indicate whether a contracting process is covered by it. "
-"The Clean Vehicles Directive is a legal act that provides for member states "
-"of the European Union to indicate associated information in procurement "
+"requires members to indicate whether a contracting process is covered by it."
+" The Clean Vehicles Directive is a legal act that provides for member states"
+" of the European Union to indicate associated information in procurement "
 "notices. The `coveredBy` field should be used to meet such requirements."
 msgstr ""
 
@@ -39,13 +46,13 @@ msgstr ""
 msgid ""
 "To disclose the laws or regulations that govern the contracting process and "
 "that grant legal authority to the procuring entity, use the [legalBasis "
-"extension](https://github.com/open-contracting-extensions/"
-"ocds_legalBasis_extension) instead."
+"extension](https://github.com/open-contracting-"
+"extensions/ocds_legalBasis_extension) instead."
 msgstr ""
 "Para revelar las leyes o reglamentos que rigen el proceso de contratación y "
 "que otorgan autoridad legal a la entidad contratante, utilice la [extensión "
-"legalBasis](https://github.com/open-contracting-extensions/"
-"ocds_legalBasis_extension) en vez."
+"legalBasis](https://github.com/open-contracting-"
+"extensions/ocds_legalBasis_extension) en vez."
 
 #: ../README.md:9
 msgid "Guidance"
@@ -53,9 +60,10 @@ msgstr "Guía"
 
 #: ../README.md:11
 msgid ""
-"If you are using the [Lots extension](https://extensions.open-contracting."
-"org/en/extensions/lots/master/), [follow its guidance](https://extensions."
-"open-contracting.org/en/extensions/lots/master/#guidance) on whether to use "
+"If you are using the [Lots extension](https://extensions.open-"
+"contracting.org/en/extensions/lots/master/), [follow its "
+"guidance](https://extensions.open-"
+"contracting.org/en/extensions/lots/master/#guidance) on whether to use "
 "`tender.lots` fields or `tender` fields."
 msgstr ""
 
@@ -63,18 +71,20 @@ msgstr ""
 msgid ""
 "If you need to refer to a treaty that is not in the `coveredBy` codelist:"
 msgstr ""
-"Si necesita hacer referencia a un tratado que no está en el lista de códigos "
-"`coveredBy`:"
+"Si necesita hacer referencia a un tratado que no está en el lista de códigos"
+" `coveredBy`:"
 
 #: ../README.md:15
 msgid ""
 "If the treaty has a national or subnational scope, pick a relevant [ISO "
-"3166-1 alpha-2 country code](https://en.wikipedia.org/wiki/"
-"ISO_3166-1_alpha-2) (e.g \"CA\" for Canada)."
+"3166-1 alpha-2 country "
+"code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) (e.g \"CA\" for "
+"Canada)."
 msgstr ""
 "Si el tratado tiene un alcance nacional o subnacional, elegir un código de "
-"país relevante [ISO 3166-1 alpha-2 country code](https://en.wikipedia.org/"
-"wiki/ISO_3166-1_alpha-2) (por ejemplo \"CA\" para Canadá)."
+"país relevante [ISO 3166-1 alpha-2 country "
+"code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) (por ejemplo \"CA\" "
+"para Canadá)."
 
 #: ../README.md:16
 msgid ""
@@ -84,9 +94,11 @@ msgid ""
 "province of Canada)."
 msgstr ""
 "Si el tratado tiene un alcance subnacional, elegir un código de región "
-"relevante [ISO 3166-2 region code] (https://en.wikipedia.org/wiki/ISO_3166-2)"
-" (por ejemplo \"NT\" para [Northern Territories](https://en.wikipedia.org/"
-"wiki/ISO_3166-2:CA#Current_codes), una provincia de Canadá)."
+"relevante [ISO 3166-2 region code] "
+"(https://en.wikipedia.org/wiki/ISO_3166-2) (por ejemplo \"NT\" para "
+"[Northern "
+"Territories](https://en.wikipedia.org/wiki/ISO_3166-2:CA#Current_codes), una"
+" provincia de Canadá)."
 
 #: ../README.md:17
 msgid ""
@@ -103,8 +115,9 @@ msgid ""
 "Document the new code (see [Extending open codelists](https://standard.open-"
 "contracting.org/latest/en/schema/codelists/))."
 msgstr ""
-"Documentar el nuevo código (ver [Extending open codelists](https://standard."
-"open-contracting.org/latest/en/schema/codelists/))."
+"Documentar el nuevo código (ver [Extending open "
+"codelists](https://standard.open-"
+"contracting.org/latest/en/schema/codelists/))."
 
 #: ../README.md:21
 msgid "Legal context"
@@ -112,31 +125,33 @@ msgstr "Contexto legal"
 
 #: ../README.md:23
 msgid ""
-"The [Revised Agreement on Government Procurement](https://www.wto.org/"
-"english/docs_e/legal_e/rev-gpr-94_01_e.htm) (GPA) includes: \"each notice of "
-"intended procurement shall include … l. an indication that the procurement "
-"is covered by this Agreement.\""
+"The [Revised Agreement on Government "
+"Procurement](https://www.wto.org/english/docs_e/legal_e/rev-gpr-94_01_e.htm)"
+" (GPA) includes: \"each notice of intended procurement shall include … l. an"
+" indication that the procurement is covered by this Agreement.\""
 msgstr ""
-"El [Revised Agreement on Government Procurement](https://www.wto.org/english/"
-"docs_e/legal_e/rev-gpr-94_01_e.htm) (GPA) incluye: \"cada aviso de "
-"contratación prevista deberá incluir ... l. una indicación que la "
-"contratación está cubierta por este Acuerdo\"."
+"El [Revised Agreement on Government "
+"Procurement](https://www.wto.org/english/docs_e/legal_e/rev-gpr-94_01_e.htm)"
+" (GPA) incluye: \"cada aviso de contratación prevista deberá incluir ... l. "
+"una indicación que la contratación está cubierta por este Acuerdo\"."
 
 #: ../README.md:25
 msgid ""
-"The European Union is a [party](https://www.wto.org/english/tratop_e/gproc_e/"
-"memobs_e.htm) to the GPA, and as such its [Directive 2014/24/EU](https://eur-"
-"lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.094.01.0065.01."
-"ENG) (Public contracts — setting out clear ground rules) includes: \"Part C: "
-"Information to be included in contract notices … 29. Indication whether the "
-"contract is covered by the GPA.\""
+"The European Union is a "
+"[party](https://www.wto.org/english/tratop_e/gproc_e/memobs_e.htm) to the "
+"GPA, and as such its [Directive 2014/24/EU](https://eur-lex.europa.eu/legal-"
+"content/EN/TXT/?uri=uriserv:OJ.L_.2014.094.01.0065.01.ENG) (Public contracts"
+" — setting out clear ground rules) includes: \"Part C: Information to be "
+"included in contract notices … 29. Indication whether the contract is "
+"covered by the GPA.\""
 msgstr ""
-"La Unión Europea es una [parte](https://www.wto.org/english/tratop_e/gproc_e/"
-"memobs_e.htm) al GPA, y como tal su [Directive 2014/24/EU](https://eur-lex."
-"europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.094.01.0065.01.ENG) ("
-"Contratos públicos - que establecen reglas básicas claras) incluye: \"Parte "
-"C: Información que debe incluirse en los avisos de contrato ... 29. "
-"Indicación de si el contrato está cubierto por GPA\"."
+"La Unión Europea es una "
+"[parte](https://www.wto.org/english/tratop_e/gproc_e/memobs_e.htm) al GPA, y"
+" como tal su [Directive 2014/24/EU](https://eur-lex.europa.eu/legal-"
+"content/EN/TXT/?uri=uriserv:OJ.L_.2014.094.01.0065.01.ENG) (Contratos "
+"públicos - que establecen reglas básicas claras) incluye: \"Parte C: "
+"Información que debe incluirse en los avisos de contrato ... 29. Indicación "
+"de si el contrato está cubierto por GPA\"."
 
 #: ../README.md:27
 msgid "Example"
@@ -144,8 +159,8 @@ msgstr "Ejemplo"
 
 #: ../README.md:29
 msgid ""
-"The `coveredBy` field is an array of strings, whose values are selected from "
-"the `coveredBy.csv` open codelist."
+"The `coveredBy` field is an array of strings, whose values are selected from"
+" the `coveredBy.csv` open codelist."
 msgstr ""
 
 #: ../README.md:31
@@ -162,9 +177,9 @@ msgstr "Issues"
 
 #: ../README.md:62
 msgid ""
-"Report issues for this extension in the [ocds-extensions repository](https://"
-"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
-"name in the issue's title."
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
 msgstr ""
 "Reporte issues para esta extensión en el [repositorio de extensiones "
 "ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
@@ -199,7 +214,8 @@ msgid "2020-11-04"
 msgstr "2020-11-04"
 
 #: ../README.md:77
-msgid "Add guidance on the creation of new codes for the `coveredBy` codelist."
+msgid ""
+"Add guidance on the creation of new codes for the `coveredBy` codelist."
 msgstr ""
 "Agregar guía acerca de la creación de nuevos códigos para la lista de "
 "códigos `coveredBy`."

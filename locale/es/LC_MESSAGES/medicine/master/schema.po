@@ -2,20 +2,25 @@
 # Copyright (C) 2024 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
+# 
+# Translators:
+# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-05-30 00:40-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-07-31 17:45+0000\n"
+"Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.15.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. /name/en
 #: extension.json:1
@@ -24,7 +29,8 @@ msgstr "Medicina"
 
 #. /description/en
 #: extension.json:1
-msgid "Adds fields to the item object relevant to the procurement of medicines."
+msgid ""
+"Adds fields to the item object relevant to the procurement of medicines."
 msgstr ""
 "Agrega campos al objeto artículo relevantes para la adquisición de "
 "medicamentos."
@@ -95,8 +101,7 @@ msgstr "Principio activo"
 #. /definitions/ActiveIngredient/description
 #: release-schema.json:1
 msgid ""
-"An active ingredient, typically a chemical compound or biological "
-"substance."
+"An active ingredient, typically a chemical compound or biological substance."
 msgstr ""
 "Un principio activo, normalmente un compuesto químico o una sustancia "
 "biológica."
@@ -110,9 +115,9 @@ msgstr "Nombre"
 #. /definitions/ActiveIngredient/properties/name/description
 #: release-schema.json:1
 msgid ""
-"The name of the active ingredient. It is recommended to use the lowercase"
-" Latin name from the International Nonproprietary Names (INN). Also known"
-" as: generic name, drug, substance name, active substance."
+"The name of the active ingredient. It is recommended to use the lowercase "
+"Latin name from the International Nonproprietary Names (INN). Also known as:"
+" generic name, drug, substance name, active substance."
 msgstr ""
 
 #. /definitions/ActiveIngredient/properties/strength/title
@@ -131,7 +136,8 @@ msgstr ""
 
 #. /definitions/ImmediateContainer/properties/name/description
 #: release-schema.json:1
-msgid "The common name of the container, from the immediate container codelist."
+msgid ""
+"The common name of the container, from the immediate container codelist."
 msgstr ""
 
 #. /definitions/ImmediateContainer/properties/capacity/title
@@ -176,9 +182,9 @@ msgid ""
 "expressed in interval notation, for example: \"[10,10]\" for 10 units, "
 "\"[1,10]\" for 1 to 10 units, or \"[10,INF[\" for 10 or more units."
 msgstr ""
-"La cantidad, como múltiplo de la unidad de medida. La cantidad se expresa en "
-"notación de intervalo, por ejemplo \"[10,10]\" para 10 unidades, \"[1,10]\" "
-"para 1 a 10 unidades, o \"[10,INF[\" para 10 o más unidades."
+"La cantidad, como múltiplo de la unidad de medida. La cantidad se expresa en"
+" notación de intervalo, por ejemplo \"[10,10]\" para 10 unidades, \"[1,10]\""
+" para 1 a 10 unidades, o \"[10,INF[\" para 10 o más unidades."
 
 #. /definitions/SimpleUnit/title
 #: release-schema.json:1
@@ -198,8 +204,8 @@ msgstr "Esquema"
 #. /definitions/SimpleUnit/properties/scheme/description
 #: release-schema.json:1
 msgid ""
-"The codelist from which the identifier for the unit of measurement is "
-"taken, using the open [unitClassificationScheme](https://standard.open-"
+"The codelist from which the identifier for the unit of measurement is taken,"
+" using the open [unitClassificationScheme](https://standard.open-"
 "contracting.org/latest/en/schema/codelists/#unit-classification-scheme) "
 "codelist. 'UNCEFACT' is recommended."
 msgstr ""

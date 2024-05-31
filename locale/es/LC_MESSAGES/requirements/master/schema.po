@@ -2,20 +2,26 @@
 # Copyright (C) 2024 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
+# 
+# Translators:
+# Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2019
+# James McKinney, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-05-30 00:40-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-03-14 18:29+0000\n"
+"Last-Translator: James McKinney, 2024\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.15.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. /name/en
 #. /definitions/RequirementGroup/properties/requirements/title
@@ -121,13 +127,14 @@ msgstr "Grupos de requisitos"
 #. /definitions/Criterion/properties/requirementGroups/description
 #: release-schema.json:1
 msgid ""
-"A list of requirement groups for this Criterion. A criterion is satisfied"
-" by one or more requirement groups being met. A requirement group is met "
-"when all requirements in the group are satisfied."
+"A list of requirement groups for this Criterion. A criterion is satisfied by"
+" one or more requirement groups being met. A requirement group is met when "
+"all requirements in the group are satisfied."
 msgstr ""
 "Una lista de grupos de requisitos para este Criterio. Un criterio se "
 "satisface cuando uno o más grupos de requisitos se cumplen. Un grupo de "
-"requisitos se cumple cuando todos los requerimientos del grupo se satisfacen."
+"requisitos se cumple cuando todos los requerimientos del grupo se "
+"satisfacen."
 
 #. /definitions/RequirementGroup/title
 #: release-schema.json:1
@@ -137,8 +144,8 @@ msgstr "Grupo de requisitos"
 #. /definitions/RequirementGroup/description
 #: release-schema.json:1
 msgid ""
-"A requirement group is a set of requirements that must be fulfilled "
-"together to validate a criterion."
+"A requirement group is a set of requirements that must be fulfilled together"
+" to validate a criterion."
 msgstr ""
 "Un grupo de requisitos es un conjunto de requisitos que deben cumplirse "
 "juntos para validar un criterio."
@@ -160,8 +167,8 @@ msgstr ""
 #. /definitions/RequirementGroup/properties/requirements/description
 #: release-schema.json:1
 msgid ""
-"A list requirements which must all be satisfied for the requirement group"
-" to be met."
+"A list requirements which must all be satisfied for the requirement group to"
+" be met."
 msgstr ""
 "Una lista de requisitos que deben ser cumplidos para que el grupo de "
 "requisitos se cumpla."
@@ -174,15 +181,15 @@ msgstr "Requisito"
 #. /definitions/Requirement/description
 #: release-schema.json:1
 msgid ""
-"An atomic requirement. Requirements can specify the expected value that "
-"the response has to contain, or a range of threshold values within which "
-"the response has to fit in. The requirement may apply to a certain period"
-" of time."
+"An atomic requirement. Requirements can specify the expected value that the "
+"response has to contain, or a range of threshold values within which the "
+"response has to fit in. The requirement may apply to a certain period of "
+"time."
 msgstr ""
 "Un requisito atómico. Los requisitos pueden especificar el valor esperado "
 "que la respuesta debe contener, o un rango de valores tope en los que la "
-"respuesta debe de entrar. El requisito puede aplicar a un período específico "
-"de tiempo."
+"respuesta debe de entrar. El requisito puede aplicar a un período específico"
+" de tiempo."
 
 #. /definitions/Requirement/properties/id/title
 #: release-schema.json:1
@@ -247,8 +254,8 @@ msgstr "Valor esperado"
 #. /definitions/Requirement/properties/expectedValue/description
 #: release-schema.json:1
 msgid ""
-"The expected value of the requirement, when the response must be specific"
-" value."
+"The expected value of the requirement, when the response must be specific "
+"value."
 msgstr ""
 
 #. /definitions/Requirement/properties/minValue/title
@@ -296,9 +303,8 @@ msgstr ""
 #. /definitions/RequirementResponse/description
 #: release-schema.json:1
 msgid ""
-"An assertion that responds to a single requirement. A response provides "
-"the value for the requirement and may provide the period to which it "
-"applies."
+"An assertion that responds to a single requirement. A response provides the "
+"value for the requirement and may provide the period to which it applies."
 msgstr ""
 
 #. /definitions/RequirementResponse/properties/id/description
@@ -386,6 +392,6 @@ msgstr "Criterios"
 #. /definitions/Tender/properties/criteria/description
 #: release-schema.json:1
 msgid ""
-"Criteria on which bids, tenderers, lots or items will be judged, "
-"evaluated or assessed."
+"Criteria on which bids, tenderers, lots or items will be judged, evaluated "
+"or assessed."
 msgstr ""

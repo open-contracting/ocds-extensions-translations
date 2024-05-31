@@ -2,20 +2,26 @@
 # Copyright (C) 2024 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
+# 
+# Translators:
+# James McKinney, 2021
+# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-05-30 00:39-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2020-08-20 21:56+0000\n"
+"Last-Translator: Natalia Valdez <nataliavaldez@cds.com.py>, 2021\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.15.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: codelists/awardCriterionFixed.csv codelists/awardCriterionType.csv
 #: codelists/criterionThreshold.csv codelists/criterionWeight.csv
@@ -40,8 +46,8 @@ msgstr "Fijo (total)"
 #. Description
 #: codelists/awardCriterionFixed.csv:1
 msgid ""
-"The number is the fixed price or fixed cost for the bid. For example: "
-"\"The price of a bid must be $100,000.\""
+"The number is the fixed price or fixed cost for the bid. For example: \"The "
+"price of a bid must be $100,000.\""
 msgstr ""
 "El número es el precio fijo o el costo fijo de la oferta. Por ejemplo: \"El "
 "precio de una oferta debe ser de 100.000 dólares\"."
@@ -54,11 +60,11 @@ msgstr "Fijo (por unidad)"
 #. Description
 #: codelists/awardCriterionFixed.csv:2
 msgid ""
-"The number is the fixed price or fixed cost for a unit. For example: "
-"\"The price of each widget must be $100.\""
+"The number is the fixed price or fixed cost for a unit. For example: \"The "
+"price of each widget must be $100.\""
 msgstr ""
-"El número es el precio fijo o el costo fijo de una unidad. Por ejemplo: \"El "
-"precio de cada widget debe ser de $ 100\"."
+"El número es el precio fijo o el costo fijo de una unidad. Por ejemplo: \"El"
+" precio de cada widget debe ser de $ 100\"."
 
 #. Title
 #: codelists/awardCriterionType.csv:1
@@ -77,7 +83,8 @@ msgstr "Costo"
 
 #. Description
 #: codelists/awardCriterionType.csv:2
-msgid "The criterion concerns any other non-price monetary attribute of the bid."
+msgid ""
+"The criterion concerns any other non-price monetary attribute of the bid."
 msgstr ""
 "El criterio se refiere a cualquier otro atributo monetario no relacionado "
 "con el precio de la oferta."
@@ -102,9 +109,9 @@ msgstr "Puntuación mínima"
 #. Description
 #: codelists/criterionThreshold.csv:1
 msgid ""
-"The number is a minimum score that bids or expressions of interest need "
-"to receive for the criterion. For example: \"A bid must receive 20 points"
-" or more for criterion X.\""
+"The number is a minimum score that bids or expressions of interest need to "
+"receive for the criterion. For example: \"A bid must receive 20 points or "
+"more for criterion X.\""
 msgstr ""
 
 #. Title
@@ -115,9 +122,9 @@ msgstr "Número máximo de pujas aprobadas"
 #. Description
 #: codelists/criterionThreshold.csv:2
 msgid ""
-"The number is the maximum number of bids or expressions of interest that "
-"can pass the criterion. For example: \"A bid must receive one of the "
-"highest 3 scores for criterion X.\""
+"The number is the maximum number of bids or expressions of interest that can"
+" pass the criterion. For example: \"A bid must receive one of the highest 3 "
+"scores for criterion X.\""
 msgstr ""
 
 #. Title
@@ -138,9 +145,9 @@ msgstr "Peso (porcentaje, medio de un rango)"
 #. Description
 #: codelists/criterionWeight.csv:2
 msgid ""
-"The weighting is expressed as a range of percentages. The sum of the "
-"minima must be less than or equal to 100. The sum of the maxima must be "
-"equal to or greater than 100."
+"The weighting is expressed as a range of percentages. The sum of the minima "
+"must be less than or equal to 100. The sum of the maxima must be equal to or"
+" greater than 100."
 msgstr ""
 "La ponderación se expresa como un rango de porcentajes. La suma de los "
 "mínimos debe ser menor o igual a 100. La suma de los máximos debe ser igual "
@@ -154,8 +161,8 @@ msgstr "Peso (decimal, exacto)"
 #. Description
 #: codelists/criterionWeight.csv:3
 msgid ""
-"The number is an exact finite decimal proper fraction. The numbers must "
-"add up to 1."
+"The number is an exact finite decimal proper fraction. The numbers must add "
+"up to 1."
 msgstr ""
 "El número es una fracción propia decimal finita exacta. Los números deben "
 "sumar 1."
@@ -168,9 +175,9 @@ msgstr "Peso (decimal, medio de un rango)"
 #. Description
 #: codelists/criterionWeight.csv:4
 msgid ""
-"The weighting is expressed as a range of finite decimal proper fractions."
-" The sum of the minima must be less than or equal to 1. The sum of the "
-"maxima must be equal to or greater than 1."
+"The weighting is expressed as a range of finite decimal proper fractions. "
+"The sum of the minima must be less than or equal to 1. The sum of the maxima"
+" must be equal to or greater than 1."
 msgstr ""
 "La ponderación se expresa como un rango de fracciones propias decimales "
 "finitas. La suma de los mínimos debe ser menor o igual a 1. La suma de los "

@@ -56,7 +56,7 @@ eval $(brew --prefix translate-toolkit)/libexec/bin/python -m pip install python
 ### Pull translations from Transifex
 
 ```bash
-tx pull -f -a
+tx pull -w 20 -f -a
 sphinx-intl build -d locale
 ```
 

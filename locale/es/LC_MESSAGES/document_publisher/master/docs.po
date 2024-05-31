@@ -1,20 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 
+# Copyright (C)
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Python\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-30 00:39-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2024-05-30 03:24+0000\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../README.md:1
 msgid "Document publisher"
@@ -29,7 +30,7 @@ msgstr ""
 
 #: ../README.md:5
 msgid "Usage"
-msgstr "Uso"
+msgstr ""
 
 #: ../README.md:7
 msgid ""
@@ -39,30 +40,28 @@ msgstr ""
 
 #: ../README.md:9
 msgid "Legal context"
-msgstr "Contexto legal"
+msgstr ""
 
 #: ../README.md:11
 msgid ""
-"In the European Union, this extension's fields correspond to [eForms OPT-301 "
-"(Party ID reference)](https://docs.ted.europa.eu/eforms/latest/reference/"
-"business-terms/). For correspondences to eForms fields, see [OCDS for eForms]"
-"(https://standard.open-contracting.org/profiles/eforms/latest/en/)."
+"In the European Union, this extension's fields correspond to [eForms OPT-301"
+" (Party ID "
+"reference)](https://docs.ted.europa.eu/eforms/latest/reference/business-"
+"terms/). For correspondences to eForms fields, see [OCDS for "
+"eForms](https://standard.open-contracting.org/profiles/eforms/latest/en/)."
 msgstr ""
 
 #: ../README.md:13
 msgid "Example"
-msgstr "Ejemplo"
+msgstr ""
 
 #: ../README.md:39
 msgid "Issues"
-msgstr "Issues"
+msgstr ""
 
 #: ../README.md:41
 msgid ""
-"Report issues for this extension in the [ocds-extensions repository](https://"
-"github.com/open-contracting/ocds-extensions/issues), putting the extension's "
-"name in the issue's title."
+"Report issues for this extension in the [ocds-extensions "
+"repository](https://github.com/open-contracting/ocds-extensions/issues), "
+"putting the extension's name in the issue's title."
 msgstr ""
-"Reporte issues para esta extensión en el [repositorio de extensiones "
-"ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
-"el nombre de la extensión en el título del issue."
