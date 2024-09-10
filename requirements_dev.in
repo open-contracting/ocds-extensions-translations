@@ -1,6 +1,1 @@
-click
-gitpython
-ocdsextensionregistry[cli]
-requests
-pre-commit
-sphinx-intl
+-r requirements.txt
