@@ -119,9 +119,7 @@ requests-cache==1.2.1
     #   -r requirements.txt
     #   ocdsextensionregistry
 setuptools==74.1.2
-    # via
-    #   -r requirements.txt
-    #   sphinx-intl
+    # via sphinx-intl
 six==1.16.0
     # via
     #   -r requirements.txt
@@ -140,7 +138,7 @@ sphinx==8.0.2
     #   myst-parser
     #   sphinx-intl
 sphinx-intl==2.2.0
-    # via -r requirements.txt
+    # via -r requirements_dev.in
 sphinxcontrib-applehelp==2.0.0
     # via
     #   -r requirements.txt

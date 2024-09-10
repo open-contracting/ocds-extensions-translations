@@ -2,4 +2,3 @@ click
 gitpython
 ocdsextensionregistry[cli]
 requests
-sphinx-intl
