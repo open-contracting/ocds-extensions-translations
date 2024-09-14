@@ -39,7 +39,9 @@ def registered_extensions():
     """
     Return all identifiers of registered extensions as a set.
     """
-    response = requests.get("https://github.com/open-contracting/extension_registry/raw/main/extensions.csv")
+    response = requests.get(
+        "https://github.com/open-contracting/extension_registry/raw/main/extensions.csv", timeout=10
+    )
     response.raise_for_status()
     return {row["Id"] for row in csv.DictReader(io.StringIO(response.text))}
 
