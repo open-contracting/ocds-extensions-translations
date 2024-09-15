@@ -90,7 +90,7 @@ myst-parser==4.0.0
     # via -r requirements.txt
 ocds-babel==0.3.6
     # via -r requirements.txt
-ocdsextensionregistry==0.3.8
+ocdsextensionregistry==0.4.0
     # via -r requirements.txt
 packaging==24.1
     # via
