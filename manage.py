@@ -27,18 +27,14 @@ LOCALE_DIR = CWD / "locale"
 
 
 def local_extensions(directory):
-    """
-    Yield each local repository as a tuple of a pathlib.Path and git.Repo.
-    """
+    """Yield each local repository as a tuple of a pathlib.Path and git.Repo."""
     for child in directory.iterdir():
         if child.is_dir() and (child / "extension.json").is_file():
             yield child, git.Repo(child)
 
 
 def registered_extensions():
-    """
-    Return all identifiers of registered extensions as a set.
-    """
+    """Return all identifiers of registered extensions as a set."""
     response = requests.get(
         "https://github.com/open-contracting/extension_registry/raw/main/extensions.csv", timeout=10
     )
@@ -73,21 +69,17 @@ def translatable_branches(repo):
 
 
 def run(args, **kwargs):
-    """
-    Echo and run a command.
-    """
+    """Echo and run a command."""
     line_length = 200
     command = " ".join(map(str, args))
     if len(command) > line_length:
         command = f"{command[:line_length]}..."
     click.echo(command)
-    subprocess.run(args, check=True, **kwargs)
+    subprocess.run(args, check=True, **kwargs)  # noqa: S603 # trusted input
 
 
 def run_generate_pot_files(args):
-    """
-    Run ocdsextensionregistry generate-pot-files.
-    """
+    """Run ocdsextensionregistry generate-pot-files."""
     parser = argparse.ArgumentParser()
     subparsers = parser.add_subparsers(required=True)
     command = generate_pot_files.Command(subparsers)
@@ -98,9 +90,7 @@ def run_generate_pot_files(args):
 
 
 def create_compendium(path, messages):
-    """
-    Prepare a compendium from the existing extensions.
-    """
+    """Prepare a compendium from the existing extensions."""
     click.secho("Creating compendium...", fg="blue")
     run(["msgcat", "--use-first", "-o", path, *sorted(messages.glob("**/*.po"), reverse=True)])
 
@@ -127,9 +117,7 @@ def run_pretranslate(pot_dir, compendium, messages):
 
 
 def run_tx_push(transifex_organization, transifex_project, *args):
-    """
-    Push to Transifex, for live versions of existing extensions.
-    """
+    """Push to Transifex, for live versions of existing extensions."""
     create_txconfig(transifex_organization, transifex_project)
 
     # Treat "v1..." versions as frozen versions.
@@ -139,9 +127,7 @@ def run_tx_push(transifex_organization, transifex_project, *args):
 
 
 def transifex_resources(transifex_project):
-    """
-    Return all names of Transifex resources as a set.
-    """
+    """Return all names of Transifex resources as a set."""
     config = configparser.ConfigParser()
     config.read(TXCONFIG)
     return {
@@ -152,9 +138,7 @@ def transifex_resources(transifex_project):
 
 
 def create_txconfig(transifex_organization, transifex_project):
-    """
-    Re-create the .tx/config file, delete any old resources and return any new resources.
-    """
+    """Re-create the .tx/config file, delete any old resources and return any new resources."""
     click.secho("Regenerating .tx/config...", fg="blue")
 
     text = TXCONFIG.read_text()
@@ -193,9 +177,7 @@ def create_txconfig(transifex_organization, transifex_project):
 
 @contextmanager
 def config(replacement):
-    """
-    Run code using different content for the .tx/config file.
-    """
+    """Run code using different content for the .tx/config file."""
     text = TXCONFIG.read_text()
 
     try:
@@ -233,9 +215,7 @@ def cli():
 @cli.command()
 @click.argument("directory", type=click.Path(exists=True, file_okay=False, path_type=Path))
 def git_pull(directory):
-    """
-    Pull translatable branches and fetch any tags to local repositories.
-    """
+    """Pull translatable branches and fetch any tags to local repositories."""
     for child, repo in local_extensions(directory):
         origin = repo.remote("origin")
         origin.fetch()
@@ -253,9 +233,7 @@ def git_pull(directory):
 @click.argument("transifex-organization")
 @click.argument("transifex-project")
 def update(transifex_organization, transifex_project):
-    """
-    Push source strings to Transifex, for live versions of registered extensions.
-    """
+    """Push source strings to Transifex, for live versions of registered extensions."""
     # Same as https://ocdsextensionregistry.readthedocs.io/en/latest/translation.html
     run_generate_pot_files(["--no-frozen", POT_DIR])
 
@@ -344,9 +322,7 @@ def add_and_remove(transifex_organization, transifex_project):
 @click.argument("directory", type=click.Path(exists=True, file_okay=False, path_type=Path))
 @click.argument("years", type=int)
 def stale(directory, years):
-    """
-    List extensions that have not changed in many years.
-    """
+    """List extensions that have not changed in many years."""
     delta = timedelta(days=365 * years)
 
     # GitHub API allows listing commits for only one path at a time.
