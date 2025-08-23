@@ -6,7 +6,7 @@ For posterity, the commands to initialize this repository were as follows (using
 
 ### Prepare a compendium from the `standard` repository
 
-1. Change into the `standard` directory
+1. Change to the `standard` directory
 1. Replace `path/to/working/directory`
 1. Run:
 
@@ -27,7 +27,7 @@ git checkout 1.1-dev
 
 ### Prepare a compendium from the `public-private-partnerships` repository
 
-1. Change into the `public-private-partnerships` directory
+1. Change to the `public-private-partnerships` directory
 1. Replace `path/to/working/directory`
 1. Run:
 
@@ -50,7 +50,7 @@ The commit hashes correspond to versions 1.1, 1.1.1, 1.1.2, 1.1.3 of OCDS.
 
 ### Merge the compendia in the working directory
 
-1. Change into the working directory
+1. Change to the working directory
 1. Run:
 
 ```
