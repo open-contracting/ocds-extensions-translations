@@ -83,36 +83,6 @@
       "translation": "/locale/%two_letters_code%/LC_MESSAGES/bids/master/schema.po"
     },
     {
-      "source": "/build/locale/bids/v1.1.4/codelists.pot",
-      "dest": "bids/v1.1.4/codelists.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/bids/v1.1.4/codelists.po"
-    },
-    {
-      "source": "/build/locale/bids/v1.1.4/docs.pot",
-      "dest": "bids/v1.1.4/docs.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/bids/v1.1.4/docs.po"
-    },
-    {
-      "source": "/build/locale/bids/v1.1.4/schema.pot",
-      "dest": "bids/v1.1.4/schema.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/bids/v1.1.4/schema.po"
-    },
-    {
-      "source": "/build/locale/bids/v1.1.5/codelists.pot",
-      "dest": "bids/v1.1.5/codelists.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/bids/v1.1.5/codelists.po"
-    },
-    {
-      "source": "/build/locale/bids/v1.1.5/docs.pot",
-      "dest": "bids/v1.1.5/docs.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/bids/v1.1.5/docs.po"
-    },
-    {
-      "source": "/build/locale/bids/v1.1.5/schema.pot",
-      "dest": "bids/v1.1.5/schema.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/bids/v1.1.5/schema.po"
-    },
-    {
       "source": "/build/locale/budget/master/codelists.pot",
       "dest": "budget/master/codelists.pot",
       "translation": "/locale/%two_letters_code%/LC_MESSAGES/budget/master/codelists.po"
@@ -151,16 +121,6 @@
       "source": "/build/locale/charges/master/schema.pot",
       "dest": "charges/master/schema.pot",
       "translation": "/locale/%two_letters_code%/LC_MESSAGES/charges/master/schema.po"
-    },
-    {
-      "source": "/build/locale/charges/v1.1/docs.pot",
-      "dest": "charges/v1.1/docs.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/charges/v1.1/docs.po"
-    },
-    {
-      "source": "/build/locale/charges/v1.1/schema.pot",
-      "dest": "charges/v1.1/schema.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/charges/v1.1/schema.po"
     },
     {
       "source": "/build/locale/communication/master/docs.pot",
@@ -298,36 +258,6 @@
       "translation": "/locale/%two_letters_code%/LC_MESSAGES/enquiries/master/schema.po"
     },
     {
-      "source": "/build/locale/enquiries/v1.1.4/codelists.pot",
-      "dest": "enquiries/v1.1.4/codelists.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/enquiries/v1.1.4/codelists.po"
-    },
-    {
-      "source": "/build/locale/enquiries/v1.1.4/docs.pot",
-      "dest": "enquiries/v1.1.4/docs.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/enquiries/v1.1.4/docs.po"
-    },
-    {
-      "source": "/build/locale/enquiries/v1.1.4/schema.pot",
-      "dest": "enquiries/v1.1.4/schema.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/enquiries/v1.1.4/schema.po"
-    },
-    {
-      "source": "/build/locale/enquiries/v1.1.5/codelists.pot",
-      "dest": "enquiries/v1.1.5/codelists.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/enquiries/v1.1.5/codelists.po"
-    },
-    {
-      "source": "/build/locale/enquiries/v1.1.5/docs.pot",
-      "dest": "enquiries/v1.1.5/docs.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/enquiries/v1.1.5/docs.po"
-    },
-    {
-      "source": "/build/locale/enquiries/v1.1.5/schema.pot",
-      "dest": "enquiries/v1.1.5/schema.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/enquiries/v1.1.5/schema.po"
-    },
-    {
       "source": "/build/locale/essentialAssets/master/docs.pot",
       "dest": "essentialAssets/master/docs.pot",
       "translation": "/locale/%two_letters_code%/LC_MESSAGES/essentialAssets/master/docs.po"
@@ -458,36 +388,6 @@
       "translation": "/locale/%two_letters_code%/LC_MESSAGES/location/master/schema.po"
     },
     {
-      "source": "/build/locale/location/v1.1.4/codelists.pot",
-      "dest": "location/v1.1.4/codelists.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/location/v1.1.4/codelists.po"
-    },
-    {
-      "source": "/build/locale/location/v1.1.4/docs.pot",
-      "dest": "location/v1.1.4/docs.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/location/v1.1.4/docs.po"
-    },
-    {
-      "source": "/build/locale/location/v1.1.4/schema.pot",
-      "dest": "location/v1.1.4/schema.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/location/v1.1.4/schema.po"
-    },
-    {
-      "source": "/build/locale/location/v1.1.5/codelists.pot",
-      "dest": "location/v1.1.5/codelists.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/location/v1.1.5/codelists.po"
-    },
-    {
-      "source": "/build/locale/location/v1.1.5/docs.pot",
-      "dest": "location/v1.1.5/docs.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/location/v1.1.5/docs.po"
-    },
-    {
-      "source": "/build/locale/location/v1.1.5/schema.pot",
-      "dest": "location/v1.1.5/schema.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/location/v1.1.5/schema.po"
-    },
-    {
       "source": "/build/locale/lots/master/docs.pot",
       "dest": "lots/master/docs.pot",
       "translation": "/locale/%two_letters_code%/LC_MESSAGES/lots/master/docs.po"
@@ -496,26 +396,6 @@
       "source": "/build/locale/lots/master/schema.pot",
       "dest": "lots/master/schema.pot",
       "translation": "/locale/%two_letters_code%/LC_MESSAGES/lots/master/schema.po"
-    },
-    {
-      "source": "/build/locale/lots/v1.1.4/docs.pot",
-      "dest": "lots/v1.1.4/docs.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/lots/v1.1.4/docs.po"
-    },
-    {
-      "source": "/build/locale/lots/v1.1.4/schema.pot",
-      "dest": "lots/v1.1.4/schema.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/lots/v1.1.4/schema.po"
-    },
-    {
-      "source": "/build/locale/lots/v1.1.5/docs.pot",
-      "dest": "lots/v1.1.5/docs.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/lots/v1.1.5/docs.po"
-    },
-    {
-      "source": "/build/locale/lots/v1.1.5/schema.pot",
-      "dest": "lots/v1.1.5/schema.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/lots/v1.1.5/schema.po"
     },
     {
       "source": "/build/locale/medicine/master/codelists.pot",
@@ -543,16 +423,6 @@
       "translation": "/locale/%two_letters_code%/LC_MESSAGES/metrics/1.1/schema.po"
     },
     {
-      "source": "/build/locale/metrics/v1.1/docs.pot",
-      "dest": "metrics/v1.1/docs.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/metrics/v1.1/docs.po"
-    },
-    {
-      "source": "/build/locale/metrics/v1.1/schema.pot",
-      "dest": "metrics/v1.1/schema.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/metrics/v1.1/schema.po"
-    },
-    {
       "source": "/build/locale/milestone_documents/master/docs.pot",
       "dest": "milestone_documents/master/docs.pot",
       "translation": "/locale/%two_letters_code%/LC_MESSAGES/milestone_documents/master/docs.po"
@@ -561,56 +431,6 @@
       "source": "/build/locale/milestone_documents/master/schema.pot",
       "dest": "milestone_documents/master/schema.pot",
       "translation": "/locale/%two_letters_code%/LC_MESSAGES/milestone_documents/master/schema.po"
-    },
-    {
-      "source": "/build/locale/milestone_documents/v1.1/docs.pot",
-      "dest": "milestone_documents/v1.1/docs.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/milestone_documents/v1.1/docs.po"
-    },
-    {
-      "source": "/build/locale/milestone_documents/v1.1/schema.pot",
-      "dest": "milestone_documents/v1.1/schema.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/milestone_documents/v1.1/schema.po"
-    },
-    {
-      "source": "/build/locale/milestone_documents/v1.1.1/docs.pot",
-      "dest": "milestone_documents/v1.1.1/docs.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/milestone_documents/v1.1.1/docs.po"
-    },
-    {
-      "source": "/build/locale/milestone_documents/v1.1.1/schema.pot",
-      "dest": "milestone_documents/v1.1.1/schema.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/milestone_documents/v1.1.1/schema.po"
-    },
-    {
-      "source": "/build/locale/milestone_documents/v1.1.3/docs.pot",
-      "dest": "milestone_documents/v1.1.3/docs.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/milestone_documents/v1.1.3/docs.po"
-    },
-    {
-      "source": "/build/locale/milestone_documents/v1.1.3/schema.pot",
-      "dest": "milestone_documents/v1.1.3/schema.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/milestone_documents/v1.1.3/schema.po"
-    },
-    {
-      "source": "/build/locale/milestone_documents/v1.1.4/docs.pot",
-      "dest": "milestone_documents/v1.1.4/docs.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/milestone_documents/v1.1.4/docs.po"
-    },
-    {
-      "source": "/build/locale/milestone_documents/v1.1.4/schema.pot",
-      "dest": "milestone_documents/v1.1.4/schema.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/milestone_documents/v1.1.4/schema.po"
-    },
-    {
-      "source": "/build/locale/milestone_documents/v1.1.5/docs.pot",
-      "dest": "milestone_documents/v1.1.5/docs.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/milestone_documents/v1.1.5/docs.po"
-    },
-    {
-      "source": "/build/locale/milestone_documents/v1.1.5/schema.pot",
-      "dest": "milestone_documents/v1.1.5/schema.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/milestone_documents/v1.1.5/schema.po"
     },
     {
       "source": "/build/locale/options/master/docs.pot",
@@ -678,81 +498,6 @@
       "translation": "/locale/%two_letters_code%/LC_MESSAGES/participation_fee/master/schema.po"
     },
     {
-      "source": "/build/locale/participation_fee/v1.1/codelists.pot",
-      "dest": "participation_fee/v1.1/codelists.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/participation_fee/v1.1/codelists.po"
-    },
-    {
-      "source": "/build/locale/participation_fee/v1.1/docs.pot",
-      "dest": "participation_fee/v1.1/docs.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/participation_fee/v1.1/docs.po"
-    },
-    {
-      "source": "/build/locale/participation_fee/v1.1/schema.pot",
-      "dest": "participation_fee/v1.1/schema.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/participation_fee/v1.1/schema.po"
-    },
-    {
-      "source": "/build/locale/participation_fee/v1.1.1/codelists.pot",
-      "dest": "participation_fee/v1.1.1/codelists.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/participation_fee/v1.1.1/codelists.po"
-    },
-    {
-      "source": "/build/locale/participation_fee/v1.1.1/docs.pot",
-      "dest": "participation_fee/v1.1.1/docs.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/participation_fee/v1.1.1/docs.po"
-    },
-    {
-      "source": "/build/locale/participation_fee/v1.1.1/schema.pot",
-      "dest": "participation_fee/v1.1.1/schema.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/participation_fee/v1.1.1/schema.po"
-    },
-    {
-      "source": "/build/locale/participation_fee/v1.1.3/codelists.pot",
-      "dest": "participation_fee/v1.1.3/codelists.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/participation_fee/v1.1.3/codelists.po"
-    },
-    {
-      "source": "/build/locale/participation_fee/v1.1.3/docs.pot",
-      "dest": "participation_fee/v1.1.3/docs.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/participation_fee/v1.1.3/docs.po"
-    },
-    {
-      "source": "/build/locale/participation_fee/v1.1.3/schema.pot",
-      "dest": "participation_fee/v1.1.3/schema.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/participation_fee/v1.1.3/schema.po"
-    },
-    {
-      "source": "/build/locale/participation_fee/v1.1.4/codelists.pot",
-      "dest": "participation_fee/v1.1.4/codelists.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/participation_fee/v1.1.4/codelists.po"
-    },
-    {
-      "source": "/build/locale/participation_fee/v1.1.4/docs.pot",
-      "dest": "participation_fee/v1.1.4/docs.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/participation_fee/v1.1.4/docs.po"
-    },
-    {
-      "source": "/build/locale/participation_fee/v1.1.4/schema.pot",
-      "dest": "participation_fee/v1.1.4/schema.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/participation_fee/v1.1.4/schema.po"
-    },
-    {
-      "source": "/build/locale/participation_fee/v1.1.5/codelists.pot",
-      "dest": "participation_fee/v1.1.5/codelists.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/participation_fee/v1.1.5/codelists.po"
-    },
-    {
-      "source": "/build/locale/participation_fee/v1.1.5/docs.pot",
-      "dest": "participation_fee/v1.1.5/docs.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/participation_fee/v1.1.5/docs.po"
-    },
-    {
-      "source": "/build/locale/participation_fee/v1.1.5/schema.pot",
-      "dest": "participation_fee/v1.1.5/schema.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/participation_fee/v1.1.5/schema.po"
-    },
-    {
       "source": "/build/locale/partyScale/master/codelists.pot",
       "dest": "partyScale/master/codelists.pot",
       "translation": "/locale/%two_letters_code%/LC_MESSAGES/partyScale/master/codelists.po"
@@ -811,36 +556,6 @@
       "source": "/build/locale/process_title/master/schema.pot",
       "dest": "process_title/master/schema.pot",
       "translation": "/locale/%two_letters_code%/LC_MESSAGES/process_title/master/schema.po"
-    },
-    {
-      "source": "/build/locale/process_title/v1.1.3/docs.pot",
-      "dest": "process_title/v1.1.3/docs.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/process_title/v1.1.3/docs.po"
-    },
-    {
-      "source": "/build/locale/process_title/v1.1.3/schema.pot",
-      "dest": "process_title/v1.1.3/schema.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/process_title/v1.1.3/schema.po"
-    },
-    {
-      "source": "/build/locale/process_title/v1.1.4/docs.pot",
-      "dest": "process_title/v1.1.4/docs.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/process_title/v1.1.4/docs.po"
-    },
-    {
-      "source": "/build/locale/process_title/v1.1.4/schema.pot",
-      "dest": "process_title/v1.1.4/schema.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/process_title/v1.1.4/schema.po"
-    },
-    {
-      "source": "/build/locale/process_title/v1.1.5/docs.pot",
-      "dest": "process_title/v1.1.5/docs.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/process_title/v1.1.5/docs.po"
-    },
-    {
-      "source": "/build/locale/process_title/v1.1.5/schema.pot",
-      "dest": "process_title/v1.1.5/schema.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/process_title/v1.1.5/schema.po"
     },
     {
       "source": "/build/locale/procurementMethodRationaleClassifications/master/codelists.pot",
@@ -943,21 +658,6 @@
       "translation": "/locale/%two_letters_code%/LC_MESSAGES/risk_allocation/master/schema.po"
     },
     {
-      "source": "/build/locale/risk_allocation/v1.1/codelists.pot",
-      "dest": "risk_allocation/v1.1/codelists.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/risk_allocation/v1.1/codelists.po"
-    },
-    {
-      "source": "/build/locale/risk_allocation/v1.1/docs.pot",
-      "dest": "risk_allocation/v1.1/docs.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/risk_allocation/v1.1/docs.po"
-    },
-    {
-      "source": "/build/locale/risk_allocation/v1.1/schema.pot",
-      "dest": "risk_allocation/v1.1/schema.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/risk_allocation/v1.1/schema.po"
-    },
-    {
       "source": "/build/locale/secondStageDescription/master/docs.pot",
       "dest": "secondStageDescription/master/docs.pot",
       "translation": "/locale/%two_letters_code%/LC_MESSAGES/secondStageDescription/master/docs.po"
@@ -996,21 +696,6 @@
       "source": "/build/locale/shareholders/master/schema.pot",
       "dest": "shareholders/master/schema.pot",
       "translation": "/locale/%two_letters_code%/LC_MESSAGES/shareholders/master/schema.po"
-    },
-    {
-      "source": "/build/locale/shareholders/v1.1/codelists.pot",
-      "dest": "shareholders/v1.1/codelists.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/shareholders/v1.1/codelists.po"
-    },
-    {
-      "source": "/build/locale/shareholders/v1.1/docs.pot",
-      "dest": "shareholders/v1.1/docs.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/shareholders/v1.1/docs.po"
-    },
-    {
-      "source": "/build/locale/shareholders/v1.1/schema.pot",
-      "dest": "shareholders/v1.1/schema.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/shareholders/v1.1/schema.po"
     },
     {
       "source": "/build/locale/signatories/master/docs.pot",
@@ -1166,16 +851,6 @@
       "source": "/build/locale/transaction_milestones/master/schema.pot",
       "dest": "transaction_milestones/master/schema.pot",
       "translation": "/locale/%two_letters_code%/LC_MESSAGES/transaction_milestones/master/schema.po"
-    },
-    {
-      "source": "/build/locale/transaction_milestones/v1.1/docs.pot",
-      "dest": "transaction_milestones/v1.1/docs.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/transaction_milestones/v1.1/docs.po"
-    },
-    {
-      "source": "/build/locale/transaction_milestones/v1.1/schema.pot",
-      "dest": "transaction_milestones/v1.1/schema.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/transaction_milestones/v1.1/schema.po"
     },
     {
       "source": "/build/locale/unstructuredChanges/master/docs.pot",

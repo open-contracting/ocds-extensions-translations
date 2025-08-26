@@ -37,7 +37,7 @@ eval $(brew --prefix translate-toolkit)/libexec/bin/python -m pip install python
     For Crowdin, use `manage.py` from [data-support](https://github.com/open-contracting/data-support/blob/main/manage.py):
 
     ```bash
-    path/to/manage.py update-crowdinyml-files -p build/locale -d locale
+    path/to/manage.py update-crowdinyml-files -p build/locale -d locale --ignore v1
     ```
 
 1. Push the source strings to the translation tool.
