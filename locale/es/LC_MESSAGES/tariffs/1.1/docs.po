@@ -1,29 +1,21 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C)
-# This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
-# Cecilia Casco <ceciliacasco@cds.com.py>, 2021
-# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
-# Maria Esther Cervantes <mcervantes@cds.com.py>, 2021
-# James McKinney, 2024
-# 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python\n"
+"Project-Id-Version: ocds-extensions\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-30 00:39-0400\n"
-"PO-Revision-Date: 2019-03-14 18:27+0000\n"
-"Last-Translator: James McKinney, 2024\n"
-"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"POT-Creation-Date: 2025-08-25 23:28-0400\n"
+"PO-Revision-Date: 2025-08-26 04:53\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: ocds-extensions\n"
+"X-Crowdin-Project-ID: 823148\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: /tariffs/1.1/docs.pot\n"
+"X-Crowdin-File-ID: 944\n"
+"Language: es_ES\n"
 
 #: ../README.md:1
 msgid "Tariffs"
@@ -34,40 +26,20 @@ msgid "Introduction"
 msgstr "Introducción"
 
 #: ../README.md:5
-msgid ""
-"Some contracts, particularly Public Private Partnership contracts, include "
-"agreements about the user fees to be charged for use of the infrastructure "
-"or services the contract relates to."
-msgstr ""
-"Algunos contratos, en particular los contratos de Asociación Público "
-"Privada, incluyen acuerdos sobre las tarifas de usuario que se cobrarán por "
-"el uso de la infraestructura o los servicios a los que se refiere el "
-"contrato."
+msgid "Some contracts, particularly Public Private Partnership contracts, include agreements about the user fees to be charged for use of the infrastructure or services the contract relates to."
+msgstr "Algunos contratos, en particular los contratos de Asociación Público Privada, incluyen acuerdos sobre las tarifas de usuario que se cobrarán por el uso de la infraestructura o los servicios a los que se refiere el contrato."
 
 #: ../README.md:7
-msgid ""
-"For example, a Public Private Partnership project to build a bridge may set "
-"out the tolls for cars and other vehicles cross the bridge."
-msgstr ""
-"Por ejemplo, un proyecto de Asociación Pública Privada para construir un "
-"puente puede establecer los peajes para coches y otros vehículos para cruzar"
-" el mismo."
+msgid "For example, a Public Private Partnership project to build a bridge may set out the tolls for cars and other vehicles cross the bridge."
+msgstr "Por ejemplo, un proyecto de Asociación Pública Privada para construir un puente puede establecer los peajes para coches y otros vehículos para cruzar el mismo."
 
 #: ../README.md:9
-msgid ""
-"The tariff extension allows a structured list of these charges to be set "
-"out."
-msgstr ""
-"La extensión de tarifas permite establecer una lista estructurada de estos "
-"cargos."
+msgid "The tariff extension allows a structured list of these charges to be set out."
+msgstr "La extensión de tarifas permite establecer una lista estructurada de estos cargos."
 
 #: ../README.md:11
-msgid ""
-"It also includes an additional codelist entries for the documentType "
-"codelist for:"
-msgstr ""
-"También incluye entradas de lista de códigos adicionales para la lista de "
-"códigos documentType para:"
+msgid "It also includes an additional codelist entries for the documentType codelist for:"
+msgstr "También incluye entradas de lista de códigos adicionales para la lista de códigos documentType para:"
 
 #: ../README.md:13
 msgid "tariffs"
@@ -90,48 +62,20 @@ msgid "Tariff modelling"
 msgstr "Modelado de tarifas"
 
 #: ../README.md:20
-msgid ""
-"The tariff model builds upon the metrics extension, allowing an array of "
-"tariff items, each with an identifier, title, period, value, units and an "
-"arbitrary set of dimensions."
-msgstr ""
-"El modelo de tarifas se basa en la extensión de métricas, permitiendo una "
-"lista de elementos tarrif, cada uno con un identificador, título, período, "
-"valor, unidades y un conjunto arbitrario de dimensiones."
+msgid "The tariff model builds upon the metrics extension, allowing an array of tariff items, each with an identifier, title, period, value, units and an arbitrary set of dimensions."
+msgstr "El modelo de tarifas se basa en la extensión de métricas, permitiendo una lista de elementos tarrif, cada uno con un identificador, título, período, valor, unidades y un conjunto arbitrario de dimensiones."
 
 #: ../README.md:22
-msgid ""
-"For example, if the toll for a road bridge varies based on (a) the type of "
-"vehicle; and (b) the time of day; an implementation of the tariff extension "
-"may create new fields for `dimensions.vehicleType` and "
-"`dimensions.timeOfDay`, populating these according to local codelists. In "
-"PPP cases, these additional dimensions may mirror those used in the "
-"estimated demand and other metrics sections."
-msgstr ""
-"Por ejemplo, si el peaje para un puente de carretera varía según (a) el tipo"
-" de vehículo y (b) la hora del día; una implementación de la extensión de "
-"tarifas puede crear nuevos campos para `dimensions.vehicleType` y "
-"`dimensions.timeOfDay`, rellenando estos de acuerdo con las listas de "
-"códigos locales. En los casos de APP, estas dimensiones adicionales pueden "
-"reflejar las utilizadas en las secciones de demanda estimada y otras "
-"métricas."
+msgid "For example, if the toll for a road bridge varies based on (a) the type of vehicle; and (b) the time of day; an implementation of the tariff extension may create new fields for `dimensions.vehicleType` and `dimensions.timeOfDay`, populating these according to local codelists. In PPP cases, these additional dimensions may mirror those used in the estimated demand and other metrics sections."
+msgstr "Por ejemplo, si el peaje para un puente de carretera varía según (a) el tipo de vehículo y (b) la hora del día; una implementación de la extensión de tarifas puede crear nuevos campos para `dimensions.vehicleType` y `dimensions.timeOfDay`, rellenando estos de acuerdo con las listas de códigos locales. En los casos de APP, estas dimensiones adicionales pueden reflejar las utilizadas en las secciones de demanda estimada y otras métricas."
 
 #: ../README.md:24
 msgid "Example"
 msgstr "Ejemplo"
 
 #: ../README.md:26
-msgid ""
-"The example below shows a very simply tariff table, without periods or "
-"units, but with two dimensions. Tariffs which relate to a particular set of "
-"dates could have a `period` block. Those which relate to a particular unit "
-"(e.g. tonnes) could have this indicated using a `unit` block."
-msgstr ""
-"El ejemplo siguiente muestra una tabla de tarifas muy sencilla, sin períodos"
-" ni unidades, pero con dos dimensiones. Las tarifas que se refieren a un "
-"determinado conjunto de fechas podrían tener un bloque `period`. Los que se "
-"refieren a una unidad particular (por ejemplo, toneladas) podrían tener esto"
-" indicado usando un bloque `unit`."
+msgid "The example below shows a very simply tariff table, without periods or units, but with two dimensions. Tariffs which relate to a particular set of dates could have a `period` block. Those which relate to a particular unit (e.g. tonnes) could have this indicated using a `unit` block."
+msgstr "El ejemplo siguiente muestra una tabla de tarifas muy sencilla, sin períodos ni unidades, pero con dos dimensiones. Las tarifas que se refieren a un determinado conjunto de fechas podrían tener un bloque `period`. Los que se refieren a una unidad particular (por ejemplo, toneladas) podrían tener esto indicado usando un bloque `unit`."
 
 #: ../README.md:89
 msgid "Codelist entries"
@@ -139,65 +83,31 @@ msgstr "Entradas de lista de códigos"
 
 #: ../README.md:91
 msgid "The following document types are introduced by the tariff extension"
-msgstr ""
-"Los siguientes tipos de documentos son introducidos por la extensión de "
-"tarifa"
+msgstr "Los siguientes tipos de documentos son introducidos por la extensión de tarifa"
 
 #: ../README.md:93
 msgid "tariffs - For providing tariff and pricing schedules."
 msgstr "tariffs - Para proporcionar tarifas y horarios de precios."
 
 #: ../README.md:94
-msgid ""
-"tariffMethod - For summarizing the method by which tariffs are set, and "
-"linking to detailed documentation of the methods for setting tariffs. This "
-"may include written documentation, and spreadsheets providing the models "
-"used to calculate tariffs."
-msgstr ""
-"tariffMethod - Para resumir el método por el cual se fijan las tarifas, y "
-"enlazar a la documentación detallada de los métodos para fijar tarifas. Esto"
-" puede incluir documentación escrita y hojas de cálculo con los modelos "
-"utilizados para calcular las tarifas."
+msgid "tariffMethod - For summarizing the method by which tariffs are set, and linking to detailed documentation of the methods for setting tariffs. This may include written documentation, and spreadsheets providing the models used to calculate tariffs."
+msgstr "tariffMethod - Para resumir el método por el cual se fijan las tarifas, y enlazar a la documentación detallada de los métodos para fijar tarifas. Esto puede incluir documentación escrita y hojas de cálculo con los modelos utilizados para calcular las tarifas."
 
 #: ../README.md:95
-msgid ""
-"tariffReview - For summarizing the arrangements for the review and "
-"regulation of tariffs, and linking to detailed documentation that covers how"
-" tariffs are regulated. This is important to explain to users why they are "
-"paying what they are paying, and the scope for changes to payment "
-"structures."
-msgstr ""
-"tariffReview - Para resumir las disposiciones para la revisión y regulación "
-"de las tarifas, y enlazar con la documentación detallada que explique cómo "
-"se regulan las tarifas. Esto es importante para poder explicarles a los "
-"usuarios por qué están pagando lo que están pagando, y el alcance de los "
-"cambios en las estructuras de pago."
+msgid "tariffReview - For summarizing the arrangements for the review and regulation of tariffs, and linking to detailed documentation that covers how tariffs are regulated. This is important to explain to users why they are paying what they are paying, and the scope for changes to payment structures."
+msgstr "tariffReview - Para resumir las disposiciones para la revisión y regulación de las tarifas, y enlazar con la documentación detallada que explique cómo se regulan las tarifas. Esto es importante para poder explicarles a los usuarios por qué están pagando lo que están pagando, y el alcance de los cambios en las estructuras de pago."
 
 #: ../README.md:96
-msgid ""
-"tariffIllustration - For linking to graphs and reports on the change over "
-"time in tariff prices. Use the relevant image media type when linking to "
-"PNG, JPEG or GIF graphs to allow applications to directly display this "
-"content."
-msgstr ""
-"tariffIllustration - Para vincular a gráficos e informes sobre el cambio en "
-"el tiempo en los precios de las tarifas. Utilice el tipo de material de "
-"imagen relevante al vincular a gráficos PNG, JPEG o GIF para permitir que "
-"las aplicaciones muestren directamente este contenido."
+msgid "tariffIllustration - For linking to graphs and reports on the change over time in tariff prices. Use the relevant image media type when linking to PNG, JPEG or GIF graphs to allow applications to directly display this content."
+msgstr "tariffIllustration - Para vincular a gráficos e informes sobre el cambio en el tiempo en los precios de las tarifas. Utilice el tipo de material de imagen relevante al vincular a gráficos PNG, JPEG o GIF para permitir que las aplicaciones muestren directamente este contenido."
 
 #: ../README.md:98
 msgid "Issues"
 msgstr "Issues"
 
 #: ../README.md:100
-msgid ""
-"Report issues for this extension in the [ocds-extensions "
-"repository](https://github.com/open-contracting/ocds-extensions/issues), "
-"putting the extension's name in the issue's title."
-msgstr ""
-"Reporte issues para esta extensión en el [repositorio de extensiones "
-"ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
-"el nombre de la extensión en el título del issue."
+msgid "Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title."
+msgstr "Reporte issues para esta extensión en el [repositorio de extensiones ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo el nombre de la extensión en el título del issue."
 
 #: ../README.md:102
 msgid "Changelog"
@@ -208,8 +118,8 @@ msgid "2021-04-19"
 msgstr "2021-04-19"
 
 #: ../README.md:106
-msgid "Add Section column to `+documentType.csv` codelist."
-msgstr "Agregar la columna Sección a la lista de códigos `+documentType.csv`."
+msgid "Add Section column to the `+documentType.csv` codelist patch."
+msgstr ""
 
 #: ../README.md:108
 msgid "2020-06-04"
@@ -232,12 +142,8 @@ msgid "2019-03-20"
 msgstr "2019-03-20"
 
 #: ../README.md:118
-msgid ""
-"Set `\"uniqueItems\": true` on array fields, and add `\"minLength\": 1` on "
-"required string fields."
-msgstr ""
-"Establecer `\"uniqueItems \": true` en los campos matriz y agregar "
-"`\"minLength\": 1` en los campos de cadena obligatorios."
+msgid "Set `\"uniqueItems\": true` on array fields, and add `\"minLength\": 1` on required string fields."
+msgstr "Establecer `\"uniqueItems \": true` en los campos matriz y agregar `\"minLength\": 1` en los campos de cadena obligatorios."
 
 #: ../README.md:119
 msgid "Make `Tariff.unit` non-nullable, like `Item.unit`."
@@ -252,10 +158,7 @@ msgid "2018-05-08"
 msgstr "2018-05-08"
 
 #: ../README.md:124
-msgid ""
-"Make `Tariff.id` required to support revision tracking and [list "
-"merging](https://standard.open-"
-"contracting.org/latest/en/schema/merging/#array-values)"
+msgid "Make `Tariff.id` required to support revision tracking and [list merging](https://standard.open-contracting.org/latest/en/schema/merging/#array-values)"
 msgstr ""
 
 #: ../README.md:126
@@ -265,3 +168,4 @@ msgstr "2018-05-01"
 #: ../README.md:128
 msgid "Make `Tariff.dimensions` nullable."
 msgstr "Hacer que `Tariff.dimensions` pueda ser nulo."
+

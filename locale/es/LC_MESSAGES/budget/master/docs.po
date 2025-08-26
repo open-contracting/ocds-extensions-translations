@@ -1,91 +1,49 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C)
-# This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# Maria Esther Cervantes <mcervantes@cds.com.py>, 2019
-# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
-# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
-# James McKinney, 2024
-# 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python\n"
+"Project-Id-Version: ocds-extensions\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-30 00:39-0400\n"
-"PO-Revision-Date: 2019-03-14 18:32+0000\n"
-"Last-Translator: James McKinney, 2024\n"
-"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"POT-Creation-Date: 2025-08-25 23:28-0400\n"
+"PO-Revision-Date: 2025-08-26 04:53\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: ocds-extensions\n"
+"X-Crowdin-Project-ID: 823148\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: /budget/master/docs.pot\n"
+"X-Crowdin-File-ID: 278\n"
+"Language: es_ES\n"
 
 #: ../README.md:1
 msgid "Budget Breakdown"
 msgstr "Desglose del presupuesto"
 
 #: ../README.md:3
-msgid ""
-"OCDS' `planning.budget` object can be used to describe the budget from which"
-" funds are drawn. It includes a single `budget.amount` field to capture the "
-"total value of the budget for a future contracting process."
+msgid "OCDS' `planning.budget` object can be used to describe the budget from which funds are drawn. It includes a single `budget.amount` field to capture the total value of the budget for a future contracting process."
 msgstr ""
 
 #: ../README.md:5
-msgid ""
-"This extension provides a way to describe the budget in greater detail, "
-"including multi-year budgets or budgets sourced from multiple organizations."
-" In the case of PPPs, budgets may be sourced from the private sector or from"
-" multi-lateral development banks."
-msgstr ""
-"Esta extensión permite describir el presupuesto con mayor detalle, incluidos"
-" los presupuestos plurianuales o los presupuestos procedentes de múltiples "
-"organizaciones. En el caso de las APP, los presupuestos pueden proceder del "
-"sector privado o de bancos de desarrollo multilaterales."
+msgid "This extension provides a way to describe the budget in greater detail, including multi-year budgets or budgets sourced from multiple organizations. In the case of PPPs, budgets may be sourced from the private sector or from multi-lateral development banks."
+msgstr "Esta extensión permite describir el presupuesto con mayor detalle, incluidos los presupuestos plurianuales o los presupuestos procedentes de múltiples organizaciones. En el caso de las APP, los presupuestos pueden proceder del sector privado o de bancos de desarrollo multilaterales."
 
 #: ../README.md:7
-msgid ""
-"Disclosing structured data on multi-source budgets allows users to "
-"understand how much of the funds for a project come from government or from "
-"a specific department, whilst structured data on multi-year budgets allows "
-"users to understand the expected spend profile of a contract."
-msgstr ""
-"La divulgación de datos estructurados de presupuestos de fuentes múltiples "
-"permite a los usuarios entender cuánto de los fondos para un proyecto "
-"provienen del gobierno o de un departamento específico, mientras que los "
-"datos estructurados sobre presupuestos multi-anuales permiten a los usuarios"
-" entender el perfil de gasto esperado de un contrato."
+msgid "Disclosing structured data on multi-source budgets allows users to understand how much of the funds for a project come from government or from a specific department, whilst structured data on multi-year budgets allows users to understand the expected spend profile of a contract."
+msgstr "La divulgación de datos estructurados de presupuestos de fuentes múltiples permite a los usuarios entender cuánto de los fondos para un proyecto provienen del gobierno o de un departamento específico, mientras que los datos estructurados sobre presupuestos multi-anuales permiten a los usuarios entender el perfil de gasto esperado de un contrato."
 
 #: ../README.md:9
 msgid "Guidance"
 msgstr "Guía"
 
 #: ../README.md:11
-msgid ""
-"In the core `planning.budget` block, `budget.amount` should be used to "
-"capture the total value of the budget for a future contracting process."
+msgid "In the core `planning.budget` block, `budget.amount` should be used to capture the total value of the budget for a future contracting process."
 msgstr ""
 
 #: ../README.md:13
-msgid ""
-"Where `budget.budgetBreakdown` is used to express a multi-source budget but "
-"the organization details are not known for one or more parts of the budget, "
-"for example in a PPP where part of the budget will be provided by the "
-"successful private sector bidder, the `sourceParty.name` field should be "
-"used to provide a free text explanation of the source of the budget, e.g. "
-"\"Private sector investment from successful bidder\"."
-msgstr ""
-"Cuando se utiliza `budget.budgetBreakdown` para expresar un presupuesto de "
-"múltiples fuentes pero los detalles de la organización no se conocen para "
-"una o más partes del presupuesto, por ejemplo, en una APP donde el licitador"
-" del sector privado proporcionará parte del presupuesto , el campo "
-"`sourceParty.name` debe usarse para proporcionar una explicación de texto "
-"libre de la fuente del presupuesto, por ejemplo \"Inversión del sector "
-"privado del licitador ganador\"."
+msgid "Where `budget.budgetBreakdown` is used to express a multi-source budget but the organization details are not known for one or more parts of the budget, for example in a PPP where part of the budget will be provided by the successful private sector bidder, the `sourceParty.name` field should be used to provide a free text explanation of the source of the budget, e.g. \"Private sector investment from successful bidder\"."
+msgstr "Cuando se utiliza `budget.budgetBreakdown` para expresar un presupuesto de múltiples fuentes pero los detalles de la organización no se conocen para una o más partes del presupuesto, por ejemplo, en una APP donde el licitador del sector privado proporcionará parte del presupuesto , el campo `sourceParty.name` debe usarse para proporcionar una explicación de texto libre de la fuente del presupuesto, por ejemplo \"Inversión del sector privado del licitador ganador\"."
 
 #: ../README.md:15
 msgid "Examples"
@@ -112,14 +70,8 @@ msgid "Issues"
 msgstr "Issues"
 
 #: ../README.md:121
-msgid ""
-"Report issues for this extension in the [ocds-extensions "
-"repository](https://github.com/open-contracting/ocds-extensions/issues), "
-"putting the extension's name in the issue's title."
-msgstr ""
-"Reporte issues para esta extensión en el [repositorio de extensiones "
-"ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
-"el nombre de la extensión en el título del issue."
+msgid "Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title."
+msgstr "Reporte issues para esta extensión en el [repositorio de extensiones ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo el nombre de la extensión en el título del issue."
 
 #: ../README.md:123
 msgid "Changelog"
@@ -130,9 +82,7 @@ msgid "2023-06-07"
 msgstr ""
 
 #: ../README.md:127
-msgid ""
-"Add 'sourceParty' code to the `+partyRole.csv` codelist, because the "
-"'funder' code is deprecated in OCDS 1.2."
+msgid "Add 'sourceParty' code to the `+partyRole.csv` codelist patch, because the 'funder' code is deprecated in OCDS 1.2."
 msgstr ""
 
 #: ../README.md:129
@@ -148,12 +98,8 @@ msgid "2019-03-20"
 msgstr "2019-03-20"
 
 #: ../README.md:135
-msgid ""
-"Set `\"uniqueItems\": true` on array fields, and add `\"minLength\": 1` on "
-"required string fields."
-msgstr ""
-"Establecer `\"uniqueItems \": true` en los campos matriz y agregar "
-"`\"minLength\": 1` en los campos de cadena obligatorios."
+msgid "Set `\"uniqueItems\": true` on array fields, and add `\"minLength\": 1` on required string fields."
+msgstr "Establecer `\"uniqueItems \": true` en los campos matriz y agregar `\"minLength\": 1` en los campos de cadena obligatorios."
 
 #: ../README.md:137
 msgid "2019-01-30"
@@ -168,8 +114,6 @@ msgid "2018-05-08"
 msgstr "2018-05-08"
 
 #: ../README.md:143
-msgid ""
-"Make `BudgetBreakdown.id` required and non-nullable to support revision "
-"tracking and [list merging](https://standard.open-"
-"contracting.org/latest/en/schema/merging/#array-values)"
+msgid "Make `BudgetBreakdown.id` required and non-nullable to support revision tracking and [list merging](https://standard.open-contracting.org/latest/en/schema/merging/#array-values)"
 msgstr ""
+

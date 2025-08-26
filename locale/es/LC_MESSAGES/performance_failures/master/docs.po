@@ -1,39 +1,28 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C)
-# This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# James McKinney, 2019
-# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
-# Maria Esther Cervantes <mcervantes@cds.com.py>, 2021
-# 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python\n"
+"Project-Id-Version: ocds-extensions\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-30 00:39-0400\n"
-"PO-Revision-Date: 2019-03-14 18:30+0000\n"
-"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2021\n"
-"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"POT-Creation-Date: 2025-08-25 23:28-0400\n"
+"PO-Revision-Date: 2025-08-26 04:53\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: ocds-extensions\n"
+"X-Crowdin-Project-ID: 823148\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: /performance_failures/master/docs.pot\n"
+"X-Crowdin-File-ID: 710\n"
+"Language: es_ES\n"
 
 #: ../README.md:1
 msgid "Performance failures"
 msgstr "Fallas de desempeño"
 
 #: ../README.md:3
-msgid ""
-"The [Framework for disclosure in Public Private "
-"Partnerships](https://thedocs.worldbank.org/en/doc/773541448296707678-0100022015/original/DisclosureinPPPsFramework.pdf)"
-" requires disclosure of instances of performance failures during the the "
-"life of a contract, along with the penalties or abatements defined, imposed "
-"and paid in relation to each category of performance failures."
+msgid "The [Framework for disclosure in Public Private Partnerships](https://thedocs.worldbank.org/en/doc/773541448296707678-0100022015/original/DisclosureinPPPsFramework.pdf) requires disclosure of instances of performance failures during the the life of a contract, along with the penalties or abatements defined, imposed and paid in relation to each category of performance failures."
 msgstr ""
 
 #: ../README.md:5
@@ -49,14 +38,8 @@ msgid "Issues"
 msgstr "Issues"
 
 #: ../README.md:38
-msgid ""
-"Report issues for this extension in the [ocds-extensions "
-"repository](https://github.com/open-contracting/ocds-extensions/issues), "
-"putting the extension's name in the issue's title."
-msgstr ""
-"Reporte issues para esta extensión en el [repositorio de extensiones "
-"ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
-"el nombre de la extensión en el título del issue."
+msgid "Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title."
+msgstr "Reporte issues para esta extensión en el [repositorio de extensiones ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo el nombre de la extensión en el título del issue."
 
 #: ../README.md:40
 msgid "Changelog"
@@ -79,22 +62,15 @@ msgid "Add `\"minLength\": 1` on required string fields."
 msgstr "Agregar `\"minLength\": 1` en los campos de cadena obligatorios."
 
 #: ../README.md:49
-msgid ""
-"Make `PerformanceFailure.period` non-nullable (undo earlier change), given "
-"that it refers to the `Period` object."
-msgstr ""
-"Hacer `PerformanceFailure.period` no nulo (deshacer el cambio anterior), "
-"dado que se refiere al objeto `Period`."
+msgid "Make `PerformanceFailure.period` non-nullable (undo earlier change), given that it refers to the `Period` object."
+msgstr "Hacer `PerformanceFailure.period` no nulo (deshacer el cambio anterior), dado que se refiere al objeto `Period`."
 
 #: ../README.md:51
 msgid "2018-05-08"
 msgstr "2018-05-08"
 
 #: ../README.md:53
-msgid ""
-"Make `PerformanceFailure.id` required to support revision tracking and [list"
-" merging](https://standard.open-"
-"contracting.org/latest/en/schema/merging/#array-values)"
+msgid "Make `PerformanceFailure.id` required to support revision tracking and [list merging](https://standard.open-contracting.org/latest/en/schema/merging/#array-values)"
 msgstr ""
 
 #: ../README.md:55
@@ -104,3 +80,4 @@ msgstr "2018-01-29"
 #: ../README.md:57
 msgid "Make `PerformanceFailure.period` nullable."
 msgstr "Hacer que `PerformanceFailure.period` pueda ser nulo."
+

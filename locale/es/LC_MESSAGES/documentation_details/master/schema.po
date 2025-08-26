@@ -1,27 +1,22 @@
-# Translations template for PROJECT.
-# Copyright (C) 2024 ORGANIZATION
-# This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-# 
-# Translators:
-# James McKinney, 2024
-# Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2024
-# 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
+"Project-Id-Version: ocds-extensions\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-05-30 00:39-0400\n"
-"PO-Revision-Date: 2024-05-30 03:24+0000\n"
-"Last-Translator: Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2024\n"
-"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"POT-Creation-Date: 2025-08-25 23:28-0400\n"
+"PO-Revision-Date: 2025-08-26 04:35\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.15.0\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: ocds-extensions\n"
+"X-Crowdin-Project-ID: 823148\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: /documentation_details/master/schema.pot\n"
+"X-Crowdin-File-ID: 394\n"
+"Language: es_ES\n"
 
 #. /name/en
 #: extension.json:1
@@ -30,12 +25,8 @@ msgstr "Detalles de Documentos"
 
 #. /description/en
 #: extension.json:1
-msgid ""
-"Adds fields to the document object for page references, access details and "
-"author information."
-msgstr ""
-"Agrega campos al objeto document para referencias a páginas, acceso a "
-"detalles e información del autor."
+msgid "Adds fields to the document object for page references, access details and author information."
+msgstr "Agrega campos al objeto document para referencias a páginas, acceso a detalles e información del autor."
 
 #. /definitions/Document/properties/pageStart/title
 #: release-schema.json:1
@@ -44,15 +35,8 @@ msgstr "Inicio de página"
 
 #. /definitions/Document/properties/pageStart/description
 #: release-schema.json:1
-msgid ""
-"When the information referenced exists within a large document, indicate the"
-" first page on which it can be found. This should refer to the printed page "
-"number, not the page number reported by software applications."
-msgstr ""
-"Cuando la información mencionada exista dentro de un documento grande, se "
-"debe indicar la primera página en la que se puede encontrar. Esto debe de "
-"referirse al número de página impreso, no al número de página reportado por "
-"software."
+msgid "When the information referenced exists within a large document, indicate the first page on which it can be found. This should refer to the printed page number, not the page number reported by software applications."
+msgstr "Cuando la información mencionada exista dentro de un documento grande, se debe indicar la primera página en la que se puede encontrar. Esto debe de referirse al número de página impreso, no al número de página reportado por software."
 
 #. /definitions/Document/properties/pageEnd/title
 #: release-schema.json:1
@@ -61,15 +45,8 @@ msgstr "Fin de página"
 
 #. /definitions/Document/properties/pageEnd/description
 #: release-schema.json:1
-msgid ""
-"When the information referenced exists within a large document, indicate the"
-" last page on which it can be found. This should refer to the printed page "
-"number, not the page number reported by software applications."
-msgstr ""
-"Cuando la información mencionada existe dentro de un documento grande, se "
-"debe indicar la última página en la que se puede encontrar. Esto debe de "
-"referirse al número de página impreso, no al número de página reportado por "
-"software."
+msgid "When the information referenced exists within a large document, indicate the last page on which it can be found. This should refer to the printed page number, not the page number reported by software applications."
+msgstr "Cuando la información mencionada existe dentro de un documento grande, se debe indicar la última página en la que se puede encontrar. Esto debe de referirse al número de página impreso, no al número de página reportado por software."
 
 #. /definitions/Document/properties/accessDetails/title
 #: release-schema.json:1
@@ -78,14 +55,8 @@ msgstr "Detalles de acceso"
 
 #. /definitions/Document/properties/accessDetails/description
 #: release-schema.json:1
-msgid ""
-"A description of any special arrangements needed to access this document, "
-"for example: registering for access, paying a fee, or visiting a location to"
-" inspect the document."
-msgstr ""
-"Una descripción de cualquier arreglo especial necesitado para acceder a "
-"estos documentos, por ejemplo: registrarse para acceder, pagar una tarifa o "
-"visitar un lugar para inspeccionar el documento."
+msgid "A description of any special arrangements needed to access this document, for example: registering for access, paying a fee, or visiting a location to inspect the document."
+msgstr "Una descripción de cualquier arreglo especial necesitado para acceder a estos documentos, por ejemplo: registrarse para acceder, pagar una tarifa o visitar un lugar para inspeccionar el documento."
 
 #. /definitions/Document/properties/accessDetailsURL/title
 #: release-schema.json:1
@@ -94,12 +65,8 @@ msgstr "URL de detalles de acceso"
 
 #. /definitions/Document/properties/accessDetailsURL/description
 #: release-schema.json:1
-msgid ""
-"A web address for information on any special arrangements needed to access "
-"the document."
-msgstr ""
-"Una dirección web para obtener información sobre cualquier disposición "
-"especial necesaria para acceder al documento."
+msgid "A web address for information on any special arrangements needed to access the document."
+msgstr "Una dirección web para obtener información sobre cualquier disposición especial necesaria para acceder al documento."
 
 #. /definitions/Document/properties/author/title
 #: release-schema.json:1
@@ -118,16 +85,6 @@ msgstr "Traducciones no oficiales"
 
 #. /definitions/Document/properties/unofficialTranslations/description
 #: release-schema.json:1
-msgid ""
-"The languages in which unofficial translations of the document are "
-"available, from the open [language](https://standard.open-"
-"contracting.org/latest/en/schema/codelists/#language) codelist. A [BCP47 "
-"language tag](https://www.w3.org/International/articles/language-tags/) is "
-"allowed, if there is a user need for the additional information."
-msgstr ""
-"Los idiomas en los que están disponibles las traducciones no oficiales del "
-"documento, de la lista de códigos abierta [lenguaje](https://standard.open-"
-"contracting.org/latest/en/schema/codelists/#language). Se permite una "
-"etiqueta de lenguaje "
-"[BCP47](https://www.w3.org/International/articles/language-tags/), si hay "
-"una necesidad del usuario para la información adicional."
+msgid "The languages in which unofficial translations of the document are available, from the open [language](https://standard.open-contracting.org/latest/en/schema/codelists/#language) codelist. A [BCP47 language tag](https://www.w3.org/International/articles/language-tags/) is allowed, if there is a user need for the additional information."
+msgstr "Los idiomas en los que están disponibles las traducciones no oficiales del documento, de la lista de códigos abierta [lenguaje](https://standard.open-contracting.org/latest/en/schema/codelists/#language). Se permite una etiqueta de lenguaje [BCP47](https://www.w3.org/International/articles/language-tags/), si hay una necesidad del usuario para la información adicional."
+

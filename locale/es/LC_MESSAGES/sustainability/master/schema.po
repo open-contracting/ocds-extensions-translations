@@ -1,26 +1,22 @@
-# Translations template for PROJECT.
-# Copyright (C) 2024 ORGANIZATION
-# This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-# 
-# Translators:
-# James McKinney, 2024
-# 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
+"Project-Id-Version: ocds-extensions\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-05-30 00:40-0400\n"
-"PO-Revision-Date: 2023-05-15 22:19+0000\n"
-"Last-Translator: James McKinney, 2024\n"
-"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"POT-Creation-Date: 2025-08-25 23:28-0400\n"
+"PO-Revision-Date: 2025-08-26 04:35\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.15.0\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: ocds-extensions\n"
+"X-Crowdin-Project-ID: 823148\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: /sustainability/master/schema.pot\n"
+"X-Crowdin-File-ID: 936\n"
+"Language: es_ES\n"
 
 #. /name/en
 #. /definitions/Sustainability/title
@@ -32,16 +28,12 @@ msgstr ""
 
 #. /description/en
 #: extension.json:1
-msgid ""
-"Adds fields to the tender and lot objects, to provide information related to"
-" Sustainable Public Procurement."
+msgid "Adds fields to the tender and lot objects, to provide information related to Sustainable Public Procurement."
 msgstr ""
 
 #. /definitions/Sustainability/description
 #: release-schema.json:1
-msgid ""
-"Information about how the contracting process or lot incorporates "
-"Sustainable Public Procurement."
+msgid "Information about how the contracting process or lot incorporates Sustainable Public Procurement."
 msgstr ""
 
 #. /definitions/Sustainability/properties/description/title
@@ -51,9 +43,7 @@ msgstr "Descripción"
 
 #. /definitions/Sustainability/properties/description/description
 #: release-schema.json:1
-msgid ""
-"A description of how the contracting process or lot incorporates Sustainable"
-" Public Procurement."
+msgid "A description of how the contracting process or lot incorporates Sustainable Public Procurement."
 msgstr ""
 
 #. /definitions/Sustainability/properties/goal/title
@@ -63,10 +53,7 @@ msgstr ""
 
 #. /definitions/Sustainability/properties/goal/description
 #: release-schema.json:1
-msgid ""
-"The sustainability goal pursued, from the sustainabilityGoal codelist. New "
-"sub-codes may be used outside those in the codelist, following the format "
-"[existing-code].[sub-code]."
+msgid "The sustainability goal pursued, from the sustainabilityGoal codelist. New sub-codes may be used outside those in the codelist, following the format [existing-code].[sub-code]."
 msgstr ""
 
 #. /definitions/Sustainability/properties/strategies/title
@@ -76,9 +63,7 @@ msgstr ""
 
 #. /definitions/Sustainability/properties/strategies/description
 #: release-schema.json:1
-msgid ""
-"The strategies used to pursue the sustainability goal(s), from the "
-"sustainabilityStrategy codelist."
+msgid "The strategies used to pursue the sustainability goal(s), from the sustainabilityStrategy codelist."
 msgstr ""
 
 #. /definitions/Tender/properties/hasSustainability/title
@@ -89,15 +74,12 @@ msgstr ""
 
 #. /definitions/Tender/properties/hasSustainability/description
 #: release-schema.json:1
-msgid ""
-"Whether the contracting process incorporates Sustainable Public Procurement."
+msgid "Whether the contracting process incorporates Sustainable Public Procurement."
 msgstr ""
 
 #. /definitions/Tender/properties/sustainability/description
 #: release-schema.json:1
-msgid ""
-"Information about how the contracting process incorporates Sustainable "
-"Public Procurement."
+msgid "Information about how the contracting process incorporates Sustainable Public Procurement."
 msgstr ""
 
 #. /definitions/Lot/properties/hasSustainability/description
@@ -107,6 +89,6 @@ msgstr ""
 
 #. /definitions/Lot/properties/sustainability/description
 #: release-schema.json:1
-msgid ""
-"Information about how the lot incorporates Sustainable Public Procurement."
+msgid "Information about how the lot incorporates Sustainable Public Procurement."
 msgstr ""
+

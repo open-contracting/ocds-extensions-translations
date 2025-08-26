@@ -1,27 +1,22 @@
-# Translations template for PROJECT.
-# Copyright (C) 2024 ORGANIZATION
-# This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-# 
-# Translators:
-# Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2019
-# James McKinney, 2024
-# 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
+"Project-Id-Version: ocds-extensions\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-05-30 00:40-0400\n"
-"PO-Revision-Date: 2019-03-14 18:29+0000\n"
-"Last-Translator: James McKinney, 2024\n"
-"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"POT-Creation-Date: 2025-08-25 23:28-0400\n"
+"PO-Revision-Date: 2025-08-26 04:35\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.15.0\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: ocds-extensions\n"
+"X-Crowdin-Project-ID: 823148\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: /requirements/master/schema.pot\n"
+"X-Crowdin-File-ID: 818\n"
+"Language: es_ES\n"
 
 #. /name/en
 #. /definitions/RequirementGroup/properties/requirements/title
@@ -31,9 +26,7 @@ msgstr "Requisitos"
 
 #. /description/en
 #: extension.json:1
-msgid ""
-"Adds fields to express the Core Criterion and Core Evidence Vocabulary "
-"(CCCEV)."
+msgid "Adds fields to express the Core Criterion and Core Evidence Vocabulary (CCCEV)."
 msgstr ""
 
 #. /definitions/Criterion/title
@@ -43,9 +36,7 @@ msgstr "Criterio"
 
 #. /definitions/Criterion/description
 #: release-schema.json:1
-msgid ""
-"A criterion on which bids, tenderers, lots or items will be judged, "
-"evaluated or assessed."
+msgid "A criterion on which bids, tenderers, lots or items will be judged, evaluated or assessed."
 msgstr ""
 
 #. /definitions/Criterion/properties/id/title
@@ -57,11 +48,7 @@ msgstr "Identificador"
 
 #. /definitions/Criterion/properties/id/description
 #: release-schema.json:1
-msgid ""
-"The identifier for this criterion. It must be unique and cannot change "
-"within the Open Contracting Process it is part of (defined by a single "
-"ocid). See the [identifier guidance](https://standard.open-"
-"contracting.org/latest/en/schema/identifiers/) for further details."
+msgid "The identifier for this criterion. It must be unique and cannot change within the Open Contracting Process it is part of (defined by a single ocid). See the [identifier guidance](https://standard.open-contracting.org/latest/en/schema/identifiers/) for further details."
 msgstr ""
 
 #. /definitions/Criterion/properties/title/title
@@ -104,9 +91,7 @@ msgstr "Artículo relacionado"
 
 #. /definitions/Criterion/properties/relatedItem/description
 #: release-schema.json:1
-msgid ""
-"The identifier of the item in the tender section to which this criterion "
-"applies."
+msgid "The identifier of the item in the tender section to which this criterion applies."
 msgstr ""
 
 #. /definitions/Criterion/properties/relatedLots/title
@@ -126,15 +111,8 @@ msgstr "Grupos de requisitos"
 
 #. /definitions/Criterion/properties/requirementGroups/description
 #: release-schema.json:1
-msgid ""
-"A list of requirement groups for this Criterion. A criterion is satisfied by"
-" one or more requirement groups being met. A requirement group is met when "
-"all requirements in the group are satisfied."
-msgstr ""
-"Una lista de grupos de requisitos para este Criterio. Un criterio se "
-"satisface cuando uno o más grupos de requisitos se cumplen. Un grupo de "
-"requisitos se cumple cuando todos los requerimientos del grupo se "
-"satisfacen."
+msgid "A list of requirement groups for this Criterion. A criterion is satisfied by one or more requirement groups being met. A requirement group is met when all requirements in the group are satisfied."
+msgstr "Una lista de grupos de requisitos para este Criterio. Un criterio se satisface cuando uno o más grupos de requisitos se cumplen. Un grupo de requisitos se cumple cuando todos los requerimientos del grupo se satisfacen."
 
 #. /definitions/RequirementGroup/title
 #: release-schema.json:1
@@ -143,20 +121,12 @@ msgstr "Grupo de requisitos"
 
 #. /definitions/RequirementGroup/description
 #: release-schema.json:1
-msgid ""
-"A requirement group is a set of requirements that must be fulfilled together"
-" to validate a criterion."
-msgstr ""
-"Un grupo de requisitos es un conjunto de requisitos que deben cumplirse "
-"juntos para validar un criterio."
+msgid "A requirement group is a set of requirements that must be fulfilled together to validate a criterion."
+msgstr "Un grupo de requisitos es un conjunto de requisitos que deben cumplirse juntos para validar un criterio."
 
 #. /definitions/RequirementGroup/properties/id/description
 #: release-schema.json:1
-msgid ""
-"The identifier for this requirement group. It must be unique and cannot "
-"change within the Open Contracting Process it is part of (defined by a "
-"single ocid). See the [identifier guidance](https://standard.open-"
-"contracting.org/latest/en/schema/identifiers/) for further details."
+msgid "The identifier for this requirement group. It must be unique and cannot change within the Open Contracting Process it is part of (defined by a single ocid). See the [identifier guidance](https://standard.open-contracting.org/latest/en/schema/identifiers/) for further details."
 msgstr ""
 
 #. /definitions/RequirementGroup/properties/description/description
@@ -166,12 +136,8 @@ msgstr ""
 
 #. /definitions/RequirementGroup/properties/requirements/description
 #: release-schema.json:1
-msgid ""
-"A list requirements which must all be satisfied for the requirement group to"
-" be met."
-msgstr ""
-"Una lista de requisitos que deben ser cumplidos para que el grupo de "
-"requisitos se cumpla."
+msgid "A list requirements which must all be satisfied for the requirement group to be met."
+msgstr "Una lista de requisitos que deben ser cumplidos para que el grupo de requisitos se cumpla."
 
 #. /definitions/Requirement/title
 #: release-schema.json:1
@@ -180,16 +146,8 @@ msgstr "Requisito"
 
 #. /definitions/Requirement/description
 #: release-schema.json:1
-msgid ""
-"An atomic requirement. Requirements can specify the expected value that the "
-"response has to contain, or a range of threshold values within which the "
-"response has to fit in. The requirement may apply to a certain period of "
-"time."
-msgstr ""
-"Un requisito atómico. Los requisitos pueden especificar el valor esperado "
-"que la respuesta debe contener, o un rango de valores tope en los que la "
-"respuesta debe de entrar. El requisito puede aplicar a un período específico"
-" de tiempo."
+msgid "An atomic requirement. Requirements can specify the expected value that the response has to contain, or a range of threshold values within which the response has to fit in. The requirement may apply to a certain period of time."
+msgstr "Un requisito atómico. Los requisitos pueden especificar el valor esperado que la respuesta debe contener, o un rango de valores tope en los que la respuesta debe de entrar. El requisito puede aplicar a un período específico de tiempo."
 
 #. /definitions/Requirement/properties/id/title
 #: release-schema.json:1
@@ -198,11 +156,7 @@ msgstr "Identificador del requisito"
 
 #. /definitions/Requirement/properties/id/description
 #: release-schema.json:1
-msgid ""
-"The identifier for this requirement. It must be unique and cannot change "
-"within the Open Contracting Process it is part of (defined by a single "
-"ocid). See the [identifier guidance](https://standard.open-"
-"contracting.org/latest/en/schema/identifiers/) for further details."
+msgid "The identifier for this requirement. It must be unique and cannot change within the Open Contracting Process it is part of (defined by a single ocid). See the [identifier guidance](https://standard.open-contracting.org/latest/en/schema/identifiers/) for further details."
 msgstr ""
 
 #. /definitions/Requirement/properties/title/title
@@ -253,9 +207,7 @@ msgstr "Valor esperado"
 
 #. /definitions/Requirement/properties/expectedValue/description
 #: release-schema.json:1
-msgid ""
-"The expected value of the requirement, when the response must be specific "
-"value."
+msgid "The expected value of the requirement, when the response must be specific value."
 msgstr ""
 
 #. /definitions/Requirement/properties/minValue/title
@@ -265,9 +217,7 @@ msgstr "Valor mínimo"
 
 #. /definitions/Requirement/properties/minValue/description
 #: release-schema.json:1
-msgid ""
-"The lower bound of the requirement, when the response must be within a "
-"certain range."
+msgid "The lower bound of the requirement, when the response must be within a certain range."
 msgstr ""
 
 #. /definitions/Requirement/properties/maxValue/title
@@ -277,9 +227,7 @@ msgstr "Valor máximo"
 
 #. /definitions/Requirement/properties/maxValue/description
 #: release-schema.json:1
-msgid ""
-"The upper bound of the requirement, when the response must be within a "
-"certain range."
+msgid "The upper bound of the requirement, when the response must be within a certain range."
 msgstr ""
 
 #. /definitions/Requirement/properties/period/title
@@ -290,9 +238,7 @@ msgstr "Periodo"
 
 #. /definitions/Requirement/properties/period/description
 #: release-schema.json:1
-msgid ""
-"The period to which the requirement applies: for example, the tenderer's "
-"turnover in a given year."
+msgid "The period to which the requirement applies: for example, the tenderer's turnover in a given year."
 msgstr ""
 
 #. /definitions/RequirementResponse/title
@@ -302,16 +248,12 @@ msgstr ""
 
 #. /definitions/RequirementResponse/description
 #: release-schema.json:1
-msgid ""
-"An assertion that responds to a single requirement. A response provides the "
-"value for the requirement and may provide the period to which it applies."
+msgid "An assertion that responds to a single requirement. A response provides the value for the requirement and may provide the period to which it applies."
 msgstr ""
 
 #. /definitions/RequirementResponse/properties/id/description
 #: release-schema.json:1
-msgid ""
-"The unique identifier of this response in the context of the contracting "
-"process."
+msgid "The unique identifier of this response in the context of the contracting process."
 msgstr ""
 
 #. /definitions/RequirementResponse/properties/title/description
@@ -391,7 +333,6 @@ msgstr "Criterios"
 
 #. /definitions/Tender/properties/criteria/description
 #: release-schema.json:1
-msgid ""
-"Criteria on which bids, tenderers, lots or items will be judged, evaluated "
-"or assessed."
+msgid "Criteria on which bids, tenderers, lots or items will be judged, evaluated or assessed."
 msgstr ""
+

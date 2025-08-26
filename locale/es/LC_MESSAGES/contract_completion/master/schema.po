@@ -1,27 +1,22 @@
-# Translations template for PROJECT.
-# Copyright (C) 2024 ORGANIZATION
-# This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-# 
-# Translators:
-# James McKinney, 2019
-# Maria Esther Cervantes <mcervantes@cds.com.py>, 2019
-# 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
+"Project-Id-Version: ocds-extensions\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-05-30 00:39-0400\n"
-"PO-Revision-Date: 2019-03-14 18:30+0000\n"
-"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2019\n"
-"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"POT-Creation-Date: 2025-08-25 23:28-0400\n"
+"PO-Revision-Date: 2025-08-26 04:35\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.15.0\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: ocds-extensions\n"
+"X-Crowdin-Project-ID: 823148\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: /contract_completion/master/schema.pot\n"
+"X-Crowdin-File-ID: 338\n"
+"Language: es_ES\n"
 
 #. /name/en
 #: extension.json:1
@@ -30,12 +25,8 @@ msgstr "Cumplimiento del contrato"
 
 #. /description/en
 #: extension.json:1
-msgid ""
-"Adds fields to the contract implementation section to detail the end date, "
-"and final value of a contract."
-msgstr ""
-"Añade campos a la sección de implementación del contrato para detallar la "
-"fecha de finalización, y el valor final de un contrato."
+msgid "Adds fields to the contract implementation section to detail the end date, and final value of a contract."
+msgstr "Añade campos a la sección de implementación del contrato para detallar la fecha de finalización, y el valor final de un contrato."
 
 #. /definitions/Implementation/properties/endDate/title
 #: release-schema.json:1
@@ -44,11 +35,7 @@ msgstr "Fecha de fin"
 
 #. /definitions/Implementation/properties/endDate/description
 #: release-schema.json:1
-msgid ""
-"The actual date when contract implementation ended. Where "
-"`implementation/endDate` varies from the anticipated "
-"`contracts/period/endDate` an explanation of the variance should be provided"
-" in `implementation/endDateDetails`."
+msgid "The actual date when contract implementation ended. Where `implementation/endDate` varies from the anticipated `contracts/period/endDate` an explanation of the variance should be provided in `implementation/endDateDetails`."
 msgstr ""
 
 #. /definitions/Implementation/properties/endDateDetails/title
@@ -58,12 +45,8 @@ msgstr "Detalles de fecha de término"
 
 #. /definitions/Implementation/properties/endDateDetails/description
 #: release-schema.json:1
-msgid ""
-"Details related to the endDate. This may be a justification for the "
-"contract's completion date being different than in the original contract."
-msgstr ""
-"Detalles relacionados con la endDate. Esto puede justificar que la fecha de "
-"cumplimento del contrato sea diferente a la del contrato original."
+msgid "Details related to the endDate. This may be a justification for the contract's completion date being different than in the original contract."
+msgstr "Detalles relacionados con la endDate. Esto puede justificar que la fecha de cumplimento del contrato sea diferente a la del contrato original."
 
 #. /definitions/Implementation/properties/finalValue/title
 #: release-schema.json:1
@@ -72,12 +55,7 @@ msgstr "Valor final"
 
 #. /definitions/Implementation/properties/finalValue/description
 #: release-schema.json:1
-msgid ""
-"The actual total value of all payments for a completed contract. If "
-"`implementation/transactions` are used for this contract, this field should "
-"equal the sum of the `transaction/value/amount` fields. Where "
-"`finalValue/amount` varies from `contracts/value/amount` an explanation of "
-"the variance should be provided in `finalValueDetails`."
+msgid "The actual total value of all payments for a completed contract. If `implementation/transactions` are used for this contract, this field should equal the sum of the `transaction/value/amount` fields. Where `finalValue/amount` varies from `contracts/value/amount` an explanation of the variance should be provided in `finalValueDetails`."
 msgstr ""
 
 #. /definitions/Implementation/properties/finalValueDetails/title
@@ -87,10 +65,6 @@ msgstr ""
 
 #. /definitions/Implementation/properties/finalValueDetails/description
 #: release-schema.json:1
-msgid ""
-"Details related to the final value. This may be a justification for the "
-"completed contract's value being different than in the original contract."
-msgstr ""
-"Detalles relacionados al valor final. Esto puede ser una justificación del "
-"cambio del valor del contrato terminado contra el valor en el contrato "
-"original."
+msgid "Details related to the final value. This may be a justification for the completed contract's value being different than in the original contract."
+msgstr "Detalles relacionados al valor final. Esto puede ser una justificación del cambio del valor del contrato terminado contra el valor en el contrato original."
+

@@ -1,51 +1,36 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C)
-# This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
-# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
-# James McKinney, 2024
-# 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python\n"
+"Project-Id-Version: ocds-extensions\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-30 00:39-0400\n"
-"PO-Revision-Date: 2020-08-20 21:46+0000\n"
-"Last-Translator: James McKinney, 2024\n"
-"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"POT-Creation-Date: 2025-08-25 23:28-0400\n"
+"PO-Revision-Date: 2025-08-26 04:53\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: ocds-extensions\n"
+"X-Crowdin-Project-ID: 823148\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: /contractTerms/master/docs.pot\n"
+"X-Crowdin-File-ID: 320\n"
+"Language: es_ES\n"
 
 #: ../README.md:1
 msgid "Contract terms"
 msgstr "Términos del contrato"
 
 #: ../README.md:3
-msgid ""
-"Adds a contract terms object to the tender and lot objects, to describe the "
-"terms governing the future contract."
-msgstr ""
-"Agrega un objeto términos del contrato a los objetos de la licitación y del "
-"lote, para describir los términos que rigen al futuro contrato."
+msgid "Adds a contract terms object to the tender and lot objects, to describe the terms governing the future contract."
+msgstr "Agrega un objeto términos del contrato a los objetos de la licitación y del lote, para describir los términos que rigen al futuro contrato."
 
 #: ../README.md:5
 msgid "Guidance"
 msgstr "Guía"
 
 #: ../README.md:7
-msgid ""
-"If you are using the [Lots extension](https://extensions.open-"
-"contracting.org/en/extensions/lots/master/), [follow its "
-"guidance](https://extensions.open-"
-"contracting.org/en/extensions/lots/master/#guidance) on whether to use "
-"`tender.lots` fields or `tender` fields."
+msgid "If you are using the [Lots extension](https://extensions.open-contracting.org/en/extensions/lots/master/), [follow its guidance](https://extensions.open-contracting.org/en/extensions/lots/master/#guidance) on whether to use `tender.lots` fields or `tender` fields."
 msgstr ""
 
 #: ../README.md:9
@@ -53,17 +38,7 @@ msgid "Legal context"
 msgstr "Contexto legal"
 
 #: ../README.md:11
-msgid ""
-"In the European Union, this extension's fields correspond to [eForms BG-711 "
-"(Contract Terms), BT-801 (Non Disclosure Agreement), BT-802 (Non Disclosure "
-"Agreement Description), OPT-071 (Quality Target Code) and OPT-072 (Quality "
-"Target "
-"Description)](https://docs.ted.europa.eu/eforms/latest/reference/business-"
-"terms/). For correspondences to eForms fields, see [OCDS for "
-"eForms](https://standard.open-contracting.org/profiles/eforms/latest/en/). "
-"For correspondences to Tenders Electronic Daily (TED), see [OCDS for the "
-"European Union](https://standard.open-"
-"contracting.org/profiles/eu/latest/en/)."
+msgid "In the European Union, this extension's fields correspond to [eForms BG-711 (Contract Terms), BT-801 (Non Disclosure Agreement), BT-802 (Non Disclosure Agreement Description), OPT-071 (Quality Target Code) and OPT-072 (Quality Target Description)](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/). For correspondences to eForms fields, see [OCDS for eForms](https://standard.open-contracting.org/profiles/eforms/latest/en/). For correspondences to Tenders Electronic Daily (TED), see [OCDS for the European Union](https://standard.open-contracting.org/profiles/eu/latest/en/)."
 msgstr ""
 
 #: ../README.md:13
@@ -83,14 +58,8 @@ msgid "Issues"
 msgstr "Issues"
 
 #: ../README.md:82
-msgid ""
-"Report issues for this extension in the [ocds-extensions "
-"repository](https://github.com/open-contracting/ocds-extensions/issues), "
-"putting the extension's name in the issue's title."
-msgstr ""
-"Reporte issues para esta extensión en el [repositorio de extensiones "
-"ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
-"el nombre de la extensión en el título del issue."
+msgid "Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title."
+msgstr "Reporte issues para esta extensión en el [repositorio de extensiones ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo el nombre de la extensión en el título del issue."
 
 #: ../README.md:84
 msgid "Changelog"
@@ -109,9 +78,7 @@ msgid "2023-03-10"
 msgstr ""
 
 #: ../README.md:92
-msgid ""
-"Add `hasNonDisclosureAgreement`, `nonDisclosureAgreement` and "
-"`customerServices` fields."
+msgid "Add `hasNonDisclosureAgreement`, `nonDisclosureAgreement` and `customerServices` fields."
 msgstr ""
 
 #: ../README.md:94
@@ -123,13 +90,6 @@ msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
 msgstr "Agregar las propiedades `minProperties`, `minItems` y/o `minLength`."
 
 #: ../README.md:98
-msgid ""
-"This extension was originally discussed as part of the [OCDS for EU "
-"profile](https://github.com/open-contracting-extensions/european-"
-"union/issues) and in [pull requests](https://github.com/open-contracting-"
-"extensions/ocds_contractTerms_extension/pulls?q=is%3Apr+is%3Aclosed)."
-msgstr ""
-"Esta extensión se discutió originalmente como parte del [OCDS para el perfil"
-" de la UE] (https://github.com/open-contracting-extensions/european-"
-"union/issues), y en [pull resquests](https://github.com/open-contracting-"
-"extensions/ocds_contractTerms_extension/pulls?q=is%3Apr+is%3Aclosed)."
+msgid "This extension was originally discussed as part of the [OCDS for EU profile](https://github.com/open-contracting-extensions/european-union/issues) and in [pull requests](https://github.com/open-contracting-extensions/ocds_contractTerms_extension/pulls?q=is%3Apr+is%3Aclosed)."
+msgstr "Esta extensión se discutió originalmente como parte del [OCDS para el perfil de la UE] (https://github.com/open-contracting-extensions/european-union/issues), y en [pull resquests](https://github.com/open-contracting-extensions/ocds_contractTerms_extension/pulls?q=is%3Apr+is%3Aclosed)."
+

@@ -1,28 +1,22 @@
-# Translations template for PROJECT.
-# Copyright (C) 2024 ORGANIZATION
-# This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-# 
-# Translators:
-# James McKinney, 2019
-# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
-# Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2024
-# 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
+"Project-Id-Version: ocds-extensions\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-05-30 00:40-0400\n"
-"PO-Revision-Date: 2019-03-14 18:32+0000\n"
-"Last-Translator: Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2024\n"
-"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"POT-Creation-Date: 2025-08-25 23:28-0400\n"
+"PO-Revision-Date: 2025-08-26 04:35\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.15.0\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: ocds-extensions\n"
+"X-Crowdin-Project-ID: 823148\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: /risk_allocation/master/codelists.pot\n"
+"X-Crowdin-File-ID: 824\n"
+"Language: es_ES\n"
 
 #: codelists/riskAllocation.csv codelists/riskCategory.csv
 msgid "Code"
@@ -44,8 +38,7 @@ msgstr "Autoridad pública"
 #. Description
 #: codelists/riskAllocation.csv:1
 msgid "The risk is wholly or mostly retained by the public authority"
-msgstr ""
-"El riesgo es total o mayoritariamente retenido por la autoridad pública"
+msgstr "El riesgo es total o mayoritariamente retenido por la autoridad pública"
 
 #. Title
 #: codelists/riskAllocation.csv:2
@@ -64,12 +57,8 @@ msgstr "Indefinido"
 
 #. Description
 #: codelists/riskAllocation.csv:3
-msgid ""
-"The risk is not clearly assigned to a specific party to the contract. "
-"Further details can be provided in the notes field."
-msgstr ""
-"El riesgo no está claramente asignado a una parte específica del contrato. "
-"Se pueden proporcionar más detalles en el campo de notas."
+msgid "The risk is not clearly assigned to a specific party to the contract. Further details can be provided in the notes field."
+msgstr "El riesgo no está claramente asignado a una parte específica del contrato. Se pueden proporcionar más detalles en el campo de notas."
 
 #: codelists/riskCategory.csv
 msgid "Category"
@@ -86,12 +75,8 @@ msgstr "Disponibilidad de tierras y riesgo de adquisición"
 
 #. Description
 #: codelists/riskCategory.csv:1
-msgid ""
-"Relates to the unavailability of land or site to construct the "
-"infrastructure at the time of contract signature"
-msgstr ""
-"Se refiere a la falta de disponibilidad de terreno o de sitio para construir"
-" la infraestructura en el momento de la firma del contrato"
+msgid "Relates to the unavailability of land or site to construct the infrastructure at the time of contract signature"
+msgstr "Se refiere a la falta de disponibilidad de terreno o de sitio para construir la infraestructura en el momento de la firma del contrato"
 
 #. Title
 #: codelists/riskCategory.csv:2
@@ -100,17 +85,8 @@ msgstr "Riesgo medioambiental"
 
 #. Description
 #: codelists/riskCategory.csv:2
-msgid ""
-"Environmental risks might be related to a number of environmental issues "
-"such as general contamination, pollution, water contamination, impact on the"
-" natural environment etc. An adverse assessment might lead to changes in "
-"design, leading to a direct impact on cost of infrastructure"
-msgstr ""
-"Los riesgos medioambientales pueden estar relacionados con una serie de "
-"cuestiones ambientales tales como la contaminación general, la contaminación"
-" del aire, la contaminación del agua, el impacto en el medio ambiente, etc. "
-"Una evaluación adversa puede requerir cambios en el diseño que lleven a un "
-"impacto directo en el costo de la infraestructura"
+msgid "Environmental risks might be related to a number of environmental issues such as general contamination, pollution, water contamination, impact on the natural environment etc. An adverse assessment might lead to changes in design, leading to a direct impact on cost of infrastructure"
+msgstr "Los riesgos medioambientales pueden estar relacionados con una serie de cuestiones ambientales tales como la contaminación general, la contaminación del aire, la contaminación del agua, el impacto en el medio ambiente, etc. Una evaluación adversa puede requerir cambios en el diseño que lleven a un impacto directo en el costo de la infraestructura"
 
 #. Title
 #: codelists/riskCategory.csv:3
@@ -119,12 +95,8 @@ msgstr "Riesgos de diseño"
 
 #. Description
 #: codelists/riskCategory.csv:3
-msgid ""
-"Represents the possibility that design quality for the asset is not adequate"
-" to meet project requirements"
-msgstr ""
-"Representa la posibilidad de que la calidad del diseño del activo no sea "
-"adecuada para satisfacer los requisitos del proyecto"
+msgid "Represents the possibility that design quality for the asset is not adequate to meet project requirements"
+msgstr "Representa la posibilidad de que la calidad del diseño del activo no sea adecuada para satisfacer los requisitos del proyecto"
 
 #. Title
 #: codelists/riskCategory.csv:4
@@ -133,13 +105,8 @@ msgstr "Riesgos de construcción"
 
 #. Description
 #: codelists/riskCategory.csv:4
-msgid ""
-"Represents the possibility that during the construction Phase, the actual "
-"project costs or construction time exceeds the projected time and costs"
-msgstr ""
-"Representa la posibilidad de que durante la fase de construcción, los costos"
-" reales del proyecto o el tiempo de construcción exceda el tiempo y los "
-"costos proyectados"
+msgid "Represents the possibility that during the construction Phase, the actual project costs or construction time exceeds the projected time and costs"
+msgstr "Representa la posibilidad de que durante la fase de construcción, los costos reales del proyecto o el tiempo de construcción exceda el tiempo y los costos proyectados"
 
 #. Title
 #: codelists/riskCategory.csv:5
@@ -148,12 +115,8 @@ msgstr "Finalización y puesta en marcha"
 
 #. Description
 #: codelists/riskCategory.csv:5
-msgid ""
-"Refers to the failure to meet the construction outcome or finalization as "
-"prescribed"
-msgstr ""
-"Se refiere a la falta de cumplimiento de la construcción o finalización "
-"según lo prescrito"
+msgid "Refers to the failure to meet the construction outcome or finalization as prescribed"
+msgstr "Se refiere a la falta de cumplimiento de la construcción o finalización según lo prescrito"
 
 #. Title
 #: codelists/riskCategory.csv:6
@@ -163,9 +126,7 @@ msgstr "Riesgo de ingresos"
 #. Description
 #: codelists/riskCategory.csv:6
 msgid "Refers to the risk of the revenue flows not being correctly assessed"
-msgstr ""
-"Se refiere al riesgo de que los flujos de ingresos no se evalúen "
-"correctamente"
+msgstr "Se refiere al riesgo de que los flujos de ingresos no se evalúen correctamente"
 
 #. Title
 #: codelists/riskCategory.csv:7
@@ -174,12 +135,8 @@ msgstr "Riesgo de cambio, inflación e indexación"
 
 #. Description
 #: codelists/riskCategory.csv:7
-msgid ""
-"Risk that changes in exchange rates or inflation adversely affect the "
-"project outcomes"
-msgstr ""
-"Riesgo de que los cambios en los tipos de cambio o la inflación afecten "
-"adversamente los resultados del proyecto"
+msgid "Risk that changes in exchange rates or inflation adversely affect the project outcomes"
+msgstr "Riesgo de que los cambios en los tipos de cambio o la inflación afecten adversamente los resultados del proyecto"
 
 #. Title
 #: codelists/riskCategory.csv:8
@@ -188,12 +145,8 @@ msgstr "Riesgo de disponibilidad y de calidad"
 
 #. Description
 #: codelists/riskCategory.csv:8
-msgid ""
-"Risk linked to availability and quality issues relating to performance "
-"requirements and performance target levels"
-msgstr ""
-"Riesgo vinculado a las cuestiones de disponibilidad y calidad relacionadas "
-"con los requisitos de rendimiento y los niveles objetivo de rendimiento"
+msgid "Risk linked to availability and quality issues relating to performance requirements and performance target levels"
+msgstr "Riesgo vinculado a las cuestiones de disponibilidad y calidad relacionadas con los requisitos de rendimiento y los niveles objetivo de rendimiento"
 
 #. Title
 #: codelists/riskCategory.csv:9
@@ -203,9 +156,7 @@ msgstr "Otros eventos de riesgo de ingresos"
 #. Description
 #: codelists/riskCategory.csv:9
 msgid "credit or counterparty risk; fraud/non-payment by users"
-msgstr ""
-"riesgo de crédito o de la contraparte; fraude/falta de pago por parte de los"
-" usuarios"
+msgstr "riesgo de crédito o de la contraparte; fraude/falta de pago por parte de los usuarios"
 
 #. Title
 #: codelists/riskCategory.csv:10
@@ -214,12 +165,8 @@ msgstr "Disponibilidad de financiamiento"
 
 #. Description
 #: codelists/riskCategory.csv:10
-msgid ""
-"Represents the risk of financing not being available at commercial close or "
-"before construction starts"
-msgstr ""
-"Representa el riesgo de que el financiamiento no esté disponible en el "
-"cierre comercial o antes de que comience la construcción."
+msgid "Represents the risk of financing not being available at commercial close or before construction starts"
+msgstr "Representa el riesgo de que el financiamiento no esté disponible en el cierre comercial o antes de que comience la construcción."
 
 #. Title
 #: codelists/riskCategory.csv:11
@@ -238,12 +185,8 @@ msgstr "Cambios en la ley"
 
 #. Description
 #: codelists/riskCategory.csv:12
-msgid ""
-"Risk that a change in general law or the sector regulatory framework "
-"adversely affect the project"
-msgstr ""
-"Riesgo de que un cambio en la legislación general o en el marco regulatorio "
-"del sector afecte negativamente al proyecto"
+msgid "Risk that a change in general law or the sector regulatory framework adversely affect the project"
+msgstr "Riesgo de que un cambio en la legislación general o en el marco regulatorio del sector afecte negativamente al proyecto"
 
 #. Title
 #: codelists/riskCategory.csv:13
@@ -252,13 +195,8 @@ msgstr "Fuerza mayor"
 
 #. Description
 #: codelists/riskCategory.csv:13
-msgid ""
-"Risk that external events beyond the control of the parties to the contract,"
-" such as natural disasters, wars, terrorism etc., affect the project"
-msgstr ""
-"Riesgo de que acontecimientos externos ajenos al control de las partes del "
-"contrato, como catástrofes naturales, guerras, terrorismo, etc., afecten al "
-"proyecto"
+msgid "Risk that external events beyond the control of the parties to the contract, such as natural disasters, wars, terrorism etc., affect the project"
+msgstr "Riesgo de que acontecimientos externos ajenos al control de las partes del contrato, como catástrofes naturales, guerras, terrorismo, etc., afecten al proyecto"
 
 #. Title
 #: codelists/riskCategory.csv:14
@@ -267,13 +205,8 @@ msgstr "Terminación anticipada"
 
 #. Description
 #: codelists/riskCategory.csv:14
-msgid ""
-"Risk that compensation sum due to early termination might be insufficient to"
-" meet private party’s financial obligations or is less than expected"
-msgstr ""
-"Riesgo de que el importe de la indemnización por rescisión anticipada sea "
-"insuficiente para hacer frente a las obligaciones financieras de la parte "
-"privada o sea inferior a lo previsto"
+msgid "Risk that compensation sum due to early termination might be insufficient to meet private party’s financial obligations or is less than expected"
+msgstr "Riesgo de que el importe de la indemnización por rescisión anticipada sea insuficiente para hacer frente a las obligaciones financieras de la parte privada o sea inferior a lo previsto"
 
 #. Title
 #: codelists/riskCategory.csv:15
@@ -282,12 +215,8 @@ msgstr "Riesgos de cumplimiento"
 
 #. Description
 #: codelists/riskCategory.csv:15
-msgid ""
-"Risks deriving from the compliance or lack thereof of regulatory obligations"
-" related to the development of the project"
-msgstr ""
-"Riesgos derivados del cumplimiento o de la ausencia de obligaciones "
-"reglamentarias relacionadas con el desarrollo del proyecto"
+msgid "Risks deriving from the compliance or lack thereof of regulatory obligations related to the development of the project"
+msgstr "Riesgos derivados del cumplimiento o de la ausencia de obligaciones reglamentarias relacionadas con el desarrollo del proyecto"
 
 #. Title
 #: codelists/riskCategory.csv:16
@@ -298,3 +227,4 @@ msgstr "Todos los riesgos"
 #: codelists/riskCategory.csv:16
 msgid "All risks deriving from the project"
 msgstr "Todos los riesgos derivados del proyecto"
+

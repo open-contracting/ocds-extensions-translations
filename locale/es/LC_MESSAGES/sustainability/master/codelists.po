@@ -1,26 +1,22 @@
-# Translations template for PROJECT.
-# Copyright (C) 2024 ORGANIZATION
-# This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-# 
-# Translators:
-# James McKinney, 2024
-# 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
+"Project-Id-Version: ocds-extensions\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-05-30 00:40-0400\n"
-"PO-Revision-Date: 2023-05-15 22:19+0000\n"
-"Last-Translator: James McKinney, 2024\n"
-"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"POT-Creation-Date: 2025-08-25 23:28-0400\n"
+"PO-Revision-Date: 2025-08-26 04:35\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.15.0\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: ocds-extensions\n"
+"X-Crowdin-Project-ID: 823148\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: /sustainability/master/codelists.pot\n"
+"X-Crowdin-File-ID: 932\n"
+"Language: es_ES\n"
 
 #: codelists/sustainabilityGoal.csv codelists/sustainabilityStrategy.csv
 msgid "Code"
@@ -91,9 +87,7 @@ msgstr ""
 
 #. Description
 #: codelists/sustainabilityGoal.csv:6
-msgid ""
-"The goal is to procure goods, services or works that entail process "
-"innovation."
+msgid "The goal is to procure goods, services or works that entail process innovation."
 msgstr ""
 
 #. Title
@@ -103,9 +97,7 @@ msgstr ""
 
 #. Description
 #: codelists/sustainabilityGoal.csv:7
-msgid ""
-"The goal is to procure goods, services or works that entail product "
-"innovation."
+msgid "The goal is to procure goods, services or works that entail product innovation."
 msgstr ""
 
 #. Title
@@ -115,9 +107,7 @@ msgstr ""
 
 #. Description
 #: codelists/sustainabilityGoal.csv:8
-msgid ""
-"The goal is to procure goods, services or works that involve research and "
-"development activities."
+msgid "The goal is to procure goods, services or works that involve research and development activities."
 msgstr ""
 
 #. Title
@@ -127,10 +117,7 @@ msgstr ""
 
 #. Description
 #: codelists/sustainabilityGoal.csv:9
-msgid ""
-"The goal is to minimize and, if possible, avoid environmental damage: for "
-"example, reducing CO2 emissions and waste or promoting resource reuse and "
-"energy efficiency."
+msgid "The goal is to minimize and, if possible, avoid environmental damage: for example, reducing CO2 emissions and waste or promoting resource reuse and energy efficiency."
 msgstr ""
 
 #. Title
@@ -230,9 +217,7 @@ msgstr ""
 
 #. Description
 #: codelists/sustainabilityGoal.csv:19
-msgid ""
-"The goal is to promote the sustainable use and protection of water and "
-"marine resources."
+msgid "The goal is to promote the sustainable use and protection of water and marine resources."
 msgstr ""
 
 #. Title
@@ -252,9 +237,7 @@ msgstr ""
 
 #. Description
 #: codelists/sustainabilityGoal.csv:21
-msgid ""
-"The goal is to generate benefits to society: for example, promoting labor "
-"rights, diversity and equal opportunity, and occupational health and safety."
+msgid "The goal is to generate benefits to society: for example, promoting labor rights, diversity and equal opportunity, and occupational health and safety."
 msgstr ""
 
 #. Title
@@ -264,8 +247,7 @@ msgstr ""
 
 #. Description
 #: codelists/sustainabilityGoal.csv:22
-msgid ""
-"The goal is to promote accessibility for disabled and not disabled persons."
+msgid "The goal is to promote accessibility for disabled and not disabled persons."
 msgstr ""
 
 #. Title
@@ -275,9 +257,7 @@ msgstr ""
 
 #. Description
 #: codelists/sustainabilityGoal.csv:23
-msgid ""
-"The goal is to promote employment opportunities for the long-term "
-"unemployed, disadvantaged and/or for persons with disabilities."
+msgid "The goal is to promote employment opportunities for the long-term unemployed, disadvantaged and/or for persons with disabilities."
 msgstr ""
 
 #. Title
@@ -307,8 +287,7 @@ msgstr ""
 
 #. Description
 #: codelists/sustainabilityGoal.csv:26
-msgid ""
-"The goal is to promote human rights due diligence in global supply chains."
+msgid "The goal is to promote human rights due diligence in global supply chains."
 msgstr ""
 
 #. Title
@@ -328,9 +307,7 @@ msgstr ""
 
 #. Description
 #: codelists/sustainabilityGoal.csv:28
-msgid ""
-"The goal is to promote the participation of small and medium-sized "
-"enterprises (SMEs)."
+msgid "The goal is to promote the participation of small and medium-sized enterprises (SMEs)."
 msgstr ""
 
 #. Title
@@ -350,9 +327,7 @@ msgstr "Criterio de adjudicación"
 
 #. Description
 #: codelists/sustainabilityStrategy.csv:1
-msgid ""
-"Award criteria are used to pursue sustainability goals: for example, "
-"allocating points relative to the percentage of recycled materials."
+msgid "Award criteria are used to pursue sustainability goals: for example, allocating points relative to the percentage of recycled materials."
 msgstr ""
 
 #. Title
@@ -362,10 +337,7 @@ msgstr ""
 
 #. Description
 #: codelists/sustainabilityStrategy.csv:2
-msgid ""
-"Contract performance conditions are used to pursue sustainability goals: for"
-" example, requiring the supplier to monitor carbon emissions during the "
-"contract's implementation."
+msgid "Contract performance conditions are used to pursue sustainability goals: for example, requiring the supplier to monitor carbon emissions during the contract's implementation."
 msgstr ""
 
 #. Title
@@ -375,10 +347,7 @@ msgstr ""
 
 #. Description
 #: codelists/sustainabilityStrategy.csv:3
-msgid ""
-"Margins of preference are used to pursue sustainability goals: for example, "
-"accepting the bid of a local supplier that is within a margin of the lowest "
-"bid."
+msgid "Margins of preference are used to pursue sustainability goals: for example, accepting the bid of a local supplier that is within a margin of the lowest bid."
 msgstr ""
 
 #. Title
@@ -388,9 +357,7 @@ msgstr "Participación reservada"
 
 #. Description
 #: codelists/sustainabilityStrategy.csv:4
-msgid ""
-"Reserved participation is used to pursue sustainability goals: for example, "
-"allowing only SMEs to participate in the contracting process."
+msgid "Reserved participation is used to pursue sustainability goals: for example, allowing only SMEs to participate in the contracting process."
 msgstr ""
 
 #. Title
@@ -400,9 +367,7 @@ msgstr "Criterios de selección"
 
 #. Description
 #: codelists/sustainabilityStrategy.csv:5
-msgid ""
-"Selection criteria are used to fulfill sustainability goals: for example, "
-"requiring a bidder to have a sustainability certificate."
+msgid "Selection criteria are used to fulfill sustainability goals: for example, requiring a bidder to have a sustainability certificate."
 msgstr ""
 
 #. Title
@@ -412,9 +377,7 @@ msgstr "Especificaciones técnicas"
 
 #. Description
 #: codelists/sustainabilityStrategy.csv:6
-msgid ""
-"Items' technical specifications are used to pursue sustainability goals: for"
-" example, requiring a product to have an energy efficiency certificate."
+msgid "Items' technical specifications are used to pursue sustainability goals: for example, requiring a product to have an energy efficiency certificate."
 msgstr ""
 
 #. Title
@@ -424,11 +387,7 @@ msgstr ""
 
 #. Description
 #: codelists/sustainabilityStrategy.csv:7
-msgid ""
-"Green public procurement criteria established at the European Union-level "
-"are used to pursue sustainability goals. Criteria can include selection "
-"criteria, technical specifications, award criteria and contract performance "
-"clauses."
+msgid "Green public procurement criteria established at the European Union-level are used to pursue sustainability goals. Criteria can include selection criteria, technical specifications, award criteria and contract performance clauses."
 msgstr ""
 
 #. Title
@@ -438,10 +397,7 @@ msgstr ""
 
 #. Description
 #: codelists/sustainabilityStrategy.csv:8
-msgid ""
-"Green public procurement criteria established at the national level are used"
-" to pursue sustainability goals. Criteria can include selection criteria, "
-"technical specifications, award criteria and contract performance clauses."
+msgid "Green public procurement criteria established at the national level are used to pursue sustainability goals. Criteria can include selection criteria, technical specifications, award criteria and contract performance clauses."
 msgstr ""
 
 #. Title
@@ -451,9 +407,6 @@ msgstr ""
 
 #. Description
 #: codelists/sustainabilityStrategy.csv:9
-msgid ""
-"Green public procurement criteria established at a level other than the "
-"European Union or national levels are used to pursue sustainability goals. "
-"Criteria can include selection criteria, technical specifications, award "
-"criteria and contract performance clauses."
+msgid "Green public procurement criteria established at a level other than the European Union or national levels are used to pursue sustainability goals. Criteria can include selection criteria, technical specifications, award criteria and contract performance clauses."
 msgstr ""
+

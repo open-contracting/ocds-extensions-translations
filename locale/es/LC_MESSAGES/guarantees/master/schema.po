@@ -1,27 +1,22 @@
-# Translations template for PROJECT.
-# Copyright (C) 2024 ORGANIZATION
-# This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-# 
-# Translators:
-# James McKinney, 2021
-# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
-# 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
+"Project-Id-Version: ocds-extensions\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-05-30 00:40-0400\n"
-"PO-Revision-Date: 2019-11-06 16:40+0000\n"
-"Last-Translator: Natalia Valdez <nataliavaldez@cds.com.py>, 2021\n"
-"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"POT-Creation-Date: 2025-08-25 23:28-0400\n"
+"PO-Revision-Date: 2025-08-26 04:35\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.15.0\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: ocds-extensions\n"
+"X-Crowdin-Project-ID: 823148\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: /guarantees/master/schema.pot\n"
+"X-Crowdin-File-ID: 472\n"
+"Language: es_ES\n"
 
 #. /name/en
 #. /definitions/Contract/properties/guarantees/title
@@ -31,13 +26,9 @@ msgstr "Garantías"
 
 #. /description/en
 #: extension.json:1
-msgid ""
-"Some procurement processes consider the specification of guarantees in order to ensure compliance with the terms of a contract.\n"
-"\n"
+msgid "Some procurement processes consider the specification of guarantees in order to ensure compliance with the terms of a contract.\n\n"
 "There are many types of guarantees, so we consider the creation of a new extension based on the formats that are required for the Federal Treasury (Mexico). See discussion in https://github.com/open-contracting/standard/issues/651"
-msgstr ""
-"Algunos procesos de contratación consideran la especificación de garantías para asegurar el cumplimiento de los términos de un contrato.\n"
-"\n"
+msgstr "Algunos procesos de contratación consideran la especificación de garantías para asegurar el cumplimiento de los términos de un contrato.\n\n"
 "Existen muchos tipos de garantías, por lo que consideramos a la creación de una nueva extensión basada en los formatos que se requieren para la Tesorería de la Federación (México). Ver discusión en https://github.com/open-contracting/standard/issues/651"
 
 #. /definitions/Guarantee/title
@@ -47,12 +38,8 @@ msgstr "Garantía"
 
 #. /definitions/Guarantee/description
 #: release-schema.json:1
-msgid ""
-"Information of the guarantee used to ensure compliance with the terms of a "
-"contract."
-msgstr ""
-"Información de la garantía utilizada para asegurar el cumplimiento de los "
-"términos de un contrato."
+msgid "Information of the guarantee used to ensure compliance with the terms of a contract."
+msgstr "Información de la garantía utilizada para asegurar el cumplimiento de los términos de un contrato."
 
 #. /definitions/Guarantee/properties/id/title
 #: release-schema.json:1
@@ -62,8 +49,7 @@ msgstr "ID de garantía"
 #. /definitions/Guarantee/properties/id/description
 #: release-schema.json:1
 msgid "A local identifier for this guarantee, unique within this block."
-msgstr ""
-"Un identificador local para esta garantía, único dentro de este bloque. "
+msgstr "Un identificador local para esta garantía, único dentro de este bloque. "
 
 #. /definitions/Guarantee/properties/type/title
 #: release-schema.json:1
@@ -72,14 +58,8 @@ msgstr "Tipo de garantía"
 
 #. /definitions/Guarantee/properties/type/description
 #: release-schema.json:1
-msgid ""
-"Specify the guarantee type for this contract using the "
-"[guaranteeType](https://github.com/contratacionesabiertas/ocds_guarantees_extension/blob/master/codelists/guaranteeType.csv)"
-" codelist."
-msgstr ""
-"Especifique el tipo de garantía para este contrato usando la lista de "
-"códigos [guaranteeType] "
-"(https://github.com/contratacionesabiertas/ocds_guarantees_extension/blob/master/codelists/guaranteeType.csv)"
+msgid "Specify the guarantee type for this contract using the [guaranteeType](https://github.com/contratacionesabiertas/ocds_guarantees_extension/blob/master/codelists/guaranteeType.csv) codelist."
+msgstr "Especifique el tipo de garantía para este contrato usando la lista de códigos [guaranteeType] (https://github.com/contratacionesabiertas/ocds_guarantees_extension/blob/master/codelists/guaranteeType.csv)"
 
 #. /definitions/Guarantee/properties/date/title
 #: release-schema.json:1
@@ -88,11 +68,8 @@ msgstr "Fecha de garantía"
 
 #. /definitions/Guarantee/properties/date/description
 #: release-schema.json:1
-msgid ""
-"The date of the guarantee. This is the date on which the guarantee is "
-"issued."
-msgstr ""
-"La fecha de la garantía. Esta es la fecha en la que se emite la garantía."
+msgid "The date of the guarantee. This is the date on which the guarantee is issued."
+msgstr "La fecha de la garantía. Esta es la fecha en la que se emite la garantía."
 
 #. /definitions/Guarantee/properties/obligations/title
 #: release-schema.json:1
@@ -101,14 +78,8 @@ msgstr "Obligaciones garantizadas"
 
 #. /definitions/Guarantee/properties/obligations/description
 #: release-schema.json:1
-msgid ""
-"Specify the type of obligations that are guaranteed, using the "
-"[obligationType](https://github.com/contratacionesabiertas/ocds_guarantees_extension/blob/master/codelists/guaranteedObligations.csv)"
-" codelist."
-msgstr ""
-"Especifique el tipo de obligaciones que están garantizadas, utilizando la "
-"lista de códigos "
-"[obligationType](https://github.com/contratacionesabiertas/ocds_guarantees_extension/blob/master/codelists/guaranteedObligations.csv)."
+msgid "Specify the type of obligations that are guaranteed, using the [obligationType](https://github.com/contratacionesabiertas/ocds_guarantees_extension/blob/master/codelists/guaranteedObligations.csv) codelist."
+msgstr "Especifique el tipo de obligaciones que están garantizadas, utilizando la lista de códigos [obligationType](https://github.com/contratacionesabiertas/ocds_guarantees_extension/blob/master/codelists/guaranteedObligations.csv)."
 
 #. /definitions/Guarantee/properties/value/title
 #: release-schema.json:1
@@ -144,3 +115,4 @@ msgstr "El período en el que esta cotización es válida."
 #: release-schema.json:1
 msgid "A list of the guarantees given for this contract."
 msgstr "Una lista de las garantías otorgadas para este contrato."
+

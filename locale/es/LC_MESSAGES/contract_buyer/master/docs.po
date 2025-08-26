@@ -1,49 +1,36 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C)
-# This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# James McKinney, 2024
-# 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python\n"
+"Project-Id-Version: ocds-extensions\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-30 00:39-0400\n"
-"PO-Revision-Date: 2019-03-14 18:29+0000\n"
-"Last-Translator: James McKinney, 2024\n"
-"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"POT-Creation-Date: 2025-08-25 23:28-0400\n"
+"PO-Revision-Date: 2025-08-26 04:53\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: ocds-extensions\n"
+"X-Crowdin-Project-ID: 823148\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: /contract_buyer/master/docs.pot\n"
+"X-Crowdin-File-ID: 328\n"
+"Language: es_ES\n"
 
 #: ../README.md:1
 msgid "Buyer per award or contract"
 msgstr ""
 
 #: ../README.md:3
-msgid ""
-"Adds buyer fields to the award and contract objects to indicate the buyer(s)"
-" for an individual award or contract, if different from the buyer(s) "
-"involved in the contracting process as a whole."
+msgid "Adds buyer fields to the award and contract objects to indicate the buyer(s) for an individual award or contract, if different from the buyer(s) involved in the contracting process as a whole."
 msgstr ""
 
 #: ../README.md:5
-msgid ""
-"OCDS indicates the (lead) buyer in a contracting process with the `buyer` "
-"field. If a contracting process involves multiple buyers, each buyer can be "
-"added to the `parties` array with a 'buyer' role."
+msgid "OCDS indicates the (lead) buyer in a contracting process with the `buyer` field. If a contracting process involves multiple buyers, each buyer can be added to the `parties` array with a 'buyer' role."
 msgstr ""
 
 #: ../README.md:7
-msgid ""
-"However, in some cases, for a given award, a subset of the buyers decide on "
-"the supplier and sign the contract. **Only use this extension in such "
-"cases.**"
+msgid "However, in some cases, for a given award, a subset of the buyers decide on the supplier and sign the contract. **Only use this extension in such cases.**"
 msgstr ""
 
 #: ../README.md:9
@@ -51,12 +38,7 @@ msgid "Legal context"
 msgstr "Contexto legal"
 
 #: ../README.md:11
-msgid ""
-"In the European Union, this extension's fields correspond to [eForms "
-"OPT-300-Contract-"
-"Signatory](https://docs.ted.europa.eu/eforms/latest/reference/business-"
-"terms/). For correspondences to eForms fields, see [OCDS for "
-"eForms](https://standard.open-contracting.org/profiles/eforms/latest/en/)."
+msgid "In the European Union, this extension's fields correspond to [eForms OPT-300-Contract-Signatory](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/). For correspondences to eForms fields, see [OCDS for eForms](https://standard.open-contracting.org/profiles/eforms/latest/en/)."
 msgstr ""
 
 #: ../README.md:13
@@ -96,11 +78,6 @@ msgid "Issues"
 msgstr "Issues"
 
 #: ../README.md:74
-msgid ""
-"Report issues for this extension in the [ocds-extensions "
-"repository](https://github.com/open-contracting/ocds-extensions/issues), "
-"putting the extension's name in the issue's title."
-msgstr ""
-"Reporte issues para esta extensión en el [repositorio de extensiones "
-"ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
-"el nombre de la extensión en el título del issue."
+msgid "Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title."
+msgstr "Reporte issues para esta extensión en el [repositorio de extensiones ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo el nombre de la extensión en el título del issue."
+

@@ -1,30 +1,22 @@
-# Translations template for PROJECT.
-# Copyright (C) 2024 ORGANIZATION
-# This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-# 
-# Translators:
-# Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2019
-# Cecilia Casco <ceciliacasco@cds.com.py>, 2021
-# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
-# Maria Esther Cervantes <mcervantes@cds.com.py>, 2021
-# James McKinney, 2024
-# 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
+"Project-Id-Version: ocds-extensions\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-05-30 00:39-0400\n"
-"PO-Revision-Date: 2019-03-14 18:30+0000\n"
-"Last-Translator: James McKinney, 2024\n"
-"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"POT-Creation-Date: 2025-08-25 20:57-0400\n"
+"PO-Revision-Date: 2025-08-26 04:35\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.15.0\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: ocds-extensions\n"
+"X-Crowdin-Project-ID: 823148\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: /additionalContactPoint/master/schema.pot\n"
+"X-Crowdin-File-ID: 204\n"
+"Language: es_ES\n"
 
 #. /name/en
 #: extension.json:1
@@ -33,14 +25,8 @@ msgstr "Puntos de contacto adicionales"
 
 #. /description/en
 #: extension.json:1
-msgid ""
-"For providing multiple contact points for an organization, or for providing "
-"the available languages of a contact point. For example, it may be used to "
-"provide a contact point for each language."
-msgstr ""
-"Para proveer múltiples puntos de contacto de una organización, o para "
-"indicar los idiomas disponibles de un punto de contacto. Por ejemplo, puede "
-"usarse para indicar un punto de contacto para cada idioma."
+msgid "For providing multiple contact points for an organization, or for providing the available languages of a contact point. For example, it may be used to provide a contact point for each language."
+msgstr "Para proveer múltiples puntos de contacto de una organización, o para indicar los idiomas disponibles de un punto de contacto. Por ejemplo, puede usarse para indicar un punto de contacto para cada idioma."
 
 #. /definitions/Organization/properties/additionalContactPoints/title
 #: release-schema.json:1
@@ -49,15 +35,8 @@ msgstr "Puntos adicionales de contacto"
 
 #. /definitions/Organization/properties/additionalContactPoints/description
 #: release-schema.json:1
-msgid ""
-"An array of additional contact points that may be consulted for information."
-" Additional contact points should each list the languages they operate in "
-"their name, and as structured data in the availableLanguage field."
-msgstr ""
-"Una lista de puntos de contacto adicionales  puede consultarse para obtener "
-"información. Los puntos de contacto adicionales deben listar en su nombre "
-"los idiomas en los que operan y como datos estructurados en el campo "
-"availableLanguage."
+msgid "An array of additional contact points that may be consulted for information. Additional contact points should each list the languages they operate in their name, and as structured data in the availableLanguage field."
+msgstr "Una lista de puntos de contacto adicionales  puede consultarse para obtener información. Los puntos de contacto adicionales deben listar en su nombre los idiomas en los que operan y como datos estructurados en el campo availableLanguage."
 
 #. /definitions/ContactPoint/properties/availableLanguage/title
 #: release-schema.json:1
@@ -66,24 +45,8 @@ msgstr "Lenguajes disponibles"
 
 #. /definitions/ContactPoint/properties/availableLanguage/description
 #: release-schema.json:1
-msgid ""
-"The languages the contact point operates in, using either two-letter "
-"[ISO639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes), or "
-"extended [BCP47 language "
-"tags](http://www.w3.org/International/articles/language-tags/). The use of "
-"lowercase two-letter codes from "
-"[ISO639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) is "
-"strongly recommended unless there is a clear user need for distinguishing "
-"the language subtype."
-msgstr ""
-"Los idiomas en los que opera el punto de contacto, utilizando [ISO639-1] de "
-"dos letras (https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes), o "
-"extendido [BCP47 language "
-"tags](http://www.w3.org/International/articles/language-tags/). Se "
-"recomienda el uso del código de dos letras en minúsculas de "
-"[ISO639-1](https://es.wikipedia.org/wiki/List_of_ISO_639-1_codes) a menos "
-"que exista una clara necesidad del usuario para distinguir el subtipo de "
-"idioma."
+msgid "The languages the contact point operates in, using either two-letter [ISO639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes), or extended [BCP47 language tags](http://www.w3.org/International/articles/language-tags/). The use of lowercase two-letter codes from [ISO639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) is strongly recommended unless there is a clear user need for distinguishing the language subtype."
+msgstr "Los idiomas en los que opera el punto de contacto, utilizando [ISO639-1] de dos letras (https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes), o extendido [BCP47 language tags](http://www.w3.org/International/articles/language-tags/). Se recomienda el uso del código de dos letras en minúsculas de [ISO639-1](https://es.wikipedia.org/wiki/List_of_ISO_639-1_codes) a menos que exista una clara necesidad del usuario para distinguir el subtipo de idioma."
 
 #. /definitions/ContactPoint/properties/address/title
 #: release-schema.json:1
@@ -94,3 +57,4 @@ msgstr "Dirección"
 #: release-schema.json:1
 msgid "The address of the contact point."
 msgstr ""
+

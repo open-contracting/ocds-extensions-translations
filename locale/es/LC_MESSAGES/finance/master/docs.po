@@ -1,64 +1,40 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C)
-# This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
-# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
-# James McKinney, 2024
-# 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python\n"
+"Project-Id-Version: ocds-extensions\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-30 00:39-0400\n"
-"PO-Revision-Date: 2019-03-14 18:30+0000\n"
-"Last-Translator: James McKinney, 2024\n"
-"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"POT-Creation-Date: 2025-08-25 23:28-0400\n"
+"PO-Revision-Date: 2025-08-26 04:53\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: ocds-extensions\n"
+"X-Crowdin-Project-ID: 823148\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: /finance/master/docs.pot\n"
+"X-Crowdin-File-ID: 460\n"
+"Language: es_ES\n"
 
 #: ../README.md:1
 msgid "Finance"
 msgstr "Financiamiento"
 
 #: ../README.md:3
-msgid ""
-"Adds fields to disclose the financing of the whole process and its "
-"individual contracts."
-msgstr ""
-"Agrega campos para revelar la financiación de todo el proceso y sus "
-"contratos individuales."
+msgid "Adds fields to disclose the financing of the whole process and its individual contracts."
+msgstr "Agrega campos para revelar la financiación de todo el proceso y sus contratos individuales."
 
 #: ../README.md:5
-msgid ""
-"Sometimes, particularly in the case of Public Private Partnerships, "
-"contracts are financed using a range of instruments, including loans, "
-"grants, share issues and so-on. This information can be updated over the "
-"lifetime of the contract."
-msgstr ""
-"A veces, sobre todo en el caso de las asociaciones público-privadas, los "
-"contratos se financian con una serie de instrumentos, como préstamos, "
-"subvenciones, emisión de acciones, etc. Esta información puede actualizarse "
-"a lo largo de la vida del contrato."
+msgid "Sometimes, particularly in the case of Public Private Partnerships, contracts are financed using a range of instruments, including loans, grants, share issues and so-on. This information can be updated over the lifetime of the contract."
+msgstr "A veces, sobre todo en el caso de las asociaciones público-privadas, los contratos se financian con una serie de instrumentos, como préstamos, subvenciones, emisión de acciones, etc. Esta información puede actualizarse a lo largo de la vida del contrato."
 
 #: ../README.md:7
 msgid "Legal context"
 msgstr "Contexto legal"
 
 #: ../README.md:9
-msgid ""
-"In the European Union, this extension's fields correspond to [eForms BG-611 "
-"(Contract EU funds) and BG-61 (EU "
-"funds)](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/)."
-" For correspondences to Tenders Electronic Daily (TED), see [OCDS for the "
-"European Union](https://standard.open-"
-"contracting.org/profiles/eu/latest/en/)."
+msgid "In the European Union, this extension's fields correspond to [eForms BG-611 (Contract EU funds) and BG-61 (EU funds)](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/). For correspondences to Tenders Electronic Daily (TED), see [OCDS for the European Union](https://standard.open-contracting.org/profiles/eu/latest/en/)."
 msgstr ""
 
 #: ../README.md:11
@@ -78,14 +54,8 @@ msgid "Issues"
 msgstr "Issues"
 
 #: ../README.md:106
-msgid ""
-"Report issues for this extension in the [ocds-extensions "
-"repository](https://github.com/open-contracting/ocds-extensions/issues), "
-"putting the extension's name in the issue's title."
-msgstr ""
-"Reporte issues para esta extensión en el [repositorio de extensiones "
-"ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
-"el nombre de la extensión en el título del issue."
+msgid "Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title."
+msgstr "Reporte issues para esta extensión en el [repositorio de extensiones ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo el nombre de la extensión en el título del issue."
 
 #: ../README.md:108
 msgid "Changelog"
@@ -108,16 +78,11 @@ msgid "Replace fields, to clarify semantics:"
 msgstr ""
 
 #: ../README.md:117
-msgid ""
-"Replace `Finance.financeType` (`financeType.csv`) with "
-"`Finance.financingPartyType` (`financingPartyType.csv`) and `Finance.type` "
-"(`financingArrangementType.csv`). Notably:"
+msgid "Replace `Finance.financeType` (`financeType.csv`) with `Finance.financingPartyType` (`financingPartyType.csv`) and `Finance.type` (`financingArrangementType.csv`). Notably:"
 msgstr ""
 
 #: ../README.md:118
-msgid ""
-"'publicBondIssue' is replaced by 'debt' in `assetClass.csv` and 'bond' in "
-"`financingArrangementType.csv`"
+msgid "'publicBondIssue' is replaced by 'debt' in `assetClass.csv` and 'bond' in `financingArrangementType.csv`"
 msgstr ""
 
 #: ../README.md:119
@@ -125,11 +90,7 @@ msgid "'supplierCredit' is replaced by 'vendor' in `financingPartyType.csv`"
 msgstr ""
 
 #: ../README.md:120
-msgid ""
-"Replace `Finance.financeCategory` (`financeCategory.csv`) with "
-"`Finance.assetClass` (`assetClass.csv`), `Finance.type` "
-"(`financingArrangementType.csv`) and `Finance.repaymentPriority` "
-"(`debtRepaymentPriority.csv`). Notably:"
+msgid "Replace `Finance.financeCategory` (`financeCategory.csv`) with `Finance.assetClass` (`assetClass.csv`), `Finance.type` (`financingArrangementType.csv`) and `Finance.repaymentPriority` (`debtRepaymentPriority.csv`). Notably:"
 msgstr ""
 
 #: ../README.md:121
@@ -137,15 +98,11 @@ msgid "'equity' is replaced by 'equity' in `assetClass.csv`"
 msgstr ""
 
 #: ../README.md:122
-msgid ""
-"'seniorDebt' is replaced by 'debt' in `assetClass.csv` and 'senior' in "
-"`debtRepaymentPriority.csv`"
+msgid "'seniorDebt' is replaced by 'debt' in `assetClass.csv` and 'senior' in `debtRepaymentPriority.csv`"
 msgstr ""
 
 #: ../README.md:123
-msgid ""
-"'mezzanineDebt' is replaced by 'debt' and 'equity' in `assetClass.csv` and "
-"'subordinated' in `debtRepaymentPriority.csv`"
+msgid "'mezzanineDebt' is replaced by 'debt' and 'equity' in `assetClass.csv` and 'subordinated' in `debtRepaymentPriority.csv`"
 msgstr ""
 
 #: ../README.md:124
@@ -153,8 +110,7 @@ msgid "'grant' is replaced by 'grant' in `financingArrangementType.csv`"
 msgstr ""
 
 #: ../README.md:125
-msgid ""
-"'guarantee' is replaced by 'guarantee' in `financingArrangementType.csv`"
+msgid "'guarantee' is replaced by 'guarantee' in `financingArrangementType.csv`"
 msgstr ""
 
 #: ../README.md:126
@@ -246,12 +202,8 @@ msgid "2019-03-20"
 msgstr "2019-03-20"
 
 #: ../README.md:158
-msgid ""
-"Set `\"uniqueItems\": true` on array fields, and add `\"minLength\": 1` on "
-"required string fields."
-msgstr ""
-"Establecer `\"uniqueItems \": true` en los campos matriz y agregar "
-"`\"minLength\": 1` en los campos de cadena obligatorios."
+msgid "Set `\"uniqueItems\": true` on array fields, and add `\"minLength\": 1` on required string fields."
+msgstr "Establecer `\"uniqueItems \": true` en los campos matriz y agregar `\"minLength\": 1` en los campos de cadena obligatorios."
 
 #: ../README.md:159
 msgid "Make `interestRate` non-nullable (undo earlier change)."
@@ -262,10 +214,7 @@ msgid "2018-05-08"
 msgstr "2018-05-08"
 
 #: ../README.md:163
-msgid ""
-"Make `Finance.id` required and non-nullable to support revision tracking and"
-" [list merging](https://standard.open-"
-"contracting.org/latest/en/schema/merging/#array-values)"
+msgid "Make `Finance.id` required and non-nullable to support revision tracking and [list merging](https://standard.open-contracting.org/latest/en/schema/merging/#array-values)"
 msgstr ""
 
 #: ../README.md:165
@@ -283,3 +232,4 @@ msgstr "2018-01-29"
 #: ../README.md:171
 msgid "Make `interestRate` nullable."
 msgstr "Se permite que `interestRate` sea nulo."
+

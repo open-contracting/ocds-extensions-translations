@@ -1,27 +1,22 @@
-# Translations template for PROJECT.
-# Copyright (C) 2024 ORGANIZATION
-# This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-# 
-# Translators:
-# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
-# Maria Esther Cervantes <mcervantes@cds.com.py>, 2021
-# 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
+"Project-Id-Version: ocds-extensions\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-05-30 00:39-0400\n"
-"PO-Revision-Date: 2020-08-20 21:52+0000\n"
-"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2021\n"
-"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"POT-Creation-Date: 2025-08-25 23:28-0400\n"
+"PO-Revision-Date: 2025-08-26 04:35\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.15.0\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: ocds-extensions\n"
+"X-Crowdin-Project-ID: 823148\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: /communication/master/schema.pot\n"
+"X-Crowdin-File-ID: 312\n"
+"Language: es_ES\n"
 
 #. /name/en
 #. /definitions/Tender/properties/communication/title
@@ -33,12 +28,8 @@ msgstr "Comunicación"
 
 #. /description/en
 #: extension.json:1
-msgid ""
-"Adds a communication object to the tender to describe the modalities of "
-"communication about key events."
-msgstr ""
-"Agrega a la licitación un objeto comunicación para describir las modalidades"
-" de comunicación de los eventos claves."
+msgid "Adds a communication object to the tender to describe the modalities of communication about key events."
+msgstr "Agrega a la licitación un objeto comunicación para describir las modalidades de comunicación de los eventos claves."
 
 #. /definitions/Tender/properties/communication/description
 #. /definitions/Communication/description
@@ -58,9 +49,7 @@ msgstr ""
 
 #. /definitions/Communication/properties/atypicalToolName/description
 #: release-schema.json:1
-msgid ""
-"The name of the tools and devices that are not generally available and that "
-"are required to communicate electronically with the buyer."
+msgid "The name of the tools and devices that are not generally available and that are required to communicate electronically with the buyer."
 msgstr ""
 
 #. /definitions/Communication/properties/atypicalToolUrl/title
@@ -70,9 +59,7 @@ msgstr "URL de herramienta atípica"
 
 #. /definitions/Communication/properties/atypicalToolUrl/description
 #: release-schema.json:1
-msgid ""
-"The URL of the tools and devices that are not generally available and that "
-"are required to communicate electronically with the buyer."
+msgid "The URL of the tools and devices that are not generally available and that are required to communicate electronically with the buyer."
 msgstr ""
 
 #. /definitions/Communication/properties/noticePreferredPublicationDate/title
@@ -82,9 +69,7 @@ msgstr ""
 
 #. /definitions/Communication/properties/noticePreferredPublicationDate/description
 #: release-schema.json:1
-msgid ""
-"The buyer's preferred date of publication of the notice (e.g. to avoid "
-"publication during a national holiday)."
+msgid "The buyer's preferred date of publication of the notice (e.g. to avoid publication during a national holiday)."
 msgstr ""
 
 #. /definitions/Communication/properties/futureNoticeDate/title
@@ -94,10 +79,7 @@ msgstr "Fecha de notificación futura"
 
 #. /definitions/Communication/properties/futureNoticeDate/description
 #: release-schema.json:1
-msgid ""
-"The estimated date of publication of the next sequential notice. For "
-"example, the next sequential notice for a planning notice might be a "
-"competition notice."
+msgid "The estimated date of publication of the next sequential notice. For example, the next sequential notice for a planning notice might be a competition notice."
 msgstr ""
 
 #. /definitions/Communication/properties/invitationToConfirmInterestDispatchDate/title
@@ -107,12 +89,7 @@ msgstr ""
 
 #. /definitions/Communication/properties/invitationToConfirmInterestDispatchDate/description
 #: release-schema.json:1
-msgid ""
-"The estimated date of dispatch from the buyer to potential suppliers of the "
-"invitations to confirm interest. For example, when a planning notice is used"
-" as a call for competition, the buyer might simultaneously invite the "
-"potential suppliers that have expressed their interest to confirm their "
-"continuing interest."
+msgid "The estimated date of dispatch from the buyer to potential suppliers of the invitations to confirm interest. For example, when a planning notice is used as a call for competition, the buyer might simultaneously invite the potential suppliers that have expressed their interest to confirm their continuing interest."
 msgstr ""
 
 #. /definitions/Communication/properties/documentAvailabilityPeriod/title
@@ -122,9 +99,6 @@ msgstr "Período de disponibilidad del documento"
 
 #. /definitions/Communication/properties/documentAvailabilityPeriod/description
 #: release-schema.json:1
-msgid ""
-"The period during which documents can be accessed, or during which requests "
-"for access to documents can be submitted."
-msgstr ""
-"El período durante el cual los documentos pueden ser accedidos o durante el "
-"cual se pueden presentar peticiones de acceso a los documentos."
+msgid "The period during which documents can be accessed, or during which requests for access to documents can be submitted."
+msgstr "El período durante el cual los documentos pueden ser accedidos o durante el cual se pueden presentar peticiones de acceso a los documentos."
+

@@ -1,53 +1,36 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C)
-# This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# Maria Esther Cervantes <mcervantes@cds.com.py>, 2019
-# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
-# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
-# James McKinney, 2024
-# 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python\n"
+"Project-Id-Version: ocds-extensions\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-30 00:39-0400\n"
-"PO-Revision-Date: 2019-03-14 18:29+0000\n"
-"Last-Translator: James McKinney, 2024\n"
-"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"POT-Creation-Date: 2025-08-25 23:28-0400\n"
+"PO-Revision-Date: 2025-08-26 04:53\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: ocds-extensions\n"
+"X-Crowdin-Project-ID: 823148\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: /requirements/master/docs.pot\n"
+"X-Crowdin-File-ID: 816\n"
+"Language: es_ES\n"
 
 #: ../README.md:1
 msgid "Requirements"
 msgstr "Requisitos"
 
 #: ../README.md:3
-msgid ""
-"Adds fields to express the [Core Criterion and Core Evidence Vocabulary "
-"(CCCEV)](https://semiceu.github.io/CCCEV/)."
+msgid "Adds fields to express the [Core Criterion and Core Evidence Vocabulary (CCCEV)](https://semiceu.github.io/CCCEV/)."
 msgstr ""
 
 #: ../README.md:5
-msgid ""
-"CCCEV is designed to support the exchange of information between buyers or "
-"procuring entities that define criteria and tenderers that respond to these "
-"criteria by means of evidences. Criteria can relate to bids, tenderers, lots"
-" or items."
+msgid "CCCEV is designed to support the exchange of information between buyers or procuring entities that define criteria and tenderers that respond to these criteria by means of evidences. Criteria can relate to bids, tenderers, lots or items."
 msgstr ""
 
 #: ../README.md:7
-msgid ""
-"If your data does not closely follow the [Core Criterion and Core Evidence "
-"Vocabulary (CCCEV)](https://semiceu.github.io/CCCEV/), consider the "
-"[Selection criteria](https://extensions.open-"
-"contracting.org/en/extensions/selectionCriteria/master/) extension."
+msgid "If your data does not closely follow the [Core Criterion and Core Evidence Vocabulary (CCCEV)](https://semiceu.github.io/CCCEV/), consider the [Selection criteria](https://extensions.open-contracting.org/en/extensions/selectionCriteria/master/) extension."
 msgstr ""
 
 #: ../README.md:9
@@ -59,60 +42,27 @@ msgid "The CCCEV model defines the following concepts:"
 msgstr "El modelo CCCEV define los siguientes conceptos:"
 
 #: ../README.md:13
-msgid ""
-"**Criterion** A criterion represents a rule or principle used to judge, "
-"evaluate or assess bids, tenderers, lots or items. A criterion is satisfied "
-"when one or more of its requirement groups is satisfied."
+msgid "**Criterion** A criterion represents a rule or principle used to judge, evaluate or assess bids, tenderers, lots or items. A criterion is satisfied when one or more of its requirement groups is satisfied."
 msgstr ""
 
 #: ../README.md:16
-msgid ""
-"**Requirement Group** A requirement group is a collection of one or more "
-"individual requirements. A requirement group is satisfied when all of it's "
-"requirements are satisfied."
-msgstr ""
-"**Grupo de requisitos** Un grupo de requisitos es una serie de uno o más "
-"requisitos individuales. Un grupo de requisito se satisface cuando todos sus"
-" requerimientos están satisfechos."
+msgid "**Requirement Group** A requirement group is a collection of one or more individual requirements. A requirement group is satisfied when all of it's requirements are satisfied."
+msgstr "**Grupo de requisitos** Un grupo de requisitos es una serie de uno o más requisitos individuales. Un grupo de requisito se satisface cuando todos sus requerimientos están satisfechos."
 
 #: ../README.md:19
-msgid ""
-"**Requirement** An atomic requirement which can be expressed as either an "
-"expected value or a range of accepted values."
-msgstr ""
-"**Requisito** Un requisito atómico que puede expresarse como un valor "
-"esperado o un rango de valores aceptados."
+msgid "**Requirement** An atomic requirement which can be expressed as either an expected value or a range of accepted values."
+msgstr "**Requisito** Un requisito atómico que puede expresarse como un valor esperado o un rango de valores aceptados."
 
 #: ../README.md:22
-msgid ""
-"**Requirement Response** A requirements response is an assertion that "
-"responds to a specific requirement."
-msgstr ""
-"**Respuesta de requisito** Una respuesta de requisitos es una afirmación que"
-" responde a un requisito específico."
+msgid "**Requirement Response** A requirements response is an assertion that responds to a specific requirement."
+msgstr "**Respuesta de requisito** Una respuesta de requisitos es una afirmación que responde a un requisito específico."
 
 #: ../README.md:25
-msgid ""
-"Therefore the CCCEV model can be used to express both **AND** conditions, "
-"where a group of requirements must be met to satisfy a criterion, and **OR**"
-" conditions, where there are alternative requirements that can satisfy a "
-"criterion."
-msgstr ""
-"Por lo tanto, el modelo CCCEV puede usarse para expresar las condiciones "
-"**AND**, donde un grupo de requisitos debe cumplirse para satisfacer un "
-"criterio, así como las condiciones **OR**, donde existen requisitos "
-"alternativos que pueden satisfacer un criterio."
+msgid "Therefore the CCCEV model can be used to express both **AND** conditions, where a group of requirements must be met to satisfy a criterion, and **OR** conditions, where there are alternative requirements that can satisfy a criterion."
+msgstr "Por lo tanto, el modelo CCCEV puede usarse para expresar las condiciones **AND**, donde un grupo de requisitos debe cumplirse para satisfacer un criterio, así como las condiciones **OR**, donde existen requisitos alternativos que pueden satisfacer un criterio."
 
 #: ../README.md:27
-msgid ""
-"The CCCEV model also defines a number of additional concepts including "
-"**formalFrameworks**, used to specify the legal instruments from criteria "
-"are derived, **evidence**, used both to specify and provide the evidence "
-"required to support a response, and additional properties of *requirements* "
-"such as **certificationLevel**. These are not yet implemented in this "
-"extension. This extension also does not describe formulae for calculating "
-"computed values, nor does it describe whether data should be published "
-"openly or not."
+msgid "The CCCEV model also defines a number of additional concepts including **formalFrameworks**, used to specify the legal instruments from criteria are derived, **evidence**, used both to specify and provide the evidence required to support a response, and additional properties of *requirements* such as **certificationLevel**. These are not yet implemented in this extension. This extension also does not describe formulae for calculating computed values, nor does it describe whether data should be published openly or not."
 msgstr ""
 
 #: ../README.md:29
@@ -120,8 +70,7 @@ msgid "Example"
 msgstr "Ejemplo"
 
 #: ../README.md:31
-msgid ""
-"Criteria for an item and a tenderer, with **AND** and **OR** conditions:"
+msgid "Criteria for an item and a tenderer, with **AND** and **OR** conditions:"
 msgstr ""
 
 #: ../README.md:129
@@ -133,14 +82,8 @@ msgid "Issues"
 msgstr "Issues"
 
 #: ../README.md:168
-msgid ""
-"Report issues for this extension in the [ocds-extensions "
-"repository](https://github.com/open-contracting/ocds-extensions/issues), "
-"putting the extension's name in the issue's title."
-msgstr ""
-"Reporte issues para esta extensión en el [repositorio de extensiones "
-"ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
-"el nombre de la extensión en el título del issue."
+msgid "Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title."
+msgstr "Reporte issues para esta extensión en el [repositorio de extensiones ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo el nombre de la extensión en el título del issue."
 
 #: ../README.md:170
 msgid "Changelog"
@@ -151,95 +94,78 @@ msgid "2023-06-07"
 msgstr ""
 
 #: ../README.md:174
-msgid "Remove fields:"
+msgid "Replace `Criterion.relatesTo` codelist field with `Criterion.relatesToTenderer` boolean field."
 msgstr ""
 
 #: ../README.md:175
-msgid "`Award.requirementResponses`"
+msgid "Remove `Award.requirementResponses`."
 msgstr ""
 
 #: ../README.md:176
-msgid "`Contract.requirementResponses`"
+msgid "Remove `Contract.requirementResponses`."
 msgstr ""
 
 #: ../README.md:177
-msgid "`Criterion.source`"
+msgid "Remove `Criterion.source`."
 msgstr ""
 
 #: ../README.md:178
-msgid "`RequirementResponse.relatedTenderer`"
+msgid "Remove `RequirementResponse.relatedTenderer`."
 msgstr ""
 
 #: ../README.md:179
-msgid ""
-"Replace `Criterion.relatesTo` codelist field with "
-"`Criterion.relatesToTenderer` boolean field."
+msgid "Remove the `relatesTo.csv` codelist."
 msgstr ""
 
 #: ../README.md:180
-msgid "Remove `relatesTo.csv` codelist."
+msgid "Remove the `responseSource.csv` codelist."
 msgstr ""
 
-#: ../README.md:181
-msgid "Remove `responseSource.csv` codelist."
-msgstr ""
-
-#: ../README.md:183
+#: ../README.md:182
 msgid "2023-04-18"
 msgstr ""
 
-#: ../README.md:185
+#: ../README.md:184
 msgid "Add `Criterion.relatedLots` field."
 msgstr ""
 
-#: ../README.md:186
+#: ../README.md:185
 msgid "Remove unnecessary instructions from field descriptions."
 msgstr ""
 
-#: ../README.md:188
+#: ../README.md:187
 msgid "2020-06-04"
 msgstr "2020-06-04"
 
-#: ../README.md:190
+#: ../README.md:189
 msgid "Review normative and non-normative words."
 msgstr "Revisar las palabras normativas y no normativas."
 
-#: ../README.md:192
+#: ../README.md:191
 msgid "2020-04-24"
 msgstr "2020-04-24"
 
-#: ../README.md:194
+#: ../README.md:193
 msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
 msgstr "Agregar las propiedades `minProperties`, `minItems` y/o `minLength`."
 
-#: ../README.md:196
-msgid ""
-"This extension was originally discussed in <https://github.com/open-"
-"contracting/standard/issues/223>."
-msgstr ""
-"Esta extensión se discutió originalmente en <https://github.com/open-"
-"contracting/standard/issues/223>."
+#: ../README.md:195
+msgid "This extension was originally discussed in <https://github.com/open-contracting/standard/issues/223>."
+msgstr "Esta extensión se discutió originalmente en <https://github.com/open-contracting/standard/issues/223>."
 
-#: ../README.md:198
+#: ../README.md:197
 msgid "2019-03-20"
 msgstr "2019-03-20"
 
-#: ../README.md:200
-msgid ""
-"Set `\"uniqueItems\": true` on array fields, and add `\"minLength\": 1` on "
-"required string fields."
-msgstr ""
-"Establecer `\"uniqueItems \": true` en los campos matriz y agregar "
-"`\"minLength\": 1` en los campos de cadena obligatorios."
+#: ../README.md:199
+msgid "Set `\"uniqueItems\": true` on array fields, and add `\"minLength\": 1` on required string fields."
+msgstr "Establecer `\"uniqueItems \": true` en los campos matriz y agregar `\"minLength\": 1` en los campos de cadena obligatorios."
 
-#: ../README.md:202
+#: ../README.md:201
 msgid "2018-12-18"
 msgstr "2018-12-18"
 
-#: ../README.md:204
-msgid ""
-"`Requirement.expectedValue` and `RequirementResponse.value` allow boolean "
-"values."
-msgstr ""
-"`Requirement.expectedValue` y `RequirementResponse.value` permiten valores "
-"boolean."
+#: ../README.md:203
+msgid "`Requirement.expectedValue` and `RequirementResponse.value` allow boolean values."
+msgstr "`Requirement.expectedValue` y `RequirementResponse.value` permiten valores boolean."
+

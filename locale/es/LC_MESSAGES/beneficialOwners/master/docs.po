@@ -1,77 +1,41 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C)
-# This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
-# James McKinney, 2024
-# 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python\n"
+"Project-Id-Version: ocds-extensions\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-30 00:39-0400\n"
-"PO-Revision-Date: 2021-05-25 15:35+0000\n"
-"Last-Translator: James McKinney, 2024\n"
-"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"POT-Creation-Date: 2025-08-25 23:28-0400\n"
+"PO-Revision-Date: 2025-08-26 04:53\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: ocds-extensions\n"
+"X-Crowdin-Project-ID: 823148\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: /beneficialOwners/master/docs.pot\n"
+"X-Crowdin-File-ID: 248\n"
+"Language: es_ES\n"
 
 #: ../README.md:1
 msgid "Beneficial owners"
 msgstr "Beneficiarios finales"
 
 #: ../README.md:3
-msgid ""
-"Adds a beneficial owners array to the organization object to indicate the "
-"beneficial owners of an organization."
-msgstr ""
-"Agregar una lista de beneficiarios finales al objeto organización para "
-"indicar los beneficiarios finales de una organización."
+msgid "Adds a beneficial owners array to the organization object to indicate the beneficial owners of an organization."
+msgstr "Agregar una lista de beneficiarios finales al objeto organización para indicar los beneficiarios finales de una organización."
 
 #: ../README.md:5
-msgid ""
-"If beneficial ownership (BO) information is collected via contracting "
-"processes, then this extension is appropriate: for example, if tenderers are"
-" obligated to disclose their beneficial owners within their bid submission. "
-"Similarly, to use this extension, the **laws in your jurisdiction must "
-"permit the publication of personal identifiers**."
+msgid "If beneficial ownership (BO) information is collected via contracting processes, then this extension is appropriate: for example, if tenderers are obligated to disclose their beneficial owners within their bid submission. Similarly, to use this extension, the **laws in your jurisdiction must permit the publication of personal identifiers**."
 msgstr ""
 
 #: ../README.md:7
-msgid ""
-"You can find the complete guidance on publishing personal identifiers in the"
-" [Beneficial Ownership Data Standard "
-"documentation](https://standard.openownership.org/en/0.3.0/schema/guidance/identifiers.html#shared-"
-"identifiers)"
+msgid "You can find the complete guidance on publishing personal identifiers in the [Beneficial Ownership Data Standard documentation](https://standard.openownership.org/en/0.3.0/schema/guidance/identifiers.html#shared-identifiers)"
 msgstr ""
 
 #: ../README.md:9
-msgid ""
-"On the other hand, if BO information is collected in a central register via "
-"other means, then it is recommended to publish that information as a "
-"separate dataset. The BO dataset and the OCDS dataset should [identify "
-"organizations](https://standard.open-"
-"contracting.org/latest/en/schema/identifiers/#organization-ids) in the same "
-"way, so that users can cross-reference the datasets. The BO dataset can "
-"follow the [Beneficial Ownership Data "
-"Standard](https://standard.openownership.org/en/latest/)."
-msgstr ""
-"Por otro lado, si la información de beneficiarios finales se recoge en un "
-"registro central por otros medios, se recomienda publicar esa información "
-"como un conjunto de datos separados. El conjunto de datos de beneficiarios "
-"finales y el conjunto de datos OCDS deben [identificar las "
-"organizaciones](https://standard.open-"
-"contracting.org/latest/en/schema/identifiers/#organization-ids) de la misma "
-"manera, para que los usuarios puedan cruzar los conjuntos de datos. El "
-"conjunto de datos de Beneficiarios Finales puede seguir el [Estándar de "
-"Datos sobre Beneficiarios "
-"Finales](https://standard.openownership.org/en/latest/)."
+msgid "On the other hand, if BO information is collected in a central register via other means, then it is recommended to publish that information as a separate dataset. The BO dataset and the OCDS dataset should [identify organizations](https://standard.open-contracting.org/latest/en/schema/identifiers/#organization-ids) in the same way, so that users can cross-reference the datasets. The BO dataset can follow the [Beneficial Ownership Data Standard](https://standard.openownership.org/en/latest/)."
+msgstr "Por otro lado, si la información de beneficiarios finales se recoge en un registro central por otros medios, se recomienda publicar esa información como un conjunto de datos separados. El conjunto de datos de beneficiarios finales y el conjunto de datos OCDS deben [identificar las organizaciones](https://standard.open-contracting.org/latest/en/schema/identifiers/#organization-ids) de la misma manera, para que los usuarios puedan cruzar los conjuntos de datos. El conjunto de datos de Beneficiarios Finales puede seguir el [Estándar de Datos sobre Beneficiarios Finales](https://standard.openownership.org/en/latest/)."
 
 #: ../README.md:11
 msgid "Example"
@@ -90,10 +54,7 @@ msgid "Without nationality"
 msgstr ""
 
 #: ../README.md:53
-msgid ""
-"The beneficial owner's nationality is not disclosed because the organization"
-" is listed on a regulated market (e.g. a stock exchange) that ensures "
-"adequate transparency in line with anti-money laundering legislation."
+msgid "The beneficial owner's nationality is not disclosed because the organization is listed on a regulated market (e.g. a stock exchange) that ensures adequate transparency in line with anti-money laundering legislation."
 msgstr ""
 
 #: ../README.md:89
@@ -101,14 +62,8 @@ msgid "Issues"
 msgstr "Issues"
 
 #: ../README.md:91
-msgid ""
-"Report issues for this extension in the [ocds-extensions "
-"repository](https://github.com/open-contracting/ocds-extensions/issues), "
-"putting the extension's name in the issue's title."
-msgstr ""
-"Reporte issues para esta extensión en el [repositorio de extensiones "
-"ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
-"el nombre de la extensión en el título del issue."
+msgid "Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title."
+msgstr "Reporte issues para esta extensión en el [repositorio de extensiones ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo el nombre de la extensión en el título del issue."
 
 #: ../README.md:93
 msgid "Changelog"
@@ -119,7 +74,7 @@ msgid "2023-08-04"
 msgstr ""
 
 #: ../README.md:97
-msgid "Convert nationality field to `nationalities` array."
+msgid "Replace `nationality` string with `nationalities` array."
 msgstr ""
 
 #: ../README.md:99
@@ -127,7 +82,7 @@ msgid "2023-06-07"
 msgstr ""
 
 #: ../README.md:101
-msgid "Add `country.csv` codelist for nationality field."
+msgid "Add a `country.csv` codelist for `nationality`."
 msgstr ""
 
 #: ../README.md:103
@@ -157,3 +112,4 @@ msgstr ""
 #: ../README.md:110
 msgid "`Organization.details.listedOnRegulatedMarket`"
 msgstr ""
+

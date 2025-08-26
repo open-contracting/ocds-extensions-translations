@@ -1,27 +1,22 @@
-# Translations template for PROJECT.
-# Copyright (C) 2024 ORGANIZATION
-# This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-# 
-# Translators:
-# James McKinney, 2019
-# Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2024
-# 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
+"Project-Id-Version: ocds-extensions\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-05-30 00:40-0400\n"
-"PO-Revision-Date: 2019-03-14 18:29+0000\n"
-"Last-Translator: Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2024\n"
-"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"POT-Creation-Date: 2025-08-25 23:28-0400\n"
+"PO-Revision-Date: 2025-08-26 04:35\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.15.0\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: ocds-extensions\n"
+"X-Crowdin-Project-ID: 823148\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: /signatories/master/schema.pot\n"
+"X-Crowdin-File-ID: 880\n"
+"Language: es_ES\n"
 
 #. /name/en
 #: extension.json:1
@@ -30,14 +25,8 @@ msgstr "Firmantes"
 
 #. /description/en
 #: extension.json:1
-msgid ""
-"Adds a signatories array to the contract object, for when the signatories "
-"differ from the buyer for the contracting process and the suppliers for the "
-"award."
-msgstr ""
-"Añade una lista de firmantes al objeto contrato, para cuando los firmantes "
-"difieran del comprador para el proceso de contratación y los proveedores "
-"para la adjudicación."
+msgid "Adds a signatories array to the contract object, for when the signatories differ from the buyer for the contracting process and the suppliers for the award."
+msgstr "Añade una lista de firmantes al objeto contrato, para cuando los firmantes difieran del comprador para el proceso de contratación y los proveedores para la adjudicación."
 
 #. /definitions/Contract/properties/signatories/title
 #: release-schema.json:1
@@ -46,9 +35,6 @@ msgstr "Firmantes del contrato"
 
 #. /definitions/Contract/properties/signatories/description
 #: release-schema.json:1
-msgid ""
-"The signatories to the contract. Each signatory should have a corresponding "
-"entry in the `parties` array."
-msgstr ""
-"Los firmantes del contrato. Cada firmante debe tener una entrada "
-"correspondiente en la lista de `parties`."
+msgid "The signatories to the contract. Each signatory should have a corresponding entry in the `parties` array."
+msgstr "Los firmantes del contrato. Cada firmante debe tener una entrada correspondiente en la lista de `parties`."
+

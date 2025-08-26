@@ -1,26 +1,22 @@
-# Translations template for PROJECT.
-# Copyright (C) 2024 ORGANIZATION
-# This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-# 
-# Translators:
-# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
-# 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
+"Project-Id-Version: ocds-extensions\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-05-30 00:40-0400\n"
-"PO-Revision-Date: 2020-08-20 21:52+0000\n"
-"Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
-"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"POT-Creation-Date: 2025-08-25 23:28-0400\n"
+"PO-Revision-Date: 2025-08-26 04:35\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.15.0\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: ocds-extensions\n"
+"X-Crowdin-Project-ID: 823148\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: /otherRequirements/master/schema.pot\n"
+"X-Crowdin-File-ID: 636\n"
+"Language: es_ES\n"
 
 #. /name/en
 #: extension.json:1
@@ -29,12 +25,8 @@ msgstr "Otros requisitos"
 
 #. /description/en
 #: extension.json:1
-msgid ""
-"Adds an object to describe other requirements to participate in a "
-"contracting process."
-msgstr ""
-"Agregar un objeto para describir otros requisitos para participar en un "
-"proceso de contratación."
+msgid "Adds an object to describe other requirements to participate in a contracting process."
+msgstr "Agregar un objeto para describir otros requisitos para participar en un proceso de contratación."
 
 #. /definitions/Tender/properties/otherRequirements/title
 #. /definitions/Lot/properties/otherRequirements/title
@@ -65,12 +57,8 @@ msgstr "Se requiere nombres y calificaciones del personal"
 
 #. /definitions/OtherRequirements/properties/requiresStaffNamesAndQualifications/description
 #: release-schema.json:1
-msgid ""
-"Whether the bidders are obligated to indicate the names and professional "
-"qualifications of the staff assigned to performing the contract."
-msgstr ""
-"Si los oferentes están obligados a indicar los nombres y las calificaciones "
-"profesionales del personal asignado a la ejecución del contrato."
+msgid "Whether the bidders are obligated to indicate the names and professional qualifications of the staff assigned to performing the contract."
+msgstr "Si los oferentes están obligados a indicar los nombres y las calificaciones profesionales del personal asignado a la ejecución del contrato."
 
 #. /definitions/OtherRequirements/properties/reservedParticipation/title
 #: release-schema.json:1
@@ -89,12 +77,8 @@ msgstr "Condiciones del sistema de calificación"
 
 #. /definitions/OtherRequirements/properties/qualificationSystemConditions/description
 #: release-schema.json:1
-msgid ""
-"The conditions to be fulfilled by candidates in view of their qualification "
-"for the system."
-msgstr ""
-"Las condiciones que deben cumplir los candidatos en vista de su calificación"
-" para el sistema."
+msgid "The conditions to be fulfilled by candidates in view of their qualification for the system."
+msgstr "Las condiciones que deben cumplir los candidatos en vista de su calificación para el sistema."
 
 #. /definitions/OtherRequirements/properties/qualificationSystemMethods/title
 #: release-schema.json:1
@@ -103,12 +87,8 @@ msgstr "Métodos del sistema de calificación"
 
 #. /definitions/OtherRequirements/properties/qualificationSystemMethods/description
 #: release-schema.json:1
-msgid ""
-"The methods according to which each of the qualification system conditions "
-"will be verified."
-msgstr ""
-"Los métodos según los cuales se verificarán cada una de las condiciones del "
-"sistema de calificación."
+msgid "The methods according to which each of the qualification system conditions will be verified."
+msgstr "Los métodos según los cuales se verificarán cada una de las condiciones del sistema de calificación."
 
 #. /definitions/OtherRequirements/properties/reductionCriteria/title
 #: release-schema.json:1
@@ -117,12 +97,8 @@ msgstr "Criterios de reducción"
 
 #. /definitions/OtherRequirements/properties/reductionCriteria/description
 #: release-schema.json:1
-msgid ""
-"The criteria or rules for selecting a limited number of qualified candidates"
-" to submit bids."
-msgstr ""
-"Los criterios o reglas para seleccionar un número limitado de candidatos "
-"calificados para presentar ofertas."
+msgid "The criteria or rules for selecting a limited number of qualified candidates to submit bids."
+msgstr "Los criterios o reglas para seleccionar un número limitado de candidatos calificados para presentar ofertas."
 
 #. /definitions/OtherRequirements/properties/securityClearance/title
 #: release-schema.json:1
@@ -131,8 +107,6 @@ msgstr ""
 
 #. /definitions/OtherRequirements/properties/securityClearance/description
 #: release-schema.json:1
-msgid ""
-"Information about the required security clearance (e.g. which clearance "
-"level is needed, which team members need it, whether it is needed already "
-"for accessing documents or only for contract execution)."
+msgid "Information about the required security clearance (e.g. which clearance level is needed, which team members need it, whether it is needed already for accessing documents or only for contract execution)."
 msgstr ""
+

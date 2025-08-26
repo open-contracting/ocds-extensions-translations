@@ -1,118 +1,53 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C)
-# This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
-# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
-# James McKinney, 2024
-# Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2024
-# 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python\n"
+"Project-Id-Version: ocds-extensions\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-30 00:39-0400\n"
-"PO-Revision-Date: 2019-03-14 18:28+0000\n"
-"Last-Translator: Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2024\n"
-"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"POT-Creation-Date: 2025-08-25 23:28-0400\n"
+"PO-Revision-Date: 2025-08-26 04:53\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: ocds-extensions\n"
+"X-Crowdin-Project-ID: 823148\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: /ppp/master/docs.pot\n"
+"X-Crowdin-File-ID: 720\n"
+"Language: es_ES\n"
 
 #: ../README.md:1
 msgid "OCDS for Public Private Partnerships"
 msgstr "OCDS para Asociaciones Público-Privadas"
 
 #: ../README.md:3
-msgid ""
-"The Open Contracting Data Standard for Public Private Partnerships profile "
-"provides an extended Open Contracting Data Standard schema, offering a "
-"structured data model for presenting information on Public Private "
-"Partnership Projects."
-msgstr ""
-"El Estándar de Datos de Contrataciones Abiertas para el perfil de "
-"Asociaciones Público Privadas provee un esquema extendido del esquema de "
-"Datos de Contrataciones Abiertas, ofreciendo un modelo de datos "
-"estructurados para presentar información en proyectos de  Asociaciones "
-"Público Privadas."
+msgid "The Open Contracting Data Standard for Public Private Partnerships profile provides an extended Open Contracting Data Standard schema, offering a structured data model for presenting information on Public Private Partnership Projects."
+msgstr "El Estándar de Datos de Contrataciones Abiertas para el perfil de Asociaciones Público Privadas provee un esquema extendido del esquema de Datos de Contrataciones Abiertas, ofreciendo un modelo de datos estructurados para presentar información en proyectos de  Asociaciones Público Privadas."
 
 #: ../README.md:5
-msgid ""
-"It is based on the [World Bank Framework for Disclosure in Public Private "
-"Partnership "
-"Projects](https://documents.worldbank.org/en/publication/documents-"
-"reports/documentdetail/744411637834708119/a-framework-for-disclosure-in-"
-"public-private-partnership-projects) and was developed between May 2016 and "
-"May 2017 through a partnership between the [World Bank Open Contracting "
-"team](https://blogs.worldbank.org/category/tags/open-contracting), [PPP "
-"team](https://www.worldbank.org/en/topic/publicprivatepartnerships), [Open "
-"Contracting Partnership](https://www.open-contracting.org), and [Open Data "
-"Services Co-operative](https://opendataservices.coop)."
-msgstr ""
-"Se basa en el [Marco del Banco Mundial para la divulgación en proyectos de "
-"Asociaciones Público-"
-"Privadas](https://documents.worldbank.org/en/publication/documents-"
-"reports/documentdetail/744411637834708119/a-framework-for-disclosure-in-"
-"public-private-partnership-projects) y se desarrolló entre mayo de 2016 y "
-"mayo de 2017 a través de una asociación entre el [equipo de Contratación "
-"Abierta del Banco Mundial](https://blogs.worldbank.org/category/tags/open-"
-"contracting), [ Equipo de "
-"APP](https://www.worldbank.org/en/topic/publicprivatepartnerships), [Open "
-"Contracting Partnership](https://www.open-contracting.org) y [Open Data "
-"Services Co-operative](https://opendataservices.coop)."
+msgid "It is based on the [World Bank Framework for Disclosure in Public Private Partnership Projects](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/744411637834708119/a-framework-for-disclosure-in-public-private-partnership-projects) and was developed between May 2016 and May 2017 through a partnership between the [World Bank Open Contracting team](https://blogs.worldbank.org/category/tags/open-contracting), [PPP team](https://www.worldbank.org/en/topic/publicprivatepartnerships), [Open Contracting Partnership](https://www.open-contracting.org), and [Open Data Services Co-operative](https://opendataservices.coop)."
+msgstr "Se basa en el [Marco del Banco Mundial para la divulgación en proyectos de Asociaciones Público-Privadas](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/744411637834708119/a-framework-for-disclosure-in-public-private-partnership-projects) y se desarrolló entre mayo de 2016 y mayo de 2017 a través de una asociación entre el [equipo de Contratación Abierta del Banco Mundial](https://blogs.worldbank.org/category/tags/open-contracting), [ Equipo de APP](https://www.worldbank.org/en/topic/publicprivatepartnerships), [Open Contracting Partnership](https://www.open-contracting.org) y [Open Data Services Co-operative](https://opendataservices.coop)."
 
 #: ../README.md:7
-msgid ""
-"Full documentation of the profile is available at [https://standard.open-"
-"contracting.org/profiles/ppp/](https://standard.open-"
-"contracting.org/profiles/ppp/)"
-msgstr ""
-"La documentación completa del perfil está disponible en "
-"[https://standard.open-contracting.org/profiles/ppp/](https://standard.open-"
-"contracting.org/profiles/ppp/)"
+msgid "Full documentation of the profile is available at [https://standard.open-contracting.org/profiles/ppp/](https://standard.open-contracting.org/profiles/ppp/)"
+msgstr "La documentación completa del perfil está disponible en [https://standard.open-contracting.org/profiles/ppp/](https://standard.open-contracting.org/profiles/ppp/)"
 
 #: ../README.md:9
-msgid ""
-"The consolidated OCDS for PPPs extension can be declared in [OCDS package "
-"metadata](https://standard.open-"
-"contracting.org/latest/en/schema/release_package/) using:"
-msgstr ""
-"La extensión OCDS consolidada para APP se puede declarar en los [metadatos "
-"del paquete OCDS](https://standard.open-"
-"contracting.org/latest/en/schema/release_package/) usando:"
+msgid "The consolidated OCDS for PPPs extension can be declared in [OCDS package metadata](https://standard.open-contracting.org/latest/en/schema/release_package/) using:"
+msgstr "La extensión OCDS consolidada para APP se puede declarar en los [metadatos del paquete OCDS](https://standard.open-contracting.org/latest/en/schema/release_package/) usando:"
 
 #: ../README.md:20
 msgid "About PPP extensions"
 msgstr "Sobre extensiones APP"
 
 #: ../README.md:22
-msgid ""
-"OCDS for PPPs is constructed from [a number of different modular extensions "
-"to OCDS](https://standard.open-"
-"contracting.org/profiles/ppp/latest/en/extensions/), most of which can be "
-"used independently from the profile."
-msgstr ""
-"OCDS para APP se construye a partir de [varias extensiones modulares "
-"diferentes de OCDS](https://standard.open-"
-"contracting.org/profiles/ppp/latest/en/extensions/), la mayoría de las "
-"cuales se pueden usar independientemente del perfil."
+msgid "OCDS for PPPs is constructed from [a number of different modular extensions to OCDS](https://standard.open-contracting.org/profiles/ppp/latest/en/extensions/), most of which can be used independently from the profile."
+msgstr "OCDS para APP se construye a partir de [varias extensiones modulares diferentes de OCDS](https://standard.open-contracting.org/profiles/ppp/latest/en/extensions/), la mayoría de las cuales se pueden usar independientemente del perfil."
 
 #: ../README.md:24
-msgid ""
-"This repository contains one additional extension that forms part of the "
-"OCDS for PPPs profile. This extension introduces a number of fields and "
-"building blocks that are specific to PPP disclosure against the World Bank "
-"Framework."
-msgstr ""
-"Este repositorio contiene una extensión adicional que forma parte del perfil"
-" de OCDS para APPs. Esta extensión presenta una serie de campos y bloques de"
-" construcción que son específicos de la divulgación de APP según el Marco "
-"del Banco Mundial."
+msgid "This repository contains one additional extension that forms part of the OCDS for PPPs profile. This extension introduces a number of fields and building blocks that are specific to PPP disclosure against the World Bank Framework."
+msgstr "Este repositorio contiene una extensión adicional que forma parte del perfil de OCDS para APPs. Esta extensión presenta una serie de campos y bloques de construcción que son específicos de la divulgación de APP según el Marco del Banco Mundial."
 
 #: ../README.md:26
 msgid "PPP Specific extensions"
@@ -123,21 +58,12 @@ msgid "Evaluation Indicators"
 msgstr "Indicadores de Evaluación"
 
 #: ../README.md:30
-msgid ""
-"The PPP disclosure framework calls for a number of different indicators to "
-"be reported relating to governments evaluation of a PPP project."
-msgstr ""
-"El marco de divulgación de APP requiere que se divulguen varios indicadores "
-"diferentes relacionados con la evaluación de los gobiernos de un proyecto de"
-" APP."
+msgid "The PPP disclosure framework calls for a number of different indicators to be reported relating to governments evaluation of a PPP project."
+msgstr "El marco de divulgación de APP requiere que se divulguen varios indicadores diferentes relacionados con la evaluación de los gobiernos de un proyecto de APP."
 
 #: ../README.md:32
-msgid ""
-"The `awards.evaluationIndicators` section includes fields to express the "
-"**value** and supporting **details** for each indicator:"
-msgstr ""
-"La sección `awards.evaluationIndicators` incluye campos para expresar el "
-"**valor** y los **detalles** de respaldo para cada indicador:"
+msgid "The `awards.evaluationIndicators` section includes fields to express the **value** and supporting **details** for each indicator:"
+msgstr "La sección `awards.evaluationIndicators` incluye campos para expresar el **valor** y los **detalles** de respaldo para cada indicador:"
 
 #: ../README.md:34
 msgid "discountRate"
@@ -160,23 +86,12 @@ msgid "Finance Summary"
 msgstr "Resumen Financiero"
 
 #: ../README.md:54
-msgid ""
-"The PPP disclosure framework calls for a number of different indicators "
-"relating to the financial model of a PPP project. Whilst some of these may "
-"be reported as metrics on an ongoing basis, some are simple single values."
-msgstr ""
-"El marco de divulgación de APP requiere una serie de indicadores diferentes "
-"relacionados con el modelo financiero de un proyecto APP. Mientras que "
-"algunos de estos pueden ser reportados como métricas en forma continua, "
-"algunos son simples valores individuales."
+msgid "The PPP disclosure framework calls for a number of different indicators relating to the financial model of a PPP project. Whilst some of these may be reported as metrics on an ongoing basis, some are simple single values."
+msgstr "El marco de divulgación de APP requiere una serie de indicadores diferentes relacionados con el modelo financiero de un proyecto APP. Mientras que algunos de estos pueden ser reportados como métricas en forma continua, algunos son simples valores individuales."
 
 #: ../README.md:56
-msgid ""
-"The `contracts.financeSummary` section includes fields to express the "
-"**value** and supporting **details** for each indicator:"
-msgstr ""
-"La sección `contracts.financeSummary` incluye campos para expresar el "
-"**valor** y los **detalles** para cada indicador:"
+msgid "The `contracts.financeSummary` section includes fields to express the **value** and supporting **details** for each indicator:"
+msgstr "La sección `contracts.financeSummary` incluye campos para expresar el **valor** y los **detalles** para cada indicador:"
 
 #: ../README.md:58
 msgid "debtEquityRatio"
@@ -199,14 +114,8 @@ msgid "Issues"
 msgstr "Issues"
 
 #: ../README.md:77
-msgid ""
-"Report issues for this extension in the [ocds-extensions "
-"repository](https://github.com/open-contracting/ocds-extensions/issues), "
-"putting the extension's name in the issue's title."
-msgstr ""
-"Reporte issues para esta extensión en el [repositorio de extensiones "
-"ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
-"el nombre de la extensión en el título del issue."
+msgid "Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title."
+msgstr "Reporte issues para esta extensión en el [repositorio de extensiones ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo el nombre de la extensión en el título del issue."
 
 #: ../README.md:79
 msgid "Changelog"
@@ -217,8 +126,8 @@ msgid "2023-06-07"
 msgstr "2023-06-07"
 
 #: ../README.md:83
-msgid "Remove unused `+partyRole.csv` codes:"
-msgstr "Remueve los códigos `+partyRole.csv` no usados:"
+msgid "Remove unused codes from the `+partyRole.csv` codelist patch:"
+msgstr ""
 
 #: ../README.md:84
 msgid "consortiaMember"
@@ -245,92 +154,82 @@ msgid "2021-04-19"
 msgstr "2021-04-19"
 
 #: ../README.md:92
-msgid ""
-"Replace `documentType.csv` with `+documentType.csv`, which adds new codes "
-"instead of replacing the codelist."
-msgstr ""
-"Reemplazar `documentType.csv` con `+documentType.csv`, que agrega nuevos "
-"códigos en lugar de sustituir la lista de códigos."
+msgid "Replace `documentType.csv` with `+documentType.csv`, which adds new codes instead of replacing the codelist."
+msgstr "Reemplazar `documentType.csv` con `+documentType.csv`, que agrega nuevos códigos en lugar de sustituir la lista de códigos."
 
 #: ../README.md:94
 msgid "2021-02-15"
 msgstr "2021-02-15"
 
 #: ../README.md:96
-msgid ""
-"Restore 'procuringEntity', 'tenderer' and 'funder' roles. Remove 'bidder' "
-"role."
+msgid "Restore 'procuringEntity', 'tenderer' and 'funder' roles."
 msgstr ""
-"Restaura los reoles 'procuringEntity', 'tenderer' y 'funder'. Elimina el rol"
-" 'bidder'."
 
-#: ../README.md:98
+#: ../README.md:97
+msgid "Remove 'bidder' role."
+msgstr ""
+
+#: ../README.md:99
 msgid "2021-01-14"
 msgstr "2021-01-14"
 
-#: ../README.md:100
-msgid "Remove `+releaseTag.csv` codelist."
-msgstr "Elimina la lista de códigos `+releaseTag.csv`."
+#: ../README.md:101
+msgid "Remove the `+releaseTag.csv` codelist patch."
+msgstr ""
 
-#: ../README.md:102
+#: ../README.md:103
 msgid "2021-01-11"
 msgstr "2021-01-11"
 
-#: ../README.md:104
-msgid "Remove `initiationType.csv` codelist."
-msgstr "Elimina la lista de códigos `initiationType.csv`."
-
 #: ../README.md:105
+msgid "Remove the `initiationType.csv` codelist."
+msgstr ""
+
+#: ../README.md:106
 msgid "Restore `buyer` and `awards.suppliers` fields."
 msgstr "Restaura los campos `buyer` y `awards.suppliers`."
 
-#: ../README.md:107
+#: ../README.md:108
 msgid "2020-11-16"
 msgstr "2020-11-16"
 
-#: ../README.md:109
+#: ../README.md:110
 msgid "Restore deprecated fields."
 msgstr "Restaura campos deprecados."
 
-#: ../README.md:110
+#: ../README.md:111
 msgid "Restore `Budget.project` and `Budget.projectID` fields."
 msgstr "Restaura los campos `Budget.project` y `Budget.projectID`."
 
-#: ../README.md:112
+#: ../README.md:113
 msgid "2020-06-04"
 msgstr "2020-06-04"
 
-#: ../README.md:114
+#: ../README.md:115
 msgid "Review normative and non-normative words."
 msgstr "Revisar las palabras normativas y no normativas."
 
-#: ../README.md:116
+#: ../README.md:117
 msgid "2020-04-24"
 msgstr "2020-04-24"
 
-#: ../README.md:118
+#: ../README.md:119
 msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
 msgstr "Agregar las propiedades `minProperties`, `minItems` y/o `minLength`."
 
-#: ../README.md:120
+#: ../README.md:121
 msgid "2019-05-01"
 msgstr "2019-05-01"
 
-#: ../README.md:122
-msgid ""
-"Remove 'qualifiedBidder' and 'disqualifiedBidder' codes from "
-"`+partyRole.csv` (moved to [qualification](https://github.com/open-"
-"contracting-extensions/ocds_qualification_extension) extension)."
+#: ../README.md:123
+msgid "Remove 'qualifiedBidder' and 'disqualifiedBidder' codes from the `+partyRole.csv` codelist patch (moved to [qualification](https://github.com/open-contracting-extensions/ocds_qualification_extension) extension)."
 msgstr ""
-"Remueve los códigos 'qualifiedBidder' y 'disqualifiedBidder' de "
-"`+partyRole.csv` (fuerons movidos a la extensión de "
-"[qualification](https://github.com/open-contracting-"
-"extensions/ocds_qualification_extension))."
 
-#: ../README.md:124
+#: ../README.md:125
 msgid "2019-03-20"
 msgstr "2019-03-20"
 
-#: ../README.md:126
+#: ../README.md:127
 msgid "Set `\"uniqueItems\": true` on array fields."
 msgstr "Establece `\"uniqueItems\": true` en campos matriz."
+

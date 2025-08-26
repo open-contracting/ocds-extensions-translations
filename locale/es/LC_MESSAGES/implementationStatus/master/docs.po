@@ -1,28 +1,21 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C)
-# This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# Maria Esther Cervantes <mcervantes@cds.com.py>, 2019
-# Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2019
-# James McKinney, 2021
-# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
-# 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python\n"
+"Project-Id-Version: ocds-extensions\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-30 00:39-0400\n"
-"PO-Revision-Date: 2019-03-14 18:35+0000\n"
-"Last-Translator: Natalia Valdez <nataliavaldez@cds.com.py>, 2021\n"
-"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"POT-Creation-Date: 2025-08-25 23:28-0400\n"
+"PO-Revision-Date: 2025-08-26 04:53\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: ocds-extensions\n"
+"X-Crowdin-Project-ID: 823148\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: /implementationStatus/master/docs.pot\n"
+"X-Crowdin-File-ID: 480\n"
+"Language: es_ES\n"
 
 #: ../README.md:1
 msgid "Implementation Status"
@@ -33,16 +26,8 @@ msgid "Description:"
 msgstr "Descripción:"
 
 #: ../README.md:4
-msgid ""
-"In Mexico, when talking about works and services related with them it is "
-"necessary to publish a set of specific variables about its implementation. "
-"One of them is the implementation status of the work or service related with"
-" it. It includes a code list whose values are the following:"
-msgstr ""
-"En México, cuando se habla de trabajos y servicios relacionados, es "
-"necesario publicar un set de variables específicas sobre su implementación. "
-"Una de las variables es el status de la implementación del trabajo o "
-"servicios, esto incluye una lista de código con los siguientes valores: "
+msgid "In Mexico, when talking about works and services related with them it is necessary to publish a set of specific variables about its implementation. One of them is the implementation status of the work or service related with it. It includes a code list whose values are the following:"
+msgstr "En México, cuando se habla de trabajos y servicios relacionados, es necesario publicar un set de variables específicas sobre su implementación. Una de las variables es el status de la implementación del trabajo o servicios, esto incluye una lista de código con los siguientes valores: "
 
 #: ../README.md:0 ../README.md:6
 msgid "planning"
@@ -61,11 +46,8 @@ msgid "Proposal:"
 msgstr "Propuesta:"
 
 #: ../README.md:12
-msgid ""
-"Add a new field named “implementationStatus” in the “Implementation” object."
-msgstr ""
-"Añadir un campo nuevo llamado \"“implementationStatus” en el objeto  "
-"“Implementation”."
+msgid "Add a new field named “implementationStatus” in the “Implementation” object."
+msgstr "Añadir un campo nuevo llamado \"“implementationStatus” en el objeto  “Implementation”."
 
 #: ../README.md:14
 msgid "Schema"
@@ -104,61 +86,38 @@ msgid "Implementation status"
 msgstr "Estatus de la implementación"
 
 #: ../README.md:0
-msgid ""
-"The current status of the contract implementation based on the "
-"[implementationStatus](https://github.com/INAImexico/ocds_implementationStatus_extension/blob/master/codelists/implementationStatus.csv)"
-"  codelist."
-msgstr ""
-"El estado actual de la implementación del contrato en función de la lista de"
-" códigos [implementationStatus] "
-"(https://github.com/INAImexico/ocds_implementationStatus_extension/blob/master/codelists/implementationStatus.csv)."
+msgid "The current status of the contract implementation based on the [implementationStatus](https://github.com/INAImexico/ocds_implementationStatus_extension/blob/master/codelists/implementationStatus.csv)  codelist."
+msgstr "El estado actual de la implementación del contrato en función de la lista de códigos [implementationStatus] (https://github.com/INAImexico/ocds_implementationStatus_extension/blob/master/codelists/implementationStatus.csv)."
 
 #: ../README.md:0
 msgid "Planning"
 msgstr "Planeación"
 
 #: ../README.md:0
-msgid ""
-"The contract has been signed, but the provision or construction of the "
-"goods, services or works has not started."
-msgstr ""
-"El contrato se firmo, pero no ha comenzado la prestación o construcción de "
-"los bienes, servicios u obras."
+msgid "The contract has been signed, but the provision or construction of the goods, services or works has not started."
+msgstr "El contrato se firmo, pero no ha comenzado la prestación o construcción de los bienes, servicios u obras."
 
 #: ../README.md:0
 msgid "Ongoing"
 msgstr "En marcha"
 
 #: ../README.md:0
-msgid ""
-"The provision or construction of the goods, services or works is in "
-"progress."
-msgstr ""
-"La prestación o construcción de los bienes, servicios u obras esta en "
-"proceso."
+msgid "The provision or construction of the goods, services or works is in progress."
+msgstr "La prestación o construcción de los bienes, servicios u obras esta en proceso."
 
 #: ../README.md:0
 msgid "Concluded"
 msgstr "Concluido"
 
 #: ../README.md:0
-msgid ""
-"The provision or construction of the goods, services or works has officially"
-" ended."
-msgstr ""
-"La prestación o construcción de los bienes, servicios u obras oficialmente "
-"ha terminado."
+msgid "The provision or construction of the goods, services or works has officially ended."
+msgstr "La prestación o construcción de los bienes, servicios u obras oficialmente ha terminado."
 
 #: ../README.md:30
 msgid "Issues"
 msgstr "Issues"
 
 #: ../README.md:32
-msgid ""
-"Report issues for this extension in the [standard "
-"repository](https://github.com/open-contracting/standard/issues/624) of the "
-"Open Contracting Partnership."
-msgstr ""
-"Reportar issues para esta extensión en [standard "
-"repository](https://github.com/open-contracting/standard/issues/624) de Open"
-" Contracting Partnership."
+msgid "Report issues for this extension in the [standard repository](https://github.com/open-contracting/standard/issues/624) of the Open Contracting Partnership."
+msgstr "Reportar issues para esta extensión en [standard repository](https://github.com/open-contracting/standard/issues/624) de Open Contracting Partnership."
+

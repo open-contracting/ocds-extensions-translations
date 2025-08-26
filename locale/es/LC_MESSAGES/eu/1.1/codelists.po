@@ -1,27 +1,22 @@
-# Translations template for PROJECT.
-# Copyright (C) 2024 ORGANIZATION
-# This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-# 
-# Translators:
-# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
-# James McKinney, 2024
-# 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
+"Project-Id-Version: ocds-extensions\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-05-30 00:40-0400\n"
-"PO-Revision-Date: 2020-08-20 20:51+0000\n"
-"Last-Translator: James McKinney, 2024\n"
-"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"POT-Creation-Date: 2025-08-25 23:28-0400\n"
+"PO-Revision-Date: 2025-08-26 04:35\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.15.0\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: ocds-extensions\n"
+"X-Crowdin-Project-ID: 823148\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: /eu/1.1/codelists.pot\n"
+"X-Crowdin-File-ID: 432\n"
+"Language: es_ES\n"
 
 #: codelists/+documentType.csv
 msgid "Section"
@@ -29,19 +24,22 @@ msgstr "Sección"
 
 #: codelists/+documentType.csv codelists/+itemClassificationScheme.csv
 #: codelists/+milestoneType.csv codelists/+partyRole.csv
-#: codelists/+relatedProcessScheme.csv
+#: codelists/+relatedProcessScheme.csv codelists/foreignSubsidyMeasures.csv
+#: codelists/sources.csv
 msgid "Code"
 msgstr "Código"
 
 #: codelists/+documentType.csv codelists/+itemClassificationScheme.csv
 #: codelists/+milestoneType.csv codelists/+partyRole.csv
-#: codelists/+relatedProcessScheme.csv
+#: codelists/+relatedProcessScheme.csv codelists/foreignSubsidyMeasures.csv
+#: codelists/sources.csv
 msgid "Title"
 msgstr "Título"
 
 #: codelists/+documentType.csv codelists/+itemClassificationScheme.csv
 #: codelists/+milestoneType.csv codelists/+partyRole.csv
-#: codelists/+relatedProcessScheme.csv
+#: codelists/+relatedProcessScheme.csv codelists/foreignSubsidyMeasures.csv
+#: codelists/sources.csv
 msgid "Description"
 msgstr "Descripción"
 
@@ -52,10 +50,7 @@ msgstr ""
 
 #. Description
 #: codelists/+documentType.csv:1
-msgid ""
-"A general regulatory framework applicable in the place where the contract is"
-" to be performed. For example, tax legislation, environmental protection "
-"legislation or employment protection and working conditions legislation."
+msgid "A general regulatory framework applicable in the place where the contract is to be performed. For example, tax legislation, environmental protection legislation or employment protection and working conditions legislation."
 msgstr ""
 
 #: codelists/+itemClassificationScheme.csv
@@ -64,26 +59,32 @@ msgstr "Fuente"
 
 #. Title
 #: codelists/+itemClassificationScheme.csv:1
-msgid "European Union vehicle category"
+msgid "European Union vehicle type"
 msgstr ""
 
 #. Description
 #: codelists/+itemClassificationScheme.csv:1
-msgid ""
-"The category of vehicle falling within the scope of the EU Clean Vehicles "
-"Directive 2009/33/EC."
+msgid "The type of vehicle specified in eForms."
 msgstr ""
 
 #. Title
 #: codelists/+itemClassificationScheme.csv:2
-msgid "European Union Clean Vehicle Directive contract type"
+msgid "European Union Clean Vehicle Directive vehicle category"
 msgstr ""
 
 #. Description
 #: codelists/+itemClassificationScheme.csv:2
-msgid ""
-"The category of contract according to the EU Clean Vehicles Directive "
-"2009/33/EC."
+msgid "The category of vehicle falling within the scope of the EU Clean Vehicles Directive 2009/33/EC."
+msgstr ""
+
+#. Title
+#: codelists/+itemClassificationScheme.csv:3
+msgid "European Union Clean Vehicle Directive contract type"
+msgstr ""
+
+#. Description
+#: codelists/+itemClassificationScheme.csv:3
+msgid "The category of contract according to the EU Clean Vehicles Directive 2009/33/EC."
 msgstr ""
 
 #. Title
@@ -94,8 +95,7 @@ msgstr "Fecha límite de habilitación de seguridad"
 #. Description
 #: codelists/+milestoneType.csv:1
 msgid "The tenderers may obtain their security clearance until this date."
-msgstr ""
-"Los licitantes podrán obtener su habilitación de seguridad hasta esta fecha."
+msgstr "Los licitantes podrán obtener su habilitación de seguridad hasta esta fecha."
 
 #. Title
 #: codelists/+partyRole.csv:1
@@ -114,12 +114,8 @@ msgstr "Organismo central de compras"
 
 #. Description
 #: codelists/+partyRole.csv:2
-msgid ""
-"The procuring entity providing centralized purchasing activities and, "
-"possibly, ancillary purchasing activities."
-msgstr ""
-"La entidad contratante que proporciona actividades de compra centralizadas "
-"y, posiblemente, actividades de compra auxiliares."
+msgid "The procuring entity providing centralized purchasing activities and, possibly, ancillary purchasing activities."
+msgstr "La entidad contratante que proporciona actividades de compra centralizadas y, posiblemente, actividades de compra auxiliares."
 
 #. Title
 #: codelists/+partyRole.csv:3
@@ -138,12 +134,8 @@ msgstr "Punto de contacto de revisión"
 
 #. Description
 #: codelists/+partyRole.csv:4
-msgid ""
-"The service from which information about the review procedure can be "
-"obtained."
-msgstr ""
-"El servicio del cual se puede obtener información sobre el procedimiento de "
-"revisión."
+msgid "The service from which information about the review procedure can be obtained."
+msgstr "El servicio del cual se puede obtener información sobre el procedimiento de revisión."
 
 #. Title
 #: codelists/+partyRole.csv:5
@@ -152,9 +144,7 @@ msgstr "Participante seleccionado"
 
 #. Description
 #: codelists/+partyRole.csv:5
-msgid ""
-"An organization that has already been selected to participate in the design "
-"contest."
+msgid "An organization that has already been selected to participate in the design contest."
 msgstr ""
 
 #. Title
@@ -164,8 +154,7 @@ msgstr ""
 
 #. Description
 #: codelists/+partyRole.csv:6
-msgid ""
-"An organization that provides ancillary procurement services to buyers."
+msgid "An organization that provides ancillary procurement services to buyers."
 msgstr ""
 
 #. Title
@@ -205,8 +194,7 @@ msgstr ""
 
 #. Description
 #: codelists/+partyRole.csv:10
-msgid ""
-"The organization responsible for evaluating bids or requests to participate."
+msgid "The organization responsible for evaluating bids or requests to participate."
 msgstr ""
 
 #. Title
@@ -216,17 +204,114 @@ msgstr ""
 
 #. Description
 #: codelists/+partyRole.csv:11
-msgid ""
-"The organization responsible for receiving bids or requests to participate."
+msgid "The organization responsible for receiving bids or requests to participate."
 msgstr ""
 
 #. Title
 #: codelists/+relatedProcessScheme.csv:1
-msgid "Official Journal of the European Union"
+msgid "eForms versioned notice identifier"
 msgstr ""
 
 #. Description
 #: codelists/+relatedProcessScheme.csv:1
-msgid ""
-"An Official Journal of the European Union contracting process identifier."
+msgid "An eForms notice identifier (UUID) concatenated with the associated version identifier (2 digits) in the form {UUID}-{vv}."
 msgstr ""
+
+#. Title
+#: codelists/+relatedProcessScheme.csv:2
+msgid "Official Journal of the European Union notice identifier"
+msgstr ""
+
+#. Description
+#: codelists/+relatedProcessScheme.csv:2
+msgid "An Official Journal of the European Union notice identifier, also known as a Notice Publication ID in eForms."
+msgstr ""
+
+#. Title
+#: codelists/foreignSubsidyMeasures.csv:1
+msgid "Notification submitted, administrative closure of FSR preliminary review procedure"
+msgstr ""
+
+#. Description
+#: codelists/foreignSubsidyMeasures.csv:1
+msgid "The Commission conducted its preliminary review procedure and did not issue a decision before the end of the time limit prescribed by the Foreign Subsidies Regulation (FSR). The FSR procedure ended, and the Buyer can award the contract to the tenderer that submitted the notification."
+msgstr ""
+
+#. Title
+#: codelists/foreignSubsidyMeasures.csv:2
+msgid "Notification submitted, decision with commitments"
+msgstr ""
+
+#. Description
+#: codelists/foreignSubsidyMeasures.csv:2
+msgid "The Commission conducted its in-depth investigation and concluded that there are distortive foreign subsidies, but the tenderer provided commitments that remedy the distortion. The Buyer can award the contract to the tenderer that was under in-depth investigation."
+msgstr ""
+
+#. Title
+#: codelists/foreignSubsidyMeasures.csv:3
+msgid "Notification submitted, decision on irregular tender or request to participate"
+msgstr ""
+
+#. Description
+#: codelists/foreignSubsidyMeasures.csv:3
+msgid "The Commission conducted a preliminary review and found that the notification was incomplete, and requested more information from the economic operator who did not comply. The Commission declared the tender or request to participate irregular and requests the Buyer to reject the tender or request to participate."
+msgstr ""
+
+#. Title
+#: codelists/foreignSubsidyMeasures.csv:4
+msgid "Declaration submitted, standard MEAT award"
+msgstr ""
+
+#. Description
+#: codelists/foreignSubsidyMeasures.csv:4
+msgid "The Commission has started an in-depth investigation on the tenderer. However, this tenderer did not submit the most economically advantageous tender (MEAT). There was another tenderer who submitted a declaration and MEAT. The Commission did not open an in-depth investigation against that tenderer. Therefore, the Buyer can award the contract to that tenderer with the MEAT."
+msgstr ""
+
+#. Title
+#: codelists/foreignSubsidyMeasures.csv:5
+msgid "Notification submitted, decision with no objection"
+msgstr ""
+
+#. Description
+#: codelists/foreignSubsidyMeasures.csv:5
+msgid "The Commission conducted its in-depth investigation and concluded that there is no distortion, the Buyer can award the contract to the tenderer that was under in-depth investigation, the Foreign Subsidies Regulation procedure is closed."
+msgstr ""
+
+#. Title
+#: codelists/foreignSubsidyMeasures.csv:6
+msgid "Notification submitted, decision prohibiting the award"
+msgstr ""
+
+#. Description
+#: codelists/foreignSubsidyMeasures.csv:6
+msgid "The Commission conducted its in-depth investigation and concluded that there are distortive foreign subsidies. Therefore, it issued a decision to the Buyer prohibiting the award to the tenderer that was under in-depth investigation."
+msgstr ""
+
+#. Title
+#: codelists/foreignSubsidyMeasures.csv:7
+msgid "Declaration submitted, standard award procedure"
+msgstr ""
+
+#. Description
+#: codelists/foreignSubsidyMeasures.csv:7
+msgid "A tenderer submitted a declaration to the Commission, but the Commission did not open an in-depth investigation. Therefore, the Buyer can award the contract to the tenderer that submitted that declaration."
+msgstr ""
+
+#. Title
+#. Description
+#: codelists/sources.csv:1
+msgid "Notice"
+msgstr ""
+
+#. Title
+#. Description
+#: codelists/sources.csv:2
+msgid "Procurement Document"
+msgstr ""
+
+#. Title
+#. Description
+#: codelists/sources.csv:3
+msgid "European Single Procurement Document (ESPD)"
+msgstr ""
+

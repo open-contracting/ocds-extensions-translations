@@ -1,29 +1,22 @@
-# Translations template for PROJECT.
-# Copyright (C) 2024 ORGANIZATION
-# This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-# 
-# Translators:
-# Romina Fernandez <rfernandez@cds.com.py>, 2020
-# Cecilia Casco <ceciliacasco@cds.com.py>, 2021
-# Maria Esther Cervantes <mcervantes@cds.com.py>, 2022
-# James McKinney, 2024
-# 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
+"Project-Id-Version: ocds-extensions\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-05-30 00:39-0400\n"
-"PO-Revision-Date: 2019-03-14 18:27+0000\n"
-"Last-Translator: James McKinney, 2024\n"
-"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"POT-Creation-Date: 2025-08-25 23:28-0400\n"
+"PO-Revision-Date: 2025-08-26 04:53\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.15.0\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: ocds-extensions\n"
+"X-Crowdin-Project-ID: 823148\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: /bids/master/schema.pot\n"
+"X-Crowdin-File-ID: 254\n"
+"Language: es_ES\n"
 
 #. /name/en
 #: extension.json:1
@@ -32,9 +25,7 @@ msgstr ""
 
 #. /description/en
 #: extension.json:1
-msgid ""
-"Adds a bids object to describe individual bids and expressions of interest, "
-"and summary statistics."
+msgid "Adds a bids object to describe individual bids and expressions of interest, and summary statistics."
 msgstr ""
 
 #. /properties/bids/title
@@ -44,9 +35,7 @@ msgstr ""
 
 #. /properties/bids/description
 #: release-schema.json:1
-msgid ""
-"Information about individual bids and expressions of interest, and summary "
-"statistics."
+msgid "Information about individual bids and expressions of interest, and summary statistics."
 msgstr ""
 
 #. /properties/bids/properties/statistics/title
@@ -56,9 +45,7 @@ msgstr "Estadística"
 
 #. /properties/bids/properties/statistics/description
 #: release-schema.json:1
-msgid ""
-"Summary statistics about the number of bidders, bids and expressions of "
-"interest."
+msgid "Summary statistics about the number of bidders, bids and expressions of interest."
 msgstr ""
 
 #. /properties/bids/properties/details/title
@@ -79,19 +66,13 @@ msgstr "Oferta relacionada"
 #. /definitions/Award/properties/relatedBid/description
 #. /definitions/Contract/properties/relatedBids/description
 #: release-schema.json:1
-msgid ""
-"The identifiers of the bids (or expressions of interest) to which the "
-"contract relates."
+msgid "The identifiers of the bids (or expressions of interest) to which the contract relates."
 msgstr ""
 
 #. /definitions/Award/properties/relatedBid/deprecated/description
 #: release-schema.json:1
-msgid ""
-"This field is deprecated in favor of `relatedBids`, to allow an award to "
-"combine multiple bids."
-msgstr ""
-"El campo se descontinúa a favor de  `relatedBids` para permitir a una "
-"adjudicación combinar múltiples ofertas."
+msgid "This field is deprecated in favor of `relatedBids`, to allow an award to combine multiple bids."
+msgstr "El campo se descontinúa a favor de  `relatedBids` para permitir a una adjudicación combinar múltiples ofertas."
 
 #. /definitions/Award/properties/relatedBids/title
 #. /definitions/Contract/properties/relatedBids/title
@@ -101,9 +82,7 @@ msgstr "Ofertas relacionadas"
 
 #. /definitions/Award/properties/relatedBids/description
 #: release-schema.json:1
-msgid ""
-"The identifiers of the bids (or expressions of interest) to which the award "
-"relates."
+msgid "The identifiers of the bids (or expressions of interest) to which the award relates."
 msgstr ""
 
 #. /definitions/Statistic/title
@@ -146,12 +125,7 @@ msgstr "Fecha"
 
 #. /definitions/Statistic/properties/date/description
 #: release-schema.json:1
-msgid ""
-"The date when the statistic was last updated. This is often the closing date"
-" of the tender process. This field may be omitted unless either (a) the same"
-" statistic is provided from multiple points in time, or (b) there is a "
-"specific local requirement for the date when statistics were calculated to "
-"be provided."
+msgid "The date when the statistic was last updated. This is often the closing date of the tender process. This field may be omitted unless either (a) the same statistic is provided from multiple points in time, or (b) there is a specific local requirement for the date when statistics were calculated to be provided."
 msgstr ""
 
 #. /definitions/Statistic/properties/value/title
@@ -162,10 +136,7 @@ msgstr "Valor"
 
 #. /definitions/Statistic/properties/value/description
 #: release-schema.json:1
-msgid ""
-"The value for the measure in question. A total count should be expressed as "
-"an integer. A proportion should be expressed as a decimal (for example, 0.1)"
-" and not as a percentage (for example, 10)."
+msgid "The value for the measure in question. A total count should be expressed as an integer. A proportion should be expressed as a decimal (for example, 0.1) and not as a percentage (for example, 10)."
 msgstr ""
 
 #. /definitions/Statistic/properties/valueGross/title
@@ -176,8 +147,7 @@ msgstr "Valor bruto"
 #. /definitions/Statistic/properties/valueGross/description
 #: release-schema.json:1
 msgid "The monetary value for the measure in question, including all taxes."
-msgstr ""
-"El valor monetario de las medidas en cuestión, incluyendo los impuestos. "
+msgstr "El valor monetario de las medidas en cuestión, incluyendo los impuestos. "
 
 #. /definitions/Statistic/properties/currency/title
 #: release-schema.json:1
@@ -186,12 +156,8 @@ msgstr "Moneda"
 
 #. /definitions/Statistic/properties/currency/description
 #: release-schema.json:1
-msgid ""
-"The currency of the amount in the `value` field, if the statistic has a "
-"monetary value."
-msgstr ""
-"La moneda para el monto contenido en el campo `value`, si la estadística "
-"tiene un valor monetario."
+msgid "The currency of the amount in the `value` field, if the statistic has a monetary value."
+msgstr "La moneda para el monto contenido en el campo `value`, si la estadística tiene un valor monetario."
 
 #. /definitions/Statistic/properties/notes/title
 #: release-schema.json:1
@@ -201,9 +167,7 @@ msgstr "Notas"
 #. /definitions/Statistic/properties/notes/description
 #: release-schema.json:1
 msgid "Any notes needed to understand or interpret the given statistic."
-msgstr ""
-"Cualquier nota requerida para entender o interpretar la estadística "
-"proporcionada."
+msgstr "Cualquier nota requerida para entender o interpretar la estadística proporcionada."
 
 #. /definitions/Statistic/properties/relatedLot/title
 #: release-schema.json:1
@@ -212,9 +176,7 @@ msgstr "Lote Relacionado"
 
 #. /definitions/Statistic/properties/relatedLot/description
 #: release-schema.json:1
-msgid ""
-"The identifiers of the lots to which the statistic relates. If left blank, "
-"the statistic will be interpreted as applying to the whole tender."
+msgid "The identifiers of the lots to which the statistic relates. If left blank, the statistic will be interpreted as applying to the whole tender."
 msgstr ""
 
 #. /definitions/Bid/title
@@ -224,10 +186,7 @@ msgstr "Presentación de oferta"
 
 #. /definitions/Bid/description
 #: release-schema.json:1
-msgid ""
-"A bid or expression of interest. Depending on the procedure, a bid can be an"
-" estimate, offer, proposal, quote or quotation. An expression of interest is"
-" also called a request to participate."
+msgid "A bid or expression of interest. Depending on the procedure, a bid can be an estimate, offer, proposal, quote or quotation. An expression of interest is also called a request to participate."
 msgstr ""
 
 #. /definitions/Bid/properties/id/description
@@ -242,10 +201,7 @@ msgstr "Identificadores"
 
 #. /definitions/Bid/properties/identifiers/description
 #: release-schema.json:1
-msgid ""
-"Identifiers for this bid or expression of interest. This field can be used "
-"to provide internal identifiers for the submission, such as identifiers from"
-" a buyer's document management system or procurement system."
+msgid "Identifiers for this bid or expression of interest. This field can be used to provide internal identifiers for the submission, such as identifiers from a buyer's document management system or procurement system."
 msgstr ""
 
 #. /definitions/Bid/properties/submissionType/title
@@ -255,11 +211,7 @@ msgstr ""
 
 #. /definitions/Bid/properties/submissionType/description
 #: release-schema.json:1
-msgid ""
-"The type of the submission, using the closed "
-"[submissionType](https://github.com/open-contracting-"
-"extensions/ocds_bid_extension/blob/master/codelists/submissionType.csv) "
-"codelist."
+msgid "The type of the submission, using the closed [submissionType](https://github.com/open-contracting-extensions/ocds_bid_extension/blob/master/codelists/submissionType.csv) codelist."
 msgstr ""
 
 #. /definitions/Bid/properties/date/description
@@ -274,9 +226,7 @@ msgstr "Descripción"
 
 #. /definitions/Bid/properties/description/description
 #: release-schema.json:1
-msgid ""
-"A description of the bid or expression of interest. The description field "
-"may be used to describe the terms and conditions for the submission."
+msgid "A description of the bid or expression of interest. The description field may be used to describe the terms and conditions for the submission."
 msgstr ""
 
 #. /definitions/Bid/properties/status/title
@@ -296,14 +246,8 @@ msgstr "Artículos ofrecidos por los licitador(es)"
 
 #. /definitions/Bid/properties/items/description
 #: release-schema.json:1
-msgid ""
-"The goods, works or services offered by the tenderer(s), broken into line "
-"items wherever possible. Items should not be duplicated, but the quantity "
-"specified instead."
-msgstr ""
-"Los bienes, trabajos o servicios ofrecidos por el licitador(es), dividos en "
-"líneas de artículos cuando sea posible. Los artículos no deben de "
-"duplicarse, se debe específicar la cantidad."
+msgid "The goods, works or services offered by the tenderer(s), broken into line items wherever possible. Items should not be duplicated, but the quantity specified instead."
+msgstr "Los bienes, trabajos o servicios ofrecidos por el licitador(es), dividos en líneas de artículos cuando sea posible. Los artículos no deben de duplicarse, se debe específicar la cantidad."
 
 #. /definitions/Bid/properties/tenderers/title
 #: release-schema.json:1
@@ -337,9 +281,7 @@ msgstr "Documentos"
 
 #. /definitions/Bid/properties/documents/description
 #: release-schema.json:1
-msgid ""
-"All documents and attachments related to the bid or expression of interest "
-"and its evaluation."
+msgid "All documents and attachments related to the bid or expression of interest and its evaluation."
 msgstr ""
 
 #. /definitions/Bid/properties/relatedLots/title
@@ -349,9 +291,7 @@ msgstr "Lotes relacionados"
 
 #. /definitions/Bid/properties/relatedLots/description
 #: release-schema.json:1
-msgid ""
-"The identifiers of the lots to which the bid or expression of interest "
-"relates."
+msgid "The identifiers of the lots to which the bid or expression of interest relates."
 msgstr ""
 
 #. /definitions/Bid/properties/countriesOfOrigin/title
@@ -361,11 +301,7 @@ msgstr ""
 
 #. /definitions/Bid/properties/countriesOfOrigin/description
 #: release-schema.json:1
-msgid ""
-"The countries of origin of the items in the bid or expression of interest, "
-"from the closed country codelist. If a country is missing, [create an "
-"issue](https://github.com/open-contracting/standard/issues) to discuss the "
-"addition of a user-assigned code to the country codelist."
+msgid "The countries of origin of the items in the bid or expression of interest, from the closed country codelist. If a country is missing, [create an issue](https://github.com/open-contracting/standard/issues) to discuss the addition of a user-assigned code to the country codelist."
 msgstr ""
 
 #. /definitions/Bid/properties/hasRank/title
@@ -385,11 +321,7 @@ msgstr ""
 
 #. /definitions/Bid/properties/rank/description
 #: release-schema.json:1
-msgid ""
-"The position of the bid (i.e. whether the bid is ranked first, second, "
-"third, etc.) in a design contest, a framework agreement with multiple "
-"winners (e.g. cascades), an innovation partnership, a competitive dialogue, "
-"or another procedure."
+msgid "The position of the bid (i.e. whether the bid is ranked first, second, third, etc.) in a design contest, a framework agreement with multiple winners (e.g. cascades), an innovation partnership, a competitive dialogue, or another procedure."
 msgstr ""
 
 #. /definitions/Bid/properties/variant/title
@@ -399,9 +331,7 @@ msgstr ""
 
 #. /definitions/Bid/properties/variant/description
 #: release-schema.json:1
-msgid ""
-"Whether the bid is a variant. A variant is a bid that fulfills the buyer's "
-"needs differently than as proposed in the procurement documents."
+msgid "Whether the bid is a variant. A variant is a bid that fulfills the buyer's needs differently than as proposed in the procurement documents."
 msgstr ""
 
 #. /definitions/SimpleIdentifier/title
@@ -428,3 +358,4 @@ msgstr ""
 #: release-schema.json:1
 msgid "The identifier taken from the scheme."
 msgstr ""
+

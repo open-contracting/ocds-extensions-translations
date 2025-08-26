@@ -1,64 +1,44 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C)
-# This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# James McKinney, 2024
-# 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python\n"
+"Project-Id-Version: ocds-extensions\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-30 00:39-0400\n"
-"PO-Revision-Date: 2024-05-30 03:24+0000\n"
-"Last-Translator: James McKinney, 2024\n"
-"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"POT-Creation-Date: 2025-08-25 23:28-0400\n"
+"PO-Revision-Date: 2025-08-26 04:53\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: ocds-extensions\n"
+"X-Crowdin-Project-ID: 823148\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: /documentation_details/master/docs.pot\n"
+"X-Crowdin-File-ID: 392\n"
+"Language: es_ES\n"
 
 #: ../README.md:1
 msgid "Document details"
 msgstr "Detalles del documento"
 
 #: ../README.md:3
-msgid ""
-"[Document objects](https://standard.open-"
-"contracting.org/latest/en/schema/reference/#document) are used to describe "
-"and link to documents. This extension adds fields to document objects to:"
-msgstr ""
-"Los [objetos document](https://standard.open-"
-"contracting.org/latest/es/schema/reference/#document) son usados para "
-"describir y enlazar a documentos. Esta extensión agrega campos a los objetos"
-" documento para:"
+msgid "[Document objects](https://standard.open-contracting.org/latest/en/schema/reference/#document) are used to describe and link to documents. This extension adds fields to document objects to:"
+msgstr "Los [objetos document](https://standard.open-contracting.org/latest/es/schema/reference/#document) son usados para describir y enlazar a documentos. Esta extensión agrega campos a los objetos documento para:"
 
 #: ../README.md:5
-msgid ""
-"Indicate the page numbers at which relevant information can be found within "
-"a large document"
-msgstr ""
-"Indique los números de página en los que se puede encontrar información "
-"relevante dentro de un documento grande"
+msgid "Indicate the page numbers at which relevant information can be found within a large document"
+msgstr "Indique los números de página en los que se puede encontrar información relevante dentro de un documento grande"
 
 #: ../README.md:6
 msgid "Describe any special arrangements needed to access the document"
-msgstr ""
-"Describe cualquier arreglo especial necesario para acceder al documento."
+msgstr "Describe cualquier arreglo especial necesario para acceder al documento."
 
 #: ../README.md:7
-msgid ""
-"Name the author of the document (not to be confused with its publisher)"
-msgstr ""
-"Nombre del autor del documento (a no ser confundido con su publicador)"
+msgid "Name the author of the document (not to be confused with its publisher)"
+msgstr "Nombre del autor del documento (a no ser confundido con su publicador)"
 
 #: ../README.md:8
-msgid ""
-"Indicate the languages in which unofficial translations of the document are "
-"available"
+msgid "Indicate the languages in which unofficial translations of the document are available"
 msgstr ""
 
 #: ../README.md:10
@@ -70,12 +50,8 @@ msgid "Accessing the document and locating the information within it"
 msgstr "Acceder al documento y localizar la información en él"
 
 #: ../README.md:13
-msgid ""
-"Checking whether authors are involved in other ways in the contracting "
-"process, e.g. as bidders"
-msgstr ""
-"Comprobar si los autores participan de otras formas en el proceso de "
-"contratación, por ejemplo, como licitadores"
+msgid "Checking whether authors are involved in other ways in the contracting process, e.g. as bidders"
+msgstr "Comprobar si los autores participan de otras formas en el proceso de contratación, por ejemplo, como licitadores"
 
 #: ../README.md:14
 msgid "Measuring the accessibility of documents"
@@ -90,14 +66,8 @@ msgid "Issues"
 msgstr "Issues"
 
 #: ../README.md:45
-msgid ""
-"Report issues for this extension in the [ocds-extensions "
-"repository](https://github.com/open-contracting/ocds-extensions/issues), "
-"putting the extension's name in the issue's title."
-msgstr ""
-"Reporte issues para esta extensión en el [repositorio de extensiones "
-"ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
-"el nombre de la extensión en el título del issue."
+msgid "Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title."
+msgstr "Reporte issues para esta extensión en el [repositorio de extensiones ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo el nombre de la extensión en el título del issue."
 
 #: ../README.md:47
 msgid "Changelog"
@@ -108,9 +78,7 @@ msgid "2023-08-04"
 msgstr ""
 
 #: ../README.md:51
-msgid ""
-"Change unofficialTranslation field to `unofficialTranslations` array of "
-"languages."
+msgid "Change unofficialTranslation field to `unofficialTranslations` array of languages."
 msgstr ""
 
 #: ../README.md:53
@@ -148,3 +116,4 @@ msgstr "2019-01-30"
 #: ../README.md:68
 msgid "Remove obsolete `mergeStrategy` properties"
 msgstr "Eliminar la propiedad obsoleta `mergeStrategy`."
+

@@ -1,67 +1,37 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C)
-# This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# Yohanna Lisnichuk <ylisnichuk@open-contracting.org>, 2019
-# Cecilia Casco <ceciliacasco@cds.com.py>, 2021
-# Maria Esther Cervantes <mcervantes@cds.com.py>, 2021
-# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
-# James McKinney, 2024
-# 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python\n"
+"Project-Id-Version: ocds-extensions\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-30 00:39-0400\n"
-"PO-Revision-Date: 2019-03-14 18:30+0000\n"
-"Last-Translator: James McKinney, 2024\n"
-"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"POT-Creation-Date: 2025-08-25 23:28-0400\n"
+"PO-Revision-Date: 2025-08-26 04:53\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: ocds-extensions\n"
+"X-Crowdin-Project-ID: 823148\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: /additionalContactPoint/master/docs.pot\n"
+"X-Crowdin-File-ID: 242\n"
+"Language: es_ES\n"
 
 #: ../README.md:1
 msgid "Additional Contact Points and Contact Point Languages"
 msgstr "Puntos de Contacto Adicionales y Lenguajes del Punto de Contacto"
 
 #: ../README.md:3
-msgid ""
-"There are some cases where it is important to list multiple contact points "
-"for an organization, particularly in cases where each contact point deals "
-"with enquiries in particular languages only."
-msgstr ""
-"Hay algunos casos en los que es importante enumerar varios puntos de "
-"contacto para una organización, especialmente en los casos en los que cada "
-"punto de contacto se ocupa únicamente de consultas en determinados idiomas."
+msgid "There are some cases where it is important to list multiple contact points for an organization, particularly in cases where each contact point deals with enquiries in particular languages only."
+msgstr "Hay algunos casos en los que es importante enumerar varios puntos de contacto para una organización, especialmente en los casos en los que cada punto de contacto se ocupa únicamente de consultas en determinados idiomas."
 
 #: ../README.md:5
-msgid ""
-"This extension adds an array of `additionalContactPoints` to the "
-"`Organization` object, and introduces an `availableLanguage` array of "
-"language codes to `ContactPoint`."
-msgstr ""
-"Esta extensión añade una matriz de `additionalContactPoints` al objeto "
-"`organization` e introduce una matriz de `availableLanguage` sobre los "
-"lenguajes disponibles a `ContactPoint`."
+msgid "This extension adds an array of `additionalContactPoints` to the `Organization` object, and introduces an `availableLanguage` array of language codes to `ContactPoint`."
+msgstr "Esta extensión añade una matriz de `additionalContactPoints` al objeto `organization` e introduce una matriz de `availableLanguage` sobre los lenguajes disponibles a `ContactPoint`."
 
 #: ../README.md:7
-msgid ""
-"When this extension is used, publishers should include a **primary contact "
-"point** for the `contactPoint` object, on the basis that many applications "
-"will not be aware of the `additionalContactPoints` array. However, if a "
-"primary contact point can't be determined, all contact points may be "
-"disclosed in the `additionalContactPoints` array."
-msgstr ""
-"Cuando se utiliza esta extensión, los editores deben incluir un **punto de "
-"contacto principal** para el objeto `contactPoint`, ya que muchas "
-"aplicaciones no conocerán la lista `additionalContactPoints`. Sin embargo, "
-"si no se puede determinar un punto de contacto principal, todos los puntos "
-"de contacto pueden ser revelados en la lista `additionalContactPoints`."
+msgid "When this extension is used, publishers should include a **primary contact point** for the `contactPoint` object, on the basis that many applications will not be aware of the `additionalContactPoints` array. However, if a primary contact point can't be determined, all contact points may be disclosed in the `additionalContactPoints` array."
+msgstr "Cuando se utiliza esta extensión, los editores deben incluir un **punto de contacto principal** para el objeto `contactPoint`, ya que muchas aplicaciones no conocerán la lista `additionalContactPoints`. Sin embargo, si no se puede determinar un punto de contacto principal, todos los puntos de contacto pueden ser revelados en la lista `additionalContactPoints`."
 
 #: ../README.md:9
 msgid "Example"
@@ -72,26 +42,16 @@ msgid "Modelling notes"
 msgstr "Notas de modelado"
 
 #: ../README.md:66
-msgid ""
-"`availableLanguage` is singular, although it is an array, to align with "
-"[Schema.org](https://schema.org/availableLanguage)."
-msgstr ""
-"`availableLanguage` es singular, aunque es una lista, para alinearse con "
-"[Schema.org](https://schema.org/availableLanguage)."
+msgid "`availableLanguage` is singular, although it is an array, to align with [Schema.org](https://schema.org/availableLanguage)."
+msgstr "`availableLanguage` es singular, aunque es una lista, para alinearse con [Schema.org](https://schema.org/availableLanguage)."
 
 #: ../README.md:68
 msgid "Issues"
 msgstr "Issues"
 
 #: ../README.md:70
-msgid ""
-"Report issues for this extension in the [ocds-extensions "
-"repository](https://github.com/open-contracting/ocds-extensions/issues), "
-"putting the extension's name in the issue's title."
-msgstr ""
-"Reporte issues para esta extensión en el [repositorio de extensiones "
-"ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
-"el nombre de la extensión en el título del issue."
+msgid "Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title."
+msgstr "Reporte issues para esta extensión en el [repositorio de extensiones ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo el nombre de la extensión en el título del issue."
 
 #: ../README.md:72
 msgid "Changelog"
@@ -139,5 +99,5 @@ msgstr "Colocar  `wholeListMerge` en `Organization.additionalContactPoints`."
 
 #: ../README.md:93
 msgid "Clarify use of language codes on `ContactPoint.availableLanguage`"
-msgstr ""
-"Aclarar el uso de códigos de idioma en `ContactPoint.availableLanguage`"
+msgstr "Aclarar el uso de códigos de idioma en `ContactPoint.availableLanguage`"
+

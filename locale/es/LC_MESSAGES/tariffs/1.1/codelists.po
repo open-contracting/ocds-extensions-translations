@@ -1,29 +1,22 @@
-# Translations template for PROJECT.
-# Copyright (C) 2024 ORGANIZATION
-# This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-# 
-# Translators:
-# James McKinney, 2021
-# Natalia Valdez <nataliavaldez@cds.com.py>, 2021
-# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
-# Maria Esther Cervantes <mcervantes@cds.com.py>, 2021
-# 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
+"Project-Id-Version: ocds-extensions\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-05-30 00:40-0400\n"
-"PO-Revision-Date: 2019-03-14 18:26+0000\n"
-"Last-Translator: Maria Esther Cervantes <mcervantes@cds.com.py>, 2021\n"
-"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"POT-Creation-Date: 2025-08-25 23:28-0400\n"
+"PO-Revision-Date: 2025-08-26 04:35\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.15.0\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: ocds-extensions\n"
+"X-Crowdin-Project-ID: 823148\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: /tariffs/1.1/codelists.pot\n"
+"X-Crowdin-File-ID: 942\n"
+"Language: es_ES\n"
 
 #: codelists/+documentType.csv codelists/chargePaidBy.csv
 msgid "Code"
@@ -58,16 +51,8 @@ msgstr "Método de tarifas"
 
 #. Description
 #: codelists/+documentType.csv:2
-msgid ""
-"For summarizing the method by which tariffs are set and linking to detailed "
-"documentation of the methods for setting tariffs. This might include written"
-" documentation and spreadsheets providing the models used to calculate "
-"tariffs."
-msgstr ""
-"Para resumir el método por el cual se establecen las tarifas y vincular a la"
-" documentación detallada de los métodos para establecer las tarifas. Esto "
-"puede incluir documentación escrita y hojas de cálculo que proporcionen los "
-"modelos utilizados para calcular las tarifas."
+msgid "For summarizing the method by which tariffs are set and linking to detailed documentation of the methods for setting tariffs. This might include written documentation and spreadsheets providing the models used to calculate tariffs."
+msgstr "Para resumir el método por el cual se establecen las tarifas y vincular a la documentación detallada de los métodos para establecer las tarifas. Esto puede incluir documentación escrita y hojas de cálculo que proporcionen los modelos utilizados para calcular las tarifas."
 
 #. Title
 #: codelists/+documentType.csv:3
@@ -76,17 +61,8 @@ msgstr "Revisión de la tarifa"
 
 #. Description
 #: codelists/+documentType.csv:3
-msgid ""
-"For summarizing the arrangements for the review and regulation of tariffs "
-"and linking to detailed documentation that covers how tariffs are regulated."
-" This is important to explain to users why they are paying what they are "
-"paying and the scope for changes to payment structures."
-msgstr ""
-"Para resumir las disposiciones para la revisión y regulación de las tarifas,"
-" y enlazar con la documentación detallada que cubra cómo se regulan las "
-"tarifas. Esto es importante para explicar a los usuarios por qué están "
-"pagando lo que están pagando, y el alcance de los cambios en las estructuras"
-" de pago."
+msgid "For summarizing the arrangements for the review and regulation of tariffs and linking to detailed documentation that covers how tariffs are regulated. This is important to explain to users why they are paying what they are paying and the scope for changes to payment structures."
+msgstr "Para resumir las disposiciones para la revisión y regulación de las tarifas, y enlazar con la documentación detallada que cubra cómo se regulan las tarifas. Esto es importante para explicar a los usuarios por qué están pagando lo que están pagando, y el alcance de los cambios en las estructuras de pago."
 
 #. Title
 #: codelists/+documentType.csv:4
@@ -95,15 +71,8 @@ msgstr "Ilustración de la tarifa"
 
 #. Description
 #: codelists/+documentType.csv:4
-msgid ""
-"For linking to graphs and reports on the change over time in tariff prices. "
-"Use the relevant image media type when linking to PNG or JPEG or GIF graphs "
-"to allow applications to directly display this content."
-msgstr ""
-"Para vincular a gráficos e informes sobre el cambio en el tiempo en los "
-"precios de las tarifas. Utilice el tipo de material de imagen relevante al "
-"vincular a gráficos PNG, JPEG o GIF para permitir que las aplicaciones "
-"muestren directamente este contenido."
+msgid "For linking to graphs and reports on the change over time in tariff prices. Use the relevant image media type when linking to PNG or JPEG or GIF graphs to allow applications to directly display this content."
+msgstr "Para vincular a gráficos e informes sobre el cambio en el tiempo en los precios de las tarifas. Utilice el tipo de material de imagen relevante al vincular a gráficos PNG, JPEG o GIF para permitir que las aplicaciones muestren directamente este contenido."
 
 #. Title
 #: codelists/chargePaidBy.csv:1
@@ -122,9 +91,6 @@ msgstr "Usuario"
 
 #. Description
 #: codelists/chargePaidBy.csv:2
-msgid ""
-"The charge is paid by businesses or citizens using the facilities provided "
-"by the contract"
-msgstr ""
-"El cargo es pagado por empresas o ciudadanos utilizando las instalaciones "
-"que provee el contrato"
+msgid "The charge is paid by businesses or citizens using the facilities provided by the contract"
+msgstr "El cargo es pagado por empresas o ciudadanos utilizando las instalaciones que provee el contrato"
+

@@ -1,55 +1,33 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C)
-# This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# James McKinney, 2024
-# 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python\n"
+"Project-Id-Version: ocds-extensions\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-30 00:39-0400\n"
-"PO-Revision-Date: 2019-03-14 18:26+0000\n"
-"Last-Translator: James McKinney, 2024\n"
-"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"POT-Creation-Date: 2025-08-25 23:28-0400\n"
+"PO-Revision-Date: 2025-08-26 04:53\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: ocds-extensions\n"
+"X-Crowdin-Project-ID: 823148\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: /participation_fee/master/docs.pot\n"
+"X-Crowdin-File-ID: 652\n"
+"Language: es_ES\n"
 
 #: ../README.md:1
 msgid "Participation fees"
 msgstr "Cuotas de participación"
 
 #: ../README.md:3
-msgid ""
-"This extension adds a participation fees array to the tender object, to "
-"disclose any participation fees for the contracting process."
-msgstr ""
-"Esta extensión añade una matriz de los costos de participación al objeto de "
-"licitación, para revelar cualquier costo de participación en el proceso de "
-"contrataciones."
+msgid "This extension adds a participation fees array to the tender object, to disclose any participation fees for the contracting process."
+msgstr "Esta extensión añade una matriz de los costos de participación al objeto de licitación, para revelar cualquier costo de participación en el proceso de contrataciones."
 
 #: ../README.md:5
-msgid ""
-"There are sometimes costs involved in accessing bidding documents relating "
-"to a contracting process, or in otherwise participating in a contracting "
-"process. Potential bidders want to know about such fees. Procurement "
-"monitors might also want to ensure that participation fees are within legal "
-"parameters (often set as a fixed maximum value, or as a percentage of the "
-"total contract value) or to monitor how participation fees are being used."
-msgstr ""
-"Algunas veces hay costos asociados con el acceso a documentos de "
-"licitaciones relacionados al proceso de contratación. Los licitadores "
-"potenciales quieren saber sobre esos costos. Los monitores de adquisiciones "
-"también deben de asegurar que los costos de participación estén dentro de "
-"los parámetros legales (generalmente se establecen con un valor fijo máximo,"
-" o como un porcentaje del valor total del contrato) o para monitorear como "
-"se usan las tarifas de participación."
+msgid "There are sometimes costs involved in accessing bidding documents relating to a contracting process, or in otherwise participating in a contracting process. Potential bidders want to know about such fees. Procurement monitors might also want to ensure that participation fees are within legal parameters (often set as a fixed maximum value, or as a percentage of the total contract value) or to monitor how participation fees are being used."
+msgstr "Algunas veces hay costos asociados con el acceso a documentos de licitaciones relacionados al proceso de contratación. Los licitadores potenciales quieren saber sobre esos costos. Los monitores de adquisiciones también deben de asegurar que los costos de participación estén dentro de los parámetros legales (generalmente se establecen con un valor fijo máximo, o como un porcentaje del valor total del contrato) o para monitorear como se usan las tarifas de participación."
 
 #: ../README.md:7
 msgid "Guidance"
@@ -57,16 +35,10 @@ msgstr "Guía"
 
 #: ../README.md:9
 msgid "The `id` field will be required in future versions of the extension."
-msgstr ""
-"El campo `id` se va a requerir en las futuras versiones de la extensión."
+msgstr "El campo `id` se va a requerir en las futuras versiones de la extensión."
 
 #: ../README.md:11
-msgid ""
-"In some cases, a fee is levied for official copies of procurement documents,"
-" with unofficial copies being freely available. Bidders might be required to"
-" prove that they have paid for official copies as part of their submission. "
-"In such cases, the fee should use the 'submission' code in the `type` field,"
-" rather than the 'document' code."
+msgid "In some cases, a fee is levied for official copies of procurement documents, with unofficial copies being freely available. Bidders might be required to prove that they have paid for official copies as part of their submission. In such cases, the fee should use the 'submission' code in the `type` field, rather than the 'document' code."
 msgstr ""
 
 #: ../README.md:13
@@ -74,14 +46,11 @@ msgid "Examples"
 msgstr "Ejemplos"
 
 #: ../README.md:15
-msgid ""
-"A contracting process where fees are applied to access bidding documents and"
-" to submit bids:"
+msgid "A contracting process where fees are applied to access bidding documents and to submit bids:"
 msgstr ""
 
 #: ../README.md:68
-msgid ""
-"A participation fee of 5% of the award value, payable by the winning bidder:"
+msgid "A participation fee of 5% of the award value, payable by the winning bidder:"
 msgstr ""
 
 #: ../README.md:94
@@ -89,14 +58,8 @@ msgid "Issues"
 msgstr "Issues"
 
 #: ../README.md:96
-msgid ""
-"Report issues for this extension in the [ocds-extensions "
-"repository](https://github.com/open-contracting/ocds-extensions/issues), "
-"putting the extension's name in the issue's title."
-msgstr ""
-"Reporte issues para esta extensión en el [repositorio de extensiones "
-"ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
-"el nombre de la extensión en el título del issue."
+msgid "Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title."
+msgstr "Reporte issues para esta extensión en el [repositorio de extensiones ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo el nombre de la extensión en el título del issue."
 
 #: ../README.md:98
 msgid "Changelog"
@@ -107,9 +70,7 @@ msgid "Unreleased"
 msgstr "No entregado"
 
 #: ../README.md:102
-msgid ""
-"Make `ParticipationFee.id` required so that participation fees are merged by"
-" identifier"
+msgid "Make `ParticipationFee.id` required so that participation fees are merged by identifier"
 msgstr ""
 
 #: ../README.md:103
@@ -141,29 +102,20 @@ msgid "Fix description of `ParticipationFee.type` field"
 msgstr "Corregir la descripción del campo `ParticipationFee.type`"
 
 #: ../README.md:112
-msgid ""
-"Merge and reconcile field and code descriptions with schema and codelist"
-msgstr ""
-"Combinar y conciliar descripciones de campos y códigos con esquemas y listas"
-" de códigos"
+msgid "Merge and reconcile field and code descriptions with schema and codelist"
+msgstr "Combinar y conciliar descripciones de campos y códigos con esquemas y listas de códigos"
 
 #: ../README.md:113
 msgid "Remove indication of fields as \"optional\""
 msgstr "Quitar la indicación de campos \"opcionales\""
 
 #: ../README.md:114
-msgid ""
-"Add `methodOfPayment` codelist from [paymentMethod "
-"extension](https://github.com/INAImexico/ocds_paymentMethod_extension/blob/master/codelists/paymentMethod.csv)"
-msgstr ""
-"Añadir la lista de código `methodOfPayment`  de la [extensión paymentMethod]"
-" "
-"(https://github.com/INAImexico/ocds_paymentMethod_extension/blob/master/codelists/paymentMethod.csv)"
+msgid "Add `methodOfPayment` codelist from [paymentMethod extension](https://github.com/INAImexico/ocds_paymentMethod_extension/blob/master/codelists/paymentMethod.csv)"
+msgstr "Añadir la lista de código `methodOfPayment`  de la [extensión paymentMethod] (https://github.com/INAImexico/ocds_paymentMethod_extension/blob/master/codelists/paymentMethod.csv)"
 
 #: ../README.md:115
 msgid "Remove type information from field descriptions"
-msgstr ""
-"Quitar la información sobre el tipo de las descripciones de los campos"
+msgstr "Quitar la información sobre el tipo de las descripciones de los campos"
 
 #: ../README.md:116
 msgid "Review normative and non-normative words"
@@ -175,8 +127,7 @@ msgstr "v1.1.4"
 
 #: ../README.md:120
 msgid "Update `mergeStrategy` property to `wholeListMerge` property"
-msgstr ""
-"Actualizar la propiedad `mergeStrategy` para la propiedad `wholeListMerge` "
+msgstr "Actualizar la propiedad `mergeStrategy` para la propiedad `wholeListMerge` "
 
 #: ../README.md:121
 msgid "Update extension.json for Extension Explorer"
@@ -187,10 +138,8 @@ msgid "v1.1.3"
 msgstr "v1.1.3"
 
 #: ../README.md:125
-msgid ""
-"Disallow `ParticipationFee.type` from having null in its array of strings"
-msgstr ""
-"No permitir que `ParticipationFee.type` tenga null en su conjunto de strings"
+msgid "Disallow `ParticipationFee.type` from having null in its array of strings"
+msgstr "No permitir que `ParticipationFee.type` tenga null en su conjunto de strings"
 
 #: ../README.md:126
 msgid "Allow `ParticipationFee.description` to be null"
@@ -209,11 +158,10 @@ msgid "Add title and description to `ParticipationFee.value`"
 msgstr "Agregar título y descripción a `ParticipationFee.value`"
 
 #: ../README.md:130
-msgid "Add participationFeeType.csv codelist for `ParticipationFee.type`"
+msgid "Add a `participationFeeType.csv` codelist for `ParticipationFee.type`"
 msgstr ""
-"Agregar la lista de códigos de participaciónFeeType.csv para "
-"`ParticipationFee.type`"
 
 #: ../README.md:131
 msgid "Add tests and tidy code"
 msgstr "Agregar pruebas y ordenar el código"
+

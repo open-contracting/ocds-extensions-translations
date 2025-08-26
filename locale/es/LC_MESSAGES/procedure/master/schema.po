@@ -1,26 +1,22 @@
-# Translations template for PROJECT.
-# Copyright (C) 2024 ORGANIZATION
-# This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-# 
-# Translators:
-# Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021
-# 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
+"Project-Id-Version: ocds-extensions\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-05-30 00:40-0400\n"
-"PO-Revision-Date: 2020-08-20 21:49+0000\n"
-"Last-Translator: Dulce Jazmín Areco Maggereger <dulceareco@cds.com.py>, 2021\n"
-"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"POT-Creation-Date: 2025-08-25 23:28-0400\n"
+"PO-Revision-Date: 2025-08-26 04:35\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.15.0\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: ocds-extensions\n"
+"X-Crowdin-Project-ID: 823148\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: /procedure/master/schema.pot\n"
+"X-Crowdin-File-ID: 730\n"
+"Language: es_ES\n"
 
 #. /name/en
 #. /definitions/Tender/properties/procedure/title
@@ -32,9 +28,7 @@ msgstr "Procedimiento"
 #. /description/en
 #: extension.json:1
 msgid "This extension adds a block to describe the procurement procedure."
-msgstr ""
-"Esta extensión agrega un bloque para describir el procedimiento de "
-"contratación."
+msgstr "Esta extensión agrega un bloque para describir el procedimiento de contratación."
 
 #. /definitions/Tender/properties/procedure/description
 #. /definitions/Procedure/description
@@ -49,9 +43,7 @@ msgstr "Procedimiento acelerado utilizado"
 
 #. /definitions/Procedure/properties/isAccelerated/description
 #: release-schema.json:1
-msgid ""
-"Whether the time limit for receipt of bids or expressions of interest can be"
-" reduced due to a state of urgency."
+msgid "Whether the time limit for receipt of bids or expressions of interest can be reduced due to a state of urgency."
 msgstr ""
 
 #. /definitions/Procedure/properties/acceleratedRationale/title
@@ -71,11 +63,6 @@ msgstr "Características"
 
 #. /definitions/Procedure/properties/features/description
 #: release-schema.json:1
-msgid ""
-"The main features of the procedure (e.g. description of the individual "
-"stages) and information about where the full rules for the procedure can be "
-"found."
-msgstr ""
-"Las principales características del procedimiento (por ejemplo, descripción "
-"de las etapas individuales) e información sobre dónde se pueden encontrar "
-"las reglas completas del procedimiento."
+msgid "The main features of the procedure (e.g. description of the individual stages) and information about where the full rules for the procedure can be found."
+msgstr "Las principales características del procedimiento (por ejemplo, descripción de las etapas individuales) e información sobre dónde se pueden encontrar las reglas completas del procedimiento."
+

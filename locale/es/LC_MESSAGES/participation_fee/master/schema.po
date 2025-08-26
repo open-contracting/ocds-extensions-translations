@@ -1,27 +1,22 @@
-# Translations template for PROJECT.
-# Copyright (C) 2024 ORGANIZATION
-# This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-# 
-# Translators:
-# Romina Fernandez <rfernandez@cds.com.py>, 2020
-# James McKinney, 2021
-# 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
+"Project-Id-Version: ocds-extensions\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-05-30 00:40-0400\n"
-"PO-Revision-Date: 2019-03-14 18:26+0000\n"
-"Last-Translator: James McKinney, 2021\n"
-"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"POT-Creation-Date: 2025-08-25 23:28-0400\n"
+"PO-Revision-Date: 2025-08-26 04:35\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.15.0\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: ocds-extensions\n"
+"X-Crowdin-Project-ID: 823148\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: /participation_fee/master/schema.pot\n"
+"X-Crowdin-File-ID: 654\n"
+"Language: es_ES\n"
 
 #. /name/en
 #: extension.json:1
@@ -30,14 +25,8 @@ msgstr "Cuotas/Cargos de participación"
 
 #. /description/en
 #: extension.json:1
-msgid ""
-"Where a tender process involves payment of fees to access documents, submit "
-"a proposal, or be awarded a contract, this extension can be used to provide "
-"fee details."
-msgstr ""
-"Cuando un proceso de licitación implica el pago de cargos para acceder a los"
-" documentos, presentar una propuesta, o ser adjudicado un contrato, esta "
-"extensión se puede utilizar para proporcionar detalles de la tasa."
+msgid "Where a tender process involves payment of fees to access documents, submit a proposal, or be awarded a contract, this extension can be used to provide fee details."
+msgstr "Cuando un proceso de licitación implica el pago de cargos para acceder a los documentos, presentar una propuesta, o ser adjudicado un contrato, esta extensión se puede utilizar para proporcionar detalles de la tasa."
 
 #. /definitions/ParticipationFee/title
 #: release-schema.json:1
@@ -46,15 +35,8 @@ msgstr "Cuota/Cargos de participación"
 
 #. /definitions/ParticipationFee/description
 #: release-schema.json:1
-msgid ""
-"A fee applicable to bidders wishing to participate in the tender process. "
-"Fees can apply for accessing bidding documents or for submitting bids, or "
-"there can be a \"win fee\" payable by the successful bidder."
-msgstr ""
-"Una tarifa que aplica a los ofertantes que quieren participar en el proceso "
-"de licitaciones. Las tarifas pueden aplicar para acceder los documentos de "
-"oferta, para enviar las ofertas o puede haber una cuota que debe ser pagada "
-"por el ofertante ganador."
+msgid "A fee applicable to bidders wishing to participate in the tender process. Fees can apply for accessing bidding documents or for submitting bids, or there can be a \"win fee\" payable by the successful bidder."
+msgstr "Una tarifa que aplica a los ofertantes que quieren participar en el proceso de licitaciones. Las tarifas pueden aplicar para acceder los documentos de oferta, para enviar las ofertas o puede haber una cuota que debe ser pagada por el ofertante ganador."
 
 #. /definitions/ParticipationFee/properties/id/title
 #: release-schema.json:1
@@ -104,10 +86,7 @@ msgstr "Descripción"
 
 #. /definitions/ParticipationFee/properties/description/description
 #: release-schema.json:1
-msgid ""
-"Additional information about the fee, for example: the specific cases in "
-"which the fee is applicable (e.g. hard copies of documents only), the way in"
-" which the fee is levied, or the exact nature of the fee."
+msgid "Additional information about the fee, for example: the specific cases in which the fee is applicable (e.g. hard copies of documents only), the way in which the fee is levied, or the exact nature of the fee."
 msgstr ""
 
 #. /definitions/ParticipationFee/properties/methodOfPayment/title
@@ -147,20 +126,12 @@ msgstr "Cuotas de participación"
 
 #. /definitions/Tender/properties/participationFees/description
 #: release-schema.json:1
-msgid ""
-"Any fees applicable to bidders wishing to participate in the tender process."
-" Fees can apply for accessing bidding documents or for submitting bids, or "
-"there can be a \"win fee\" payable by the successful bidder."
-msgstr ""
-"Cualquier tarifa aplicable a los ofertantes que quieren participar en el "
-"proceso de licitaciones. Las tarifas pueden aplicar para acceder los "
-"documentos de oferta, para enviar las ofertas o puede haber una cuota que "
-"debe ser pagada por el ofertante ganador."
+msgid "Any fees applicable to bidders wishing to participate in the tender process. Fees can apply for accessing bidding documents or for submitting bids, or there can be a \"win fee\" payable by the successful bidder."
+msgstr "Cualquier tarifa aplicable a los ofertantes que quieren participar en el proceso de licitaciones. Las tarifas pueden aplicar para acceder los documentos de oferta, para enviar las ofertas o puede haber una cuota que debe ser pagada por el ofertante ganador."
 
 #. /definitions/RelativeValue/description
 #: release-schema.json:1
-msgid ""
-"The value of the participation fee, as a proportion of a monetary value."
+msgid "The value of the participation fee, as a proportion of a monetary value."
 msgstr ""
 
 #. /definitions/RelativeValue/properties/proportion/title
@@ -170,9 +141,7 @@ msgstr ""
 
 #. /definitions/RelativeValue/properties/proportion/description
 #: release-schema.json:1
-msgid ""
-"The proportion of the monetary value, expressed as a decimal between 0 and "
-"1."
+msgid "The proportion of the monetary value, expressed as a decimal between 0 and 1."
 msgstr ""
 
 #. /definitions/RelativeValue/properties/monetaryValue/title
@@ -184,3 +153,4 @@ msgstr ""
 #: release-schema.json:1
 msgid "The name of the monetary value."
 msgstr ""
+

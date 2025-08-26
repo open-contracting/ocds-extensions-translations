@@ -1,28 +1,22 @@
-# Translations template for PROJECT.
-# Copyright (C) 2024 ORGANIZATION
-# This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-# 
-# Translators:
-# Maria Esther Cervantes <mcervantes@cds.com.py>, 2019
-# Romina Fernandez <rfernandez@cds.com.py>, 2020
-# James McKinney, 2021
-# 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
+"Project-Id-Version: ocds-extensions\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-05-30 00:39-0400\n"
-"PO-Revision-Date: 2019-03-14 18:31+0000\n"
-"Last-Translator: James McKinney, 2021\n"
-"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"POT-Creation-Date: 2025-08-25 23:28-0400\n"
+"PO-Revision-Date: 2025-08-26 04:35\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.15.0\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: ocds-extensions\n"
+"X-Crowdin-Project-ID: 823148\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: /enquiries/master/schema.pot\n"
+"X-Crowdin-File-ID: 402\n"
+"Language: es_ES\n"
 
 #. /name/en
 #. /definitions/Tender/properties/enquiries/title
@@ -32,13 +26,8 @@ msgstr "Consultas"
 
 #. /description/en
 #: extension.json:1
-msgid ""
-"The enquiries extension can be used to record questions raised during a "
-"contracting process, and the answers provided."
-msgstr ""
-"La extensión sobre consultas puede usarse para registrar las preguntas "
-"planteadas durante un proceso de contratación y las respuestas "
-"proporcionadas."
+msgid "The enquiries extension can be used to record questions raised during a contracting process, and the answers provided."
+msgstr "La extensión sobre consultas puede usarse para registrar las preguntas planteadas durante un proceso de contratación y las respuestas proporcionadas."
 
 #. /definitions/Tender/properties/enquiries/description
 #: release-schema.json:1
@@ -52,12 +41,8 @@ msgstr "Consulta"
 
 #. /definitions/Enquiry/description
 #: release-schema.json:1
-msgid ""
-"A question related to this contracting process, generally sent during the "
-"enquiry period."
-msgstr ""
-"Una pregunta relacionada con el proceso de contrataciones, hecha "
-"generalmente durante el período de preguntas."
+msgid "A question related to this contracting process, generally sent during the enquiry period."
+msgstr "Una pregunta relacionada con el proceso de contrataciones, hecha generalmente durante el período de preguntas."
 
 #. /definitions/Enquiry/properties/id/title
 #: release-schema.json:1
@@ -86,9 +71,7 @@ msgstr "Autor de la pregunta"
 
 #. /definitions/Enquiry/properties/author/description
 #: release-schema.json:1
-msgid ""
-"The organization asking this question. The corresponding entry in the "
-"`parties` array should have 'enquirer' in its `roles` array."
+msgid "The organization asking this question. The corresponding entry in the `parties` array should have 'enquirer' in its `roles` array."
 msgstr ""
 
 #. /definitions/Enquiry/properties/title/title
@@ -138,12 +121,8 @@ msgstr "Artículo relacionado"
 
 #. /definitions/Enquiry/properties/relatedItem/description
 #: release-schema.json:1
-msgid ""
-"If this question relates to a specific line-item, this field contains the "
-"line-item identifier."
-msgstr ""
-"Si esta pregunta se refiere a una partida presupuestaria en específico, este"
-" campo contiene el identificador de la partida."
+msgid "If this question relates to a specific line-item, this field contains the line-item identifier."
+msgstr "Si esta pregunta se refiere a una partida presupuestaria en específico, este campo contiene el identificador de la partida."
 
 #. /definitions/Enquiry/properties/relatedLot/title
 #: release-schema.json:1
@@ -152,12 +131,8 @@ msgstr "Lote relacionado"
 
 #. /definitions/Enquiry/properties/relatedLot/description
 #: release-schema.json:1
-msgid ""
-"Where lots are used, if this question relates to a specific lot, this field "
-"contains the lot identifier."
-msgstr ""
-"Cuando se usan lotes, si esta pregunta se refiere a un lote específico, este"
-" campo contiene el identificador de lote."
+msgid "Where lots are used, if this question relates to a specific lot, this field contains the lot identifier."
+msgstr "Cuando se usan lotes, si esta pregunta se refiere a un lote específico, este campo contiene el identificador de lote."
 
 #. /definitions/Enquiry/properties/threadID/title
 #: release-schema.json:1
@@ -166,11 +141,6 @@ msgstr "Identificador de hilo"
 
 #. /definitions/Enquiry/properties/threadID/description
 #: release-schema.json:1
-msgid ""
-"If this question and answer forms part of a discussion thread (e.g. the "
-"question is a follow-up to a previous answer) a thread identifier can be "
-"used to associate multiple enquiries."
-msgstr ""
-"Si esta pregunta y respuesta forma parte de un hilo de discusión (ej. la "
-"pregunta es la continuación a una respuesta previa) un identificador de hilo"
-" puede ser usado para asociar múltiples preguntas."
+msgid "If this question and answer forms part of a discussion thread (e.g. the question is a follow-up to a previous answer) a thread identifier can be used to associate multiple enquiries."
+msgstr "Si esta pregunta y respuesta forma parte de un hilo de discusión (ej. la pregunta es la continuación a una respuesta previa) un identificador de hilo puede ser usado para asociar múltiples preguntas."
+

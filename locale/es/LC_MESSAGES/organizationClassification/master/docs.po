@@ -1,37 +1,29 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C)
-# This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# James McKinney, 2024
-# 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python\n"
+"Project-Id-Version: ocds-extensions\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-30 00:39-0400\n"
-"PO-Revision-Date: 2024-05-30 04:36+0000\n"
-"Last-Translator: James McKinney, 2024\n"
-"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/112300/es/)\n"
+"POT-Creation-Date: 2025-08-25 23:28-0400\n"
+"PO-Revision-Date: 2025-08-26 04:53\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: ocds-extensions\n"
+"X-Crowdin-Project-ID: 823148\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: /organizationClassification/master/docs.pot\n"
+"X-Crowdin-File-ID: 624\n"
+"Language: es_ES\n"
 
 #: ../README.md:1
 msgid "Organization classification"
 msgstr "Clasificación de la organización"
 
 #: ../README.md:3
-msgid ""
-"Adds an array of classification objects to an organization's details, in "
-"order to categorize it."
-msgstr ""
-"Agrega una lista de objetos de clasificación a los detalles de una "
-"organización, con el fin de categorizarla."
+msgid "Adds an array of classification objects to an organization's details, in order to categorize it."
+msgstr "Agrega una lista de objetos de clasificación a los detalles de una organización, con el fin de categorizarla."
 
 #: ../README.md:5
 msgid "Examples"
@@ -42,17 +34,11 @@ msgid "An organization categorized as a social protection business."
 msgstr ""
 
 #: ../README.md:28
-msgid ""
-"An organization classified as a women-owned small business by the Small "
-"Business Administration in the USA."
+msgid "An organization classified as a women-owned small business by the Small Business Administration in the USA."
 msgstr ""
 
 #: ../README.md:50
-msgid ""
-"For a longer example, see the [organization "
-"classifications](https://standard.open-"
-"contracting.org/latest/en/guidance/map/organization_classifications/#example-2-2-disclosing-"
-"data-using-a-local-scheme) guidance in the OCDS documentation."
+msgid "For a longer example, see the [organization classifications](https://standard.open-contracting.org/latest/en/guidance/map/organization_classifications/#example-2-2-disclosing-data-using-a-local-scheme) guidance in the OCDS documentation."
 msgstr ""
 
 #: ../README.md:52
@@ -60,14 +46,8 @@ msgid "Issues"
 msgstr "Issues"
 
 #: ../README.md:54
-msgid ""
-"Report issues for this extension in the [ocds-extensions "
-"repository](https://github.com/open-contracting/ocds-extensions/issues), "
-"putting the extension's name in the issue's title."
-msgstr ""
-"Reporte issues para esta extensión en el [repositorio de extensiones "
-"ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo "
-"el nombre de la extensión en el título del issue."
+msgid "Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title."
+msgstr "Reporte issues para esta extensión en el [repositorio de extensiones ocds](https://github.com/open-contracting/ocds-extensions/issues), poniendo el nombre de la extensión en el título del issue."
 
 #: ../README.md:56
 msgid "Changelog"
@@ -78,8 +58,7 @@ msgid "2024-05-22"
 msgstr ""
 
 #: ../README.md:60
-msgid ""
-"Add 'eu-buyer-legal-type' to the `+itemClassificationScheme.csv` codelist."
+msgid "Add 'eu-buyer-legal-type' code to the `+itemClassificationScheme.csv` codelist patch."
 msgstr ""
 
 #: ../README.md:62
@@ -87,9 +66,7 @@ msgid "2023-08-01"
 msgstr ""
 
 #: ../README.md:64
-msgid ""
-"Add 'eu-buyer-contracting-type' and 'eu-main-activity' to the "
-"`+itemClassificationScheme.csv` codelist."
+msgid "Add 'eu-buyer-contracting-type' and 'eu-main-activity' codes to the `+itemClassificationScheme.csv` codelist patch."
 msgstr ""
 
 #: ../README.md:66
@@ -101,15 +78,6 @@ msgid "Add `minProperties`, `minItems` and/or `minLength` properties."
 msgstr "Agregar las propiedades `minProperties`, `minItems` y/o `minLength`."
 
 #: ../README.md:70
-msgid ""
-"This extension was originally discussed as part of the [OCDS for EU "
-"profile](https://github.com/open-contracting-extensions/european-"
-"union/issues), in [pull requests](https://github.com/open-contracting-"
-"extensions/ocds_organizationClassification_extension/pulls?q=is%3Apr+is%3Aclosed)"
-" and in <https://github.com/open-contracting/standard/issues/711>."
-msgstr ""
-"Esta extensión se discutió originalmente como parte del [OCDS para el perfil"
-" de la UE] (https://github.com/open-contracting-extensions/european-"
-"union/issues), en [pull requests](https://github.com/open-contracting-"
-"extensions/ocds_organizationClassification_extension/pulls?q=is%3Apr+is%3Aclosed)"
-" y en <https://github.com/open-contracting/standard/issues/711>."
+msgid "This extension was originally discussed as part of the [OCDS for EU profile](https://github.com/open-contracting-extensions/european-union/issues), in [pull requests](https://github.com/open-contracting-extensions/ocds_organizationClassification_extension/pulls?q=is%3Apr+is%3Aclosed) and in <https://github.com/open-contracting/standard/issues/711>."
+msgstr "Esta extensión se discutió originalmente como parte del [OCDS para el perfil de la UE] (https://github.com/open-contracting-extensions/european-union/issues), en [pull requests](https://github.com/open-contracting-extensions/ocds_organizationClassification_extension/pulls?q=is%3Apr+is%3Aclosed) y en <https://github.com/open-contracting/standard/issues/711>."
+
