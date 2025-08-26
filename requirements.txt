@@ -56,9 +56,9 @@ mdurl==0.1.2
     # via markdown-it-py
 myst-parser==4.0.0
     # via ocdsextensionregistry
-ocds-babel[markdown]==0.3.6
+ocds-babel==0.3.6
     # via ocdsextensionregistry
-ocdsextensionregistry[cli]==0.5.0
+ocdsextensionregistry==0.7.0
     # via -r requirements.in
 packaging==24.1
     # via sphinx
