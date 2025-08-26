@@ -6,7 +6,7 @@ import io
 import shutil
 import subprocess
 from contextlib import contextmanager
-from datetime import UTC, datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import click
@@ -116,16 +116,6 @@ def run_pretranslate(pot_dir, compendium, messages):
         run(["pretranslate", "--progress=none", "--nofuzzymatching", "-t", compendium, pot, po])
 
 
-def run_tx_push(transifex_organization, transifex_project, *args):
-    """Push to Transifex, for live versions of existing extensions."""
-    create_txconfig(transifex_organization, transifex_project)
-
-    # Treat "v1..." versions as frozen versions.
-    resources = [resource for resource in transifex_resources() if "--v1" not in resource]
-
-    run(["tx", "push", "-w", "20", *args, *resources])
-
-
 def transifex_resources(transifex_project):
     """Return all names of Transifex resources as a set."""
     config = configparser.ConfigParser()
@@ -169,14 +159,24 @@ def create_txconfig(transifex_organization, transifex_project):
         click.secho("Deleting old resources...", fg="blue")
 
         # tx can't operate on unconfigured resources.
-        with config(TXCONFIG, text):
+        with write_txconfig(TXCONFIG, text):
             run(["tx", "delete", "--skip", *old_resources])
 
     return after_resources - before_resources
 
 
+def run_tx_push(transifex_organization, transifex_project, *args):
+    """Push to Transifex, for live versions of existing extensions."""
+    create_txconfig(transifex_organization, transifex_project)
+
+    # Treat "v1..." versions as frozen versions.
+    resources = [resource for resource in transifex_resources() if "--v1" not in resource]
+
+    run(["tx", "push", "--workers", "20", *args, *resources])
+
+
 @contextmanager
-def config(replacement):
+def write_txconfig(replacement):
     """Run code using different content for the .tx/config file."""
     text = TXCONFIG.read_text()
 
@@ -230,50 +230,46 @@ def git_pull(directory):
 
 
 @cli.command()
-@click.argument("transifex-organization")
-@click.argument("transifex-project")
-def update(transifex_organization, transifex_project):
-    """Push source strings to Transifex, for live versions of registered extensions."""
+@click.option("--transifex-organization")
+@click.option("--transifex-project", help="The Transifex project to which to push source strings.")
+def extract(transifex_organization, transifex_project):
+    """Generate POT files for live versions of registered extensions."""
     # Same as https://ocdsextensionregistry.readthedocs.io/en/latest/translation.html
     run_generate_pot_files(["--no-frozen", POT_DIR])
 
-    click.secho("Pushing source (POT) files...", fg="blue")
-    run_tx_push(transifex_organization, transifex_project, "-f", "-s")
+    if transifex_organization and transifex_project:
+        click.secho("Pushing source (POT) files...", fg="blue")
+        run_tx_push(transifex_organization, transifex_project, "-f", "-s")
 
 
 @cli.command()
-@click.argument("transifex-organization")
-@click.argument("transifex-project")
+@click.option("--transifex-organization")
+@click.option("--transifex-project", help="The Transifex project to which to push translated strings.")
 def pretranslate(transifex_organization, transifex_project):
-    """
-    Pretranslate and push translated strings to Transifex, for live versions of registered extensions.
-
-    Pull translated strings from Transifex before pretranslation.
-    """
+    """Pretranslate translatable strings for live versions of registered extensions."""
     messages = CWD / "locale" / "es" / "LC_MESSAGES"
     compendium = CWD / "es.po"
 
-    click.secho("Pulling all files...", fg="blue")
-    run(["tx", "pull", "-w", "20", "-f", "-a", "--silent"])
+    # Pull translated strings from Transifex before pretranslation.
+    if transifex_organization and transifex_project:
+        click.secho("Pulling all files...", fg="blue")
+        run(["tx", "pull", "--workers", "20", "-f", "-a", "--silent"])
 
     create_compendium(compendium, messages)
 
     click.secho("Running pretranslate...", fg="blue")
     run_pretranslate(POT_DIR, compendium, messages)
 
-    click.secho("Pushing translation (PO) files...", fg="blue")
-    run_tx_push(transifex_organization, transifex_project, "-f", "-t")
+    if transifex_organization and transifex_project:
+        click.secho("Pushing translation (PO) files...", fg="blue")
+        run_tx_push(transifex_organization, transifex_project, "-f", "-t")
 
 
 @cli.command()
-@click.argument("transifex-organization")
-@click.argument("transifex-project")
+@click.option("--transifex-organization")
+@click.option("--transifex-project", help="The Transifex project to which to push source and translated strings.")
 def add_and_remove(transifex_organization, transifex_project):
-    """
-    Add new extensions from the extension registry and remove yanked extensions.
-
-    Pretranslate, and push source and translated strings to Transifex.
-    """
+    """Add new extensions from the extension registry and remove yanked extensions. Pretranslate strings."""
     messages = CWD / "locale" / "es" / "LC_MESSAGES"
     compendium = CWD / "es.po"
     repo = git.Repo()
@@ -309,13 +305,14 @@ def add_and_remove(transifex_organization, transifex_project):
 
         run_pretranslate(POT_DIR / extension, compendium, messages)
 
-    # Regenerate .tx/config file to remove any broken references.
-    new_resources = create_txconfig(transifex_organization, transifex_project)
+    if transifex_organization and transifex_project:
+        # Regenerate .tx/config file to remove any broken references.
+        new_resources = create_txconfig(transifex_organization, transifex_project)
 
-    # Push the POT (source) and PO (translation) files.
-    if new_resources:  # If no resources are provided, tx pushes all resources.
-        click.secho("Pushing new resources...", fg="blue")
-        run(["tx", "push", "-w", "20", "-f", "-s", "-t", "-a", *new_resources])
+        # Push the POT (source) and PO (translation) files.
+        if new_resources:  # If no resources are provided, tx pushes all resources.
+            click.secho("Pushing new resources...", fg="blue")
+            run(["tx", "push", "--workers", "20", "-f", "-s", "-t", "-a", *new_resources])
 
 
 @cli.command()
@@ -333,7 +330,10 @@ def stale(directory, years):
             with checkout(repo, ref):
                 commit = next(repo.iter_commits(paths=TRANSLATABLE_PATHS, max_count=1))
 
-                if datetime.fromtimestamp(commit.committed_date, tz=UTC) < datetime.now(tz=UTC) - delta:
+                if (
+                    datetime.fromtimestamp(commit.committed_date, tz=timezone.UTC)
+                    < datetime.now(tz=timezone.UTC) - delta
+                ):
                     click.echo(child.name)
 
 

@@ -1,0 +1,1206 @@
+{
+  "project_id": 823148,
+  "preserve_hierarchy": true,
+  "files": [
+    {
+      "source": "/build/locale/additionalContactPoint/master/docs.pot",
+      "dest": "additionalContactPoint/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/additionalContactPoint/master/docs.po"
+    },
+    {
+      "source": "/build/locale/additionalContactPoint/master/schema.pot",
+      "dest": "additionalContactPoint/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/additionalContactPoint/master/schema.po"
+    },
+    {
+      "source": "/build/locale/amendment_rationale_classifications/master/codelists.pot",
+      "dest": "amendment_rationale_classifications/master/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/amendment_rationale_classifications/master/codelists.po"
+    },
+    {
+      "source": "/build/locale/amendment_rationale_classifications/master/docs.pot",
+      "dest": "amendment_rationale_classifications/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/amendment_rationale_classifications/master/docs.po"
+    },
+    {
+      "source": "/build/locale/amendment_rationale_classifications/master/schema.pot",
+      "dest": "amendment_rationale_classifications/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/amendment_rationale_classifications/master/schema.po"
+    },
+    {
+      "source": "/build/locale/awardCriteria/master/codelists.pot",
+      "dest": "awardCriteria/master/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/awardCriteria/master/codelists.po"
+    },
+    {
+      "source": "/build/locale/awardCriteria/master/docs.pot",
+      "dest": "awardCriteria/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/awardCriteria/master/docs.po"
+    },
+    {
+      "source": "/build/locale/awardCriteria/master/schema.pot",
+      "dest": "awardCriteria/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/awardCriteria/master/schema.po"
+    },
+    {
+      "source": "/build/locale/beneficialOwners/master/codelists.pot",
+      "dest": "beneficialOwners/master/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/beneficialOwners/master/codelists.po"
+    },
+    {
+      "source": "/build/locale/beneficialOwners/master/docs.pot",
+      "dest": "beneficialOwners/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/beneficialOwners/master/docs.po"
+    },
+    {
+      "source": "/build/locale/beneficialOwners/master/schema.pot",
+      "dest": "beneficialOwners/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/beneficialOwners/master/schema.po"
+    },
+    {
+      "source": "/build/locale/bidOpening/master/docs.pot",
+      "dest": "bidOpening/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/bidOpening/master/docs.po"
+    },
+    {
+      "source": "/build/locale/bidOpening/master/schema.pot",
+      "dest": "bidOpening/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/bidOpening/master/schema.po"
+    },
+    {
+      "source": "/build/locale/bids/master/codelists.pot",
+      "dest": "bids/master/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/bids/master/codelists.po"
+    },
+    {
+      "source": "/build/locale/bids/master/docs.pot",
+      "dest": "bids/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/bids/master/docs.po"
+    },
+    {
+      "source": "/build/locale/bids/master/schema.pot",
+      "dest": "bids/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/bids/master/schema.po"
+    },
+    {
+      "source": "/build/locale/bids/v1.1.4/codelists.pot",
+      "dest": "bids/v1.1.4/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/bids/v1.1.4/codelists.po"
+    },
+    {
+      "source": "/build/locale/bids/v1.1.4/docs.pot",
+      "dest": "bids/v1.1.4/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/bids/v1.1.4/docs.po"
+    },
+    {
+      "source": "/build/locale/bids/v1.1.4/schema.pot",
+      "dest": "bids/v1.1.4/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/bids/v1.1.4/schema.po"
+    },
+    {
+      "source": "/build/locale/bids/v1.1.5/codelists.pot",
+      "dest": "bids/v1.1.5/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/bids/v1.1.5/codelists.po"
+    },
+    {
+      "source": "/build/locale/bids/v1.1.5/docs.pot",
+      "dest": "bids/v1.1.5/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/bids/v1.1.5/docs.po"
+    },
+    {
+      "source": "/build/locale/bids/v1.1.5/schema.pot",
+      "dest": "bids/v1.1.5/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/bids/v1.1.5/schema.po"
+    },
+    {
+      "source": "/build/locale/budget/master/codelists.pot",
+      "dest": "budget/master/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/budget/master/codelists.po"
+    },
+    {
+      "source": "/build/locale/budget/master/docs.pot",
+      "dest": "budget/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/budget/master/docs.po"
+    },
+    {
+      "source": "/build/locale/budget/master/schema.pot",
+      "dest": "budget/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/budget/master/schema.po"
+    },
+    {
+      "source": "/build/locale/budget_and_spend/master/docs.pot",
+      "dest": "budget_and_spend/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/budget_and_spend/master/docs.po"
+    },
+    {
+      "source": "/build/locale/budget_and_spend/master/schema.pot",
+      "dest": "budget_and_spend/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/budget_and_spend/master/schema.po"
+    },
+    {
+      "source": "/build/locale/charges/master/codelists.pot",
+      "dest": "charges/master/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/charges/master/codelists.po"
+    },
+    {
+      "source": "/build/locale/charges/master/docs.pot",
+      "dest": "charges/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/charges/master/docs.po"
+    },
+    {
+      "source": "/build/locale/charges/master/schema.pot",
+      "dest": "charges/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/charges/master/schema.po"
+    },
+    {
+      "source": "/build/locale/charges/v1.1/docs.pot",
+      "dest": "charges/v1.1/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/charges/v1.1/docs.po"
+    },
+    {
+      "source": "/build/locale/charges/v1.1/schema.pot",
+      "dest": "charges/v1.1/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/charges/v1.1/schema.po"
+    },
+    {
+      "source": "/build/locale/communication/master/docs.pot",
+      "dest": "communication/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/communication/master/docs.po"
+    },
+    {
+      "source": "/build/locale/communication/master/schema.pot",
+      "dest": "communication/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/communication/master/schema.po"
+    },
+    {
+      "source": "/build/locale/contractTerms/master/codelists.pot",
+      "dest": "contractTerms/master/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/contractTerms/master/codelists.po"
+    },
+    {
+      "source": "/build/locale/contractTerms/master/docs.pot",
+      "dest": "contractTerms/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/contractTerms/master/docs.po"
+    },
+    {
+      "source": "/build/locale/contractTerms/master/schema.pot",
+      "dest": "contractTerms/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/contractTerms/master/schema.po"
+    },
+    {
+      "source": "/build/locale/contract_buyer/master/docs.pot",
+      "dest": "contract_buyer/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/contract_buyer/master/docs.po"
+    },
+    {
+      "source": "/build/locale/contract_buyer/master/schema.pot",
+      "dest": "contract_buyer/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/contract_buyer/master/schema.po"
+    },
+    {
+      "source": "/build/locale/contract_completion/master/docs.pot",
+      "dest": "contract_completion/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/contract_completion/master/docs.po"
+    },
+    {
+      "source": "/build/locale/contract_completion/master/schema.pot",
+      "dest": "contract_completion/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/contract_completion/master/schema.po"
+    },
+    {
+      "source": "/build/locale/contract_suppliers/master/docs.pot",
+      "dest": "contract_suppliers/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/contract_suppliers/master/docs.po"
+    },
+    {
+      "source": "/build/locale/contract_suppliers/master/schema.pot",
+      "dest": "contract_suppliers/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/contract_suppliers/master/schema.po"
+    },
+    {
+      "source": "/build/locale/countryCode/master/codelists.pot",
+      "dest": "countryCode/master/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/countryCode/master/codelists.po"
+    },
+    {
+      "source": "/build/locale/countryCode/master/docs.pot",
+      "dest": "countryCode/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/countryCode/master/docs.po"
+    },
+    {
+      "source": "/build/locale/countryCode/master/schema.pot",
+      "dest": "countryCode/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/countryCode/master/schema.po"
+    },
+    {
+      "source": "/build/locale/coveredBy/master/codelists.pot",
+      "dest": "coveredBy/master/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/coveredBy/master/codelists.po"
+    },
+    {
+      "source": "/build/locale/coveredBy/master/docs.pot",
+      "dest": "coveredBy/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/coveredBy/master/docs.po"
+    },
+    {
+      "source": "/build/locale/coveredBy/master/schema.pot",
+      "dest": "coveredBy/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/coveredBy/master/schema.po"
+    },
+    {
+      "source": "/build/locale/designContest/master/docs.pot",
+      "dest": "designContest/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/designContest/master/docs.po"
+    },
+    {
+      "source": "/build/locale/designContest/master/schema.pot",
+      "dest": "designContest/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/designContest/master/schema.po"
+    },
+    {
+      "source": "/build/locale/document_publisher/master/codelists.pot",
+      "dest": "document_publisher/master/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/document_publisher/master/codelists.po"
+    },
+    {
+      "source": "/build/locale/document_publisher/master/docs.pot",
+      "dest": "document_publisher/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/document_publisher/master/docs.po"
+    },
+    {
+      "source": "/build/locale/document_publisher/master/schema.pot",
+      "dest": "document_publisher/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/document_publisher/master/schema.po"
+    },
+    {
+      "source": "/build/locale/documentation_details/master/codelists.pot",
+      "dest": "documentation_details/master/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/documentation_details/master/codelists.po"
+    },
+    {
+      "source": "/build/locale/documentation_details/master/docs.pot",
+      "dest": "documentation_details/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/documentation_details/master/docs.po"
+    },
+    {
+      "source": "/build/locale/documentation_details/master/schema.pot",
+      "dest": "documentation_details/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/documentation_details/master/schema.po"
+    },
+    {
+      "source": "/build/locale/enquiries/master/docs.pot",
+      "dest": "enquiries/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/enquiries/master/docs.po"
+    },
+    {
+      "source": "/build/locale/enquiries/master/schema.pot",
+      "dest": "enquiries/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/enquiries/master/schema.po"
+    },
+    {
+      "source": "/build/locale/enquiries/v1.1.4/codelists.pot",
+      "dest": "enquiries/v1.1.4/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/enquiries/v1.1.4/codelists.po"
+    },
+    {
+      "source": "/build/locale/enquiries/v1.1.4/docs.pot",
+      "dest": "enquiries/v1.1.4/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/enquiries/v1.1.4/docs.po"
+    },
+    {
+      "source": "/build/locale/enquiries/v1.1.4/schema.pot",
+      "dest": "enquiries/v1.1.4/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/enquiries/v1.1.4/schema.po"
+    },
+    {
+      "source": "/build/locale/enquiries/v1.1.5/codelists.pot",
+      "dest": "enquiries/v1.1.5/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/enquiries/v1.1.5/codelists.po"
+    },
+    {
+      "source": "/build/locale/enquiries/v1.1.5/docs.pot",
+      "dest": "enquiries/v1.1.5/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/enquiries/v1.1.5/docs.po"
+    },
+    {
+      "source": "/build/locale/enquiries/v1.1.5/schema.pot",
+      "dest": "enquiries/v1.1.5/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/enquiries/v1.1.5/schema.po"
+    },
+    {
+      "source": "/build/locale/essentialAssets/master/docs.pot",
+      "dest": "essentialAssets/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/essentialAssets/master/docs.po"
+    },
+    {
+      "source": "/build/locale/essentialAssets/master/schema.pot",
+      "dest": "essentialAssets/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/essentialAssets/master/schema.po"
+    },
+    {
+      "source": "/build/locale/eu/1.1/codelists.pot",
+      "dest": "eu/1.1/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/eu/1.1/codelists.po"
+    },
+    {
+      "source": "/build/locale/eu/1.1/docs.pot",
+      "dest": "eu/1.1/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/eu/1.1/docs.po"
+    },
+    {
+      "source": "/build/locale/eu/1.1/schema.pot",
+      "dest": "eu/1.1/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/eu/1.1/schema.po"
+    },
+    {
+      "source": "/build/locale/exclusionGrounds/master/docs.pot",
+      "dest": "exclusionGrounds/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/exclusionGrounds/master/docs.po"
+    },
+    {
+      "source": "/build/locale/exclusionGrounds/master/schema.pot",
+      "dest": "exclusionGrounds/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/exclusionGrounds/master/schema.po"
+    },
+    {
+      "source": "/build/locale/extendsContractID/master/docs.pot",
+      "dest": "extendsContractID/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/extendsContractID/master/docs.po"
+    },
+    {
+      "source": "/build/locale/extendsContractID/master/schema.pot",
+      "dest": "extendsContractID/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/extendsContractID/master/schema.po"
+    },
+    {
+      "source": "/build/locale/finance/master/codelists.pot",
+      "dest": "finance/master/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/finance/master/codelists.po"
+    },
+    {
+      "source": "/build/locale/finance/master/docs.pot",
+      "dest": "finance/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/finance/master/docs.po"
+    },
+    {
+      "source": "/build/locale/finance/master/schema.pot",
+      "dest": "finance/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/finance/master/schema.po"
+    },
+    {
+      "source": "/build/locale/guarantees/master/codelists.pot",
+      "dest": "guarantees/master/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/guarantees/master/codelists.po"
+    },
+    {
+      "source": "/build/locale/guarantees/master/docs.pot",
+      "dest": "guarantees/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/guarantees/master/docs.po"
+    },
+    {
+      "source": "/build/locale/guarantees/master/schema.pot",
+      "dest": "guarantees/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/guarantees/master/schema.po"
+    },
+    {
+      "source": "/build/locale/implementationStatus/master/codelists.pot",
+      "dest": "implementationStatus/master/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/implementationStatus/master/codelists.po"
+    },
+    {
+      "source": "/build/locale/implementationStatus/master/docs.pot",
+      "dest": "implementationStatus/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/implementationStatus/master/docs.po"
+    },
+    {
+      "source": "/build/locale/implementationStatus/master/schema.pot",
+      "dest": "implementationStatus/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/implementationStatus/master/schema.po"
+    },
+    {
+      "source": "/build/locale/itemAttributes/master/docs.pot",
+      "dest": "itemAttributes/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/itemAttributes/master/docs.po"
+    },
+    {
+      "source": "/build/locale/itemAttributes/master/schema.pot",
+      "dest": "itemAttributes/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/itemAttributes/master/schema.po"
+    },
+    {
+      "source": "/build/locale/legalBasis/1.1/codelists.pot",
+      "dest": "legalBasis/1.1/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/legalBasis/1.1/codelists.po"
+    },
+    {
+      "source": "/build/locale/legalBasis/1.1/docs.pot",
+      "dest": "legalBasis/1.1/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/legalBasis/1.1/docs.po"
+    },
+    {
+      "source": "/build/locale/legalBasis/1.1/schema.pot",
+      "dest": "legalBasis/1.1/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/legalBasis/1.1/schema.po"
+    },
+    {
+      "source": "/build/locale/location/master/codelists.pot",
+      "dest": "location/master/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/location/master/codelists.po"
+    },
+    {
+      "source": "/build/locale/location/master/docs.pot",
+      "dest": "location/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/location/master/docs.po"
+    },
+    {
+      "source": "/build/locale/location/master/schema.pot",
+      "dest": "location/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/location/master/schema.po"
+    },
+    {
+      "source": "/build/locale/location/v1.1.4/codelists.pot",
+      "dest": "location/v1.1.4/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/location/v1.1.4/codelists.po"
+    },
+    {
+      "source": "/build/locale/location/v1.1.4/docs.pot",
+      "dest": "location/v1.1.4/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/location/v1.1.4/docs.po"
+    },
+    {
+      "source": "/build/locale/location/v1.1.4/schema.pot",
+      "dest": "location/v1.1.4/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/location/v1.1.4/schema.po"
+    },
+    {
+      "source": "/build/locale/location/v1.1.5/codelists.pot",
+      "dest": "location/v1.1.5/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/location/v1.1.5/codelists.po"
+    },
+    {
+      "source": "/build/locale/location/v1.1.5/docs.pot",
+      "dest": "location/v1.1.5/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/location/v1.1.5/docs.po"
+    },
+    {
+      "source": "/build/locale/location/v1.1.5/schema.pot",
+      "dest": "location/v1.1.5/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/location/v1.1.5/schema.po"
+    },
+    {
+      "source": "/build/locale/lots/master/docs.pot",
+      "dest": "lots/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/lots/master/docs.po"
+    },
+    {
+      "source": "/build/locale/lots/master/schema.pot",
+      "dest": "lots/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/lots/master/schema.po"
+    },
+    {
+      "source": "/build/locale/lots/v1.1.4/docs.pot",
+      "dest": "lots/v1.1.4/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/lots/v1.1.4/docs.po"
+    },
+    {
+      "source": "/build/locale/lots/v1.1.4/schema.pot",
+      "dest": "lots/v1.1.4/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/lots/v1.1.4/schema.po"
+    },
+    {
+      "source": "/build/locale/lots/v1.1.5/docs.pot",
+      "dest": "lots/v1.1.5/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/lots/v1.1.5/docs.po"
+    },
+    {
+      "source": "/build/locale/lots/v1.1.5/schema.pot",
+      "dest": "lots/v1.1.5/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/lots/v1.1.5/schema.po"
+    },
+    {
+      "source": "/build/locale/medicine/master/codelists.pot",
+      "dest": "medicine/master/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/medicine/master/codelists.po"
+    },
+    {
+      "source": "/build/locale/medicine/master/docs.pot",
+      "dest": "medicine/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/medicine/master/docs.po"
+    },
+    {
+      "source": "/build/locale/medicine/master/schema.pot",
+      "dest": "medicine/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/medicine/master/schema.po"
+    },
+    {
+      "source": "/build/locale/metrics/1.1/docs.pot",
+      "dest": "metrics/1.1/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/metrics/1.1/docs.po"
+    },
+    {
+      "source": "/build/locale/metrics/1.1/schema.pot",
+      "dest": "metrics/1.1/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/metrics/1.1/schema.po"
+    },
+    {
+      "source": "/build/locale/metrics/v1.1/docs.pot",
+      "dest": "metrics/v1.1/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/metrics/v1.1/docs.po"
+    },
+    {
+      "source": "/build/locale/metrics/v1.1/schema.pot",
+      "dest": "metrics/v1.1/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/metrics/v1.1/schema.po"
+    },
+    {
+      "source": "/build/locale/milestone_documents/master/docs.pot",
+      "dest": "milestone_documents/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/milestone_documents/master/docs.po"
+    },
+    {
+      "source": "/build/locale/milestone_documents/master/schema.pot",
+      "dest": "milestone_documents/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/milestone_documents/master/schema.po"
+    },
+    {
+      "source": "/build/locale/milestone_documents/v1.1/docs.pot",
+      "dest": "milestone_documents/v1.1/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/milestone_documents/v1.1/docs.po"
+    },
+    {
+      "source": "/build/locale/milestone_documents/v1.1/schema.pot",
+      "dest": "milestone_documents/v1.1/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/milestone_documents/v1.1/schema.po"
+    },
+    {
+      "source": "/build/locale/milestone_documents/v1.1.1/docs.pot",
+      "dest": "milestone_documents/v1.1.1/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/milestone_documents/v1.1.1/docs.po"
+    },
+    {
+      "source": "/build/locale/milestone_documents/v1.1.1/schema.pot",
+      "dest": "milestone_documents/v1.1.1/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/milestone_documents/v1.1.1/schema.po"
+    },
+    {
+      "source": "/build/locale/milestone_documents/v1.1.3/docs.pot",
+      "dest": "milestone_documents/v1.1.3/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/milestone_documents/v1.1.3/docs.po"
+    },
+    {
+      "source": "/build/locale/milestone_documents/v1.1.3/schema.pot",
+      "dest": "milestone_documents/v1.1.3/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/milestone_documents/v1.1.3/schema.po"
+    },
+    {
+      "source": "/build/locale/milestone_documents/v1.1.4/docs.pot",
+      "dest": "milestone_documents/v1.1.4/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/milestone_documents/v1.1.4/docs.po"
+    },
+    {
+      "source": "/build/locale/milestone_documents/v1.1.4/schema.pot",
+      "dest": "milestone_documents/v1.1.4/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/milestone_documents/v1.1.4/schema.po"
+    },
+    {
+      "source": "/build/locale/milestone_documents/v1.1.5/docs.pot",
+      "dest": "milestone_documents/v1.1.5/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/milestone_documents/v1.1.5/docs.po"
+    },
+    {
+      "source": "/build/locale/milestone_documents/v1.1.5/schema.pot",
+      "dest": "milestone_documents/v1.1.5/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/milestone_documents/v1.1.5/schema.po"
+    },
+    {
+      "source": "/build/locale/options/master/docs.pot",
+      "dest": "options/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/options/master/docs.po"
+    },
+    {
+      "source": "/build/locale/options/master/schema.pot",
+      "dest": "options/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/options/master/schema.po"
+    },
+    {
+      "source": "/build/locale/organizationClassification/master/codelists.pot",
+      "dest": "organizationClassification/master/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/organizationClassification/master/codelists.po"
+    },
+    {
+      "source": "/build/locale/organizationClassification/master/docs.pot",
+      "dest": "organizationClassification/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/organizationClassification/master/docs.po"
+    },
+    {
+      "source": "/build/locale/organizationClassification/master/schema.pot",
+      "dest": "organizationClassification/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/organizationClassification/master/schema.po"
+    },
+    {
+      "source": "/build/locale/otherRequirements/master/codelists.pot",
+      "dest": "otherRequirements/master/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/otherRequirements/master/codelists.po"
+    },
+    {
+      "source": "/build/locale/otherRequirements/master/docs.pot",
+      "dest": "otherRequirements/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/otherRequirements/master/docs.po"
+    },
+    {
+      "source": "/build/locale/otherRequirements/master/schema.pot",
+      "dest": "otherRequirements/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/otherRequirements/master/schema.po"
+    },
+    {
+      "source": "/build/locale/pagination/master/docs.pot",
+      "dest": "pagination/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/pagination/master/docs.po"
+    },
+    {
+      "source": "/build/locale/pagination/master/schema.pot",
+      "dest": "pagination/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/pagination/master/schema.po"
+    },
+    {
+      "source": "/build/locale/participation_fee/master/codelists.pot",
+      "dest": "participation_fee/master/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/participation_fee/master/codelists.po"
+    },
+    {
+      "source": "/build/locale/participation_fee/master/docs.pot",
+      "dest": "participation_fee/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/participation_fee/master/docs.po"
+    },
+    {
+      "source": "/build/locale/participation_fee/master/schema.pot",
+      "dest": "participation_fee/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/participation_fee/master/schema.po"
+    },
+    {
+      "source": "/build/locale/participation_fee/v1.1/codelists.pot",
+      "dest": "participation_fee/v1.1/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/participation_fee/v1.1/codelists.po"
+    },
+    {
+      "source": "/build/locale/participation_fee/v1.1/docs.pot",
+      "dest": "participation_fee/v1.1/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/participation_fee/v1.1/docs.po"
+    },
+    {
+      "source": "/build/locale/participation_fee/v1.1/schema.pot",
+      "dest": "participation_fee/v1.1/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/participation_fee/v1.1/schema.po"
+    },
+    {
+      "source": "/build/locale/participation_fee/v1.1.1/codelists.pot",
+      "dest": "participation_fee/v1.1.1/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/participation_fee/v1.1.1/codelists.po"
+    },
+    {
+      "source": "/build/locale/participation_fee/v1.1.1/docs.pot",
+      "dest": "participation_fee/v1.1.1/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/participation_fee/v1.1.1/docs.po"
+    },
+    {
+      "source": "/build/locale/participation_fee/v1.1.1/schema.pot",
+      "dest": "participation_fee/v1.1.1/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/participation_fee/v1.1.1/schema.po"
+    },
+    {
+      "source": "/build/locale/participation_fee/v1.1.3/codelists.pot",
+      "dest": "participation_fee/v1.1.3/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/participation_fee/v1.1.3/codelists.po"
+    },
+    {
+      "source": "/build/locale/participation_fee/v1.1.3/docs.pot",
+      "dest": "participation_fee/v1.1.3/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/participation_fee/v1.1.3/docs.po"
+    },
+    {
+      "source": "/build/locale/participation_fee/v1.1.3/schema.pot",
+      "dest": "participation_fee/v1.1.3/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/participation_fee/v1.1.3/schema.po"
+    },
+    {
+      "source": "/build/locale/participation_fee/v1.1.4/codelists.pot",
+      "dest": "participation_fee/v1.1.4/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/participation_fee/v1.1.4/codelists.po"
+    },
+    {
+      "source": "/build/locale/participation_fee/v1.1.4/docs.pot",
+      "dest": "participation_fee/v1.1.4/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/participation_fee/v1.1.4/docs.po"
+    },
+    {
+      "source": "/build/locale/participation_fee/v1.1.4/schema.pot",
+      "dest": "participation_fee/v1.1.4/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/participation_fee/v1.1.4/schema.po"
+    },
+    {
+      "source": "/build/locale/participation_fee/v1.1.5/codelists.pot",
+      "dest": "participation_fee/v1.1.5/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/participation_fee/v1.1.5/codelists.po"
+    },
+    {
+      "source": "/build/locale/participation_fee/v1.1.5/docs.pot",
+      "dest": "participation_fee/v1.1.5/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/participation_fee/v1.1.5/docs.po"
+    },
+    {
+      "source": "/build/locale/participation_fee/v1.1.5/schema.pot",
+      "dest": "participation_fee/v1.1.5/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/participation_fee/v1.1.5/schema.po"
+    },
+    {
+      "source": "/build/locale/partyScale/master/codelists.pot",
+      "dest": "partyScale/master/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/partyScale/master/codelists.po"
+    },
+    {
+      "source": "/build/locale/partyScale/master/docs.pot",
+      "dest": "partyScale/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/partyScale/master/docs.po"
+    },
+    {
+      "source": "/build/locale/partyScale/master/schema.pot",
+      "dest": "partyScale/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/partyScale/master/schema.po"
+    },
+    {
+      "source": "/build/locale/performance_failures/master/docs.pot",
+      "dest": "performance_failures/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/performance_failures/master/docs.po"
+    },
+    {
+      "source": "/build/locale/performance_failures/master/schema.pot",
+      "dest": "performance_failures/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/performance_failures/master/schema.po"
+    },
+    {
+      "source": "/build/locale/ppp/master/codelists.pot",
+      "dest": "ppp/master/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/ppp/master/codelists.po"
+    },
+    {
+      "source": "/build/locale/ppp/master/docs.pot",
+      "dest": "ppp/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/ppp/master/docs.po"
+    },
+    {
+      "source": "/build/locale/ppp/master/schema.pot",
+      "dest": "ppp/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/ppp/master/schema.po"
+    },
+    {
+      "source": "/build/locale/procedure/master/docs.pot",
+      "dest": "procedure/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/procedure/master/docs.po"
+    },
+    {
+      "source": "/build/locale/procedure/master/schema.pot",
+      "dest": "procedure/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/procedure/master/schema.po"
+    },
+    {
+      "source": "/build/locale/process_title/master/docs.pot",
+      "dest": "process_title/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/process_title/master/docs.po"
+    },
+    {
+      "source": "/build/locale/process_title/master/schema.pot",
+      "dest": "process_title/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/process_title/master/schema.po"
+    },
+    {
+      "source": "/build/locale/process_title/v1.1.3/docs.pot",
+      "dest": "process_title/v1.1.3/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/process_title/v1.1.3/docs.po"
+    },
+    {
+      "source": "/build/locale/process_title/v1.1.3/schema.pot",
+      "dest": "process_title/v1.1.3/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/process_title/v1.1.3/schema.po"
+    },
+    {
+      "source": "/build/locale/process_title/v1.1.4/docs.pot",
+      "dest": "process_title/v1.1.4/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/process_title/v1.1.4/docs.po"
+    },
+    {
+      "source": "/build/locale/process_title/v1.1.4/schema.pot",
+      "dest": "process_title/v1.1.4/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/process_title/v1.1.4/schema.po"
+    },
+    {
+      "source": "/build/locale/process_title/v1.1.5/docs.pot",
+      "dest": "process_title/v1.1.5/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/process_title/v1.1.5/docs.po"
+    },
+    {
+      "source": "/build/locale/process_title/v1.1.5/schema.pot",
+      "dest": "process_title/v1.1.5/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/process_title/v1.1.5/schema.po"
+    },
+    {
+      "source": "/build/locale/procurementMethodRationaleClassifications/master/codelists.pot",
+      "dest": "procurementMethodRationaleClassifications/master/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/procurementMethodRationaleClassifications/master/codelists.po"
+    },
+    {
+      "source": "/build/locale/procurementMethodRationaleClassifications/master/docs.pot",
+      "dest": "procurementMethodRationaleClassifications/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/procurementMethodRationaleClassifications/master/docs.po"
+    },
+    {
+      "source": "/build/locale/procurementMethodRationaleClassifications/master/schema.pot",
+      "dest": "procurementMethodRationaleClassifications/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/procurementMethodRationaleClassifications/master/schema.po"
+    },
+    {
+      "source": "/build/locale/project/master/codelists.pot",
+      "dest": "project/master/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/project/master/codelists.po"
+    },
+    {
+      "source": "/build/locale/project/master/docs.pot",
+      "dest": "project/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/project/master/docs.po"
+    },
+    {
+      "source": "/build/locale/project/master/schema.pot",
+      "dest": "project/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/project/master/schema.po"
+    },
+    {
+      "source": "/build/locale/recurrence/master/docs.pot",
+      "dest": "recurrence/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/recurrence/master/docs.po"
+    },
+    {
+      "source": "/build/locale/recurrence/master/schema.pot",
+      "dest": "recurrence/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/recurrence/master/schema.po"
+    },
+    {
+      "source": "/build/locale/releasePublisher/master/docs.pot",
+      "dest": "releasePublisher/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/releasePublisher/master/docs.po"
+    },
+    {
+      "source": "/build/locale/releasePublisher/master/schema.pot",
+      "dest": "releasePublisher/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/releasePublisher/master/schema.po"
+    },
+    {
+      "source": "/build/locale/releaseSource/master/docs.pot",
+      "dest": "releaseSource/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/releaseSource/master/docs.po"
+    },
+    {
+      "source": "/build/locale/releaseSource/master/schema.pot",
+      "dest": "releaseSource/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/releaseSource/master/schema.po"
+    },
+    {
+      "source": "/build/locale/renewal/master/docs.pot",
+      "dest": "renewal/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/renewal/master/docs.po"
+    },
+    {
+      "source": "/build/locale/renewal/master/schema.pot",
+      "dest": "renewal/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/renewal/master/schema.po"
+    },
+    {
+      "source": "/build/locale/requirements/master/codelists.pot",
+      "dest": "requirements/master/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/requirements/master/codelists.po"
+    },
+    {
+      "source": "/build/locale/requirements/master/docs.pot",
+      "dest": "requirements/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/requirements/master/docs.po"
+    },
+    {
+      "source": "/build/locale/requirements/master/schema.pot",
+      "dest": "requirements/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/requirements/master/schema.po"
+    },
+    {
+      "source": "/build/locale/risk_allocation/master/codelists.pot",
+      "dest": "risk_allocation/master/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/risk_allocation/master/codelists.po"
+    },
+    {
+      "source": "/build/locale/risk_allocation/master/docs.pot",
+      "dest": "risk_allocation/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/risk_allocation/master/docs.po"
+    },
+    {
+      "source": "/build/locale/risk_allocation/master/schema.pot",
+      "dest": "risk_allocation/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/risk_allocation/master/schema.po"
+    },
+    {
+      "source": "/build/locale/risk_allocation/v1.1/codelists.pot",
+      "dest": "risk_allocation/v1.1/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/risk_allocation/v1.1/codelists.po"
+    },
+    {
+      "source": "/build/locale/risk_allocation/v1.1/docs.pot",
+      "dest": "risk_allocation/v1.1/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/risk_allocation/v1.1/docs.po"
+    },
+    {
+      "source": "/build/locale/risk_allocation/v1.1/schema.pot",
+      "dest": "risk_allocation/v1.1/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/risk_allocation/v1.1/schema.po"
+    },
+    {
+      "source": "/build/locale/secondStageDescription/master/docs.pot",
+      "dest": "secondStageDescription/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/secondStageDescription/master/docs.po"
+    },
+    {
+      "source": "/build/locale/secondStageDescription/master/schema.pot",
+      "dest": "secondStageDescription/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/secondStageDescription/master/schema.po"
+    },
+    {
+      "source": "/build/locale/selectionCriteria/master/codelists.pot",
+      "dest": "selectionCriteria/master/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/selectionCriteria/master/codelists.po"
+    },
+    {
+      "source": "/build/locale/selectionCriteria/master/docs.pot",
+      "dest": "selectionCriteria/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/selectionCriteria/master/docs.po"
+    },
+    {
+      "source": "/build/locale/selectionCriteria/master/schema.pot",
+      "dest": "selectionCriteria/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/selectionCriteria/master/schema.po"
+    },
+    {
+      "source": "/build/locale/shareholders/master/codelists.pot",
+      "dest": "shareholders/master/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/shareholders/master/codelists.po"
+    },
+    {
+      "source": "/build/locale/shareholders/master/docs.pot",
+      "dest": "shareholders/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/shareholders/master/docs.po"
+    },
+    {
+      "source": "/build/locale/shareholders/master/schema.pot",
+      "dest": "shareholders/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/shareholders/master/schema.po"
+    },
+    {
+      "source": "/build/locale/shareholders/v1.1/codelists.pot",
+      "dest": "shareholders/v1.1/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/shareholders/v1.1/codelists.po"
+    },
+    {
+      "source": "/build/locale/shareholders/v1.1/docs.pot",
+      "dest": "shareholders/v1.1/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/shareholders/v1.1/docs.po"
+    },
+    {
+      "source": "/build/locale/shareholders/v1.1/schema.pot",
+      "dest": "shareholders/v1.1/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/shareholders/v1.1/schema.po"
+    },
+    {
+      "source": "/build/locale/signatories/master/docs.pot",
+      "dest": "signatories/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/signatories/master/docs.po"
+    },
+    {
+      "source": "/build/locale/signatories/master/schema.pot",
+      "dest": "signatories/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/signatories/master/schema.po"
+    },
+    {
+      "source": "/build/locale/statistics/master/codelists.pot",
+      "dest": "statistics/master/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/statistics/master/codelists.po"
+    },
+    {
+      "source": "/build/locale/statistics/master/docs.pot",
+      "dest": "statistics/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/statistics/master/docs.po"
+    },
+    {
+      "source": "/build/locale/statistics/master/schema.pot",
+      "dest": "statistics/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/statistics/master/schema.po"
+    },
+    {
+      "source": "/build/locale/statusDetails/master/docs.pot",
+      "dest": "statusDetails/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/statusDetails/master/docs.po"
+    },
+    {
+      "source": "/build/locale/statusDetails/master/schema.pot",
+      "dest": "statusDetails/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/statusDetails/master/schema.po"
+    },
+    {
+      "source": "/build/locale/subcontracting/master/codelists.pot",
+      "dest": "subcontracting/master/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/subcontracting/master/codelists.po"
+    },
+    {
+      "source": "/build/locale/subcontracting/master/docs.pot",
+      "dest": "subcontracting/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/subcontracting/master/docs.po"
+    },
+    {
+      "source": "/build/locale/subcontracting/master/schema.pot",
+      "dest": "subcontracting/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/subcontracting/master/schema.po"
+    },
+    {
+      "source": "/build/locale/submissionTerms/master/codelists.pot",
+      "dest": "submissionTerms/master/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/submissionTerms/master/codelists.po"
+    },
+    {
+      "source": "/build/locale/submissionTerms/master/docs.pot",
+      "dest": "submissionTerms/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/submissionTerms/master/docs.po"
+    },
+    {
+      "source": "/build/locale/submissionTerms/master/schema.pot",
+      "dest": "submissionTerms/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/submissionTerms/master/schema.po"
+    },
+    {
+      "source": "/build/locale/suitability/master/docs.pot",
+      "dest": "suitability/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/suitability/master/docs.po"
+    },
+    {
+      "source": "/build/locale/suitability/master/schema.pot",
+      "dest": "suitability/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/suitability/master/schema.po"
+    },
+    {
+      "source": "/build/locale/sustainability/master/codelists.pot",
+      "dest": "sustainability/master/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/sustainability/master/codelists.po"
+    },
+    {
+      "source": "/build/locale/sustainability/master/docs.pot",
+      "dest": "sustainability/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/sustainability/master/docs.po"
+    },
+    {
+      "source": "/build/locale/sustainability/master/schema.pot",
+      "dest": "sustainability/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/sustainability/master/schema.po"
+    },
+    {
+      "source": "/build/locale/tariffs/1.1/codelists.pot",
+      "dest": "tariffs/1.1/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/tariffs/1.1/codelists.po"
+    },
+    {
+      "source": "/build/locale/tariffs/1.1/docs.pot",
+      "dest": "tariffs/1.1/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/tariffs/1.1/docs.po"
+    },
+    {
+      "source": "/build/locale/tariffs/1.1/schema.pot",
+      "dest": "tariffs/1.1/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/tariffs/1.1/schema.po"
+    },
+    {
+      "source": "/build/locale/techniques/master/codelists.pot",
+      "dest": "techniques/master/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/techniques/master/codelists.po"
+    },
+    {
+      "source": "/build/locale/techniques/master/docs.pot",
+      "dest": "techniques/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/techniques/master/docs.po"
+    },
+    {
+      "source": "/build/locale/techniques/master/schema.pot",
+      "dest": "techniques/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/techniques/master/schema.po"
+    },
+    {
+      "source": "/build/locale/tenderClassification/master/codelists.pot",
+      "dest": "tenderClassification/master/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/tenderClassification/master/codelists.po"
+    },
+    {
+      "source": "/build/locale/tenderClassification/master/docs.pot",
+      "dest": "tenderClassification/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/tenderClassification/master/docs.po"
+    },
+    {
+      "source": "/build/locale/tenderClassification/master/schema.pot",
+      "dest": "tenderClassification/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/tenderClassification/master/schema.po"
+    },
+    {
+      "source": "/build/locale/tender_datePublished/master/docs.pot",
+      "dest": "tender_datePublished/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/tender_datePublished/master/docs.po"
+    },
+    {
+      "source": "/build/locale/tender_datePublished/master/schema.pot",
+      "dest": "tender_datePublished/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/tender_datePublished/master/schema.po"
+    },
+    {
+      "source": "/build/locale/transaction_milestones/master/docs.pot",
+      "dest": "transaction_milestones/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/transaction_milestones/master/docs.po"
+    },
+    {
+      "source": "/build/locale/transaction_milestones/master/schema.pot",
+      "dest": "transaction_milestones/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/transaction_milestones/master/schema.po"
+    },
+    {
+      "source": "/build/locale/transaction_milestones/v1.1/docs.pot",
+      "dest": "transaction_milestones/v1.1/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/transaction_milestones/v1.1/docs.po"
+    },
+    {
+      "source": "/build/locale/transaction_milestones/v1.1/schema.pot",
+      "dest": "transaction_milestones/v1.1/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/transaction_milestones/v1.1/schema.po"
+    },
+    {
+      "source": "/build/locale/unstructuredChanges/master/docs.pot",
+      "dest": "unstructuredChanges/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/unstructuredChanges/master/docs.po"
+    },
+    {
+      "source": "/build/locale/unstructuredChanges/master/schema.pot",
+      "dest": "unstructuredChanges/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/unstructuredChanges/master/schema.po"
+    },
+    {
+      "source": "/build/locale/withheldInformation/master/codelists.pot",
+      "dest": "withheldInformation/master/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/withheldInformation/master/codelists.po"
+    },
+    {
+      "source": "/build/locale/withheldInformation/master/docs.pot",
+      "dest": "withheldInformation/master/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/withheldInformation/master/docs.po"
+    },
+    {
+      "source": "/build/locale/withheldInformation/master/schema.pot",
+      "dest": "withheldInformation/master/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/withheldInformation/master/schema.po"
+    }
+  ]
+}

@@ -22,41 +22,81 @@ eval $(brew --prefix translate-toolkit)/libexec/bin/python -m pip install python
 
 ## Tasks
 
-### Push source strings to Transifex
+### Generate POT files
 
-```bash
-./manage.py update open-contracting-partnership-1 ocds-extensions
-```
+1. Generate POT files for live versions of registered extensions:
 
-### Pretranslate and push translated strings to Transifex
+    ```bash
+    ./manage.py extract
+    ```
+
+1. Update the configuration file of the translation tool.
+
+    This occurs automatically when using `--transifex-organization` and `--transifex-project` with the `extract` command.
+
+    For Crowdin, use `manage.py` from [data-support](https://github.com/open-contracting/data-support/blob/main/manage.py):
+
+    ```bash
+    path/to/manage.py update-crowdinyml-files -p build/locale -d locale
+    ```
+
+1. Push the source strings to the translation tool.
+
+    This occurs automatically when using `--transifex-organization` and `--transifex-project` with the `extract` command.
+
+### Pretranslate translatable strings
 
 **WARNING:**
 
--  Translated strings are first pulled from Transifex, before pretranslation. Therefore, changes made to PO files outside Transifex are lost.
--  If different resources translate the same string in different ways, the translated strings will change to that of the last alphabetically sorted extension.
+Generate POT files, then:
 
-1. Push source strings to Transifex:
+1. Pull translated strings from the translation tool.
+
+    **WARNING: Changes made to PO files outside Transifex will be lost.**
+
+    This occurs automatically when using `--transifex-organization` and `--transifex-project` with the `pretranslate` command.
+
+1. Pretranslate translatable strings for live versions of registered extensions:
+
+    **WARNING: If different resources translate the same string in different ways, the translated strings will change to that of the last alphabetically sorted extension.**
 
     ```bash
-    ./manage.py update open-contracting-partnership-1 ocds-extensions
+    ./manage.py pretranslate
     ```
 
-1. Pretranslate and push translated strings to Transifex:
+1. Push translated strings to the translation tool.
+
+    This occurs automatically when using `--transifex-organization` and `--transifex-project` with the `pretranslate` command.
+
+### Add new extensions to, and remove yanked extensions from, the repository
+
+1. Add and remove the extensions:
 
     ```bash
-    ./manage.py pretranslate open-contracting-partnership-1 ocds-extensions
+    ./manage.py add-and-remove
     ```
 
-### Add new extensions to, and remove yanked extensions from, Transifex
+1. Update the configuration file of the translation tool, as above.
+
+1. Push the source strings and translated strings to the translation tool.
+
+    This occurs automatically when using `--transifex-organization` and `--transifex-project` with the `extract` command.
+
+### Pull translations from translation tool
 
 ```bash
-./manage.py add-and-remove open-contracting-partnership-1 ocds-extensions
+crowdin pull translations
 ```
 
-### Pull translations from Transifex
+Or:
 
 ```bash
 tx pull -w 20 -f -a
+```
+
+Then:
+
+```bash
 sphinx-intl build -d locale
 ```
 
@@ -117,7 +157,7 @@ end
 
 ### Find stale extensions
 
-You can exclude from Transifex any extensions whose source strings haven't changed in many years.
+You can exclude from the translation tool any extensions whose source strings haven't changed in many years.
 
 1. [Download registered extensions](https://github.com/open-contracting/standard-maintenance-scripts#standard-development-tasks)
 
@@ -133,9 +173,9 @@ You can exclude from Transifex any extensions whose source strings haven't chang
     ./manage.py stale path/to/directory/of/extensions 3
     ```
 
-You can now delete these extensions from Transifex, if the account is near its limits.
+You can now delete these extensions from the translation tool, if the account is near its limits.
 
-*Note: At present, `manage.py update` will re-add these extensions to Transifex.*
+*Note: At present, when using `--transifex-organization` and `--transifex-project`, `manage.py extract` will re-add these extensions to Transifex.*
 
 ### Compare different versions of PO/POT files
 
