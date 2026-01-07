@@ -523,19 +523,19 @@
       "translation": "/locale/%two_letters_code%/LC_MESSAGES/performance_failures/master/schema.po"
     },
     {
-      "source": "/build/locale/ppp/master/codelists.pot",
-      "dest": "ppp/master/codelists.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/ppp/master/codelists.po"
+      "source": "/build/locale/ppp/1.1/codelists.pot",
+      "dest": "ppp/1.1/codelists.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/ppp/1.1/codelists.po"
     },
     {
-      "source": "/build/locale/ppp/master/docs.pot",
-      "dest": "ppp/master/docs.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/ppp/master/docs.po"
+      "source": "/build/locale/ppp/1.1/docs.pot",
+      "dest": "ppp/1.1/docs.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/ppp/1.1/docs.po"
     },
     {
-      "source": "/build/locale/ppp/master/schema.pot",
-      "dest": "ppp/master/schema.pot",
-      "translation": "/locale/%two_letters_code%/LC_MESSAGES/ppp/master/schema.po"
+      "source": "/build/locale/ppp/1.1/schema.pot",
+      "dest": "ppp/1.1/schema.pot",
+      "translation": "/locale/%two_letters_code%/LC_MESSAGES/ppp/1.1/schema.po"
     },
     {
       "source": "/build/locale/procedure/master/docs.pot",
