@@ -17,4 +17,3 @@ repos:
         name: pip-compile requirements_dev.in
         args: [requirements_dev.in, -o, requirements_dev.txt]
         files: ^requirements(_dev)?\.(in|txt)$
-
