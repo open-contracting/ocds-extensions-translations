@@ -22,8 +22,6 @@ docutils==0.21.2
     # via
     #   myst-parser
     #   sphinx
-exceptiongroup==1.2.2
-    # via cattrs
 gitdb==4.0.11
     # via gitpython
 gitpython==3.1.43
@@ -56,9 +54,9 @@ mdurl==0.1.2
     # via markdown-it-py
 myst-parser==4.0.0
     # via ocdsextensionregistry
-ocds-babel[markdown]==0.3.6
+ocds-babel==0.3.6
     # via ocdsextensionregistry
-ocdsextensionregistry[cli]==0.7.0
+ocdsextensionregistry==0.7.0
     # via -r requirements.in
 packaging==24.1
     # via sphinx
@@ -98,12 +96,6 @@ sphinxcontrib-qthelp==2.0.0
     # via sphinx
 sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
-tomli==2.0.1
-    # via
-    #   mdformat
-    #   sphinx
-typing-extensions==4.12.2
-    # via cattrs
 url-normalize==1.4.3
     # via requests-cache
 urllib3==2.6.3
