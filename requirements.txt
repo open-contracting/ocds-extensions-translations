@@ -54,9 +54,9 @@ mdurl==0.1.2
     # via markdown-it-py
 myst-parser==4.0.0
     # via ocdsextensionregistry
-ocds-babel==0.3.6
+ocds-babel[markdown]==0.3.6
     # via ocdsextensionregistry
-ocdsextensionregistry==0.7.0
+ocdsextensionregistry[cli]==0.7.0
     # via -r requirements.in
 packaging==24.1
     # via sphinx
@@ -66,7 +66,7 @@ pygments==2.18.0
     # via sphinx
 pyyaml==6.0.2
     # via myst-parser
-requests==2.32.4
+requests==2.33.0
     # via
     #   -r requirements.in
     #   ocdsextensionregistry
