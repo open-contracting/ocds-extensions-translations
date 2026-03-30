@@ -62,7 +62,7 @@ packaging==24.1
     # via sphinx
 platformdirs==4.3.2
     # via requests-cache
-pygments==2.18.0
+pygments==2.20.0
     # via sphinx
 pyyaml==6.0.2
     # via myst-parser
