@@ -12,6 +12,7 @@ attrs==24.2.0
 babel==2.16.0
     # via
     #   -r requirements.txt
+    #   ocdsextensionregistry
     #   sphinx
     #   sphinx-intl
 cattrs==24.1.0
@@ -68,12 +69,15 @@ markdown-it-py==4.2.0
     #   mdformat
     #   mdit-py-plugins
     #   myst-parser
+    #   ocds-babel
 markupsafe==2.1.5
     # via
     #   -r requirements.txt
     #   jinja2
 mdformat==1.0.0
-    # via -r requirements.txt
+    # via
+    #   -r requirements.txt
+    #   ocds-babel
 mdit-py-plugins==0.6.1
     # via
     #   -r requirements.txt
@@ -83,10 +87,14 @@ mdurl==0.1.2
     #   -r requirements.txt
     #   markdown-it-py
 myst-parser==5.1.0
-    # via -r requirements.txt
-ocds-babel==0.3.7
-    # via -r requirements.txt
-ocdsextensionregistry==0.7.0
+    # via
+    #   -r requirements.txt
+    #   ocdsextensionregistry
+ocds-babel[markdown]==0.3.7
+    # via
+    #   -r requirements.txt
+    #   ocdsextensionregistry
+ocdsextensionregistry[cli]==0.7.0
     # via -r requirements.txt
 packaging==24.1
     # via
@@ -134,6 +142,7 @@ sphinx==9.1.0
     # via
     #   -r requirements.txt
     #   myst-parser
+    #   ocdsextensionregistry
     #   sphinx-intl
 sphinx-intl==2.4.0
     # via -r requirements_dev.in
@@ -165,7 +174,7 @@ url-normalize==1.4.3
     # via
     #   -r requirements.txt
     #   requests-cache
-urllib3==2.7.0
+urllib3==2.8.0
     # via
     #   -r requirements.txt
     #   requests

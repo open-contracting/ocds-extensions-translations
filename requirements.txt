@@ -54,9 +54,9 @@ mdurl==0.1.2
     # via markdown-it-py
 myst-parser==5.1.0
     # via ocdsextensionregistry
-ocds-babel==0.3.7
+ocds-babel[markdown]==0.3.7
     # via ocdsextensionregistry
-ocdsextensionregistry==0.7.0
+ocdsextensionregistry[cli]==0.7.0
     # via -r requirements.in
 packaging==24.1
     # via sphinx
@@ -100,7 +100,7 @@ sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
 url-normalize==1.4.3
     # via requests-cache
-urllib3==2.7.0
+urllib3==2.8.0
     # via
     #   requests
     #   requests-cache
