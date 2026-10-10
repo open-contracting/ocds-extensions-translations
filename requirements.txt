@@ -24,7 +24,7 @@ docutils==0.22.4
     #   sphinx
 gitdb==4.0.11
     # via gitpython
-gitpython==3.1.59
+gitpython==3.1.62
     # via -r requirements.in
 idna==3.15
     # via requests
