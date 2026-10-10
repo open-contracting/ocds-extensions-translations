@@ -12,7 +12,6 @@ attrs==24.2.0
 babel==2.16.0
     # via
     #   -r requirements.txt
-    #   ocdsextensionregistry
     #   sphinx
     #   sphinx-intl
 cattrs==24.1.0
@@ -31,7 +30,7 @@ click==8.1.7
     # via
     #   -r requirements.txt
     #   sphinx-intl
-docutils==0.21.2
+docutils==0.22.4
     # via
     #   -r requirements.txt
     #   myst-parser
@@ -63,22 +62,19 @@ jsonref==1.1.0
     # via
     #   -r requirements.txt
     #   ocdsextensionregistry
-markdown-it-py==3.0.0
+markdown-it-py==4.2.0
     # via
     #   -r requirements.txt
     #   mdformat
     #   mdit-py-plugins
     #   myst-parser
-    #   ocds-babel
 markupsafe==2.1.5
     # via
     #   -r requirements.txt
     #   jinja2
-mdformat==0.7.17
-    # via
-    #   -r requirements.txt
-    #   ocds-babel
-mdit-py-plugins==0.4.2
+mdformat==1.0.0
+    # via -r requirements.txt
+mdit-py-plugins==0.6.1
     # via
     #   -r requirements.txt
     #   myst-parser
@@ -86,15 +82,11 @@ mdurl==0.1.2
     # via
     #   -r requirements.txt
     #   markdown-it-py
-myst-parser==4.0.0
-    # via
-    #   -r requirements.txt
-    #   ocdsextensionregistry
-ocds-babel[markdown]==0.3.6
-    # via
-    #   -r requirements.txt
-    #   ocdsextensionregistry
-ocdsextensionregistry[cli]==0.7.0
+myst-parser==5.1.0
+    # via -r requirements.txt
+ocds-babel==0.3.7
+    # via -r requirements.txt
+ocdsextensionregistry==0.7.0
     # via -r requirements.txt
 packaging==24.1
     # via
@@ -122,6 +114,10 @@ requests-cache==1.2.1
     # via
     #   -r requirements.txt
     #   ocdsextensionregistry
+roman-numerals==4.1.0
+    # via
+    #   -r requirements.txt
+    #   sphinx
 six==1.16.0
     # via
     #   -r requirements.txt
@@ -134,13 +130,12 @@ snowballstemmer==2.2.0
     # via
     #   -r requirements.txt
     #   sphinx
-sphinx==8.0.2
+sphinx==9.1.0
     # via
     #   -r requirements.txt
     #   myst-parser
-    #   ocdsextensionregistry
     #   sphinx-intl
-sphinx-intl==2.2.0
+sphinx-intl==2.4.0
     # via -r requirements_dev.in
 sphinxcontrib-applehelp==2.0.0
     # via
