@@ -12,7 +12,7 @@ babel==2.16.0
     #   sphinx
 cattrs==24.1.0
     # via requests-cache
-certifi==2024.8.30
+certifi==2026.10.19
     # via requests
 charset-normalizer==3.3.2
     # via requests
@@ -54,9 +54,9 @@ mdurl==0.1.2
     # via markdown-it-py
 myst-parser==5.1.0
     # via ocdsextensionregistry
-ocds-babel==0.3.7
+ocds-babel[markdown]==0.3.7
     # via ocdsextensionregistry
-ocdsextensionregistry==0.7.0
+ocdsextensionregistry[cli]==0.7.0
     # via -r requirements.in
 packaging==24.1
     # via sphinx
